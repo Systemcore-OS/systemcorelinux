@@ -1,0 +1,1 @@
+savedcmd_drivers/iio/imu/inv_mpu6050/inv-mpu6050.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/iio/imu/inv_mpu6050/inv-mpu6050.o @drivers/iio/imu/inv_mpu6050/inv-mpu6050.mod 

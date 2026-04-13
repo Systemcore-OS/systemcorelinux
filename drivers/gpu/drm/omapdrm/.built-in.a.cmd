@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/omapdrm/built-in.a := rm -f drivers/gpu/drm/omapdrm/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/gpu/drm/omapdrm/built-in.a

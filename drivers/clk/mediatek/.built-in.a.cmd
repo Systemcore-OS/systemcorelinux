@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/mediatek/built-in.a := rm -f drivers/clk/mediatek/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/clk/mediatek/built-in.a

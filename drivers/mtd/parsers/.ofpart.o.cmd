@@ -1,0 +1,1 @@
+savedcmd_drivers/mtd/parsers/ofpart.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/mtd/parsers/ofpart.o @drivers/mtd/parsers/ofpart.mod 

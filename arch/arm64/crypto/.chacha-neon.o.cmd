@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/crypto/chacha-neon.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o arch/arm64/crypto/chacha-neon.o @arch/arm64/crypto/chacha-neon.mod 

@@ -1,0 +1,30 @@
+!<thin>
+//                                              282       `
+cpufreq.o/
+freq_table.o/
+cpufreq_stats.o/
+cpufreq_performance.o/
+cpufreq_powersave.o/
+cpufreq_userspace.o/
+cpufreq_ondemand.o/
+cpufreq_conservative.o/
+cpufreq_governor.o/
+cpufreq_governor_attr_set.o/
+cpufreq-dt.o/
+cpufreq-dt-platdev.o/
+brcmstb-avs-cpufreq.o/
+raspberrypi-cpufreq.o/
+/0              0           0     0     644     90688     `
+/11             0           0     0     644     9568      `
+/25             0           0     0     644     8344      `
+/42             0           0     0     644     4680      `
+/65             0           0     0     644     4296      `
+/86             0           0     0     644     8256      `
+/107            0           0     0     644     20792     `
+/127            0           0     0     644     14280     `
+/151            0           0     0     644     15016     `
+/171            0           0     0     644     5216      `
+/200            0           0     0     644     13896     `
+/214            0           0     0     644     33320     `
+/236            0           0     0     644     18664     `
+/259            0           0     0     644     6960      `

@@ -1,0 +1,1 @@
+savedcmd_sound/drivers/snd-aloop.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o sound/drivers/snd-aloop.o @sound/drivers/snd-aloop.mod 

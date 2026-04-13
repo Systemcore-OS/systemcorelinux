@@ -1,0 +1,1 @@
+savedcmd_drivers/net/usb/r8152.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/r8152.ko drivers/net/usb/r8152.o drivers/net/usb/r8152.mod.o .module-common.o

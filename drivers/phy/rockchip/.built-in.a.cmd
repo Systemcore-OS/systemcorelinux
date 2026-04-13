@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/rockchip/built-in.a := rm -f drivers/phy/rockchip/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/phy/rockchip/built-in.a

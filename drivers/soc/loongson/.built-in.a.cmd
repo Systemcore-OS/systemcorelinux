@@ -1,0 +1,1 @@
+savedcmd_drivers/soc/loongson/built-in.a := rm -f drivers/soc/loongson/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/soc/loongson/built-in.a

@@ -1,0 +1,1 @@
+savedcmd_drivers/nvme/host/built-in.a := rm -f drivers/nvme/host/built-in.a;  printf "drivers/nvme/host/%s " core.o ioctl.o sysfs.o pr.o trace.o hwmon.o pci.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/nvme/host/built-in.a

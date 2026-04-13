@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/kernel/vdso/vdso.so := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-objcopy -S  arch/arm64/kernel/vdso/vdso.so.dbg arch/arm64/kernel/vdso/vdso.so

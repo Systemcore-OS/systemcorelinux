@@ -1,0 +1,1 @@
+savedcmd_drivers/net/hamradio/bpqether.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/hamradio/bpqether.ko drivers/net/hamradio/bpqether.o drivers/net/hamradio/bpqether.mod.o .module-common.o

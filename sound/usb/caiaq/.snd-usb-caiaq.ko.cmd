@@ -1,0 +1,1 @@
+savedcmd_sound/usb/caiaq/snd-usb-caiaq.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/usb/caiaq/snd-usb-caiaq.ko sound/usb/caiaq/snd-usb-caiaq.o sound/usb/caiaq/snd-usb-caiaq.mod.o .module-common.o

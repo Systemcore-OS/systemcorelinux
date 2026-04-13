@@ -1,0 +1,1 @@
+savedcmd_kernel/debug/built-in.a := rm -f kernel/debug/built-in.a;  printf "kernel/debug/%s " debug_core.o gdbstub.o kdb/built-in.a | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST kernel/debug/built-in.a

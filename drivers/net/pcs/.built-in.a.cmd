@@ -1,0 +1,1 @@
+savedcmd_drivers/net/pcs/built-in.a := rm -f drivers/net/pcs/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/net/pcs/built-in.a

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/mediatek/vcodec/decoder/built-in.a := rm -f drivers/media/platform/mediatek/vcodec/decoder/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/media/platform/mediatek/vcodec/decoder/built-in.a

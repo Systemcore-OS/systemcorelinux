@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/goodix_ts.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/input/touchscreen/goodix_ts.o @drivers/input/touchscreen/goodix_ts.mod 

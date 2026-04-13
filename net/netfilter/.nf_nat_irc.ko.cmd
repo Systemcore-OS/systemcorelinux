@@ -1,0 +1,1 @@
+savedcmd_net/netfilter/nf_nat_irc.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nf_nat_irc.ko net/netfilter/nf_nat_irc.o net/netfilter/nf_nat_irc.mod.o .module-common.o

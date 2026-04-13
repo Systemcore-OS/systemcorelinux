@@ -1,0 +1,43 @@
+!<thin>
+//                                              518       `
+dev/skb.o/
+dev/calc_bittiming.o/
+dev/bittiming.o/
+dev/dev.o/
+dev/length.o/
+dev/netlink.o/
+dev/rx-offload.o/
+spi/mcp251x.o/
+spi/mcp251xfd/mcp251xfd-chip-fifo.o/
+spi/mcp251xfd/mcp251xfd-core.o/
+spi/mcp251xfd/mcp251xfd-crc16.o/
+spi/mcp251xfd/mcp251xfd-ethtool.o/
+spi/mcp251xfd/mcp251xfd-ram.o/
+spi/mcp251xfd/mcp251xfd-regmap.o/
+spi/mcp251xfd/mcp251xfd-ring.o/
+spi/mcp251xfd/mcp251xfd-rx.o/
+spi/mcp251xfd/mcp251xfd-tef.o/
+spi/mcp251xfd/mcp251xfd-timestamp.o/
+spi/mcp251xfd/mcp251xfd-tx.o/
+spi/mcp251xfd/mcp251xfd-dump.o/
+
+/0              0           0     0     644     11824     `
+/11             0           0     0     644     4024      `
+/33             0           0     0     644     5056      `
+/50             0           0     0     644     20320     `
+/61             0           0     0     644     3672      `
+/75             0           0     0     644     14488     `
+/90             0           0     0     644     12912     `
+/108            0           0     0     644     32840     `
+/123            0           0     0     644     2120      `
+/160            0           0     0     644     42496     `
+/192            0           0     0     644     2784      `
+/225            0           0     0     644     5184      `
+/260            0           0     0     644     2568      `
+/291            0           0     0     644     11184     `
+/325            0           0     0     644     7736      `
+/357            0           0     0     644     3768      `
+/387            0           0     0     644     4024      `
+/418            0           0     0     644     4312      `
+/455            0           0     0     644     7560      `
+/485            0           0     0     644     3656      `

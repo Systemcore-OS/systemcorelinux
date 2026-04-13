@@ -1,0 +1,1 @@
+savedcmd_drivers/input/serio/serio_raw.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/input/serio/serio_raw.ko drivers/input/serio/serio_raw.o drivers/input/serio/serio_raw.mod.o .module-common.o

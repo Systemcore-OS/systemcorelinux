@@ -1,0 +1,1 @@
+savedcmd_drivers/media/dvb-frontends/horus3a.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/horus3a.ko drivers/media/dvb-frontends/horus3a.o drivers/media/dvb-frontends/horus3a.mod.o .module-common.o

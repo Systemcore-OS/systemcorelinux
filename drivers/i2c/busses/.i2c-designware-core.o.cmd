@@ -1,0 +1,1 @@
+savedcmd_drivers/i2c/busses/i2c-designware-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/i2c/busses/i2c-designware-core.o @drivers/i2c/busses/i2c-designware-core.mod 

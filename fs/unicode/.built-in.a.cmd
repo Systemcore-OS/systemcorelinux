@@ -1,0 +1,1 @@
+savedcmd_fs/unicode/built-in.a := rm -f fs/unicode/built-in.a;  printf "fs/unicode/%s " utf8-norm.o utf8-core.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST fs/unicode/built-in.a

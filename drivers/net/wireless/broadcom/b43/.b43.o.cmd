@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/broadcom/b43/b43.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/broadcom/b43/b43.o @drivers/net/wireless/broadcom/b43/b43.mod 

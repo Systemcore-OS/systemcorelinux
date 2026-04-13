@@ -1,0 +1,1 @@
+savedcmd_.vmlinux.objs := for f in vmlinux.a drivers/firmware/efi/libstub/lib.a; do case $${f} in *libgcc.a) ;; *) /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar t $${f} ;; esac done > .vmlinux.objs

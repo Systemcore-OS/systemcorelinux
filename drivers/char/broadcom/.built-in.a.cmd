@@ -1,0 +1,1 @@
+savedcmd_drivers/char/broadcom/built-in.a := rm -f drivers/char/broadcom/built-in.a;  printf "drivers/char/broadcom/%s " vc_mem.o vcio.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/char/broadcom/built-in.a

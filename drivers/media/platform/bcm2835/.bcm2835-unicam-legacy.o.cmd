@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/bcm2835/bcm2835-unicam-legacy.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/platform/bcm2835/bcm2835-unicam-legacy.o @drivers/media/platform/bcm2835/bcm2835-unicam-legacy.mod 

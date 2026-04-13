@@ -1,0 +1,20 @@
+!<thin>
+//                                              112       `
+core.o/
+dummy.o/
+fixed-helper.o/
+helpers.o/
+devres.o/
+irq_helpers.o/
+of_regulator.o/
+fixed.o/
+gpio-regulator.o/
+/0              0           0     0     644     182592    `
+/8              0           0     0     644     5408      `
+/17             0           0     0     644     2744      `
+/33             0           0     0     644     23256     `
+/44             0           0     0     644     22696     `
+/54             0           0     0     644     8672      `
+/69             0           0     0     644     22280     `
+/85             0           0     0     644     13120     `
+/94             0           0     0     644     12248     `

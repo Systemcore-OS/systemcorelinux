@@ -1,0 +1,1 @@
+savedcmd_crypto/ecdh_generic.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o crypto/ecdh_generic.o @crypto/ecdh_generic.mod 

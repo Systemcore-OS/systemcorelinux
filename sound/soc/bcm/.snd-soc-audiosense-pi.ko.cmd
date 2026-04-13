@@ -1,0 +1,1 @@
+savedcmd_sound/soc/bcm/snd-soc-audiosense-pi.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-audiosense-pi.ko sound/soc/bcm/snd-soc-audiosense-pi.o sound/soc/bcm/snd-soc-audiosense-pi.mod.o .module-common.o

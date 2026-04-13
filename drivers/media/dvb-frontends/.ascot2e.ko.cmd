@@ -1,0 +1,1 @@
+savedcmd_drivers/media/dvb-frontends/ascot2e.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/ascot2e.ko drivers/media/dvb-frontends/ascot2e.o drivers/media/dvb-frontends/ascot2e.mod.o .module-common.o

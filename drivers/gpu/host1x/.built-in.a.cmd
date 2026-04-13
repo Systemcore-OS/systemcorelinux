@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/host1x/built-in.a := rm -f drivers/gpu/host1x/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/gpu/host1x/built-in.a

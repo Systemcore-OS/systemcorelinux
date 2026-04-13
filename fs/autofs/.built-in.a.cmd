@@ -1,0 +1,1 @@
+savedcmd_fs/autofs/built-in.a := rm -f fs/autofs/built-in.a;  printf "fs/autofs/%s " init.o inode.o root.o symlink.o waitq.o expire.o dev-ioctl.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST fs/autofs/built-in.a

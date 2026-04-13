@@ -1,0 +1,1 @@
+savedcmd_drivers/net/dsa/sja1105/built-in.a := rm -f drivers/net/dsa/sja1105/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/net/dsa/sja1105/built-in.a

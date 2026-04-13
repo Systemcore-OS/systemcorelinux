@@ -1,0 +1,1 @@
+savedcmd_crypto/af_alg.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/af_alg.ko crypto/af_alg.o crypto/af_alg.mod.o .module-common.o

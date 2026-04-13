@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/gpio-fan.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/gpio-fan.ko drivers/hwmon/gpio-fan.o drivers/hwmon/gpio-fan.mod.o .module-common.o

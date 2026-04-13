@@ -1,0 +1,1 @@
+savedcmd_drivers/pinctrl/sophgo/built-in.a := rm -f drivers/pinctrl/sophgo/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/pinctrl/sophgo/built-in.a

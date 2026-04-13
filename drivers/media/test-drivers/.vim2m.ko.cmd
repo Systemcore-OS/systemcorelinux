@@ -1,0 +1,1 @@
+savedcmd_drivers/media/test-drivers/vim2m.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/test-drivers/vim2m.ko drivers/media/test-drivers/vim2m.o drivers/media/test-drivers/vim2m.mod.o .module-common.o

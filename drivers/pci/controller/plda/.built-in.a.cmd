@@ -1,0 +1,1 @@
+savedcmd_drivers/pci/controller/plda/built-in.a := rm -f drivers/pci/controller/plda/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/pci/controller/plda/built-in.a

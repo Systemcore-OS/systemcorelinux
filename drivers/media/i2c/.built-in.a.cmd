@@ -1,0 +1,1 @@
+savedcmd_drivers/media/i2c/built-in.a := rm -f drivers/media/i2c/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/media/i2c/built-in.a

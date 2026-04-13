@@ -1,0 +1,1 @@
+savedcmd_drivers/ras/amd/atl/built-in.a := rm -f drivers/ras/amd/atl/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/ras/amd/atl/built-in.a

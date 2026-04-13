@@ -1,0 +1,61 @@
+!<thin>
+//                                              364       `
+fb_notify.o/
+fb_info.o/
+fbmem.o/
+fbcmap.o/
+modedb.o/
+fbcvt.o/
+fb_cmdline.o/
+fb_backlight.o/
+fbmon.o/
+fb_defio.o/
+fb_chrdev.o/
+fb_procfs.o/
+fbsysfs.o/
+fbcon.o/
+bitblit.o/
+softcursor.o/
+fbcon_rotate.o/
+fbcon_cw.o/
+fbcon_ud.o/
+fbcon_ccw.o/
+fb_logo.o/
+cfbfillrect.o/
+cfbcopyarea.o/
+cfbimgblt.o/
+fb_io_fops.o/
+sysfillrect.o/
+syscopyarea.o/
+sysimgblt.o/
+fb_sys_fops.o/
+
+/0              0           0     0     644     3640      `
+/13             0           0     0     644     3728      `
+/24             0           0     0     644     21320     `
+/33             0           0     0     644     11376     `
+/43             0           0     0     644     16992     `
+/53             0           0     0     644     5176      `
+/62             0           0     0     644     2752      `
+/76             0           0     0     644     2840      `
+/92             0           0     0     644     4648      `
+/101            0           0     0     644     12648     `
+/113            0           0     0     644     15456     `
+/126            0           0     0     644     4488      `
+/139            0           0     0     644     18304     `
+/150            0           0     0     644     65160     `
+/159            0           0     0     644     7984      `
+/170            0           0     0     644     2296      `
+/184            0           0     0     644     3360      `
+/200            0           0     0     644     7976      `
+/212            0           0     0     644     7864      `
+/224            0           0     0     644     8040      `
+/237            0           0     0     644     11856     `
+/248            0           0     0     644     9152      `
+/263            0           0     0     644     8960      `
+/278            0           0     0     644     5760      `
+/291            0           0     0     644     6256      `
+/305            0           0     0     644     7192      `
+/320            0           0     0     644     5216      `
+/335            0           0     0     644     5400      `
+/348            0           0     0     644     5272      `

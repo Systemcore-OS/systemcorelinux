@@ -1,0 +1,1 @@
+savedcmd_drivers/firmware/broadcom/built-in.a := rm -f drivers/firmware/broadcom/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/firmware/broadcom/built-in.a

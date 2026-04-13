@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/i2c-hid/i2c-hid.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/i2c-hid/i2c-hid.ko drivers/hid/i2c-hid/i2c-hid.o drivers/hid/i2c-hid/i2c-hid.mod.o .module-common.o

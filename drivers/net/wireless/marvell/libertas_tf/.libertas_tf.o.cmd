@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/marvell/libertas_tf/libertas_tf.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/marvell/libertas_tf/libertas_tf.o @drivers/net/wireless/marvell/libertas_tf/libertas_tf.mod 

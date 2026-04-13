@@ -1,0 +1,1 @@
+savedcmd_drivers/hwmon/aht10.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hwmon/aht10.ko drivers/hwmon/aht10.o drivers/hwmon/aht10.mod.o .module-common.o

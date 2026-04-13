@@ -1,0 +1,1 @@
+savedcmd_drivers/pmdomain/tegra/built-in.a := rm -f drivers/pmdomain/tegra/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/pmdomain/tegra/built-in.a

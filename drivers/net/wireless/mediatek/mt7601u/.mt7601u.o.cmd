@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/mediatek/mt7601u/mt7601u.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/mediatek/mt7601u/mt7601u.o @drivers/net/wireless/mediatek/mt7601u/mt7601u.mod 

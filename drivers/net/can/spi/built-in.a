@@ -1,0 +1,29 @@
+!<thin>
+//                                              358       `
+mcp251x.o/
+mcp251xfd/mcp251xfd-chip-fifo.o/
+mcp251xfd/mcp251xfd-core.o/
+mcp251xfd/mcp251xfd-crc16.o/
+mcp251xfd/mcp251xfd-ethtool.o/
+mcp251xfd/mcp251xfd-ram.o/
+mcp251xfd/mcp251xfd-regmap.o/
+mcp251xfd/mcp251xfd-ring.o/
+mcp251xfd/mcp251xfd-rx.o/
+mcp251xfd/mcp251xfd-tef.o/
+mcp251xfd/mcp251xfd-timestamp.o/
+mcp251xfd/mcp251xfd-tx.o/
+mcp251xfd/mcp251xfd-dump.o/
+
+/0              0           0     0     644     32840     `
+/11             0           0     0     644     2120      `
+/44             0           0     0     644     42496     `
+/72             0           0     0     644     2784      `
+/101            0           0     0     644     5184      `
+/132            0           0     0     644     2568      `
+/159            0           0     0     644     11184     `
+/189            0           0     0     644     7736      `
+/217            0           0     0     644     3768      `
+/243            0           0     0     644     4024      `
+/270            0           0     0     644     4312      `
+/303            0           0     0     644     7560      `
+/329            0           0     0     644     3656      `

@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/misc/cypress_cy7c63.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/misc/cypress_cy7c63.ko drivers/usb/misc/cypress_cy7c63.o drivers/usb/misc/cypress_cy7c63.mod.o .module-common.o

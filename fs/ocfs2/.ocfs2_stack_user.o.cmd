@@ -1,0 +1,1 @@
+savedcmd_fs/ocfs2/ocfs2_stack_user.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o fs/ocfs2/ocfs2_stack_user.o @fs/ocfs2/ocfs2_stack_user.mod 

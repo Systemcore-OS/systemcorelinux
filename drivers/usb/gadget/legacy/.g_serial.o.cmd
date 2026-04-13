@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/legacy/g_serial.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/usb/gadget/legacy/g_serial.o @drivers/usb/gadget/legacy/g_serial.mod 

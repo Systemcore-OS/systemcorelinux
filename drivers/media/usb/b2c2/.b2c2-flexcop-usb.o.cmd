@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/b2c2/b2c2-flexcop-usb.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/usb/b2c2/b2c2-flexcop-usb.o @drivers/media/usb/b2c2/b2c2-flexcop-usb.mod 

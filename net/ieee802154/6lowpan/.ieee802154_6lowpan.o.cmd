@@ -1,0 +1,1 @@
+savedcmd_net/ieee802154/6lowpan/ieee802154_6lowpan.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o net/ieee802154/6lowpan/ieee802154_6lowpan.o @net/ieee802154/6lowpan/ieee802154_6lowpan.mod 

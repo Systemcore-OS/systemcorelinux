@@ -1,0 +1,1 @@
+savedcmd_fs/jffs2/jffs2.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o fs/jffs2/jffs2.o @fs/jffs2/jffs2.mod 

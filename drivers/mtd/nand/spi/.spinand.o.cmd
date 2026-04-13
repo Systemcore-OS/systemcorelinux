@@ -1,0 +1,1 @@
+savedcmd_drivers/mtd/nand/spi/spinand.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/mtd/nand/spi/spinand.o @drivers/mtd/nand/spi/spinand.mod 

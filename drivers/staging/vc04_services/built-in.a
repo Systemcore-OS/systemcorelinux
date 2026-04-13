@@ -1,0 +1,12 @@
+!<thin>
+//                                              170       `
+interface/vchiq_arm/vchiq_core.o/
+interface/vchiq_arm/vchiq_arm.o/
+interface/vchiq_arm/vchiq_bus.o/
+interface/vchiq_arm/vchiq_debugfs.o/
+interface/vchiq_arm/vchiq_dev.o/
+/0              0           0     0     644     67656     `
+/34             0           0     0     644     49736     `
+/67             0           0     0     644     6768      `
+/100            0           0     0     644     9272      `
+/137            0           0     0     644     24360     `

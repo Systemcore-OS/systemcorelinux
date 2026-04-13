@@ -1,0 +1,1 @@
+savedcmd_drivers/bus/mhi/built-in.a := rm -f drivers/bus/mhi/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/bus/mhi/built-in.a

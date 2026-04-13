@@ -1,0 +1,1 @@
+savedcmd_net/rose/rose.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o net/rose/rose.o @net/rose/rose.mod 

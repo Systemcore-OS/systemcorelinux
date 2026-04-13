@@ -1,0 +1,1 @@
+savedcmd_drivers/pinctrl/freescale/built-in.a := rm -f drivers/pinctrl/freescale/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/pinctrl/freescale/built-in.a

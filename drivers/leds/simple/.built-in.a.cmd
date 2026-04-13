@@ -1,0 +1,1 @@
+savedcmd_drivers/leds/simple/built-in.a := rm -f drivers/leds/simple/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/leds/simple/built-in.a

@@ -1,0 +1,1 @@
+savedcmd_drivers/rtc/rtc-rs5c372.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/rtc/rtc-rs5c372.ko drivers/rtc/rtc-rs5c372.o drivers/rtc/rtc-rs5c372.mod.o .module-common.o

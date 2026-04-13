@@ -1,0 +1,1 @@
+savedcmd_drivers/w1/masters/w1-gpio.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/w1/masters/w1-gpio.ko drivers/w1/masters/w1-gpio.o drivers/w1/masters/w1-gpio.mod.o .module-common.o

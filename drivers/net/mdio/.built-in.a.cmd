@@ -1,0 +1,1 @@
+savedcmd_drivers/net/mdio/built-in.a := rm -f drivers/net/mdio/built-in.a;  printf "drivers/net/mdio/%s " fwnode_mdio.o of_mdio.o mdio-bcm-unimac.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/net/mdio/built-in.a

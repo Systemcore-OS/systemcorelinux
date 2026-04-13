@@ -1,0 +1,1 @@
+savedcmd_fs/smb/server/ksmbd.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o fs/smb/server/ksmbd.o @fs/smb/server/ksmbd.mod 

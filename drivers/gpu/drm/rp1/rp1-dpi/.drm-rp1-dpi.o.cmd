@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/rp1/rp1-dpi/drm-rp1-dpi.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/gpu/drm/rp1/rp1-dpi/drm-rp1-dpi.o @drivers/gpu/drm/rp1/rp1-dpi/drm-rp1-dpi.mod 

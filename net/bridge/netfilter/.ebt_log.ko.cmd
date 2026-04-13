@@ -1,0 +1,1 @@
+savedcmd_net/bridge/netfilter/ebt_log.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/bridge/netfilter/ebt_log.ko net/bridge/netfilter/ebt_log.o net/bridge/netfilter/ebt_log.mod.o .module-common.o

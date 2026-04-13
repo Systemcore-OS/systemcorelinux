@@ -1,0 +1,1 @@
+savedcmd_fs/nilfs2/nilfs2.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o fs/nilfs2/nilfs2.o @fs/nilfs2/nilfs2.mod 

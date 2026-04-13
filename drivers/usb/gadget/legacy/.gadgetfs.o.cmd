@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/legacy/gadgetfs.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/usb/gadget/legacy/gadgetfs.o @drivers/usb/gadget/legacy/gadgetfs.mod 

@@ -1,0 +1,1 @@
+savedcmd_net/netfilter/nfnetlink_log.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/nfnetlink_log.ko net/netfilter/nfnetlink_log.o net/netfilter/nfnetlink_log.mod.o .module-common.o

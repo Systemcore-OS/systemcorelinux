@@ -1,0 +1,1 @@
+savedcmd_drivers/net/can/usb/peak_usb/peak_usb.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/can/usb/peak_usb/peak_usb.o @drivers/net/can/usb/peak_usb/peak_usb.mod 

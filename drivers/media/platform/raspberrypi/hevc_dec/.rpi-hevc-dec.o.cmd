@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/raspberrypi/hevc_dec/rpi-hevc-dec.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/platform/raspberrypi/hevc_dec/rpi-hevc-dec.o @drivers/media/platform/raspberrypi/hevc_dec/rpi-hevc-dec.mod 

@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/tests/built-in.a := rm -f drivers/gpu/drm/tests/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/gpu/drm/tests/built-in.a

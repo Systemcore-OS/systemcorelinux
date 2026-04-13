@@ -1,0 +1,1 @@
+savedcmd_drivers/mtd/spi-nor/spi-nor.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/mtd/spi-nor/spi-nor.o @drivers/mtd/spi-nor/spi-nor.mod 

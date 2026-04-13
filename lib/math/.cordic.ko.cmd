@@ -1,0 +1,1 @@
+savedcmd_lib/math/cordic.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o lib/math/cordic.ko lib/math/cordic.o lib/math/cordic.mod.o .module-common.o

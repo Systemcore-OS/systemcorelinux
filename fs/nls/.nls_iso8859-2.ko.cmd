@@ -1,0 +1,1 @@
+savedcmd_fs/nls/nls_iso8859-2.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o fs/nls/nls_iso8859-2.ko fs/nls/nls_iso8859-2.o fs/nls/nls_iso8859-2.mod.o .module-common.o

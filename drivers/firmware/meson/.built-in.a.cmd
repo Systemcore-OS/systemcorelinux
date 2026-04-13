@@ -1,0 +1,1 @@
+savedcmd_drivers/firmware/meson/built-in.a := rm -f drivers/firmware/meson/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/firmware/meson/built-in.a

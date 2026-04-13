@@ -1,0 +1,1 @@
+savedcmd_fs/nls/nls_ucs2_utils.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o fs/nls/nls_ucs2_utils.ko fs/nls/nls_ucs2_utils.o fs/nls/nls_ucs2_utils.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/common/siano/built-in.a := rm -f drivers/media/common/siano/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/media/common/siano/built-in.a

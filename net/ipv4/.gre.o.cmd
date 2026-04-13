@@ -1,0 +1,1 @@
+savedcmd_net/ipv4/gre.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o net/ipv4/gre.o @net/ipv4/gre.mod 

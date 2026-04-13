@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/host/xhci-pci-renesas.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/host/xhci-pci-renesas.ko drivers/usb/host/xhci-pci-renesas.o drivers/usb/host/xhci-pci-renesas.mod.o .module-common.o

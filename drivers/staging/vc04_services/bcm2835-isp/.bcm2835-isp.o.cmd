@@ -1,0 +1,1 @@
+savedcmd_drivers/staging/vc04_services/bcm2835-isp/bcm2835-isp.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/staging/vc04_services/bcm2835-isp/bcm2835-isp.o @drivers/staging/vc04_services/bcm2835-isp/bcm2835-isp.mod 

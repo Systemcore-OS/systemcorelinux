@@ -1,0 +1,1 @@
+savedcmd_drivers/dax/hmem/built-in.a := rm -f drivers/dax/hmem/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/dax/hmem/built-in.a

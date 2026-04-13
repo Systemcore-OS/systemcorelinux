@@ -1,0 +1,1 @@
+savedcmd_drivers/net/ethernet/broadcom/genet/built-in.a := rm -f drivers/net/ethernet/broadcom/genet/built-in.a;  printf "drivers/net/ethernet/broadcom/genet/%s " bcmgenet.o bcmmii.o bcmgenet_wol.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/net/ethernet/broadcom/genet/built-in.a

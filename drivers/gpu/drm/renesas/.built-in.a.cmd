@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/renesas/built-in.a := rm -f drivers/gpu/drm/renesas/built-in.a;  printf "drivers/gpu/drm/renesas/%s " rcar-du/built-in.a rz-du/built-in.a | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/gpu/drm/renesas/built-in.a

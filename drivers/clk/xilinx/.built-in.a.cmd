@@ -1,0 +1,1 @@
+savedcmd_drivers/clk/xilinx/built-in.a := rm -f drivers/clk/xilinx/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/clk/xilinx/built-in.a

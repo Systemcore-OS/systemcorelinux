@@ -1,0 +1,1 @@
+savedcmd_drivers/media/rc/rc-loopback.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/rc/rc-loopback.ko drivers/media/rc/rc-loopback.o drivers/media/rc/rc-loopback.mod.o .module-common.o

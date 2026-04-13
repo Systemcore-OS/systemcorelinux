@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/chips-media/built-in.a := rm -f drivers/media/platform/chips-media/built-in.a;  printf "drivers/media/platform/chips-media/%s " coda/built-in.a wave5/built-in.a | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/media/platform/chips-media/built-in.a

@@ -1,0 +1,1 @@
+savedcmd_net/6lowpan/nhc_fragment.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/6lowpan/nhc_fragment.ko net/6lowpan/nhc_fragment.o net/6lowpan/nhc_fragment.mod.o .module-common.o

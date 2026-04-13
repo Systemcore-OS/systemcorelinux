@@ -1,0 +1,1 @@
+savedcmd_fs/nfs_common/built-in.a := rm -f fs/nfs_common/built-in.a;  printf "fs/nfs_common/%s " nfsacl.o grace.o nfs_ssc.o common.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST fs/nfs_common/built-in.a

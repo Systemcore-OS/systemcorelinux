@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.o @drivers/net/wireless/marvell/mwifiex/mwifiex_sdio.mod 

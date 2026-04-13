@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/rp1/rp1-vec/drm-rp1-vec.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/gpu/drm/rp1/rp1-vec/drm-rp1-vec.o @drivers/gpu/drm/rp1/rp1-vec/drm-rp1-vec.mod 

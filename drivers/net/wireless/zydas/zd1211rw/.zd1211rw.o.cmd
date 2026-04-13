@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/zydas/zd1211rw/zd1211rw.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/zydas/zd1211rw/zd1211rw.o @drivers/net/wireless/zydas/zd1211rw/zd1211rw.mod 

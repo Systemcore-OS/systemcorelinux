@@ -1,0 +1,1 @@
+savedcmd_drivers/thermal/samsung/built-in.a := rm -f drivers/thermal/samsung/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/thermal/samsung/built-in.a

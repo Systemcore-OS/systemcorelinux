@@ -1,0 +1,91 @@
+!<thin>
+//                                              828       `
+tty_io.o/
+n_tty.o/
+tty_ioctl.o/
+tty_ldisc.o/
+tty_buffer.o/
+tty_port.o/
+tty_mutex.o/
+tty_ldsem.o/
+tty_baudrate.o/
+tty_jobctrl.o/
+n_null.o/
+pty.o/
+tty_audit.o/
+sysrq.o/
+vt/vt_ioctl.o/
+vt/vc_screen.o/
+vt/selection.o/
+vt/keyboard.o/
+vt/vt.o/
+vt/defkeymap.o/
+vt/consolemap.o/
+vt/consolemap_deftbl.o/
+serial/serial_core.o/
+serial/serial_base_bus.o/
+serial/serial_ctrl.o/
+serial/serial_port.o/
+serial/earlycon.o/
+serial/8250/8250_core.o/
+serial/8250/8250_platform.o/
+serial/8250/8250_port.o/
+serial/8250/8250_pcilib.o/
+serial/8250/8250_early.o/
+serial/8250/8250_bcm2835aux.o/
+serial/8250/8250_bcm7271.o/
+serial/8250/8250_exar.o/
+serial/8250/8250_fsl.o/
+serial/8250/8250_of.o/
+serial/8250/8250_pci.o/
+serial/8250/8250_pericom.o/
+serial/amba-pl011.o/
+serial/serial_mctrl_gpio.o/
+serial/kgdboc.o/
+serdev/core.o/
+serdev/serdev-ttyport.o/
+
+/0              0           0     0     644     88280     `
+/10             0           0     0     644     37064     `
+/19             0           0     0     644     20648     `
+/32             0           0     0     644     19960     `
+/45             0           0     0     644     15568     `
+/59             0           0     0     644     27296     `
+/71             0           0     0     644     4904      `
+/84             0           0     0     644     8968      `
+/97             0           0     0     644     4840      `
+/113            0           0     0     644     14968     `
+/128            0           0     0     644     4896      `
+/138            0           0     0     644     23064     `
+/145            0           0     0     644     8296      `
+/158            0           0     0     644     39064     `
+/167            0           0     0     644     24576     `
+/182            0           0     0     644     16392     `
+/198            0           0     0     644     10984     `
+/214            0           0     0     644     66008     `
+/229            0           0     0     644     106792    `
+/238            0           0     0     644     13568     `
+/254            0           0     0     644     19392     `
+/271            0           0     0     644     2072      `
+/295            0           0     0     644     91664     `
+/317            0           0     0     644     11232     `
+/343            0           0     0     644     4568      `
+/365            0           0     0     644     12896     `
+/387            0           0     0     644     9888      `
+/406            0           0     0     644     24568     `
+/431            0           0     0     644     12824     `
+/460            0           0     0     644     75904     `
+/485            0           0     0     644     2848      `
+/512            0           0     0     644     7624      `
+/538            0           0     0     644     10640     `
+/569            0           0     0     644     26456     `
+/597            0           0     0     644     33384     `
+/622            0           0     0     644     4232      `
+/646            0           0     0     644     15624     `
+/669            0           0     0     644     81848     `
+/693            0           0     0     644     8408      `
+/721            0           0     0     644     62680     `
+/742            0           0     0     644     13080     `
+/770            0           0     0     644     23960     `
+/787            0           0     0     644     26280     `
+/802            0           0     0     644     11840     `

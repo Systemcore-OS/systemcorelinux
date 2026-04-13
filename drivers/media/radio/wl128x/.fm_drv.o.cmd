@@ -1,0 +1,1 @@
+savedcmd_drivers/media/radio/wl128x/fm_drv.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/radio/wl128x/fm_drv.o @drivers/media/radio/wl128x/fm_drv.mod 

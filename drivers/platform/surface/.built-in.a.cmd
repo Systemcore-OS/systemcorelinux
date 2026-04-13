@@ -1,0 +1,1 @@
+savedcmd_drivers/platform/surface/built-in.a := rm -f drivers/platform/surface/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/platform/surface/built-in.a

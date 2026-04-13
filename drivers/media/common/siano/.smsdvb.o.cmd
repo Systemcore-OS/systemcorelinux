@@ -1,0 +1,1 @@
+savedcmd_drivers/media/common/siano/smsdvb.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/common/siano/smsdvb.o @drivers/media/common/siano/smsdvb.mod 

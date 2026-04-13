@@ -1,0 +1,1 @@
+savedcmd_drivers/media/v4l2-core/tuner.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/v4l2-core/tuner.o @drivers/media/v4l2-core/tuner.mod 

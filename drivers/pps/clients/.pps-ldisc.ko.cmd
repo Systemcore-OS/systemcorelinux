@@ -1,0 +1,1 @@
+savedcmd_drivers/pps/clients/pps-ldisc.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/pps/clients/pps-ldisc.ko drivers/pps/clients/pps-ldisc.o drivers/pps/clients/pps-ldisc.mod.o .module-common.o

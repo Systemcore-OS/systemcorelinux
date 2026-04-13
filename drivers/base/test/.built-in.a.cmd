@@ -1,0 +1,1 @@
+savedcmd_drivers/base/test/built-in.a := rm -f drivers/base/test/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/base/test/built-in.a

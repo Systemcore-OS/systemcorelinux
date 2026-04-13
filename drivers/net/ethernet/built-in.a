@@ -1,0 +1,19 @@
+!<thin>
+//                                              210       `
+cadence/macb_main.o/
+cadence/macb_ptp.o/
+broadcom/genet/bcmgenet.o/
+broadcom/genet/bcmmii.o/
+broadcom/genet/bcmgenet_wol.o/
+broadcom/asp2/bcmasp.o/
+broadcom/asp2/bcmasp_intf.o/
+broadcom/asp2/bcmasp_ethtool.o/
+
+/0              0           0     0     644     108952    `
+/21             0           0     0     644     11200     `
+/41             0           0     0     644     78992     `
+/68             0           0     0     644     14888     `
+/93             0           0     0     644     6552      `
+/124            0           0     0     644     34808     `
+/148            0           0     0     644     31384     `
+/177            0           0     0     644     15048     `

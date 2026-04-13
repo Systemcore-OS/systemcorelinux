@@ -1,0 +1,1 @@
+savedcmd_sound/usb/line6/snd-usb-line6.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o sound/usb/line6/snd-usb-line6.o @sound/usb/line6/snd-usb-line6.mod 

@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/realtek/rtw88/rtw88_8822cu.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/realtek/rtw88/rtw88_8822cu.o @drivers/net/wireless/realtek/rtw88/rtw88_8822cu.mod 

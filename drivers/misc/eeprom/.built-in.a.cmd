@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/eeprom/built-in.a := rm -f drivers/misc/eeprom/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/misc/eeprom/built-in.a

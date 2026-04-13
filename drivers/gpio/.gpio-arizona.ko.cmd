@@ -1,0 +1,1 @@
+savedcmd_drivers/gpio/gpio-arizona.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-arizona.ko drivers/gpio/gpio-arizona.o drivers/gpio/gpio-arizona.mod.o .module-common.o

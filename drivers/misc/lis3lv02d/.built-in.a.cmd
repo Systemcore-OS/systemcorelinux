@@ -1,0 +1,1 @@
+savedcmd_drivers/misc/lis3lv02d/built-in.a := rm -f drivers/misc/lis3lv02d/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/misc/lis3lv02d/built-in.a

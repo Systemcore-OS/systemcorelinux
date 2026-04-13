@@ -1,0 +1,1 @@
+savedcmd_sound/core/seq/snd-seq-midi.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o sound/core/seq/snd-seq-midi.o @sound/core/seq/snd-seq-midi.mod 

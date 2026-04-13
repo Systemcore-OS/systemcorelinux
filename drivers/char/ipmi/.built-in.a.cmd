@@ -1,0 +1,1 @@
+savedcmd_drivers/char/ipmi/built-in.a := rm -f drivers/char/ipmi/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/char/ipmi/built-in.a

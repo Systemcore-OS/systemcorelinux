@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/ath/ath6kl/ath6kl_core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/ath/ath6kl/ath6kl_core.o @drivers/net/wireless/ath/ath6kl/ath6kl_core.mod 

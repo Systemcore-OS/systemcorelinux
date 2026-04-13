@@ -1,0 +1,1 @@
+savedcmd_lib/zlib_deflate/built-in.a := rm -f lib/zlib_deflate/built-in.a;  printf "lib/zlib_deflate/%s " deflate.o deftree.o deflate_syms.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST lib/zlib_deflate/built-in.a

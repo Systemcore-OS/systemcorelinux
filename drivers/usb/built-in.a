@@ -1,0 +1,190 @@
+!<thin>
+//                                              1904      `
+common/common.o/
+common/debug.o/
+core/usb.o/
+core/hub.o/
+core/hcd.o/
+core/urb.o/
+core/message.o/
+core/driver.o/
+core/config.o/
+core/file.o/
+core/buffer.o/
+core/sysfs.o/
+core/endpoint.o/
+core/devio.o/
+core/notify.o/
+core/generic.o/
+core/quirks.o/
+core/devices.o/
+core/phy.o/
+core/port.o/
+core/of.o/
+core/hcd-pci.o/
+phy/phy.o/
+phy/of.o/
+phy/phy-generic.o/
+host/pci-quirks.o/
+host/xhci.o/
+host/xhci-mem.o/
+host/xhci-ext-caps.o/
+host/xhci-ring.o/
+host/xhci-hub.o/
+host/xhci-dbg.o/
+host/xhci-trace.o/
+host/xhci-debugfs.o/
+host/xhci-pci.o/
+host/xhci-plat.o/
+host/dwc_otg/dwc_otg_driver.o/
+host/dwc_otg/dwc_otg_attr.o/
+host/dwc_otg/dwc_otg_cil.o/
+host/dwc_otg/dwc_otg_cil_intr.o/
+host/dwc_otg/dwc_otg_pcd_linux.o/
+host/dwc_otg/dwc_otg_pcd.o/
+host/dwc_otg/dwc_otg_pcd_intr.o/
+host/dwc_otg/dwc_otg_hcd.o/
+host/dwc_otg/dwc_otg_hcd_linux.o/
+host/dwc_otg/dwc_otg_hcd_intr.o/
+host/dwc_otg/dwc_otg_hcd_queue.o/
+host/dwc_otg/dwc_otg_hcd_ddma.o/
+host/dwc_otg/dwc_otg_adp.o/
+host/dwc_otg/dwc_otg_fiq_fsm.o/
+host/dwc_common_port/dwc_cc.o/
+host/dwc_common_port/dwc_modpow.o/
+host/dwc_common_port/dwc_dh.o/
+host/dwc_common_port/dwc_crypto.o/
+host/dwc_common_port/dwc_notifier.o/
+host/dwc_common_port/dwc_common_linux.o/
+host/dwc_common_port/dwc_mem.o/
+dwc3/core.o/
+dwc3/trace.o/
+dwc3/host.o/
+dwc3/gadget.o/
+dwc3/ep0.o/
+dwc3/drd.o/
+dwc3/debugfs.o/
+dwc3/dwc3-haps.o/
+dwc3/dwc3-of-simple.o/
+dwc2/core.o/
+dwc2/core_intr.o/
+dwc2/platform.o/
+dwc2/drd.o/
+dwc2/params.o/
+dwc2/hcd.o/
+dwc2/hcd_intr.o/
+dwc2/hcd_queue.o/
+dwc2/hcd_ddma.o/
+dwc2/gadget.o/
+dwc2/debugfs.o/
+storage/uas.o/
+storage/scsiglue.o/
+storage/protocol.o/
+storage/transport.o/
+storage/usb.o/
+storage/initializers.o/
+storage/sierra_ms.o/
+storage/option_ms.o/
+storage/usual-tables.o/
+misc/brcmstb-usb-pinmap.o/
+gadget/udc/core.o/
+gadget/udc/trace.o/
+gadget/udc/bdc/bdc_core.o/
+gadget/udc/bdc/bdc_cmd.o/
+gadget/udc/bdc/bdc_ep.o/
+gadget/udc/bdc/bdc_udc.o/
+roles/class.o/
+/0              0           0     0     644     17624     `
+/17             0           0     0     644     10328     `
+/33             0           0     0     644     31544     `
+/45             0           0     0     644     99304     `
+/57             0           0     0     644     55240     `
+/69             0           0     0     644     25600     `
+/81             0           0     0     644     46128     `
+/97             0           0     0     644     40552     `
+/112            0           0     0     644     20384     `
+/127            0           0     0     644     7208      `
+/140            0           0     0     644     5880      `
+/155            0           0     0     644     57000     `
+/169            0           0     0     644     9192      `
+/186            0           0     0     644     68264     `
+/200            0           0     0     644     4624      `
+/215            0           0     0     644     7728      `
+/231            0           0     0     644     12296     `
+/246            0           0     0     644     9984      `
+/262            0           0     0     644     11176     `
+/274            0           0     0     644     24912     `
+/287            0           0     0     644     5624      `
+/298            0           0     0     644     12672     `
+/314            0           0     0     644     21488     `
+/325            0           0     0     644     3168      `
+/335            0           0     0     644     15456     `
+/354            0           0     0     644     14616     `
+/373            0           0     0     644     115288    `
+/386            0           0     0     644     51384     `
+/403            0           0     0     644     5712      `
+/425            0           0     0     644     70952     `
+/443            0           0     0     644     28496     `
+/460            0           0     0     644     3352      `
+/477            0           0     0     644     146448    `
+/496            0           0     0     644     44488     `
+/517            0           0     0     644     24080     `
+/534            0           0     0     644     19440     `
+/552            0           0     0     644     58240     `
+/583            0           0     0     644     44568     `
+/612            0           0     0     644     165416    `
+/640            0           0     0     644     19544     `
+/673            0           0     0     644     24088     `
+/707            0           0     0     644     30696     `
+/735            0           0     0     644     44368     `
+/768            0           0     0     644     57600     `
+/796            0           0     0     644     20688     `
+/830            0           0     0     644     35664     `
+/863            0           0     0     644     13824     `
+/897            0           0     0     644     13096     `
+/930            0           0     0     644     16496     `
+/958            0           0     0     644     9520      `
+/990            0           0     0     644     13136     `
+/1021           0           0     0     644     1104      `
+/1056           0           0     0     644     1096      `
+/1087           0           0     0     644     1104      `
+/1122           0           0     0     644     9440      `
+/1159           0           0     0     644     61656     `
+/1200           0           0     0     644     1096      `
+/1232           0           0     0     644     79416     `
+/1245           0           0     0     644     60768     `
+/1259           0           0     0     644     7256      `
+/1272           0           0     0     644     99200     `
+/1287           0           0     0     644     21048     `
+/1299           0           0     0     644     31384     `
+/1311           0           0     0     644     60408     `
+/1327           0           0     0     644     7592      `
+/1345           0           0     0     644     10576     `
+/1368           0           0     0     644     26608     `
+/1381           0           0     0     644     16016     `
+/1399           0           0     0     644     17280     `
+/1416           0           0     0     644     7680      `
+/1428           0           0     0     644     29888     `
+/1443           0           0     0     644     83048     `
+/1455           0           0     0     644     26608     `
+/1472           0           0     0     644     18008     `
+/1490           0           0     0     644     15240     `
+/1507           0           0     0     644     82944     `
+/1522           0           0     0     644     47000     `
+/1538           0           0     0     644     34536     `
+/1553           0           0     0     644     17632     `
+/1573           0           0     0     644     5368      `
+/1593           0           0     0     644     20312     `
+/1614           0           0     0     644     66016     `
+/1629           0           0     0     644     2832      `
+/1653           0           0     0     644     5008      `
+/1674           0           0     0     644     3784      `
+/1695           0           0     0     644     13784     `
+/1719           0           0     0     644     10776     `
+/1746           0           0     0     644     64304     `
+/1765           0           0     0     644     61152     `
+/1785           0           0     0     644     16848     `
+/1812           0           0     0     644     7376      `
+/1838           0           0     0     644     25408     `
+/1863           0           0     0     644     12768     `
+/1889           0           0     0     644     19672     `

@@ -1,0 +1,1 @@
+savedcmd_drivers/soc/bcm/brcmstb/built-in.a := rm -f drivers/soc/bcm/brcmstb/built-in.a;  printf "drivers/soc/bcm/brcmstb/%s " common.o biuctrl.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/soc/bcm/brcmstb/built-in.a

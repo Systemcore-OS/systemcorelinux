@@ -1,0 +1,1 @@
+savedcmd_drivers/media/common/v4l2-tpg/built-in.a := rm -f drivers/media/common/v4l2-tpg/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/media/common/v4l2-tpg/built-in.a

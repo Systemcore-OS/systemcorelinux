@@ -1,0 +1,1 @@
+savedcmd_drivers/media/tuners/r820t.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/tuners/r820t.ko drivers/media/tuners/r820t.o drivers/media/tuners/r820t.mod.o .module-common.o

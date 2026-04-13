@@ -1,0 +1,1 @@
+savedcmd_drivers/gpu/drm/bridge/ti-sn65dsi83.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/bridge/ti-sn65dsi83.ko drivers/gpu/drm/bridge/ti-sn65dsi83.o drivers/gpu/drm/bridge/ti-sn65dsi83.mod.o .module-common.o

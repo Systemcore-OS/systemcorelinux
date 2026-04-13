@@ -1,0 +1,1 @@
+savedcmd_fs/ceph/ceph.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o fs/ceph/ceph.o @fs/ceph/ceph.mod 

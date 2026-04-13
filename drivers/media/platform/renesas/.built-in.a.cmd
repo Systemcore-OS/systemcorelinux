@@ -1,0 +1,1 @@
+savedcmd_drivers/media/platform/renesas/built-in.a := rm -f drivers/media/platform/renesas/built-in.a;  printf "drivers/media/platform/renesas/%s " rcar-vin/built-in.a rzg2l-cru/built-in.a vsp1/built-in.a | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/media/platform/renesas/built-in.a

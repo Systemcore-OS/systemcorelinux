@@ -1,0 +1,1 @@
+savedcmd_arch/arm64/kvm/hyp/nvhe/kvm_nvhe.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-objcopy --prefix-symbols=__kvm_nvhe_ arch/arm64/kvm/hyp/nvhe/kvm_nvhe.rel.o arch/arm64/kvm/hyp/nvhe/kvm_nvhe.o

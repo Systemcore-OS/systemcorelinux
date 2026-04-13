@@ -1,0 +1,1 @@
+savedcmd_net/9p/9pnet_fd.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o net/9p/9pnet_fd.o @net/9p/9pnet_fd.mod 

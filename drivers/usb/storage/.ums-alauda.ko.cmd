@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/storage/ums-alauda.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/usb/storage/ums-alauda.ko drivers/usb/storage/ums-alauda.o drivers/usb/storage/ums-alauda.mod.o .module-common.o

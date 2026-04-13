@@ -1,0 +1,1 @@
+savedcmd_kernel/livepatch/built-in.a := rm -f kernel/livepatch/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST kernel/livepatch/built-in.a

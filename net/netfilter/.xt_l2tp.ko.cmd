@@ -1,0 +1,1 @@
+savedcmd_net/netfilter/xt_l2tp.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/netfilter/xt_l2tp.ko net/netfilter/xt_l2tp.o net/netfilter/xt_l2tp.mod.o .module-common.o

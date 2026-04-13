@@ -1,0 +1,1 @@
+savedcmd_drivers/accessibility/speakup/speakup.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/accessibility/speakup/speakup.o @drivers/accessibility/speakup/speakup.mod 

@@ -1,0 +1,1 @@
+savedcmd_net/can/built-in.a := rm -f net/can/built-in.a;  printf "net/can/%s " af_can.o proc.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST net/can/built-in.a

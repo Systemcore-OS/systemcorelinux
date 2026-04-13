@@ -1,0 +1,1 @@
+savedcmd_drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.o @drivers/net/wireless/broadcom/brcm80211/brcmutil/brcmutil.mod 

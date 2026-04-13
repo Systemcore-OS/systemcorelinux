@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-max98357a.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/codecs/snd-soc-max98357a.o @sound/soc/codecs/snd-soc-max98357a.mod 

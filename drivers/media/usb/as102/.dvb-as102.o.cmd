@@ -1,0 +1,1 @@
+savedcmd_drivers/media/usb/as102/dvb-as102.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/media/usb/as102/dvb-as102.o @drivers/media/usb/as102/dvb-as102.mod 

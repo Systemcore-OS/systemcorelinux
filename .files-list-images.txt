@@ -1,0 +1,4 @@
+linux,./Image
+linux,./bcm2712-rpi-5-b.dtb
+linux,./bcm2712-rpi-cm5-cm5io.dtb
+linux,./bcm2712-rpi-cm5-cm4io.dtb

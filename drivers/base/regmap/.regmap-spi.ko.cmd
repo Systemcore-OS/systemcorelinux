@@ -1,0 +1,1 @@
+savedcmd_drivers/base/regmap/regmap-spi.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/base/regmap/regmap-spi.ko drivers/base/regmap/regmap-spi.o drivers/base/regmap/regmap-spi.mod.o .module-common.o

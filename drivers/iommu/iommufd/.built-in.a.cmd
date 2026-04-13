@@ -1,0 +1,1 @@
+savedcmd_drivers/iommu/iommufd/built-in.a := rm -f drivers/iommu/iommufd/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/iommu/iommufd/built-in.a

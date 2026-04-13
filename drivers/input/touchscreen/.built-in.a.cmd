@@ -1,0 +1,1 @@
+savedcmd_drivers/input/touchscreen/built-in.a := rm -f drivers/input/touchscreen/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/input/touchscreen/built-in.a

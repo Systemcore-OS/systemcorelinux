@@ -1,0 +1,1 @@
+savedcmd_net/sched/sch_htb.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/sched/sch_htb.ko net/sched/sch_htb.o net/sched/sch_htb.mod.o .module-common.o

@@ -1,0 +1,12 @@
+!<thin>
+//                                              240       `
+vc04_services/interface/vchiq_arm/vchiq_core.o/
+vc04_services/interface/vchiq_arm/vchiq_arm.o/
+vc04_services/interface/vchiq_arm/vchiq_bus.o/
+vc04_services/interface/vchiq_arm/vchiq_debugfs.o/
+vc04_services/interface/vchiq_arm/vchiq_dev.o/
+/0              0           0     0     644     67656     `
+/48             0           0     0     644     49736     `
+/95             0           0     0     644     6768      `
+/142            0           0     0     644     9272      `
+/193            0           0     0     644     24360     `

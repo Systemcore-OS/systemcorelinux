@@ -1,0 +1,1 @@
+savedcmd_drivers/block/aoe/aoe.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/block/aoe/aoe.o @drivers/block/aoe/aoe.mod 

@@ -1,0 +1,1 @@
+savedcmd_net/dns_resolver/built-in.a := rm -f net/dns_resolver/built-in.a;  printf "net/dns_resolver/%s " dns_key.o dns_query.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST net/dns_resolver/built-in.a

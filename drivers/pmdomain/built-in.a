@@ -1,0 +1,10 @@
+!<thin>
+//                                              66        `
+bcm/bcm2835-power.o/
+bcm/raspberrypi-power.o/
+core.o/
+governor.o/
+/0              0           0     0     644     16704     `
+/21             0           0     0     644     10936     `
+/46             0           0     0     644     80552     `
+/54             0           0     0     644     5584      `

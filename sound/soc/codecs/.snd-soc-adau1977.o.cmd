@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-adau1977.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/codecs/snd-soc-adau1977.o @sound/soc/codecs/snd-soc-adau1977.mod 

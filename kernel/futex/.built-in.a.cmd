@@ -1,0 +1,1 @@
+savedcmd_kernel/futex/built-in.a := rm -f kernel/futex/built-in.a;  printf "kernel/futex/%s " core.o syscalls.o pi.o requeue.o waitwake.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST kernel/futex/built-in.a

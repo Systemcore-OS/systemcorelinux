@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-picolcd.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-picolcd.ko drivers/hid/hid-picolcd.o drivers/hid/hid-picolcd.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/pps/generators/built-in.a := rm -f drivers/pps/generators/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/pps/generators/built-in.a

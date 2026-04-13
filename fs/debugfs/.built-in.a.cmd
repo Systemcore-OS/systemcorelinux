@@ -1,0 +1,1 @@
+savedcmd_fs/debugfs/built-in.a := rm -f fs/debugfs/built-in.a;  printf "fs/debugfs/%s " inode.o file.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST fs/debugfs/built-in.a

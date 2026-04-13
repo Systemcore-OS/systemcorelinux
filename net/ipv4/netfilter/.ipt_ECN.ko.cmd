@@ -1,0 +1,1 @@
+savedcmd_net/ipv4/netfilter/ipt_ECN.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/ipv4/netfilter/ipt_ECN.ko net/ipv4/netfilter/ipt_ECN.o net/ipv4/netfilter/ipt_ECN.mod.o .module-common.o

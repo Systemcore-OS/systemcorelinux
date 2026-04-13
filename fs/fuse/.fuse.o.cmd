@@ -1,0 +1,1 @@
+savedcmd_fs/fuse/fuse.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o fs/fuse/fuse.o @fs/fuse/fuse.mod 

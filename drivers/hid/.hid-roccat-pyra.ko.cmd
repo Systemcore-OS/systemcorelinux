@@ -1,0 +1,1 @@
+savedcmd_drivers/hid/hid-roccat-pyra.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/hid/hid-roccat-pyra.ko drivers/hid/hid-roccat-pyra.o drivers/hid/hid-roccat-pyra.mod.o .module-common.o

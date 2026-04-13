@@ -1,0 +1,1 @@
+savedcmd_drivers/phy/lantiq/built-in.a := rm -f drivers/phy/lantiq/built-in.a;  /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/phy/lantiq/built-in.a

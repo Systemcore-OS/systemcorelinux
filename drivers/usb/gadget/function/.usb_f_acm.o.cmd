@@ -1,0 +1,1 @@
+savedcmd_drivers/usb/gadget/function/usb_f_acm.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o drivers/usb/gadget/function/usb_f_acm.o @drivers/usb/gadget/function/usb_f_acm.mod 

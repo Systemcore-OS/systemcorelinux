@@ -1,0 +1,1 @@
+savedcmd_net/8021q/8021q.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o net/8021q/8021q.o @net/8021q/8021q.mod 

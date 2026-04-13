@@ -1,0 +1,1 @@
+savedcmd_fs/ntfs3/ntfs3.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o fs/ntfs3/ntfs3.ko fs/ntfs3/ntfs3.o fs/ntfs3/ntfs3.mod.o .module-common.o

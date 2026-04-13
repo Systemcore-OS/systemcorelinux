@@ -1,0 +1,1 @@
+savedcmd_net/sched/sch_sfq.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/sched/sch_sfq.ko net/sched/sch_sfq.o net/sched/sch_sfq.mod.o .module-common.o

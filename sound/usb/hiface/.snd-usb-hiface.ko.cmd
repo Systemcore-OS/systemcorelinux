@@ -1,0 +1,1 @@
+savedcmd_sound/usb/hiface/snd-usb-hiface.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o sound/usb/hiface/snd-usb-hiface.ko sound/usb/hiface/snd-usb-hiface.o sound/usb/hiface/snd-usb-hiface.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_init/built-in.a := rm -f init/built-in.a;  printf "init/%s " main.o version.o do_mounts.o do_mounts_rd.o do_mounts_initrd.o initramfs.o calibrate.o init_task.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST init/built-in.a

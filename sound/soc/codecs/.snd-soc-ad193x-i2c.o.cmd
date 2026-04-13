@@ -1,0 +1,1 @@
+savedcmd_sound/soc/codecs/snd-soc-ad193x-i2c.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/codecs/snd-soc-ad193x-i2c.o @sound/soc/codecs/snd-soc-ad193x-i2c.mod 

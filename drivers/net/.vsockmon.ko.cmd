@@ -1,0 +1,1 @@
+savedcmd_drivers/net/vsockmon.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/vsockmon.ko drivers/net/vsockmon.o drivers/net/vsockmon.mod.o .module-common.o

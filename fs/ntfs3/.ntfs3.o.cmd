@@ -1,0 +1,1 @@
+savedcmd_fs/ntfs3/ntfs3.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o fs/ntfs3/ntfs3.o @fs/ntfs3/ntfs3.mod 

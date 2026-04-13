@@ -1,0 +1,1 @@
+savedcmd_drivers/net/can/dev/built-in.a := rm -f drivers/net/can/dev/built-in.a;  printf "drivers/net/can/dev/%s " skb.o calc_bittiming.o bittiming.o dev.o length.o netlink.o rx-offload.o | xargs /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ar cDPrST drivers/net/can/dev/built-in.a

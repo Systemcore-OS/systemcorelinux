@@ -1,0 +1,1 @@
+savedcmd_sound/soc/bcm/snd-soc-hifiberry-studio-dac8x.mod := printf '%s\n'   hifiberry_studio_dac8x.o | awk '!x[$$0]++ { print("sound/soc/bcm/"$$0) }' > sound/soc/bcm/snd-soc-hifiberry-studio-dac8x.mod

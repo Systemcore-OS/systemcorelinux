@@ -1,0 +1,1 @@
+savedcmd_sound/soc/bcm/snd-soc-allo-katana-codec.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o sound/soc/bcm/snd-soc-allo-katana-codec.o @sound/soc/bcm/snd-soc-allo-katana-codec.mod 

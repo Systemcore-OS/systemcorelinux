@@ -1,0 +1,1 @@
+savedcmd_drivers/net/usb/lg-vl600.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/net/usb/lg-vl600.ko drivers/net/usb/lg-vl600.o drivers/net/usb/lg-vl600.mod.o .module-common.o

@@ -1,0 +1,1 @@
+savedcmd_drivers/media/dvb-frontends/lgs8gxx.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/lgs8gxx.ko drivers/media/dvb-frontends/lgs8gxx.o drivers/media/dvb-frontends/lgs8gxx.mod.o .module-common.o

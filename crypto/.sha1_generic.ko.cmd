@@ -1,0 +1,1 @@
+savedcmd_crypto/sha1_generic.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o crypto/sha1_generic.ko crypto/sha1_generic.o crypto/sha1_generic.mod.o .module-common.o

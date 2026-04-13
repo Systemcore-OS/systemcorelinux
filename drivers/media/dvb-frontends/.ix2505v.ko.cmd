@@ -1,0 +1,1 @@
+savedcmd_drivers/media/dvb-frontends/ix2505v.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o drivers/media/dvb-frontends/ix2505v.ko drivers/media/dvb-frontends/ix2505v.o drivers/media/dvb-frontends/ix2505v.mod.o .module-common.o
