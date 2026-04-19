@@ -3,4 +3,5 @@ net/can/can-bcm.o
 net/can/can-gw.o
 net/can/j1939/can-j1939.o
 net/can/can-isotp.o
-net/can/can_heartbeat.o
+net/can/can_sender.o
+net/can/robot_heartbeat.o

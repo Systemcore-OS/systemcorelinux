@@ -69,10 +69,23 @@ config CAN_ISOTP
 	  as needed e.g. for vehicle diagnosis (UDS, ISO 14229) or IP-over-CAN
 	  traffic.
 
-config CAN_HEARTBEAT
-    tristate "CAN Heartbeat for Limelight Systemcore"
+config CAN_SENDER
+    tristate "CAN Heartbeat sender for Limelight Systemcore"
     depends on CAN
     help
-      This option enables a periodic CAN heartbeat for FIRST Robotics peripherals.
+      This option enables a periodic CAN heartbeat sender for FIRST Robotics
+      peripherals. It periodically transmits an extended CAN frame containing
+      time and robot state on all CAN interfaces matching "can_s*". The
+      robot state payload is supplied by the ROBOT_HEARTBEAT module via the
+      update_heartbeat_data() symbol.
+
+config ROBOT_HEARTBEAT
+    tristate "Robot Heartbeat state management for Limelight Systemcore"
+    depends on CAN_SENDER
+    help
+      This option enables the robot heartbeat state management misc devices
+      (mrccan!controldata, mrccan!matchinfo, mrccan!enabledro, etc.) used by
+      FIRST Robotics userspace to drive the CAN heartbeat payload that is
+      transmitted by CAN_SENDER.
 
 endif

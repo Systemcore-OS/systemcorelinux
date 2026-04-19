@@ -1,1 +1,1 @@
-savedcmd_net/can/modules.order := {   echo net/can/can-raw.o;   echo net/can/can-bcm.o;   echo net/can/can-gw.o;   cat net/can/j1939/modules.order;   echo net/can/can-isotp.o;   echo net/can/can_heartbeat.o; :; } > net/can/modules.order
+savedcmd_net/can/modules.order := {   echo net/can/can-raw.o;   echo net/can/can-bcm.o;   echo net/can/can-gw.o;   cat net/can/j1939/modules.order;   echo net/can/can-isotp.o;   echo net/can/can_sender.o;   echo net/can/robot_heartbeat.o; :; } > net/can/modules.order

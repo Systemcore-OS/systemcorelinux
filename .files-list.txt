@@ -1829,7 +1829,8 @@ linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/can/can-bcm.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/can/can-gw.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/can/j1939/can-j1939.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/can/can-isotp.ko.xz
-linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/can/can_heartbeat.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/can/can_sender.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/can/robot_heartbeat.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/8021q/8021q.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/wireless/cfg80211.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/wireless/lib80211.ko.xz

@@ -21,5 +21,7 @@ obj-$(CONFIG_CAN_J1939)	+= j1939/
 obj-$(CONFIG_CAN_ISOTP)	+= can-isotp.o
 can-isotp-y		:= isotp.o
 
-obj-$(CONFIG_CAN_HEARTBEAT) += can_heartbeat.o
+obj-$(CONFIG_CAN_SENDER) += can_sender.o
+
+obj-$(CONFIG_ROBOT_HEARTBEAT) += robot_heartbeat.o
 

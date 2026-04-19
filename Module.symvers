@@ -18017,6 +18017,7 @@
 0xba47f298	dsa_enqueue_skb	net/dsa/dsa_core	EXPORT_SYMBOL_GPL	
 0x45a72bd7	dsa_port_phylink_mac_change	net/dsa/dsa_core	EXPORT_SYMBOL_GPL	
 0xe1cec3d7	dsa_user_dev_check	net/dsa/dsa_core	EXPORT_SYMBOL_GPL	
+0xbffc03ed	update_heartbeat_data	net/can/can_sender	EXPORT_SYMBOL	
 0xf790ab05	cfg80211_shutdown_all_interfaces	net/wireless/cfg80211	EXPORT_SYMBOL_GPL	
 0x9bdfe319	wiphy_new_nm	net/wireless/cfg80211	EXPORT_SYMBOL	
 0xaca7cf4e	wiphy_register	net/wireless/cfg80211	EXPORT_SYMBOL	

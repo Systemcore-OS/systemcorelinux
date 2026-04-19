@@ -1,0 +1,1 @@
+savedcmd_net/can/robot_heartbeat.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/can/robot_heartbeat.ko net/can/robot_heartbeat.o net/can/robot_heartbeat.mod.o .module-common.o
