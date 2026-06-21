@@ -25,6 +25,10 @@
 
 #include "uvcvideo.h"
 
+/* 1 = enable 4-camera compressed-format payload clamp; 0 = off. */
+static int bandwidth_quirk_4cam;
+module_param(bandwidth_quirk_4cam, int, 0660);
+
 /* ------------------------------------------------------------------------
  * UVC Controls
  */
@@ -257,6 +261,20 @@ static void uvc_fixup_video_ctrl(struct uvc_streaming *stream,
 		bandwidth = max_t(u32, bandwidth, 1024);
 
 		ctrl->dwMaxPayloadTransferSize = bandwidth;
+	}
+	else if ((format->flags & UVC_FMT_FLAG_COMPRESSED) &&
+	    stream->dev->quirks & UVC_QUIRK_FIX_BANDWIDTH &&
+	    stream->intf->num_altsetting > 1 &&
+	    bandwidth_quirk_4cam) {
+		u32 max_payload = 800; /* B/uframe -> isoch alt 3 (~51 Mbps), fits 4 cams */
+
+		if (ctrl->dwMaxPayloadTransferSize > max_payload) {
+			u32 prior = ctrl->dwMaxPayloadTransferSize;
+
+			ctrl->dwMaxPayloadTransferSize = max_payload;
+			uvc_dbg(stream->dev, VIDEO,
+				"clamp %u -> %u\n", prior, max_payload);
+		}
 	}
 
 	if (stream->intf->num_altsetting > 1 &&
