@@ -75,8 +75,7 @@ mcp251xfd_get_rx_len(const struct mcp251xfd_priv *priv,
 		     const struct mcp251xfd_rx_ring *ring,
 		     u8 *len_p)
 {
-	const u8 shift = ring->obj_num_shift_to_u8;
-	u8 chip_head, tail, len;
+	u8 chip_head, tail;
 	u32 fifo_sta;
 	int err;
 
@@ -102,16 +101,7 @@ mcp251xfd_get_rx_len(const struct mcp251xfd_priv *priv,
 		return err;
 	tail = mcp251xfd_get_rx_tail(ring);
 
-	/* First shift to full u8. The subtraction works on signed
-	 * values, that keeps the difference steady around the u8
-	 * overflow. The right shift acts on len, which is an u8.
-	 */
-	BUILD_BUG_ON(sizeof(ring->obj_num) != sizeof(chip_head));
-	BUILD_BUG_ON(sizeof(ring->obj_num) != sizeof(tail));
-	BUILD_BUG_ON(sizeof(ring->obj_num) != sizeof(len));
-
-	len = (chip_head << shift) - (tail << shift);
-	*len_p = len >> shift;
+	*len_p = (chip_head + ring->obj_num - tail) % ring->obj_num;
 
 	return 0;
 }
@@ -236,7 +226,7 @@ mcp251xfd_handle_rxif_ring_uinc(const struct mcp251xfd_priv *priv,
 	if (!len)
 		return 0;
 
-	ring->head += len;
+	ring->head = (ring->head + len) % ring->obj_num;
 
 	/* Increment the RX FIFO tail pointer 'len' times in a
 	 * single SPI message.
@@ -253,7 +243,7 @@ mcp251xfd_handle_rxif_ring_uinc(const struct mcp251xfd_priv *priv,
 	if (err)
 		return err;
 
-	ring->tail += len;
+	ring->tail = (ring->tail + len) % ring->obj_num;
 
 	return 0;
 }
@@ -310,7 +300,9 @@ int mcp251xfd_handle_rxif(struct mcp251xfd_priv *priv)
 	struct mcp251xfd_rx_ring *ring;
 	int err, n;
 
-	mcp251xfd_for_each_rx_ring(priv, ring, n) {
+	for (n = priv->rx_ring_num - 1; n >= 0; n--) {
+		ring = priv->rx[n];
+
 		/* - if RX IRQ coalescing is active always handle ring 0
 		 * - only handle rings if RX IRQ is active
 		 */

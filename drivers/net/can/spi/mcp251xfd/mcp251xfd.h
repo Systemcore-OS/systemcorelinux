@@ -399,7 +399,7 @@ static_assert(MCP251XFD_TIMESTAMP_WORK_DELAY_SEC <
 
 /* FIFO and Ring */
 #define MCP251XFD_FIFO_TEF_NUM 1U
-#define MCP251XFD_FIFO_RX_NUM 3U
+#define MCP251XFD_FIFO_RX_NUM 1U
 #define MCP251XFD_FIFO_TX_NUM 1U
 
 #define MCP251XFD_FIFO_DEPTH 32U
@@ -561,7 +561,6 @@ struct mcp251xfd_rx_ring {
 	u8 nr;
 	u8 fifo_nr;
 	u8 obj_num;
-	u8 obj_num_shift_to_u8;
 	u8 obj_size;
 
 	union mcp251xfd_write_reg_buf irq_enable_buf;
@@ -576,7 +575,8 @@ struct mcp251xfd_rx_ring {
 
 struct __packed mcp251xfd_map_buf_nocrc {
 	struct mcp251xfd_buf_cmd cmd;
-	u8 data[256];
+	u8 data[MCP251XFD_RX_OBJ_NUM_MAX *
+		sizeof(struct mcp251xfd_hw_rx_obj_canfd)];
 } ____cacheline_aligned;
 
 struct __packed mcp251xfd_map_buf_crc {
@@ -920,12 +920,12 @@ mcp251xfd_get_tx_nr_by_addr(const struct mcp251xfd_tx_ring *tx_ring, u8 *nr,
 
 static inline u8 mcp251xfd_get_rx_head(const struct mcp251xfd_rx_ring *ring)
 {
-	return ring->head & (ring->obj_num - 1);
+	return ring->head % ring->obj_num;
 }
 
 static inline u8 mcp251xfd_get_rx_tail(const struct mcp251xfd_rx_ring *ring)
 {
-	return ring->tail & (ring->obj_num - 1);
+	return ring->tail % ring->obj_num;
 }
 
 static inline u8

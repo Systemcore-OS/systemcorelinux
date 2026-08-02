@@ -29,6 +29,7 @@ struct can_ram_obj_config {
 	u8 fifo_num;
 	u8 fifo_depth_min;
 	u8 fifo_depth_coalesce_min;
+	bool any_size;
 };
 
 struct can_ram_config {

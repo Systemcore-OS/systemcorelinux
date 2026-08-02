@@ -43,8 +43,11 @@ can_ram_rounddown_pow_of_two(const struct can_ram_config *config,
 	for (i = 0; i < fifo_num && val; i++) {
 		u8 n;
 
-		n = min_t(u8, rounddown_pow_of_two(val),
-			  config->fifo_depth);
+		if (obj->any_size)
+			n = min_t(u8, val, config->fifo_depth);
+		else
+			n = min_t(u8, rounddown_pow_of_two(val),
+				  config->fifo_depth);
 
 		/* skip small FIFOs */
 		if (n < obj->fifo_depth_min)
@@ -120,7 +123,6 @@ void can_ram_get_layout(struct can_ram_layout *layout,
 			num_rx_coalesce = clamp(ec->rx_max_coalesced_frames_irq,
 						(u32)config->rx.fifo_depth_coalesce_min,
 						(u32)max);
-			num_rx_coalesce = rounddown_pow_of_two(num_rx_coalesce);
 
 			num_rx = can_ram_rounddown_pow_of_two(config, &config->rx,
 							      num_rx_coalesce, num_rx);

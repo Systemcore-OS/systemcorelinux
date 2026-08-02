@@ -26,6 +26,9 @@
 
 #define DRIVER_NAME "dw_spi_mmio"
 
+//same delay as i2c-designware
+#define DW_SPI_MMIO_AUTOSUSPEND_MS 1000
+
 struct dw_spi_mmio {
 	struct dw_spi  dws;
 	struct clk     *clk;
@@ -382,6 +385,8 @@ static int dw_spi_mmio_probe(struct platform_device *pdev)
 			goto out_reset;
 	}
 
+	pm_runtime_set_autosuspend_delay(&pdev->dev, DW_SPI_MMIO_AUTOSUSPEND_MS);
+	pm_runtime_use_autosuspend(&pdev->dev);
 	pm_runtime_enable(&pdev->dev);
 
 	ret = dw_spi_add_host(&pdev->dev, dws);
@@ -393,6 +398,7 @@ static int dw_spi_mmio_probe(struct platform_device *pdev)
 
 out:
 	pm_runtime_disable(&pdev->dev);
+	pm_runtime_dont_use_autosuspend(&pdev->dev);
 out_reset:
 	reset_control_assert(dwsmmio->rstc);
 
@@ -405,6 +411,7 @@ static void dw_spi_mmio_remove(struct platform_device *pdev)
 
 	dw_spi_remove_host(&dwsmmio->dws);
 	pm_runtime_disable(&pdev->dev);
+	pm_runtime_dont_use_autosuspend(&pdev->dev);
 	reset_control_assert(dwsmmio->rstc);
 }
 

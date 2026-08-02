@@ -224,7 +224,8 @@ int can_rx_offload_queue_timestamp(struct can_rx_offload *offload,
 {
 	struct can_rx_offload_cb *cb;
 
-	if (skb_queue_len(&offload->skb_queue) >
+	if (skb_queue_len(&offload->skb_irq_queue) +
+	    skb_queue_len(&offload->skb_queue) >
 	    offload->skb_queue_len_max) {
 		dev_kfree_skb_any(skb);
 		return -ENOBUFS;
@@ -268,7 +269,8 @@ EXPORT_SYMBOL_GPL(can_rx_offload_get_echo_skb_queue_timestamp);
 int can_rx_offload_queue_tail(struct can_rx_offload *offload,
 			      struct sk_buff *skb)
 {
-	if (skb_queue_len(&offload->skb_queue) >
+	if (skb_queue_len(&offload->skb_irq_queue) +
+	    skb_queue_len(&offload->skb_queue) >
 	    offload->skb_queue_len_max) {
 		dev_kfree_skb_any(skb);
 		return -ENOBUFS;

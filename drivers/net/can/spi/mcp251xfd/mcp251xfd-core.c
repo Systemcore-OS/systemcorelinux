@@ -33,13 +33,13 @@ static const struct mcp251xfd_devtype_data mcp251xfd_devtype_data_mcp2517fd = {
 };
 
 static const struct mcp251xfd_devtype_data mcp251xfd_devtype_data_mcp2518fd = {
-	.quirks = MCP251XFD_QUIRK_CRC_REG | MCP251XFD_QUIRK_CRC_RX |
+	.quirks = MCP251XFD_QUIRK_CRC_REG |
 		MCP251XFD_QUIRK_CRC_TX | MCP251XFD_QUIRK_ECC,
 	.model = MCP251XFD_MODEL_MCP2518FD,
 };
 
 static const struct mcp251xfd_devtype_data mcp251xfd_devtype_data_mcp251863 = {
-	.quirks = MCP251XFD_QUIRK_CRC_REG | MCP251XFD_QUIRK_CRC_RX |
+	.quirks = MCP251XFD_QUIRK_CRC_REG |
 		MCP251XFD_QUIRK_CRC_TX | MCP251XFD_QUIRK_ECC,
 	.model = MCP251XFD_MODEL_MCP251863,
 };
@@ -917,16 +917,22 @@ static int mcp251xfd_handle_rxovif(struct mcp251xfd_priv *priv)
 	u32 ts_raw, rxovif;
 	int err, i;
 
-	stats->rx_over_errors++;
-	stats->rx_errors++;
-
-	err = regmap_read(priv->map_reg, MCP251XFD_REG_RXOVIF, &rxovif);
-	if (err)
-		return err;
+	if (priv->rx_ring_num == 1) {
+		rxovif = BIT(priv->rx[0]->fifo_nr);
+	} else {
+		err = regmap_read(priv->map_reg, MCP251XFD_REG_RXOVIF,
+				  &rxovif);
+		if (err)
+			return err;
+	}
 
 	mcp251xfd_for_each_rx_ring(priv, ring, i) {
 		if (!(rxovif & BIT(ring->fifo_nr)))
 			continue;
+
+		stats->rx_over_errors++;
+		stats->rx_errors++;
+		stats->rx_fifo_errors++;
 
 		/* If SERRIF is active, there was a RX MAB overflow. */
 		if (priv->regs_status.intf & MCP251XFD_REG_INT_SERRIF) {
@@ -941,10 +947,9 @@ static int mcp251xfd_handle_rxovif(struct mcp251xfd_priv *priv)
 					   ring->nr);
 		}
 
-		err = regmap_update_bits(priv->map_reg,
-					 MCP251XFD_REG_FIFOSTA(ring->fifo_nr),
-					 MCP251XFD_REG_FIFOSTA_RXOVIF,
-					 0x0);
+		err = regmap_write(priv->map_reg,
+				   MCP251XFD_REG_FIFOSTA(ring->fifo_nr),
+				   0x0);
 		if (err)
 			return err;
 	}
@@ -1600,6 +1605,8 @@ static irqreturn_t mcp251xfd_irq(int irq, void *dev_id)
 		}
 
 		handled = IRQ_HANDLED;
+
+		can_rx_offload_threaded_irq_finish(&priv->offload);
 	} while (1);
 
 out_fail:

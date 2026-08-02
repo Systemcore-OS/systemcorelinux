@@ -448,6 +448,7 @@ const struct can_ram_config mcp251xfd_ram_config = {
 		.def[CAN_RAM_MODE_CANFD] = CAN_RAM_NUM_MAX,
 		.fifo_num = MCP251XFD_FIFO_RX_NUM,
 		.fifo_depth_min = MCP251XFD_RX_FIFO_DEPTH_MIN,
+		.any_size = true,
 		.fifo_depth_coalesce_min = MCP251XFD_RX_FIFO_DEPTH_COALESCE_MIN,
 	},
 	.tx = {
@@ -522,8 +523,7 @@ int mcp251xfd_ring_alloc(struct mcp251xfd_priv *priv)
 			rx_obj_num = min_t(u8, priv->rx_obj_num_coalesce_irq * 2,
 					   MCP251XFD_FIFO_DEPTH);
 		else
-			rx_obj_num = min_t(u8, rounddown_pow_of_two(rem),
-					   MCP251XFD_FIFO_DEPTH);
+			rx_obj_num = min_t(u8, rem, MCP251XFD_FIFO_DEPTH);
 		rem -= rx_obj_num;
 
 		rx_ring = kzalloc(sizeof(*rx_ring) + rx_obj_size * rx_obj_num,
@@ -534,8 +534,6 @@ int mcp251xfd_ring_alloc(struct mcp251xfd_priv *priv)
 		}
 
 		rx_ring->obj_num = rx_obj_num;
-		rx_ring->obj_num_shift_to_u8 = BITS_PER_TYPE(rx_ring->obj_num_shift_to_u8) -
-			ilog2(rx_obj_num);
 		rx_ring->obj_size = rx_obj_size;
 		priv->rx[i] = rx_ring;
 	}

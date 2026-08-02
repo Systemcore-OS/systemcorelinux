@@ -1,2 +1,11 @@
 /home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0002-canbus.patch
 /home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0010-uvcvideo-bandwidth-quirk-max-mbps.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0011-can-mcp251xfd-deliver-rx-frames-per-irq-loop-iteration.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0012-can-rx-offload-enforce-queue-limit-against-staging-queue.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0013-can-mcp251xfd-count-rx-fifo-overflow-per-fifo.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0014-can-mcp251xfd-support-non-power-of-two-rx-coalescing.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0015-can-mcp251xfd-reduce-spi-transactions-in-rx-overflow-path.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0016-can-mcp251xfd-handle-tefif-bail-out-if-no-tef-objects-pending.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0017-spi-dw-use-runtime-pm-autosuspend.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0021-can-mcp251xfd-restrict-rx-to-single-fifo-lock-ring-layout.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0022-can-mcp251xfd-plain-reads-for-committed-rx-tef-ram.patch
