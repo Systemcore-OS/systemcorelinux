@@ -25,9 +25,40 @@
 
 #include "uvcvideo.h"
 
-/* 1 = enable 4-camera compressed-format payload clamp; 0 = off. */
-static int bandwidth_quirk_4cam;
-module_param(bandwidth_quirk_4cam, int, 0660);
+/* Basic systemcore-friendly heuristic: cap compressed isoch payloads at
+ * alt 4 (1600 B/uframe) for fps > 80, alt 3 (800) for fps <= 80. */
+static unsigned int ll_compressed_payload_fast = 1600;
+module_param(ll_compressed_payload_fast, uint, 0660);
+static unsigned int ll_compressed_payload_slow = 800;
+module_param(ll_compressed_payload_slow, uint, 0660);
+static unsigned int ll_compressed_fps_split = 80;
+module_param(ll_compressed_fps_split, uint, 0660);
+
+static void uvc_ll_cap_compressed_payload(struct uvc_streaming *stream,
+					  const struct uvc_format *format,
+					  struct uvc_streaming_control *ctrl)
+{
+	u32 cap = ll_compressed_payload_fast;
+
+	if (!(format->flags & UVC_FMT_FLAG_COMPRESSED))
+		return;
+	if (!(stream->dev->quirks & UVC_QUIRK_FIX_BANDWIDTH))
+		return;
+	if (stream->intf->num_altsetting <= 1 || !cap)
+		return;
+
+	/* fps <= split <=> dwFrameInterval (100ns units) >= 10^7 / split. */
+	if (ll_compressed_payload_slow && ll_compressed_fps_split &&
+	    ctrl->dwFrameInterval >= 10000000U / ll_compressed_fps_split)
+		cap = ll_compressed_payload_slow;
+
+	if (ctrl->dwMaxPayloadTransferSize <= cap)
+		return;
+
+	uvc_dbg(stream->dev, VIDEO, "LL payload cap %u -> %u (interval %u)\n",
+		ctrl->dwMaxPayloadTransferSize, cap, ctrl->dwFrameInterval);
+	ctrl->dwMaxPayloadTransferSize = cap;
+}
 
 /* ------------------------------------------------------------------------
  * UVC Controls
@@ -262,20 +293,8 @@ static void uvc_fixup_video_ctrl(struct uvc_streaming *stream,
 
 		ctrl->dwMaxPayloadTransferSize = bandwidth;
 	}
-	else if ((format->flags & UVC_FMT_FLAG_COMPRESSED) &&
-	    stream->dev->quirks & UVC_QUIRK_FIX_BANDWIDTH &&
-	    stream->intf->num_altsetting > 1 &&
-	    bandwidth_quirk_4cam) {
-		u32 max_payload = 800; /* B/uframe -> isoch alt 3 (~51 Mbps), fits 4 cams */
 
-		if (ctrl->dwMaxPayloadTransferSize > max_payload) {
-			u32 prior = ctrl->dwMaxPayloadTransferSize;
-
-			ctrl->dwMaxPayloadTransferSize = max_payload;
-			uvc_dbg(stream->dev, VIDEO,
-				"clamp %u -> %u\n", prior, max_payload);
-		}
-	}
+	uvc_ll_cap_compressed_payload(stream, format, ctrl);
 
 	if (stream->intf->num_altsetting > 1 &&
 	    ctrl->dwMaxPayloadTransferSize > stream->maxpsize) {

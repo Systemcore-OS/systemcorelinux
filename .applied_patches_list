@@ -1,5 +1,5 @@
 /home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0002-canbus.patch
-/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0010-uvcvideo-bandwidth-quirk-max-mbps.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0010-uvcvideo-limelight-compressed-payload-cap.patch
 /home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0011-can-mcp251xfd-deliver-rx-frames-per-irq-loop-iteration.patch
 /home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0012-can-rx-offload-enforce-queue-limit-against-staging-queue.patch
 /home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0013-can-mcp251xfd-count-rx-fifo-overflow-per-fifo.patch
