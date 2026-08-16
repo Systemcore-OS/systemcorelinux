@@ -25,20 +25,23 @@
 
 #include "uvcvideo.h"
 
-/* Basic systemcore-friendly heuristic: cap compressed isoch payloads at
- * alt 4 (1600 B/uframe) for fps > 80, alt 3 (800) for fps <= 80. */
 static unsigned int ll_compressed_payload_fast = 1600;
 module_param(ll_compressed_payload_fast, uint, 0660);
 static unsigned int ll_compressed_payload_slow = 800;
 module_param(ll_compressed_payload_slow, uint, 0660);
 static unsigned int ll_compressed_fps_split = 80;
 module_param(ll_compressed_fps_split, uint, 0660);
+static unsigned int ll_compressed_pixels_split = 1500000;
+module_param(ll_compressed_pixels_split, uint, 0660);
 
+/*Cap MJPEG isoch payload: fast alt for high fps and/or high-res modes, slow only for low-fps AND small (brio1080shows a large frame needs the bandwidth to arrive within its period even at low fps). */
 static void uvc_ll_cap_compressed_payload(struct uvc_streaming *stream,
 					  const struct uvc_format *format,
+					  const struct uvc_frame *frame,
 					  struct uvc_streaming_control *ctrl)
 {
 	u32 cap = ll_compressed_payload_fast;
+	u32 pixels;
 
 	if (!(format->flags & UVC_FMT_FLAG_COMPRESSED))
 		return;
@@ -47,16 +50,18 @@ static void uvc_ll_cap_compressed_payload(struct uvc_streaming *stream,
 	if (stream->intf->num_altsetting <= 1 || !cap)
 		return;
 
-	/* fps <= split <=> dwFrameInterval (100ns units) >= 10^7 / split. */
+	pixels = (u32)frame->wWidth * frame->wHeight;
+
 	if (ll_compressed_payload_slow && ll_compressed_fps_split &&
-	    ctrl->dwFrameInterval >= 10000000U / ll_compressed_fps_split)
+	    ctrl->dwFrameInterval >= 10000000U / ll_compressed_fps_split &&
+	    (!ll_compressed_pixels_split || pixels < ll_compressed_pixels_split))
 		cap = ll_compressed_payload_slow;
 
 	if (ctrl->dwMaxPayloadTransferSize <= cap)
 		return;
 
-	uvc_dbg(stream->dev, VIDEO, "LL payload cap %u -> %u (interval %u)\n",
-		ctrl->dwMaxPayloadTransferSize, cap, ctrl->dwFrameInterval);
+	uvc_dbg(stream->dev, VIDEO, "LL payload cap %u -> %u (interval %u, px %u)\n",
+		ctrl->dwMaxPayloadTransferSize, cap, ctrl->dwFrameInterval, pixels);
 	ctrl->dwMaxPayloadTransferSize = cap;
 }
 
@@ -294,7 +299,7 @@ static void uvc_fixup_video_ctrl(struct uvc_streaming *stream,
 		ctrl->dwMaxPayloadTransferSize = bandwidth;
 	}
 
-	uvc_ll_cap_compressed_payload(stream, format, ctrl);
+	uvc_ll_cap_compressed_payload(stream, format, frame, ctrl);
 
 	if (stream->intf->num_altsetting > 1 &&
 	    ctrl->dwMaxPayloadTransferSize > stream->maxpsize) {
