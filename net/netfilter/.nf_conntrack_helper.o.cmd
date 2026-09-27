@@ -1,4 +1,4 @@
-savedcmd_net/netfilter/nf_conntrack_helper.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/netfilter/.nf_conntrack_helper.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"nf_conntrack_helper"' -DKBUILD_MODNAME='"nf_conntrack"' -D__KBUILD_MODNAME=kmod_nf_conntrack -c -o net/netfilter/nf_conntrack_helper.o net/netfilter/nf_conntrack_helper.c  
+savedcmd_net/netfilter/nf_conntrack_helper.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/netfilter/.nf_conntrack_helper.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"nf_conntrack_helper"' -DKBUILD_MODNAME='"nf_conntrack"' -D__KBUILD_MODNAME=kmod_nf_conntrack -c -o net/netfilter/nf_conntrack_helper.o net/netfilter/nf_conntrack_helper.c  
 
 source_net/netfilter/nf_conntrack_helper.o := net/netfilter/nf_conntrack_helper.c
 
@@ -780,6 +780,11 @@ deps_net/netfilter/nf_conntrack_helper.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -947,7 +952,6 @@ deps_net/netfilter/nf_conntrack_helper.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -988,7 +992,6 @@ deps_net/netfilter/nf_conntrack_helper.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1207,14 +1210,11 @@ deps_net/netfilter/nf_conntrack_helper.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1679,22 +1679,22 @@ net/netfilter/nf_conntrack_helper.o: $(deps_net/netfilter/nf_conntrack_helper.o)
 $(deps_net/netfilter/nf_conntrack_helper.o):
 #SYMVER nf_ct_helper_hash 0x693c3961
 #SYMVER nf_ct_helper_hsize 0xc40f284c
-#SYMVER __nf_conntrack_helper_find 0x35be40ec
-#SYMVER nf_conntrack_helper_try_module_get 0x3c1d486b
-#SYMVER nf_conntrack_helper_put 0xa3f6c016
+#SYMVER __nf_conntrack_helper_find 0x6b83b551
+#SYMVER nf_conntrack_helper_try_module_get 0x786ffbba
+#SYMVER nf_conntrack_helper_put 0xc5a4a6fe
 #SYMVER nf_nat_helper_try_module_get 0x0bc00f80
-#SYMVER nf_nat_helper_put 0x438e06ca
-#SYMVER nf_ct_helper_ext_add 0xf21e0a1a
-#SYMVER __nf_ct_try_assign_helper 0xc3159ebf
-#SYMVER nf_ct_helper_expectfn_register 0x74ef704b
-#SYMVER nf_ct_helper_expectfn_unregister 0x2ecad180
-#SYMVER nf_ct_helper_expectfn_find_by_name 0xe1693962
-#SYMVER nf_ct_helper_expectfn_find_by_symbol 0x183619c9
-#SYMVER nf_ct_helper_log 0x06e773ce
-#SYMVER nf_conntrack_helper_register 0xc4ce5443
-#SYMVER nf_conntrack_helper_unregister 0xff32c8b4
-#SYMVER nf_ct_helper_init 0x69c93ce6
-#SYMVER nf_conntrack_helpers_register 0x58f33f6f
-#SYMVER nf_conntrack_helpers_unregister 0x4284e667
-#SYMVER nf_nat_helper_register 0x15fa3d67
-#SYMVER nf_nat_helper_unregister 0xd845232b
+#SYMVER nf_nat_helper_put 0xaf5a7651
+#SYMVER nf_ct_helper_ext_add 0x03e46f50
+#SYMVER __nf_ct_try_assign_helper 0x77239bad
+#SYMVER nf_ct_helper_expectfn_register 0x0fae563e
+#SYMVER nf_ct_helper_expectfn_unregister 0xe478b603
+#SYMVER nf_ct_helper_expectfn_find_by_name 0x9bf37cf3
+#SYMVER nf_ct_helper_expectfn_find_by_symbol 0x76da6d17
+#SYMVER nf_ct_helper_log 0x4917ac39
+#SYMVER nf_conntrack_helper_register 0x7b43d9e6
+#SYMVER nf_conntrack_helper_unregister 0x2419697d
+#SYMVER nf_ct_helper_init 0x9dc84b91
+#SYMVER nf_conntrack_helpers_register 0x7acac1c7
+#SYMVER nf_conntrack_helpers_unregister 0xb6d852bb
+#SYMVER nf_nat_helper_register 0x2b4b198a
+#SYMVER nf_nat_helper_unregister 0x7cedf204

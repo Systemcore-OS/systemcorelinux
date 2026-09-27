@@ -1,4 +1,4 @@
-savedcmd_fs/libfs.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.libfs.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"fs/libfs"' -DKBUILD_BASENAME='"libfs"' -DKBUILD_MODNAME='"libfs"' -D__KBUILD_MODNAME=kmod_libfs -c -o fs/libfs.o fs/libfs.c  
+savedcmd_fs/libfs.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.libfs.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/libfs"' -DKBUILD_BASENAME='"libfs"' -DKBUILD_MODNAME='"libfs"' -D__KBUILD_MODNAME=kmod_libfs -c -o fs/libfs.o fs/libfs.c  
 
 source_fs/libfs.o := fs/libfs.c
 
@@ -756,6 +756,11 @@ deps_fs/libfs.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -924,7 +929,6 @@ deps_fs/libfs.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -965,7 +969,6 @@ deps_fs/libfs.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1186,14 +1189,11 @@ deps_fs/libfs.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1380,62 +1380,62 @@ deps_fs/libfs.o := \
 fs/libfs.o: $(deps_fs/libfs.o)
 
 $(deps_fs/libfs.o):
-#SYMVER simple_getattr 0xc293e35d
-#SYMVER simple_statfs 0x1ca15a91
-#SYMVER always_delete_dentry 0xdc954067
-#SYMVER simple_dentry_operations 0x2497c399
-#SYMVER simple_lookup 0x3071ef50
-#SYMVER dcache_dir_open 0x871dc87a
-#SYMVER dcache_dir_close 0x9c0b35f1
-#SYMVER dcache_dir_lseek 0x873172ca
-#SYMVER dcache_readdir 0x710697e2
-#SYMVER generic_read_dir 0xb9f5d6c0
-#SYMVER simple_dir_operations 0x0e3e7bf7
-#SYMVER simple_dir_inode_operations 0x466e6ea8
-#SYMVER simple_recursive_removal 0xc9852305
-#SYMVER init_pseudo 0x837d2375
-#SYMVER simple_open 0x3db24fb2
-#SYMVER simple_link 0x33523d50
-#SYMVER simple_empty 0xd40ed0f8
-#SYMVER simple_unlink 0x46ce4b25
-#SYMVER simple_rmdir 0x76863458
-#SYMVER simple_rename_timestamp 0xcc92773d
-#SYMVER simple_rename_exchange 0x81229cab
-#SYMVER simple_rename 0x15ccfc65
-#SYMVER simple_setattr 0xf0d2315b
-#SYMVER simple_write_begin 0xda817be8
-#SYMVER ram_aops 0x8a983c82
-#SYMVER simple_fill_super 0x77be21b6
-#SYMVER simple_pin_fs 0x71dc7233
-#SYMVER simple_release_fs 0x75b9b93d
+#SYMVER simple_getattr 0xe7976717
+#SYMVER simple_statfs 0x73ae9614
+#SYMVER always_delete_dentry 0xdd0e5a35
+#SYMVER simple_dentry_operations 0xd2f9f689
+#SYMVER simple_lookup 0x5015e996
+#SYMVER dcache_dir_open 0x5ea29aad
+#SYMVER dcache_dir_close 0x6b50b117
+#SYMVER dcache_dir_lseek 0xa718e590
+#SYMVER dcache_readdir 0x42e286ac
+#SYMVER generic_read_dir 0xac1aff9c
+#SYMVER simple_dir_operations 0x39d9d611
+#SYMVER simple_dir_inode_operations 0xa92c6237
+#SYMVER simple_recursive_removal 0x7f556ca8
+#SYMVER init_pseudo 0x8aa36d7d
+#SYMVER simple_open 0xef902d9b
+#SYMVER simple_link 0xd2142424
+#SYMVER simple_empty 0xac0bc45f
+#SYMVER simple_unlink 0x46bc3dc1
+#SYMVER simple_rmdir 0x993e5a18
+#SYMVER simple_rename_timestamp 0x72c6f609
+#SYMVER simple_rename_exchange 0xbbdc9e10
+#SYMVER simple_rename 0x71bff153
+#SYMVER simple_setattr 0x3e664d38
+#SYMVER simple_write_begin 0xb72cecb9
+#SYMVER ram_aops 0x1de877f4
+#SYMVER simple_fill_super 0x610f65f7
+#SYMVER simple_pin_fs 0x12dcfc19
+#SYMVER simple_release_fs 0x8c243c06
 #SYMVER simple_read_from_buffer 0x619cb7dd
 #SYMVER simple_write_to_buffer 0xbb4f4766
 #SYMVER memory_read_from_buffer 0x65e0d6d7
-#SYMVER simple_transaction_set 0x5169959f
-#SYMVER simple_transaction_get 0x2ecbe886
-#SYMVER simple_transaction_read 0x867cf9d0
-#SYMVER simple_transaction_release 0xae5dc236
-#SYMVER simple_attr_open 0x931db8fd
-#SYMVER simple_attr_release 0x0f29a898
-#SYMVER simple_attr_read 0x479a06da
-#SYMVER simple_attr_write 0xf40c4a77
-#SYMVER simple_attr_write_signed 0x7640015b
-#SYMVER generic_encode_ino32_fh 0x0ffcf469
-#SYMVER generic_fh_to_dentry 0x27107f11
-#SYMVER generic_fh_to_parent 0x87760728
-#SYMVER __generic_file_fsync 0x8eb9bde4
-#SYMVER generic_file_fsync 0x139d9747
+#SYMVER simple_transaction_set 0x2f7433dd
+#SYMVER simple_transaction_get 0xfae48ea8
+#SYMVER simple_transaction_read 0x65c55678
+#SYMVER simple_transaction_release 0x8cfe96e1
+#SYMVER simple_attr_open 0x1006af69
+#SYMVER simple_attr_release 0xde5c8526
+#SYMVER simple_attr_read 0xc32bd0dd
+#SYMVER simple_attr_write 0x1bd59b56
+#SYMVER simple_attr_write_signed 0xb9d1d40f
+#SYMVER generic_encode_ino32_fh 0x1c51d082
+#SYMVER generic_fh_to_dentry 0x9eb94720
+#SYMVER generic_fh_to_parent 0x3edf3f19
+#SYMVER __generic_file_fsync 0xdf09dc9b
+#SYMVER generic_file_fsync 0xa8b7da9d
 #SYMVER generic_check_addressable 0xa095e02e
-#SYMVER noop_fsync 0xcc6dee37
-#SYMVER noop_direct_IO 0x073b6caa
+#SYMVER noop_fsync 0xb7a44fbd
+#SYMVER noop_direct_IO 0x13e1cee7
 #SYMVER kfree_link 0xb8b043f2
-#SYMVER alloc_anon_inode 0xf83c18e9
-#SYMVER simple_nosetlease 0x3e155a19
-#SYMVER simple_get_link 0x2507bba3
-#SYMVER simple_symlink_inode_operations 0xa7264432
-#SYMVER generic_ci_match 0x0e1501c1
-#SYMVER generic_set_sb_d_ops 0x45e3c2f2
-#SYMVER inode_maybe_inc_iversion 0x5736f80c
-#SYMVER inode_query_iversion 0x7b67e56e
-#SYMVER direct_write_fallback 0x23ff0a46
-#SYMVER simple_inode_init_ts 0x6f34b6e8
+#SYMVER alloc_anon_inode 0x4191ab0a
+#SYMVER simple_nosetlease 0xbb7867cd
+#SYMVER simple_get_link 0xfbbf0a4f
+#SYMVER simple_symlink_inode_operations 0xb9e59eca
+#SYMVER generic_ci_match 0xcaab0a9d
+#SYMVER generic_set_sb_d_ops 0x364bc22e
+#SYMVER inode_maybe_inc_iversion 0x457d8ca5
+#SYMVER inode_query_iversion 0xbdcc7fb5
+#SYMVER direct_write_fallback 0xcabdc965
+#SYMVER simple_inode_init_ts 0x59a6d144

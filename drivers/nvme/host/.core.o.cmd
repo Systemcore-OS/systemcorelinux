@@ -1,4 +1,4 @@
-savedcmd_drivers/nvme/host/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/nvme/host/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Idrivers/nvme/host    -DKBUILD_MODFILE='"drivers/nvme/host/nvme-core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"nvme_core"' -D__KBUILD_MODNAME=kmod_nvme_core -c -o drivers/nvme/host/core.o drivers/nvme/host/core.c  
+savedcmd_drivers/nvme/host/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/nvme/host/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Idrivers/nvme/host    -DKBUILD_MODFILE='"drivers/nvme/host/nvme-core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"nvme_core"' -D__KBUILD_MODNAME=kmod_nvme_core -c -o drivers/nvme/host/core.o drivers/nvme/host/core.c  
 
 source_drivers/nvme/host/core.o := drivers/nvme/host/core.c
 
@@ -709,6 +709,11 @@ deps_drivers/nvme/host/core.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -849,7 +854,6 @@ deps_drivers/nvme/host/core.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1061,7 +1065,6 @@ deps_drivers/nvme/host/core.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1232,14 +1235,11 @@ deps_drivers/nvme/host/core.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1626,57 +1626,57 @@ $(deps_drivers/nvme/host/core.o):
 #SYMVER nvme_wq 0x64b62862
 #SYMVER nvme_reset_wq 0x49224181
 #SYMVER nvme_delete_wq 0xd58bbbcb
-#SYMVER nvme_try_sched_reset 0x9017a397
-#SYMVER nvme_reset_ctrl 0x544d635e
-#SYMVER nvme_delete_ctrl 0xb3192a25
-#SYMVER nvme_complete_rq 0xc1d9bbb2
-#SYMVER nvme_complete_batch_req 0x73e512fb
-#SYMVER nvme_host_path_error 0x0633bbb0
-#SYMVER nvme_cancel_request 0x8d1167cc
-#SYMVER nvme_cancel_tagset 0xa9e5f395
-#SYMVER nvme_cancel_admin_tagset 0x0b7985bc
-#SYMVER nvme_change_ctrl_state 0xb718eab3
-#SYMVER nvme_wait_reset 0xea864163
-#SYMVER nvme_put_ns 0x3669a2ba
-#SYMVER nvme_init_request 0xb81d60a2
-#SYMVER nvme_fail_nonready_command 0x35dfaa79
-#SYMVER __nvme_check_ready 0x74064982
-#SYMVER nvme_cleanup_cmd 0x709216e0
-#SYMVER nvme_setup_cmd 0xb95c6403
-#SYMVER nvme_execute_rq 0xa4b3d2f9
-#SYMVER __nvme_submit_sync_cmd 0x128b1044
-#SYMVER nvme_submit_sync_cmd 0x4e28ade4
-#SYMVER nvme_command_effects 0xcb3e07a1
-#SYMVER nvme_passthru_start 0x113c8aab
-#SYMVER nvme_passthru_end 0x0a5fb4cc
-#SYMVER nvme_stop_keep_alive 0x727d004e
-#SYMVER nvme_set_features 0x5a48120d
-#SYMVER nvme_get_features 0xcfe8e28f
-#SYMVER nvme_set_queue_count 0x9e86598d
-#SYMVER nvme_disable_ctrl 0xac2f6bf8
-#SYMVER nvme_enable_ctrl 0x16ecf32e
-#SYMVER nvme_init_ctrl_finish 0x23c0dbca
-#SYMVER nvme_find_get_ns 0x1c265a66
-#SYMVER nvme_remove_namespaces 0x55107000
-#SYMVER nvme_complete_async_event 0xdb88cfdc
-#SYMVER nvme_alloc_admin_tag_set 0xa46360b4
-#SYMVER nvme_remove_admin_tag_set 0x5de97a31
-#SYMVER nvme_alloc_io_tag_set 0x93c30d17
-#SYMVER nvme_remove_io_tag_set 0x24ffee23
-#SYMVER nvme_stop_ctrl 0xe3a093f8
-#SYMVER nvme_start_ctrl 0xe24ba02b
-#SYMVER nvme_uninit_ctrl 0x57abcdc0
-#SYMVER nvme_init_ctrl 0x238f6dd3
-#SYMVER nvme_add_ctrl 0xb55ba7e7
-#SYMVER nvme_mark_namespaces_dead 0x23607cbd
-#SYMVER nvme_unfreeze 0x28927ea2
-#SYMVER nvme_wait_freeze_timeout 0x983b052d
-#SYMVER nvme_wait_freeze 0x998eb111
-#SYMVER nvme_start_freeze 0x07a3f80e
-#SYMVER nvme_quiesce_io_queues 0x3d3635cd
-#SYMVER nvme_unquiesce_io_queues 0x25bec89e
-#SYMVER nvme_quiesce_admin_queue 0x424d4b5f
-#SYMVER nvme_unquiesce_admin_queue 0x10d7d3e1
-#SYMVER nvme_sync_io_queues 0x27fbe2f5
-#SYMVER nvme_sync_queues 0xf28e0880
-#SYMVER nvme_ctrl_from_file 0x837842d0
+#SYMVER nvme_try_sched_reset 0xc5910042
+#SYMVER nvme_reset_ctrl 0x9951a456
+#SYMVER nvme_delete_ctrl 0xc2a18112
+#SYMVER nvme_complete_rq 0x2d130a54
+#SYMVER nvme_complete_batch_req 0x50f1b203
+#SYMVER nvme_host_path_error 0xdb51a114
+#SYMVER nvme_cancel_request 0xfffd4f98
+#SYMVER nvme_cancel_tagset 0x64092959
+#SYMVER nvme_cancel_admin_tagset 0x58ff9c86
+#SYMVER nvme_change_ctrl_state 0x95ab54c5
+#SYMVER nvme_wait_reset 0x211ee674
+#SYMVER nvme_put_ns 0x412b0e65
+#SYMVER nvme_init_request 0xe52ee4d8
+#SYMVER nvme_fail_nonready_command 0xdaa17cfc
+#SYMVER __nvme_check_ready 0xff1a68cb
+#SYMVER nvme_cleanup_cmd 0xb9cc5bfc
+#SYMVER nvme_setup_cmd 0x2d119c88
+#SYMVER nvme_execute_rq 0x6b101099
+#SYMVER __nvme_submit_sync_cmd 0x4c5779b6
+#SYMVER nvme_submit_sync_cmd 0x3d1d2629
+#SYMVER nvme_command_effects 0xe2e7384e
+#SYMVER nvme_passthru_start 0xad54e01d
+#SYMVER nvme_passthru_end 0xe1c5fce8
+#SYMVER nvme_stop_keep_alive 0x5dc1102d
+#SYMVER nvme_set_features 0x4849b055
+#SYMVER nvme_get_features 0xe380e7a1
+#SYMVER nvme_set_queue_count 0xc20e8e59
+#SYMVER nvme_disable_ctrl 0x94e7c424
+#SYMVER nvme_enable_ctrl 0xed68a1b2
+#SYMVER nvme_init_ctrl_finish 0x94b2c194
+#SYMVER nvme_find_get_ns 0xc09636c0
+#SYMVER nvme_remove_namespaces 0xc6943f53
+#SYMVER nvme_complete_async_event 0x4bd58b60
+#SYMVER nvme_alloc_admin_tag_set 0xdf67717b
+#SYMVER nvme_remove_admin_tag_set 0x06ec9f19
+#SYMVER nvme_alloc_io_tag_set 0x0cc9de0a
+#SYMVER nvme_remove_io_tag_set 0x00b5da11
+#SYMVER nvme_stop_ctrl 0x2e326f17
+#SYMVER nvme_start_ctrl 0x028c95c8
+#SYMVER nvme_uninit_ctrl 0xba59ff07
+#SYMVER nvme_init_ctrl 0x9a4b17d3
+#SYMVER nvme_add_ctrl 0xae2818e4
+#SYMVER nvme_mark_namespaces_dead 0x44979bac
+#SYMVER nvme_unfreeze 0x7460b3c9
+#SYMVER nvme_wait_freeze_timeout 0x0f04c08c
+#SYMVER nvme_wait_freeze 0xa5c38233
+#SYMVER nvme_start_freeze 0x93b99430
+#SYMVER nvme_quiesce_io_queues 0xf930d751
+#SYMVER nvme_unquiesce_io_queues 0x8e4ea6b4
+#SYMVER nvme_quiesce_admin_queue 0x51ccee76
+#SYMVER nvme_unquiesce_admin_queue 0x55c7df0b
+#SYMVER nvme_sync_io_queues 0x483a9a03
+#SYMVER nvme_sync_queues 0x008d5dd8
+#SYMVER nvme_ctrl_from_file 0xd1a4fafd

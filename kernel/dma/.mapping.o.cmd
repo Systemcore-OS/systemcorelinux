@@ -1,4 +1,4 @@
-savedcmd_kernel/dma/mapping.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/dma/.mapping.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"kernel/dma/mapping"' -DKBUILD_BASENAME='"mapping"' -DKBUILD_MODNAME='"mapping"' -D__KBUILD_MODNAME=kmod_mapping -c -o kernel/dma/mapping.o kernel/dma/mapping.c  
+savedcmd_kernel/dma/mapping.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/dma/.mapping.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"kernel/dma/mapping"' -DKBUILD_BASENAME='"mapping"' -DKBUILD_MODNAME='"mapping"' -D__KBUILD_MODNAME=kmod_mapping -c -o kernel/dma/mapping.o kernel/dma/mapping.c  
 
 source_kernel/dma/mapping.o := kernel/dma/mapping.c
 
@@ -598,6 +598,11 @@ deps_kernel/dma/mapping.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1079,7 +1084,6 @@ deps_kernel/dma/mapping.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1250,7 +1254,6 @@ deps_kernel/dma/mapping.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1361,7 +1364,6 @@ deps_kernel/dma/mapping.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/irq_work.h \
     $(wildcard include/config/IRQ_WORK) \
   arch/arm64/include/asm/irq_work.h \
@@ -1459,9 +1461,7 @@ deps_kernel/dma/mapping.o := \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/highmem-internal.h \
   include/linux/pagevec.h \
@@ -1490,38 +1490,38 @@ deps_kernel/dma/mapping.o := \
 kernel/dma/mapping.o: $(deps_kernel/dma/mapping.o)
 
 $(deps_kernel/dma/mapping.o):
-#SYMVER dmam_free_coherent 0x7cdef39f
-#SYMVER dmam_alloc_attrs 0x9e206e4c
-#SYMVER dma_map_page_attrs 0x3a99761f
-#SYMVER dma_unmap_page_attrs 0x1e4a4a02
-#SYMVER dma_map_sg_attrs 0x46a346bf
-#SYMVER dma_map_sgtable 0x0c87e5c1
-#SYMVER dma_unmap_sg_attrs 0xb66e23e4
-#SYMVER dma_map_resource 0x7cbcf037
-#SYMVER dma_unmap_resource 0xdf7b8116
-#SYMVER __dma_sync_single_for_cpu 0x72232855
-#SYMVER __dma_sync_single_for_device 0xea9ce155
-#SYMVER __dma_sync_sg_for_cpu 0x7e4772c6
-#SYMVER __dma_sync_sg_for_device 0xa1beab7e
-#SYMVER __dma_need_sync 0xec0e3ab0
-#SYMVER dma_get_sgtable_attrs 0x1b06c3d7
-#SYMVER dma_can_mmap 0x2cca42dc
-#SYMVER dma_mmap_attrs 0x67b0fab5
-#SYMVER dma_get_required_mask 0xdad6afd7
-#SYMVER dma_alloc_attrs 0x287b5e79
-#SYMVER dma_free_attrs 0xb666598e
-#SYMVER dma_alloc_pages 0x2e215510
-#SYMVER dma_free_pages 0xe601ff28
-#SYMVER dma_mmap_pages 0x06dcdbe5
-#SYMVER dma_alloc_noncontiguous 0x5bb8fdcc
-#SYMVER dma_free_noncontiguous 0x12d49aeb
-#SYMVER dma_vmap_noncontiguous 0x05cf7f8b
-#SYMVER dma_vunmap_noncontiguous 0x96f07671
-#SYMVER dma_mmap_noncontiguous 0x810c6c68
-#SYMVER dma_pci_p2pdma_supported 0x0c884f9b
-#SYMVER dma_set_mask 0x9f8e6057
-#SYMVER dma_set_coherent_mask 0x43e22eca
-#SYMVER dma_addressing_limited 0x1a8eb063
-#SYMVER dma_max_mapping_size 0x9401b237
-#SYMVER dma_opt_mapping_size 0xec332aa2
-#SYMVER dma_get_merge_boundary 0xff8a4246
+#SYMVER dmam_free_coherent 0xcbcef318
+#SYMVER dmam_alloc_attrs 0xeacce769
+#SYMVER dma_map_page_attrs 0xddd984a0
+#SYMVER dma_unmap_page_attrs 0xacdf59ae
+#SYMVER dma_map_sg_attrs 0x8b9bc7be
+#SYMVER dma_map_sgtable 0xe21a0d73
+#SYMVER dma_unmap_sg_attrs 0x26d5ac2d
+#SYMVER dma_map_resource 0xda977cf0
+#SYMVER dma_unmap_resource 0x8df81273
+#SYMVER __dma_sync_single_for_cpu 0x015877ad
+#SYMVER __dma_sync_single_for_device 0x4470bf76
+#SYMVER __dma_sync_sg_for_cpu 0x19036de4
+#SYMVER __dma_sync_sg_for_device 0xd39e94d0
+#SYMVER __dma_need_sync 0xdd91951f
+#SYMVER dma_get_sgtable_attrs 0x40aa74ae
+#SYMVER dma_can_mmap 0x8f248ab2
+#SYMVER dma_mmap_attrs 0x0fb38a5f
+#SYMVER dma_get_required_mask 0x97d531e4
+#SYMVER dma_alloc_attrs 0xdd6de16c
+#SYMVER dma_free_attrs 0x6ce96f0c
+#SYMVER dma_alloc_pages 0x8e1a6d4b
+#SYMVER dma_free_pages 0x36180a1b
+#SYMVER dma_mmap_pages 0xe3fb5a9d
+#SYMVER dma_alloc_noncontiguous 0x9d91cf3a
+#SYMVER dma_free_noncontiguous 0x5d5e367d
+#SYMVER dma_vmap_noncontiguous 0xb7f35861
+#SYMVER dma_vunmap_noncontiguous 0x4b1ef1ff
+#SYMVER dma_mmap_noncontiguous 0xbd904e86
+#SYMVER dma_pci_p2pdma_supported 0xf40b51d7
+#SYMVER dma_set_mask 0xc3845e0a
+#SYMVER dma_set_coherent_mask 0x0d9ca3da
+#SYMVER dma_addressing_limited 0xf49a085b
+#SYMVER dma_max_mapping_size 0xcd10f1f2
+#SYMVER dma_opt_mapping_size 0x4ba48ef5
+#SYMVER dma_get_merge_boundary 0xf29e5d49

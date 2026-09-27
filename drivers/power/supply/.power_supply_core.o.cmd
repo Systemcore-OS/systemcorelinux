@@ -1,4 +1,4 @@
-savedcmd_drivers/power/supply/power_supply_core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/power/supply/.power_supply_core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/power/supply/power_supply"' -DKBUILD_BASENAME='"power_supply_core"' -DKBUILD_MODNAME='"power_supply"' -D__KBUILD_MODNAME=kmod_power_supply -c -o drivers/power/supply/power_supply_core.o drivers/power/supply/power_supply_core.c  
+savedcmd_drivers/power/supply/power_supply_core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/power/supply/.power_supply_core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/power/supply/power_supply"' -DKBUILD_BASENAME='"power_supply_core"' -DKBUILD_MODNAME='"power_supply"' -D__KBUILD_MODNAME=kmod_power_supply -c -o drivers/power/supply/power_supply_core.o drivers/power/supply/power_supply_core.c  
 
 source_drivers/power/supply/power_supply_core.o := drivers/power/supply/power_supply_core.c
 
@@ -730,6 +730,10 @@ deps_drivers/power/supply/power_supply_core.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1037,18 +1041,18 @@ deps_drivers/power/supply/power_supply_core.o := \
 drivers/power/supply/power_supply_core.o: $(deps_drivers/power/supply/power_supply_core.o)
 
 $(deps_drivers/power/supply/power_supply_core.o):
-#SYMVER power_supply_for_each_device 0xe29e0bd3
-#SYMVER power_supply_changed 0xd237e95d
-#SYMVER power_supply_am_i_supplied 0x015dcba4
+#SYMVER power_supply_for_each_device 0xe0016f17
+#SYMVER power_supply_changed 0xc5b27eef
+#SYMVER power_supply_am_i_supplied 0xe2764591
 #SYMVER power_supply_is_system_supplied 0x2c208607
-#SYMVER power_supply_get_property_from_supplier 0xce0d4b58
-#SYMVER power_supply_set_battery_charged 0xef8f840b
-#SYMVER power_supply_get_by_name 0x99868cc0
-#SYMVER power_supply_put 0x00eddf22
-#SYMVER power_supply_get_by_phandle 0xec5eab03
-#SYMVER devm_power_supply_get_by_phandle 0x09fd3e79
-#SYMVER power_supply_get_battery_info 0xc9cc2657
-#SYMVER power_supply_put_battery_info 0xdcd2f79d
+#SYMVER power_supply_get_property_from_supplier 0x3ba9a934
+#SYMVER power_supply_set_battery_charged 0x459b8b48
+#SYMVER power_supply_get_by_name 0x8c6f22e1
+#SYMVER power_supply_put 0xdf52f4dd
+#SYMVER power_supply_get_by_phandle 0x8284586c
+#SYMVER devm_power_supply_get_by_phandle 0x6727cd16
+#SYMVER power_supply_get_battery_info 0x50f451f2
+#SYMVER power_supply_put_battery_info 0x9a0ca7bb
 #SYMVER power_supply_battery_info_properties 0xdf558314
 #SYMVER power_supply_battery_info_properties_size 0xb1dfecea
 #SYMVER power_supply_battery_info_has_prop 0xd61ee066
@@ -1060,16 +1064,16 @@ $(deps_drivers/power/supply/power_supply_core.o):
 #SYMVER power_supply_find_ocv2cap_table 0x9bfe18a4
 #SYMVER power_supply_batinfo_ocv2cap 0xd0931149
 #SYMVER power_supply_battery_bti_in_range 0x88f7bfb8
-#SYMVER power_supply_get_property 0xc1058cdb
-#SYMVER power_supply_set_property 0xccc442f1
-#SYMVER power_supply_property_is_writeable 0x1fd879cb
-#SYMVER power_supply_external_power_changed 0xa76f0a5c
-#SYMVER power_supply_powers 0x89da1c1d
+#SYMVER power_supply_get_property 0x828e6282
+#SYMVER power_supply_set_property 0x331ada75
+#SYMVER power_supply_property_is_writeable 0xf06061d9
+#SYMVER power_supply_external_power_changed 0xdadd02f6
+#SYMVER power_supply_powers 0x6e78ee7c
 #SYMVER power_supply_reg_notifier 0x136209db
 #SYMVER power_supply_unreg_notifier 0x6b81c38b
-#SYMVER power_supply_register 0xa3ec3c5e
-#SYMVER power_supply_register_no_ws 0xf769cfda
-#SYMVER devm_power_supply_register 0xb1077eb7
-#SYMVER devm_power_supply_register_no_ws 0xfacd3f9e
-#SYMVER power_supply_unregister 0x75f485f6
-#SYMVER power_supply_get_drvdata 0xe69c52c0
+#SYMVER power_supply_register 0x8ac1acb5
+#SYMVER power_supply_register_no_ws 0x3f280907
+#SYMVER devm_power_supply_register 0x27902385
+#SYMVER devm_power_supply_register_no_ws 0xaaf58f1d
+#SYMVER power_supply_unregister 0x4c856b1d
+#SYMVER power_supply_get_drvdata 0x48a78b90

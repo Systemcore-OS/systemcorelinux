@@ -1,4 +1,4 @@
-savedcmd_net/sunrpc/svc_xprt.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/sunrpc/.svc_xprt.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/sunrpc/sunrpc"' -DKBUILD_BASENAME='"svc_xprt"' -DKBUILD_MODNAME='"sunrpc"' -D__KBUILD_MODNAME=kmod_sunrpc -c -o net/sunrpc/svc_xprt.o net/sunrpc/svc_xprt.c  
+savedcmd_net/sunrpc/svc_xprt.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/sunrpc/.svc_xprt.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"svc_xprt"' -DKBUILD_MODNAME='"sunrpc"' -D__KBUILD_MODNAME=kmod_sunrpc -c -o net/sunrpc/svc_xprt.o net/sunrpc/svc_xprt.c  
 
 source_net/sunrpc/svc_xprt.o := net/sunrpc/svc_xprt.c
 
@@ -637,6 +637,11 @@ deps_net/sunrpc/svc_xprt.o := \
   include/linux/swait.h \
   include/linux/wait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -796,7 +801,6 @@ deps_net/sunrpc/svc_xprt.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1195,7 +1199,6 @@ deps_net/sunrpc/svc_xprt.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1348,14 +1351,11 @@ deps_net/sunrpc/svc_xprt.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1641,24 +1641,24 @@ deps_net/sunrpc/svc_xprt.o := \
 net/sunrpc/svc_xprt.o: $(deps_net/sunrpc/svc_xprt.o)
 
 $(deps_net/sunrpc/svc_xprt.o):
-#SYMVER svc_reg_xprt_class 0x590eed68
-#SYMVER svc_unreg_xprt_class 0x560b4fb8
-#SYMVER svc_xprt_deferred_close 0xf38ba180
-#SYMVER svc_xprt_put 0x00cafe20
-#SYMVER svc_xprt_init 0x543eb725
-#SYMVER svc_xprt_received 0x6395b986
-#SYMVER svc_xprt_create_from_sa 0x6d0f47f4
-#SYMVER svc_xprt_create 0x33f63680
-#SYMVER svc_xprt_copy_addrs 0x67e8cc0a
-#SYMVER svc_print_addr 0xc24db8c0
-#SYMVER svc_xprt_enqueue 0xe221f6b6
-#SYMVER svc_reserve 0xdd1026e8
-#SYMVER svc_wake_up 0x9d2529ed
-#SYMVER svc_recv 0x94c1e565
-#SYMVER svc_age_temp_xprts_now 0x762baaed
-#SYMVER svc_xprt_close 0xd16fb2af
-#SYMVER svc_xprt_destroy_all 0x0c17668b
-#SYMVER svc_find_listener 0xc0ad63c8
-#SYMVER svc_find_xprt 0x64a3b76e
-#SYMVER svc_xprt_names 0x24741318
-#SYMVER svc_pool_stats_open 0xd160406d
+#SYMVER svc_reg_xprt_class 0xf3ccc2a1
+#SYMVER svc_unreg_xprt_class 0x1a15e696
+#SYMVER svc_xprt_deferred_close 0x4cb9a1e9
+#SYMVER svc_xprt_put 0x89384e17
+#SYMVER svc_xprt_init 0x2fc77a94
+#SYMVER svc_xprt_received 0x95e085c2
+#SYMVER svc_xprt_create_from_sa 0x12c57df2
+#SYMVER svc_xprt_create 0xb3f6609e
+#SYMVER svc_xprt_copy_addrs 0xc9a9598f
+#SYMVER svc_print_addr 0xffbe2c24
+#SYMVER svc_xprt_enqueue 0xda22bf13
+#SYMVER svc_reserve 0xd80f32bc
+#SYMVER svc_wake_up 0xa30b452d
+#SYMVER svc_recv 0xd65b5bed
+#SYMVER svc_age_temp_xprts_now 0xa1ad8f8d
+#SYMVER svc_xprt_close 0xc18fa261
+#SYMVER svc_xprt_destroy_all 0x25fc830f
+#SYMVER svc_find_listener 0x3629f255
+#SYMVER svc_find_xprt 0x1af2206d
+#SYMVER svc_xprt_names 0x46061074
+#SYMVER svc_pool_stats_open 0xac0da987

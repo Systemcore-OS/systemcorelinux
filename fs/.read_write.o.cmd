@@ -1,4 +1,4 @@
-savedcmd_fs/read_write.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.read_write.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"fs/read_write"' -DKBUILD_BASENAME='"read_write"' -DKBUILD_MODNAME='"read_write"' -D__KBUILD_MODNAME=kmod_read_write -c -o fs/read_write.o fs/read_write.c  
+savedcmd_fs/read_write.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.read_write.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/read_write"' -DKBUILD_BASENAME='"read_write"' -DKBUILD_MODNAME='"read_write"' -D__KBUILD_MODNAME=kmod_read_write -c -o fs/read_write.o fs/read_write.c  
 
 source_fs/read_write.o := fs/read_write.c
 
@@ -560,6 +560,11 @@ deps_fs/read_write.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1093,7 +1098,6 @@ deps_fs/read_write.o := \
     $(wildcard include/config/MODULE_SIG) \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1220,7 +1224,6 @@ deps_fs/read_write.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1326,14 +1329,11 @@ deps_fs/read_write.o := \
   arch/arm64/include/generated/asm/trace_clock.h \
   include/asm-generic/trace_clock.h \
   arch/arm64/include/asm/ftrace.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1398,26 +1398,26 @@ deps_fs/read_write.o := \
 fs/read_write.o: $(deps_fs/read_write.o)
 
 $(deps_fs/read_write.o):
-#SYMVER generic_ro_fops 0x34bbe475
-#SYMVER vfs_setpos 0xc56115fe
-#SYMVER generic_file_llseek_size 0x8236ccd7
-#SYMVER generic_llseek_cookie 0xae1f22e6
-#SYMVER generic_file_llseek 0x9308a3ec
-#SYMVER fixed_size_llseek 0xce0e8754
-#SYMVER no_seek_end_llseek 0xe6c10c6a
-#SYMVER no_seek_end_llseek_size 0x915e44b9
-#SYMVER noop_llseek 0x13b429f0
-#SYMVER default_llseek 0x4edcf26c
-#SYMVER vfs_llseek 0xd9818ded
-#SYMVER rw_verify_area 0x38841dfe
-#SYMVER kernel_read 0x5922db14
-#SYMVER __kernel_write 0xd29b5c1e
-#SYMVER kernel_write 0xaa45d183
-#SYMVER vfs_iocb_iter_read 0xb8985025
-#SYMVER vfs_iter_read 0x9103227d
-#SYMVER vfs_iocb_iter_write 0xe84a6d39
-#SYMVER vfs_iter_write 0x24e55d67
-#SYMVER vfs_copy_file_range 0xbee3e903
-#SYMVER generic_write_check_limits 0x8422f1b4
-#SYMVER generic_write_checks_count 0x89ca2e7b
-#SYMVER generic_write_checks 0x20d1ee8b
+#SYMVER generic_ro_fops 0xccb941d4
+#SYMVER vfs_setpos 0xa92d7d64
+#SYMVER generic_file_llseek_size 0x3d63f6fe
+#SYMVER generic_llseek_cookie 0xf34a060a
+#SYMVER generic_file_llseek 0x80e84062
+#SYMVER fixed_size_llseek 0x70d56894
+#SYMVER no_seek_end_llseek 0x5a69ba54
+#SYMVER no_seek_end_llseek_size 0x78df7e22
+#SYMVER noop_llseek 0xa999f095
+#SYMVER default_llseek 0x3c7b70be
+#SYMVER vfs_llseek 0x752d68fa
+#SYMVER rw_verify_area 0x5c4f7523
+#SYMVER kernel_read 0xada8945a
+#SYMVER __kernel_write 0xb8d5891f
+#SYMVER kernel_write 0x8e7f967e
+#SYMVER vfs_iocb_iter_read 0xed893a03
+#SYMVER vfs_iter_read 0xb8a22370
+#SYMVER vfs_iocb_iter_write 0x37307030
+#SYMVER vfs_iter_write 0xe76bb3b5
+#SYMVER vfs_copy_file_range 0x9a45f84e
+#SYMVER generic_write_check_limits 0x32d36177
+#SYMVER generic_write_checks_count 0x38d4c333
+#SYMVER generic_write_checks 0xf058ced9

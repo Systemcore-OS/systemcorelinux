@@ -199,32 +199,34 @@ pcm_iec958.o: sound/core/pcm_iec958.c include/linux/compiler-version.h \
  include/linux/mm_types.h include/linux/auxvec.h \
  include/uapi/linux/auxvec.h arch/arm64/include/uapi/asm/auxvec.h \
  include/linux/kref.h include/linux/rbtree.h include/linux/maple_tree.h \
- include/linux/rwsem.h include/linux/uprobes.h include/linux/workqueue.h \
- include/linux/timer.h include/linux/debugobjects.h \
- include/linux/workqueue_types.h include/linux/percpu_counter.h \
- arch/arm64/include/asm/mmu.h include/linux/page-flags.h \
- include/linux/local_lock.h include/linux/local_lock_internal.h \
- include/linux/zswap.h include/linux/memory_hotplug.h \
- include/linux/notifier.h include/linux/srcu.h \
- include/linux/rcu_segcblist.h include/linux/srcutree.h \
- include/linux/rcu_node_tree.h arch/arm64/include/generated/asm/mmzone.h \
- include/asm-generic/mmzone.h include/linux/topology.h \
- include/linux/arch_topology.h arch/arm64/include/asm/topology.h \
- arch/arm64/include/asm/numa.h include/asm-generic/numa.h \
- include/asm-generic/topology.h include/linux/kconfig.h \
- include/linux/sched/mm.h include/linux/sync_core.h \
- include/linux/sched/coredump.h include/linux/radix-tree.h \
- include/linux/pid.h include/linux/capability.h \
- include/uapi/linux/capability.h include/linux/semaphore.h \
- include/linux/fcntl.h include/uapi/linux/fcntl.h \
- arch/arm64/include/uapi/asm/fcntl.h include/uapi/asm-generic/fcntl.h \
- include/uapi/linux/openat2.h include/linux/migrate_mode.h \
- include/linux/percpu-rwsem.h include/linux/rcuwait.h \
- include/linux/sched/signal.h include/linux/signal.h \
- include/linux/sched/jobctl.h include/linux/sched/task.h \
- include/linux/uaccess.h include/linux/fault-inject-usercopy.h \
- include/linux/nospec.h arch/arm64/include/asm/uaccess.h \
- arch/arm64/include/asm/kernel-pgtable.h \
+ include/linux/rwsem.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
+ include/linux/workqueue.h include/linux/timer.h \
+ include/linux/debugobjects.h include/linux/workqueue_types.h \
+ include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
+ include/linux/page-flags.h include/linux/local_lock.h \
+ include/linux/local_lock_internal.h include/linux/zswap.h \
+ include/linux/memory_hotplug.h include/linux/notifier.h \
+ include/linux/srcu.h include/linux/rcu_segcblist.h \
+ include/linux/srcutree.h include/linux/rcu_node_tree.h \
+ arch/arm64/include/generated/asm/mmzone.h include/asm-generic/mmzone.h \
+ include/linux/topology.h include/linux/arch_topology.h \
+ arch/arm64/include/asm/topology.h arch/arm64/include/asm/numa.h \
+ include/asm-generic/numa.h include/asm-generic/topology.h \
+ include/linux/kconfig.h include/linux/sched/mm.h \
+ include/linux/sync_core.h include/linux/sched/coredump.h \
+ include/linux/radix-tree.h include/linux/pid.h \
+ include/linux/capability.h include/uapi/linux/capability.h \
+ include/linux/semaphore.h include/linux/fcntl.h \
+ include/uapi/linux/fcntl.h arch/arm64/include/uapi/asm/fcntl.h \
+ include/uapi/asm-generic/fcntl.h include/uapi/linux/openat2.h \
+ include/linux/migrate_mode.h include/linux/percpu-rwsem.h \
+ include/linux/rcuwait.h include/linux/sched/signal.h \
+ include/linux/signal.h include/linux/sched/jobctl.h \
+ include/linux/sched/task.h include/linux/uaccess.h \
+ include/linux/fault-inject-usercopy.h include/linux/nospec.h \
+ arch/arm64/include/asm/uaccess.h arch/arm64/include/asm/kernel-pgtable.h \
  arch/arm64/include/asm/asm-extable.h arch/arm64/include/asm/mte.h \
  arch/arm64/include/asm/extable.h include/asm-generic/access_ok.h \
  include/linux/cred.h include/linux/key.h include/linux/sysctl.h \

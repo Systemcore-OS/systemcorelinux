@@ -1,4 +1,4 @@
-savedcmd_sound/core/control.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/core/.control.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"control"' -DKBUILD_MODNAME='"snd"' -D__KBUILD_MODNAME=kmod_snd -c -o sound/core/control.o sound/core/control.c  
+savedcmd_sound/core/control.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/core/.control.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"control"' -DKBUILD_MODNAME='"snd"' -D__KBUILD_MODNAME=kmod_snd -c -o sound/core/control.o sound/core/control.c  
 
 source_sound/core/control.o := sound/core/control.c
 
@@ -711,6 +711,10 @@ deps_sound/core/control.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -907,7 +911,6 @@ deps_sound/core/control.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1203,27 +1206,27 @@ deps_sound/core/control.o := \
 sound/core/control.o: $(deps_sound/core/control.o)
 
 $(deps_sound/core/control.o):
-#SYMVER snd_ctl_notify 0x89246b3a
-#SYMVER snd_ctl_notify_one 0x7bef988c
-#SYMVER snd_ctl_new1 0x65682dbf
-#SYMVER snd_ctl_free_one 0xd2a99062
-#SYMVER snd_ctl_add 0xa92895e0
-#SYMVER snd_ctl_replace 0x6f17201c
-#SYMVER snd_ctl_remove 0x27304554
-#SYMVER snd_ctl_remove_id 0x30f11e16
-#SYMVER snd_ctl_activate_id 0xfb4dccab
-#SYMVER snd_ctl_rename_id 0x6d6f499a
-#SYMVER snd_ctl_rename 0x8b0322f3
-#SYMVER snd_ctl_find_numid 0x303aa1a0
-#SYMVER snd_ctl_find_id 0xb90b458b
-#SYMVER snd_ctl_register_ioctl 0x2a4ec1fe
-#SYMVER snd_ctl_register_ioctl_compat 0xce41254d
-#SYMVER snd_ctl_unregister_ioctl 0xd7247056
-#SYMVER snd_ctl_unregister_ioctl_compat 0xcc1dd902
-#SYMVER snd_ctl_get_preferred_subdevice 0x452538e1
+#SYMVER snd_ctl_notify 0x4aa45165
+#SYMVER snd_ctl_notify_one 0x19b8830b
+#SYMVER snd_ctl_new1 0x7b5d8493
+#SYMVER snd_ctl_free_one 0xb5a60de3
+#SYMVER snd_ctl_add 0x65b8347e
+#SYMVER snd_ctl_replace 0xfe18756b
+#SYMVER snd_ctl_remove 0xda5fdc83
+#SYMVER snd_ctl_remove_id 0xf6624bfe
+#SYMVER snd_ctl_activate_id 0x01aff197
+#SYMVER snd_ctl_rename_id 0x5eb7cce4
+#SYMVER snd_ctl_rename 0x66b7dd73
+#SYMVER snd_ctl_find_numid 0xc8f67b96
+#SYMVER snd_ctl_find_id 0xe4c55be1
+#SYMVER snd_ctl_register_ioctl 0xeeaf9365
+#SYMVER snd_ctl_register_ioctl_compat 0xd9892038
+#SYMVER snd_ctl_unregister_ioctl 0x6dbdfc4e
+#SYMVER snd_ctl_unregister_ioctl_compat 0x085d2de6
+#SYMVER snd_ctl_get_preferred_subdevice 0x2d92007b
 #SYMVER snd_ctl_request_layer 0xfaf598c6
-#SYMVER snd_ctl_register_layer 0xd6a7d036
-#SYMVER snd_ctl_disconnect_layer 0x9e292f31
-#SYMVER snd_ctl_boolean_mono_info 0xb818b834
-#SYMVER snd_ctl_boolean_stereo_info 0x92bc5d11
+#SYMVER snd_ctl_register_layer 0xf4159592
+#SYMVER snd_ctl_disconnect_layer 0x57a9baa1
+#SYMVER snd_ctl_boolean_mono_info 0x6b229fae
+#SYMVER snd_ctl_boolean_stereo_info 0xfa528a5d
 #SYMVER snd_ctl_enum_info 0xcc6a729f

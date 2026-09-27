@@ -178,6 +178,8 @@ dm-audit.o: drivers/md/dm-audit.c include/linux/compiler-version.h \
  include/linux/kref.h include/linux/rbtree.h include/linux/maple_tree.h \
  include/linux/rwsem.h include/linux/completion.h include/linux/swait.h \
  include/linux/wait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/page-flags-layout.h include/generated/bounds.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
@@ -297,9 +299,8 @@ dm-audit.o: drivers/md/dm-audit.c include/linux/compiler-version.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
  include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
  arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h arch/arm64/include/asm/esr.h \
- include/asm-generic/hardirq.h include/linux/irq.h \
- include/linux/irqhandler.h include/linux/io.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -310,23 +311,22 @@ dm-audit.o: drivers/md/dm-audit.c include/linux/compiler-version.h \
  include/linux/trace_clock.h \
  arch/arm64/include/generated/asm/trace_clock.h \
  include/asm-generic/trace_clock.h include/linux/kallsyms.h \
- arch/arm64/include/asm/ftrace.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- include/linux/kmsan.h include/linux/dma-direction.h \
- include/linux/highmem-internal.h include/linux/device.h \
- include/linux/dev_printk.h include/linux/energy_model.h \
- include/linux/sched/cpufreq.h include/linux/sched/topology.h \
- include/linux/sched/idle.h include/linux/sched/sd_flags.h \
- include/linux/klist.h include/linux/pm.h include/linux/device/bus.h \
- include/linux/device/class.h include/linux/device/devres.h \
- include/linux/device/driver.h arch/arm64/include/asm/device.h \
- include/linux/pm_wakeup.h include/linux/blkdev.h \
- include/uapi/linux/blkzoned.h include/linux/sbitmap.h \
- include/linux/file.h include/uapi/linux/dm-ioctl.h drivers/md/dm-audit.h \
- drivers/md/dm-core.h include/linux/kthread.h include/linux/blk-mq.h \
+ arch/arm64/include/asm/ftrace.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/dma-direction.h include/linux/highmem-internal.h \
+ include/linux/device.h include/linux/dev_printk.h \
+ include/linux/energy_model.h include/linux/sched/cpufreq.h \
+ include/linux/sched/topology.h include/linux/sched/idle.h \
+ include/linux/sched/sd_flags.h include/linux/klist.h include/linux/pm.h \
+ include/linux/device/bus.h include/linux/device/class.h \
+ include/linux/device/devres.h include/linux/device/driver.h \
+ arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
+ include/linux/blkdev.h include/uapi/linux/blkzoned.h \
+ include/linux/sbitmap.h include/linux/file.h \
+ include/uapi/linux/dm-ioctl.h drivers/md/dm-audit.h drivers/md/dm-core.h \
+ include/linux/kthread.h include/linux/blk-mq.h \
  include/linux/scatterlist.h include/linux/prefetch.h \
  include/linux/blk-crypto-profile.h include/linux/blk-crypto.h \
  include/trace/events/block.h include/linux/blktrace_api.h \

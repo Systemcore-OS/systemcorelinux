@@ -195,14 +195,15 @@ kprobes.o: kernel/kprobes.c include/linux/compiler-version.h \
  include/uapi/linux/auxvec.h arch/arm64/include/uapi/asm/auxvec.h \
  include/linux/kref.h include/linux/refcount.h include/linux/rbtree.h \
  include/linux/maple_tree.h include/linux/uprobes.h \
- include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
- include/linux/page-flags.h include/linux/local_lock.h \
- include/linux/local_lock_internal.h include/linux/zswap.h \
- include/linux/memory_hotplug.h arch/arm64/include/generated/asm/mmzone.h \
- include/asm-generic/mmzone.h arch/arm64/include/asm/topology.h \
- arch/arm64/include/asm/numa.h include/asm-generic/numa.h \
- include/asm-generic/topology.h include/linux/io.h \
- arch/arm64/include/asm/io.h include/linux/pgtable.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/probes.h include/linux/percpu_counter.h \
+ arch/arm64/include/asm/mmu.h include/linux/page-flags.h \
+ include/linux/local_lock.h include/linux/local_lock_internal.h \
+ include/linux/zswap.h include/linux/memory_hotplug.h \
+ arch/arm64/include/generated/asm/mmzone.h include/asm-generic/mmzone.h \
+ arch/arm64/include/asm/topology.h arch/arm64/include/asm/numa.h \
+ include/asm-generic/numa.h include/asm-generic/topology.h \
+ include/linux/io.h arch/arm64/include/asm/io.h include/linux/pgtable.h \
  arch/arm64/include/asm/pgtable.h arch/arm64/include/asm/proc-fns.h \
  arch/arm64/include/asm/mte.h arch/arm64/include/asm/tlbflush.h \
  include/linux/mmu_notifier.h include/linux/mmap_lock.h \
@@ -299,10 +300,9 @@ kprobes.o: kernel/kprobes.c include/linux/compiler-version.h \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h include/linux/freezer.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h include/linux/freezer.h \
  include/linux/seq_file.h include/linux/string_helpers.h \
  include/linux/ctype.h include/linux/string_choices.h \
  include/linux/debugfs.h include/linux/kdebug.h \
@@ -343,11 +343,10 @@ kprobes.o: kernel/kprobes.c include/linux/compiler-version.h \
  include/linux/backing-dev-defs.h include/linux/blk_types.h \
  include/linux/bvec.h include/linux/highmem.h include/linux/cacheflush.h \
  arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
- arch/arm64/include/asm/kgdb.h arch/arm64/include/asm/debug-monitors.h \
- include/asm-generic/cacheflush.h include/linux/kmsan.h \
- include/linux/dma-direction.h include/linux/highmem-internal.h \
- include/linux/pagevec.h include/linux/bio.h include/linux/mempool.h \
- include/linux/cfi.h arch/arm64/include/generated/asm/cfi.h \
- include/asm-generic/cfi.h include/linux/bpf_types.h \
- include/uapi/linux/lsm.h include/linux/execmem.h \
- include/linux/moduleloader.h
+ arch/arm64/include/asm/kgdb.h include/asm-generic/cacheflush.h \
+ include/linux/kmsan.h include/linux/dma-direction.h \
+ include/linux/highmem-internal.h include/linux/pagevec.h \
+ include/linux/bio.h include/linux/mempool.h include/linux/cfi.h \
+ arch/arm64/include/generated/asm/cfi.h include/asm-generic/cfi.h \
+ include/linux/bpf_types.h include/uapi/linux/lsm.h \
+ include/linux/execmem.h include/linux/moduleloader.h

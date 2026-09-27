@@ -1,4 +1,4 @@
-savedcmd_fs/dcache.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.dcache.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"fs/dcache"' -DKBUILD_BASENAME='"dcache"' -DKBUILD_MODNAME='"dcache"' -D__KBUILD_MODNAME=kmod_dcache -c -o fs/dcache.o fs/dcache.c  
+savedcmd_fs/dcache.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.dcache.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/dcache"' -DKBUILD_BASENAME='"dcache"' -DKBUILD_MODNAME='"dcache"' -D__KBUILD_MODNAME=kmod_dcache -c -o fs/dcache.o fs/dcache.c  
 
 source_fs/dcache.o := fs/dcache.c
 
@@ -699,6 +699,11 @@ deps_fs/dcache.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1095,7 +1100,6 @@ deps_fs/dcache.o := \
     $(wildcard include/config/MODULE_SIG) \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1222,7 +1226,6 @@ deps_fs/dcache.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1328,14 +1331,11 @@ deps_fs/dcache.o := \
   arch/arm64/include/generated/asm/trace_clock.h \
   include/asm-generic/trace_clock.h \
   arch/arm64/include/asm/ftrace.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1372,46 +1372,46 @@ fs/dcache.o: $(deps_fs/dcache.o)
 
 $(deps_fs/dcache.o):
 #SYMVER sysctl_vfs_cache_pressure 0x82d79b51
-#SYMVER rename_lock 0xc616c473
+#SYMVER rename_lock 0xcfe0c3b8
 #SYMVER empty_name 0x4bef1c67
 #SYMVER slash_name 0x92b9b180
 #SYMVER dotdot_name 0xafc08054
-#SYMVER take_dentry_name_snapshot 0x19d2cdb8
+#SYMVER take_dentry_name_snapshot 0x183596de
 #SYMVER release_dentry_name_snapshot 0x62ede055
-#SYMVER __d_drop 0x1b23cedb
-#SYMVER d_drop 0x85e8722e
-#SYMVER d_mark_dontcache 0x84df01f7
-#SYMVER dput 0xfd9d84c3
-#SYMVER dget_parent 0x3becbec9
-#SYMVER d_find_any_alias 0x6e8e55fe
-#SYMVER d_find_alias 0x882c818f
-#SYMVER d_prune_aliases 0x6980820d
-#SYMVER shrink_dcache_sb 0x25674af1
-#SYMVER path_has_submounts 0xfdfdffab
-#SYMVER shrink_dcache_parent 0x61cf9ac9
-#SYMVER d_invalidate 0xfa32e929
-#SYMVER d_alloc 0xf7a8acd2
-#SYMVER d_alloc_anon 0x573ba1b5
-#SYMVER d_alloc_name 0xa79a124b
-#SYMVER d_set_d_op 0x9e428160
-#SYMVER d_instantiate 0xf0a906a2
-#SYMVER d_instantiate_new 0xe0ab1efc
-#SYMVER d_make_root 0x1a85d9e6
-#SYMVER d_obtain_alias 0x2230f39e
-#SYMVER d_obtain_root 0xe210073d
-#SYMVER d_add_ci 0x2c83302a
-#SYMVER d_same_name 0x36dd381d
-#SYMVER d_lookup 0x01eed04b
-#SYMVER d_hash_and_lookup 0x82b4ae8f
-#SYMVER d_delete 0xcc7c1d04
-#SYMVER d_rehash 0x5035c2e9
-#SYMVER d_alloc_parallel 0xb96a45a1
-#SYMVER __d_lookup_unhash_wake 0x5ed373ef
-#SYMVER d_add 0x01a956c6
-#SYMVER d_move 0x342154e4
-#SYMVER d_splice_alias 0xf118422f
-#SYMVER is_subdir 0x854cd059
-#SYMVER d_mark_tmpfile 0x1c346e4e
-#SYMVER d_tmpfile 0xc643a9e9
-#SYMVER d_parent_ino 0x80d6e347
+#SYMVER __d_drop 0x411d8d03
+#SYMVER d_drop 0xea680764
+#SYMVER d_mark_dontcache 0x4b2fcc92
+#SYMVER dput 0x82ea7862
+#SYMVER dget_parent 0x554037f6
+#SYMVER d_find_any_alias 0x809a22bc
+#SYMVER d_find_alias 0xe68008b0
+#SYMVER d_prune_aliases 0xae191b1c
+#SYMVER shrink_dcache_sb 0xaf54c97a
+#SYMVER path_has_submounts 0xa36184fa
+#SYMVER shrink_dcache_parent 0x69ba2fa7
+#SYMVER d_invalidate 0x1327f18c
+#SYMVER d_alloc 0xeaa5bb70
+#SYMVER d_alloc_anon 0x5b1586b9
+#SYMVER d_alloc_name 0x706a07bf
+#SYMVER d_set_d_op 0x7fb19e6e
+#SYMVER d_instantiate 0x30bb7b64
+#SYMVER d_instantiate_new 0x77e2fb24
+#SYMVER d_make_root 0xdd0a0171
+#SYMVER d_obtain_alias 0xee8a8c8a
+#SYMVER d_obtain_root 0x54188689
+#SYMVER d_add_ci 0x97f2e573
+#SYMVER d_same_name 0x50a1ec65
+#SYMVER d_lookup 0x95ea6bdc
+#SYMVER d_hash_and_lookup 0xaa17d860
+#SYMVER d_delete 0x53cc2bfa
+#SYMVER d_rehash 0x0f0dfbc2
+#SYMVER d_alloc_parallel 0xf3f022da
+#SYMVER __d_lookup_unhash_wake 0xbaa4f5ac
+#SYMVER d_add 0x832c68ec
+#SYMVER d_move 0x47de02e6
+#SYMVER d_splice_alias 0xeefa048e
+#SYMVER is_subdir 0x1186a0d1
+#SYMVER d_mark_tmpfile 0xd5a1e843
+#SYMVER d_tmpfile 0xa31bbe1a
+#SYMVER d_parent_ino 0x7cc9757d
 #SYMVER names_cachep 0x3096be16

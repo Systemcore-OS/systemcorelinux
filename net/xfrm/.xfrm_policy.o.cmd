@@ -1,4 +1,4 @@
-savedcmd_net/xfrm/xfrm_policy.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/xfrm/.xfrm_policy.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/xfrm/xfrm_policy"' -DKBUILD_BASENAME='"xfrm_policy"' -DKBUILD_MODNAME='"xfrm_policy"' -D__KBUILD_MODNAME=kmod_xfrm_policy -c -o net/xfrm/xfrm_policy.o net/xfrm/xfrm_policy.c  
+savedcmd_net/xfrm/xfrm_policy.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/xfrm/.xfrm_policy.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/xfrm/xfrm_policy"' -DKBUILD_BASENAME='"xfrm_policy"' -DKBUILD_MODNAME='"xfrm_policy"' -D__KBUILD_MODNAME=kmod_xfrm_policy -c -o net/xfrm/xfrm_policy.o net/xfrm/xfrm_policy.c  
 
 source_net/xfrm/xfrm_policy.o := net/xfrm/xfrm_policy.c
 
@@ -568,6 +568,11 @@ deps_net/xfrm/xfrm_policy.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1101,7 +1106,6 @@ deps_net/xfrm/xfrm_policy.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1142,7 +1146,6 @@ deps_net/xfrm/xfrm_policy.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1345,14 +1348,11 @@ deps_net/xfrm/xfrm_policy.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1665,30 +1665,30 @@ deps_net/xfrm/xfrm_policy.o := \
 net/xfrm/xfrm_policy.o: $(deps_net/xfrm/xfrm_policy.o)
 
 $(deps_net/xfrm/xfrm_policy.o):
-#SYMVER __xfrm_dst_lookup 0xc9131f47
-#SYMVER xfrm_policy_alloc 0xc66dbdeb
-#SYMVER xfrm_policy_destroy 0xcc2390ba
-#SYMVER xfrm_spd_getinfo 0xcae17b40
-#SYMVER xfrm_policy_hash_rebuild 0x62626f6a
-#SYMVER xfrm_policy_insert 0x04c17fbe
-#SYMVER xfrm_policy_bysel_ctx 0xeaca372a
-#SYMVER xfrm_policy_byid 0x7ed5b95b
-#SYMVER xfrm_policy_flush 0x51624055
-#SYMVER xfrm_dev_policy_flush 0xe01e362a
-#SYMVER xfrm_policy_walk 0x4aba6c13
+#SYMVER __xfrm_dst_lookup 0x12f27eee
+#SYMVER xfrm_policy_alloc 0xde554adc
+#SYMVER xfrm_policy_destroy 0x4909e545
+#SYMVER xfrm_spd_getinfo 0x69ca83fb
+#SYMVER xfrm_policy_hash_rebuild 0xbbe9517f
+#SYMVER xfrm_policy_insert 0x1e60d08a
+#SYMVER xfrm_policy_bysel_ctx 0xe738070d
+#SYMVER xfrm_policy_byid 0x1e7637c4
+#SYMVER xfrm_policy_flush 0xe2e1d797
+#SYMVER xfrm_dev_policy_flush 0x6392d04e
+#SYMVER xfrm_policy_walk 0xd260d6c7
 #SYMVER xfrm_policy_walk_init 0xc9df055a
-#SYMVER xfrm_policy_walk_done 0xf1d91145
-#SYMVER xfrm_policy_delete 0x6609cc22
-#SYMVER xfrm_lookup_with_ifid 0xdfa88432
-#SYMVER xfrm_lookup 0xd34bf8c5
-#SYMVER xfrm_lookup_route 0x0fd10152
-#SYMVER __xfrm_decode_session 0x4a3e8447
-#SYMVER __xfrm_policy_check 0x64ebf246
-#SYMVER __xfrm_route_forward 0x0846057e
-#SYMVER xfrm_dst_ifdown 0x9d3d3593
-#SYMVER xfrm_policy_register_afinfo 0xa3dd7337
-#SYMVER xfrm_policy_unregister_afinfo 0x006b494b
-#SYMVER xfrm_if_register_cb 0xb54cc493
+#SYMVER xfrm_policy_walk_done 0x9b752434
+#SYMVER xfrm_policy_delete 0x52f3e79d
+#SYMVER xfrm_lookup_with_ifid 0x6ce97ac5
+#SYMVER xfrm_lookup 0xbf193cd8
+#SYMVER xfrm_lookup_route 0x8cc5ab61
+#SYMVER __xfrm_decode_session 0xbf6fe374
+#SYMVER __xfrm_policy_check 0x0fab4f8a
+#SYMVER __xfrm_route_forward 0xd73aafe9
+#SYMVER xfrm_dst_ifdown 0xeb134990
+#SYMVER xfrm_policy_register_afinfo 0x9c94e359
+#SYMVER xfrm_policy_unregister_afinfo 0xc94cdec9
+#SYMVER xfrm_if_register_cb 0x2b8e978e
 #SYMVER xfrm_if_unregister_cb 0x582b6275
-#SYMVER xfrm_audit_policy_add 0x77340492
-#SYMVER xfrm_audit_policy_delete 0x6893256a
+#SYMVER xfrm_audit_policy_add 0x231bdd7b
+#SYMVER xfrm_audit_policy_delete 0x26886b04

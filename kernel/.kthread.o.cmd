@@ -1,4 +1,4 @@
-savedcmd_kernel/kthread.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/.kthread.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"kernel/kthread"' -DKBUILD_BASENAME='"kthread"' -DKBUILD_MODNAME='"kthread"' -D__KBUILD_MODNAME=kmod_kthread -c -o kernel/kthread.o kernel/kthread.c  
+savedcmd_kernel/kthread.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/.kthread.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"kernel/kthread"' -DKBUILD_BASENAME='"kthread"' -DKBUILD_MODNAME='"kthread"' -D__KBUILD_MODNAME=kmod_kthread -c -o kernel/kthread.o kernel/kthread.c  
 
 source_kernel/kthread.o := kernel/kthread.c
 
@@ -589,6 +589,11 @@ deps_kernel/kthread.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1005,7 +1010,6 @@ deps_kernel/kthread.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1046,7 +1050,6 @@ deps_kernel/kthread.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1178,14 +1181,11 @@ deps_kernel/kthread.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   arch/arm64/include/asm/daifflags.h \
   arch/arm64/include/asm/arch_gicv3.h \
@@ -1340,31 +1340,31 @@ $(deps_kernel/kthread.o):
 #SYMVER kthread_should_stop 0xb3f7646e
 #SYMVER kthread_should_park 0x79defbe1
 #SYMVER kthread_freezable_should_stop 0xca7d8764
-#SYMVER kthread_func 0x31156b4d
-#SYMVER kthread_data 0x02e3145a
+#SYMVER kthread_func 0x14ae240e
+#SYMVER kthread_data 0x8a991183
 #SYMVER kthread_parkme 0xf95322f4
 #SYMVER kthread_exit 0x79539236
 #SYMVER kthread_complete_and_exit 0x6008689f
-#SYMVER kthread_create_on_node 0x2444d2dc
-#SYMVER kthread_bind 0xa6a59105
-#SYMVER kthread_create_on_cpu 0x34586c9f
-#SYMVER kthread_unpark 0xfb3c440c
-#SYMVER kthread_park 0xf2838c07
-#SYMVER kthread_stop 0x7816302e
-#SYMVER kthread_stop_put 0xbd03c7dd
-#SYMVER __kthread_init_worker 0x33b4fb31
+#SYMVER kthread_create_on_node 0xc6165448
+#SYMVER kthread_bind 0x49669aca
+#SYMVER kthread_create_on_cpu 0x34001f7b
+#SYMVER kthread_unpark 0xba075751
+#SYMVER kthread_park 0x05e2bd88
+#SYMVER kthread_stop 0xcf9661f1
+#SYMVER kthread_stop_put 0xd91927d3
+#SYMVER __kthread_init_worker 0x062bef4e
 #SYMVER kthread_worker_fn 0x955b0e2e
-#SYMVER kthread_create_worker 0x909b475d
-#SYMVER kthread_create_worker_on_cpu 0xb192e087
-#SYMVER kthread_queue_work 0xd1948e73
+#SYMVER kthread_create_worker 0x17f60c34
+#SYMVER kthread_create_worker_on_cpu 0xdaa25649
+#SYMVER kthread_queue_work 0xf08d2153
 #SYMVER kthread_delayed_work_timer_fn 0x0f86f560
-#SYMVER kthread_queue_delayed_work 0x7c44e6d9
-#SYMVER kthread_flush_work 0xf9fc0f4c
-#SYMVER kthread_mod_delayed_work 0xb7536e83
-#SYMVER kthread_cancel_work_sync 0xcd22143d
-#SYMVER kthread_cancel_delayed_work_sync 0x7dbaf117
-#SYMVER kthread_flush_worker 0xf4465719
-#SYMVER kthread_destroy_worker 0x8a03625b
-#SYMVER kthread_use_mm 0x2f9668db
-#SYMVER kthread_unuse_mm 0x582bf75e
-#SYMVER kthread_associate_blkcg 0x12864b41
+#SYMVER kthread_queue_delayed_work 0x3ada0b1f
+#SYMVER kthread_flush_work 0x57e05340
+#SYMVER kthread_mod_delayed_work 0xfa3cb29f
+#SYMVER kthread_cancel_work_sync 0x31af1f78
+#SYMVER kthread_cancel_delayed_work_sync 0x61e88aa1
+#SYMVER kthread_flush_worker 0x84910b4e
+#SYMVER kthread_destroy_worker 0x8bd2cb72
+#SYMVER kthread_use_mm 0x7a3a2770
+#SYMVER kthread_unuse_mm 0x5ec94c14
+#SYMVER kthread_associate_blkcg 0xf16fe210

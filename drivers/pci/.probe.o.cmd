@@ -1,4 +1,4 @@
-savedcmd_drivers/pci/probe.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pci/.probe.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/pci/probe"' -DKBUILD_BASENAME='"probe"' -DKBUILD_MODNAME='"probe"' -D__KBUILD_MODNAME=kmod_probe -c -o drivers/pci/probe.o drivers/pci/probe.c  
+savedcmd_drivers/pci/probe.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pci/.probe.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/pci/probe"' -DKBUILD_BASENAME='"probe"' -DKBUILD_MODNAME='"probe"' -D__KBUILD_MODNAME=kmod_probe -c -o drivers/pci/probe.o drivers/pci/probe.c  
 
 source_drivers/pci/probe.o := drivers/pci/probe.c
 
@@ -716,6 +716,11 @@ deps_drivers/pci/probe.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -875,7 +880,6 @@ deps_drivers/pci/probe.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1047,7 +1051,6 @@ deps_drivers/pci/probe.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1272,27 +1275,27 @@ drivers/pci/probe.o: $(deps_drivers/pci/probe.o)
 $(deps_drivers/pci/probe.o):
 #SYMVER pci_root_buses 0x082c3213
 #SYMVER no_pci_devices 0x78df6bd7
-#SYMVER pci_alloc_host_bridge 0x37526b9d
-#SYMVER devm_pci_alloc_host_bridge 0xefcf726d
-#SYMVER pci_free_host_bridge 0x1b0fd76b
+#SYMVER pci_alloc_host_bridge 0xeb2e12de
+#SYMVER devm_pci_alloc_host_bridge 0xab92ea19
+#SYMVER pci_free_host_bridge 0x23dc28e0
 #SYMVER pcie_link_speed 0xe4b064f9
 #SYMVER pci_speed_string 0xb1fc1782
-#SYMVER pcie_update_link_speed 0xe262ee0b
-#SYMVER pci_add_new_bus 0xcc9216ba
-#SYMVER pci_scan_bridge 0x555c6fc4
-#SYMVER pcie_relaxed_ordering_enabled 0xce99ebb2
-#SYMVER pci_alloc_dev 0x3c287cac
-#SYMVER pci_bus_read_dev_vendor_id 0xd6e1c63d
-#SYMVER pci_scan_single_device 0x38029bdf
-#SYMVER pci_scan_slot 0xfa180786
-#SYMVER pcie_bus_configure_settings 0x870320c0
-#SYMVER pci_scan_child_bus 0x82553603
-#SYMVER pci_create_root_bus 0xb789f652
-#SYMVER pci_host_probe 0xa75617c4
-#SYMVER pci_scan_root_bus_bridge 0x2f142245
-#SYMVER pci_scan_root_bus 0x48e97fec
-#SYMVER pci_scan_bus 0x7cd407a4
-#SYMVER pci_rescan_bus 0xd6938bfb
+#SYMVER pcie_update_link_speed 0x7ab161a8
+#SYMVER pci_add_new_bus 0x13e42922
+#SYMVER pci_scan_bridge 0xecf2cea2
+#SYMVER pcie_relaxed_ordering_enabled 0x2d392e25
+#SYMVER pci_alloc_dev 0xdd49fbc2
+#SYMVER pci_bus_read_dev_vendor_id 0x338f2588
+#SYMVER pci_scan_single_device 0x71a4cf37
+#SYMVER pci_scan_slot 0x11d96653
+#SYMVER pcie_bus_configure_settings 0x55ae12ee
+#SYMVER pci_scan_child_bus 0x755fc865
+#SYMVER pci_create_root_bus 0x1260a9a3
+#SYMVER pci_host_probe 0x24373f4e
+#SYMVER pci_scan_root_bus_bridge 0xf34f103d
+#SYMVER pci_scan_root_bus 0xc1784a64
+#SYMVER pci_scan_bus 0x52e287fb
+#SYMVER pci_rescan_bus 0x94a310bb
 #SYMVER pci_lock_rescan_remove 0xddbeeecc
 #SYMVER pci_unlock_rescan_remove 0x5790e7a0
-#SYMVER pci_hp_add_bridge 0xe5590d3c
+#SYMVER pci_hp_add_bridge 0xa4698c23

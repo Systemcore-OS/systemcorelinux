@@ -1,4 +1,4 @@
-savedcmd_drivers/iommu/iommu.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/iommu/.iommu.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/iommu/iommu"' -DKBUILD_BASENAME='"iommu"' -DKBUILD_MODNAME='"iommu"' -D__KBUILD_MODNAME=kmod_iommu -c -o drivers/iommu/iommu.o drivers/iommu/iommu.c  
+savedcmd_drivers/iommu/iommu.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/iommu/.iommu.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/iommu/iommu"' -DKBUILD_BASENAME='"iommu"' -DKBUILD_MODNAME='"iommu"' -D__KBUILD_MODNAME=kmod_iommu -c -o drivers/iommu/iommu.o drivers/iommu/iommu.c  
 
 source_drivers/iommu/iommu.o := drivers/iommu/iommu.c
 
@@ -766,6 +766,11 @@ deps_drivers/iommu/iommu.o := \
     $(wildcard include/config/MAPLE_RCU_DISABLED) \
     $(wildcard include/config/DEBUG_MAPLE_TREE) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
     $(wildcard include/config/ARM64_E0PD) \
@@ -859,7 +864,6 @@ deps_drivers/iommu/iommu.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1070,7 +1074,6 @@ deps_drivers/iommu/iommu.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1300,14 +1303,11 @@ deps_drivers/iommu/iommu.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1421,65 +1421,65 @@ deps_drivers/iommu/iommu.o := \
 drivers/iommu/iommu.o: $(deps_drivers/iommu/iommu.o)
 
 $(deps_drivers/iommu/iommu.o):
-#SYMVER iommu_device_register 0x3de217d6
-#SYMVER iommu_device_unregister 0x6ff11326
-#SYMVER dev_iommu_priv_set 0xaf6e0724
+#SYMVER iommu_device_register 0xb7e15be1
+#SYMVER iommu_device_unregister 0xd9f60185
+#SYMVER dev_iommu_priv_set 0x4a70d044
 #SYMVER iommu_get_group_resv_regions 0x7006586e
 #SYMVER iommu_group_alloc 0x8d22bb58
 #SYMVER iommu_group_get_iommudata 0xd55ad93b
 #SYMVER iommu_group_set_iommudata 0xc66b77b1
 #SYMVER iommu_group_set_name 0xbcdd5b99
-#SYMVER iommu_group_add_device 0x2c93ab7a
-#SYMVER iommu_group_remove_device 0xdae373ac
-#SYMVER iommu_group_for_each_dev 0x54eff7f7
-#SYMVER iommu_group_get 0x4a6a933a
+#SYMVER iommu_group_add_device 0x90b16eab
+#SYMVER iommu_group_remove_device 0x3b961aa4
+#SYMVER iommu_group_for_each_dev 0x3e086b12
+#SYMVER iommu_group_get 0x1048ce48
 #SYMVER iommu_group_ref_get 0x4d6d0bbc
 #SYMVER iommu_group_put 0x89485687
 #SYMVER iommu_group_id 0x6e7943ec
-#SYMVER generic_device_group 0xfa415e0c
-#SYMVER generic_single_device_group 0xe97e202f
-#SYMVER pci_device_group 0xac17158e
-#SYMVER fsl_mc_device_group 0x74f283f3
-#SYMVER iommu_present 0x666bc53d
-#SYMVER device_iommu_capable 0x79fb4c31
+#SYMVER generic_device_group 0x67cb5e30
+#SYMVER generic_single_device_group 0x9a2dce29
+#SYMVER pci_device_group 0xb0e82cb9
+#SYMVER fsl_mc_device_group 0x9851c43a
+#SYMVER iommu_present 0xfec3c0ba
+#SYMVER device_iommu_capable 0x4bfd846c
 #SYMVER iommu_group_has_isolated_msi 0x6d49c8ed
-#SYMVER iommu_set_fault_handler 0xa04c12d4
-#SYMVER iommu_domain_alloc 0x0228b4bb
-#SYMVER iommu_paging_domain_alloc 0x163ffb70
-#SYMVER iommu_domain_free 0x46690ec5
-#SYMVER iommu_attach_device 0xe4c20ffc
-#SYMVER iommu_detach_device 0x63748373
-#SYMVER iommu_get_domain_for_dev 0xca1f5165
-#SYMVER iommu_attach_group 0x17682da0
-#SYMVER iommu_group_replace_domain 0x720879f6
-#SYMVER iommu_detach_group 0x8b3e7694
-#SYMVER iommu_iova_to_phys 0xfba46a60
-#SYMVER iommu_map 0x308196c6
-#SYMVER iommu_unmap 0xa1b86ee8
-#SYMVER iommu_unmap_fast 0x9c86052b
-#SYMVER iommu_map_sg 0xa66f0d28
-#SYMVER report_iommu_fault 0xf981fd48
-#SYMVER iommu_enable_nesting 0xccd981ee
-#SYMVER iommu_set_pgtable_quirks 0xc9fb3e34
-#SYMVER iommu_get_resv_regions 0x4aa3d0fc
-#SYMVER iommu_put_resv_regions 0xf8f8611f
-#SYMVER iommu_alloc_resv_region 0x7cc288f6
+#SYMVER iommu_set_fault_handler 0xda0fc78b
+#SYMVER iommu_domain_alloc 0x308ded8f
+#SYMVER iommu_paging_domain_alloc 0x6b0a2c5c
+#SYMVER iommu_domain_free 0xda7b593b
+#SYMVER iommu_attach_device 0x90818bca
+#SYMVER iommu_detach_device 0xb896df78
+#SYMVER iommu_get_domain_for_dev 0xf856ccea
+#SYMVER iommu_attach_group 0xff138cd5
+#SYMVER iommu_group_replace_domain 0xc225a1b2
+#SYMVER iommu_detach_group 0x13eba0c4
+#SYMVER iommu_iova_to_phys 0x4b890f12
+#SYMVER iommu_map 0xc9711eba
+#SYMVER iommu_unmap 0x14c154a4
+#SYMVER iommu_unmap_fast 0xfe36d680
+#SYMVER iommu_map_sg 0x151730ce
+#SYMVER report_iommu_fault 0x5fbaee45
+#SYMVER iommu_enable_nesting 0xd8a60ef2
+#SYMVER iommu_set_pgtable_quirks 0x8a598f4c
+#SYMVER iommu_get_resv_regions 0x0b110cea
+#SYMVER iommu_put_resv_regions 0x1c2dcff6
+#SYMVER iommu_alloc_resv_region 0x75889ddc
 #SYMVER iommu_default_passthrough 0xc3ea5305
-#SYMVER iommu_fwspec_init 0xbc6960f6
-#SYMVER iommu_fwspec_free 0x197c6a93
-#SYMVER iommu_fwspec_add_ids 0x92642f86
-#SYMVER iommu_dev_enable_feature 0x5865b39b
-#SYMVER iommu_dev_disable_feature 0xbefabce1
+#SYMVER iommu_fwspec_init 0xcd6df453
+#SYMVER iommu_fwspec_free 0xf144b83e
+#SYMVER iommu_fwspec_add_ids 0x62ead2e0
+#SYMVER iommu_dev_enable_feature 0x98a71bb7
+#SYMVER iommu_dev_disable_feature 0x6dbbfb37
 #SYMVER iommu_group_claim_dma_owner 0x0cc9d36c
-#SYMVER iommu_device_claim_dma_owner 0xa6c8f7ad
+#SYMVER iommu_device_claim_dma_owner 0x0f2ac5a6
 #SYMVER iommu_group_release_dma_owner 0xe3e423ac
-#SYMVER iommu_device_release_dma_owner 0x4247a3dc
+#SYMVER iommu_device_release_dma_owner 0x533dabc4
 #SYMVER iommu_group_dma_owner_claimed 0xf5a067bf
-#SYMVER iommu_attach_device_pasid 0x6db58ddf
-#SYMVER iommu_detach_device_pasid 0x54e399d6
-#SYMVER iommu_alloc_global_pasid 0x515eb15b
+#SYMVER iommu_attach_device_pasid 0x4e47a4b0
+#SYMVER iommu_detach_device_pasid 0xec2991ca
+#SYMVER iommu_alloc_global_pasid 0x9de1d1b1
 #SYMVER iommu_free_global_pasid 0xfa13f45f
-#SYMVER iommu_attach_handle_get 0x3cd2b1e0
-#SYMVER iommu_attach_group_handle 0x3ff2eff3
-#SYMVER iommu_detach_group_handle 0x3a73b6a1
-#SYMVER iommu_replace_group_handle 0xec1332c4
+#SYMVER iommu_attach_handle_get 0x27801f58
+#SYMVER iommu_attach_group_handle 0x8e2818c6
+#SYMVER iommu_detach_group_handle 0x0713c969
+#SYMVER iommu_replace_group_handle 0x02169b98

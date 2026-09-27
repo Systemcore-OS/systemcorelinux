@@ -1,4 +1,4 @@
-savedcmd_drivers/base/power/qos.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/base/power/.qos.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/base/power/qos"' -DKBUILD_BASENAME='"qos"' -DKBUILD_MODNAME='"qos"' -D__KBUILD_MODNAME=kmod_qos -c -o drivers/base/power/qos.o drivers/base/power/qos.c  
+savedcmd_drivers/base/power/qos.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/base/power/.qos.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/base/power/qos"' -DKBUILD_BASENAME='"qos"' -DKBUILD_MODNAME='"qos"' -D__KBUILD_MODNAME=kmod_qos -c -o drivers/base/power/qos.o drivers/base/power/qos.c  
 
 source_drivers/base/power/qos.o := drivers/base/power/qos.c
 
@@ -754,6 +754,11 @@ deps_drivers/base/power/qos.o := \
     $(wildcard include/config/MAPLE_RCU_DISABLED) \
     $(wildcard include/config/DEBUG_MAPLE_TREE) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
     $(wildcard include/config/ARM64_E0PD) \
@@ -847,7 +852,6 @@ deps_drivers/base/power/qos.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1152,7 +1156,6 @@ deps_drivers/base/power/qos.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1278,7 +1281,6 @@ deps_drivers/base/power/qos.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/irq_work.h \
     $(wildcard include/config/IRQ_WORK) \
   arch/arm64/include/asm/irq_work.h \
@@ -1377,9 +1379,7 @@ deps_drivers/base/power/qos.o := \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1402,17 +1402,17 @@ deps_drivers/base/power/qos.o := \
 drivers/base/power/qos.o: $(deps_drivers/base/power/qos.o)
 
 $(deps_drivers/base/power/qos.o):
-#SYMVER dev_pm_qos_flags 0x91f132a4
-#SYMVER dev_pm_qos_add_request 0xd4d2a2b4
-#SYMVER dev_pm_qos_update_request 0x1cf5c820
-#SYMVER dev_pm_qos_remove_request 0xaf1ad9bf
-#SYMVER dev_pm_qos_add_notifier 0xfd7ac10c
-#SYMVER dev_pm_qos_remove_notifier 0x34982c07
-#SYMVER dev_pm_qos_add_ancestor_request 0x0f0a3204
-#SYMVER dev_pm_qos_expose_latency_limit 0xeb2b8910
-#SYMVER dev_pm_qos_hide_latency_limit 0x7a28071f
-#SYMVER dev_pm_qos_expose_flags 0x5103d262
-#SYMVER dev_pm_qos_hide_flags 0x5bf6fa8e
-#SYMVER dev_pm_qos_update_user_latency_tolerance 0x9e59a14f
-#SYMVER dev_pm_qos_expose_latency_tolerance 0x1059400e
-#SYMVER dev_pm_qos_hide_latency_tolerance 0xbdcf6e93
+#SYMVER dev_pm_qos_flags 0x8b1ae9b8
+#SYMVER dev_pm_qos_add_request 0xc322b869
+#SYMVER dev_pm_qos_update_request 0xc0f9d089
+#SYMVER dev_pm_qos_remove_request 0x96760d82
+#SYMVER dev_pm_qos_add_notifier 0xa9071db8
+#SYMVER dev_pm_qos_remove_notifier 0x648d3b80
+#SYMVER dev_pm_qos_add_ancestor_request 0xc5fcb714
+#SYMVER dev_pm_qos_expose_latency_limit 0xadebd234
+#SYMVER dev_pm_qos_hide_latency_limit 0xc848fa4f
+#SYMVER dev_pm_qos_expose_flags 0xd2a65630
+#SYMVER dev_pm_qos_hide_flags 0x7d44d03b
+#SYMVER dev_pm_qos_update_user_latency_tolerance 0x9a61bc48
+#SYMVER dev_pm_qos_expose_latency_tolerance 0xac405346
+#SYMVER dev_pm_qos_hide_latency_tolerance 0x6ea6d711

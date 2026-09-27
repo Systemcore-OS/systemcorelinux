@@ -189,6 +189,8 @@
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/vdso/jiffies.h \
  include/generated/timeconst.h include/vdso/ktime.h \
@@ -297,13 +299,12 @@
  include/linux/interrupt.h include/linux/hardirq.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
  include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
- arch/arm64/include/asm/kvm_arm.h arch/arm64/include/asm/esr.h \
- include/asm-generic/hardirq.h include/uapi/linux/serial_core.h \
- include/uapi/linux/serial_reg.h include/linux/nmi.h \
- include/linux/pm_runtime.h drivers/tty/serial/8250/8250.h \
- include/linux/dmaengine.h include/linux/uio.h include/uapi/linux/uio.h \
- include/linux/scatterlist.h include/linux/mm.h \
- include/linux/pgalloc_tag.h include/linux/range.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/uapi/linux/serial_core.h include/uapi/linux/serial_reg.h \
+ include/linux/nmi.h include/linux/pm_runtime.h \
+ drivers/tty/serial/8250/8250.h include/linux/dmaengine.h \
+ include/linux/uio.h include/uapi/linux/uio.h include/linux/scatterlist.h \
+ include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
  include/linux/huge_mm.h include/linux/vmstat.h \

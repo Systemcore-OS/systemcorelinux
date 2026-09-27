@@ -188,6 +188,8 @@ sched_main.o: drivers/gpu/drm/scheduler/sched_main.c \
  include/linux/auxvec.h include/uapi/linux/auxvec.h \
  arch/arm64/include/uapi/asm/auxvec.h include/linux/rbtree.h \
  include/linux/maple_tree.h include/linux/rwsem.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h \
  include/linux/debugobjects.h include/linux/workqueue_types.h \
  include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
@@ -303,9 +305,8 @@ sched_main.o: drivers/gpu/drm/scheduler/sched_main.c \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
  include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
  arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h arch/arm64/include/asm/esr.h \
- include/asm-generic/hardirq.h include/linux/irq.h \
- include/linux/irqhandler.h include/linux/irqreturn.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/irq.h include/linux/irqhandler.h include/linux/irqreturn.h \
  arch/arm64/include/generated/asm/irq_regs.h \
  include/asm-generic/irq_regs.h include/linux/irqdesc.h \
  arch/arm64/include/generated/asm/hw_irq.h include/asm-generic/hw_irq.h \
@@ -341,7 +342,7 @@ sched_main.o: drivers/gpu/drm/scheduler/sched_main.c \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
+ arch/arm64/include/asm/syscall_wrapper.h \
  include/linux/jump_label_ratelimit.h include/linux/perf_regs.h \
  arch/arm64/include/uapi/asm/perf_regs.h include/linux/cgroup.h \
  include/uapi/linux/cgroupstats.h include/uapi/linux/taskstats.h \
@@ -364,8 +365,7 @@ sched_main.o: drivers/gpu/drm/scheduler/sched_main.c \
  arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
  include/linux/kprobes.h include/linux/objpool.h include/linux/rethook.h \
  arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
+ arch/arm64/include/asm/kgdb.h include/asm-generic/cacheflush.h \
  include/linux/kmsan.h include/linux/highmem-internal.h \
  include/linux/pagevec.h include/linux/bio.h include/linux/mempool.h \
  include/linux/cfi.h arch/arm64/include/generated/asm/cfi.h \

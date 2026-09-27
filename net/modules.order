@@ -334,6 +334,9 @@ net/bluetooth/rfcomm/rfcomm.o
 net/bluetooth/bnep/bnep.o
 net/bluetooth/hidp/hidp.o
 net/bluetooth/bluetooth_6lowpan.o
+net/sunrpc/sunrpc.o
+net/sunrpc/auth_gss/auth_rpcgss.o
+net/sunrpc/auth_gss/rpcsec_gss_krb5.o
 net/atm/atm.o
 net/atm/pppoatm.o
 net/l2tp/l2tp_core.o

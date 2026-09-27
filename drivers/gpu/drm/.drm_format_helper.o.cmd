@@ -1,4 +1,4 @@
-savedcmd_drivers/gpu/drm/drm_format_helper.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_format_helper.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_format_helper"' -DKBUILD_MODNAME='"drm_kms_helper"' -D__KBUILD_MODNAME=kmod_drm_kms_helper -c -o drivers/gpu/drm/drm_format_helper.o drivers/gpu/drm/drm_format_helper.c  
+savedcmd_drivers/gpu/drm/drm_format_helper.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_format_helper.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_format_helper"' -DKBUILD_MODNAME='"drm_kms_helper"' -D__KBUILD_MODNAME=kmod_drm_kms_helper -c -o drivers/gpu/drm/drm_format_helper.o drivers/gpu/drm/drm_format_helper.c  
 
 source_drivers/gpu/drm/drm_format_helper.o := drivers/gpu/drm/drm_format_helper.c
 
@@ -546,6 +546,11 @@ deps_drivers/gpu/drm/drm_format_helper.o := \
   include/linux/wait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -763,7 +768,6 @@ deps_drivers/gpu/drm/drm_format_helper.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1076,22 +1080,22 @@ $(deps_drivers/gpu/drm/drm_format_helper.o):
 #SYMVER drm_format_conv_state_reserve 0x84247d5d
 #SYMVER drm_format_conv_state_release 0x24e99aa5
 #SYMVER drm_fb_clip_offset 0xb6a6b711
-#SYMVER drm_fb_memcpy 0x17375136
-#SYMVER drm_fb_swab 0x2e66bdd1
-#SYMVER drm_fb_xrgb8888_to_rgb332 0xc0dd597a
-#SYMVER drm_fb_xrgb8888_to_rgb565 0x5806ea87
-#SYMVER drm_fb_xrgb8888_to_xrgb1555 0x01e90df8
-#SYMVER drm_fb_xrgb8888_to_argb1555 0x2a439212
-#SYMVER drm_fb_xrgb8888_to_rgba5551 0x0724934a
-#SYMVER drm_fb_xrgb8888_to_rgb888 0xb1e301c9
-#SYMVER drm_fb_xrgb8888_to_bgr888 0xb2dc1976
-#SYMVER drm_fb_xrgb8888_to_argb8888 0x95834101
-#SYMVER drm_fb_xrgb8888_to_abgr8888 0xce5ed004
-#SYMVER drm_fb_xrgb8888_to_xbgr8888 0xe5f44fee
-#SYMVER drm_fb_xrgb8888_to_bgrx8888 0x56f8e35e
-#SYMVER drm_fb_xrgb8888_to_xrgb2101010 0x657d7ab9
-#SYMVER drm_fb_xrgb8888_to_argb2101010 0x01d2f3c7
-#SYMVER drm_fb_xrgb8888_to_gray8 0xb542b5e2
-#SYMVER drm_fb_blit 0x9852b9d8
-#SYMVER drm_fb_xrgb8888_to_mono 0x8276c6f0
-#SYMVER drm_fb_build_fourcc_list 0xa10f9ba1
+#SYMVER drm_fb_memcpy 0x08afa395
+#SYMVER drm_fb_swab 0xf7ccd340
+#SYMVER drm_fb_xrgb8888_to_rgb332 0x9c717dc7
+#SYMVER drm_fb_xrgb8888_to_rgb565 0x577d9d3f
+#SYMVER drm_fb_xrgb8888_to_xrgb1555 0x624c9459
+#SYMVER drm_fb_xrgb8888_to_argb1555 0x2d74c3d3
+#SYMVER drm_fb_xrgb8888_to_rgba5551 0xfe2e4e95
+#SYMVER drm_fb_xrgb8888_to_rgb888 0xb52dec77
+#SYMVER drm_fb_xrgb8888_to_bgr888 0xd5fd34d1
+#SYMVER drm_fb_xrgb8888_to_argb8888 0x6dfcc649
+#SYMVER drm_fb_xrgb8888_to_abgr8888 0x5229104c
+#SYMVER drm_fb_xrgb8888_to_xbgr8888 0x1d1147c6
+#SYMVER drm_fb_xrgb8888_to_bgrx8888 0xac918fb6
+#SYMVER drm_fb_xrgb8888_to_xrgb2101010 0xd5bb9f04
+#SYMVER drm_fb_xrgb8888_to_argb2101010 0xe4e17210
+#SYMVER drm_fb_xrgb8888_to_gray8 0x8b018550
+#SYMVER drm_fb_blit 0x42f804a3
+#SYMVER drm_fb_xrgb8888_to_mono 0x3e99fffd
+#SYMVER drm_fb_build_fourcc_list 0x80a2df21

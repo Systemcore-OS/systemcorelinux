@@ -1,4 +1,4 @@
-savedcmd_net/9p/client.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/9p/.client.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"client"' -DKBUILD_MODNAME='"9pnet"' -D__KBUILD_MODNAME=kmod_9pnet -c -o net/9p/client.o net/9p/client.c  
+savedcmd_net/9p/client.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/9p/.client.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"client"' -DKBUILD_MODNAME='"9pnet"' -D__KBUILD_MODNAME=kmod_9pnet -c -o net/9p/client.o net/9p/client.c  
 
 source_net/9p/client.o := net/9p/client.c
 
@@ -727,6 +727,10 @@ deps_net/9p/client.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1089,7 +1093,6 @@ deps_net/9p/client.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1181,14 +1184,11 @@ deps_net/9p/client.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1401,50 +1401,50 @@ deps_net/9p/client.o := \
 net/9p/client.o: $(deps_net/9p/client.o)
 
 $(deps_net/9p/client.o):
-#SYMVER p9_is_proto_dotl 0xff891692
-#SYMVER p9_is_proto_dotu 0xb338a138
-#SYMVER p9_show_client_options 0xe8a95340
+#SYMVER p9_is_proto_dotl 0xb3f97333
+#SYMVER p9_is_proto_dotu 0xb27b9205
+#SYMVER p9_show_client_options 0xc7e146eb
 #SYMVER p9_fcall_fini 0x4ba99359
-#SYMVER p9_tag_lookup 0x54cb67b6
-#SYMVER p9_req_put 0x68246db0
-#SYMVER p9_client_cb 0x5bab439f
+#SYMVER p9_tag_lookup 0x3717075d
+#SYMVER p9_req_put 0x4b025574
+#SYMVER p9_client_cb 0x7bb63ecd
 #SYMVER p9_parse_header 0x761cad64
 #SYMVER __tracepoint_9p_fid_ref 0xee437897
-#SYMVER __traceiter_9p_fid_ref 0xb71a2c86
+#SYMVER __traceiter_9p_fid_ref 0x91be7884
 #SYMVER __SCK__tp_func_9p_fid_ref 0xb55ae777
-#SYMVER do_trace_9p_fid_get 0x3c9688db
-#SYMVER do_trace_9p_fid_put 0xf3763545
-#SYMVER p9_client_create 0xf2f12b95
-#SYMVER p9_client_destroy 0xb9873589
-#SYMVER p9_client_disconnect 0x1d07d883
-#SYMVER p9_client_begin_disconnect 0xe8e3bbea
-#SYMVER p9_client_attach 0x10dc5d17
-#SYMVER p9_client_walk 0x6158056a
-#SYMVER p9_client_open 0x1a5e3929
-#SYMVER p9_client_create_dotl 0xcfa55885
-#SYMVER p9_client_fcreate 0x393caf82
-#SYMVER p9_client_symlink 0xb9f0b967
-#SYMVER p9_client_link 0x562fe4ff
-#SYMVER p9_client_fsync 0xaa91707e
-#SYMVER p9_client_clunk 0x328838a4
-#SYMVER p9_client_remove 0x34e39ad7
-#SYMVER p9_client_unlinkat 0x6fb9714d
-#SYMVER p9_client_read 0x4928e564
-#SYMVER p9_client_read_once 0x391cf8ab
-#SYMVER p9_client_write 0xdd2e8ea4
-#SYMVER p9_client_write_subreq 0x3f45b6a2
-#SYMVER p9_client_stat 0xaca65755
-#SYMVER p9_client_getattr_dotl 0x4ca4e39b
-#SYMVER p9_client_wstat 0x796bfb2b
-#SYMVER p9_client_setattr 0x314921aa
-#SYMVER p9_client_statfs 0x9941ae61
-#SYMVER p9_client_rename 0xb74644d4
-#SYMVER p9_client_renameat 0x783e1255
-#SYMVER p9_client_xattrwalk 0x0978dbd7
-#SYMVER p9_client_xattrcreate 0x87483028
-#SYMVER p9_client_readdir 0x4edf617b
-#SYMVER p9_client_mknod_dotl 0x4ca8b2bc
-#SYMVER p9_client_mkdir_dotl 0x31834721
-#SYMVER p9_client_lock_dotl 0x385a3387
-#SYMVER p9_client_getlock_dotl 0x967a6a02
-#SYMVER p9_client_readlink 0x34d48e75
+#SYMVER do_trace_9p_fid_get 0xe2be4ea4
+#SYMVER do_trace_9p_fid_put 0x62c36aad
+#SYMVER p9_client_create 0x6d475a49
+#SYMVER p9_client_destroy 0x058fb10b
+#SYMVER p9_client_disconnect 0x8190350c
+#SYMVER p9_client_begin_disconnect 0x1b8745b4
+#SYMVER p9_client_attach 0x3f94c0ee
+#SYMVER p9_client_walk 0x46b97b56
+#SYMVER p9_client_open 0x2b03a056
+#SYMVER p9_client_create_dotl 0xcaf92d11
+#SYMVER p9_client_fcreate 0x8933bd10
+#SYMVER p9_client_symlink 0xe158f458
+#SYMVER p9_client_link 0x09b3a8dc
+#SYMVER p9_client_fsync 0x50c27ed3
+#SYMVER p9_client_clunk 0x6c58f75e
+#SYMVER p9_client_remove 0x810a6a52
+#SYMVER p9_client_unlinkat 0x569efe74
+#SYMVER p9_client_read 0xe5bab5e6
+#SYMVER p9_client_read_once 0xc82e8ba2
+#SYMVER p9_client_write 0x83daeaaf
+#SYMVER p9_client_write_subreq 0x6d9321e1
+#SYMVER p9_client_stat 0x28dddfb3
+#SYMVER p9_client_getattr_dotl 0x4b832b2f
+#SYMVER p9_client_wstat 0xdfe0e594
+#SYMVER p9_client_setattr 0xaa885171
+#SYMVER p9_client_statfs 0xc43c41af
+#SYMVER p9_client_rename 0xd011d98f
+#SYMVER p9_client_renameat 0xdc75748c
+#SYMVER p9_client_xattrwalk 0xf1e84149
+#SYMVER p9_client_xattrcreate 0x8f5bab1b
+#SYMVER p9_client_readdir 0x09e1e2af
+#SYMVER p9_client_mknod_dotl 0x40461c8d
+#SYMVER p9_client_mkdir_dotl 0xc77e918f
+#SYMVER p9_client_lock_dotl 0x975cdce9
+#SYMVER p9_client_getlock_dotl 0xe41fa4ca
+#SYMVER p9_client_readlink 0xcedbd6f7

@@ -174,7 +174,9 @@ trace_events_filter.o: kernel/trace/trace_events_filter.c \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/wait.h \
- include/linux/uprobes.h include/linux/page-flags-layout.h \
+ include/linux/uprobes.h arch/arm64/include/asm/uprobes.h \
+ arch/arm64/include/asm/debug-monitors.h arch/arm64/include/asm/esr.h \
+ arch/arm64/include/asm/probes.h include/linux/page-flags-layout.h \
  include/generated/bounds.h include/linux/workqueue.h \
  include/linux/timer.h include/linux/ktime.h include/linux/jiffies.h \
  include/linux/math64.h include/vdso/math64.h include/linux/time.h \
@@ -274,9 +276,8 @@ trace_events_filter.o: kernel/trace/trace_events_filter.c \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
  include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
  arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h arch/arm64/include/asm/esr.h \
- include/asm-generic/hardirq.h include/linux/irq.h \
- include/linux/irqhandler.h include/linux/io.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -307,31 +308,31 @@ trace_events_filter.o: kernel/trace/trace_events_filter.c \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/cpu.h include/linux/node.h include/linux/device.h \
- include/linux/dev_printk.h include/linux/energy_model.h \
- include/linux/sched/cpufreq.h include/linux/sched/topology.h \
- include/linux/sched/idle.h include/linux/sched/sd_flags.h \
- include/linux/klist.h include/linux/pm.h include/linux/device/bus.h \
- include/linux/device/class.h include/linux/device/devres.h \
- include/linux/device/driver.h arch/arm64/include/asm/device.h \
- include/linux/pm_wakeup.h include/linux/cpuhotplug.h \
- include/linux/cpuhplock.h include/linux/cpu_smt.h \
- include/linux/irq_work.h arch/arm64/include/asm/irq_work.h \
- include/linux/jump_label_ratelimit.h include/linux/perf_regs.h \
- arch/arm64/include/uapi/asm/perf_regs.h include/linux/cgroup.h \
- include/uapi/linux/cgroupstats.h include/uapi/linux/taskstats.h \
- include/linux/seq_file.h include/linux/string_helpers.h \
- include/linux/string_choices.h include/linux/user_namespace.h \
- include/linux/kernel_stat.h include/linux/cgroup-defs.h \
- include/linux/u64_stats_sync.h include/linux/bpf-cgroup-defs.h \
- include/linux/psi_types.h include/linux/kthread.h \
- include/linux/cgroup_subsys.h include/linux/cgroup_refcnt.h \
- include/linux/security.h include/linux/kernel_read_file.h \
- include/linux/file.h include/linux/sockptr.h include/linux/bpf.h \
- include/uapi/linux/bpf.h include/uapi/linux/bpf_common.h \
- include/uapi/linux/filter.h include/linux/bpfptr.h include/linux/btf.h \
- include/linux/bsearch.h include/linux/btf_ids.h include/uapi/linux/btf.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/cpu.h \
+ include/linux/node.h include/linux/device.h include/linux/dev_printk.h \
+ include/linux/energy_model.h include/linux/sched/cpufreq.h \
+ include/linux/sched/topology.h include/linux/sched/idle.h \
+ include/linux/sched/sd_flags.h include/linux/klist.h include/linux/pm.h \
+ include/linux/device/bus.h include/linux/device/class.h \
+ include/linux/device/devres.h include/linux/device/driver.h \
+ arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
+ include/linux/cpuhotplug.h include/linux/cpuhplock.h \
+ include/linux/cpu_smt.h include/linux/irq_work.h \
+ arch/arm64/include/asm/irq_work.h include/linux/jump_label_ratelimit.h \
+ include/linux/perf_regs.h arch/arm64/include/uapi/asm/perf_regs.h \
+ include/linux/cgroup.h include/uapi/linux/cgroupstats.h \
+ include/uapi/linux/taskstats.h include/linux/seq_file.h \
+ include/linux/string_helpers.h include/linux/string_choices.h \
+ include/linux/user_namespace.h include/linux/kernel_stat.h \
+ include/linux/cgroup-defs.h include/linux/u64_stats_sync.h \
+ include/linux/bpf-cgroup-defs.h include/linux/psi_types.h \
+ include/linux/kthread.h include/linux/cgroup_subsys.h \
+ include/linux/cgroup_refcnt.h include/linux/security.h \
+ include/linux/kernel_read_file.h include/linux/file.h \
+ include/linux/sockptr.h include/linux/bpf.h include/uapi/linux/bpf.h \
+ include/uapi/linux/bpf_common.h include/uapi/linux/filter.h \
+ include/linux/bpfptr.h include/linux/btf.h include/linux/bsearch.h \
+ include/linux/btf_ids.h include/uapi/linux/btf.h \
  include/linux/rcupdate_trace.h include/linux/static_call.h \
  include/linux/memcontrol.h include/linux/page_counter.h \
  include/linux/vmpressure.h include/linux/eventfd.h \
@@ -341,8 +342,7 @@ trace_events_filter.o: kernel/trace/trace_events_filter.c \
  include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
  include/linux/kgdb.h include/linux/kprobes.h include/linux/objpool.h \
  include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
- include/asm-generic/kprobes.h arch/arm64/include/asm/probes.h \
- arch/arm64/include/asm/kgdb.h arch/arm64/include/asm/debug-monitors.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
  include/asm-generic/cacheflush.h include/linux/kmsan.h \
  include/linux/dma-direction.h include/linux/highmem-internal.h \
  include/linux/pagevec.h include/linux/bio.h include/linux/mempool.h \
@@ -362,6 +362,5 @@ trace_events_filter.o: kernel/trace/trace_events_filter.c \
  include/linux/hw_breakpoint.h include/uapi/linux/hw_breakpoint.h \
  include/linux/trace_seq.h include/linux/seq_buf.h \
  include/linux/trace_events.h include/linux/glob.h \
- kernel/trace/pid_list.h arch/arm64/include/asm/syscall.h \
- include/uapi/linux/audit.h kernel/trace/trace_entries.h \
+ kernel/trace/pid_list.h kernel/trace/trace_entries.h \
  kernel/trace/trace_output.h

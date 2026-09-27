@@ -198,6 +198,8 @@ closure.o: lib/closure.c include/linux/compiler-version.h \
  include/uapi/linux/auxvec.h arch/arm64/include/uapi/asm/auxvec.h \
  include/linux/kref.h include/linux/rbtree.h include/linux/maple_tree.h \
  include/linux/rwsem.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
  include/linux/page-flags.h include/linux/local_lock.h \
  include/linux/local_lock_internal.h include/linux/zswap.h \

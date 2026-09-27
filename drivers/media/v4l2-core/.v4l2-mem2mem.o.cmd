@@ -1,4 +1,4 @@
-savedcmd_drivers/media/v4l2-core/v4l2-mem2mem.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/media/v4l2-core/.v4l2-mem2mem.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -I./drivers/media/dvb-frontends -I./drivers/media/tuners  -DMODULE  -DKBUILD_BASENAME='"v4l2_mem2mem"' -DKBUILD_MODNAME='"v4l2_mem2mem"' -D__KBUILD_MODNAME=kmod_v4l2_mem2mem -c -o drivers/media/v4l2-core/v4l2-mem2mem.o drivers/media/v4l2-core/v4l2-mem2mem.c  
+savedcmd_drivers/media/v4l2-core/v4l2-mem2mem.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/media/v4l2-core/.v4l2-mem2mem.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -I./drivers/media/dvb-frontends -I./drivers/media/tuners  -DMODULE  -DKBUILD_BASENAME='"v4l2_mem2mem"' -DKBUILD_MODNAME='"v4l2_mem2mem"' -D__KBUILD_MODNAME=kmod_v4l2_mem2mem -c -o drivers/media/v4l2-core/v4l2-mem2mem.o drivers/media/v4l2-core/v4l2-mem2mem.c  
 
 source_drivers/media/v4l2-core/v4l2-mem2mem.o := drivers/media/v4l2-core/v4l2-mem2mem.c
 
@@ -728,6 +728,10 @@ deps_drivers/media/v4l2-core/v4l2-mem2mem.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1046,7 +1050,6 @@ deps_drivers/media/v4l2-core/v4l2-mem2mem.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1428,14 +1431,11 @@ deps_drivers/media/v4l2-core/v4l2-mem2mem.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/highmem-internal.h \
@@ -1472,58 +1472,58 @@ deps_drivers/media/v4l2-core/v4l2-mem2mem.o := \
 drivers/media/v4l2-core/v4l2-mem2mem.o: $(deps_drivers/media/v4l2-core/v4l2-mem2mem.o)
 
 $(deps_drivers/media/v4l2-core/v4l2-mem2mem.o):
-#SYMVER v4l2_m2m_get_vq 0x7d635dd3
-#SYMVER v4l2_m2m_next_buf 0x82d9ba17
-#SYMVER v4l2_m2m_last_buf 0x2eeef354
-#SYMVER v4l2_m2m_buf_remove 0x60d73e3b
-#SYMVER v4l2_m2m_buf_remove_by_buf 0x6fe59077
-#SYMVER v4l2_m2m_buf_remove_by_idx 0x820ee16a
+#SYMVER v4l2_m2m_get_vq 0xf493bb0f
+#SYMVER v4l2_m2m_next_buf 0x2921fb8f
+#SYMVER v4l2_m2m_last_buf 0x8516b2cc
+#SYMVER v4l2_m2m_buf_remove 0xd894e4d7
+#SYMVER v4l2_m2m_buf_remove_by_buf 0x7fe77572
+#SYMVER v4l2_m2m_buf_remove_by_idx 0x1a770b03
 #SYMVER v4l2_m2m_get_curr_priv 0x459e133f
-#SYMVER v4l2_m2m_try_schedule 0xe032cb3e
-#SYMVER v4l2_m2m_job_finish 0x8eab2f36
-#SYMVER v4l2_m2m_buf_done_and_job_finish 0x84afd1da
+#SYMVER v4l2_m2m_try_schedule 0x0d692b94
+#SYMVER v4l2_m2m_job_finish 0x0527d56b
+#SYMVER v4l2_m2m_buf_done_and_job_finish 0xb2884dd6
 #SYMVER v4l2_m2m_suspend 0xf626dd03
 #SYMVER v4l2_m2m_resume 0x5352d022
-#SYMVER v4l2_m2m_reqbufs 0x53caf107
-#SYMVER v4l2_m2m_querybuf 0xad641c55
-#SYMVER v4l2_m2m_last_buffer_done 0xc7f1a9bb
-#SYMVER v4l2_m2m_update_start_streaming_state 0xb65e58fa
-#SYMVER v4l2_m2m_update_stop_streaming_state 0x31408096
-#SYMVER v4l2_m2m_qbuf 0xc5c98202
-#SYMVER v4l2_m2m_dqbuf 0x262ffc04
-#SYMVER v4l2_m2m_prepare_buf 0x7939b02d
-#SYMVER v4l2_m2m_create_bufs 0x387d6e0c
-#SYMVER v4l2_m2m_expbuf 0x3b4fd428
-#SYMVER v4l2_m2m_streamon 0x403b4e7f
-#SYMVER v4l2_m2m_streamoff 0x56ae7367
-#SYMVER v4l2_m2m_poll 0x52c92fe9
-#SYMVER v4l2_m2m_mmap 0x4b31281a
+#SYMVER v4l2_m2m_reqbufs 0xfa3d4afd
+#SYMVER v4l2_m2m_querybuf 0x8c51b7f2
+#SYMVER v4l2_m2m_last_buffer_done 0xb69ee40a
+#SYMVER v4l2_m2m_update_start_streaming_state 0x0d8ec685
+#SYMVER v4l2_m2m_update_stop_streaming_state 0x6d972db2
+#SYMVER v4l2_m2m_qbuf 0xe97bb2f2
+#SYMVER v4l2_m2m_dqbuf 0x2d49ba02
+#SYMVER v4l2_m2m_prepare_buf 0x4513010f
+#SYMVER v4l2_m2m_create_bufs 0xa6837d24
+#SYMVER v4l2_m2m_expbuf 0x18bd5cea
+#SYMVER v4l2_m2m_streamon 0x055f6910
+#SYMVER v4l2_m2m_streamoff 0xbdaf0593
+#SYMVER v4l2_m2m_poll 0xa26d5113
+#SYMVER v4l2_m2m_mmap 0x74fedd76
 #SYMVER v4l2_m2m_unregister_media_controller 0xf13ff84d
-#SYMVER v4l2_m2m_register_media_controller 0x8ec0b5d5
+#SYMVER v4l2_m2m_register_media_controller 0xb4a0f11e
 #SYMVER v4l2_m2m_init 0x730f2eae
 #SYMVER v4l2_m2m_release 0xc6fca5ad
-#SYMVER v4l2_m2m_ctx_init 0x99bedb91
-#SYMVER v4l2_m2m_ctx_release 0xbf5baaa3
-#SYMVER v4l2_m2m_buf_queue 0x6d1a0876
-#SYMVER v4l2_m2m_buf_copy_metadata 0x40bdf21a
-#SYMVER v4l2_m2m_request_queue 0xf176e464
-#SYMVER v4l2_m2m_ioctl_reqbufs 0xd3c4ab95
-#SYMVER v4l2_m2m_ioctl_create_bufs 0xf37a9687
-#SYMVER v4l2_m2m_ioctl_remove_bufs 0xba30317d
-#SYMVER v4l2_m2m_ioctl_querybuf 0x9b745f55
-#SYMVER v4l2_m2m_ioctl_qbuf 0x892308cd
-#SYMVER v4l2_m2m_ioctl_dqbuf 0x88fd7089
-#SYMVER v4l2_m2m_ioctl_prepare_buf 0xce7123ca
-#SYMVER v4l2_m2m_ioctl_expbuf 0x4493bd40
-#SYMVER v4l2_m2m_ioctl_streamon 0xe8f6fc5b
-#SYMVER v4l2_m2m_ioctl_streamoff 0xd9c35059
-#SYMVER v4l2_m2m_ioctl_try_encoder_cmd 0xf6f5d83d
-#SYMVER v4l2_m2m_ioctl_try_decoder_cmd 0x535794e4
-#SYMVER v4l2_m2m_encoder_cmd 0x991efea8
-#SYMVER v4l2_m2m_decoder_cmd 0x4b7b82a7
-#SYMVER v4l2_m2m_ioctl_encoder_cmd 0x29a08e00
-#SYMVER v4l2_m2m_ioctl_decoder_cmd 0xe5c3352d
-#SYMVER v4l2_m2m_ioctl_stateless_try_decoder_cmd 0x48f92666
-#SYMVER v4l2_m2m_ioctl_stateless_decoder_cmd 0xe9280a9a
-#SYMVER v4l2_m2m_fop_mmap 0x7cf0c6d0
-#SYMVER v4l2_m2m_fop_poll 0xed9da762
+#SYMVER v4l2_m2m_ctx_init 0xf589aa42
+#SYMVER v4l2_m2m_ctx_release 0xa8628305
+#SYMVER v4l2_m2m_buf_queue 0xec03f1d0
+#SYMVER v4l2_m2m_buf_copy_metadata 0xedf5c845
+#SYMVER v4l2_m2m_request_queue 0x61b9c286
+#SYMVER v4l2_m2m_ioctl_reqbufs 0xebc0df4a
+#SYMVER v4l2_m2m_ioctl_create_bufs 0xdfa5a1ef
+#SYMVER v4l2_m2m_ioctl_remove_bufs 0x9efe0c76
+#SYMVER v4l2_m2m_ioctl_querybuf 0x8a42e509
+#SYMVER v4l2_m2m_ioctl_qbuf 0xb4a0e21d
+#SYMVER v4l2_m2m_ioctl_dqbuf 0x3d5df855
+#SYMVER v4l2_m2m_ioctl_prepare_buf 0x234e519b
+#SYMVER v4l2_m2m_ioctl_expbuf 0x454e76d2
+#SYMVER v4l2_m2m_ioctl_streamon 0xeb39bf67
+#SYMVER v4l2_m2m_ioctl_streamoff 0x585a909a
+#SYMVER v4l2_m2m_ioctl_try_encoder_cmd 0x45599811
+#SYMVER v4l2_m2m_ioctl_try_decoder_cmd 0x3f4e7ee8
+#SYMVER v4l2_m2m_encoder_cmd 0x446f7e22
+#SYMVER v4l2_m2m_decoder_cmd 0x4d575b21
+#SYMVER v4l2_m2m_ioctl_encoder_cmd 0xb9b43a03
+#SYMVER v4l2_m2m_ioctl_decoder_cmd 0x4f4bf349
+#SYMVER v4l2_m2m_ioctl_stateless_try_decoder_cmd 0x9349b945
+#SYMVER v4l2_m2m_ioctl_stateless_decoder_cmd 0x1587b59a
+#SYMVER v4l2_m2m_fop_mmap 0x4bf694a9
+#SYMVER v4l2_m2m_fop_poll 0xeec33859

@@ -1,4 +1,4 @@
-savedcmd_sound/soc/codecs/wm_adsp.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/codecs/.wm_adsp.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"wm_adsp"' -DKBUILD_MODNAME='"snd_soc_wm_adsp"' -D__KBUILD_MODNAME=kmod_snd_soc_wm_adsp -c -o sound/soc/codecs/wm_adsp.o sound/soc/codecs/wm_adsp.c  
+savedcmd_sound/soc/codecs/wm_adsp.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/codecs/.wm_adsp.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"wm_adsp"' -DKBUILD_MODNAME='"snd_soc_wm_adsp"' -D__KBUILD_MODNAME=kmod_snd_soc_wm_adsp -c -o sound/soc/codecs/wm_adsp.o sound/soc/codecs/wm_adsp.c  
 
 source_sound/soc/codecs/wm_adsp.o := sound/soc/codecs/wm_adsp.c
 
@@ -728,6 +728,10 @@ deps_sound/soc/codecs/wm_adsp.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1068,7 +1072,6 @@ deps_sound/soc/codecs/wm_adsp.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1254,14 +1257,11 @@ deps_sound/soc/codecs/wm_adsp.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1407,36 +1407,36 @@ deps_sound/soc/codecs/wm_adsp.o := \
 sound/soc/codecs/wm_adsp.o: $(deps_sound/soc/codecs/wm_adsp.o)
 
 $(deps_sound/soc/codecs/wm_adsp.o):
-#SYMVER wm_adsp_fw_get 0xf433b0dc
-#SYMVER wm_adsp_fw_put 0xa4ba9c90
+#SYMVER wm_adsp_fw_get 0x997c40fa
+#SYMVER wm_adsp_fw_put 0xc3e93f15
 #SYMVER wm_adsp_fw_enum 0x894458f3
-#SYMVER wm_adsp_control_add 0x910dff81
-#SYMVER wm_adsp_write_ctl 0x6b453f3b
-#SYMVER wm_adsp_read_ctl 0x5ca351af
-#SYMVER wm_adsp1_init 0x7e1e7f90
-#SYMVER wm_adsp1_event 0x63ad787b
-#SYMVER wm_adsp2_set_dspclk 0xd54ae5d9
-#SYMVER wm_adsp2_preloader_get 0xe74abbe4
-#SYMVER wm_adsp2_preloader_put 0xb7c397a8
-#SYMVER wm_adsp_power_up 0x395f5119
-#SYMVER wm_adsp_power_down 0x1106900d
-#SYMVER wm_adsp_early_event 0x858100d4
-#SYMVER wm_adsp_run 0x92c5e223
-#SYMVER wm_adsp_stop 0x5453b492
-#SYMVER wm_adsp_event 0x292708cd
-#SYMVER wm_adsp2_component_probe 0xeb5a7736
-#SYMVER wm_adsp2_component_remove 0x589a253c
-#SYMVER wm_adsp2_init 0x3fbc5ccd
-#SYMVER wm_halo_init 0x10307080
-#SYMVER wm_adsp2_remove 0x2a0cc53e
-#SYMVER wm_adsp_compr_open 0xfdbbeb95
-#SYMVER wm_adsp_compr_free 0x1361100f
-#SYMVER wm_adsp_compr_set_params 0xc5b5f6b6
-#SYMVER wm_adsp_compr_get_caps 0x0f3e5b59
-#SYMVER wm_adsp_compr_trigger 0x0e77d840
-#SYMVER wm_adsp_compr_handle_irq 0x193da1d2
-#SYMVER wm_adsp_compr_pointer 0x021cb127
-#SYMVER wm_adsp_compr_copy 0xab1ba4b4
+#SYMVER wm_adsp_control_add 0xa46093aa
+#SYMVER wm_adsp_write_ctl 0x824cd1cb
+#SYMVER wm_adsp_read_ctl 0x2a0c1d1d
+#SYMVER wm_adsp1_init 0xbc8017f0
+#SYMVER wm_adsp1_event 0x5bfed875
+#SYMVER wm_adsp2_set_dspclk 0x0f7955bc
+#SYMVER wm_adsp2_preloader_get 0xc465e4b0
+#SYMVER wm_adsp2_preloader_put 0x9ef09b5f
+#SYMVER wm_adsp_power_up 0xf2d691b9
+#SYMVER wm_adsp_power_down 0xe8aaf0ca
+#SYMVER wm_adsp_early_event 0xca3da8a2
+#SYMVER wm_adsp_run 0xb50be348
+#SYMVER wm_adsp_stop 0x217b4d63
+#SYMVER wm_adsp_event 0xdfd5d2a7
+#SYMVER wm_adsp2_component_probe 0x9cd61b92
+#SYMVER wm_adsp2_component_remove 0x441e3ad1
+#SYMVER wm_adsp2_init 0xc6bd2ae5
+#SYMVER wm_halo_init 0x908dbea4
+#SYMVER wm_adsp2_remove 0xf7e37d1c
+#SYMVER wm_adsp_compr_open 0x61e9efac
+#SYMVER wm_adsp_compr_free 0xce8b591a
+#SYMVER wm_adsp_compr_set_params 0x9f6c1355
+#SYMVER wm_adsp_compr_get_caps 0xac4963b0
+#SYMVER wm_adsp_compr_trigger 0xe747a382
+#SYMVER wm_adsp_compr_handle_irq 0x2ae17d96
+#SYMVER wm_adsp_compr_pointer 0x2189d32b
+#SYMVER wm_adsp_compr_copy 0xdc7dfb48
 #SYMVER wm_adsp2_bus_error 0xdd3c79ef
 #SYMVER wm_halo_bus_error 0xea38ee07
 #SYMVER wm_halo_wdt_expire 0x52c16479

@@ -1,4 +1,4 @@
-savedcmd_drivers/mtd/mtdcore.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/mtd/.mtdcore.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"mtdcore"' -DKBUILD_MODNAME='"mtd"' -D__KBUILD_MODNAME=kmod_mtd -c -o drivers/mtd/mtdcore.o drivers/mtd/mtdcore.c  
+savedcmd_drivers/mtd/mtdcore.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/mtd/.mtdcore.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"mtdcore"' -DKBUILD_MODNAME='"mtd"' -D__KBUILD_MODNAME=kmod_mtd -c -o drivers/mtd/mtdcore.o drivers/mtd/mtdcore.c  
 
 source_drivers/mtd/mtdcore.o := drivers/mtd/mtdcore.c
 
@@ -732,6 +732,10 @@ deps_drivers/mtd/mtdcore.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1173,7 +1177,6 @@ deps_drivers/mtd/mtdcore.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1247,14 +1250,11 @@ deps_drivers/mtd/mtdcore.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1327,52 +1327,52 @@ deps_drivers/mtd/mtdcore.o := \
 drivers/mtd/mtdcore.o: $(deps_drivers/mtd/mtdcore.o)
 
 $(deps_drivers/mtd/mtdcore.o):
-#SYMVER mtd_table_mutex 0x4b723d34
-#SYMVER __mtd_next_device 0x80669e12
+#SYMVER mtd_table_mutex 0xb6e09720
+#SYMVER __mtd_next_device 0x9ce84b2c
 #SYMVER mtd_check_expert_analysis_mode 0xb7075882
-#SYMVER mtd_wunit_to_pairing_info 0x64298e3e
-#SYMVER mtd_pairing_info_to_wunit 0x45248b0b
-#SYMVER mtd_pairing_groups 0xdc629810
-#SYMVER mtd_device_parse_register 0xb89c35b9
-#SYMVER mtd_device_unregister 0x2a0321b0
-#SYMVER register_mtd_user 0xaa6f2346
-#SYMVER unregister_mtd_user 0x35a959a1
-#SYMVER get_mtd_device 0xb489ea86
-#SYMVER __get_mtd_device 0x8a70c4ac
-#SYMVER of_get_mtd_device_by_node 0xd10fc3ea
-#SYMVER get_mtd_device_nm 0xc5fb3bcd
-#SYMVER put_mtd_device 0xc36fc1d1
-#SYMVER __put_mtd_device 0xa8a152a5
-#SYMVER mtd_erase 0xe41dc030
-#SYMVER mtd_point 0xd23bf1b8
-#SYMVER mtd_unpoint 0x879646f9
-#SYMVER mtd_get_unmapped_area 0x9be9d2c2
-#SYMVER mtd_read 0xe76fb52d
-#SYMVER mtd_write 0x15ed04b2
-#SYMVER mtd_panic_write 0xa9994ff4
-#SYMVER mtd_read_oob 0xf73e8c2b
-#SYMVER mtd_write_oob 0xc3cdbfc5
-#SYMVER mtd_ooblayout_ecc 0xe05e7304
-#SYMVER mtd_ooblayout_free 0x61446a32
-#SYMVER mtd_ooblayout_find_eccregion 0x2a659b89
-#SYMVER mtd_ooblayout_get_eccbytes 0x73c744e2
-#SYMVER mtd_ooblayout_set_eccbytes 0x8cec7f01
-#SYMVER mtd_ooblayout_get_databytes 0x1afc014a
-#SYMVER mtd_ooblayout_set_databytes 0x0599f635
-#SYMVER mtd_ooblayout_count_freebytes 0xd12c192e
-#SYMVER mtd_ooblayout_count_eccbytes 0x1ca3e76e
-#SYMVER mtd_get_fact_prot_info 0x0e299894
-#SYMVER mtd_read_fact_prot_reg 0x4dbb058e
-#SYMVER mtd_get_user_prot_info 0xc3562089
-#SYMVER mtd_read_user_prot_reg 0xe5058b7b
-#SYMVER mtd_write_user_prot_reg 0x44fc716c
-#SYMVER mtd_lock_user_prot_reg 0x16863d47
-#SYMVER mtd_erase_user_prot_reg 0xc84f7a13
-#SYMVER mtd_lock 0x4035d141
-#SYMVER mtd_unlock 0x213156ea
-#SYMVER mtd_is_locked 0xadc1c3c2
-#SYMVER mtd_block_isreserved 0x241b6f63
-#SYMVER mtd_block_isbad 0x193214dd
-#SYMVER mtd_block_markbad 0xe3a5da3a
-#SYMVER mtd_writev 0x41796a1f
-#SYMVER mtd_kmalloc_up_to 0x448d8022
+#SYMVER mtd_wunit_to_pairing_info 0x24148692
+#SYMVER mtd_pairing_info_to_wunit 0x2e5f1e22
+#SYMVER mtd_pairing_groups 0x0a8a6121
+#SYMVER mtd_device_parse_register 0x67603847
+#SYMVER mtd_device_unregister 0x008f9b71
+#SYMVER register_mtd_user 0x8f1f95da
+#SYMVER unregister_mtd_user 0x0f94367e
+#SYMVER get_mtd_device 0xcd11049e
+#SYMVER __get_mtd_device 0x3f0b27a3
+#SYMVER of_get_mtd_device_by_node 0x283922ae
+#SYMVER get_mtd_device_nm 0xc1c80bba
+#SYMVER put_mtd_device 0xf5909a36
+#SYMVER __put_mtd_device 0xa620cf5e
+#SYMVER mtd_erase 0x8d1d55aa
+#SYMVER mtd_point 0xa1be356f
+#SYMVER mtd_unpoint 0x0ae1d3be
+#SYMVER mtd_get_unmapped_area 0xeac12a5b
+#SYMVER mtd_read 0x2e2f3d9a
+#SYMVER mtd_write 0xb5676015
+#SYMVER mtd_panic_write 0xb8c0a5c2
+#SYMVER mtd_read_oob 0xa0864ad4
+#SYMVER mtd_write_oob 0x711657f4
+#SYMVER mtd_ooblayout_ecc 0xe675833a
+#SYMVER mtd_ooblayout_free 0x453174d6
+#SYMVER mtd_ooblayout_find_eccregion 0xee438924
+#SYMVER mtd_ooblayout_get_eccbytes 0xb52c378a
+#SYMVER mtd_ooblayout_set_eccbytes 0x1318a0bc
+#SYMVER mtd_ooblayout_get_databytes 0xbdeb0366
+#SYMVER mtd_ooblayout_set_databytes 0x546ecdee
+#SYMVER mtd_ooblayout_count_freebytes 0xa28d0933
+#SYMVER mtd_ooblayout_count_eccbytes 0x5f748988
+#SYMVER mtd_get_fact_prot_info 0x0a113102
+#SYMVER mtd_read_fact_prot_reg 0xc3909e2d
+#SYMVER mtd_get_user_prot_info 0x07c33c95
+#SYMVER mtd_read_user_prot_reg 0x7cf737a7
+#SYMVER mtd_write_user_prot_reg 0x6b492760
+#SYMVER mtd_lock_user_prot_reg 0x29e28e42
+#SYMVER mtd_erase_user_prot_reg 0xccf4f463
+#SYMVER mtd_lock 0x0444141d
+#SYMVER mtd_unlock 0x13c33383
+#SYMVER mtd_is_locked 0x6d60a260
+#SYMVER mtd_block_isreserved 0xbbde32db
+#SYMVER mtd_block_isbad 0xe8f6c16a
+#SYMVER mtd_block_markbad 0x8eba2ef8
+#SYMVER mtd_writev 0xecbc9cec
+#SYMVER mtd_kmalloc_up_to 0x78b1fe99

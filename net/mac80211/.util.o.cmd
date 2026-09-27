@@ -1,4 +1,4 @@
-savedcmd_net/mac80211/util.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/mac80211/.util.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -DDEBUG  -DMODULE  -DKBUILD_BASENAME='"util"' -DKBUILD_MODNAME='"mac80211"' -D__KBUILD_MODNAME=kmod_mac80211 -c -o net/mac80211/util.o net/mac80211/util.c  
+savedcmd_net/mac80211/util.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/mac80211/.util.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -DDEBUG  -DMODULE  -DKBUILD_BASENAME='"util"' -DKBUILD_MODNAME='"mac80211"' -D__KBUILD_MODNAME=kmod_mac80211 -c -o net/mac80211/util.o net/mac80211/util.c  
 
 source_net/mac80211/util.o := net/mac80211/util.c
 
@@ -783,6 +783,11 @@ deps_net/mac80211/util.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -950,7 +955,6 @@ deps_net/mac80211/util.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -991,7 +995,6 @@ deps_net/mac80211/util.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1210,14 +1213,11 @@ deps_net/mac80211/util.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1628,30 +1628,30 @@ deps_net/mac80211/util.o := \
 net/mac80211/util.o: $(deps_net/mac80211/util.o)
 
 $(deps_net/mac80211/util.o):
-#SYMVER wiphy_to_ieee80211_hw 0x856c495f
+#SYMVER wiphy_to_ieee80211_hw 0x34b0afca
 #SYMVER ieee80211_get_bssid 0x95febea6
-#SYMVER ieee80211_generic_frame_duration 0x4f628aec
-#SYMVER ieee80211_rts_duration 0x5c863f51
-#SYMVER ieee80211_ctstoself_duration 0xba100a17
-#SYMVER ieee80211_handle_wake_tx_queue 0x3412f751
-#SYMVER ieee80211_wake_queue 0x08613a69
-#SYMVER ieee80211_stop_queue 0xf0da9396
-#SYMVER ieee80211_stop_queues 0x4cfc25a4
-#SYMVER ieee80211_queue_stopped 0x059c0e10
-#SYMVER ieee80211_wake_queues 0x0f31f77a
-#SYMVER ieee80211_iterate_interfaces 0x1a873cbd
-#SYMVER ieee80211_iterate_active_interfaces_atomic 0x2bd2cefc
-#SYMVER ieee80211_iterate_active_interfaces_mtx 0x9e3734be
-#SYMVER ieee80211_iterate_stations_atomic 0x4a688675
-#SYMVER ieee80211_iterate_stations_mtx 0xadd7bf67
-#SYMVER wdev_to_ieee80211_vif 0xedd4d237
-#SYMVER ieee80211_vif_to_wdev 0x4d79e076
-#SYMVER ieee80211_queue_work 0x4984f3a9
-#SYMVER ieee80211_queue_delayed_work 0x6da83012
+#SYMVER ieee80211_generic_frame_duration 0xfdaff676
+#SYMVER ieee80211_rts_duration 0x8b36a629
+#SYMVER ieee80211_ctstoself_duration 0x1a01d610
+#SYMVER ieee80211_handle_wake_tx_queue 0x64f399e1
+#SYMVER ieee80211_wake_queue 0xcaa214ab
+#SYMVER ieee80211_stop_queue 0xbbb18bc1
+#SYMVER ieee80211_stop_queues 0x6c79e185
+#SYMVER ieee80211_queue_stopped 0x1c8547b5
+#SYMVER ieee80211_wake_queues 0x03ca6a1b
+#SYMVER ieee80211_iterate_interfaces 0xf0a69965
+#SYMVER ieee80211_iterate_active_interfaces_atomic 0x1e66c990
+#SYMVER ieee80211_iterate_active_interfaces_mtx 0x12f556c7
+#SYMVER ieee80211_iterate_stations_atomic 0xff411b0e
+#SYMVER ieee80211_iterate_stations_mtx 0xaf8279b5
+#SYMVER wdev_to_ieee80211_vif 0xb030c799
+#SYMVER ieee80211_vif_to_wdev 0x515d53b2
+#SYMVER ieee80211_queue_work 0x94e06b7e
+#SYMVER ieee80211_queue_delayed_work 0x48132f36
 #SYMVER ieee80211_hw_restart_disconnect 0xfdb512aa
 #SYMVER ieee80211_resume_disconnect 0xb0e72cfd
 #SYMVER ieee80211_ave_rssi 0x6fb1ad80
-#SYMVER ieee80211_radar_detected 0xb4bd712a
+#SYMVER ieee80211_radar_detected 0xcdf202f1
 #SYMVER ieee80211_update_p2p_noa 0x19f37f0d
 #SYMVER ieee80211_parse_p2p_noa 0x991a0ca0
 #SYMVER ieee80211_txq_get_depth 0xdca0f8b3

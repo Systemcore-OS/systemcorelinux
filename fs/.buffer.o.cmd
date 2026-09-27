@@ -1,4 +1,4 @@
-savedcmd_fs/buffer.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.buffer.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"fs/buffer"' -DKBUILD_BASENAME='"buffer"' -DKBUILD_MODNAME='"buffer"' -D__KBUILD_MODNAME=kmod_buffer -c -o fs/buffer.o fs/buffer.c  
+savedcmd_fs/buffer.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.buffer.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/buffer"' -DKBUILD_BASENAME='"buffer"' -DKBUILD_MODNAME='"buffer"' -D__KBUILD_MODNAME=kmod_buffer -c -o fs/buffer.o fs/buffer.c  
 
 source_fs/buffer.o := fs/buffer.c
 
@@ -670,6 +670,11 @@ deps_fs/buffer.o := \
   include/linux/swait.h \
   include/linux/wait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -999,7 +1004,6 @@ deps_fs/buffer.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1149,7 +1153,6 @@ deps_fs/buffer.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1260,7 +1263,6 @@ deps_fs/buffer.o := \
   include/uapi/linux/libc-compat.h \
   include/uapi/linux/hdlc/ioctl.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/irq_work.h \
     $(wildcard include/config/IRQ_WORK) \
   arch/arm64/include/asm/irq_work.h \
@@ -1359,9 +1361,7 @@ deps_fs/buffer.o := \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1482,56 +1482,56 @@ deps_fs/buffer.o := \
 fs/buffer.o: $(deps_fs/buffer.o)
 
 $(deps_fs/buffer.o):
-#SYMVER touch_buffer 0x697025ac
-#SYMVER __lock_buffer 0xce2909f0
-#SYMVER unlock_buffer 0x6a84cd2c
-#SYMVER __wait_on_buffer 0x69d8ee89
-#SYMVER end_buffer_read_sync 0x6917ffec
-#SYMVER end_buffer_write_sync 0x527e6bc0
-#SYMVER mark_buffer_async_write 0x833091b3
-#SYMVER sync_mapping_buffers 0x69abbb6e
-#SYMVER generic_buffers_fsync_noflush 0x6126c150
-#SYMVER generic_buffers_fsync 0xe612f2fe
-#SYMVER mark_buffer_dirty_inode 0xa6e94d92
-#SYMVER block_dirty_folio 0xac2df1d4
-#SYMVER invalidate_inode_buffers 0xefc5b446
-#SYMVER folio_alloc_buffers 0xb9de1163
-#SYMVER alloc_page_buffers 0x3250ba5f
-#SYMVER mark_buffer_dirty 0x51059513
-#SYMVER mark_buffer_write_io_error 0x7bb6be6b
-#SYMVER __brelse 0x439addbf
-#SYMVER __bforget 0x7c92393a
-#SYMVER __find_get_block 0xce187861
-#SYMVER __find_get_block_nonatomic 0x54628cf0
-#SYMVER bdev_getblk 0x0618cf8d
-#SYMVER __breadahead 0x8e919022
-#SYMVER __bread_gfp 0xfffb666d
+#SYMVER touch_buffer 0x290169ac
+#SYMVER __lock_buffer 0x9e76321e
+#SYMVER unlock_buffer 0xd35f7a20
+#SYMVER __wait_on_buffer 0x7e91b9fa
+#SYMVER end_buffer_read_sync 0x17c46b93
+#SYMVER end_buffer_write_sync 0x68b8445a
+#SYMVER mark_buffer_async_write 0xc3072575
+#SYMVER sync_mapping_buffers 0x5f4fef04
+#SYMVER generic_buffers_fsync_noflush 0x65bf1388
+#SYMVER generic_buffers_fsync 0x69c79189
+#SYMVER mark_buffer_dirty_inode 0x3505a907
+#SYMVER block_dirty_folio 0xb2b7365b
+#SYMVER invalidate_inode_buffers 0xbaf1f919
+#SYMVER folio_alloc_buffers 0x63812b31
+#SYMVER alloc_page_buffers 0x9ddc7eed
+#SYMVER mark_buffer_dirty 0x2cbc924d
+#SYMVER mark_buffer_write_io_error 0x08505c9a
+#SYMVER __brelse 0x8c42bcbe
+#SYMVER __bforget 0xb0e34963
+#SYMVER __find_get_block 0x8099445a
+#SYMVER __find_get_block_nonatomic 0x87d14d99
+#SYMVER bdev_getblk 0xc76a0ffb
+#SYMVER __breadahead 0x4a4e414d
+#SYMVER __bread_gfp 0x3e89a61b
 #SYMVER invalidate_bh_lrus 0xf5a691cd
-#SYMVER folio_set_bh 0x59694715
-#SYMVER block_invalidate_folio 0x8f58c924
-#SYMVER create_empty_buffers 0xc9193cfe
-#SYMVER clean_bdev_aliases 0xf678fc92
-#SYMVER __block_write_full_folio 0x0069139b
-#SYMVER folio_zero_new_buffers 0x0c907696
-#SYMVER __block_write_begin 0x31e0c02b
-#SYMVER block_write_begin 0xf240ff43
-#SYMVER block_write_end 0x40009ec8
-#SYMVER generic_write_end 0xf93bcdd0
-#SYMVER block_is_partially_uptodate 0x038d5dea
-#SYMVER block_read_full_folio 0x515acf82
-#SYMVER generic_cont_expand_simple 0x8e1cc5ca
-#SYMVER cont_write_begin 0xaa648024
-#SYMVER block_commit_write 0x0698f38b
-#SYMVER block_page_mkwrite 0x65391786
-#SYMVER block_truncate_page 0x0fc8281c
-#SYMVER generic_block_bmap 0xf9425372
-#SYMVER submit_bh 0x7f559f1b
-#SYMVER write_dirty_buffer 0xe2a0dcee
-#SYMVER __sync_dirty_buffer 0x3a1ece90
-#SYMVER sync_dirty_buffer 0x674bfa68
-#SYMVER try_to_free_buffers 0xd485282e
-#SYMVER alloc_buffer_head 0x20323a6f
-#SYMVER free_buffer_head 0x70200717
-#SYMVER bh_uptodate_or_lock 0xafff9736
-#SYMVER __bh_read 0xd69a2862
-#SYMVER __bh_read_batch 0xd67d941e
+#SYMVER folio_set_bh 0x0a9de574
+#SYMVER block_invalidate_folio 0x0bc45196
+#SYMVER create_empty_buffers 0xe788bcac
+#SYMVER clean_bdev_aliases 0xdc6aead0
+#SYMVER __block_write_full_folio 0xe8730f65
+#SYMVER folio_zero_new_buffers 0x3fa21864
+#SYMVER __block_write_begin 0x5fe73dca
+#SYMVER block_write_begin 0xe4d67813
+#SYMVER block_write_end 0xacedf13b
+#SYMVER generic_write_end 0xbc4962a5
+#SYMVER block_is_partially_uptodate 0xc2c89040
+#SYMVER block_read_full_folio 0x4dc5282d
+#SYMVER generic_cont_expand_simple 0x3e6398b9
+#SYMVER cont_write_begin 0x725f3215
+#SYMVER block_commit_write 0x8e6e8585
+#SYMVER block_page_mkwrite 0xc87be368
+#SYMVER block_truncate_page 0xb0f72a45
+#SYMVER generic_block_bmap 0xe5d51f74
+#SYMVER submit_bh 0xd1906cca
+#SYMVER write_dirty_buffer 0x643d175a
+#SYMVER __sync_dirty_buffer 0x9fc42230
+#SYMVER sync_dirty_buffer 0xe4a0901e
+#SYMVER try_to_free_buffers 0x446e1ac8
+#SYMVER alloc_buffer_head 0x8ed7a4a2
+#SYMVER free_buffer_head 0xa26433e6
+#SYMVER bh_uptodate_or_lock 0xb123b007
+#SYMVER __bh_read 0x51a4fc32
+#SYMVER __bh_read_batch 0x2f1febae

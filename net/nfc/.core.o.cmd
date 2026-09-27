@@ -1,4 +1,4 @@
-savedcmd_net/nfc/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/nfc/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"nfc"' -D__KBUILD_MODNAME=kmod_nfc -c -o net/nfc/core.o net/nfc/core.c  
+savedcmd_net/nfc/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/nfc/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"nfc"' -D__KBUILD_MODNAME=kmod_nfc -c -o net/nfc/core.o net/nfc/core.c  
 
 source_net/nfc/core.o := net/nfc/core.c
 
@@ -727,6 +727,10 @@ deps_net/nfc/core.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1181,7 +1185,6 @@ deps_net/nfc/core.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1265,14 +1268,11 @@ deps_net/nfc/core.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1584,25 +1584,25 @@ deps_net/nfc/core.o := \
 net/nfc/core.o: $(deps_net/nfc/core.o)
 
 $(deps_net/nfc/core.o):
-#SYMVER nfc_fw_download_done 0xcfe7c1d7
-#SYMVER nfc_dep_link_is_up 0xf7ac2439
-#SYMVER nfc_find_se 0x7ee67533
-#SYMVER nfc_set_remote_general_bytes 0x2afca10d
-#SYMVER nfc_get_local_general_bytes 0xeda351fd
-#SYMVER nfc_tm_data_received 0x9fb0ca25
-#SYMVER nfc_tm_activated 0x0abea2e1
-#SYMVER nfc_tm_deactivated 0x5dad75c7
-#SYMVER nfc_alloc_recv_skb 0xc1ee4f4f
-#SYMVER nfc_targets_found 0x06964621
-#SYMVER nfc_target_lost 0x9e3cdcc7
-#SYMVER nfc_driver_failure 0x342ec5d0
-#SYMVER nfc_add_se 0x722ffb5f
-#SYMVER nfc_remove_se 0x1669ab3b
-#SYMVER nfc_se_transaction 0xd37d670d
-#SYMVER nfc_se_connectivity 0xa433d6d4
-#SYMVER nfc_class 0xb6dcc09d
-#SYMVER nfc_allocate_device 0xaf879963
-#SYMVER nfc_register_device 0x6f75cb65
-#SYMVER nfc_unregister_rfkill 0xd2fafc1f
-#SYMVER nfc_remove_device 0x2a2021c1
-#SYMVER nfc_unregister_device 0x9607e0fd
+#SYMVER nfc_fw_download_done 0x4567fa0a
+#SYMVER nfc_dep_link_is_up 0x3117c535
+#SYMVER nfc_find_se 0x59a909ed
+#SYMVER nfc_set_remote_general_bytes 0xc8cbd96d
+#SYMVER nfc_get_local_general_bytes 0x7868c337
+#SYMVER nfc_tm_data_received 0x172ca6f4
+#SYMVER nfc_tm_activated 0xb8afe5cc
+#SYMVER nfc_tm_deactivated 0xa13c6bdf
+#SYMVER nfc_alloc_recv_skb 0x4ddedf59
+#SYMVER nfc_targets_found 0x8268f0cd
+#SYMVER nfc_target_lost 0xf75dc210
+#SYMVER nfc_driver_failure 0xdb132e93
+#SYMVER nfc_add_se 0x47c9bd23
+#SYMVER nfc_remove_se 0x93f07451
+#SYMVER nfc_se_transaction 0xa59b9d7d
+#SYMVER nfc_se_connectivity 0x08780d81
+#SYMVER nfc_class 0x25833566
+#SYMVER nfc_allocate_device 0xc74c7dde
+#SYMVER nfc_register_device 0x09edf4a4
+#SYMVER nfc_unregister_rfkill 0xb235b3b4
+#SYMVER nfc_remove_device 0x20361e31
+#SYMVER nfc_unregister_device 0x28960ae8

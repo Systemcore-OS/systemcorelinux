@@ -1,7 +1,8 @@
+fs/nfs_common/nfs_acl.o
+fs/nfs_common/grace.o
 fs/quota/quota_v1.o
 fs/quota/quota_v2.o
 fs/quota/quota_tree.o
-fs/nfs/blocklayout/blocklayoutdriver.o
 fs/nls/nls_cp737.o
 fs/nls/nls_cp775.o
 fs/nls/nls_cp850.o
@@ -52,7 +53,15 @@ fs/isofs/isofs.o
 fs/hfsplus/hfsplus.o
 fs/hfs/hfs.o
 fs/ecryptfs/ecryptfs.o
+fs/nfs/nfs.o
+fs/nfs/nfsv2.o
+fs/nfs/nfsv3.o
+fs/nfs/nfsv4.o
+fs/nfs/filelayout/nfs_layout_nfsv41_files.o
+fs/nfs/blocklayout/blocklayoutdriver.o
+fs/nfs/flexfilelayout/nfs_layout_flexfiles.o
 fs/nfsd/nfsd.o
+fs/lockd/lockd.o
 fs/smb/common/cifs_arc4.o
 fs/smb/common/cifs_md4.o
 fs/smb/client/cifs.o
@@ -78,6 +87,7 @@ fs/ocfs2/cluster/ocfs2_nodemanager.o
 fs/ocfs2/dlm/ocfs2_dlm.o
 fs/btrfs/btrfs.o
 fs/gfs2/gfs2.o
+fs/f2fs/f2fs.o
 fs/bcachefs/bcachefs.o
 fs/ceph/ceph.o
 fs/efivarfs/efivarfs.o

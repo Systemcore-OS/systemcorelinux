@@ -1,4 +1,4 @@
-savedcmd_drivers/iio/inkern.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/iio/.inkern.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"inkern"' -DKBUILD_MODNAME='"industrialio"' -D__KBUILD_MODNAME=kmod_industrialio -c -o drivers/iio/inkern.o drivers/iio/inkern.c  
+savedcmd_drivers/iio/inkern.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/iio/.inkern.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"inkern"' -DKBUILD_MODNAME='"industrialio"' -D__KBUILD_MODNAME=kmod_industrialio -c -o drivers/iio/inkern.o drivers/iio/inkern.c  
 
 source_drivers/iio/inkern.o := drivers/iio/inkern.c
 
@@ -562,6 +562,11 @@ deps_drivers/iio/inkern.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -858,7 +863,6 @@ deps_drivers/iio/inkern.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1015,33 +1019,33 @@ deps_drivers/iio/inkern.o := \
 drivers/iio/inkern.o: $(deps_drivers/iio/inkern.o)
 
 $(deps_drivers/iio/inkern.o):
-#SYMVER iio_map_array_register 0xf91458d9
-#SYMVER iio_map_array_unregister 0x79e250da
-#SYMVER devm_iio_map_array_register 0x5d322b7e
-#SYMVER fwnode_iio_channel_get_by_name 0x3fb83724
-#SYMVER iio_channel_get 0x69d57347
-#SYMVER iio_channel_release 0x88a3be2a
-#SYMVER devm_iio_channel_get 0xf7d88167
-#SYMVER devm_fwnode_iio_channel_get_by_name 0x602c8362
-#SYMVER iio_channel_get_all 0x74941032
-#SYMVER iio_channel_release_all 0x0b59970d
-#SYMVER devm_iio_channel_get_all 0x805f278e
-#SYMVER iio_read_channel_raw 0x32f73bda
-#SYMVER iio_read_channel_average_raw 0xc9c0056c
-#SYMVER iio_convert_raw_to_processed 0x25809360
-#SYMVER iio_read_channel_attribute 0xe6c10335
-#SYMVER iio_read_channel_offset 0xb49de5ed
-#SYMVER iio_read_channel_processed_scale 0xccd795c9
-#SYMVER iio_read_channel_processed 0x2759f2be
-#SYMVER iio_read_channel_scale 0xb1715ea4
-#SYMVER iio_read_avail_channel_attribute 0x0c7962ed
-#SYMVER iio_read_avail_channel_raw 0xd6a0dcd2
-#SYMVER iio_read_max_channel_raw 0xed1ca5f0
-#SYMVER iio_read_min_channel_raw 0x18cdf690
-#SYMVER iio_get_channel_type 0x5ccd3986
-#SYMVER iio_write_channel_attribute 0x902def66
-#SYMVER iio_write_channel_raw 0xf2377235
-#SYMVER iio_get_channel_ext_info_count 0x4847b1d8
-#SYMVER iio_read_channel_ext_info 0x34c14b8a
-#SYMVER iio_write_channel_ext_info 0x62355b88
-#SYMVER iio_read_channel_label 0x72a89621
+#SYMVER iio_map_array_register 0x4cb00a9c
+#SYMVER iio_map_array_unregister 0xf14c76ef
+#SYMVER devm_iio_map_array_register 0x1fa5e319
+#SYMVER fwnode_iio_channel_get_by_name 0xbc574ee1
+#SYMVER iio_channel_get 0x20b858f5
+#SYMVER iio_channel_release 0xd8affce5
+#SYMVER devm_iio_channel_get 0x8b585e13
+#SYMVER devm_fwnode_iio_channel_get_by_name 0x69c72db2
+#SYMVER iio_channel_get_all 0xfb3be5d5
+#SYMVER iio_channel_release_all 0x692852c5
+#SYMVER devm_iio_channel_get_all 0xc52c440d
+#SYMVER iio_read_channel_raw 0xfb9bc692
+#SYMVER iio_read_channel_average_raw 0x35d85443
+#SYMVER iio_convert_raw_to_processed 0x9160ddfe
+#SYMVER iio_read_channel_attribute 0x39eb82a7
+#SYMVER iio_read_channel_offset 0xacc537c6
+#SYMVER iio_read_channel_processed_scale 0x54a0ea62
+#SYMVER iio_read_channel_processed 0xdcfbd322
+#SYMVER iio_read_channel_scale 0xe66f1abd
+#SYMVER iio_read_avail_channel_attribute 0x20229f17
+#SYMVER iio_read_avail_channel_raw 0xf19b99d4
+#SYMVER iio_read_max_channel_raw 0x917b0c67
+#SYMVER iio_read_min_channel_raw 0x297e8f1c
+#SYMVER iio_get_channel_type 0x7f0419bf
+#SYMVER iio_write_channel_attribute 0x26185c95
+#SYMVER iio_write_channel_raw 0xd8e15572
+#SYMVER iio_get_channel_ext_info_count 0x0e837c71
+#SYMVER iio_read_channel_ext_info 0x79603e91
+#SYMVER iio_write_channel_ext_info 0x435bdb69
+#SYMVER iio_read_channel_label 0x2ea71474

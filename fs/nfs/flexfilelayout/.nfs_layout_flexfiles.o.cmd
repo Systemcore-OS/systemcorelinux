@@ -1,0 +1,1 @@
+savedcmd_fs/nfs/flexfilelayout/nfs_layout_flexfiles.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o fs/nfs/flexfilelayout/nfs_layout_flexfiles.o @fs/nfs/flexfilelayout/nfs_layout_flexfiles.mod 

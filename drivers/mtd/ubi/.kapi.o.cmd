@@ -1,4 +1,4 @@
-savedcmd_drivers/mtd/ubi/kapi.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/mtd/ubi/.kapi.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"kapi"' -DKBUILD_MODNAME='"ubi"' -D__KBUILD_MODNAME=kmod_ubi -c -o drivers/mtd/ubi/kapi.o drivers/mtd/ubi/kapi.c  
+savedcmd_drivers/mtd/ubi/kapi.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/mtd/ubi/.kapi.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"kapi"' -DKBUILD_MODNAME='"ubi"' -D__KBUILD_MODNAME=kmod_ubi -c -o drivers/mtd/ubi/kapi.o drivers/mtd/ubi/kapi.c  
 
 source_drivers/mtd/ubi/kapi.o := drivers/mtd/ubi/kapi.c
 
@@ -727,6 +727,10 @@ deps_drivers/mtd/ubi/kapi.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1138,21 +1142,21 @@ deps_drivers/mtd/ubi/kapi.o := \
 drivers/mtd/ubi/kapi.o: $(deps_drivers/mtd/ubi/kapi.o)
 
 $(deps_drivers/mtd/ubi/kapi.o):
-#SYMVER ubi_do_get_device_info 0xb102067f
+#SYMVER ubi_do_get_device_info 0x6beb9e69
 #SYMVER ubi_get_device_info 0x66011ab6
-#SYMVER ubi_get_volume_info 0x6705c95e
-#SYMVER ubi_open_volume 0x5df388e0
-#SYMVER ubi_open_volume_nm 0x645498a0
-#SYMVER ubi_open_volume_path 0x9557289a
-#SYMVER ubi_close_volume 0xdf70e2e4
-#SYMVER ubi_leb_read 0x4c683a39
-#SYMVER ubi_leb_read_sg 0x00bdacf3
-#SYMVER ubi_leb_write 0x84fb1d60
-#SYMVER ubi_leb_change 0xd9a6b7a8
-#SYMVER ubi_leb_erase 0x3b797037
-#SYMVER ubi_leb_unmap 0xa3f312c9
-#SYMVER ubi_leb_map 0x34c25429
-#SYMVER ubi_is_mapped 0xfb650214
+#SYMVER ubi_get_volume_info 0xd0def391
+#SYMVER ubi_open_volume 0xbb50d822
+#SYMVER ubi_open_volume_nm 0xab364ab8
+#SYMVER ubi_open_volume_path 0xb61dd058
+#SYMVER ubi_close_volume 0xb1e60985
+#SYMVER ubi_leb_read 0x1384154c
+#SYMVER ubi_leb_read_sg 0x21131fb1
+#SYMVER ubi_leb_write 0x9571eef5
+#SYMVER ubi_leb_change 0x0840cb94
+#SYMVER ubi_leb_erase 0x98d4c866
+#SYMVER ubi_leb_unmap 0xc0930ee9
+#SYMVER ubi_leb_map 0xe67376c1
+#SYMVER ubi_is_mapped 0xa8c2ba69
 #SYMVER ubi_sync 0x42801d20
 #SYMVER ubi_flush 0x38e10c1d
 #SYMVER ubi_register_volume_notifier 0xf5ee9ba8

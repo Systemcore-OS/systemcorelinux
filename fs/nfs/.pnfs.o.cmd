@@ -1,4 +1,4 @@
-savedcmd_fs/nfs/pnfs.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/nfs/.pnfs.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"fs/nfs/nfsv4"' -DKBUILD_BASENAME='"pnfs"' -DKBUILD_MODNAME='"nfsv4"' -D__KBUILD_MODNAME=kmod_nfsv4 -c -o fs/nfs/pnfs.o fs/nfs/pnfs.c  
+savedcmd_fs/nfs/pnfs.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/nfs/.pnfs.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"pnfs"' -DKBUILD_MODNAME='"nfsv4"' -D__KBUILD_MODNAME=kmod_nfsv4 -c -o fs/nfs/pnfs.o fs/nfs/pnfs.c  
 
 source_fs/nfs/pnfs.o := fs/nfs/pnfs.c
 
@@ -536,6 +536,11 @@ deps_fs/nfs/pnfs.o := \
   include/linux/wait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -1021,7 +1026,6 @@ deps_fs/nfs/pnfs.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1062,7 +1066,6 @@ deps_fs/nfs/pnfs.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1183,14 +1186,11 @@ deps_fs/nfs/pnfs.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1679,28 +1679,28 @@ deps_fs/nfs/pnfs.o := \
 fs/nfs/pnfs.o: $(deps_fs/nfs/pnfs.o)
 
 $(deps_fs/nfs/pnfs.o):
-#SYMVER pnfs_register_layoutdriver 0xdd6b8eee
-#SYMVER pnfs_unregister_layoutdriver 0x9796d02a
-#SYMVER pnfs_put_lseg 0x88c60819
-#SYMVER pnfs_destroy_layout 0xa1527f75
-#SYMVER pnfs_generic_layout_insert_lseg 0xbb129016
-#SYMVER pnfs_update_layout 0xfda02b39
-#SYMVER pnfs_error_mark_layout_for_return 0x3b81831c
-#SYMVER pnfs_generic_pg_check_layout 0x49b7dfed
-#SYMVER pnfs_generic_pg_init_read 0xab9b2115
-#SYMVER pnfs_generic_pg_init_write 0xa342bf66
-#SYMVER pnfs_generic_pg_cleanup 0x54113f3b
-#SYMVER pnfs_generic_pg_test 0x762f724e
-#SYMVER pnfs_write_done_resend_to_mds 0x69c6a366
-#SYMVER pnfs_ld_write_done 0xb3477889
-#SYMVER pnfs_generic_pg_writepages 0x434a71c1
-#SYMVER pnfs_read_done_resend_to_mds 0x1fe3b0b0
-#SYMVER pnfs_ld_read_done 0xbb8e9616
-#SYMVER pnfs_read_resend_pnfs 0xfc018aac
-#SYMVER pnfs_generic_pg_readpages 0x5d065b0c
-#SYMVER pnfs_set_lo_fail 0x4ecaf942
-#SYMVER pnfs_set_layoutcommit 0xe9447a44
-#SYMVER pnfs_layoutcommit_inode 0x8262f875
-#SYMVER pnfs_generic_sync 0x07d24aa5
-#SYMVER pnfs_report_layoutstat 0xfea94572
+#SYMVER pnfs_register_layoutdriver 0x3a07d524
+#SYMVER pnfs_unregister_layoutdriver 0x35f9eb7f
+#SYMVER pnfs_put_lseg 0xd2b71b6a
+#SYMVER pnfs_destroy_layout 0xc357afb9
+#SYMVER pnfs_generic_layout_insert_lseg 0xf7c4f19c
+#SYMVER pnfs_update_layout 0xc3198eb8
+#SYMVER pnfs_error_mark_layout_for_return 0xb3a30e91
+#SYMVER pnfs_generic_pg_check_layout 0xe14d255d
+#SYMVER pnfs_generic_pg_init_read 0x660be337
+#SYMVER pnfs_generic_pg_init_write 0xc8240caf
+#SYMVER pnfs_generic_pg_cleanup 0x0c313c5d
+#SYMVER pnfs_generic_pg_test 0x1459477c
+#SYMVER pnfs_write_done_resend_to_mds 0x6e28eb34
+#SYMVER pnfs_ld_write_done 0x8f777c92
+#SYMVER pnfs_generic_pg_writepages 0x7f9bd39e
+#SYMVER pnfs_read_done_resend_to_mds 0xb380adf6
+#SYMVER pnfs_ld_read_done 0x1a3e4daa
+#SYMVER pnfs_read_resend_pnfs 0xe0b11ada
+#SYMVER pnfs_generic_pg_readpages 0x791fb4fd
+#SYMVER pnfs_set_lo_fail 0x983ba680
+#SYMVER pnfs_set_layoutcommit 0x5e8d0ee9
+#SYMVER pnfs_layoutcommit_inode 0x716a3581
+#SYMVER pnfs_generic_sync 0x02fda679
+#SYMVER pnfs_report_layoutstat 0x86de6a43
 #SYMVER layoutstats_timer 0x054bef45

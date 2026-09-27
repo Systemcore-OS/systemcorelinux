@@ -1,4 +1,4 @@
-savedcmd_drivers/net/phy/bcm-phy-lib.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/phy/.bcm-phy-lib.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/net/phy/bcm-phy-lib"' -DKBUILD_BASENAME='"bcm_phy_lib"' -DKBUILD_MODNAME='"bcm_phy_lib"' -D__KBUILD_MODNAME=kmod_bcm_phy_lib -c -o drivers/net/phy/bcm-phy-lib.o drivers/net/phy/bcm-phy-lib.c  
+savedcmd_drivers/net/phy/bcm-phy-lib.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/phy/.bcm-phy-lib.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/net/phy/bcm-phy-lib"' -DKBUILD_BASENAME='"bcm_phy_lib"' -DKBUILD_MODNAME='"bcm_phy_lib"' -D__KBUILD_MODNAME=kmod_bcm_phy_lib -c -o drivers/net/phy/bcm-phy-lib.o drivers/net/phy/bcm-phy-lib.c  
 
 source_drivers/net/phy/bcm-phy-lib.o := drivers/net/phy/bcm-phy-lib.c
 
@@ -713,6 +713,11 @@ deps_drivers/net/phy/bcm-phy-lib.o := \
   include/linux/swait.h \
   include/linux/wait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -984,7 +989,6 @@ deps_drivers/net/phy/bcm-phy-lib.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1025,7 +1029,6 @@ deps_drivers/net/phy/bcm-phy-lib.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1212,14 +1215,11 @@ deps_drivers/net/phy/bcm-phy-lib.o := \
   arch/arm64/include/generated/asm/unistd_compat_32.h \
   include/asm-generic/seccomp.h \
   arch/arm64/include/asm/ftrace.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1581,45 +1581,45 @@ deps_drivers/net/phy/bcm-phy-lib.o := \
 drivers/net/phy/bcm-phy-lib.o: $(deps_drivers/net/phy/bcm-phy-lib.o)
 
 $(deps_drivers/net/phy/bcm-phy-lib.o):
-#SYMVER __bcm_phy_write_exp 0xe1b24c6e
-#SYMVER bcm_phy_write_exp 0x3ee5ded4
-#SYMVER __bcm_phy_read_exp 0x4b3d921f
-#SYMVER bcm_phy_read_exp 0x98f92ecc
-#SYMVER __bcm_phy_modify_exp 0x7085ff4b
-#SYMVER bcm_phy_modify_exp 0x502ae2f9
-#SYMVER bcm54xx_auxctl_read 0xb0bead24
-#SYMVER bcm54xx_auxctl_write 0x19c9d12f
-#SYMVER bcm_phy_write_misc 0xa6c0aeda
-#SYMVER bcm_phy_read_misc 0x78725e77
-#SYMVER bcm_phy_ack_intr 0x67bf81b1
-#SYMVER bcm_phy_config_intr 0xb9ef18d1
-#SYMVER bcm_phy_handle_interrupt 0x8dd56d88
-#SYMVER bcm_phy_read_shadow 0x8a96c9f5
-#SYMVER bcm_phy_write_shadow 0xb54d1529
-#SYMVER __bcm_phy_read_rdb 0xd288f23a
-#SYMVER bcm_phy_read_rdb 0x014c4ee9
-#SYMVER __bcm_phy_write_rdb 0xf78f9271
-#SYMVER bcm_phy_write_rdb 0x28d800cb
-#SYMVER __bcm_phy_modify_rdb 0xae2a7183
-#SYMVER bcm_phy_modify_rdb 0x8e856c31
-#SYMVER bcm_phy_enable_apd 0x34de8596
-#SYMVER bcm_phy_set_eee 0xcd190c24
-#SYMVER bcm_phy_downshift_get 0x9eca40b7
-#SYMVER bcm_phy_downshift_set 0xbcc5e494
-#SYMVER bcm_phy_get_sset_count 0x7dcd4a2e
-#SYMVER bcm_phy_get_strings 0xcd8b6b97
-#SYMVER bcm_phy_get_stats 0x33365dee
-#SYMVER bcm_phy_r_rc_cal_reset 0xa0d3208c
-#SYMVER bcm_phy_28nm_a0b0_afe_config_init 0x1a09918f
-#SYMVER bcm_phy_enable_jumbo 0x391a2243
-#SYMVER bcm_phy_cable_test_start 0x8177cdc4
-#SYMVER bcm_phy_cable_test_get_status 0xc7c6cfdb
-#SYMVER bcm_phy_cable_test_start_rdb 0xf9a98443
-#SYMVER bcm_phy_cable_test_get_status_rdb 0xac1fca60
-#SYMVER bcm_phy_set_wol 0x170c23a8
-#SYMVER bcm_phy_get_wol 0xe682e670
+#SYMVER __bcm_phy_write_exp 0x7a22e3d1
+#SYMVER bcm_phy_write_exp 0x29f04dd4
+#SYMVER __bcm_phy_read_exp 0x7555374f
+#SYMVER bcm_phy_read_exp 0x041bdf6a
+#SYMVER __bcm_phy_modify_exp 0x4bf30fed
+#SYMVER bcm_phy_modify_exp 0x1050dca1
+#SYMVER bcm54xx_auxctl_read 0xe68ed8e9
+#SYMVER bcm54xx_auxctl_write 0x4f15e13d
+#SYMVER bcm_phy_write_misc 0x93556c26
+#SYMVER bcm_phy_read_misc 0xa798bc4c
+#SYMVER bcm_phy_ack_intr 0x6b96a35b
+#SYMVER bcm_phy_config_intr 0x985b79d2
+#SYMVER bcm_phy_handle_interrupt 0xc01d2c80
+#SYMVER bcm_phy_read_shadow 0x75ecb02a
+#SYMVER bcm_phy_write_shadow 0x75a8fee9
+#SYMVER __bcm_phy_read_rdb 0x5d5edd3e
+#SYMVER bcm_phy_read_rdb 0x2c10351b
+#SYMVER __bcm_phy_write_rdb 0x39677292
+#SYMVER bcm_phy_write_rdb 0x6ab5dc97
+#SYMVER __bcm_phy_modify_rdb 0xf04fe219
+#SYMVER bcm_phy_modify_rdb 0xabec3155
+#SYMVER bcm_phy_enable_apd 0xe673e062
+#SYMVER bcm_phy_set_eee 0x533c0f30
+#SYMVER bcm_phy_downshift_get 0xe1471dd3
+#SYMVER bcm_phy_downshift_set 0x1bfe7384
+#SYMVER bcm_phy_get_sset_count 0xce042a9c
+#SYMVER bcm_phy_get_strings 0xaa2d9172
+#SYMVER bcm_phy_get_stats 0xe1eca3ca
+#SYMVER bcm_phy_r_rc_cal_reset 0x31eabd33
+#SYMVER bcm_phy_28nm_a0b0_afe_config_init 0x59dda2fa
+#SYMVER bcm_phy_enable_jumbo 0x822d8671
+#SYMVER bcm_phy_cable_test_start 0x86250cb0
+#SYMVER bcm_phy_cable_test_get_status 0x61fb3b01
+#SYMVER bcm_phy_cable_test_start_rdb 0x1f190ed4
+#SYMVER bcm_phy_cable_test_get_status_rdb 0xfd43fad9
+#SYMVER bcm_phy_set_wol 0x8a0086bd
+#SYMVER bcm_phy_get_wol 0x7a7a0f3a
 #SYMVER bcm_phy_wol_isr 0xa0f0ddfd
-#SYMVER bcm_phy_led_brightness_set 0x1436b68c
-#SYMVER bcm_setup_lre_master_slave 0xe53ba84c
-#SYMVER bcm_config_lre_aneg 0xccd9c6b2
-#SYMVER bcm_config_lre_advert 0xe6324499
+#SYMVER bcm_phy_led_brightness_set 0x33db6a2d
+#SYMVER bcm_setup_lre_master_slave 0xe5eaa074
+#SYMVER bcm_config_lre_aneg 0x6f7ecaa0
+#SYMVER bcm_config_lre_advert 0x3bbef0e1

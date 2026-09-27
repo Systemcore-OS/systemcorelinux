@@ -178,6 +178,8 @@ api.o: drivers/pci/msi/api.c include/linux/compiler-version.h \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
  include/linux/time.h include/linux/time64.h include/vdso/time64.h \
@@ -279,11 +281,10 @@ api.o: drivers/pci/msi/api.c include/linux/compiler-version.h \
  include/linux/hardirq.h include/linux/context_tracking_state.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/resource_ext.h include/linux/msi_api.h \
- include/uapi/linux/pci.h include/uapi/linux/pci_regs.h \
- include/linux/pci_ids.h include/linux/dmapool.h \
- include/linux/scatterlist.h include/linux/mm.h \
+ include/asm-generic/hardirq.h include/linux/resource_ext.h \
+ include/linux/msi_api.h include/uapi/linux/pci.h \
+ include/uapi/linux/pci_regs.h include/linux/pci_ids.h \
+ include/linux/dmapool.h include/linux/scatterlist.h include/linux/mm.h \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \

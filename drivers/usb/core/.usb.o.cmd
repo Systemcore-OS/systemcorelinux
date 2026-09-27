@@ -1,4 +1,4 @@
-savedcmd_drivers/usb/core/usb.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/core/.usb.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/usb/core/usbcore"' -DKBUILD_BASENAME='"usb"' -DKBUILD_MODNAME='"usbcore"' -D__KBUILD_MODNAME=kmod_usbcore -c -o drivers/usb/core/usb.o drivers/usb/core/usb.c  
+savedcmd_drivers/usb/core/usb.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/core/.usb.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/usb/core/usbcore"' -DKBUILD_BASENAME='"usb"' -DKBUILD_MODNAME='"usbcore"' -D__KBUILD_MODNAME=kmod_usbcore -c -o drivers/usb/core/usb.o drivers/usb/core/usb.c  
 
 source_drivers/usb/core/usb.o := drivers/usb/core/usb.c
 
@@ -729,6 +729,10 @@ deps_drivers/usb/core/usb.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -995,7 +999,6 @@ deps_drivers/usb/core/usb.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1315,14 +1318,11 @@ deps_drivers/usb/core/usb.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1419,21 +1419,21 @@ $(deps_drivers/usb/core/usb.o):
 #SYMVER usb_disabled 0x19a304ba
 #SYMVER usb_find_common_endpoints 0x93c7edeb
 #SYMVER usb_find_common_endpoints_reverse 0x1e9c590a
-#SYMVER usb_check_bulk_endpoints 0x640df1f7
-#SYMVER usb_check_int_endpoints 0xa9f567ef
-#SYMVER usb_find_alt_setting 0xda29f452
-#SYMVER usb_ifnum_to_if 0x3126f51f
-#SYMVER usb_altnum_to_altsetting 0x45e4eb2c
-#SYMVER usb_find_interface 0x7c4e76cf
-#SYMVER usb_for_each_dev 0x4794e5e5
-#SYMVER usb_alloc_dev 0xdb41d5c8
-#SYMVER usb_get_dev 0x097c1b65
-#SYMVER usb_put_dev 0x07a0eda5
-#SYMVER usb_get_intf 0x85a47018
-#SYMVER usb_put_intf 0x30d1f1a4
-#SYMVER usb_intf_get_dma_device 0x025995a2
-#SYMVER usb_lock_device_for_reset 0x520a24e9
-#SYMVER usb_get_current_frame_number 0x73ee0b82
+#SYMVER usb_check_bulk_endpoints 0x474dd45e
+#SYMVER usb_check_int_endpoints 0x595bbd82
+#SYMVER usb_find_alt_setting 0x7fc80e33
+#SYMVER usb_ifnum_to_if 0x5c3f6474
+#SYMVER usb_altnum_to_altsetting 0xe980600a
+#SYMVER usb_find_interface 0x4671189b
+#SYMVER usb_for_each_dev 0xe1d9c01f
+#SYMVER usb_alloc_dev 0xcb789de0
+#SYMVER usb_get_dev 0xb6ab0956
+#SYMVER usb_put_dev 0x940b918f
+#SYMVER usb_get_intf 0x2442dffe
+#SYMVER usb_put_intf 0x8ef2f946
+#SYMVER usb_intf_get_dma_device 0x2422a8f7
+#SYMVER usb_lock_device_for_reset 0xb706903b
+#SYMVER usb_get_current_frame_number 0x6cbfe13d
 #SYMVER __usb_get_extra_descriptor 0xd36760ef
-#SYMVER usb_alloc_coherent 0xbb99937c
-#SYMVER usb_free_coherent 0xabdbc7f3
+#SYMVER usb_alloc_coherent 0x451437cc
+#SYMVER usb_free_coherent 0x9fc4c0c5

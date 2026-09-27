@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/mediatek/mt76/.mt76_connac_mcu.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"mt76_connac_mcu"' -DKBUILD_MODNAME='"mt76_connac_lib"' -D__KBUILD_MODNAME=kmod_mt76_connac_lib -c -o drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.c  
+savedcmd_drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/mediatek/mt76/.mt76_connac_mcu.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"mt76_connac_mcu"' -DKBUILD_MODNAME='"mt76_connac_lib"' -D__KBUILD_MODNAME=kmod_mt76_connac_lib -c -o drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.c  
 
 source_drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o := drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.c
 
@@ -555,6 +555,11 @@ deps_drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1000,7 +1005,6 @@ deps_drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1041,7 +1045,6 @@ deps_drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1213,14 +1216,11 @@ deps_drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1637,70 +1637,70 @@ deps_drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o := \
 drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o: $(deps_drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o)
 
 $(deps_drivers/net/wireless/mediatek/mt76/mt76_connac_mcu.o):
-#SYMVER mt76_connac_mcu_start_firmware 0xeb9d9ca6
-#SYMVER mt76_connac_mcu_patch_sem_ctrl 0x21686478
-#SYMVER mt76_connac_mcu_start_patch 0x2a2caaea
-#SYMVER mt76_connac_mcu_init_download 0x2a704daf
-#SYMVER mt76_connac_mcu_set_channel_domain 0x7f710fc9
-#SYMVER mt76_connac_mcu_set_mac_enable 0x246a8ed3
-#SYMVER mt76_connac_mcu_set_vif_ps 0xc9013058
-#SYMVER mt76_connac_mcu_set_rts_thresh 0x624f66dc
+#SYMVER mt76_connac_mcu_start_firmware 0xf025af1c
+#SYMVER mt76_connac_mcu_patch_sem_ctrl 0x7590eb2d
+#SYMVER mt76_connac_mcu_start_patch 0x852134b8
+#SYMVER mt76_connac_mcu_init_download 0x7179a312
+#SYMVER mt76_connac_mcu_set_channel_domain 0x9ce21887
+#SYMVER mt76_connac_mcu_set_mac_enable 0x61154418
+#SYMVER mt76_connac_mcu_set_vif_ps 0x98397d52
+#SYMVER mt76_connac_mcu_set_rts_thresh 0x412f0d45
 #SYMVER mt76_connac_mcu_beacon_loss_iter 0x55b64098
-#SYMVER mt76_connac_mcu_add_nested_tlv 0x2c4bdc64
-#SYMVER __mt76_connac_mcu_alloc_sta_req 0xfbf836b6
-#SYMVER mt76_connac_mcu_alloc_wtbl_req 0x58879735
-#SYMVER mt76_connac_mcu_bss_omac_tlv 0xd5b63a9f
-#SYMVER mt76_connac_mcu_sta_basic_tlv 0x79f7d980
-#SYMVER mt76_connac_mcu_sta_uapsd 0x5e8ad326
-#SYMVER mt76_connac_mcu_wtbl_hdr_trans_tlv 0xcdf214c5
-#SYMVER mt76_connac_mcu_sta_update_hdr_trans 0xb3f15b1c
-#SYMVER mt76_connac_mcu_wtbl_update_hdr_trans 0xed646862
-#SYMVER mt76_connac_mcu_wtbl_generic_tlv 0xf35daf88
-#SYMVER mt76_connac_mcu_sta_he_tlv_v2 0x2ca24b8d
-#SYMVER mt76_connac_get_phy_mode_v2 0x392046c1
-#SYMVER mt76_connac_mcu_sta_tlv 0x6c125a74
-#SYMVER mt76_connac_mcu_wtbl_smps_tlv 0x2342d05e
-#SYMVER mt76_connac_mcu_wtbl_ht_tlv 0xc97fd4a6
-#SYMVER mt76_connac_mcu_sta_cmd 0x8103d27c
-#SYMVER mt76_connac_mcu_wtbl_ba_tlv 0x0e606567
-#SYMVER mt76_connac_mcu_uni_add_dev 0xcfb42f12
-#SYMVER mt76_connac_mcu_sta_ba_tlv 0xfe712cfb
-#SYMVER mt76_connac_mcu_sta_wed_update 0x37a8a665
-#SYMVER mt76_connac_mcu_sta_ba 0x9b3f534d
-#SYMVER mt76_connac_get_phy_mode 0x09d20557
-#SYMVER mt76_connac_get_phy_mode_ext 0xc1f07d1f
-#SYMVER mt76_connac_get_he_phy_cap 0x9e1c0e69
-#SYMVER mt76_connac_get_eht_phy_cap 0xf031872f
-#SYMVER mt76_connac_mcu_uni_set_chctx 0x177156c1
-#SYMVER mt76_connac_mcu_uni_add_bss 0x45e3898d
-#SYMVER mt76_connac_mcu_hw_scan 0x4d4931b8
-#SYMVER mt76_connac_mcu_cancel_hw_scan 0x2d9bfbe2
-#SYMVER mt76_connac_mcu_sched_scan_req 0x9e80bb18
-#SYMVER mt76_connac_mcu_sched_scan_enable 0x4178d25c
-#SYMVER mt76_connac_mcu_chip_config 0xb0a67c31
-#SYMVER mt76_connac_mcu_set_deep_sleep 0x46d8d782
-#SYMVER mt76_connac_sta_state_dp 0x8bb00d51
-#SYMVER mt76_connac_mcu_coredump_event 0x47eab852
-#SYMVER mt76_connac_get_ch_power 0x8a575c70
-#SYMVER mt76_connac_mcu_set_rate_txpower 0xb690d471
-#SYMVER mt76_connac_mcu_update_arp_filter 0x55467302
-#SYMVER mt76_connac_mcu_set_p2p_oppps 0x942a62e0
+#SYMVER mt76_connac_mcu_add_nested_tlv 0xa9dfbe89
+#SYMVER __mt76_connac_mcu_alloc_sta_req 0x7a73cd80
+#SYMVER mt76_connac_mcu_alloc_wtbl_req 0x8247407e
+#SYMVER mt76_connac_mcu_bss_omac_tlv 0x1e4daf69
+#SYMVER mt76_connac_mcu_sta_basic_tlv 0x2447db09
+#SYMVER mt76_connac_mcu_sta_uapsd 0xb92c0415
+#SYMVER mt76_connac_mcu_wtbl_hdr_trans_tlv 0x7c9ae0cd
+#SYMVER mt76_connac_mcu_sta_update_hdr_trans 0x8143d0e6
+#SYMVER mt76_connac_mcu_wtbl_update_hdr_trans 0x831793e2
+#SYMVER mt76_connac_mcu_wtbl_generic_tlv 0xc7a8c3be
+#SYMVER mt76_connac_mcu_sta_he_tlv_v2 0xcb1ea723
+#SYMVER mt76_connac_get_phy_mode_v2 0x537bc093
+#SYMVER mt76_connac_mcu_sta_tlv 0xf3afb688
+#SYMVER mt76_connac_mcu_wtbl_smps_tlv 0x80cf66f5
+#SYMVER mt76_connac_mcu_wtbl_ht_tlv 0xc0856775
+#SYMVER mt76_connac_mcu_sta_cmd 0xe006b75c
+#SYMVER mt76_connac_mcu_wtbl_ba_tlv 0xd6aab157
+#SYMVER mt76_connac_mcu_uni_add_dev 0x54aa93fb
+#SYMVER mt76_connac_mcu_sta_ba_tlv 0x2d3df0a0
+#SYMVER mt76_connac_mcu_sta_wed_update 0xa105bec0
+#SYMVER mt76_connac_mcu_sta_ba 0xb7065983
+#SYMVER mt76_connac_get_phy_mode 0x26cac188
+#SYMVER mt76_connac_get_phy_mode_ext 0x34b4aa06
+#SYMVER mt76_connac_get_he_phy_cap 0x214f511e
+#SYMVER mt76_connac_get_eht_phy_cap 0xf8093308
+#SYMVER mt76_connac_mcu_uni_set_chctx 0xd4b32256
+#SYMVER mt76_connac_mcu_uni_add_bss 0x7db6b25f
+#SYMVER mt76_connac_mcu_hw_scan 0x4615a10a
+#SYMVER mt76_connac_mcu_cancel_hw_scan 0x76455156
+#SYMVER mt76_connac_mcu_sched_scan_req 0xc93672cf
+#SYMVER mt76_connac_mcu_sched_scan_enable 0x53cfabeb
+#SYMVER mt76_connac_mcu_chip_config 0xfbddf7f7
+#SYMVER mt76_connac_mcu_set_deep_sleep 0xef3a1229
+#SYMVER mt76_connac_sta_state_dp 0xcfaf6325
+#SYMVER mt76_connac_mcu_coredump_event 0x1809651d
+#SYMVER mt76_connac_get_ch_power 0x058d89d5
+#SYMVER mt76_connac_mcu_set_rate_txpower 0xab425741
+#SYMVER mt76_connac_mcu_update_arp_filter 0xccf34555
+#SYMVER mt76_connac_mcu_set_p2p_oppps 0x3e73fef8
 #SYMVER mt76_connac_wowlan_support 0x908ca40c
-#SYMVER mt76_connac_mcu_update_gtk_rekey 0x6dae70d2
-#SYMVER mt76_connac_mcu_set_gtk_rekey 0xa2c5f4b4
-#SYMVER mt76_connac_mcu_set_suspend_mode 0x077169bc
-#SYMVER mt76_connac_mcu_set_wow_ctrl 0xf0ee4dc1
-#SYMVER mt76_connac_mcu_set_hif_suspend 0xadb76c32
+#SYMVER mt76_connac_mcu_update_gtk_rekey 0xfb73e8ac
+#SYMVER mt76_connac_mcu_set_gtk_rekey 0x2ff777d8
+#SYMVER mt76_connac_mcu_set_suspend_mode 0xe7adadac
+#SYMVER mt76_connac_mcu_set_wow_ctrl 0x71530cfe
+#SYMVER mt76_connac_mcu_set_hif_suspend 0x992cd679
 #SYMVER mt76_connac_mcu_set_suspend_iter 0xeea4feec
-#SYMVER mt76_connac_mcu_reg_rr 0x8b6cd671
-#SYMVER mt76_connac_mcu_reg_wr 0x67801888
-#SYMVER mt76_connac_mcu_add_key 0x7b84b475
-#SYMVER mt76_connac_mcu_bss_ext_tlv 0x3ab9c794
-#SYMVER mt76_connac_mcu_bss_basic_tlv 0x8db7885a
-#SYMVER mt76_connac_mcu_set_pm 0xb19637a7
-#SYMVER mt76_connac_mcu_restart 0xe1bb1f9a
-#SYMVER mt76_connac_mcu_del_wtbl_all 0x7512fb8d
-#SYMVER mt76_connac_mcu_rdd_cmd 0xaf1b995b
-#SYMVER mt76_connac2_load_ram 0xe88c8f84
-#SYMVER mt76_connac2_load_patch 0x88e872df
-#SYMVER mt76_connac2_mcu_fill_message 0xbf1562d8
+#SYMVER mt76_connac_mcu_reg_rr 0x042d551b
+#SYMVER mt76_connac_mcu_reg_wr 0x36fd7da8
+#SYMVER mt76_connac_mcu_add_key 0x0253dede
+#SYMVER mt76_connac_mcu_bss_ext_tlv 0xae66b23e
+#SYMVER mt76_connac_mcu_bss_basic_tlv 0xe31ddde8
+#SYMVER mt76_connac_mcu_set_pm 0x441df8d3
+#SYMVER mt76_connac_mcu_restart 0x99ef5339
+#SYMVER mt76_connac_mcu_del_wtbl_all 0x894a22e9
+#SYMVER mt76_connac_mcu_rdd_cmd 0x22923c4d
+#SYMVER mt76_connac2_load_ram 0x7762eca7
+#SYMVER mt76_connac2_load_patch 0x89dd91ff
+#SYMVER mt76_connac2_mcu_fill_message 0xaa54c993

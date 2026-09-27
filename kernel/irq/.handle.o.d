@@ -178,6 +178,8 @@ handle.o: kernel/irq/handle.c include/linux/compiler-version.h \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
  include/linux/time.h include/linux/time64.h include/vdso/time64.h \
@@ -229,40 +231,39 @@ handle.o: kernel/irq/handle.c include/linux/compiler-version.h \
  include/linux/interrupt.h include/linux/hardirq.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
  include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
- arch/arm64/include/asm/kvm_arm.h arch/arm64/include/asm/esr.h \
- include/asm-generic/hardirq.h include/linux/hrtimer.h \
- include/linux/hrtimer_defs.h include/linux/timerqueue.h \
- include/linux/kernel_stat.h include/trace/events/irq.h \
- include/linux/tracepoint.h include/linux/static_call.h \
- include/linux/cpu.h include/linux/node.h include/linux/device.h \
- include/linux/dev_printk.h include/linux/ratelimit.h \
- include/linux/energy_model.h include/linux/sched/cpufreq.h \
- include/linux/sched/topology.h include/linux/sched/idle.h \
- include/linux/sched/sd_flags.h include/linux/ioport.h \
- include/linux/klist.h include/linux/pm.h include/linux/device/bus.h \
- include/linux/device/class.h include/linux/device/devres.h \
- include/linux/device/driver.h include/linux/module.h \
- include/linux/buildid.h include/linux/kmod.h include/linux/umh.h \
- include/linux/sysctl.h include/uapi/linux/sysctl.h include/linux/elf.h \
- arch/arm64/include/asm/elf.h arch/arm64/include/generated/asm/user.h \
- include/asm-generic/user.h include/uapi/linux/elf.h \
- include/uapi/linux/elf-em.h include/linux/fs.h include/linux/wait_bit.h \
- include/linux/kdev_t.h include/uapi/linux/kdev_t.h \
- include/linux/dcache.h include/linux/rculist.h \
- include/linux/rculist_bl.h include/linux/list_bl.h \
- include/linux/bit_spinlock.h include/linux/lockref.h \
- include/linux/stringhash.h include/linux/path.h include/linux/list_lru.h \
- include/linux/shrinker.h include/linux/pid.h include/linux/capability.h \
- include/uapi/linux/capability.h include/linux/semaphore.h \
- include/linux/fcntl.h include/uapi/linux/fcntl.h \
- arch/arm64/include/uapi/asm/fcntl.h include/uapi/asm-generic/fcntl.h \
- include/uapi/linux/openat2.h include/linux/migrate_mode.h \
- include/linux/percpu-rwsem.h include/linux/rcuwait.h \
- include/linux/sched/signal.h include/linux/signal.h \
- include/linux/sched/jobctl.h include/linux/sched/task.h \
- include/linux/uaccess.h include/linux/fault-inject-usercopy.h \
- include/linux/nospec.h arch/arm64/include/asm/uaccess.h \
- arch/arm64/include/asm/kernel-pgtable.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/hrtimer.h include/linux/hrtimer_defs.h \
+ include/linux/timerqueue.h include/linux/kernel_stat.h \
+ include/trace/events/irq.h include/linux/tracepoint.h \
+ include/linux/static_call.h include/linux/cpu.h include/linux/node.h \
+ include/linux/device.h include/linux/dev_printk.h \
+ include/linux/ratelimit.h include/linux/energy_model.h \
+ include/linux/sched/cpufreq.h include/linux/sched/topology.h \
+ include/linux/sched/idle.h include/linux/sched/sd_flags.h \
+ include/linux/ioport.h include/linux/klist.h include/linux/pm.h \
+ include/linux/device/bus.h include/linux/device/class.h \
+ include/linux/device/devres.h include/linux/device/driver.h \
+ include/linux/module.h include/linux/buildid.h include/linux/kmod.h \
+ include/linux/umh.h include/linux/sysctl.h include/uapi/linux/sysctl.h \
+ include/linux/elf.h arch/arm64/include/asm/elf.h \
+ arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
+ include/uapi/linux/elf.h include/uapi/linux/elf-em.h include/linux/fs.h \
+ include/linux/wait_bit.h include/linux/kdev_t.h \
+ include/uapi/linux/kdev_t.h include/linux/dcache.h \
+ include/linux/rculist.h include/linux/rculist_bl.h \
+ include/linux/list_bl.h include/linux/bit_spinlock.h \
+ include/linux/lockref.h include/linux/stringhash.h include/linux/path.h \
+ include/linux/list_lru.h include/linux/shrinker.h include/linux/pid.h \
+ include/linux/capability.h include/uapi/linux/capability.h \
+ include/linux/semaphore.h include/linux/fcntl.h \
+ include/uapi/linux/fcntl.h arch/arm64/include/uapi/asm/fcntl.h \
+ include/uapi/asm-generic/fcntl.h include/uapi/linux/openat2.h \
+ include/linux/migrate_mode.h include/linux/percpu-rwsem.h \
+ include/linux/rcuwait.h include/linux/sched/signal.h \
+ include/linux/signal.h include/linux/sched/jobctl.h \
+ include/linux/sched/task.h include/linux/uaccess.h \
+ include/linux/fault-inject-usercopy.h include/linux/nospec.h \
+ arch/arm64/include/asm/uaccess.h arch/arm64/include/asm/kernel-pgtable.h \
  arch/arm64/include/asm/asm-extable.h arch/arm64/include/asm/extable.h \
  include/asm-generic/access_ok.h include/linux/cred.h include/linux/key.h \
  include/linux/assoc_array.h include/linux/sched/user.h \

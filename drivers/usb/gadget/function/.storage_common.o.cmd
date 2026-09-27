@@ -1,4 +1,4 @@
-savedcmd_drivers/usb/gadget/function/storage_common.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/gadget/function/.storage_common.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -I./drivers/usb/gadget/ -I./drivers/usb/gadget/udc/  -DMODULE  -DKBUILD_BASENAME='"storage_common"' -DKBUILD_MODNAME='"usb_f_mass_storage"' -D__KBUILD_MODNAME=kmod_usb_f_mass_storage -c -o drivers/usb/gadget/function/storage_common.o drivers/usb/gadget/function/storage_common.c  
+savedcmd_drivers/usb/gadget/function/storage_common.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/gadget/function/.storage_common.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -I./drivers/usb/gadget/ -I./drivers/usb/gadget/udc/  -DMODULE  -DKBUILD_BASENAME='"storage_common"' -DKBUILD_MODNAME='"usb_f_mass_storage"' -D__KBUILD_MODNAME=kmod_usb_f_mass_storage -c -o drivers/usb/gadget/function/storage_common.o drivers/usb/gadget/function/storage_common.c  
 
 source_drivers/usb/gadget/function/storage_common.o := drivers/usb/gadget/function/storage_common.c
 
@@ -727,6 +727,10 @@ deps_drivers/usb/gadget/function/storage_common.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1013,7 +1017,6 @@ deps_drivers/usb/gadget/function/storage_common.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1186,14 +1189,11 @@ deps_drivers/usb/gadget/function/storage_common.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1289,20 +1289,20 @@ $(deps_drivers/usb/gadget/function/storage_common.o):
 #SYMVER fsg_ss_bulk_out_desc 0xf4efc0c8
 #SYMVER fsg_ss_bulk_out_comp_desc 0xa5cae92f
 #SYMVER fsg_ss_function 0x398778e1
-#SYMVER fsg_lun_close 0x8fbadd64
-#SYMVER fsg_lun_open 0xf709cf1b
-#SYMVER fsg_lun_fsync_sub 0x6fe841a4
+#SYMVER fsg_lun_close 0xf58eb987
+#SYMVER fsg_lun_open 0x508a9fc0
+#SYMVER fsg_lun_fsync_sub 0xa62c315d
 #SYMVER store_cdrom_address 0xb3adf38d
-#SYMVER fsg_show_ro 0x0163d396
-#SYMVER fsg_show_nofua 0xe2d28a87
-#SYMVER fsg_show_file 0x84b12e98
-#SYMVER fsg_show_cdrom 0x49563c76
-#SYMVER fsg_show_removable 0xc1c9b22e
-#SYMVER fsg_show_inquiry_string 0x799a6034
-#SYMVER fsg_store_ro 0x6eb1fbc8
-#SYMVER fsg_store_nofua 0xd964e383
-#SYMVER fsg_store_file 0x30470d49
-#SYMVER fsg_store_cdrom 0xce93f6a1
-#SYMVER fsg_store_removable 0xb1929551
-#SYMVER fsg_store_inquiry_string 0x92571082
-#SYMVER fsg_store_forced_eject 0xb60ddd7e
+#SYMVER fsg_show_ro 0x9cfb2ec5
+#SYMVER fsg_show_nofua 0x1922a994
+#SYMVER fsg_show_file 0xd1748749
+#SYMVER fsg_show_cdrom 0xf6df9e57
+#SYMVER fsg_show_removable 0x8ff6dc9f
+#SYMVER fsg_show_inquiry_string 0x40a9c6b4
+#SYMVER fsg_store_ro 0x6488433f
+#SYMVER fsg_store_nofua 0xf6c997da
+#SYMVER fsg_store_file 0xe357ffbc
+#SYMVER fsg_store_cdrom 0x67ccd5ae
+#SYMVER fsg_store_removable 0x617d4eed
+#SYMVER fsg_store_inquiry_string 0xcc77e902
+#SYMVER fsg_store_forced_eject 0x209e1783

@@ -1,4 +1,4 @@
-savedcmd_fs/iomap/buffered-io.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/iomap/.buffered-io.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -I fs/iomap    -DKBUILD_MODFILE='"fs/iomap/iomap"' -DKBUILD_BASENAME='"buffered_io"' -DKBUILD_MODNAME='"iomap"' -D__KBUILD_MODNAME=kmod_iomap -c -o fs/iomap/buffered-io.o fs/iomap/buffered-io.c  
+savedcmd_fs/iomap/buffered-io.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/iomap/.buffered-io.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -I fs/iomap    -DKBUILD_MODFILE='"fs/iomap/iomap"' -DKBUILD_BASENAME='"buffered_io"' -DKBUILD_MODNAME='"iomap"' -D__KBUILD_MODNAME=kmod_iomap -c -o fs/iomap/buffered-io.o fs/iomap/buffered-io.c  
 
 source_fs/iomap/buffered-io.o := fs/iomap/buffered-io.c
 
@@ -727,6 +727,10 @@ deps_fs/iomap/buffered-io.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1008,7 +1012,6 @@ deps_fs/iomap/buffered-io.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1181,14 +1184,11 @@ deps_fs/iomap/buffered-io.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1338,20 +1338,20 @@ deps_fs/iomap/buffered-io.o := \
 fs/iomap/buffered-io.o: $(deps_fs/iomap/buffered-io.o)
 
 $(deps_fs/iomap/buffered-io.o):
-#SYMVER iomap_read_folio 0xe0801474
-#SYMVER iomap_readahead 0x35ae9ac2
-#SYMVER iomap_is_partially_uptodate 0x288c935c
-#SYMVER iomap_get_folio 0xa973a23a
-#SYMVER iomap_release_folio 0x29fa3768
-#SYMVER iomap_invalidate_folio 0x8bf21192
-#SYMVER iomap_dirty_folio 0xfd7fe16a
-#SYMVER iomap_file_buffered_write 0x1d3991b1
-#SYMVER iomap_write_delalloc_release 0xbbeaae81
-#SYMVER iomap_file_unshare 0x6fd5edcf
-#SYMVER iomap_zero_range 0xc3097993
-#SYMVER iomap_truncate_page 0xa5432a54
-#SYMVER iomap_page_mkwrite 0xe7709197
-#SYMVER iomap_finish_ioends 0xe9a03aa0
-#SYMVER iomap_ioend_try_merge 0xa6206f35
+#SYMVER iomap_read_folio 0xe53bacee
+#SYMVER iomap_readahead 0x160e8fc1
+#SYMVER iomap_is_partially_uptodate 0x4b162aed
+#SYMVER iomap_get_folio 0xea275755
+#SYMVER iomap_release_folio 0x7b1f53fe
+#SYMVER iomap_invalidate_folio 0x9b7a2eae
+#SYMVER iomap_dirty_folio 0x15f9cf2d
+#SYMVER iomap_file_buffered_write 0x334fde35
+#SYMVER iomap_write_delalloc_release 0xca2b5a14
+#SYMVER iomap_file_unshare 0x853bfc48
+#SYMVER iomap_zero_range 0x7755b89f
+#SYMVER iomap_truncate_page 0xb17a94b8
+#SYMVER iomap_page_mkwrite 0xe0a0f48f
+#SYMVER iomap_finish_ioends 0xbd0b4a32
+#SYMVER iomap_ioend_try_merge 0x7b1b5807
 #SYMVER iomap_sort_ioends 0x22d9409b
-#SYMVER iomap_writepages 0xaa2a3971
+#SYMVER iomap_writepages 0xa123e0b7

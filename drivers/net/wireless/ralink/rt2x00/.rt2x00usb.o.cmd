@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/ralink/rt2x00/rt2x00usb.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/ralink/rt2x00/.rt2x00usb.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"rt2x00usb"' -DKBUILD_MODNAME='"rt2x00usb"' -D__KBUILD_MODNAME=kmod_rt2x00usb -c -o drivers/net/wireless/ralink/rt2x00/rt2x00usb.o drivers/net/wireless/ralink/rt2x00/rt2x00usb.c  
+savedcmd_drivers/net/wireless/ralink/rt2x00/rt2x00usb.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/ralink/rt2x00/.rt2x00usb.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"rt2x00usb"' -DKBUILD_MODNAME='"rt2x00usb"' -D__KBUILD_MODNAME=kmod_rt2x00usb -c -o drivers/net/wireless/ralink/rt2x00/rt2x00usb.o drivers/net/wireless/ralink/rt2x00/rt2x00usb.c  
 
 source_drivers/net/wireless/ralink/rt2x00/rt2x00usb.o := drivers/net/wireless/ralink/rt2x00/rt2x00usb.c
 
@@ -728,6 +728,10 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2x00usb.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -984,7 +988,6 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2x00usb.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1269,14 +1272,11 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2x00usb.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1613,19 +1613,19 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2x00usb.o := \
 drivers/net/wireless/ralink/rt2x00/rt2x00usb.o: $(deps_drivers/net/wireless/ralink/rt2x00/rt2x00usb.o)
 
 $(deps_drivers/net/wireless/ralink/rt2x00/rt2x00usb.o):
-#SYMVER rt2x00usb_vendor_request 0xd3b0b55e
-#SYMVER rt2x00usb_vendor_req_buff_lock 0x9a894a94
-#SYMVER rt2x00usb_vendor_request_buff 0x4b301af1
-#SYMVER rt2x00usb_regbusy_read 0xfa37e84d
-#SYMVER rt2x00usb_register_read_async 0x4e202c9e
-#SYMVER rt2x00usb_kick_queue 0xd5daa8f6
-#SYMVER rt2x00usb_flush_queue 0xd3d1e8f9
-#SYMVER rt2x00usb_watchdog 0x3ef8c3e2
-#SYMVER rt2x00usb_disable_radio 0x2601c12b
-#SYMVER rt2x00usb_clear_entry 0x476fd02b
-#SYMVER rt2x00usb_initialize 0x85923211
-#SYMVER rt2x00usb_uninitialize 0xab04a9bc
-#SYMVER rt2x00usb_probe 0x7ddfa155
-#SYMVER rt2x00usb_disconnect 0x84a938bf
-#SYMVER rt2x00usb_suspend 0x58f94802
-#SYMVER rt2x00usb_resume 0x064a211b
+#SYMVER rt2x00usb_vendor_request 0x288e4eb5
+#SYMVER rt2x00usb_vendor_req_buff_lock 0x5e6ac213
+#SYMVER rt2x00usb_vendor_request_buff 0x6e972320
+#SYMVER rt2x00usb_regbusy_read 0x052f657f
+#SYMVER rt2x00usb_register_read_async 0xf6c4db93
+#SYMVER rt2x00usb_kick_queue 0x57571701
+#SYMVER rt2x00usb_flush_queue 0xe28ad7d6
+#SYMVER rt2x00usb_watchdog 0x578991d6
+#SYMVER rt2x00usb_disable_radio 0x15c4eb51
+#SYMVER rt2x00usb_clear_entry 0xe7008e9c
+#SYMVER rt2x00usb_initialize 0x16fcd600
+#SYMVER rt2x00usb_uninitialize 0x769e2f46
+#SYMVER rt2x00usb_probe 0x715a74b9
+#SYMVER rt2x00usb_disconnect 0x823ead5f
+#SYMVER rt2x00usb_suspend 0x7293c7fd
+#SYMVER rt2x00usb_resume 0x69e241f4

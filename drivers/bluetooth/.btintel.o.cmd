@@ -1,4 +1,4 @@
-savedcmd_drivers/bluetooth/btintel.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/bluetooth/.btintel.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"btintel"' -DKBUILD_MODNAME='"btintel"' -D__KBUILD_MODNAME=kmod_btintel -c -o drivers/bluetooth/btintel.o drivers/bluetooth/btintel.c  
+savedcmd_drivers/bluetooth/btintel.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/bluetooth/.btintel.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"btintel"' -DKBUILD_MODNAME='"btintel"' -D__KBUILD_MODNAME=kmod_btintel -c -o drivers/bluetooth/btintel.o drivers/bluetooth/btintel.c  
 
 source_drivers/bluetooth/btintel.o := drivers/bluetooth/btintel.c
 
@@ -727,6 +727,10 @@ deps_drivers/bluetooth/btintel.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1153,7 +1157,6 @@ deps_drivers/bluetooth/btintel.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1501,14 +1504,11 @@ deps_drivers/bluetooth/btintel.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1689,29 +1689,29 @@ deps_drivers/bluetooth/btintel.o := \
 drivers/bluetooth/btintel.o: $(deps_drivers/bluetooth/btintel.o)
 
 $(deps_drivers/bluetooth/btintel.o):
-#SYMVER btintel_check_bdaddr 0xc26741ec
-#SYMVER btintel_enter_mfg 0xe53e9e77
-#SYMVER btintel_exit_mfg 0x4025bcd6
-#SYMVER btintel_set_bdaddr 0x982ba601
-#SYMVER btintel_set_diag 0x7d95b4e2
-#SYMVER btintel_hw_error 0x7010074b
-#SYMVER btintel_version_info 0x46ab24ab
-#SYMVER btintel_load_ddc_config 0x863d35a9
-#SYMVER btintel_set_event_mask_mfg 0x9aaa78f5
-#SYMVER btintel_read_version 0xad1aff9d
-#SYMVER btintel_version_info_tlv 0xbf49e78d
-#SYMVER btintel_parse_version_tlv 0x52d9e4bd
-#SYMVER btintel_regmap_init 0xd1aa7e3e
-#SYMVER btintel_send_intel_reset 0xf2edfffd
-#SYMVER btintel_read_boot_params 0xfc60fae7
-#SYMVER btintel_download_firmware 0xb4afd34b
-#SYMVER btintel_set_quality_report 0x365dde0e
-#SYMVER btintel_bootloader_setup_tlv 0x5606b77f
-#SYMVER btintel_set_msft_opcode 0x96917a21
-#SYMVER btintel_print_fseq_info 0x78495cc1
-#SYMVER btintel_shutdown_combined 0x979b0c5a
-#SYMVER btintel_configure_setup 0xee81758d
-#SYMVER btintel_diagnostics 0x1d87f7ee
-#SYMVER btintel_recv_event 0xb0fa66e9
-#SYMVER btintel_bootup 0xa5a5e2f8
-#SYMVER btintel_secure_send_result 0x5231b6e2
+#SYMVER btintel_check_bdaddr 0x5ac2dcdc
+#SYMVER btintel_enter_mfg 0x3dd856de
+#SYMVER btintel_exit_mfg 0xb8f20c28
+#SYMVER btintel_set_bdaddr 0x619fa45e
+#SYMVER btintel_set_diag 0x180adeb3
+#SYMVER btintel_hw_error 0x944dc0eb
+#SYMVER btintel_version_info 0xcf39f1d8
+#SYMVER btintel_load_ddc_config 0xebba9425
+#SYMVER btintel_set_event_mask_mfg 0x2641e432
+#SYMVER btintel_read_version 0xb8db7c43
+#SYMVER btintel_version_info_tlv 0x471df131
+#SYMVER btintel_parse_version_tlv 0x72074df3
+#SYMVER btintel_regmap_init 0x3217a413
+#SYMVER btintel_send_intel_reset 0x75773e10
+#SYMVER btintel_read_boot_params 0xc25abe24
+#SYMVER btintel_download_firmware 0x853c78b0
+#SYMVER btintel_set_quality_report 0x25ae9fd0
+#SYMVER btintel_bootloader_setup_tlv 0xe9a74311
+#SYMVER btintel_set_msft_opcode 0x3d7af6c2
+#SYMVER btintel_print_fseq_info 0x607bb5f1
+#SYMVER btintel_shutdown_combined 0x25ec2ab7
+#SYMVER btintel_configure_setup 0x273ace1d
+#SYMVER btintel_diagnostics 0x93f13a38
+#SYMVER btintel_recv_event 0x8629573d
+#SYMVER btintel_bootup 0x793f202f
+#SYMVER btintel_secure_send_result 0xb39600bd

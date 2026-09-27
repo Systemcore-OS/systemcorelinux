@@ -1,4 +1,4 @@
-savedcmd_drivers/mmc/host/sdhci.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/mmc/host/.sdhci.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/mmc/host/sdhci"' -DKBUILD_BASENAME='"sdhci"' -DKBUILD_MODNAME='"sdhci"' -D__KBUILD_MODNAME=kmod_sdhci -c -o drivers/mmc/host/sdhci.o drivers/mmc/host/sdhci.c  
+savedcmd_drivers/mmc/host/sdhci.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/mmc/host/.sdhci.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/mmc/host/sdhci"' -DKBUILD_BASENAME='"sdhci"' -DKBUILD_MODNAME='"sdhci"' -D__KBUILD_MODNAME=kmod_sdhci -c -o drivers/mmc/host/sdhci.o drivers/mmc/host/sdhci.c  
 
 source_drivers/mmc/host/sdhci.o := drivers/mmc/host/sdhci.c
 
@@ -715,6 +715,11 @@ deps_drivers/mmc/host/sdhci.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -855,7 +860,6 @@ deps_drivers/mmc/host/sdhci.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1160,7 +1164,6 @@ deps_drivers/mmc/host/sdhci.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1235,14 +1238,11 @@ deps_drivers/mmc/host/sdhci.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1381,47 +1381,47 @@ deps_drivers/mmc/host/sdhci.o := \
 drivers/mmc/host/sdhci.o: $(deps_drivers/mmc/host/sdhci.o)
 
 $(deps_drivers/mmc/host/sdhci.o):
-#SYMVER sdhci_dumpregs 0xd0279a04
-#SYMVER sdhci_enable_v4_mode 0x4a68fc3d
-#SYMVER sdhci_reset 0x48564b9f
-#SYMVER sdhci_adma_write_desc 0x9fa8d2d9
-#SYMVER sdhci_set_data_timeout_irq 0x1103187e
-#SYMVER __sdhci_set_timeout 0x6aa8ecd5
-#SYMVER sdhci_switch_external_dma 0xfb46756a
-#SYMVER sdhci_calc_clk 0xc5dcfb42
-#SYMVER sdhci_enable_clk 0xff2079da
-#SYMVER sdhci_set_clock 0x65bbd57f
-#SYMVER sdhci_set_power_noreg 0xf68e360e
-#SYMVER sdhci_set_power 0x99bd682a
-#SYMVER sdhci_set_power_and_bus_voltage 0x340c0656
-#SYMVER sdhci_request 0x3c6b42a9
-#SYMVER sdhci_request_atomic 0xaad71fa4
-#SYMVER sdhci_set_bus_width 0x7a26eae5
-#SYMVER sdhci_set_uhs_signaling 0xea6ab345
-#SYMVER sdhci_set_ios 0xddbece50
-#SYMVER sdhci_get_cd_nogpio 0x8cd7a0ae
-#SYMVER sdhci_get_ro 0xd61a4adc
-#SYMVER sdhci_enable_sdio_irq 0xe0892ea9
-#SYMVER sdhci_start_signal_voltage_switch 0xbdee9810
-#SYMVER sdhci_start_tuning 0x87453014
-#SYMVER sdhci_end_tuning 0xb70d8d7b
-#SYMVER sdhci_reset_tuning 0x150f877c
-#SYMVER sdhci_abort_tuning 0x92348f46
-#SYMVER sdhci_send_tuning 0xca40cce3
-#SYMVER __sdhci_execute_tuning 0x67160c89
-#SYMVER sdhci_execute_tuning 0x1631b6a0
-#SYMVER sdhci_suspend_host 0x5e82b89e
-#SYMVER sdhci_resume_host 0xfbb4da16
-#SYMVER sdhci_runtime_suspend_host 0x89f47a94
-#SYMVER sdhci_runtime_resume_host 0x66594ce5
-#SYMVER sdhci_cqe_enable 0x80ba5bc1
-#SYMVER sdhci_cqe_disable 0x946cafda
-#SYMVER sdhci_cqe_irq 0xa512f6ce
-#SYMVER sdhci_alloc_host 0x923e813e
-#SYMVER __sdhci_read_caps 0xf28c11da
-#SYMVER sdhci_setup_host 0x3ae19916
-#SYMVER sdhci_cleanup_host 0x8fe20b04
-#SYMVER __sdhci_add_host 0x4c107853
-#SYMVER sdhci_add_host 0x4e045ec3
-#SYMVER sdhci_remove_host 0xe03ca732
-#SYMVER sdhci_free_host 0xd2299714
+#SYMVER sdhci_dumpregs 0x3fc8dc0a
+#SYMVER sdhci_enable_v4_mode 0x7b48daf6
+#SYMVER sdhci_reset 0x6331a501
+#SYMVER sdhci_adma_write_desc 0x847d0f19
+#SYMVER sdhci_set_data_timeout_irq 0xdb96fe32
+#SYMVER __sdhci_set_timeout 0x32b0b6c2
+#SYMVER sdhci_switch_external_dma 0x6cc24689
+#SYMVER sdhci_calc_clk 0x9fd939ec
+#SYMVER sdhci_enable_clk 0x04f41410
+#SYMVER sdhci_set_clock 0x9ff096dd
+#SYMVER sdhci_set_power_noreg 0xabdc9959
+#SYMVER sdhci_set_power 0xc3873257
+#SYMVER sdhci_set_power_and_bus_voltage 0xa7dab235
+#SYMVER sdhci_request 0x7f03bdce
+#SYMVER sdhci_request_atomic 0x5c8478b5
+#SYMVER sdhci_set_bus_width 0xacc3b0d1
+#SYMVER sdhci_set_uhs_signaling 0x3af7c0a7
+#SYMVER sdhci_set_ios 0x4f1b04e9
+#SYMVER sdhci_get_cd_nogpio 0x87823971
+#SYMVER sdhci_get_ro 0x5a494256
+#SYMVER sdhci_enable_sdio_irq 0x6ba65f98
+#SYMVER sdhci_start_signal_voltage_switch 0xddd2bfd8
+#SYMVER sdhci_start_tuning 0x065540ad
+#SYMVER sdhci_end_tuning 0xca71294d
+#SYMVER sdhci_reset_tuning 0xfab71d94
+#SYMVER sdhci_abort_tuning 0x6c253148
+#SYMVER sdhci_send_tuning 0x71cb7efe
+#SYMVER __sdhci_execute_tuning 0x7fe493c5
+#SYMVER sdhci_execute_tuning 0xa7aad203
+#SYMVER sdhci_suspend_host 0x49dc5dac
+#SYMVER sdhci_resume_host 0xe30c0e1c
+#SYMVER sdhci_runtime_suspend_host 0x64d71be9
+#SYMVER sdhci_runtime_resume_host 0x7ba63e67
+#SYMVER sdhci_cqe_enable 0xbb14df39
+#SYMVER sdhci_cqe_disable 0x9c49bc19
+#SYMVER sdhci_cqe_irq 0xe8c2ed23
+#SYMVER sdhci_alloc_host 0x5767de5d
+#SYMVER __sdhci_read_caps 0x680a7ce1
+#SYMVER sdhci_setup_host 0x128151e0
+#SYMVER sdhci_cleanup_host 0x40445b99
+#SYMVER __sdhci_add_host 0x98bea248
+#SYMVER sdhci_add_host 0x44ac51c6
+#SYMVER sdhci_remove_host 0xe275f2a2
+#SYMVER sdhci_free_host 0x92a9d35a

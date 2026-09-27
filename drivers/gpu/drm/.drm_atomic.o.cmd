@@ -1,4 +1,4 @@
-savedcmd_drivers/gpu/drm/drm_atomic.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_atomic.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_atomic"' -DKBUILD_MODNAME='"drm"' -D__KBUILD_MODNAME=kmod_drm -c -o drivers/gpu/drm/drm_atomic.o drivers/gpu/drm/drm_atomic.c  
+savedcmd_drivers/gpu/drm/drm_atomic.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_atomic.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_atomic"' -DKBUILD_MODNAME='"drm"' -D__KBUILD_MODNAME=kmod_drm -c -o drivers/gpu/drm/drm_atomic.o drivers/gpu/drm/drm_atomic.c  
 
 source_drivers/gpu/drm/drm_atomic.o := drivers/gpu/drm/drm_atomic.c
 
@@ -711,6 +711,11 @@ deps_drivers/gpu/drm/drm_atomic.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -913,7 +918,6 @@ deps_drivers/gpu/drm/drm_atomic.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1040,7 +1044,6 @@ deps_drivers/gpu/drm/drm_atomic.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1237,14 +1240,11 @@ deps_drivers/gpu/drm/drm_atomic.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/drm/drm_property.h \
   include/uapi/drm/drm_mode.h \
   include/uapi/drm/drm.h \
@@ -1317,35 +1317,35 @@ drivers/gpu/drm/drm_atomic.o: $(deps_drivers/gpu/drm/drm_atomic.o)
 
 $(deps_drivers/gpu/drm/drm_atomic.o):
 #SYMVER __drm_crtc_commit_free 0xae277372
-#SYMVER drm_crtc_commit_wait 0x8e6e32b6
-#SYMVER drm_atomic_state_default_release 0x34180e67
-#SYMVER drm_atomic_state_init 0x9449cfb6
-#SYMVER drm_atomic_state_alloc 0xe38462e2
-#SYMVER drm_atomic_state_default_clear 0xd17a1015
-#SYMVER drm_atomic_state_clear 0xcc6e23fa
+#SYMVER drm_crtc_commit_wait 0xc5547372
+#SYMVER drm_atomic_state_default_release 0x24be97ff
+#SYMVER drm_atomic_state_init 0xe5837017
+#SYMVER drm_atomic_state_alloc 0x210d15bf
+#SYMVER drm_atomic_state_default_clear 0xcdad0c85
+#SYMVER drm_atomic_state_clear 0xd1f3aed6
 #SYMVER __drm_atomic_state_free 0xb9cad492
-#SYMVER drm_atomic_get_crtc_state 0x0e708be0
-#SYMVER drm_atomic_get_plane_state 0xcc759a49
-#SYMVER drm_atomic_private_obj_init 0x15845265
-#SYMVER drm_atomic_private_obj_fini 0x87128916
-#SYMVER drm_atomic_get_private_obj_state 0x3ed20c96
-#SYMVER drm_atomic_get_old_private_obj_state 0x38cc1d76
-#SYMVER drm_atomic_get_new_private_obj_state 0xb9bd5f61
-#SYMVER drm_atomic_get_old_connector_for_encoder 0x2798db1f
-#SYMVER drm_atomic_get_new_connector_for_encoder 0xa6e99908
-#SYMVER drm_atomic_get_old_crtc_for_encoder 0x6a61a687
-#SYMVER drm_atomic_get_new_crtc_for_encoder 0x60330e95
-#SYMVER drm_atomic_get_connector_state 0x4852773f
-#SYMVER drm_atomic_get_bridge_state 0xa5631a32
-#SYMVER drm_atomic_get_old_bridge_state 0x8373f1aa
-#SYMVER drm_atomic_get_new_bridge_state 0x70c0d24a
-#SYMVER drm_atomic_add_encoder_bridges 0x967b01f2
-#SYMVER drm_atomic_add_affected_connectors 0x0c2d619a
-#SYMVER drm_atomic_add_affected_planes 0x5986547e
-#SYMVER drm_atomic_check_only 0xa23111a0
-#SYMVER drm_atomic_commit 0x3456f8cb
-#SYMVER drm_atomic_nonblocking_commit 0xd3e5f434
-#SYMVER __drm_atomic_helper_disable_plane 0x9183c0b8
-#SYMVER __drm_atomic_helper_set_config 0x51031078
-#SYMVER drm_atomic_print_new_state 0xe5d20c8e
-#SYMVER drm_state_dump 0xbc9d769c
+#SYMVER drm_atomic_get_crtc_state 0x3918e00b
+#SYMVER drm_atomic_get_plane_state 0xc6b7bb0f
+#SYMVER drm_atomic_private_obj_init 0x816e46b6
+#SYMVER drm_atomic_private_obj_fini 0x7a6f8a88
+#SYMVER drm_atomic_get_private_obj_state 0x7199c27b
+#SYMVER drm_atomic_get_old_private_obj_state 0x3341a507
+#SYMVER drm_atomic_get_new_private_obj_state 0xb230e710
+#SYMVER drm_atomic_get_old_connector_for_encoder 0x4b8cdcf5
+#SYMVER drm_atomic_get_new_connector_for_encoder 0xcafd9ee2
+#SYMVER drm_atomic_get_old_crtc_for_encoder 0x5adff4f5
+#SYMVER drm_atomic_get_new_crtc_for_encoder 0x508d5ce7
+#SYMVER drm_atomic_get_connector_state 0xe1f65bc6
+#SYMVER drm_atomic_get_bridge_state 0xb4aa50c3
+#SYMVER drm_atomic_get_old_bridge_state 0x930154f2
+#SYMVER drm_atomic_get_new_bridge_state 0x60b27712
+#SYMVER drm_atomic_add_encoder_bridges 0x61fac34a
+#SYMVER drm_atomic_add_affected_connectors 0x1436d69b
+#SYMVER drm_atomic_add_affected_planes 0x95f40ad2
+#SYMVER drm_atomic_check_only 0xfe23fdef
+#SYMVER drm_atomic_commit 0x2c82b6be
+#SYMVER drm_atomic_nonblocking_commit 0x3afb62ca
+#SYMVER __drm_atomic_helper_disable_plane 0xd6c77e8a
+#SYMVER __drm_atomic_helper_set_config 0xaae8ce36
+#SYMVER drm_atomic_print_new_state 0xbf73fc53
+#SYMVER drm_state_dump 0x822c9f8a

@@ -1,4 +1,4 @@
-savedcmd_net/netfilter/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/netfilter/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/netfilter/netfilter"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"netfilter"' -D__KBUILD_MODNAME=kmod_netfilter -c -o net/netfilter/core.o net/netfilter/core.c  
+savedcmd_net/netfilter/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/netfilter/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/netfilter/netfilter"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"netfilter"' -D__KBUILD_MODNAME=kmod_netfilter -c -o net/netfilter/core.o net/netfilter/core.c  
 
 source_net/netfilter/core.o := net/netfilter/core.c
 
@@ -785,6 +785,11 @@ deps_net/netfilter/core.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -951,7 +956,6 @@ deps_net/netfilter/core.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -992,7 +996,6 @@ deps_net/netfilter/core.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1211,14 +1214,11 @@ deps_net/netfilter/core.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1688,25 +1688,25 @@ deps_net/netfilter/core.o := \
 net/netfilter/core.o: $(deps_net/netfilter/core.o)
 
 $(deps_net/netfilter/core.o):
-#SYMVER nf_ipv6_ops 0x7e05fb0d
+#SYMVER nf_ipv6_ops 0x3c25053c
 #SYMVER nf_skb_duplicated 0x70c52dc5
 #SYMVER nf_hooks_needed 0xd83898d5
-#SYMVER nf_hook_entries_insert_raw 0x7fae1a26
-#SYMVER nf_unregister_net_hook 0x9bc32db7
-#SYMVER nf_hook_entries_delete_raw 0x00035d71
-#SYMVER nf_register_net_hook 0x69be27f8
-#SYMVER nf_register_net_hooks 0xf6c42f5f
-#SYMVER nf_unregister_net_hooks 0x1608ec4f
-#SYMVER nf_hook_slow 0x2ee15af5
-#SYMVER nf_hook_slow_list 0x6c5f1036
-#SYMVER nfnl_ct_hook 0xaa6932f0
-#SYMVER nf_ct_hook 0x8ade4cb2
-#SYMVER nf_defrag_v4_hook 0xf31433ba
-#SYMVER nf_defrag_v6_hook 0x648b2293
+#SYMVER nf_hook_entries_insert_raw 0x91bf6a65
+#SYMVER nf_unregister_net_hook 0xa37e46c5
+#SYMVER nf_hook_entries_delete_raw 0x838b1669
+#SYMVER nf_register_net_hook 0xfec2a038
+#SYMVER nf_register_net_hooks 0x286d9cd2
+#SYMVER nf_unregister_net_hooks 0xc0098cb8
+#SYMVER nf_hook_slow 0x8610844e
+#SYMVER nf_hook_slow_list 0x6c29f3ad
+#SYMVER nfnl_ct_hook 0x5ce067cc
+#SYMVER nf_ct_hook 0x4a16ce10
+#SYMVER nf_defrag_v4_hook 0x2d0f8e6e
+#SYMVER nf_defrag_v6_hook 0xba909f47
 #SYMVER nf_ctnetlink_has_listener 0x19f33626
-#SYMVER nf_nat_hook 0xa1d9f559
-#SYMVER nf_ct_attach 0xf5b47f51
+#SYMVER nf_nat_hook 0x1ca81e4f
+#SYMVER nf_ct_attach 0x732952cc
 #SYMVER nf_conntrack_destroy 0xd2800691
 #SYMVER nf_ct_set_closing 0x2e7887d2
-#SYMVER nf_ct_get_tuple_skb 0x3305ca40
+#SYMVER nf_ct_get_tuple_skb 0xc56c0166
 #SYMVER nf_ct_zone_dflt 0x5a6cdb52

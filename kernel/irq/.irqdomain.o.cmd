@@ -1,4 +1,4 @@
-savedcmd_kernel/irq/irqdomain.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/irq/.irqdomain.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"kernel/irq/irqdomain"' -DKBUILD_BASENAME='"irqdomain"' -DKBUILD_MODNAME='"irqdomain"' -D__KBUILD_MODNAME=kmod_irqdomain -c -o kernel/irq/irqdomain.o kernel/irq/irqdomain.c  
+savedcmd_kernel/irq/irqdomain.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/irq/.irqdomain.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"kernel/irq/irqdomain"' -DKBUILD_BASENAME='"irqdomain"' -DKBUILD_MODNAME='"irqdomain"' -D__KBUILD_MODNAME=kmod_irqdomain -c -o kernel/irq/irqdomain.o kernel/irq/irqdomain.c  
 
 source_kernel/irq/irqdomain.o := kernel/irq/irqdomain.c
 
@@ -600,6 +600,11 @@ deps_kernel/irq/irqdomain.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -888,7 +893,6 @@ deps_kernel/irq/irqdomain.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1082,7 +1086,6 @@ deps_kernel/irq/irqdomain.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1179,41 +1182,41 @@ deps_kernel/irq/irqdomain.o := \
 kernel/irq/irqdomain.o: $(deps_kernel/irq/irqdomain.o)
 
 $(deps_kernel/irq/irqdomain.o):
-#SYMVER irqchip_fwnode_ops 0x71981e63
-#SYMVER __irq_domain_alloc_fwnode 0x8af4a72f
-#SYMVER irq_domain_free_fwnode 0x2de0488c
-#SYMVER irq_domain_instantiate 0x037bbba5
-#SYMVER irq_domain_remove 0x90cfcf16
-#SYMVER irq_domain_update_bus_token 0xec603003
-#SYMVER irq_domain_create_simple 0x33e16a52
-#SYMVER irq_domain_add_legacy 0x2cc15041
-#SYMVER irq_domain_create_legacy 0x0fbaaa6b
-#SYMVER irq_find_matching_fwspec 0x67d2c82a
-#SYMVER irq_set_default_host 0x0ae39477
-#SYMVER irq_get_default_host 0xfaeef531
-#SYMVER irq_domain_associate 0x02ddf03a
-#SYMVER irq_domain_associate_many 0x74b0e576
-#SYMVER irq_create_mapping_affinity 0xcff29845
-#SYMVER of_phandle_args_to_fwspec 0xfee5bb56
-#SYMVER irq_create_fwspec_mapping 0x92d3f639
-#SYMVER irq_create_of_mapping 0x33587d19
+#SYMVER irqchip_fwnode_ops 0xc386450d
+#SYMVER __irq_domain_alloc_fwnode 0x29137463
+#SYMVER irq_domain_free_fwnode 0x0a6971ce
+#SYMVER irq_domain_instantiate 0xe5757d5b
+#SYMVER irq_domain_remove 0x559a2271
+#SYMVER irq_domain_update_bus_token 0x781782fc
+#SYMVER irq_domain_create_simple 0x9053762d
+#SYMVER irq_domain_add_legacy 0xfddf2f1d
+#SYMVER irq_domain_create_legacy 0x4f9e424f
+#SYMVER irq_find_matching_fwspec 0x18d1f8b5
+#SYMVER irq_set_default_host 0x8c376f97
+#SYMVER irq_get_default_host 0x9d1198ab
+#SYMVER irq_domain_associate 0x55ab2c29
+#SYMVER irq_domain_associate_many 0xf4fc5f37
+#SYMVER irq_create_mapping_affinity 0xc0c2395c
+#SYMVER of_phandle_args_to_fwspec 0xc72a91ab
+#SYMVER irq_create_fwspec_mapping 0x4b9967a9
+#SYMVER irq_create_of_mapping 0xf1179d94
 #SYMVER irq_dispose_mapping 0x2c7db649
-#SYMVER __irq_resolve_mapping 0xb7daafc8
-#SYMVER irq_domain_xlate_onecell 0x2ae326b3
-#SYMVER irq_domain_xlate_twocell 0x78ef1764
-#SYMVER irq_domain_xlate_onetwocell 0x755c1e5d
-#SYMVER irq_domain_simple_ops 0x00344199
-#SYMVER irq_domain_translate_onecell 0x38102ca6
-#SYMVER irq_domain_translate_twocell 0x89ec7861
-#SYMVER irq_domain_reset_irq_data 0xd5de2312
-#SYMVER irq_domain_create_hierarchy 0xf11ae067
-#SYMVER irq_domain_disconnect_hierarchy 0x41c1a408
-#SYMVER irq_domain_get_irq_data 0x9906771c
-#SYMVER irq_domain_set_hwirq_and_chip 0xf3d32c37
-#SYMVER irq_domain_set_info 0x2b523535
-#SYMVER irq_domain_free_irqs_common 0x7a768e83
-#SYMVER __irq_domain_alloc_irqs 0x948b92de
-#SYMVER irq_domain_push_irq 0xe70a0972
-#SYMVER irq_domain_pop_irq 0x97416a1c
-#SYMVER irq_domain_alloc_irqs_parent 0x99760a2e
-#SYMVER irq_domain_free_irqs_parent 0x27d676b8
+#SYMVER __irq_resolve_mapping 0x37456aca
+#SYMVER irq_domain_xlate_onecell 0x9ad38f77
+#SYMVER irq_domain_xlate_twocell 0x6d78ed6b
+#SYMVER irq_domain_xlate_onetwocell 0x5ac36dfc
+#SYMVER irq_domain_simple_ops 0x04ad3933
+#SYMVER irq_domain_translate_onecell 0x12519bd1
+#SYMVER irq_domain_translate_twocell 0xe7b49646
+#SYMVER irq_domain_reset_irq_data 0x64c36e9b
+#SYMVER irq_domain_create_hierarchy 0x9faab5fe
+#SYMVER irq_domain_disconnect_hierarchy 0xc5219fca
+#SYMVER irq_domain_get_irq_data 0x1889caa2
+#SYMVER irq_domain_set_hwirq_and_chip 0xa844f895
+#SYMVER irq_domain_set_info 0x2edc3f3d
+#SYMVER irq_domain_free_irqs_common 0x02d49d38
+#SYMVER __irq_domain_alloc_irqs 0xb2bac2dd
+#SYMVER irq_domain_push_irq 0x78bccb88
+#SYMVER irq_domain_pop_irq 0xdf2fe207
+#SYMVER irq_domain_alloc_irqs_parent 0x13565feb
+#SYMVER irq_domain_free_irqs_parent 0x02cab8f8

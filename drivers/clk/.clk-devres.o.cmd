@@ -1,4 +1,4 @@
-savedcmd_drivers/clk/clk-devres.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/clk/.clk-devres.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/clk/clk-devres"' -DKBUILD_BASENAME='"clk_devres"' -DKBUILD_MODNAME='"clk_devres"' -D__KBUILD_MODNAME=kmod_clk_devres -c -o drivers/clk/clk-devres.o drivers/clk/clk-devres.c  
+savedcmd_drivers/clk/clk-devres.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/clk/.clk-devres.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/clk/clk-devres"' -DKBUILD_BASENAME='"clk_devres"' -DKBUILD_MODNAME='"clk_devres"' -D__KBUILD_MODNAME=kmod_clk_devres -c -o drivers/clk/clk-devres.o drivers/clk/clk-devres.c  
 
 source_drivers/clk/clk-devres.o := drivers/clk/clk-devres.c
 
@@ -754,6 +754,11 @@ deps_drivers/clk/clk-devres.o := \
     $(wildcard include/config/MAPLE_RCU_DISABLED) \
     $(wildcard include/config/DEBUG_MAPLE_TREE) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
     $(wildcard include/config/ARM64_E0PD) \
@@ -847,7 +852,6 @@ deps_drivers/clk/clk-devres.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1005,16 +1009,16 @@ deps_drivers/clk/clk-devres.o := \
 drivers/clk/clk-devres.o: $(deps_drivers/clk/clk-devres.o)
 
 $(deps_drivers/clk/clk-devres.o):
-#SYMVER devm_clk_get 0xa9307898
-#SYMVER devm_clk_get_prepared 0x681eb382
-#SYMVER devm_clk_get_enabled 0xb2d29e1e
-#SYMVER devm_clk_get_optional 0xe6711108
-#SYMVER devm_clk_get_optional_prepared 0x715d8c58
-#SYMVER devm_clk_get_optional_enabled 0x9ddb3588
-#SYMVER devm_clk_get_optional_enabled_with_rate 0x9e41024e
-#SYMVER devm_clk_bulk_get 0x84156064
-#SYMVER devm_clk_bulk_get_optional 0x94a78610
-#SYMVER devm_clk_bulk_get_all 0xc069ab93
-#SYMVER devm_clk_bulk_get_all_enable 0xf9ff4395
-#SYMVER devm_clk_put 0x4edbc893
-#SYMVER devm_get_clk_from_child 0x79dd9841
+#SYMVER devm_clk_get 0x5a7e6861
+#SYMVER devm_clk_get_prepared 0x00c9047c
+#SYMVER devm_clk_get_enabled 0xad31be0a
+#SYMVER devm_clk_get_optional 0x7460447d
+#SYMVER devm_clk_get_optional_prepared 0xeea341d5
+#SYMVER devm_clk_get_optional_enabled 0xc9153b08
+#SYMVER devm_clk_get_optional_enabled_with_rate 0x287a957a
+#SYMVER devm_clk_bulk_get 0x6666103c
+#SYMVER devm_clk_bulk_get_optional 0x65a1ab1c
+#SYMVER devm_clk_bulk_get_all 0x46d06cb1
+#SYMVER devm_clk_bulk_get_all_enable 0xd1b9dd5f
+#SYMVER devm_clk_put 0x13e4f2bd
+#SYMVER devm_get_clk_from_child 0x38e51ec7

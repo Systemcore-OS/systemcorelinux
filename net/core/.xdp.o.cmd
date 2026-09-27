@@ -1,4 +1,4 @@
-savedcmd_net/core/xdp.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.xdp.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/core/xdp"' -DKBUILD_BASENAME='"xdp"' -DKBUILD_MODNAME='"xdp"' -D__KBUILD_MODNAME=kmod_xdp -c -o net/core/xdp.o net/core/xdp.c  
+savedcmd_net/core/xdp.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.xdp.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/core/xdp"' -DKBUILD_BASENAME='"xdp"' -DKBUILD_MODNAME='"xdp"' -D__KBUILD_MODNAME=kmod_xdp -c -o net/core/xdp.o net/core/xdp.c  
 
 source_net/core/xdp.o := net/core/xdp.c
 
@@ -704,6 +704,11 @@ deps_net/core/xdp.o := \
   include/linux/swait.h \
   include/linux/wait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/percpu_counter.h \
@@ -719,7 +724,6 @@ deps_net/core/xdp.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/TREE_SRCU) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1155,7 +1159,6 @@ deps_net/core/xdp.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1307,14 +1310,11 @@ deps_net/core/xdp.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1640,24 +1640,24 @@ net/core/xdp.o: $(deps_net/core/xdp.o)
 
 $(deps_net/core/xdp.o):
 #SYMVER xdp_unreg_mem_model 0x0e5cc9d7
-#SYMVER xdp_rxq_info_unreg_mem_model 0x28fd8952
-#SYMVER xdp_rxq_info_unreg 0x4170fa17
-#SYMVER __xdp_rxq_info_reg 0xc98c6372
-#SYMVER xdp_rxq_info_unused 0x0b2b0855
-#SYMVER xdp_rxq_info_is_reg 0xe23f7e60
+#SYMVER xdp_rxq_info_unreg_mem_model 0xeb861d6c
+#SYMVER xdp_rxq_info_unreg 0xdddf892a
+#SYMVER __xdp_rxq_info_reg 0xfd33eaa1
+#SYMVER xdp_rxq_info_unused 0x18038077
+#SYMVER xdp_rxq_info_is_reg 0xd2be5aa0
 #SYMVER xdp_reg_mem_model 0x16422a6e
-#SYMVER xdp_rxq_info_reg_mem_model 0xc3894f8f
-#SYMVER xdp_return_frame 0xc160799a
-#SYMVER xdp_return_frame_rx_napi 0x5886125f
+#SYMVER xdp_rxq_info_reg_mem_model 0x08d851a6
+#SYMVER xdp_return_frame 0x464fa4a6
+#SYMVER xdp_return_frame_rx_napi 0xa4c723c1
 #SYMVER xdp_flush_frame_bulk 0x5cede0a7
-#SYMVER xdp_return_frame_bulk 0xb79aa336
-#SYMVER xdp_return_buff 0x8cc8205e
-#SYMVER xdp_attachment_setup 0xe3a7e074
-#SYMVER xdp_convert_zc_to_xdp_frame 0xccc0b936
+#SYMVER xdp_return_frame_bulk 0x91d8f5bc
+#SYMVER xdp_return_buff 0xc8819cc1
+#SYMVER xdp_attachment_setup 0xe5cc5de3
+#SYMVER xdp_convert_zc_to_xdp_frame 0x4a49495c
 #SYMVER xdp_warn 0xbb7195a5
 #SYMVER xdp_alloc_skb_bulk 0xd91dbd1f
-#SYMVER __xdp_build_skb_from_frame 0x27ea4018
-#SYMVER xdp_build_skb_from_frame 0xc71284af
-#SYMVER xdp_set_features_flag 0x971a85c7
-#SYMVER xdp_features_set_redirect_target 0x0c88fe70
-#SYMVER xdp_features_clear_redirect_target 0xb814bbe9
+#SYMVER __xdp_build_skb_from_frame 0x8c7ee683
+#SYMVER xdp_build_skb_from_frame 0xb1d3806d
+#SYMVER xdp_set_features_flag 0x3abde08c
+#SYMVER xdp_features_set_redirect_target 0xce19ffc7
+#SYMVER xdp_features_clear_redirect_target 0xfe886d75

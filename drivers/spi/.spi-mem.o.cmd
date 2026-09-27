@@ -1,4 +1,4 @@
-savedcmd_drivers/spi/spi-mem.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/spi/.spi-mem.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/spi/spi-mem"' -DKBUILD_BASENAME='"spi_mem"' -DKBUILD_MODNAME='"spi_mem"' -D__KBUILD_MODNAME=kmod_spi_mem -c -o drivers/spi/spi-mem.o drivers/spi/spi-mem.c  
+savedcmd_drivers/spi/spi-mem.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/spi/.spi-mem.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/spi/spi-mem"' -DKBUILD_BASENAME='"spi_mem"' -DKBUILD_MODNAME='"spi_mem"' -D__KBUILD_MODNAME=kmod_spi_mem -c -o drivers/spi/spi-mem.o drivers/spi/spi-mem.c  
 
 source_drivers/spi/spi-mem.o := drivers/spi/spi-mem.c
 
@@ -710,6 +710,11 @@ deps_drivers/spi/spi-mem.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -850,7 +855,6 @@ deps_drivers/spi/spi-mem.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1194,20 +1198,20 @@ deps_drivers/spi/spi-mem.o := \
 drivers/spi/spi-mem.o: $(deps_drivers/spi/spi-mem.o)
 
 $(deps_drivers/spi/spi-mem.o):
-#SYMVER spi_controller_dma_map_mem_op_data 0xc33ae585
-#SYMVER spi_controller_dma_unmap_mem_op_data 0x6ee606b6
-#SYMVER spi_mem_default_supports_op 0x65417fe1
-#SYMVER spi_mem_supports_op 0xbb84e1bc
-#SYMVER spi_mem_exec_op 0xb116f272
-#SYMVER spi_mem_get_name 0x5900a77f
-#SYMVER spi_mem_adjust_op_size 0x1e60de60
-#SYMVER spi_mem_adjust_op_freq 0xd930eabd
-#SYMVER spi_mem_dirmap_create 0xa2e6963c
-#SYMVER spi_mem_dirmap_destroy 0x578975da
-#SYMVER devm_spi_mem_dirmap_create 0x48053e12
-#SYMVER devm_spi_mem_dirmap_destroy 0xc49ed911
-#SYMVER spi_mem_dirmap_read 0x9f8c9c4c
-#SYMVER spi_mem_dirmap_write 0xfc32aaa9
-#SYMVER spi_mem_poll_status 0x43d00a78
-#SYMVER spi_mem_driver_register_with_owner 0x6b653ace
-#SYMVER spi_mem_driver_unregister 0xe139c2b8
+#SYMVER spi_controller_dma_map_mem_op_data 0xb9bea69b
+#SYMVER spi_controller_dma_unmap_mem_op_data 0x70749510
+#SYMVER spi_mem_default_supports_op 0xfeab69a2
+#SYMVER spi_mem_supports_op 0x68ead5b5
+#SYMVER spi_mem_exec_op 0x5aeabe17
+#SYMVER spi_mem_get_name 0xc546f8b7
+#SYMVER spi_mem_adjust_op_size 0xfaf0dd38
+#SYMVER spi_mem_adjust_op_freq 0x53e44af4
+#SYMVER spi_mem_dirmap_create 0x3ea305c0
+#SYMVER spi_mem_dirmap_destroy 0xcf92e620
+#SYMVER devm_spi_mem_dirmap_create 0xbb88c7db
+#SYMVER devm_spi_mem_dirmap_destroy 0xe14ebded
+#SYMVER spi_mem_dirmap_read 0x98660ff9
+#SYMVER spi_mem_dirmap_write 0xe5bb5604
+#SYMVER spi_mem_poll_status 0x2b945272
+#SYMVER spi_mem_driver_register_with_owner 0x0b4e54ff
+#SYMVER spi_mem_driver_unregister 0x61aa13fe

@@ -1,4 +1,4 @@
-savedcmd_net/ethernet/eth.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ethernet/.eth.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/ethernet/eth"' -DKBUILD_BASENAME='"eth"' -DKBUILD_MODNAME='"eth"' -D__KBUILD_MODNAME=kmod_eth -c -o net/ethernet/eth.o net/ethernet/eth.c  
+savedcmd_net/ethernet/eth.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ethernet/.eth.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/ethernet/eth"' -DKBUILD_BASENAME='"eth"' -DKBUILD_MODNAME='"eth"' -D__KBUILD_MODNAME=kmod_eth -c -o net/ethernet/eth.o net/ethernet/eth.c  
 
 source_net/ethernet/eth.o := net/ethernet/eth.c
 
@@ -728,6 +728,10 @@ deps_net/ethernet/eth.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1216,7 +1220,6 @@ deps_net/ethernet/eth.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1298,14 +1301,11 @@ deps_net/ethernet/eth.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1714,24 +1714,24 @@ deps_net/ethernet/eth.o := \
 net/ethernet/eth.o: $(deps_net/ethernet/eth.o)
 
 $(deps_net/ethernet/eth.o):
-#SYMVER eth_header 0xc57ebd76
-#SYMVER eth_get_headlen 0x8959d2ba
-#SYMVER eth_type_trans 0x9b4512f3
-#SYMVER eth_header_parse 0x55ea5f6f
-#SYMVER eth_header_cache 0x91825592
-#SYMVER eth_header_cache_update 0xe9add9ef
-#SYMVER eth_header_parse_protocol 0xf6b5268e
-#SYMVER eth_prepare_mac_addr_change 0x9f75b913
-#SYMVER eth_commit_mac_addr_change 0xdb698725
-#SYMVER eth_mac_addr 0xb45e562f
-#SYMVER eth_validate_addr 0xbb98480f
-#SYMVER ether_setup 0xeb5a8a2b
-#SYMVER alloc_etherdev_mqs 0x1bc99596
+#SYMVER eth_header 0x542a3373
+#SYMVER eth_get_headlen 0x32d95105
+#SYMVER eth_type_trans 0x019c57d5
+#SYMVER eth_header_parse 0xf75d8ba4
+#SYMVER eth_header_cache 0x01ec17b6
+#SYMVER eth_header_cache_update 0x398633e2
+#SYMVER eth_header_parse_protocol 0xb3bf8954
+#SYMVER eth_prepare_mac_addr_change 0xd23e0fdc
+#SYMVER eth_commit_mac_addr_change 0x749557ac
+#SYMVER eth_mac_addr 0xeafdfbf9
+#SYMVER eth_validate_addr 0x9fdbfa2d
+#SYMVER ether_setup 0x5d8f48a9
+#SYMVER alloc_etherdev_mqs 0xe01ad4ce
 #SYMVER sysfs_format_mac 0x81533963
-#SYMVER eth_gro_receive 0x49dc562a
-#SYMVER eth_gro_complete 0xd47b478f
-#SYMVER eth_platform_get_mac_address 0x50823df4
-#SYMVER platform_get_ethdev_address 0xec2a2595
-#SYMVER fwnode_get_mac_address 0x1df035e7
-#SYMVER device_get_mac_address 0x34f9f8fb
-#SYMVER device_get_ethdev_address 0xf6ea3fa7
+#SYMVER eth_gro_receive 0xf9fd75f9
+#SYMVER eth_gro_complete 0x9b53eec0
+#SYMVER eth_platform_get_mac_address 0x28476397
+#SYMVER platform_get_ethdev_address 0xff7755f9
+#SYMVER fwnode_get_mac_address 0x80461ec7
+#SYMVER device_get_mac_address 0x4b8d3c87
+#SYMVER device_get_ethdev_address 0xfdb1ff54

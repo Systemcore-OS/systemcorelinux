@@ -1,4 +1,4 @@
-savedcmd_net/l2tp/l2tp_core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/l2tp/.l2tp_core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Inet/l2tp  -DMODULE  -DKBUILD_BASENAME='"l2tp_core"' -DKBUILD_MODNAME='"l2tp_core"' -D__KBUILD_MODNAME=kmod_l2tp_core -c -o net/l2tp/l2tp_core.o net/l2tp/l2tp_core.c  
+savedcmd_net/l2tp/l2tp_core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/l2tp/.l2tp_core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Inet/l2tp  -DMODULE  -DKBUILD_BASENAME='"l2tp_core"' -DKBUILD_MODNAME='"l2tp_core"' -D__KBUILD_MODNAME=kmod_l2tp_core -c -o net/l2tp/l2tp_core.o net/l2tp/l2tp_core.c  
 
 source_net/l2tp/l2tp_core.o := net/l2tp/l2tp_core.c
 
@@ -728,6 +728,10 @@ deps_net/l2tp/l2tp_core.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1182,7 +1186,6 @@ deps_net/l2tp/l2tp_core.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1341,14 +1344,11 @@ deps_net/l2tp/l2tp_core.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1709,23 +1709,23 @@ deps_net/l2tp/l2tp_core.o := \
 net/l2tp/l2tp_core.o: $(deps_net/l2tp/l2tp_core.o)
 
 $(deps_net/l2tp/l2tp_core.o):
-#SYMVER l2tp_sk_to_tunnel 0x1607836d
-#SYMVER l2tp_tunnel_put 0xc5630fe2
-#SYMVER l2tp_session_put 0x6cdce9e8
-#SYMVER l2tp_tunnel_get 0x0a8350f1
-#SYMVER l2tp_tunnel_get_next 0xf2b6998c
-#SYMVER l2tp_v3_session_get 0x970fecc9
-#SYMVER l2tp_v2_session_get 0x227408ec
-#SYMVER l2tp_session_get 0xa511c1c2
-#SYMVER l2tp_session_get_next 0x172264d4
-#SYMVER l2tp_session_get_by_ifname 0xfc789c71
-#SYMVER l2tp_session_register 0x2cb3615c
-#SYMVER l2tp_recv_common 0x112e2251
-#SYMVER l2tp_udp_encap_recv 0xcf6aeafc
-#SYMVER l2tp_xmit_skb 0x1bffb799
-#SYMVER l2tp_tunnel_create 0xf567b7c9
-#SYMVER l2tp_tunnel_register 0xdc5a3d46
-#SYMVER l2tp_tunnel_delete 0x5f4d0ecc
-#SYMVER l2tp_session_delete 0xbf6b2593
-#SYMVER l2tp_session_set_header_len 0x11896962
-#SYMVER l2tp_session_create 0x280fb294
+#SYMVER l2tp_sk_to_tunnel 0x94c95ebb
+#SYMVER l2tp_tunnel_put 0x47290b29
+#SYMVER l2tp_session_put 0x2b96acdb
+#SYMVER l2tp_tunnel_get 0xcbcd4d14
+#SYMVER l2tp_tunnel_get_next 0x58510f4c
+#SYMVER l2tp_v3_session_get 0xd8d22e91
+#SYMVER l2tp_v2_session_get 0x28cda909
+#SYMVER l2tp_session_get 0x6002b8da
+#SYMVER l2tp_session_get_next 0xf7088cb8
+#SYMVER l2tp_session_get_by_ifname 0xb3a55e29
+#SYMVER l2tp_session_register 0x824fec9c
+#SYMVER l2tp_recv_common 0xfc889339
+#SYMVER l2tp_udp_encap_recv 0x2069ee85
+#SYMVER l2tp_xmit_skb 0xbf54fd21
+#SYMVER l2tp_tunnel_create 0x493dabcb
+#SYMVER l2tp_tunnel_register 0x0a523219
+#SYMVER l2tp_tunnel_delete 0xea403683
+#SYMVER l2tp_session_delete 0x4fae596a
+#SYMVER l2tp_session_set_header_len 0x5f29265c
+#SYMVER l2tp_session_create 0x629a90d1

@@ -1,4 +1,4 @@
-savedcmd_drivers/net/phy/phy.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/phy/.phy.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/net/phy/libphy"' -DKBUILD_BASENAME='"phy"' -DKBUILD_MODNAME='"libphy"' -D__KBUILD_MODNAME=kmod_libphy -c -o drivers/net/phy/phy.o drivers/net/phy/phy.c  
+savedcmd_drivers/net/phy/phy.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/phy/.phy.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/net/phy/libphy"' -DKBUILD_BASENAME='"phy"' -DKBUILD_MODNAME='"libphy"' -D__KBUILD_MODNAME=kmod_libphy -c -o drivers/net/phy/phy.o drivers/net/phy/phy.c  
 
 source_drivers/net/phy/phy.o := drivers/net/phy/phy.c
 
@@ -710,6 +710,10 @@ deps_drivers/net/phy/phy.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1194,7 +1198,6 @@ deps_drivers/net/phy/phy.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1340,14 +1343,11 @@ deps_drivers/net/phy/phy.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1620,41 +1620,41 @@ deps_drivers/net/phy/phy.o := \
 drivers/net/phy/phy.o: $(deps_drivers/net/phy/phy.o)
 
 $(deps_drivers/net/phy/phy.o):
-#SYMVER phy_print_status 0x782c3cbf
-#SYMVER phy_get_rate_matching 0xf81e803c
-#SYMVER phy_restart_aneg 0xf7c6f79c
-#SYMVER phy_aneg_done 0xfe703b27
+#SYMVER phy_print_status 0x903a645f
+#SYMVER phy_get_rate_matching 0x42ba93b0
+#SYMVER phy_restart_aneg 0xae3b2563
+#SYMVER phy_aneg_done 0xf90d7594
 #SYMVER phy_check_valid 0xf44f852a
-#SYMVER phy_ethtool_ksettings_get 0xeecb5d68
-#SYMVER phy_mii_ioctl 0xad89698a
-#SYMVER phy_do_ioctl 0x70aff5ab
-#SYMVER phy_do_ioctl_running 0x21edf75e
-#SYMVER phy_queue_state_machine 0x88651bba
-#SYMVER phy_trigger_machine 0xca4f1c47
-#SYMVER phy_ethtool_get_strings 0x8497a92f
-#SYMVER phy_ethtool_get_sset_count 0xb2a11846
-#SYMVER phy_ethtool_get_stats 0xf439f15a
-#SYMVER phy_start_cable_test 0x5d2112c3
-#SYMVER phy_start_cable_test_tdr 0x7256e567
-#SYMVER phy_config_aneg 0x1f3c1f83
-#SYMVER _phy_start_aneg 0xff5e4e0d
-#SYMVER phy_start_aneg 0xcab0e41f
-#SYMVER phy_ethtool_ksettings_set 0xeb1d6776
-#SYMVER phy_speed_down 0x5e732cf7
-#SYMVER phy_speed_up 0x8ebd6f78
-#SYMVER phy_start_machine 0x9dfddb86
-#SYMVER phy_error 0x7b7ff9de
-#SYMVER phy_request_interrupt 0x2d674c66
-#SYMVER phy_free_interrupt 0x026a387d
-#SYMVER phy_stop 0x7e5ca091
-#SYMVER phy_start 0x39267f16
-#SYMVER phy_mac_interrupt 0xefedd1de
-#SYMVER phy_init_eee 0xbd63cf7e
-#SYMVER phy_get_eee_err 0x19a161f8
-#SYMVER phy_ethtool_get_eee 0x6d6f9f5a
-#SYMVER phy_ethtool_set_eee 0xac7d7f36
-#SYMVER phy_ethtool_set_wol 0xd9106048
-#SYMVER phy_ethtool_get_wol 0x26d88219
-#SYMVER phy_ethtool_get_link_ksettings 0xc78d1ae5
-#SYMVER phy_ethtool_set_link_ksettings 0x3fd63c03
-#SYMVER phy_ethtool_nway_reset 0xdbab9070
+#SYMVER phy_ethtool_ksettings_get 0xd32ffb60
+#SYMVER phy_mii_ioctl 0xbf1addae
+#SYMVER phy_do_ioctl 0xd0a46ee6
+#SYMVER phy_do_ioctl_running 0x1730da99
+#SYMVER phy_queue_state_machine 0xbdc64c30
+#SYMVER phy_trigger_machine 0x9cd7327f
+#SYMVER phy_ethtool_get_strings 0xa06ea4b6
+#SYMVER phy_ethtool_get_sset_count 0x78f3990c
+#SYMVER phy_ethtool_get_stats 0x4406d20b
+#SYMVER phy_start_cable_test 0x99754ce0
+#SYMVER phy_start_cable_test_tdr 0x6220bfd9
+#SYMVER phy_config_aneg 0xe6f44858
+#SYMVER _phy_start_aneg 0xaaf2d146
+#SYMVER phy_start_aneg 0x30560cae
+#SYMVER phy_ethtool_ksettings_set 0x88befadf
+#SYMVER phy_speed_down 0x9c59961d
+#SYMVER phy_speed_up 0x8f014f08
+#SYMVER phy_start_machine 0x1e661b1d
+#SYMVER phy_error 0xe054ae25
+#SYMVER phy_request_interrupt 0x2ef49015
+#SYMVER phy_free_interrupt 0x4c5dbedc
+#SYMVER phy_stop 0x035bd80f
+#SYMVER phy_start 0x6e9360c3
+#SYMVER phy_mac_interrupt 0xc4728289
+#SYMVER phy_init_eee 0xd4ab16dd
+#SYMVER phy_get_eee_err 0x589df66f
+#SYMVER phy_ethtool_get_eee 0x142d1682
+#SYMVER phy_ethtool_set_eee 0x31bfccbd
+#SYMVER phy_ethtool_set_wol 0xc1e64e09
+#SYMVER phy_ethtool_get_wol 0x5d65bc13
+#SYMVER phy_ethtool_get_link_ksettings 0x4eb27f46
+#SYMVER phy_ethtool_set_link_ksettings 0xcc189156
+#SYMVER phy_ethtool_nway_reset 0x300a5d89

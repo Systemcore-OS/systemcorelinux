@@ -149,6 +149,8 @@ posix_acl.o: fs/posix_acl.c include/linux/compiler-version.h \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
  include/linux/time.h include/linux/time64.h include/vdso/time64.h \
@@ -290,9 +292,8 @@ posix_acl.o: fs/posix_acl.c include/linux/compiler-version.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
  include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
  arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h arch/arm64/include/asm/esr.h \
- include/asm-generic/hardirq.h include/linux/irq.h \
- include/linux/irqhandler.h include/linux/io.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -336,18 +337,16 @@ posix_acl.o: fs/posix_acl.c include/linux/compiler-version.h \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/hdlc/ioctl.h \
  include/uapi/linux/aio_abi.h arch/arm64/include/asm/syscall_wrapper.h \
- include/linux/ftrace_regs.h include/linux/objpool.h \
- include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
- include/asm-generic/kprobes.h arch/arm64/include/asm/probes.h \
- arch/arm64/include/asm/kgdb.h arch/arm64/include/asm/debug-monitors.h \
- include/asm-generic/cacheflush.h include/linux/kmsan.h \
- include/linux/dma-direction.h include/linux/highmem-internal.h \
- include/linux/pagevec.h include/linux/bio.h include/linux/mempool.h \
- include/linux/cfi.h arch/arm64/include/generated/asm/cfi.h \
- include/asm-generic/cfi.h include/linux/bpf_types.h \
- include/uapi/linux/lsm.h include/linux/fsnotify.h \
- include/linux/fsnotify_backend.h include/linux/audit.h \
- include/linux/audit_arch.h include/uapi/linux/audit.h \
- include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
- arch/arm64/include/asm/syscall.h include/linux/filelock.h \
- include/linux/nfs_fs_i.h fs/internal.h
+ include/linux/objpool.h include/linux/rethook.h \
+ arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
+ arch/arm64/include/asm/kgdb.h include/asm-generic/cacheflush.h \
+ include/linux/kmsan.h include/linux/dma-direction.h \
+ include/linux/highmem-internal.h include/linux/pagevec.h \
+ include/linux/bio.h include/linux/mempool.h include/linux/cfi.h \
+ arch/arm64/include/generated/asm/cfi.h include/asm-generic/cfi.h \
+ include/linux/bpf_types.h include/uapi/linux/lsm.h \
+ include/linux/fsnotify.h include/linux/fsnotify_backend.h \
+ include/linux/audit.h include/linux/audit_arch.h \
+ include/uapi/linux/audit.h include/uapi/linux/netfilter/nf_tables.h \
+ include/uapi/linux/fanotify.h arch/arm64/include/asm/syscall.h \
+ include/linux/filelock.h include/linux/nfs_fs_i.h fs/internal.h

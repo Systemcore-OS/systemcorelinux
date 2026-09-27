@@ -1,4 +1,4 @@
-savedcmd_drivers/media/dvb-core/dvb_ringbuffer.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/media/dvb-core/.dvb_ringbuffer.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"dvb_ringbuffer"' -DKBUILD_MODNAME='"dvb_core"' -D__KBUILD_MODNAME=kmod_dvb_core -c -o drivers/media/dvb-core/dvb_ringbuffer.o drivers/media/dvb-core/dvb_ringbuffer.c  
+savedcmd_drivers/media/dvb-core/dvb_ringbuffer.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/media/dvb-core/.dvb_ringbuffer.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"dvb_ringbuffer"' -DKBUILD_MODNAME='"dvb_core"' -D__KBUILD_MODNAME=kmod_dvb_core -c -o drivers/media/dvb-core/dvb_ringbuffer.o drivers/media/dvb-core/dvb_ringbuffer.c  
 
 source_drivers/media/dvb-core/dvb_ringbuffer.o := drivers/media/dvb-core/dvb_ringbuffer.c
 
@@ -727,6 +727,10 @@ deps_drivers/media/dvb-core/dvb_ringbuffer.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -957,13 +961,13 @@ deps_drivers/media/dvb-core/dvb_ringbuffer.o := \
 drivers/media/dvb-core/dvb_ringbuffer.o: $(deps_drivers/media/dvb-core/dvb_ringbuffer.o)
 
 $(deps_drivers/media/dvb-core/dvb_ringbuffer.o):
-#SYMVER dvb_ringbuffer_flush 0x30806a25
-#SYMVER dvb_ringbuffer_init 0x03fac553
-#SYMVER dvb_ringbuffer_empty 0xc3063b05
-#SYMVER dvb_ringbuffer_free 0x83382792
-#SYMVER dvb_ringbuffer_avail 0x854bd3b1
-#SYMVER dvb_ringbuffer_flush_spinlock_wakeup 0x9f063d05
-#SYMVER dvb_ringbuffer_read_user 0x7f0c15ba
-#SYMVER dvb_ringbuffer_read 0x6a26619b
-#SYMVER dvb_ringbuffer_write 0xc74853f2
-#SYMVER dvb_ringbuffer_write_user 0x29aa11fc
+#SYMVER dvb_ringbuffer_flush 0x561d0db2
+#SYMVER dvb_ringbuffer_init 0x37a8a0c5
+#SYMVER dvb_ringbuffer_empty 0x8d56c8a2
+#SYMVER dvb_ringbuffer_free 0x8b45d452
+#SYMVER dvb_ringbuffer_avail 0xeaf02fcb
+#SYMVER dvb_ringbuffer_flush_spinlock_wakeup 0xd056a6c1
+#SYMVER dvb_ringbuffer_read_user 0x3db9b346
+#SYMVER dvb_ringbuffer_read 0x166c9b88
+#SYMVER dvb_ringbuffer_write 0x9aa501eb
+#SYMVER dvb_ringbuffer_write_user 0x307afca4

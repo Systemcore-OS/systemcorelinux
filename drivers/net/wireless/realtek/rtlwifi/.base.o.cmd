@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/realtek/rtlwifi/base.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/realtek/rtlwifi/.base.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"base"' -DKBUILD_MODNAME='"rtlwifi"' -D__KBUILD_MODNAME=kmod_rtlwifi -c -o drivers/net/wireless/realtek/rtlwifi/base.o drivers/net/wireless/realtek/rtlwifi/base.c  
+savedcmd_drivers/net/wireless/realtek/rtlwifi/base.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/realtek/rtlwifi/.base.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"base"' -DKBUILD_MODNAME='"rtlwifi"' -D__KBUILD_MODNAME=kmod_rtlwifi -c -o drivers/net/wireless/realtek/rtlwifi/base.o drivers/net/wireless/realtek/rtlwifi/base.c  
 
 source_drivers/net/wireless/realtek/rtlwifi/base.o := drivers/net/wireless/realtek/rtlwifi/base.c
 
@@ -666,6 +666,11 @@ deps_drivers/net/wireless/realtek/rtlwifi/base.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -949,7 +954,6 @@ deps_drivers/net/wireless/realtek/rtlwifi/base.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -990,7 +994,6 @@ deps_drivers/net/wireless/realtek/rtlwifi/base.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1209,14 +1212,11 @@ deps_drivers/net/wireless/realtek/rtlwifi/base.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1671,26 +1671,26 @@ drivers/net/wireless/realtek/rtlwifi/base.o: $(deps_drivers/net/wireless/realtek
 
 $(deps_drivers/net/wireless/realtek/rtlwifi/base.o):
 #SYMVER rtl_tid_to_ac 0x97e05663
-#SYMVER rtl_deinit_deferred_work 0x1e5e4377
-#SYMVER rtl_init_rfkill 0x130f7ec8
-#SYMVER rtl_deinit_rfkill 0x4705209a
-#SYMVER rtl_init_core 0x49332d98
-#SYMVER rtl_deinit_core 0xf825f1af
-#SYMVER rtl_init_rx_config 0xc3c5ab19
-#SYMVER rtl_mrate_idx_to_arfr_id 0xf2607be1
-#SYMVER rtlwifi_rate_mapping 0xd20d01ac
-#SYMVER rtl_get_tcb_desc 0x137e4139
-#SYMVER rtl_tx_mgmt_proc 0x628aae61
-#SYMVER rtl_action_proc 0xd220f254
-#SYMVER rtl_is_special_data 0xc29ba33b
-#SYMVER rtl_tx_ackqueue 0x37c9099a
-#SYMVER rtl_set_tx_report 0x07760299
-#SYMVER rtl_tx_report_handler 0x49cfab39
-#SYMVER rtl_get_hal_edca_param 0x18f47968
-#SYMVER rtl_rx_ampdu_apply 0xa121aa85
-#SYMVER rtl_beacon_statistic 0xca7579d0
-#SYMVER rtl_collect_scan_list 0x66101ad3
-#SYMVER rtl_c2hcmd_enqueue 0x5d6b98c4
-#SYMVER rtl_send_smps_action 0xb068e8f6
-#SYMVER rtl_phy_scan_operation_backup 0x56e08220
-#SYMVER rtl_recognize_peer 0x5c972466
+#SYMVER rtl_deinit_deferred_work 0x824c2907
+#SYMVER rtl_init_rfkill 0xadb257ab
+#SYMVER rtl_deinit_rfkill 0x9fbe0afb
+#SYMVER rtl_init_core 0xfcffbbff
+#SYMVER rtl_deinit_core 0x3a28c2e9
+#SYMVER rtl_init_rx_config 0x6dbc4269
+#SYMVER rtl_mrate_idx_to_arfr_id 0xb74f9cda
+#SYMVER rtlwifi_rate_mapping 0x099090cf
+#SYMVER rtl_get_tcb_desc 0xc2e465da
+#SYMVER rtl_tx_mgmt_proc 0x11e620ca
+#SYMVER rtl_action_proc 0x93c2877d
+#SYMVER rtl_is_special_data 0xf2533439
+#SYMVER rtl_tx_ackqueue 0x6a453162
+#SYMVER rtl_set_tx_report 0xda69f034
+#SYMVER rtl_tx_report_handler 0x6a4b4b2d
+#SYMVER rtl_get_hal_edca_param 0x42cae04a
+#SYMVER rtl_rx_ampdu_apply 0x1dcc4eed
+#SYMVER rtl_beacon_statistic 0xafcadec1
+#SYMVER rtl_collect_scan_list 0x294a6fb0
+#SYMVER rtl_c2hcmd_enqueue 0x46369c3a
+#SYMVER rtl_send_smps_action 0xed74a136
+#SYMVER rtl_phy_scan_operation_backup 0xe13eb123
+#SYMVER rtl_recognize_peer 0xf8f892d8

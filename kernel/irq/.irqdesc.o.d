@@ -178,6 +178,8 @@ irqdesc.o: kernel/irq/irqdesc.c include/linux/compiler-version.h \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
  include/linux/time.h include/linux/time64.h include/vdso/time64.h \
@@ -229,14 +231,13 @@ irqdesc.o: kernel/irq/irqdesc.c include/linux/compiler-version.h \
  include/linux/interrupt.h include/linux/hardirq.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
  include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
- arch/arm64/include/asm/kvm_arm.h arch/arm64/include/asm/esr.h \
- include/asm-generic/hardirq.h include/linux/hrtimer.h \
- include/linux/hrtimer_defs.h include/linux/timerqueue.h \
- include/linux/kernel_stat.h include/linux/irqdomain.h \
- include/linux/irqdomain_defs.h include/linux/of.h \
- include/linux/mod_devicetable.h include/uapi/linux/mei.h \
- include/uapi/linux/mei_uuid.h include/linux/uuid.h \
- include/linux/property.h kernel/irq/internals.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/hrtimer.h include/linux/hrtimer_defs.h \
+ include/linux/timerqueue.h include/linux/kernel_stat.h \
+ include/linux/irqdomain.h include/linux/irqdomain_defs.h \
+ include/linux/of.h include/linux/mod_devicetable.h \
+ include/uapi/linux/mei.h include/uapi/linux/mei_uuid.h \
+ include/linux/uuid.h include/linux/property.h kernel/irq/internals.h \
  include/linux/pm_runtime.h include/linux/device.h \
  include/linux/dev_printk.h include/linux/ratelimit.h \
  include/linux/energy_model.h include/linux/sched/cpufreq.h \

@@ -1,4 +1,4 @@
-savedcmd_sound/soc/soc-component.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/.soc-component.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"soc_component"' -DKBUILD_MODNAME='"snd_soc_core"' -D__KBUILD_MODNAME=kmod_snd_soc_core -c -o sound/soc/soc-component.o sound/soc/soc-component.c  
+savedcmd_sound/soc/soc-component.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/.soc-component.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"soc_component"' -DKBUILD_MODNAME='"snd_soc_core"' -D__KBUILD_MODNAME=kmod_snd_soc_core -c -o sound/soc/soc-component.o sound/soc/soc-component.c  
 
 source_sound/soc/soc-component.o := sound/soc/soc-component.c
 
@@ -728,6 +728,10 @@ deps_sound/soc/soc-component.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1025,7 +1029,6 @@ deps_sound/soc/soc-component.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1227,40 +1230,40 @@ deps_sound/soc/soc-component.o := \
 sound/soc/soc-component.o: $(deps_sound/soc/soc-component.o)
 
 $(deps_sound/soc/soc-component.o):
-#SYMVER snd_soc_component_set_sysclk 0x55eb053c
-#SYMVER snd_soc_component_set_pll 0xc6ff018e
-#SYMVER snd_soc_component_enable_pin 0x96d280e2
-#SYMVER snd_soc_component_enable_pin_unlocked 0x556f4407
-#SYMVER snd_soc_component_disable_pin 0x8764ec2c
-#SYMVER snd_soc_component_disable_pin_unlocked 0x2901828d
-#SYMVER snd_soc_component_nc_pin 0xf28b407c
-#SYMVER snd_soc_component_nc_pin_unlocked 0x08b67bb4
-#SYMVER snd_soc_component_get_pin_status 0xd3c1c067
-#SYMVER snd_soc_component_force_enable_pin 0x8c9c1cd4
-#SYMVER snd_soc_component_force_enable_pin_unlocked 0xc6127338
-#SYMVER snd_soc_component_get_kcontrol 0x30e26b83
-#SYMVER snd_soc_component_notify_control 0x13ae3a52
-#SYMVER snd_soc_component_set_jack 0x5f2c4840
-#SYMVER snd_soc_component_get_jack_type 0x4939504d
-#SYMVER snd_soc_component_init_regmap 0xdfaaf7ad
-#SYMVER snd_soc_component_exit_regmap 0x7e112812
-#SYMVER snd_soc_component_compr_open 0xaf665725
-#SYMVER snd_soc_component_compr_free 0x46a3f478
-#SYMVER snd_soc_component_compr_trigger 0xc8638018
-#SYMVER snd_soc_component_compr_set_params 0x037750b7
-#SYMVER snd_soc_component_compr_get_params 0x315d73da
-#SYMVER snd_soc_component_compr_get_caps 0x66dcebd6
-#SYMVER snd_soc_component_compr_get_codec_caps 0xec25191a
-#SYMVER snd_soc_component_compr_ack 0xa6c8500b
-#SYMVER snd_soc_component_compr_pointer 0x70334e90
-#SYMVER snd_soc_component_compr_copy 0xe20f8513
-#SYMVER snd_soc_component_compr_set_metadata 0x3360068b
-#SYMVER snd_soc_component_compr_get_metadata 0xb15b742b
-#SYMVER snd_soc_component_read 0x7f3c2f1d
-#SYMVER snd_soc_component_write 0x5e3caca1
-#SYMVER snd_soc_component_update_bits 0x1398f81b
-#SYMVER snd_soc_component_update_bits_async 0x7c4463b4
-#SYMVER snd_soc_component_read_field 0x9ebc4437
-#SYMVER snd_soc_component_write_field 0xfff797b1
-#SYMVER snd_soc_component_async_complete 0x23c78da3
-#SYMVER snd_soc_component_test_bits 0x591a4ae9
+#SYMVER snd_soc_component_set_sysclk 0x036c44aa
+#SYMVER snd_soc_component_set_pll 0xdeaef5f0
+#SYMVER snd_soc_component_enable_pin 0x01d1d1ad
+#SYMVER snd_soc_component_enable_pin_unlocked 0xd353bc3f
+#SYMVER snd_soc_component_disable_pin 0xfe7b75d2
+#SYMVER snd_soc_component_disable_pin_unlocked 0xd5517ea1
+#SYMVER snd_soc_component_nc_pin 0x67f541e6
+#SYMVER snd_soc_component_nc_pin_unlocked 0x454b64dc
+#SYMVER snd_soc_component_get_pin_status 0x0e9c2210
+#SYMVER snd_soc_component_force_enable_pin 0xc568b772
+#SYMVER snd_soc_component_force_enable_pin_unlocked 0x31fdcd3a
+#SYMVER snd_soc_component_get_kcontrol 0x9789e49f
+#SYMVER snd_soc_component_notify_control 0x8564ed61
+#SYMVER snd_soc_component_set_jack 0x72e7a841
+#SYMVER snd_soc_component_get_jack_type 0x791dbe3d
+#SYMVER snd_soc_component_init_regmap 0x51f815fa
+#SYMVER snd_soc_component_exit_regmap 0x304c265a
+#SYMVER snd_soc_component_compr_open 0x9a67a713
+#SYMVER snd_soc_component_compr_free 0x93f7b49e
+#SYMVER snd_soc_component_compr_trigger 0xee35299a
+#SYMVER snd_soc_component_compr_set_params 0xe489863e
+#SYMVER snd_soc_component_compr_get_params 0x81503033
+#SYMVER snd_soc_component_compr_get_caps 0xdb7efbbe
+#SYMVER snd_soc_component_compr_get_codec_caps 0x62c1b4c0
+#SYMVER snd_soc_component_compr_ack 0x0566d899
+#SYMVER snd_soc_component_compr_pointer 0x3df0093c
+#SYMVER snd_soc_component_compr_copy 0xc4c75afa
+#SYMVER snd_soc_component_compr_set_metadata 0xb6895a60
+#SYMVER snd_soc_component_compr_get_metadata 0x97fa336a
+#SYMVER snd_soc_component_read 0x4e424dee
+#SYMVER snd_soc_component_write 0x4e9cb508
+#SYMVER snd_soc_component_update_bits 0x88aa5e5e
+#SYMVER snd_soc_component_update_bits_async 0x13d3fc75
+#SYMVER snd_soc_component_read_field 0xfdc6240d
+#SYMVER snd_soc_component_write_field 0x3e13b234
+#SYMVER snd_soc_component_async_complete 0x203c8288
+#SYMVER snd_soc_component_test_bits 0xdc023570

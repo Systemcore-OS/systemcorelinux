@@ -1,4 +1,4 @@
-savedcmd_drivers/gpu/drm/drm_vblank.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_vblank.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_vblank"' -DKBUILD_MODNAME='"drm"' -D__KBUILD_MODNAME=kmod_drm -c -o drivers/gpu/drm/drm_vblank.o drivers/gpu/drm/drm_vblank.c  
+savedcmd_drivers/gpu/drm/drm_vblank.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_vblank.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_vblank"' -DKBUILD_MODNAME='"drm"' -D__KBUILD_MODNAME=kmod_drm -c -o drivers/gpu/drm/drm_vblank.o drivers/gpu/drm/drm_vblank.c  
 
 source_drivers/gpu/drm/drm_vblank.o := drivers/gpu/drm/drm_vblank.c
 
@@ -672,6 +672,11 @@ deps_drivers/gpu/drm/drm_vblank.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -859,7 +864,6 @@ deps_drivers/gpu/drm/drm_vblank.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1033,7 +1037,6 @@ deps_drivers/gpu/drm/drm_vblank.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1230,14 +1233,11 @@ deps_drivers/gpu/drm/drm_vblank.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/drm/drm_property.h \
   include/uapi/drm/drm_mode.h \
   include/uapi/drm/drm.h \
@@ -1299,28 +1299,28 @@ deps_drivers/gpu/drm/drm_vblank.o := \
 drivers/gpu/drm/drm_vblank.o: $(deps_drivers/gpu/drm/drm_vblank.o)
 
 $(deps_drivers/gpu/drm/drm_vblank.o):
-#SYMVER drm_crtc_vblank_crtc 0x48d270f3
-#SYMVER drm_crtc_accurate_vblank_count 0xc1e9e990
-#SYMVER drm_vblank_init 0x8648333c
-#SYMVER drm_dev_has_vblank 0x25a636f5
-#SYMVER drm_crtc_vblank_waitqueue 0x1ffa9bb3
-#SYMVER drm_calc_timestamping_constants 0x1d7017e0
-#SYMVER drm_crtc_vblank_helper_get_vblank_timestamp_internal 0x01426834
-#SYMVER drm_crtc_vblank_helper_get_vblank_timestamp 0x86a3f671
-#SYMVER drm_crtc_vblank_count 0xa8e91c27
-#SYMVER drm_crtc_vblank_count_and_time 0x9a2778d0
-#SYMVER drm_crtc_next_vblank_start 0xb9713747
-#SYMVER drm_crtc_arm_vblank_event 0x5edac9f0
-#SYMVER drm_crtc_send_vblank_event 0x8ac06238
-#SYMVER drm_crtc_vblank_get 0xd541245b
-#SYMVER drm_crtc_vblank_put 0x6a8b869a
-#SYMVER drm_wait_one_vblank 0x7993fe3c
-#SYMVER drm_crtc_wait_one_vblank 0xb16db102
-#SYMVER drm_crtc_vblank_off 0x03531e2d
-#SYMVER drm_crtc_vblank_reset 0x76d8a5fd
-#SYMVER drm_crtc_set_max_vblank_count 0x8bc9be24
-#SYMVER drm_crtc_vblank_on_config 0x22840a3e
-#SYMVER drm_crtc_vblank_on 0x687c2f76
-#SYMVER drm_crtc_vblank_restore 0x77f827cf
-#SYMVER drm_handle_vblank 0xfd504b8e
-#SYMVER drm_crtc_handle_vblank 0x90c1c14e
+#SYMVER drm_crtc_vblank_crtc 0xf46c1c17
+#SYMVER drm_crtc_accurate_vblank_count 0x1dd4bb0c
+#SYMVER drm_vblank_init 0x04c624c1
+#SYMVER drm_dev_has_vblank 0x62a4db42
+#SYMVER drm_crtc_vblank_waitqueue 0xdf0bff23
+#SYMVER drm_calc_timestamping_constants 0x949c12ea
+#SYMVER drm_crtc_vblank_helper_get_vblank_timestamp_internal 0x506b0cdc
+#SYMVER drm_crtc_vblank_helper_get_vblank_timestamp 0xdc3776f5
+#SYMVER drm_crtc_vblank_count 0x2aeec2cf
+#SYMVER drm_crtc_vblank_count_and_time 0x751fa0d0
+#SYMVER drm_crtc_next_vblank_start 0xb70ea85e
+#SYMVER drm_crtc_arm_vblank_event 0xf7d2f9a8
+#SYMVER drm_crtc_send_vblank_event 0x533304cf
+#SYMVER drm_crtc_vblank_get 0x4608f3d4
+#SYMVER drm_crtc_vblank_put 0xb7967d13
+#SYMVER drm_wait_one_vblank 0x95f6c9f8
+#SYMVER drm_crtc_wait_one_vblank 0x5d7a21cd
+#SYMVER drm_crtc_vblank_off 0xad7e2908
+#SYMVER drm_crtc_vblank_reset 0xa2592543
+#SYMVER drm_crtc_set_max_vblank_count 0x26c5b362
+#SYMVER drm_crtc_vblank_on_config 0xcea27b14
+#SYMVER drm_crtc_vblank_on 0x0affcfae
+#SYMVER drm_crtc_vblank_restore 0xd75e95af
+#SYMVER drm_handle_vblank 0x24bfcc11
+#SYMVER drm_crtc_handle_vblank 0x4ac61ded

@@ -1,4 +1,4 @@
-savedcmd_drivers/media/cec/core/cec-adap.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/media/cec/core/.cec-adap.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"cec_adap"' -DKBUILD_MODNAME='"cec"' -D__KBUILD_MODNAME=kmod_cec -c -o drivers/media/cec/core/cec-adap.o drivers/media/cec/core/cec-adap.c  
+savedcmd_drivers/media/cec/core/cec-adap.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/media/cec/core/.cec-adap.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"cec_adap"' -DKBUILD_MODNAME='"cec"' -D__KBUILD_MODNAME=kmod_cec -c -o drivers/media/cec/core/cec-adap.o drivers/media/cec/core/cec-adap.c  
 
 source_drivers/media/cec/core/cec-adap.o := drivers/media/cec/core/cec-adap.c
 
@@ -729,6 +729,10 @@ deps_drivers/media/cec/core/cec-adap.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1102,7 +1106,6 @@ deps_drivers/media/cec/core/cec-adap.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1222,14 +1225,11 @@ deps_drivers/media/cec/core/cec-adap.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/drm/drm_property.h \
   include/uapi/drm/drm_mode.h \
   include/uapi/drm/drm.h \
@@ -1298,15 +1298,15 @@ drivers/media/cec/core/cec-adap.o: $(deps_drivers/media/cec/core/cec-adap.o)
 
 $(deps_drivers/media/cec/core/cec-adap.o):
 #SYMVER cec_get_edid_phys_addr 0xbe4de675
-#SYMVER cec_fill_conn_info_from_drm 0xb706fa73
-#SYMVER cec_queue_pin_cec_event 0xf51bddeb
-#SYMVER cec_queue_pin_hpd_event 0xe5c1f98d
-#SYMVER cec_queue_pin_5v_event 0x26cd3426
-#SYMVER cec_transmit_done_ts 0x05290d95
-#SYMVER cec_transmit_attempt_done_ts 0x4389eb51
-#SYMVER cec_transmit_msg 0xe05db44d
-#SYMVER cec_received_msg_ts 0x0dd24748
-#SYMVER cec_s_phys_addr 0xba94421a
-#SYMVER cec_s_phys_addr_from_edid 0x27e00910
-#SYMVER cec_s_conn_info 0x41e31971
-#SYMVER cec_s_log_addrs 0x3ce54e76
+#SYMVER cec_fill_conn_info_from_drm 0xf3241407
+#SYMVER cec_queue_pin_cec_event 0x70c440e1
+#SYMVER cec_queue_pin_hpd_event 0x79540fd0
+#SYMVER cec_queue_pin_5v_event 0x257abeb2
+#SYMVER cec_transmit_done_ts 0xe053e144
+#SYMVER cec_transmit_attempt_done_ts 0xc9ab77b2
+#SYMVER cec_transmit_msg 0x4d029daf
+#SYMVER cec_received_msg_ts 0xc6602a98
+#SYMVER cec_s_phys_addr 0x3c0094e9
+#SYMVER cec_s_phys_addr_from_edid 0xfe1ecb27
+#SYMVER cec_s_conn_info 0x7c9ebbd5
+#SYMVER cec_s_log_addrs 0x7200ee86

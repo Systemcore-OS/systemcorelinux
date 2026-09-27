@@ -1,4 +1,4 @@
-savedcmd_drivers/scsi/scsi_lib.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/scsi/.scsi_lib.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/scsi/scsi_mod"' -DKBUILD_BASENAME='"scsi_lib"' -DKBUILD_MODNAME='"scsi_mod"' -D__KBUILD_MODNAME=kmod_scsi_mod -c -o drivers/scsi/scsi_lib.o drivers/scsi/scsi_lib.c  
+savedcmd_drivers/scsi/scsi_lib.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/scsi/.scsi_lib.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/scsi/scsi_mod"' -DKBUILD_BASENAME='"scsi_lib"' -DKBUILD_MODNAME='"scsi_mod"' -D__KBUILD_MODNAME=kmod_scsi_mod -c -o drivers/scsi/scsi_lib.o drivers/scsi/scsi_lib.c  
 
 source_drivers/scsi/scsi_lib.o := drivers/scsi/scsi_lib.c
 
@@ -756,6 +756,11 @@ deps_drivers/scsi/scsi_lib.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -924,7 +929,6 @@ deps_drivers/scsi/scsi_lib.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -965,7 +969,6 @@ deps_drivers/scsi/scsi_lib.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1186,14 +1189,11 @@ deps_drivers/scsi/scsi_lib.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1362,36 +1362,36 @@ drivers/scsi/scsi_lib.o: $(deps_drivers/scsi/scsi_lib.o)
 
 $(deps_drivers/scsi/scsi_lib.o):
 #SYMVER scsi_failures_reset_retries 0x7ee9199d
-#SYMVER scsi_execute_cmd 0x1b9dc247
-#SYMVER scsi_free_sgtables 0x92f7cdb8
-#SYMVER scsi_alloc_sgtables 0x0943307a
-#SYMVER scsi_alloc_request 0x8bc3e9a1
-#SYMVER scsi_done 0xa715f139
-#SYMVER scsi_done_direct 0xa835f4a8
-#SYMVER scsi_init_limits 0xf8b3c5fd
-#SYMVER scsi_block_requests 0x2bd0df3d
-#SYMVER scsi_unblock_requests 0xfee78d0a
-#SYMVER scsi_mode_select 0xb48be24f
-#SYMVER scsi_mode_sense 0x48b92612
-#SYMVER scsi_test_unit_ready 0x82b81100
-#SYMVER scsi_device_set_state 0xac196d66
-#SYMVER sdev_evt_send 0x27d60775
+#SYMVER scsi_execute_cmd 0x1ee833b3
+#SYMVER scsi_free_sgtables 0x2f9c78a0
+#SYMVER scsi_alloc_sgtables 0x2d137453
+#SYMVER scsi_alloc_request 0x8c4b4582
+#SYMVER scsi_done 0xfd2372d6
+#SYMVER scsi_done_direct 0xe735fda0
+#SYMVER scsi_init_limits 0x776fa5d6
+#SYMVER scsi_block_requests 0x6eecb0cd
+#SYMVER scsi_unblock_requests 0x4eb732db
+#SYMVER scsi_mode_select 0xa2faef1b
+#SYMVER scsi_mode_sense 0x6bac1d56
+#SYMVER scsi_test_unit_ready 0x925a742a
+#SYMVER scsi_device_set_state 0x5bd8c656
+#SYMVER sdev_evt_send 0x9a1eeef5
 #SYMVER sdev_evt_alloc 0x13ed8784
-#SYMVER sdev_evt_send_simple 0xa45c0fb4
-#SYMVER scsi_device_quiesce 0x68d5b82c
-#SYMVER scsi_device_resume 0x974d00ca
-#SYMVER scsi_target_quiesce 0x9196509d
-#SYMVER scsi_target_resume 0x131ab47e
-#SYMVER scsi_internal_device_block_nowait 0xe6ba2498
-#SYMVER scsi_internal_device_unblock_nowait 0xb9bba083
-#SYMVER scsi_block_targets 0x5c797a56
-#SYMVER scsi_target_unblock 0x7209d28b
-#SYMVER scsi_host_block 0x47c60fbe
-#SYMVER scsi_host_unblock 0x3e6aafbe
+#SYMVER sdev_evt_send_simple 0x393d918f
+#SYMVER scsi_device_quiesce 0x907f5101
+#SYMVER scsi_device_resume 0x3dcc7197
+#SYMVER scsi_target_quiesce 0x2f0cefd9
+#SYMVER scsi_target_resume 0x732919cc
+#SYMVER scsi_internal_device_block_nowait 0x781d56e8
+#SYMVER scsi_internal_device_unblock_nowait 0x7f32231c
+#SYMVER scsi_block_targets 0xb28fa703
+#SYMVER scsi_target_unblock 0x62cfbc8a
+#SYMVER scsi_host_block 0x7c65bc46
+#SYMVER scsi_host_unblock 0xfa71bd62
 #SYMVER scsi_kmap_atomic_sg 0xae66472b
 #SYMVER scsi_kunmap_atomic_sg 0x56c8799d
-#SYMVER sdev_disable_disk_events 0x457a1e70
-#SYMVER sdev_enable_disk_events 0xecc9e5be
-#SYMVER scsi_vpd_lun_id 0xdce2e463
-#SYMVER scsi_vpd_tpg_id 0xe9d06aeb
-#SYMVER scsi_build_sense 0x872bf075
+#SYMVER sdev_disable_disk_events 0x46479177
+#SYMVER sdev_enable_disk_events 0x79223f2f
+#SYMVER scsi_vpd_lun_id 0xd87714b7
+#SYMVER scsi_vpd_tpg_id 0x79f6d581
+#SYMVER scsi_build_sense 0x9a015e59

@@ -20,10 +20,11 @@ linux,./usr/lib/modules/6.12.77-v8-16k/kernel/arch/arm64/crypto/nhpoly1305-neon.
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/arch/arm64/crypto/aes-arm64.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/arch/arm64/crypto/aes-neon-bs.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/kernel/configs.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nfs_common/nfs_acl.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nfs_common/grace.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/quota/quota_v1.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/quota/quota_v2.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/quota/quota_tree.ko.xz
-linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nfs/blocklayout/blocklayoutdriver.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nls/nls_cp737.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nls/nls_cp775.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nls/nls_cp850.ko.xz
@@ -74,7 +75,15 @@ linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/isofs/isofs.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/hfsplus/hfsplus.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/hfs/hfs.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/ecryptfs/ecryptfs.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nfs/nfs.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nfs/nfsv2.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nfs/nfsv3.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nfs/nfsv4.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nfs/filelayout/nfs_layout_nfsv41_files.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nfs/blocklayout/blocklayoutdriver.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nfs/flexfilelayout/nfs_layout_flexfiles.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/nfsd/nfsd.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/lockd/lockd.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/smb/common/cifs_arc4.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/smb/common/cifs_md4.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/smb/client/cifs.ko.xz
@@ -100,6 +109,7 @@ linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/ocfs2/cluster/ocfs2_nodemanager
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/ocfs2/dlm/ocfs2_dlm.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/btrfs/btrfs.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/gfs2/gfs2.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/f2fs/f2fs.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/bcachefs/bcachefs.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/ceph/ceph.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/fs/efivarfs/efivarfs.ko.xz
@@ -1871,6 +1881,9 @@ linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/bluetooth/rfcomm/rfcomm.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/bluetooth/bnep/bnep.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/bluetooth/hidp/hidp.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/bluetooth/bluetooth_6lowpan.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/sunrpc/sunrpc.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/sunrpc/auth_gss/auth_rpcgss.ko.xz
+linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/sunrpc/auth_gss/rpcsec_gss_krb5.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/atm/atm.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/atm/pppoatm.ko.xz
 linux,./usr/lib/modules/6.12.77-v8-16k/kernel/net/l2tp/l2tp_core.ko.xz

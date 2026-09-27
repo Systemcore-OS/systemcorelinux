@@ -1,4 +1,4 @@
-savedcmd_net/ceph/osd_client.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ceph/.osd_client.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"osd_client"' -DKBUILD_MODNAME='"libceph"' -D__KBUILD_MODNAME=kmod_libceph -c -o net/ceph/osd_client.o net/ceph/osd_client.c  
+savedcmd_net/ceph/osd_client.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ceph/.osd_client.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"osd_client"' -DKBUILD_MODNAME='"libceph"' -D__KBUILD_MODNAME=kmod_libceph -c -o net/ceph/osd_client.o net/ceph/osd_client.c  
 
 source_net/ceph/osd_client.o := net/ceph/osd_client.c
 
@@ -730,6 +730,10 @@ deps_net/ceph/osd_client.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1002,7 +1006,6 @@ deps_net/ceph/osd_client.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1175,14 +1178,11 @@ deps_net/ceph/osd_client.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1470,44 +1470,44 @@ deps_net/ceph/osd_client.o := \
 net/ceph/osd_client.o: $(deps_net/ceph/osd_client.o)
 
 $(deps_net/ceph/osd_client.o):
-#SYMVER osd_req_op_extent_osd_data 0xb2ec5231
-#SYMVER osd_req_op_raw_data_in_pages 0x82d48893
-#SYMVER osd_req_op_extent_osd_data_pages 0x822f5bd1
-#SYMVER osd_req_op_extent_osd_data_pagelist 0x9f598010
-#SYMVER osd_req_op_extent_osd_data_bio 0xce01bfcf
-#SYMVER osd_req_op_extent_osd_data_bvecs 0xbb7b797f
-#SYMVER osd_req_op_extent_osd_data_bvec_pos 0xce86d224
-#SYMVER osd_req_op_extent_osd_iter 0xb0600b51
-#SYMVER osd_req_op_cls_request_data_pagelist 0x9fb2d3b1
-#SYMVER osd_req_op_cls_request_data_pages 0xb8f789a4
-#SYMVER osd_req_op_cls_request_data_bvecs 0xc58f7b4f
-#SYMVER osd_req_op_cls_response_data_pages 0x901fca08
-#SYMVER ceph_osdc_get_request 0xd4b10e96
-#SYMVER ceph_osdc_put_request 0x6c0bc50a
-#SYMVER ceph_osdc_alloc_request 0x678bf232
-#SYMVER ceph_osdc_alloc_messages 0xb719ba8e
-#SYMVER osd_req_op_init 0xb458283e
-#SYMVER osd_req_op_extent_init 0x79b60e6f
-#SYMVER osd_req_op_extent_update 0x835356aa
-#SYMVER osd_req_op_extent_dup_last 0x918b8346
-#SYMVER osd_req_op_cls_init 0xad70d132
-#SYMVER osd_req_op_xattr_init 0xc3200674
-#SYMVER osd_req_op_alloc_hint_init 0x57e4c480
-#SYMVER ceph_osdc_new_request 0x9a493ea1
-#SYMVER __ceph_alloc_sparse_ext_map 0xf64054f2
-#SYMVER ceph_osdc_abort_requests 0x524d01ee
-#SYMVER ceph_osdc_clear_abort_err 0x6397028e
-#SYMVER ceph_osdc_update_epoch_barrier 0x08bc367a
-#SYMVER ceph_osdc_start_request 0x26a75b9a
-#SYMVER ceph_osdc_cancel_request 0x404a7568
-#SYMVER ceph_osdc_wait_request 0x07d2cf8a
-#SYMVER ceph_osdc_sync 0x507c6f91
-#SYMVER ceph_osdc_watch 0x400a30df
-#SYMVER ceph_osdc_unwatch 0x253fe218
-#SYMVER ceph_osdc_notify_ack 0x51ab9136
-#SYMVER ceph_osdc_notify 0xe401d359
-#SYMVER ceph_osdc_list_watchers 0x5efea553
-#SYMVER ceph_osdc_flush_notifies 0x66ed4b62
-#SYMVER ceph_osdc_maybe_request_map 0xd8a74f40
-#SYMVER ceph_osdc_call 0xc88eb79f
-#SYMVER osd_req_op_copy_from_init 0x6842abe8
+#SYMVER osd_req_op_extent_osd_data 0x38fbb18d
+#SYMVER osd_req_op_raw_data_in_pages 0xd0efdcb3
+#SYMVER osd_req_op_extent_osd_data_pages 0x0901417b
+#SYMVER osd_req_op_extent_osd_data_pagelist 0xa26da763
+#SYMVER osd_req_op_extent_osd_data_bio 0xe474121c
+#SYMVER osd_req_op_extent_osd_data_bvecs 0xa3b96253
+#SYMVER osd_req_op_extent_osd_data_bvec_pos 0x51a18811
+#SYMVER osd_req_op_extent_osd_iter 0x3c6d6aae
+#SYMVER osd_req_op_cls_request_data_pagelist 0xb9f548e5
+#SYMVER osd_req_op_cls_request_data_pages 0xdb0a676f
+#SYMVER osd_req_op_cls_request_data_bvecs 0x6133f12f
+#SYMVER osd_req_op_cls_response_data_pages 0xae78811b
+#SYMVER ceph_osdc_get_request 0x60838d1b
+#SYMVER ceph_osdc_put_request 0xf325f554
+#SYMVER ceph_osdc_alloc_request 0x576a7193
+#SYMVER ceph_osdc_alloc_messages 0xe0b11817
+#SYMVER osd_req_op_init 0xaaa05aff
+#SYMVER osd_req_op_extent_init 0xff4d3ca1
+#SYMVER osd_req_op_extent_update 0xfb3f865e
+#SYMVER osd_req_op_extent_dup_last 0xd94a6b08
+#SYMVER osd_req_op_cls_init 0xeecd440f
+#SYMVER osd_req_op_xattr_init 0x61c59b8e
+#SYMVER osd_req_op_alloc_hint_init 0xc1220045
+#SYMVER ceph_osdc_new_request 0xbe6fea1d
+#SYMVER __ceph_alloc_sparse_ext_map 0xd20f78f4
+#SYMVER ceph_osdc_abort_requests 0xda5fc553
+#SYMVER ceph_osdc_clear_abort_err 0xe85653ba
+#SYMVER ceph_osdc_update_epoch_barrier 0x8d5e1c60
+#SYMVER ceph_osdc_start_request 0xf45bdd3f
+#SYMVER ceph_osdc_cancel_request 0x14c76483
+#SYMVER ceph_osdc_wait_request 0x0f4dd220
+#SYMVER ceph_osdc_sync 0xcd8fa186
+#SYMVER ceph_osdc_watch 0xb5ce54c0
+#SYMVER ceph_osdc_unwatch 0x2e0c35e2
+#SYMVER ceph_osdc_notify_ack 0x96e3199c
+#SYMVER ceph_osdc_notify 0x017f8e5a
+#SYMVER ceph_osdc_list_watchers 0x3657dbe1
+#SYMVER ceph_osdc_flush_notifies 0x3e7c3da6
+#SYMVER ceph_osdc_maybe_request_map 0xfa61dcb1
+#SYMVER ceph_osdc_call 0xf878b0a8
+#SYMVER osd_req_op_copy_from_init 0xbe90340e

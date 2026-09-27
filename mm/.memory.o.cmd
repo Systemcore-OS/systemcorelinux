@@ -1,4 +1,4 @@
-savedcmd_mm/memory.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.memory.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"mm/memory"' -DKBUILD_BASENAME='"memory"' -DKBUILD_MODNAME='"memory"' -D__KBUILD_MODNAME=kmod_memory -c -o mm/memory.o mm/memory.c  
+savedcmd_mm/memory.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.memory.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"mm/memory"' -DKBUILD_BASENAME='"memory"' -DKBUILD_MODNAME='"memory"' -D__KBUILD_MODNAME=kmod_memory -c -o mm/memory.o mm/memory.c  
 
 source_mm/memory.o := mm/memory.c
 
@@ -717,6 +717,10 @@ deps_mm/memory.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1125,7 +1129,6 @@ deps_mm/memory.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1236,14 +1239,11 @@ deps_mm/memory.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1447,22 +1447,22 @@ mm/memory.o: $(deps_mm/memory.o)
 $(deps_mm/memory.o):
 #SYMVER high_memory 0x8a7d1c31
 #SYMVER zero_pfn 0x85efc7e0
-#SYMVER zap_vma_ptes 0xc5d1236c
-#SYMVER vm_insert_pages 0x6318392e
-#SYMVER vm_insert_page 0x8da94eaa
-#SYMVER vm_map_pages 0xe1cd90ae
-#SYMVER vm_map_pages_zero 0x68e7ff50
-#SYMVER vmf_insert_pfn_prot 0x29c0a6e0
-#SYMVER vmf_insert_pfn 0xb45e64f6
-#SYMVER vmf_insert_mixed 0x26239ab0
-#SYMVER remap_pfn_range 0xa47f421b
-#SYMVER vm_iomap_memory 0x965ca696
-#SYMVER apply_to_page_range 0xdfe8cccc
-#SYMVER apply_to_existing_page_range 0x0097fe5a
-#SYMVER unmap_mapping_pages 0xee092498
-#SYMVER unmap_mapping_range 0xfe5911c8
-#SYMVER handle_mm_fault 0x40d274eb
-#SYMVER follow_pfnmap_start 0x7186cd58
-#SYMVER follow_pfnmap_end 0x0c2e05bb
-#SYMVER generic_access_phys 0xb2620a2c
-#SYMVER access_process_vm 0x56bfd3d3
+#SYMVER zap_vma_ptes 0x0ba7904a
+#SYMVER vm_insert_pages 0xe62b4721
+#SYMVER vm_insert_page 0xdfe874b1
+#SYMVER vm_map_pages 0x76bce76b
+#SYMVER vm_map_pages_zero 0xb4d1877a
+#SYMVER vmf_insert_pfn_prot 0x8276cec6
+#SYMVER vmf_insert_pfn 0xa7edc1c7
+#SYMVER vmf_insert_mixed 0xa23159b7
+#SYMVER remap_pfn_range 0x01542ebf
+#SYMVER vm_iomap_memory 0x73fa7ec0
+#SYMVER apply_to_page_range 0xbb1dd6e5
+#SYMVER apply_to_existing_page_range 0xdc970ef8
+#SYMVER unmap_mapping_pages 0xdabbb8fb
+#SYMVER unmap_mapping_range 0xdb9f4e3f
+#SYMVER handle_mm_fault 0x33fc8c3f
+#SYMVER follow_pfnmap_start 0xbdef74fe
+#SYMVER follow_pfnmap_end 0x97eac36e
+#SYMVER generic_access_phys 0xc7d2c04b
+#SYMVER access_process_vm 0x899082b3

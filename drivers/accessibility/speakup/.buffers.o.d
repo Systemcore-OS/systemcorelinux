@@ -177,6 +177,8 @@ buffers.o: drivers/accessibility/speakup/buffers.c \
  include/linux/kref.h include/linux/rbtree.h include/linux/maple_tree.h \
  include/linux/rwsem.h include/linux/completion.h include/linux/swait.h \
  include/linux/wait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/page-flags-layout.h include/generated/bounds.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \

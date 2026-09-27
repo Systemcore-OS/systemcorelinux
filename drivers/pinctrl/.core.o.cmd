@@ -1,4 +1,4 @@
-savedcmd_drivers/pinctrl/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pinctrl/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/pinctrl/core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"core"' -D__KBUILD_MODNAME=kmod_core -c -o drivers/pinctrl/core.o drivers/pinctrl/core.c  
+savedcmd_drivers/pinctrl/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pinctrl/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/pinctrl/core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"core"' -D__KBUILD_MODNAME=kmod_core -c -o drivers/pinctrl/core.o drivers/pinctrl/core.c  
 
 source_drivers/pinctrl/core.o := drivers/pinctrl/core.c
 
@@ -749,6 +749,11 @@ deps_drivers/pinctrl/core.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -972,7 +977,6 @@ deps_drivers/pinctrl/core.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1117,41 +1121,41 @@ deps_drivers/pinctrl/core.o := \
 drivers/pinctrl/core.o: $(deps_drivers/pinctrl/core.o)
 
 $(deps_drivers/pinctrl/core.o):
-#SYMVER pinctrl_dev_get_name 0x236e272b
-#SYMVER pinctrl_dev_get_devname 0xcae6ef1a
-#SYMVER pinctrl_dev_get_drvdata 0x68533222
-#SYMVER pin_get_name 0x662c715d
-#SYMVER pinctrl_add_gpio_range 0x1f350db4
-#SYMVER pinctrl_add_gpio_ranges 0xfddd074e
-#SYMVER pinctrl_find_and_add_gpio_range 0x72f8cfb0
-#SYMVER pinctrl_get_group_pins 0x87447af5
-#SYMVER pinctrl_find_gpio_range_from_pin_nolock 0x4d246724
-#SYMVER pinctrl_find_gpio_range_from_pin 0x8fe49b93
-#SYMVER pinctrl_remove_gpio_range 0xf2dab95f
-#SYMVER pinctrl_gpio_can_use_line 0x0f18a91c
-#SYMVER pinctrl_gpio_request 0x379ee799
-#SYMVER pinctrl_gpio_free 0x03727955
-#SYMVER pinctrl_gpio_direction_input 0x88411865
-#SYMVER pinctrl_gpio_direction_output 0x0dd7e569
-#SYMVER pinctrl_gpio_set_config 0xd64b3298
-#SYMVER pinctrl_get 0xee395147
-#SYMVER pinctrl_put 0x4c95a2ca
-#SYMVER pinctrl_lookup_state 0xd48398c8
-#SYMVER pinctrl_select_state 0x5c60554f
-#SYMVER devm_pinctrl_get 0xc689dd9c
-#SYMVER devm_pinctrl_put 0xf4c4583f
+#SYMVER pinctrl_dev_get_name 0xd6e7dca8
+#SYMVER pinctrl_dev_get_devname 0x1c3f8a8b
+#SYMVER pinctrl_dev_get_drvdata 0x9ca40047
+#SYMVER pin_get_name 0xf96968c5
+#SYMVER pinctrl_add_gpio_range 0x325ef3f3
+#SYMVER pinctrl_add_gpio_ranges 0xca988484
+#SYMVER pinctrl_find_and_add_gpio_range 0x7b09137a
+#SYMVER pinctrl_get_group_pins 0x9b39e5d0
+#SYMVER pinctrl_find_gpio_range_from_pin_nolock 0xd95ab816
+#SYMVER pinctrl_find_gpio_range_from_pin 0x2d7e27c2
+#SYMVER pinctrl_remove_gpio_range 0x86e59a44
+#SYMVER pinctrl_gpio_can_use_line 0x4574178f
+#SYMVER pinctrl_gpio_request 0x9aec6136
+#SYMVER pinctrl_gpio_free 0x145a0099
+#SYMVER pinctrl_gpio_direction_input 0x8f0ce926
+#SYMVER pinctrl_gpio_direction_output 0x552f35c7
+#SYMVER pinctrl_gpio_set_config 0x56c01ddb
+#SYMVER pinctrl_get 0x098723bd
+#SYMVER pinctrl_put 0xa5c580d6
+#SYMVER pinctrl_lookup_state 0x535add1b
+#SYMVER pinctrl_select_state 0x040eb7d0
+#SYMVER devm_pinctrl_get 0xdbc44b46
+#SYMVER devm_pinctrl_put 0x8af149d6
 #SYMVER pinctrl_register_mappings 0xec017101
 #SYMVER pinctrl_unregister_mappings 0xfb5d3207
-#SYMVER pinctrl_force_sleep 0x185b61fb
-#SYMVER pinctrl_force_default 0xd127ac2e
-#SYMVER pinctrl_select_default_state 0x87fa9c18
-#SYMVER pinctrl_pm_select_default_state 0x3de7c452
-#SYMVER pinctrl_pm_select_sleep_state 0x9f8810c1
-#SYMVER pinctrl_pm_select_idle_state 0x4b8ca748
-#SYMVER pinctrl_enable 0x9f8ab55e
-#SYMVER pinctrl_register 0x064641b0
-#SYMVER pinctrl_register_and_init 0xb6f0aac1
-#SYMVER pinctrl_unregister 0x59ca1375
-#SYMVER devm_pinctrl_register 0x698d7d90
-#SYMVER devm_pinctrl_register_and_init 0xe7027787
-#SYMVER devm_pinctrl_unregister 0x494323f0
+#SYMVER pinctrl_force_sleep 0xd4e4d521
+#SYMVER pinctrl_force_default 0x68f16252
+#SYMVER pinctrl_select_default_state 0x3c935d76
+#SYMVER pinctrl_pm_select_default_state 0x580944a2
+#SYMVER pinctrl_pm_select_sleep_state 0xfe676130
+#SYMVER pinctrl_pm_select_idle_state 0xfa9b1e67
+#SYMVER pinctrl_enable 0x36760eb3
+#SYMVER pinctrl_register 0x8c0071f6
+#SYMVER pinctrl_register_and_init 0xed4db911
+#SYMVER pinctrl_unregister 0xfdca5bf4
+#SYMVER devm_pinctrl_register 0xfb6ea96b
+#SYMVER devm_pinctrl_register_and_init 0x9b330db9
+#SYMVER devm_pinctrl_unregister 0xba3c52b1

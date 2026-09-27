@@ -3,23 +3,14 @@
 // GNU C11 (Buildroot 2025.11.3) version 14.3.0 (aarch64-buildroot-linux-gnu)
 //	compiled by GNU C version 11.4.0, GMP version 6.3.0, MPFR version 4.1.1, MPC version 1.3.1, isl version none
 // GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-// options passed: -mlittle-endian -mgeneral-regs-only -mabi=lp64 -mbranch-protection=pac-ret -mcpu=cortex-a76 -O2 -std=gnu11 -fstack-protector-strong -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -fno-asynchronous-unwind-tables -fno-unwind-tables -fno-delete-null-pointer-checks -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fstack-check=no -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen
+// options passed: -mlittle-endian -mgeneral-regs-only -mabi=lp64 -mbranch-protection=pac-ret -mcpu=cortex-a76 -O2 -std=gnu11 -fstack-protector-strong -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -fno-asynchronous-unwind-tables -fno-unwind-tables -fno-delete-null-pointer-checks -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fstack-check=no -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen
 	.text
 	.section	.text.startup,"ax",@progbits
-	.align	3
+	.align	2
 	.p2align 5,,15
 	.global	main
-	.section	__patchable_function_entries,"awo",@progbits,.LPFE57
-	.align	3
-	.8byte	.LPFE57
-	.section	.text.startup
-.LPFE57:
-	nop	
-	nop	
 	.type	main, %function
 main:
-	nop	
-	nop	
 // scripts/mod/devicetable-offsets.c:11: 	DEVID(usb_device_id);
 #APP
 // 11 "scripts/mod/devicetable-offsets.c" 1

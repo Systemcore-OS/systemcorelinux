@@ -1,4 +1,4 @@
-savedcmd_drivers/usb/gadget/function/rndis.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/gadget/function/.rndis.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -I./drivers/usb/gadget/ -I./drivers/usb/gadget/udc/  -DMODULE  -DKBUILD_BASENAME='"rndis"' -DKBUILD_MODNAME='"usb_f_rndis"' -D__KBUILD_MODNAME=kmod_usb_f_rndis -c -o drivers/usb/gadget/function/rndis.o drivers/usb/gadget/function/rndis.c  
+savedcmd_drivers/usb/gadget/function/rndis.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/gadget/function/.rndis.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -I./drivers/usb/gadget/ -I./drivers/usb/gadget/udc/  -DMODULE  -DKBUILD_BASENAME='"rndis"' -DKBUILD_MODNAME='"usb_f_rndis"' -D__KBUILD_MODNAME=kmod_usb_f_rndis -c -o drivers/usb/gadget/function/rndis.o drivers/usb/gadget/function/rndis.c  
 
 source_drivers/usb/gadget/function/rndis.o := drivers/usb/gadget/function/rndis.c
 
@@ -728,6 +728,10 @@ deps_drivers/usb/gadget/function/rndis.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1188,7 +1192,6 @@ deps_drivers/usb/gadget/function/rndis.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1347,14 +1350,11 @@ deps_drivers/usb/gadget/function/rndis.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1563,17 +1563,17 @@ deps_drivers/usb/gadget/function/rndis.o := \
 drivers/usb/gadget/function/rndis.o: $(deps_drivers/usb/gadget/function/rndis.o)
 
 $(deps_drivers/usb/gadget/function/rndis.o):
-#SYMVER rndis_signal_connect 0x06810ff6
-#SYMVER rndis_signal_disconnect 0xd8a337fd
-#SYMVER rndis_uninit 0x5a6285b7
-#SYMVER rndis_set_host_mac 0xeba7fe60
-#SYMVER rndis_msg_parser 0xcac19f53
-#SYMVER rndis_register 0x6e27b2af
-#SYMVER rndis_deregister 0x50316916
-#SYMVER rndis_set_param_dev 0xc0c9dff7
-#SYMVER rndis_set_param_vendor 0x7335f231
-#SYMVER rndis_set_param_medium 0x5521e36e
-#SYMVER rndis_add_hdr 0x6a2f7360
-#SYMVER rndis_free_response 0xfb357a48
-#SYMVER rndis_get_next_response 0x225bcd3d
-#SYMVER rndis_rm_hdr 0x3d4eb7e8
+#SYMVER rndis_signal_connect 0xc4b8e475
+#SYMVER rndis_signal_disconnect 0x474e7690
+#SYMVER rndis_uninit 0xc43a40c3
+#SYMVER rndis_set_host_mac 0xc32645de
+#SYMVER rndis_msg_parser 0xe2a3b259
+#SYMVER rndis_register 0xf6c05bb9
+#SYMVER rndis_deregister 0x3fe247e2
+#SYMVER rndis_set_param_dev 0x76df0a3f
+#SYMVER rndis_set_param_vendor 0xdf5e06a2
+#SYMVER rndis_set_param_medium 0xa4aa1f0c
+#SYMVER rndis_add_hdr 0x4dab4baa
+#SYMVER rndis_free_response 0x85b8d320
+#SYMVER rndis_get_next_response 0x690eea03
+#SYMVER rndis_rm_hdr 0x022ab5c2

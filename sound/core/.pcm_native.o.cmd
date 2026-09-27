@@ -1,4 +1,4 @@
-savedcmd_sound/core/pcm_native.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/core/.pcm_native.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Isound/core  -DMODULE  -DKBUILD_BASENAME='"pcm_native"' -DKBUILD_MODNAME='"snd_pcm"' -D__KBUILD_MODNAME=kmod_snd_pcm -c -o sound/core/pcm_native.o sound/core/pcm_native.c  
+savedcmd_sound/core/pcm_native.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/core/.pcm_native.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Isound/core  -DMODULE  -DKBUILD_BASENAME='"pcm_native"' -DKBUILD_MODNAME='"snd_pcm"' -D__KBUILD_MODNAME=kmod_snd_pcm -c -o sound/core/pcm_native.o sound/core/pcm_native.c  
 
 source_sound/core/pcm_native.o := sound/core/pcm_native.c
 
@@ -712,6 +712,11 @@ deps_sound/core/pcm_native.o := \
   include/linux/swait.h \
   include/linux/wait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -1038,7 +1043,6 @@ deps_sound/core/pcm_native.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1208,7 +1212,6 @@ deps_sound/core/pcm_native.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1240,20 +1243,20 @@ deps_sound/core/pcm_native.o := \
 sound/core/pcm_native.o: $(deps_sound/core/pcm_native.o)
 
 $(deps_sound/core/pcm_native.o):
-#SYMVER snd_pcm_stream_lock 0x280f6252
-#SYMVER snd_pcm_stream_unlock 0x4ccaefa7
-#SYMVER snd_pcm_stream_lock_irq 0x2815cf6b
-#SYMVER snd_pcm_stream_unlock_irq 0x8c122767
-#SYMVER _snd_pcm_stream_lock_irqsave 0xe6a2ab9b
-#SYMVER _snd_pcm_stream_lock_irqsave_nested 0x19966229
-#SYMVER snd_pcm_stream_unlock_irqrestore 0xa4c1afc9
-#SYMVER snd_pcm_hw_refine 0x6d3f4184
-#SYMVER snd_pcm_runtime_buffer_set_silence 0x7a666f8b
-#SYMVER snd_pcm_stop 0x28caa519
-#SYMVER snd_pcm_stop_xrun 0x25d271b8
-#SYMVER snd_pcm_suspend_all 0x998c34db
-#SYMVER snd_pcm_release_substream 0xba2f6a08
-#SYMVER snd_pcm_open_substream 0x6c35fe8f
-#SYMVER snd_pcm_kernel_ioctl 0x142e37ff
-#SYMVER snd_pcm_lib_default_mmap 0x9e03898f
-#SYMVER snd_pcm_mmap_data 0x9afb5ce3
+#SYMVER snd_pcm_stream_lock 0xd369ea0b
+#SYMVER snd_pcm_stream_unlock 0xfe75daa9
+#SYMVER snd_pcm_stream_lock_irq 0xcd1d45a4
+#SYMVER snd_pcm_stream_unlock_irq 0xadbc7092
+#SYMVER _snd_pcm_stream_lock_irqsave 0x6016ba57
+#SYMVER _snd_pcm_stream_lock_irqsave_nested 0xc70b2b82
+#SYMVER snd_pcm_stream_unlock_irqrestore 0x3e14146a
+#SYMVER snd_pcm_hw_refine 0x522b55d9
+#SYMVER snd_pcm_runtime_buffer_set_silence 0x7e632aa2
+#SYMVER snd_pcm_stop 0x09010305
+#SYMVER snd_pcm_stop_xrun 0xc0c358f4
+#SYMVER snd_pcm_suspend_all 0xa75a2846
+#SYMVER snd_pcm_release_substream 0xdeeb326a
+#SYMVER snd_pcm_open_substream 0xdbb0f7d2
+#SYMVER snd_pcm_kernel_ioctl 0x71e6b02e
+#SYMVER snd_pcm_lib_default_mmap 0xfcf499cb
+#SYMVER snd_pcm_mmap_data 0x12192b79

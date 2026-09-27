@@ -1,4 +1,4 @@
-savedcmd_drivers/hid/hid-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/hid/.hid-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/hid/hid"' -DKBUILD_BASENAME='"hid_core"' -DKBUILD_MODNAME='"hid"' -D__KBUILD_MODNAME=kmod_hid -c -o drivers/hid/hid-core.o drivers/hid/hid-core.c  
+savedcmd_drivers/hid/hid-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/hid/.hid-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/hid/hid"' -DKBUILD_BASENAME='"hid_core"' -DKBUILD_MODNAME='"hid"' -D__KBUILD_MODNAME=kmod_hid -c -o drivers/hid/hid-core.o drivers/hid/hid-core.c  
 
 source_drivers/hid/hid-core.o := drivers/hid/hid-core.c
 
@@ -729,6 +729,10 @@ deps_drivers/hid/hid-core.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1186,7 +1190,6 @@ deps_drivers/hid/hid-core.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1338,14 +1341,11 @@ deps_drivers/hid/hid-core.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1374,38 +1374,38 @@ deps_drivers/hid/hid-core.o := \
 drivers/hid/hid-core.o: $(deps_drivers/hid/hid-core.o)
 
 $(deps_drivers/hid/hid-core.o):
-#SYMVER hid_register_report 0x6eca39ed
-#SYMVER hid_parse_report 0x24adcf3c
-#SYMVER hid_validate_values 0x23991487
-#SYMVER hid_setup_resolution_multiplier 0x24a97d7c
-#SYMVER hid_open_report 0x87848fc7
-#SYMVER hid_field_extract 0x912865ad
-#SYMVER hid_output_report 0x3ebb916e
-#SYMVER hid_alloc_report_buf 0x9f337895
-#SYMVER hid_set_field 0x3cd466aa
-#SYMVER hid_find_field 0xcdec7fd5
-#SYMVER __hid_request 0xd1b89f46
-#SYMVER hid_report_raw_event 0x9840b93b
-#SYMVER hid_input_report 0x37fc7aca
-#SYMVER hid_match_id 0x4c1b7f81
-#SYMVER hid_connect 0x0821c1ec
-#SYMVER hid_disconnect 0x67cd9803
-#SYMVER hid_hw_start 0xc0fbd0b5
-#SYMVER hid_hw_stop 0x8c35f4bd
-#SYMVER hid_hw_open 0x3241aec6
-#SYMVER hid_hw_close 0x419aa177
-#SYMVER hid_hw_request 0x364699b1
-#SYMVER hid_hw_raw_request 0xf00622bd
-#SYMVER hid_hw_output_report 0x6ed3c549
-#SYMVER hid_driver_suspend 0x88a436bb
-#SYMVER hid_driver_reset_resume 0x39423ad9
-#SYMVER hid_driver_resume 0x40258247
-#SYMVER hid_match_device 0x7695bf99
-#SYMVER hid_compare_device_paths 0xd200aa19
-#SYMVER hid_bus_type 0x66ceff9c
-#SYMVER hid_add_device 0x9e5ec67a
-#SYMVER hid_allocate_device 0xd69dadd1
-#SYMVER hid_destroy_device 0x72046885
-#SYMVER __hid_register_driver 0xd6fe0d07
-#SYMVER hid_unregister_driver 0x5d0451c1
-#SYMVER hid_check_keys_pressed 0xbeb626ef
+#SYMVER hid_register_report 0xfa5561aa
+#SYMVER hid_parse_report 0xbd5f3748
+#SYMVER hid_validate_values 0x3af55ad0
+#SYMVER hid_setup_resolution_multiplier 0x4e146097
+#SYMVER hid_open_report 0xc810856f
+#SYMVER hid_field_extract 0x990c82c5
+#SYMVER hid_output_report 0x8b91a6b0
+#SYMVER hid_alloc_report_buf 0x94aa5c66
+#SYMVER hid_set_field 0x2184c4d0
+#SYMVER hid_find_field 0x31ba9be3
+#SYMVER __hid_request 0x1a4d4ce0
+#SYMVER hid_report_raw_event 0x1c552cfe
+#SYMVER hid_input_report 0x41c432c2
+#SYMVER hid_match_id 0x2014e35e
+#SYMVER hid_connect 0xcd6e495d
+#SYMVER hid_disconnect 0x9c323a0d
+#SYMVER hid_hw_start 0xc87203c6
+#SYMVER hid_hw_stop 0xf1308ccd
+#SYMVER hid_hw_open 0x59d4c023
+#SYMVER hid_hw_close 0x26d29b1f
+#SYMVER hid_hw_request 0xb028b505
+#SYMVER hid_hw_raw_request 0x56275d47
+#SYMVER hid_hw_output_report 0x76750862
+#SYMVER hid_driver_suspend 0x88290c6f
+#SYMVER hid_driver_reset_resume 0xa89dfb1e
+#SYMVER hid_driver_resume 0xb408393f
+#SYMVER hid_match_device 0x6d1211b7
+#SYMVER hid_compare_device_paths 0x52f8db8d
+#SYMVER hid_bus_type 0x179668e5
+#SYMVER hid_add_device 0x6d53562b
+#SYMVER hid_allocate_device 0xdfdad046
+#SYMVER hid_destroy_device 0xfaf40aef
+#SYMVER __hid_register_driver 0xf21ed2ab
+#SYMVER hid_unregister_driver 0xad0a385b
+#SYMVER hid_check_keys_pressed 0xc042ea89

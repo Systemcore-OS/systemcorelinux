@@ -1,4 +1,4 @@
-savedcmd_mm/gup.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.gup.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"mm/gup"' -DKBUILD_BASENAME='"gup"' -DKBUILD_MODNAME='"gup"' -D__KBUILD_MODNAME=kmod_gup -c -o mm/gup.o mm/gup.c  
+savedcmd_mm/gup.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.gup.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"mm/gup"' -DKBUILD_BASENAME='"gup"' -DKBUILD_MODNAME='"gup"' -D__KBUILD_MODNAME=kmod_gup -c -o mm/gup.o mm/gup.c  
 
 source_mm/gup.o := mm/gup.c
 
@@ -592,6 +592,11 @@ deps_mm/gup.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1007,7 +1012,6 @@ deps_mm/gup.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1048,7 +1052,6 @@ deps_mm/gup.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1179,14 +1182,11 @@ deps_mm/gup.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1387,25 +1387,25 @@ deps_mm/gup.o := \
 mm/gup.o: $(deps_mm/gup.o)
 
 $(deps_mm/gup.o):
-#SYMVER unpin_user_page 0xee3b00b5
-#SYMVER unpin_folio 0xb214b6c2
-#SYMVER unpin_user_pages_dirty_lock 0x6536fc42
-#SYMVER unpin_user_page_range_dirty_lock 0x8ae632b0
-#SYMVER unpin_user_pages 0x7ee76787
-#SYMVER unpin_user_folio 0x67c0e9b7
-#SYMVER unpin_folios 0x463f42e6
-#SYMVER fixup_user_fault 0x6a53a0fb
+#SYMVER unpin_user_page 0xe8ba6b6a
+#SYMVER unpin_folio 0xbf4634a8
+#SYMVER unpin_user_pages_dirty_lock 0x4d8ceaf0
+#SYMVER unpin_user_page_range_dirty_lock 0xf586aa0f
+#SYMVER unpin_user_pages 0xdbb930e9
+#SYMVER unpin_user_folio 0x53cf05a8
+#SYMVER unpin_folios 0x4e6e64e8
+#SYMVER fixup_user_fault 0xe83e713d
 #SYMVER fault_in_writeable 0xc0364007
 #SYMVER fault_in_subpage_writeable 0x1d9672bd
 #SYMVER fault_in_safe_writeable 0xfb348fea
 #SYMVER fault_in_readable 0x8e3e0f7d
-#SYMVER get_user_pages_remote 0xa08f5707
-#SYMVER get_user_pages 0xe5eca4f5
-#SYMVER get_user_pages_unlocked 0xacf7988a
-#SYMVER get_user_pages_fast_only 0x72b14613
-#SYMVER get_user_pages_fast 0xcf15cb9d
-#SYMVER pin_user_pages_fast 0xf7a8340e
-#SYMVER pin_user_pages_remote 0x5c6675b7
-#SYMVER pin_user_pages 0x77562e7c
-#SYMVER pin_user_pages_unlocked 0x7051102a
-#SYMVER memfd_pin_folios 0x2fab948f
+#SYMVER get_user_pages_remote 0x694c1f77
+#SYMVER get_user_pages 0x1c263f01
+#SYMVER get_user_pages_unlocked 0xfc884baf
+#SYMVER get_user_pages_fast_only 0x677c8ad4
+#SYMVER get_user_pages_fast 0x57b2049c
+#SYMVER pin_user_pages_fast 0xba34cdf2
+#SYMVER pin_user_pages_remote 0xdb627e63
+#SYMVER pin_user_pages 0x3f09bd32
+#SYMVER pin_user_pages_unlocked 0x42e70bf2
+#SYMVER memfd_pin_folios 0x1d4c076d

@@ -1,4 +1,4 @@
-savedcmd_sound/core/pcm_dmaengine.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/core/.pcm_dmaengine.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"pcm_dmaengine"' -DKBUILD_MODNAME='"snd_pcm_dmaengine"' -D__KBUILD_MODNAME=kmod_snd_pcm_dmaengine -c -o sound/core/pcm_dmaengine.o sound/core/pcm_dmaengine.c  
+savedcmd_sound/core/pcm_dmaengine.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/core/.pcm_dmaengine.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"pcm_dmaengine"' -DKBUILD_MODNAME='"snd_pcm_dmaengine"' -D__KBUILD_MODNAME=kmod_snd_pcm_dmaengine -c -o sound/core/pcm_dmaengine.o sound/core/pcm_dmaengine.c  
 
 source_sound/core/pcm_dmaengine.o := sound/core/pcm_dmaengine.c
 
@@ -727,6 +727,10 @@ deps_sound/core/pcm_dmaengine.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1159,7 +1163,6 @@ deps_sound/core/pcm_dmaengine.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1241,16 +1244,16 @@ deps_sound/core/pcm_dmaengine.o := \
 sound/core/pcm_dmaengine.o: $(deps_sound/core/pcm_dmaengine.o)
 
 $(deps_sound/core/pcm_dmaengine.o):
-#SYMVER snd_dmaengine_pcm_get_chan 0xabbc7f41
-#SYMVER snd_hwparams_to_dma_slave_config 0xc0a4486b
-#SYMVER snd_dmaengine_pcm_set_config_from_dai_data 0x152668ed
-#SYMVER snd_dmaengine_pcm_trigger 0xc38af070
-#SYMVER snd_dmaengine_pcm_pointer_no_residue 0x4895a609
-#SYMVER snd_dmaengine_pcm_pointer 0xa97deaa1
-#SYMVER snd_dmaengine_pcm_request_channel 0x2d750754
-#SYMVER snd_dmaengine_pcm_open 0x5957c671
-#SYMVER snd_dmaengine_pcm_open_request_chan 0x93b390f1
-#SYMVER snd_dmaengine_pcm_sync_stop 0x38dfd7d9
-#SYMVER snd_dmaengine_pcm_close 0x4dcd2ebb
-#SYMVER snd_dmaengine_pcm_close_release_chan 0x25a202df
-#SYMVER snd_dmaengine_pcm_refine_runtime_hwparams 0xac21c838
+#SYMVER snd_dmaengine_pcm_get_chan 0xb04d361c
+#SYMVER snd_hwparams_to_dma_slave_config 0x8e4f2cd3
+#SYMVER snd_dmaengine_pcm_set_config_from_dai_data 0x6a64b0ae
+#SYMVER snd_dmaengine_pcm_trigger 0x968387c1
+#SYMVER snd_dmaengine_pcm_pointer_no_residue 0xecbf775c
+#SYMVER snd_dmaengine_pcm_pointer 0xa3033795
+#SYMVER snd_dmaengine_pcm_request_channel 0x3b8401d4
+#SYMVER snd_dmaengine_pcm_open 0x3b84400f
+#SYMVER snd_dmaengine_pcm_open_request_chan 0xe28703b5
+#SYMVER snd_dmaengine_pcm_sync_stop 0xf6232416
+#SYMVER snd_dmaengine_pcm_close 0x0e18fa4f
+#SYMVER snd_dmaengine_pcm_close_release_chan 0x0b1e1190
+#SYMVER snd_dmaengine_pcm_refine_runtime_hwparams 0x68701074

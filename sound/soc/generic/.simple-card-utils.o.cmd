@@ -1,4 +1,4 @@
-savedcmd_sound/soc/generic/simple-card-utils.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/generic/.simple-card-utils.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"simple_card_utils"' -DKBUILD_MODNAME='"snd_soc_simple_card_utils"' -D__KBUILD_MODNAME=kmod_snd_soc_simple_card_utils -c -o sound/soc/generic/simple-card-utils.o sound/soc/generic/simple-card-utils.c  
+savedcmd_sound/soc/generic/simple-card-utils.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/generic/.simple-card-utils.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"simple_card_utils"' -DKBUILD_MODNAME='"snd_soc_simple_card_utils"' -D__KBUILD_MODNAME=kmod_snd_soc_simple_card_utils -c -o sound/soc/generic/simple-card-utils.o sound/soc/generic/simple-card-utils.c  
 
 source_sound/soc/generic/simple-card-utils.o := sound/soc/generic/simple-card-utils.c
 
@@ -764,6 +764,10 @@ deps_sound/soc/generic/simple-card-utils.o := \
     $(wildcard include/config/MAPLE_RCU_DISABLED) \
     $(wildcard include/config/DEBUG_MAPLE_TREE) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
     $(wildcard include/config/ARM64_E0PD) \
@@ -1164,7 +1168,6 @@ deps_sound/soc/generic/simple-card-utils.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1240,30 +1243,30 @@ sound/soc/generic/simple-card-utils.o: $(deps_sound/soc/generic/simple-card-util
 
 $(deps_sound/soc/generic/simple-card-utils.o):
 #SYMVER simple_util_get_sample_fmt 0x2be78522
-#SYMVER simple_util_parse_convert 0xdf4ea2a3
+#SYMVER simple_util_parse_convert 0xcbe2e3dc
 #SYMVER simple_util_is_convert_required 0xa0c800c8
-#SYMVER simple_util_parse_daifmt 0x06273376
-#SYMVER simple_util_parse_tdm_width_map 0x7d12ef10
-#SYMVER simple_util_set_dailink_name 0x48526575
-#SYMVER simple_util_parse_card_name 0x987c2a0d
-#SYMVER simple_util_parse_clk 0xde4ddd1f
-#SYMVER simple_util_startup 0xdd0b93a9
-#SYMVER simple_util_shutdown 0x91fc8fa5
-#SYMVER simple_util_hw_params 0xbcb06aff
-#SYMVER simple_util_be_hw_params_fixup 0x0d7abc53
-#SYMVER simple_util_dai_init 0xe3922a1e
-#SYMVER simple_util_canonicalize_platform 0x2bd36188
-#SYMVER simple_util_canonicalize_cpu 0xf85e24c6
-#SYMVER simple_util_clean_reference 0x55b8e1de
-#SYMVER simple_util_parse_routing 0x891afd5a
-#SYMVER simple_util_parse_widgets 0xa2c0af16
-#SYMVER simple_util_parse_pin_switches 0xf11fc30a
-#SYMVER simple_util_init_jack 0x8ee374a0
-#SYMVER simple_util_init_aux_jacks 0x36a1781e
-#SYMVER simple_util_init_priv 0x47d8d74f
-#SYMVER simple_util_remove 0xde4f8432
-#SYMVER graph_util_card_probe 0xd1d71a87
-#SYMVER graph_util_is_ports0 0xbad8825a
-#SYMVER graph_util_parse_dai 0x0355d2ed
-#SYMVER graph_util_parse_link_direction 0x16010e00
-#SYMVER graph_util_parse_trigger_order 0x667398b6
+#SYMVER simple_util_parse_daifmt 0xfa48e4f4
+#SYMVER simple_util_parse_tdm_width_map 0xcb88cee3
+#SYMVER simple_util_set_dailink_name 0x83049372
+#SYMVER simple_util_parse_card_name 0xae684788
+#SYMVER simple_util_parse_clk 0x09673389
+#SYMVER simple_util_startup 0x1b258bda
+#SYMVER simple_util_shutdown 0x20ad734b
+#SYMVER simple_util_hw_params 0x804b3e49
+#SYMVER simple_util_be_hw_params_fixup 0x6272931f
+#SYMVER simple_util_dai_init 0x3b78a0fb
+#SYMVER simple_util_canonicalize_platform 0x01c57488
+#SYMVER simple_util_canonicalize_cpu 0xcad258a8
+#SYMVER simple_util_clean_reference 0x1ec5c9a2
+#SYMVER simple_util_parse_routing 0x94b689fa
+#SYMVER simple_util_parse_widgets 0xf1de1e48
+#SYMVER simple_util_parse_pin_switches 0xbe77739b
+#SYMVER simple_util_init_jack 0x8e5ef93d
+#SYMVER simple_util_init_aux_jacks 0x2de0ff5d
+#SYMVER simple_util_init_priv 0xc80c6eb5
+#SYMVER simple_util_remove 0x09090624
+#SYMVER graph_util_card_probe 0xf92cbaa9
+#SYMVER graph_util_is_ports0 0x1606587d
+#SYMVER graph_util_parse_dai 0x61f66ae2
+#SYMVER graph_util_parse_link_direction 0xfde93614
+#SYMVER graph_util_parse_trigger_order 0xbb176848

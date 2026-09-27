@@ -1,4 +1,4 @@
-savedcmd_net/wireless/util.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/wireless/.util.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"util"' -DKBUILD_MODNAME='"cfg80211"' -D__KBUILD_MODNAME=kmod_cfg80211 -c -o net/wireless/util.o net/wireless/util.c  
+savedcmd_net/wireless/util.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/wireless/.util.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"util"' -DKBUILD_MODNAME='"cfg80211"' -D__KBUILD_MODNAME=kmod_cfg80211 -c -o net/wireless/util.o net/wireless/util.c  
 
 source_net/wireless/util.o := net/wireless/util.c
 
@@ -777,6 +777,11 @@ deps_net/wireless/util.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -944,7 +949,6 @@ deps_net/wireless/util.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -985,7 +989,6 @@ deps_net/wireless/util.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1204,14 +1207,11 @@ deps_net/wireless/util.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1668,34 +1668,34 @@ $(deps_net/wireless/util.o):
 #SYMVER ieee80211_channel_to_freq_khz 0x5584448a
 #SYMVER ieee80211_s1g_channel_width 0x1bb59029
 #SYMVER ieee80211_freq_khz_to_channel 0x6bedf402
-#SYMVER ieee80211_get_channel_khz 0x663e574c
+#SYMVER ieee80211_get_channel_khz 0xf01a31f7
 #SYMVER ieee80211_hdrlen 0x7ef39823
-#SYMVER ieee80211_get_hdrlen_from_skb 0xb5f99a19
+#SYMVER ieee80211_get_hdrlen_from_skb 0x32e74d7b
 #SYMVER ieee80211_get_mesh_hdrlen 0xd56d55f3
 #SYMVER ieee80211_get_8023_tunnel_proto 0x13c58e52
-#SYMVER ieee80211_strip_8023_mesh_hdr 0x78c98d59
-#SYMVER ieee80211_data_to_8023_exthdr 0x2ec7acba
-#SYMVER ieee80211_is_valid_amsdu 0xd7fb94c8
-#SYMVER ieee80211_amsdu_to_8023s 0x4ecb5357
-#SYMVER cfg80211_classify8021d 0xe46aa593
+#SYMVER ieee80211_strip_8023_mesh_hdr 0xb933122c
+#SYMVER ieee80211_data_to_8023_exthdr 0xf332b7e9
+#SYMVER ieee80211_is_valid_amsdu 0xf9d35c48
+#SYMVER ieee80211_amsdu_to_8023s 0x4c298470
+#SYMVER cfg80211_classify8021d 0x95da9ff1
 #SYMVER ieee80211_bss_get_elem 0x5cba2be4
 #SYMVER cfg80211_calculate_bitrate 0x3c744e95
 #SYMVER cfg80211_get_p2p_attr 0xf5596d89
 #SYMVER ieee80211_ie_split_ric 0x275269b3
-#SYMVER ieee80211_fragment_element 0x68905511
+#SYMVER ieee80211_fragment_element 0xf533c89d
 #SYMVER ieee80211_operating_class_to_band 0xf40bc2f5
 #SYMVER ieee80211_operating_class_to_chandef 0x345fa8cc
 #SYMVER ieee80211_chandef_to_operating_class 0xefab0596
-#SYMVER cfg80211_iter_combinations 0x4cee1d80
-#SYMVER cfg80211_check_combinations 0x152720f6
-#SYMVER ieee80211_get_num_supported_channels 0x6ad79d8c
-#SYMVER cfg80211_get_station 0xd2df32b9
+#SYMVER cfg80211_iter_combinations 0x7626752d
+#SYMVER cfg80211_check_combinations 0xb8f670ea
+#SYMVER ieee80211_get_num_supported_channels 0x5f2fde1b
+#SYMVER cfg80211_get_station 0xc09f9a12
 #SYMVER cfg80211_free_nan_func 0x8fa02936
 #SYMVER cfg80211_sinfo_alloc_tid_stats 0x3c86019a
 #SYMVER rfc1042_header 0x69b18f43
 #SYMVER bridge_tunnel_header 0x1879fcbd
-#SYMVER cfg80211_send_layer2_update 0xa821af68
+#SYMVER cfg80211_send_layer2_update 0x1da80e83
 #SYMVER ieee80211_get_vht_max_nss 0x7c3ac925
-#SYMVER cfg80211_iftype_allowed 0x09a8f668
-#SYMVER cfg80211_get_iftype_ext_capa 0x58536445
+#SYMVER cfg80211_iftype_allowed 0x05ab927f
+#SYMVER cfg80211_get_iftype_ext_capa 0xcbd9613c
 #SYMVER cfg80211_radio_chandef_valid 0x53382dce

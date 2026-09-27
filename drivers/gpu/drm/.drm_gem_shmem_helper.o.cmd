@@ -1,4 +1,4 @@
-savedcmd_drivers/gpu/drm/drm_gem_shmem_helper.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_gem_shmem_helper.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_gem_shmem_helper"' -DKBUILD_MODNAME='"drm_shmem_helper"' -D__KBUILD_MODNAME=kmod_drm_shmem_helper -c -o drivers/gpu/drm/drm_gem_shmem_helper.o drivers/gpu/drm/drm_gem_shmem_helper.c  
+savedcmd_drivers/gpu/drm/drm_gem_shmem_helper.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_gem_shmem_helper.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_gem_shmem_helper"' -DKBUILD_MODNAME='"drm_shmem_helper"' -D__KBUILD_MODNAME=kmod_drm_shmem_helper -c -o drivers/gpu/drm/drm_gem_shmem_helper.o drivers/gpu/drm/drm_gem_shmem_helper.c  
 
 source_drivers/gpu/drm/drm_gem_shmem_helper.o := drivers/gpu/drm/drm_gem_shmem_helper.c
 
@@ -551,6 +551,11 @@ deps_drivers/gpu/drm/drm_gem_shmem_helper.o := \
   include/linux/wait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -1074,7 +1079,6 @@ deps_drivers/gpu/drm/drm_gem_shmem_helper.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1157,7 +1161,6 @@ deps_drivers/gpu/drm/drm_gem_shmem_helper.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1295,14 +1298,11 @@ deps_drivers/gpu/drm/drm_gem_shmem_helper.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/highmem-internal.h \
@@ -1404,22 +1404,22 @@ deps_drivers/gpu/drm/drm_gem_shmem_helper.o := \
 drivers/gpu/drm/drm_gem_shmem_helper.o: $(deps_drivers/gpu/drm/drm_gem_shmem_helper.o)
 
 $(deps_drivers/gpu/drm/drm_gem_shmem_helper.o):
-#SYMVER drm_gem_shmem_create 0xe6d3b0e1
-#SYMVER drm_gem_shmem_create_with_mnt 0x3beb4a1e
-#SYMVER drm_gem_shmem_free 0x20c2f015
-#SYMVER drm_gem_shmem_put_pages 0xc3d4d67e
-#SYMVER drm_gem_shmem_pin_locked 0x82908b09
-#SYMVER drm_gem_shmem_unpin_locked 0x031dd460
-#SYMVER drm_gem_shmem_pin 0xa04b5733
-#SYMVER drm_gem_shmem_unpin 0x658a59b2
-#SYMVER drm_gem_shmem_vmap 0xc10be42f
-#SYMVER drm_gem_shmem_vunmap 0xd1bf20d9
-#SYMVER drm_gem_shmem_madvise 0x5eba9836
-#SYMVER drm_gem_shmem_purge 0xbdb4ab44
-#SYMVER drm_gem_shmem_dumb_create 0xff3050ac
-#SYMVER drm_gem_shmem_vm_ops 0xde7a7dc2
-#SYMVER drm_gem_shmem_mmap 0x4754354a
-#SYMVER drm_gem_shmem_print_info 0xa901b8c6
-#SYMVER drm_gem_shmem_get_sg_table 0x5cd5d667
-#SYMVER drm_gem_shmem_get_pages_sgt 0x8361c879
-#SYMVER drm_gem_shmem_prime_import_sg_table 0x3391e484
+#SYMVER drm_gem_shmem_create 0x314f25a5
+#SYMVER drm_gem_shmem_create_with_mnt 0x5bf889aa
+#SYMVER drm_gem_shmem_free 0xbf563f10
+#SYMVER drm_gem_shmem_put_pages 0xd9bc8fff
+#SYMVER drm_gem_shmem_pin_locked 0xb8442e95
+#SYMVER drm_gem_shmem_unpin_locked 0x6ea65037
+#SYMVER drm_gem_shmem_pin 0xe1ef63ea
+#SYMVER drm_gem_shmem_unpin 0xf7e144f7
+#SYMVER drm_gem_shmem_vmap 0x7b79f834
+#SYMVER drm_gem_shmem_vunmap 0x10f56ecc
+#SYMVER drm_gem_shmem_madvise 0xe6823910
+#SYMVER drm_gem_shmem_purge 0xebededb8
+#SYMVER drm_gem_shmem_dumb_create 0x861404da
+#SYMVER drm_gem_shmem_vm_ops 0x29725355
+#SYMVER drm_gem_shmem_mmap 0x5183758d
+#SYMVER drm_gem_shmem_print_info 0xc19dcbc0
+#SYMVER drm_gem_shmem_get_sg_table 0xadce3bfd
+#SYMVER drm_gem_shmem_get_pages_sgt 0x8621d544
+#SYMVER drm_gem_shmem_prime_import_sg_table 0xfcf3c6c6

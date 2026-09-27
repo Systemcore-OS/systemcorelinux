@@ -1,0 +1,1 @@
+savedcmd_fs/lockd/lockd.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o fs/lockd/lockd.o @fs/lockd/lockd.mod 

@@ -194,6 +194,8 @@ sc16is7xx.o: drivers/tty/serial/sc16is7xx.c \
  arch/arm64/include/uapi/asm/auxvec.h include/linux/kref.h \
  include/linux/refcount.h include/linux/rbtree.h \
  include/linux/maple_tree.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
  include/linux/page-flags.h include/linux/local_lock.h \
  include/linux/local_lock_internal.h include/linux/zswap.h \
@@ -289,9 +291,9 @@ sc16is7xx.o: drivers/tty/serial/sc16is7xx.c \
  include/linux/interrupt.h include/linux/hardirq.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
  include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
- arch/arm64/include/asm/kvm_arm.h arch/arm64/include/asm/esr.h \
- include/asm-generic/hardirq.h include/linux/tty.h \
- include/uapi/linux/major.h include/uapi/linux/termios.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/tty.h include/uapi/linux/major.h \
+ include/uapi/linux/termios.h \
  arch/arm64/include/generated/uapi/asm/termios.h \
  include/uapi/asm-generic/termios.h \
  arch/arm64/include/generated/uapi/asm/termbits.h \

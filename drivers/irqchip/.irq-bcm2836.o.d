@@ -182,6 +182,8 @@ irq-bcm2836.o: drivers/irqchip/irq-bcm2836.c \
  include/linux/refcount.h include/linux/rbtree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
  include/linux/time.h include/linux/time64.h include/vdso/time64.h \
@@ -294,8 +296,7 @@ irq-bcm2836.o: drivers/irqchip/irq-bcm2836.c \
  include/acpi/acbuffer.h include/acpi/acpi_numa.h \
  include/linux/platform_device.h include/linux/irqchip/chained_irq.h \
  include/linux/irqchip/irq-bcm2836.h arch/arm64/include/asm/exception.h \
- arch/arm64/include/asm/esr.h include/linux/interrupt.h \
- include/linux/hardirq.h include/linux/context_tracking_state.h \
- include/linux/ftrace_irq.h include/linux/vtime.h \
- arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/kvm_arm.h \
- include/asm-generic/hardirq.h
+ include/linux/interrupt.h include/linux/hardirq.h \
+ include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
+ include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h

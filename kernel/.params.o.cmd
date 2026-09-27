@@ -1,4 +1,4 @@
-savedcmd_kernel/params.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/.params.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"kernel/params"' -DKBUILD_BASENAME='"params"' -DKBUILD_MODNAME='"params"' -D__KBUILD_MODNAME=kmod_params -c -o kernel/params.o kernel/params.c  
+savedcmd_kernel/params.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/.params.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"kernel/params"' -DKBUILD_BASENAME='"params"' -DKBUILD_MODNAME='"params"' -D__KBUILD_MODNAME=kmod_params -c -o kernel/params.o kernel/params.c  
 
 source_kernel/params.o := kernel/params.c
 
@@ -704,6 +704,11 @@ deps_kernel/params.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -844,7 +849,6 @@ deps_kernel/params.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1162,7 +1166,6 @@ deps_kernel/params.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1314,14 +1317,11 @@ deps_kernel/params.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1342,51 +1342,51 @@ deps_kernel/params.o := \
 kernel/params.o: $(deps_kernel/params.o)
 
 $(deps_kernel/params.o):
-#SYMVER param_set_byte 0x1b4d258d
-#SYMVER param_get_byte 0x72b509a3
-#SYMVER param_ops_byte 0xbb2c65fc
-#SYMVER param_set_short 0xe40bbda0
-#SYMVER param_get_short 0x3f9997eb
-#SYMVER param_ops_short 0x8870cf20
-#SYMVER param_set_ushort 0x383f649c
-#SYMVER param_get_ushort 0xbcd589d9
-#SYMVER param_ops_ushort 0x1242ef90
-#SYMVER param_set_int 0x24568399
-#SYMVER param_get_int 0xe9aa1cf8
-#SYMVER param_ops_int 0xe0960858
-#SYMVER param_set_uint 0x48dfb950
-#SYMVER param_get_uint 0xcdbbaebe
-#SYMVER param_ops_uint 0x7b9d7c47
-#SYMVER param_set_long 0x0a54961b
-#SYMVER param_get_long 0x067a2773
-#SYMVER param_ops_long 0x52e997fa
-#SYMVER param_set_ulong 0xe8806535
-#SYMVER param_get_ulong 0x99e1d264
-#SYMVER param_ops_ulong 0xdf7a917b
-#SYMVER param_set_ullong 0xcd59ba68
-#SYMVER param_get_ullong 0x02583997
-#SYMVER param_ops_ullong 0x6191e298
-#SYMVER param_set_hexint 0x5f797d6c
-#SYMVER param_get_hexint 0x6d78c212
-#SYMVER param_ops_hexint 0x91736152
-#SYMVER param_set_uint_minmax 0x9a7ca68b
-#SYMVER param_set_charp 0x1d5beb74
-#SYMVER param_get_charp 0xca737eed
+#SYMVER param_set_byte 0xf9fccff8
+#SYMVER param_get_byte 0x16bbf2f6
+#SYMVER param_ops_byte 0xcfb8b31a
+#SYMVER param_set_short 0x4bd49aa1
+#SYMVER param_get_short 0x993a774d
+#SYMVER param_ops_short 0xc16d1cbb
+#SYMVER param_set_ushort 0x63b77e1a
+#SYMVER param_get_ushort 0xc2a70113
+#SYMVER param_ops_ushort 0x75d6b88f
+#SYMVER param_set_int 0xf16fa618
+#SYMVER param_get_int 0x4a0dd9a2
+#SYMVER param_ops_int 0xc59274db
+#SYMVER param_set_uint 0xc6b54dc6
+#SYMVER param_get_uint 0xfba70cca
+#SYMVER param_ops_uint 0x0f09aaa1
+#SYMVER param_set_long 0xa2b7f2e9
+#SYMVER param_get_long 0x0d2c2f46
+#SYMVER param_ops_long 0x267d411c
+#SYMVER param_set_ulong 0xc3ebd7d1
+#SYMVER param_get_ulong 0x4ef46cf9
+#SYMVER param_ops_ulong 0x966742e0
+#SYMVER param_set_ullong 0x7d2a7905
+#SYMVER param_get_ullong 0xb9a1d945
+#SYMVER param_ops_ullong 0x0605b587
+#SYMVER param_set_hexint 0x7ff78bd0
+#SYMVER param_get_hexint 0x4c81a7f7
+#SYMVER param_ops_hexint 0xf6e7364d
+#SYMVER param_set_uint_minmax 0x29c664dc
+#SYMVER param_set_charp 0x63598c15
+#SYMVER param_get_charp 0x4b2d31d7
 #SYMVER param_free_charp 0x27479d14
-#SYMVER param_ops_charp 0x0f157f8c
-#SYMVER param_set_bool 0x33969395
-#SYMVER param_get_bool 0x2c35876e
-#SYMVER param_ops_bool 0x0fef9a67
-#SYMVER param_set_bool_enable_only 0x42375186
-#SYMVER param_ops_bool_enable_only 0x814766e5
-#SYMVER param_set_invbool 0xa32d0862
-#SYMVER param_get_invbool 0x224746ac
-#SYMVER param_ops_invbool 0x1beca304
-#SYMVER param_set_bint 0x739b02d9
-#SYMVER param_ops_bint 0xa95d37d5
-#SYMVER param_array_ops 0x72e60cdd
-#SYMVER param_set_copystring 0xff105dc1
-#SYMVER param_get_string 0xcdd9abf1
-#SYMVER param_ops_string 0x177f216b
-#SYMVER kernel_param_lock 0x1ea79cd6
-#SYMVER kernel_param_unlock 0x96d0c076
+#SYMVER param_ops_charp 0x4608ac17
+#SYMVER param_set_bool 0xaf02410b
+#SYMVER param_get_bool 0x1fd40587
+#SYMVER param_ops_bool 0x7b7b4c81
+#SYMVER param_set_bool_enable_only 0x58b727d9
+#SYMVER param_ops_bool_enable_only 0xa40a585f
+#SYMVER param_set_invbool 0x940c3f5e
+#SYMVER param_get_invbool 0x4048f780
+#SYMVER param_ops_invbool 0x96833aa6
+#SYMVER param_set_bint 0x262bcfc0
+#SYMVER param_ops_bint 0xddc9e133
+#SYMVER param_array_ops 0x3bfbdf46
+#SYMVER param_set_copystring 0xf20030ed
+#SYMVER param_get_string 0xa191a843
+#SYMVER param_ops_string 0x70eb7674
+#SYMVER kernel_param_lock 0x5dfbe9df
+#SYMVER kernel_param_unlock 0xd0de65b6

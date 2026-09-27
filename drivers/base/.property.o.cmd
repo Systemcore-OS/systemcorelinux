@@ -1,4 +1,4 @@
-savedcmd_drivers/base/property.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/base/.property.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/base/property"' -DKBUILD_BASENAME='"property"' -DKBUILD_MODNAME='"property"' -D__KBUILD_MODNAME=kmod_property -c -o drivers/base/property.o drivers/base/property.c  
+savedcmd_drivers/base/property.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/base/.property.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/base/property"' -DKBUILD_BASENAME='"property"' -DKBUILD_MODNAME='"property"' -D__KBUILD_MODNAME=kmod_property -c -o drivers/base/property.o drivers/base/property.c  
 
 source_drivers/base/property.o := drivers/base/property.c
 
@@ -703,6 +703,11 @@ deps_drivers/base/property.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -843,7 +848,6 @@ deps_drivers/base/property.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1126,7 +1130,6 @@ deps_drivers/base/property.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1263,14 +1266,11 @@ deps_drivers/base/property.o := \
   arch/arm64/include/generated/asm/unistd_compat_32.h \
   include/asm-generic/seccomp.h \
   arch/arm64/include/asm/ftrace.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1450,56 +1450,56 @@ deps_drivers/base/property.o := \
 drivers/base/property.o: $(deps_drivers/base/property.o)
 
 $(deps_drivers/base/property.o):
-#SYMVER __dev_fwnode 0x5b84152a
-#SYMVER __dev_fwnode_const 0x74445712
-#SYMVER device_property_present 0xddfa6e5b
-#SYMVER fwnode_property_present 0xdcd78d68
-#SYMVER device_property_read_u8_array 0x1c442e8e
-#SYMVER device_property_read_u16_array 0x1304e88a
-#SYMVER device_property_read_u32_array 0x21092a64
-#SYMVER device_property_read_u64_array 0xd67c88d2
-#SYMVER device_property_read_string_array 0x999ed45f
-#SYMVER device_property_read_string 0x4c4edcb7
-#SYMVER device_property_match_string 0x0a9d6d9d
-#SYMVER fwnode_property_read_u8_array 0x4f168451
-#SYMVER fwnode_property_read_u16_array 0x9bc3c5d2
-#SYMVER fwnode_property_read_u32_array 0x8a255355
-#SYMVER fwnode_property_read_u64_array 0x06aac0a8
-#SYMVER fwnode_property_read_string_array 0xe8569708
-#SYMVER fwnode_property_read_string 0x0d650d6c
-#SYMVER fwnode_property_match_string 0x43c7cb68
-#SYMVER fwnode_property_match_property_string 0x7818b228
-#SYMVER fwnode_property_get_reference_args 0x012e3df3
-#SYMVER fwnode_find_reference 0xac1d8678
-#SYMVER fwnode_get_name 0x6914e25a
-#SYMVER fwnode_name_eq 0x7f405fb3
-#SYMVER fwnode_get_parent 0x8b106496
-#SYMVER fwnode_get_next_parent 0xba74c57c
-#SYMVER fwnode_count_parents 0x83ccd809
-#SYMVER fwnode_get_nth_parent 0x11b69c9c
-#SYMVER fwnode_get_next_child_node 0x3e6ca4d3
-#SYMVER fwnode_get_next_available_child_node 0xd4946a97
-#SYMVER device_get_next_child_node 0xc4b9ebe0
-#SYMVER fwnode_get_named_child_node 0x06cd30fb
-#SYMVER device_get_named_child_node 0x71c347f5
-#SYMVER fwnode_handle_get 0xeb0249ef
-#SYMVER fwnode_device_is_available 0x384b2558
-#SYMVER device_get_child_node_count 0x29f6c323
-#SYMVER device_dma_supported 0x2d7945bc
-#SYMVER device_get_dma_attr 0x0fa8bdcf
-#SYMVER fwnode_get_phy_mode 0x695a4206
-#SYMVER device_get_phy_mode 0x07929889
-#SYMVER fwnode_iomap 0xc2a6c511
-#SYMVER fwnode_irq_get 0x3b0dcbee
-#SYMVER fwnode_irq_get_byname 0x279bf479
-#SYMVER fwnode_graph_get_next_endpoint 0x339175ba
-#SYMVER fwnode_graph_get_port_parent 0x200ae8bf
-#SYMVER fwnode_graph_get_remote_port_parent 0x484ac052
-#SYMVER fwnode_graph_get_remote_port 0x1fee3f4b
-#SYMVER fwnode_graph_get_remote_endpoint 0xd2ce5be6
-#SYMVER fwnode_graph_get_endpoint_by_id 0xaa4afb9a
-#SYMVER fwnode_graph_get_endpoint_count 0x57e62441
-#SYMVER fwnode_graph_parse_endpoint 0x6897ee6f
-#SYMVER device_get_match_data 0xbeed6684
-#SYMVER fwnode_connection_find_match 0x8ff0d6b1
-#SYMVER fwnode_connection_find_matches 0x5a8e60b8
+#SYMVER __dev_fwnode 0xe14d28d6
+#SYMVER __dev_fwnode_const 0x0e37d401
+#SYMVER device_property_present 0xf7879695
+#SYMVER fwnode_property_present 0xb53cc25a
+#SYMVER device_property_read_u8_array 0xda17ba5d
+#SYMVER device_property_read_u16_array 0xf730468c
+#SYMVER device_property_read_u32_array 0x3a9140b6
+#SYMVER device_property_read_u64_array 0x8e734638
+#SYMVER device_property_read_string_array 0xe9fdcaf1
+#SYMVER device_property_read_string 0x1e916f79
+#SYMVER device_property_match_string 0x00bc64eb
+#SYMVER fwnode_property_read_u8_array 0x2fba4335
+#SYMVER fwnode_property_read_u16_array 0x0ef54af6
+#SYMVER fwnode_property_read_u32_array 0xa134d3e3
+#SYMVER fwnode_property_read_u64_array 0xde3df400
+#SYMVER fwnode_property_read_string_array 0x9ad9d311
+#SYMVER fwnode_property_read_string 0x8e67cbef
+#SYMVER fwnode_property_match_string 0xb949c5e4
+#SYMVER fwnode_property_match_property_string 0x7d9fbf68
+#SYMVER fwnode_property_get_reference_args 0x62957da1
+#SYMVER fwnode_find_reference 0x9e16f79b
+#SYMVER fwnode_get_name 0x8b3e2f13
+#SYMVER fwnode_name_eq 0x06903355
+#SYMVER fwnode_get_parent 0x91715e6c
+#SYMVER fwnode_get_next_parent 0x019a4268
+#SYMVER fwnode_count_parents 0xc9f32cf7
+#SYMVER fwnode_get_nth_parent 0x6ebf2595
+#SYMVER fwnode_get_next_child_node 0x0c67d530
+#SYMVER fwnode_get_next_available_child_node 0x8d0fa35e
+#SYMVER device_get_next_child_node 0xba1a4ad4
+#SYMVER fwnode_get_named_child_node 0x6cad6da2
+#SYMVER device_get_named_child_node 0xbbdf7a22
+#SYMVER fwnode_handle_get 0x109b8309
+#SYMVER fwnode_device_is_available 0xb324a448
+#SYMVER device_get_child_node_count 0xa24435c2
+#SYMVER device_dma_supported 0xae7a46dc
+#SYMVER device_get_dma_attr 0x584df686
+#SYMVER fwnode_get_phy_mode 0x04c69fb3
+#SYMVER device_get_phy_mode 0xea121ea5
+#SYMVER fwnode_iomap 0xa2131143
+#SYMVER fwnode_irq_get 0x87c26953
+#SYMVER fwnode_irq_get_byname 0xf7ebb480
+#SYMVER fwnode_graph_get_next_endpoint 0x894b1140
+#SYMVER fwnode_graph_get_port_parent 0x92d47da2
+#SYMVER fwnode_graph_get_remote_port_parent 0x8256fd85
+#SYMVER fwnode_graph_get_remote_port 0xad30aa56
+#SYMVER fwnode_graph_get_remote_endpoint 0xb1b1948e
+#SYMVER fwnode_graph_get_endpoint_by_id 0x5c2c19a2
+#SYMVER fwnode_graph_get_endpoint_count 0xafadb39d
+#SYMVER fwnode_graph_parse_endpoint 0xb623d6c0
+#SYMVER device_get_match_data 0x55d40f5a
+#SYMVER fwnode_connection_find_match 0x2a0c4dfe
+#SYMVER fwnode_connection_find_matches 0xb4e37e13

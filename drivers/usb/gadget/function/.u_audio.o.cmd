@@ -1,4 +1,4 @@
-savedcmd_drivers/usb/gadget/function/u_audio.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/gadget/function/.u_audio.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -I./drivers/usb/gadget/ -I./drivers/usb/gadget/udc/  -DMODULE  -DKBUILD_BASENAME='"u_audio"' -DKBUILD_MODNAME='"u_audio"' -D__KBUILD_MODNAME=kmod_u_audio -c -o drivers/usb/gadget/function/u_audio.o drivers/usb/gadget/function/u_audio.c  
+savedcmd_drivers/usb/gadget/function/u_audio.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/gadget/function/.u_audio.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -I./drivers/usb/gadget/ -I./drivers/usb/gadget/udc/  -DMODULE  -DKBUILD_BASENAME='"u_audio"' -DKBUILD_MODNAME='"u_audio"' -D__KBUILD_MODNAME=kmod_u_audio -c -o drivers/usb/gadget/function/u_audio.o drivers/usb/gadget/function/u_audio.c  
 
 source_drivers/usb/gadget/function/u_audio.o := drivers/usb/gadget/function/u_audio.c
 
@@ -727,6 +727,10 @@ deps_drivers/usb/gadget/function/u_audio.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1159,18 +1163,18 @@ deps_drivers/usb/gadget/function/u_audio.o := \
 drivers/usb/gadget/function/u_audio.o: $(deps_drivers/usb/gadget/function/u_audio.o)
 
 $(deps_drivers/usb/gadget/function/u_audio.o):
-#SYMVER u_audio_set_capture_srate 0x95a44531
-#SYMVER u_audio_get_capture_srate 0x1c0e25f9
-#SYMVER u_audio_set_playback_srate 0xd59558c7
-#SYMVER u_audio_get_playback_srate 0xabce1f27
-#SYMVER u_audio_start_capture 0xf64c8a0b
-#SYMVER u_audio_stop_capture 0xaafb80f4
-#SYMVER u_audio_start_playback 0xa7b68c44
-#SYMVER u_audio_stop_playback 0x8ae8d4c3
-#SYMVER u_audio_suspend 0x7e157691
-#SYMVER u_audio_get_volume 0x36438578
-#SYMVER u_audio_set_volume 0xe86905c8
-#SYMVER u_audio_get_mute 0x620d8551
-#SYMVER u_audio_set_mute 0x47e1f60c
-#SYMVER g_audio_setup 0x090c7674
-#SYMVER g_audio_cleanup 0x10e84133
+#SYMVER u_audio_set_capture_srate 0x78f24647
+#SYMVER u_audio_get_capture_srate 0xa2fd2ba2
+#SYMVER u_audio_set_playback_srate 0x1c5a7a01
+#SYMVER u_audio_get_playback_srate 0xe6502fbb
+#SYMVER u_audio_start_capture 0x747a68f0
+#SYMVER u_audio_stop_capture 0x9bdfa153
+#SYMVER u_audio_start_playback 0xa46d911f
+#SYMVER u_audio_stop_playback 0xeb5dc684
+#SYMVER u_audio_suspend 0x183d11b4
+#SYMVER u_audio_get_volume 0x3193bdfd
+#SYMVER u_audio_set_volume 0x7e732176
+#SYMVER u_audio_get_mute 0xbc3c53ef
+#SYMVER u_audio_set_mute 0x584bb21e
+#SYMVER g_audio_setup 0x324abae8
+#SYMVER g_audio_cleanup 0x5e31b963

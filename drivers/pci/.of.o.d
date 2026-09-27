@@ -179,6 +179,8 @@ of.o: drivers/pci/of.c include/linux/compiler-version.h \
  include/linux/kref.h include/linux/refcount.h include/linux/rbtree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
  include/linux/time.h include/linux/time64.h include/vdso/time64.h \
@@ -267,14 +269,14 @@ of.o: drivers/pci/of.c include/linux/compiler-version.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/io.h arch/arm64/include/asm/io.h \
- include/linux/pgtable.h arch/arm64/include/asm/pgtable.h \
- arch/arm64/include/asm/proc-fns.h arch/arm64/include/asm/tlbflush.h \
- include/linux/mmu_notifier.h include/linux/mmap_lock.h \
- include/linux/interval_tree.h arch/arm64/include/asm/fixmap.h \
- include/asm-generic/fixmap.h arch/arm64/include/asm/por.h \
- include/linux/page_table_check.h include/asm-generic/pgtable_uffd.h \
+ include/asm-generic/hardirq.h include/linux/irq.h include/linux/io.h \
+ arch/arm64/include/asm/io.h include/linux/pgtable.h \
+ arch/arm64/include/asm/pgtable.h arch/arm64/include/asm/proc-fns.h \
+ arch/arm64/include/asm/tlbflush.h include/linux/mmu_notifier.h \
+ include/linux/mmap_lock.h include/linux/interval_tree.h \
+ arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
+ arch/arm64/include/asm/por.h include/linux/page_table_check.h \
+ include/asm-generic/pgtable_uffd.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \

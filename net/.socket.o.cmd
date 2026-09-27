@@ -1,4 +1,4 @@
-savedcmd_net/socket.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/.socket.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/socket"' -DKBUILD_BASENAME='"socket"' -DKBUILD_MODNAME='"socket"' -D__KBUILD_MODNAME=kmod_socket -c -o net/socket.o net/socket.c  
+savedcmd_net/socket.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/.socket.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/socket"' -DKBUILD_BASENAME='"socket"' -DKBUILD_MODNAME='"socket"' -D__KBUILD_MODNAME=kmod_socket -c -o net/socket.o net/socket.c  
 
 source_net/socket.o := net/socket.c
 
@@ -711,6 +711,11 @@ deps_net/socket.o := \
   include/linux/swait.h \
   include/linux/wait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/percpu_counter.h \
@@ -726,7 +731,6 @@ deps_net/socket.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/TREE_SRCU) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1161,7 +1165,6 @@ deps_net/socket.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1313,14 +1316,11 @@ deps_net/socket.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1752,38 +1752,38 @@ deps_net/socket.o := \
 net/socket.o: $(deps_net/socket.o)
 
 $(deps_net/socket.o):
-#SYMVER sock_alloc_file 0x51c52e94
-#SYMVER sock_from_file 0x779d15a6
-#SYMVER sockfd_lookup 0xcaf53c6c
-#SYMVER sock_alloc 0xab8d0029
-#SYMVER sock_release 0x1dd21e39
+#SYMVER sock_alloc_file 0x3b775364
+#SYMVER sock_from_file 0x867a82c8
+#SYMVER sockfd_lookup 0x2780c12c
+#SYMVER sock_alloc 0xf46296b5
+#SYMVER sock_release 0x65f4094a
 #SYMVER __sock_tx_timestamp 0x437a0d6d
-#SYMVER sock_sendmsg 0x26292424
-#SYMVER kernel_sendmsg 0xf3bde6b4
-#SYMVER kernel_sendmsg_locked 0x18e9f976
-#SYMVER __sock_recv_timestamp 0xbc998fd5
-#SYMVER __sock_recv_wifi_status 0x49c8e704
-#SYMVER __sock_recv_cmsgs 0xe5662493
-#SYMVER sock_recvmsg 0x76951506
-#SYMVER kernel_recvmsg 0x079cd94d
-#SYMVER brioctl_set 0x14161b5c
-#SYMVER vlan_ioctl_set 0x129cd031
-#SYMVER sock_create_lite 0x94d65b02
-#SYMVER sock_wake_async 0xab8fa61a
-#SYMVER __sock_create 0x80d0f53c
-#SYMVER sock_create 0x4d558e4c
-#SYMVER sock_create_kern 0xfdb7471d
-#SYMVER do_sock_setsockopt 0xc3ed7ff0
-#SYMVER do_sock_getsockopt 0x44c696ab
-#SYMVER sock_register 0xd060559e
+#SYMVER sock_sendmsg 0xefc4ef47
+#SYMVER kernel_sendmsg 0xe610c634
+#SYMVER kernel_sendmsg_locked 0x2c63bf5d
+#SYMVER __sock_recv_timestamp 0x2e52dcd1
+#SYMVER __sock_recv_wifi_status 0x883f060a
+#SYMVER __sock_recv_cmsgs 0x72f7ddb0
+#SYMVER sock_recvmsg 0x2c51c384
+#SYMVER kernel_recvmsg 0x3191f78a
+#SYMVER brioctl_set 0x01ed5993
+#SYMVER vlan_ioctl_set 0x044edce4
+#SYMVER sock_create_lite 0xacfc01b3
+#SYMVER sock_wake_async 0x922df206
+#SYMVER __sock_create 0xbe36383b
+#SYMVER sock_create 0x2e7026df
+#SYMVER sock_create_kern 0xd5e29e8c
+#SYMVER do_sock_setsockopt 0x9501b8b0
+#SYMVER do_sock_getsockopt 0x018cac1a
+#SYMVER sock_register 0xc612faab
 #SYMVER sock_unregister 0x62737e1d
 #SYMVER get_user_ifreq 0x80816f26
 #SYMVER put_user_ifreq 0x87809aeb
-#SYMVER kernel_bind 0xd40535df
-#SYMVER kernel_listen 0x6db06cbe
-#SYMVER kernel_accept 0x833fdc7d
-#SYMVER kernel_connect 0xad94e6c0
-#SYMVER kernel_getsockname 0x62f64e26
-#SYMVER kernel_getpeername 0xcc17e1c9
-#SYMVER kernel_sock_shutdown 0xaf8805d7
-#SYMVER kernel_sock_ip_overhead 0x0f63e2f6
+#SYMVER kernel_bind 0x478a5b55
+#SYMVER kernel_listen 0xfa52583e
+#SYMVER kernel_accept 0x609c9024
+#SYMVER kernel_connect 0x43d31cb1
+#SYMVER kernel_getsockname 0xc0d80177
+#SYMVER kernel_getpeername 0x64fc7eea
+#SYMVER kernel_sock_shutdown 0xe1259fa1
+#SYMVER kernel_sock_ip_overhead 0x43fd00fa

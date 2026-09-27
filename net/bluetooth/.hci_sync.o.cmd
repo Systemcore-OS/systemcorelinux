@@ -1,4 +1,4 @@
-savedcmd_net/bluetooth/hci_sync.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/bluetooth/.hci_sync.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"hci_sync"' -DKBUILD_MODNAME='"bluetooth"' -D__KBUILD_MODNAME=kmod_bluetooth -c -o net/bluetooth/hci_sync.o net/bluetooth/hci_sync.c  
+savedcmd_net/bluetooth/hci_sync.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/bluetooth/.hci_sync.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"hci_sync"' -DKBUILD_MODNAME='"bluetooth"' -D__KBUILD_MODNAME=kmod_bluetooth -c -o net/bluetooth/hci_sync.o net/bluetooth/hci_sync.c  
 
 source_net/bluetooth/hci_sync.o := net/bluetooth/hci_sync.c
 
@@ -758,6 +758,11 @@ deps_net/bluetooth/hci_sync.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -937,7 +942,6 @@ deps_net/bluetooth/hci_sync.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1202,7 +1206,6 @@ deps_net/bluetooth/hci_sync.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1355,14 +1358,11 @@ deps_net/bluetooth/hci_sync.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1602,21 +1602,21 @@ deps_net/bluetooth/hci_sync.o := \
 net/bluetooth/hci_sync.o: $(deps_net/bluetooth/hci_sync.o)
 
 $(deps_net/bluetooth/hci_sync.o):
-#SYMVER __hci_cmd_sync_sk 0xf7f8e0ec
-#SYMVER __hci_cmd_sync 0x18270eed
-#SYMVER hci_cmd_sync 0xb2695856
-#SYMVER __hci_cmd_sync_ev 0x5b9f3a2b
-#SYMVER __hci_cmd_sync_status_sk 0x33cf0c13
-#SYMVER __hci_cmd_sync_status 0x0a750f4c
-#SYMVER hci_cmd_sync_status 0xb0777a7a
-#SYMVER hci_cmd_sync_cancel 0x7f914321
-#SYMVER hci_cmd_sync_cancel_sync 0x7da5b207
-#SYMVER hci_cmd_sync_submit 0xa8d9581c
-#SYMVER hci_cmd_sync_queue 0xe36833fb
-#SYMVER hci_cmd_sync_queue_once 0x0fab571f
-#SYMVER hci_cmd_sync_run 0x7021ae35
-#SYMVER hci_cmd_sync_run_once 0x3383574a
-#SYMVER hci_cmd_sync_lookup_entry 0x662a490c
-#SYMVER hci_cmd_sync_cancel_entry 0x55f3668b
-#SYMVER hci_cmd_sync_dequeue_once 0x560766e6
-#SYMVER hci_cmd_sync_dequeue 0x67ea9924
+#SYMVER __hci_cmd_sync_sk 0x6fa9b62a
+#SYMVER __hci_cmd_sync 0x9eda50e2
+#SYMVER hci_cmd_sync 0x8abf092b
+#SYMVER __hci_cmd_sync_ev 0x66fff598
+#SYMVER __hci_cmd_sync_status_sk 0xd429f947
+#SYMVER __hci_cmd_sync_status 0x37e25575
+#SYMVER hci_cmd_sync_status 0x20af8736
+#SYMVER hci_cmd_sync_cancel 0xeda2d11b
+#SYMVER hci_cmd_sync_cancel_sync 0x6ace1b5e
+#SYMVER hci_cmd_sync_submit 0xb2a7ff92
+#SYMVER hci_cmd_sync_queue 0x67f7efba
+#SYMVER hci_cmd_sync_queue_once 0x8bef75ea
+#SYMVER hci_cmd_sync_run 0x55ffae92
+#SYMVER hci_cmd_sync_run_once 0xba952bbe
+#SYMVER hci_cmd_sync_lookup_entry 0x8113a188
+#SYMVER hci_cmd_sync_cancel_entry 0x1b32b606
+#SYMVER hci_cmd_sync_dequeue_once 0xbe6604e9
+#SYMVER hci_cmd_sync_dequeue 0xa0e8649c

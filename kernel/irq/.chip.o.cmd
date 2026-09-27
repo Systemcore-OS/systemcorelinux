@@ -1,4 +1,4 @@
-savedcmd_kernel/irq/chip.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/irq/.chip.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"kernel/irq/chip"' -DKBUILD_BASENAME='"chip"' -DKBUILD_MODNAME='"chip"' -D__KBUILD_MODNAME=kmod_chip -c -o kernel/irq/chip.o kernel/irq/chip.c  
+savedcmd_kernel/irq/chip.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/irq/.chip.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"kernel/irq/chip"' -DKBUILD_BASENAME='"chip"' -DKBUILD_MODNAME='"chip"' -D__KBUILD_MODNAME=kmod_chip -c -o kernel/irq/chip.o kernel/irq/chip.c  
 
 source_kernel/irq/chip.o := kernel/irq/chip.c
 
@@ -689,6 +689,11 @@ deps_kernel/irq/chip.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -891,7 +896,6 @@ deps_kernel/irq/chip.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1052,7 +1056,6 @@ deps_kernel/irq/chip.o := \
     $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
   arch/arm64/include/asm/hardirq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/kernel_stat.h \
   include/linux/irqdomain.h \
@@ -1146,35 +1149,35 @@ deps_kernel/irq/chip.o := \
 kernel/irq/chip.o: $(deps_kernel/irq/chip.o)
 
 $(deps_kernel/irq/chip.o):
-#SYMVER irq_set_chip 0x8883980c
+#SYMVER irq_set_chip 0xd003ff42
 #SYMVER irq_set_irq_type 0x0bc477a2
 #SYMVER irq_set_handler_data 0x3dcb88a0
 #SYMVER irq_set_chip_data 0x20a789ac
-#SYMVER irq_get_irq_data 0x6aee2f81
+#SYMVER irq_get_irq_data 0x7ffc292c
 #SYMVER handle_nested_irq 0x549525ef
-#SYMVER handle_simple_irq 0x989d25c0
-#SYMVER handle_untracked_irq 0x37fd225c
-#SYMVER handle_level_irq 0x41db02a2
-#SYMVER handle_fasteoi_irq 0x92d3991f
-#SYMVER handle_fasteoi_nmi 0xd091530c
-#SYMVER handle_edge_irq 0x6ff457c1
-#SYMVER __irq_set_handler 0x6f8561cd
-#SYMVER irq_set_chained_handler_and_data 0xa9d5083f
-#SYMVER irq_set_chip_and_handler_name 0x9c2db88f
+#SYMVER handle_simple_irq 0x08f0024c
+#SYMVER handle_untracked_irq 0x9710ae08
+#SYMVER handle_level_irq 0x112df3a0
+#SYMVER handle_fasteoi_irq 0x30907686
+#SYMVER handle_fasteoi_nmi 0xffe99238
+#SYMVER handle_edge_irq 0x0515a787
+#SYMVER __irq_set_handler 0xa1d57a0e
+#SYMVER irq_set_chained_handler_and_data 0x7a3447a8
+#SYMVER irq_set_chip_and_handler_name 0x798ec54f
 #SYMVER irq_modify_status 0x7522f3ba
-#SYMVER irq_chip_set_parent_state 0xe5d3cb9a
-#SYMVER irq_chip_get_parent_state 0x774a3dc3
-#SYMVER irq_chip_enable_parent 0x66cb7cab
-#SYMVER irq_chip_disable_parent 0xcbc78f14
-#SYMVER irq_chip_ack_parent 0x4cfc4590
-#SYMVER irq_chip_mask_parent 0x2e842255
-#SYMVER irq_chip_mask_ack_parent 0x89ecba02
-#SYMVER irq_chip_unmask_parent 0xdd2a5bb0
-#SYMVER irq_chip_eoi_parent 0x49593c76
-#SYMVER irq_chip_set_affinity_parent 0x041df24a
-#SYMVER irq_chip_set_type_parent 0x8e529e1b
-#SYMVER irq_chip_retrigger_hierarchy 0x7b251ddc
-#SYMVER irq_chip_set_vcpu_affinity_parent 0x45164734
-#SYMVER irq_chip_set_wake_parent 0x6266a339
-#SYMVER irq_chip_request_resources_parent 0x7c3c182a
-#SYMVER irq_chip_release_resources_parent 0xf11cf63b
+#SYMVER irq_chip_set_parent_state 0x0ae4f8d7
+#SYMVER irq_chip_get_parent_state 0xc7907d40
+#SYMVER irq_chip_enable_parent 0xa90374d5
+#SYMVER irq_chip_disable_parent 0x8825c4e4
+#SYMVER irq_chip_ack_parent 0x847e0012
+#SYMVER irq_chip_mask_parent 0xc5258362
+#SYMVER irq_chip_mask_ack_parent 0x6001428d
+#SYMVER irq_chip_unmask_parent 0x156424e9
+#SYMVER irq_chip_eoi_parent 0x6f39b384
+#SYMVER irq_chip_set_affinity_parent 0x4a985835
+#SYMVER irq_chip_set_type_parent 0x42d89cc5
+#SYMVER irq_chip_retrigger_hierarchy 0x971205f1
+#SYMVER irq_chip_set_vcpu_affinity_parent 0x5eb57d32
+#SYMVER irq_chip_set_wake_parent 0x3b241820
+#SYMVER irq_chip_request_resources_parent 0xe9c64e0c
+#SYMVER irq_chip_release_resources_parent 0x083d4e12

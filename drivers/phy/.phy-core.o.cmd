@@ -1,4 +1,4 @@
-savedcmd_drivers/phy/phy-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/phy/.phy-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/phy/phy-core"' -DKBUILD_BASENAME='"phy_core"' -DKBUILD_MODNAME='"phy_core"' -D__KBUILD_MODNAME=kmod_phy_core -c -o drivers/phy/phy-core.o drivers/phy/phy-core.c  
+savedcmd_drivers/phy/phy-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/phy/.phy-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/phy/phy-core"' -DKBUILD_BASENAME='"phy_core"' -DKBUILD_MODNAME='"phy_core"' -D__KBUILD_MODNAME=kmod_phy_core -c -o drivers/phy/phy-core.o drivers/phy/phy-core.c  
 
 source_drivers/phy/phy-core.o := drivers/phy/phy-core.c
 
@@ -727,6 +727,10 @@ deps_drivers/phy/phy-core.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1068,7 +1072,6 @@ deps_drivers/phy/phy-core.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1297,14 +1300,11 @@ deps_drivers/phy/phy-core.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1327,43 +1327,43 @@ deps_drivers/phy/phy-core.o := \
 drivers/phy/phy-core.o: $(deps_drivers/phy/phy-core.o)
 
 $(deps_drivers/phy/phy-core.o):
-#SYMVER phy_create_lookup 0x44d9356a
-#SYMVER phy_remove_lookup 0xcf26601b
-#SYMVER phy_pm_runtime_get 0x107cc833
-#SYMVER phy_pm_runtime_get_sync 0xb7998214
-#SYMVER phy_pm_runtime_put 0xc31a5e58
-#SYMVER phy_pm_runtime_put_sync 0x271f5b7e
-#SYMVER phy_pm_runtime_allow 0x670ccd9b
-#SYMVER phy_pm_runtime_forbid 0x86fa3efd
-#SYMVER phy_init 0xf45adc11
-#SYMVER phy_exit 0xd52aa95d
-#SYMVER phy_power_on 0x6f0b078e
-#SYMVER phy_power_off 0x34d817af
-#SYMVER phy_set_mode_ext 0x96d45d17
-#SYMVER phy_set_media 0xf17d5325
-#SYMVER phy_set_speed 0xf0e32fb3
-#SYMVER phy_reset 0x5ad209fd
-#SYMVER phy_calibrate 0xf26ee132
-#SYMVER phy_notify_connect 0xfc995753
-#SYMVER phy_notify_disconnect 0x55be2646
-#SYMVER phy_configure 0x4ea8d144
-#SYMVER phy_validate 0xc5854928
-#SYMVER of_phy_get 0x9ec28d4a
-#SYMVER of_phy_put 0xe482046a
-#SYMVER phy_put 0xac3b6494
-#SYMVER devm_phy_put 0x26f653fb
-#SYMVER of_phy_simple_xlate 0x8d9a756e
-#SYMVER phy_get 0x2a7311a4
-#SYMVER devm_phy_get 0xac74ee4a
-#SYMVER devm_phy_optional_get 0x35b5e417
-#SYMVER devm_of_phy_get 0x0d496fbe
-#SYMVER devm_of_phy_optional_get 0x0608f49b
-#SYMVER devm_of_phy_get_by_index 0xee92bd49
-#SYMVER phy_create 0xf6b0f530
-#SYMVER devm_phy_create 0xdc9d17e5
-#SYMVER phy_destroy 0x7f1fa254
-#SYMVER devm_phy_destroy 0x4d540b73
-#SYMVER __of_phy_provider_register 0x1eca53e0
-#SYMVER __devm_of_phy_provider_register 0x7a459289
-#SYMVER of_phy_provider_unregister 0xc1fc4570
-#SYMVER devm_of_phy_provider_unregister 0x788f0181
+#SYMVER phy_create_lookup 0x7c2abfd3
+#SYMVER phy_remove_lookup 0xa2a3a58d
+#SYMVER phy_pm_runtime_get 0xf7b466ed
+#SYMVER phy_pm_runtime_get_sync 0x912950f5
+#SYMVER phy_pm_runtime_put 0xe2b02d25
+#SYMVER phy_pm_runtime_put_sync 0x34e5621b
+#SYMVER phy_pm_runtime_allow 0x7477b95c
+#SYMVER phy_pm_runtime_forbid 0xa32066ee
+#SYMVER phy_init 0xdab65e68
+#SYMVER phy_exit 0xaa0f1a99
+#SYMVER phy_power_on 0x389c8096
+#SYMVER phy_power_off 0xdd79ccd8
+#SYMVER phy_set_mode_ext 0x1da1249a
+#SYMVER phy_set_media 0xf42ecd7d
+#SYMVER phy_set_speed 0x1b131d99
+#SYMVER phy_reset 0xc90b2217
+#SYMVER phy_calibrate 0xf8949f8d
+#SYMVER phy_notify_connect 0x2e48fe40
+#SYMVER phy_notify_disconnect 0xca7f0ad5
+#SYMVER phy_configure 0x4b660747
+#SYMVER phy_validate 0x5c0c412b
+#SYMVER of_phy_get 0xafb2291a
+#SYMVER of_phy_put 0x19a8718e
+#SYMVER phy_put 0xf0fcd57b
+#SYMVER devm_phy_put 0xfb9dc264
+#SYMVER of_phy_simple_xlate 0x439bd7b6
+#SYMVER phy_get 0xd449a348
+#SYMVER devm_phy_get 0x55e8eef0
+#SYMVER devm_phy_optional_get 0xf20afa8d
+#SYMVER devm_of_phy_get 0x25b20a63
+#SYMVER devm_of_phy_optional_get 0xf6cd1552
+#SYMVER devm_of_phy_get_by_index 0xc669d894
+#SYMVER phy_create 0x6fe17b72
+#SYMVER devm_phy_create 0x3ed5a810
+#SYMVER phy_destroy 0xe8c8d039
+#SYMVER devm_phy_destroy 0xf7847bff
+#SYMVER __of_phy_provider_register 0x0627415b
+#SYMVER __devm_of_phy_provider_register 0xc463ef32
+#SYMVER of_phy_provider_unregister 0x4b6fe084
+#SYMVER devm_of_phy_provider_unregister 0x0b877a0a

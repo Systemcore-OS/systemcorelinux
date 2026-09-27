@@ -1,4 +1,4 @@
-savedcmd_net/core/sock.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.sock.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/core/sock"' -DKBUILD_BASENAME='"sock"' -DKBUILD_MODNAME='"sock"' -D__KBUILD_MODNAME=kmod_sock -c -o net/core/sock.o net/core/sock.c  
+savedcmd_net/core/sock.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.sock.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/core/sock"' -DKBUILD_BASENAME='"sock"' -DKBUILD_MODNAME='"sock"' -D__KBUILD_MODNAME=kmod_sock -c -o net/core/sock.o net/core/sock.c  
 
 source_net/core/sock.o := net/core/sock.c
 
@@ -792,6 +792,11 @@ deps_net/core/sock.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -955,7 +960,6 @@ deps_net/core/sock.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -996,7 +1000,6 @@ deps_net/core/sock.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1214,14 +1217,11 @@ deps_net/core/sock.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1713,101 +1713,101 @@ deps_net/core/sock.o := \
 net/core/sock.o: $(deps_net/core/sock.o)
 
 $(deps_net/core/sock.o):
-#SYMVER sk_ns_capable 0x31bc034e
-#SYMVER sk_capable 0xf5f530a3
-#SYMVER sk_net_capable 0xefe71708
+#SYMVER sk_ns_capable 0xc8f3e2e8
+#SYMVER sk_capable 0x33ab5c52
+#SYMVER sk_net_capable 0x553b5a2e
 #SYMVER sysctl_wmem_max 0xfac8865f
 #SYMVER sysctl_rmem_max 0xb05fc310
 #SYMVER memalloc_socks_key 0x77ecf68d
-#SYMVER sk_set_memalloc 0x9998c34b
-#SYMVER sk_clear_memalloc 0x51c7e7de
-#SYMVER __sk_backlog_rcv 0x85d4b3d3
-#SYMVER sk_error_report 0x90bcaa1a
+#SYMVER sk_set_memalloc 0x52649480
+#SYMVER sk_clear_memalloc 0xf4c84e93
+#SYMVER __sk_backlog_rcv 0x5af811f5
+#SYMVER sk_error_report 0x3d835e02
 #SYMVER sock_get_timeout 0xedd17b31
 #SYMVER sock_copy_user_timeval 0x5bdb7603
-#SYMVER __sock_queue_rcv_skb 0x074eed2e
-#SYMVER sock_queue_rcv_skb_reason 0x949c2758
-#SYMVER __sk_receive_skb 0x874a8a73
-#SYMVER __sk_dst_check 0x0e014772
-#SYMVER sk_dst_check 0x620fe8bf
-#SYMVER sock_bindtoindex 0xdf209297
-#SYMVER sk_mc_loop 0xae04bb9e
-#SYMVER sock_set_reuseaddr 0x0f56ca08
-#SYMVER sock_set_reuseport 0x128b7ef1
-#SYMVER sock_no_linger 0x8edbcfee
-#SYMVER sock_set_priority 0x237e62ce
-#SYMVER sock_set_sndtimeo 0x33d295b7
-#SYMVER sock_enable_timestamps 0x0968c973
-#SYMVER sock_set_keepalive 0xd5833343
-#SYMVER sock_set_rcvbuf 0x1ca953d6
-#SYMVER sock_set_mark 0x5852899a
-#SYMVER sockopt_lock_sock 0x5e31c75e
-#SYMVER sockopt_release_sock 0x9a630df2
-#SYMVER sockopt_ns_capable 0xe75986a8
+#SYMVER __sock_queue_rcv_skb 0x1a5f7638
+#SYMVER sock_queue_rcv_skb_reason 0xf8424572
+#SYMVER __sk_receive_skb 0x8ec0a713
+#SYMVER __sk_dst_check 0xb80bc503
+#SYMVER sk_dst_check 0xcbd63aeb
+#SYMVER sock_bindtoindex 0xff02b19d
+#SYMVER sk_mc_loop 0xaf783b02
+#SYMVER sock_set_reuseaddr 0x4c2e63c2
+#SYMVER sock_set_reuseport 0xaf0f3d50
+#SYMVER sock_no_linger 0x353f2252
+#SYMVER sock_set_priority 0xfd3a79cd
+#SYMVER sock_set_sndtimeo 0xb7206d3d
+#SYMVER sock_enable_timestamps 0x97ada5ba
+#SYMVER sock_set_keepalive 0xe03551cd
+#SYMVER sock_set_rcvbuf 0xe890279f
+#SYMVER sock_set_mark 0x447174f6
+#SYMVER sockopt_lock_sock 0xa19d4864
+#SYMVER sockopt_release_sock 0xf5b85596
+#SYMVER sockopt_ns_capable 0x9098d0f9
 #SYMVER sockopt_capable 0x2a6a5aac
-#SYMVER sock_setsockopt 0x0ac10692
-#SYMVER sk_alloc 0x947b1913
-#SYMVER sk_net_refcnt_upgrade 0x270cecb1
-#SYMVER sk_free 0xf7cce79d
-#SYMVER sk_clone_lock 0xc067751c
-#SYMVER sk_free_unlock_clone 0x225d059b
-#SYMVER sk_setup_caps 0x198fd6c4
-#SYMVER sock_wfree 0x882132d4
-#SYMVER skb_set_owner_w 0x5ae163b9
-#SYMVER skb_orphan_partial 0x94b0dfed
-#SYMVER sock_rfree 0x69c0fed0
-#SYMVER sock_efree 0xb12a7b81
-#SYMVER sock_pfree 0x6e1ad26d
-#SYMVER sock_i_uid 0xf93f978e
-#SYMVER __sock_i_ino 0x830d6df0
-#SYMVER sock_i_ino 0x511c5d39
-#SYMVER sock_wmalloc 0x5123cd0c
-#SYMVER sock_kmalloc 0xdaaaa902
-#SYMVER sock_kfree_s 0xdb3a0118
-#SYMVER sock_kzfree_s 0xe535eba2
-#SYMVER sock_alloc_send_pskb 0x7e69c6dc
-#SYMVER __sock_cmsg_send 0xfd7efa51
-#SYMVER sock_cmsg_send 0xbcd88da1
-#SYMVER skb_page_frag_refill 0x27e4c771
-#SYMVER sk_page_frag_refill 0xc8370a31
-#SYMVER __sk_flush_backlog 0xd54c541d
-#SYMVER sk_wait_data 0x205f887f
-#SYMVER __sk_mem_schedule 0x26afc736
-#SYMVER __sk_mem_reclaim 0xa7bc4335
-#SYMVER sk_set_peek_off 0x515157be
-#SYMVER sock_no_bind 0x5dd5a00d
-#SYMVER sock_no_connect 0x357aa82c
-#SYMVER sock_no_socketpair 0xbc7559ee
-#SYMVER sock_no_accept 0xb00b0df0
-#SYMVER sock_no_getname 0x93dcead2
-#SYMVER sock_no_ioctl 0xb9c46b31
-#SYMVER sock_no_listen 0xa1627439
-#SYMVER sock_no_shutdown 0xc89656b3
-#SYMVER sock_no_sendmsg 0x14df1641
-#SYMVER sock_no_sendmsg_locked 0x0e166cb9
-#SYMVER sock_no_recvmsg 0x0e7ebbd8
-#SYMVER sock_no_mmap 0x181e3f67
-#SYMVER sk_send_sigurg 0xc381208f
-#SYMVER sk_reset_timer 0xe0952dad
-#SYMVER sk_stop_timer 0xff306fe0
-#SYMVER sk_stop_timer_sync 0xdb79e291
-#SYMVER sock_init_data_uid 0x553834fb
-#SYMVER sock_init_data 0x1647375b
-#SYMVER lock_sock_nested 0x02c9fe5f
-#SYMVER release_sock 0x5e4daa93
-#SYMVER __lock_sock_fast 0x54dcac68
-#SYMVER sock_gettstamp 0xc43036fe
-#SYMVER sock_recv_errqueue 0x75e5ae87
-#SYMVER sock_common_getsockopt 0xcf2d517a
-#SYMVER sock_common_recvmsg 0xb686efe2
-#SYMVER sock_common_setsockopt 0xb7718640
-#SYMVER sk_common_release 0x20faa0f7
-#SYMVER sock_prot_inuse_get 0xde71b2f5
-#SYMVER sock_inuse_get 0x9ac2d898
-#SYMVER proto_register 0x98213f1f
-#SYMVER proto_unregister 0x33f78883
+#SYMVER sock_setsockopt 0x43f0350b
+#SYMVER sk_alloc 0x94a98e90
+#SYMVER sk_net_refcnt_upgrade 0x096b2a09
+#SYMVER sk_free 0xb786c5c5
+#SYMVER sk_clone_lock 0x6877b555
+#SYMVER sk_free_unlock_clone 0xc61ffa4f
+#SYMVER sk_setup_caps 0x0fa390b5
+#SYMVER sock_wfree 0x2395d6f9
+#SYMVER skb_set_owner_w 0x3fcb9242
+#SYMVER skb_orphan_partial 0x0d4bbbd1
+#SYMVER sock_rfree 0xdc30cd2f
+#SYMVER sock_efree 0x77f55a78
+#SYMVER sock_pfree 0xd7c297e6
+#SYMVER sock_i_uid 0x5f0ead0e
+#SYMVER __sock_i_ino 0xf52bda1f
+#SYMVER sock_i_ino 0x72f8dfde
+#SYMVER sock_wmalloc 0x34c1b7a6
+#SYMVER sock_kmalloc 0xf6492b06
+#SYMVER sock_kfree_s 0x39dde56b
+#SYMVER sock_kzfree_s 0x54243cef
+#SYMVER sock_alloc_send_pskb 0x331d4fc9
+#SYMVER __sock_cmsg_send 0x135a8a3b
+#SYMVER sock_cmsg_send 0xb1676786
+#SYMVER skb_page_frag_refill 0x1d2db8b7
+#SYMVER sk_page_frag_refill 0x55ed2e95
+#SYMVER __sk_flush_backlog 0x8bb211ad
+#SYMVER sk_wait_data 0xf308ba08
+#SYMVER __sk_mem_schedule 0xfc692baa
+#SYMVER __sk_mem_reclaim 0xa7626523
+#SYMVER sk_set_peek_off 0x80a34e5e
+#SYMVER sock_no_bind 0x121495bd
+#SYMVER sock_no_connect 0xc6b123e3
+#SYMVER sock_no_socketpair 0xb1fed041
+#SYMVER sock_no_accept 0x15468090
+#SYMVER sock_no_getname 0x1623e219
+#SYMVER sock_no_ioctl 0x4f034e02
+#SYMVER sock_no_listen 0xfd3345df
+#SYMVER sock_no_shutdown 0xd9d0dcd2
+#SYMVER sock_no_sendmsg 0x64bcce99
+#SYMVER sock_no_sendmsg_locked 0x3dc69887
+#SYMVER sock_no_recvmsg 0x7f7ab497
+#SYMVER sock_no_mmap 0xdf93871d
+#SYMVER sk_send_sigurg 0x3f2bd1ef
+#SYMVER sk_reset_timer 0x04f80d6a
+#SYMVER sk_stop_timer 0x3130ebdf
+#SYMVER sk_stop_timer_sync 0xfaf78d5e
+#SYMVER sock_init_data_uid 0x7d751c10
+#SYMVER sock_init_data 0x30915eb1
+#SYMVER lock_sock_nested 0x8eb0aa8a
+#SYMVER release_sock 0x440fbb4a
+#SYMVER __lock_sock_fast 0xf4e685cd
+#SYMVER sock_gettstamp 0xe9cdde0d
+#SYMVER sock_recv_errqueue 0x64c5c1af
+#SYMVER sock_common_getsockopt 0xa6a7d43f
+#SYMVER sock_common_recvmsg 0x025aff34
+#SYMVER sock_common_setsockopt 0xe79c37d2
+#SYMVER sk_common_release 0xdfef3489
+#SYMVER sock_prot_inuse_get 0x0f46ae51
+#SYMVER sock_inuse_get 0xce91383e
+#SYMVER proto_register 0xb31551cb
+#SYMVER proto_unregister 0x93a09559
 #SYMVER sock_load_diag_module 0xf665f74f
 #SYMVER sk_busy_loop_end 0xe590dea3
-#SYMVER sock_bind_add 0x0186bc12
-#SYMVER sock_ioctl_inout 0x8eab0ca1
-#SYMVER sk_ioctl 0xc8d85eb1
+#SYMVER sock_bind_add 0xf5240206
+#SYMVER sock_ioctl_inout 0xbc79ad5b
+#SYMVER sk_ioctl 0x69973344

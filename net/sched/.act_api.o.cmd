@@ -1,4 +1,4 @@
-savedcmd_net/sched/act_api.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/sched/.act_api.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/sched/act_api"' -DKBUILD_BASENAME='"act_api"' -DKBUILD_MODNAME='"act_api"' -D__KBUILD_MODNAME=kmod_act_api -c -o net/sched/act_api.o net/sched/act_api.c  
+savedcmd_net/sched/act_api.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/sched/.act_api.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/sched/act_api"' -DKBUILD_BASENAME='"act_api"' -DKBUILD_MODNAME='"act_api"' -D__KBUILD_MODNAME=kmod_act_api -c -o net/sched/act_api.o net/sched/act_api.c  
 
 source_net/sched/act_api.o := net/sched/act_api.c
 
@@ -561,6 +561,11 @@ deps_net/sched/act_api.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -943,7 +948,6 @@ deps_net/sched/act_api.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -984,7 +988,6 @@ deps_net/sched/act_api.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1203,14 +1206,11 @@ deps_net/sched/act_api.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1619,20 +1619,20 @@ net/sched/act_api.o: $(deps_net/sched/act_api.o)
 
 $(deps_net/sched/act_api.o):
 #SYMVER tcf_frag_xmit_count 0x22d60537
-#SYMVER tcf_dev_queue_xmit 0x64f35d76
-#SYMVER tcf_action_check_ctrlact 0xc6ce89a2
-#SYMVER tcf_action_set_ctrlact 0x2de88e84
-#SYMVER tcf_action_update_hw_stats 0x2acccd5b
-#SYMVER tcf_idr_release 0x3c9e8e02
-#SYMVER tcf_generic_walker 0x018829ac
-#SYMVER tcf_idr_search 0xf5b91ab2
-#SYMVER tcf_idr_create 0x36c13c89
-#SYMVER tcf_idr_create_from_flags 0xf77a06cf
-#SYMVER tcf_idr_cleanup 0xf7f2ae84
-#SYMVER tcf_idr_check_alloc 0x0709ad23
-#SYMVER tcf_idrinfo_destroy 0x461fdd31
-#SYMVER tcf_register_action 0xf61783b0
-#SYMVER tcf_unregister_action 0xa4c4319a
-#SYMVER tcf_action_exec 0xc51c4a2d
-#SYMVER tcf_action_dump_1 0x63cae028
-#SYMVER tcf_action_update_stats 0xa316a0b0
+#SYMVER tcf_dev_queue_xmit 0x5b935cf8
+#SYMVER tcf_action_check_ctrlact 0xf7f7e7ba
+#SYMVER tcf_action_set_ctrlact 0x4b73cba0
+#SYMVER tcf_action_update_hw_stats 0x4a738f73
+#SYMVER tcf_idr_release 0x8df939c1
+#SYMVER tcf_generic_walker 0xab41b70f
+#SYMVER tcf_idr_search 0x9232df32
+#SYMVER tcf_idr_create 0xf7765f2c
+#SYMVER tcf_idr_create_from_flags 0x73215c96
+#SYMVER tcf_idr_cleanup 0xc75425f1
+#SYMVER tcf_idr_check_alloc 0x316163f9
+#SYMVER tcf_idrinfo_destroy 0xda1261a1
+#SYMVER tcf_register_action 0x79cc5de4
+#SYMVER tcf_unregister_action 0x58a587d9
+#SYMVER tcf_action_exec 0x4395b7c6
+#SYMVER tcf_action_dump_1 0x17074cbc
+#SYMVER tcf_action_update_stats 0x0c6f32e4

@@ -190,20 +190,21 @@ libata-pmp.o: drivers/ata/libata-pmp.c include/linux/compiler-version.h \
  include/linux/rcupdate.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
- include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
- include/vdso/ktime.h include/linux/timekeeping.h \
- include/linux/clocksource_ids.h include/linux/debugobjects.h \
- include/linux/workqueue_types.h include/linux/percpu_counter.h \
- arch/arm64/include/asm/mmu.h include/linux/page-flags.h \
- include/linux/local_lock.h include/linux/local_lock_internal.h \
- include/linux/zswap.h include/linux/memory_hotplug.h \
- include/linux/notifier.h include/linux/srcu.h \
- include/linux/rcu_segcblist.h include/linux/srcutree.h \
- include/linux/rcu_node_tree.h arch/arm64/include/generated/asm/mmzone.h \
- include/asm-generic/mmzone.h arch/arm64/include/asm/topology.h \
- arch/arm64/include/asm/numa.h include/asm-generic/numa.h \
- include/asm-generic/topology.h include/linux/io.h \
- arch/arm64/include/asm/io.h include/linux/pgtable.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/probes.h include/linux/workqueue.h \
+ include/linux/timer.h include/linux/ktime.h include/vdso/ktime.h \
+ include/linux/timekeeping.h include/linux/clocksource_ids.h \
+ include/linux/debugobjects.h include/linux/workqueue_types.h \
+ include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
+ include/linux/page-flags.h include/linux/local_lock.h \
+ include/linux/local_lock_internal.h include/linux/zswap.h \
+ include/linux/memory_hotplug.h include/linux/notifier.h \
+ include/linux/srcu.h include/linux/rcu_segcblist.h \
+ include/linux/srcutree.h include/linux/rcu_node_tree.h \
+ arch/arm64/include/generated/asm/mmzone.h include/asm-generic/mmzone.h \
+ arch/arm64/include/asm/topology.h arch/arm64/include/asm/numa.h \
+ include/asm-generic/numa.h include/asm-generic/topology.h \
+ include/linux/io.h arch/arm64/include/asm/io.h include/linux/pgtable.h \
  arch/arm64/include/asm/pgtable.h arch/arm64/include/asm/proc-fns.h \
  arch/arm64/include/asm/mte.h arch/arm64/include/asm/tlbflush.h \
  include/linux/mmu_notifier.h include/linux/mmap_lock.h \
@@ -317,16 +318,14 @@ libata-pmp.o: drivers/ata/libata-pmp.c include/linux/compiler-version.h \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- include/linux/kmsan.h include/linux/highmem-internal.h \
- include/linux/bio.h include/linux/mempool.h \
- include/uapi/linux/blkzoned.h include/linux/sbitmap.h \
- include/linux/file.h include/linux/prefetch.h include/scsi/scsi.h \
- include/scsi/scsi_common.h include/uapi/linux/pr.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/highmem-internal.h include/linux/bio.h \
+ include/linux/mempool.h include/uapi/linux/blkzoned.h \
+ include/linux/sbitmap.h include/linux/file.h include/linux/prefetch.h \
+ include/scsi/scsi.h include/scsi/scsi_common.h include/uapi/linux/pr.h \
  include/scsi/scsi_proto.h include/scsi/scsi_status.h \
  include/linux/acpi.h include/linux/resource_ext.h \
  include/linux/mod_devicetable.h include/uapi/linux/mei.h \

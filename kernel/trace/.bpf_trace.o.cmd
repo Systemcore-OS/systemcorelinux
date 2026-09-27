@@ -1,4 +1,4 @@
-savedcmd_kernel/trace/bpf_trace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/trace/.bpf_trace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Ikernel/trace    -DKBUILD_MODFILE='"kernel/trace/bpf_trace"' -DKBUILD_BASENAME='"bpf_trace"' -DKBUILD_MODNAME='"bpf_trace"' -D__KBUILD_MODNAME=kmod_bpf_trace -c -o kernel/trace/bpf_trace.o kernel/trace/bpf_trace.c  
+savedcmd_kernel/trace/bpf_trace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/trace/.bpf_trace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Ikernel/trace    -DKBUILD_MODFILE='"kernel/trace/bpf_trace"' -DKBUILD_BASENAME='"bpf_trace"' -DKBUILD_MODNAME='"bpf_trace"' -D__KBUILD_MODNAME=kmod_bpf_trace -c -o kernel/trace/bpf_trace.o kernel/trace/bpf_trace.c  
 
 source_kernel/trace/bpf_trace.o := kernel/trace/bpf_trace.c
 
@@ -572,6 +572,11 @@ deps_kernel/trace/bpf_trace.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -797,7 +802,6 @@ deps_kernel/trace/bpf_trace.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1162,7 +1166,6 @@ deps_kernel/trace/bpf_trace.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1314,14 +1317,11 @@ deps_kernel/trace/bpf_trace.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1711,8 +1711,6 @@ deps_kernel/trace/bpf_trace.o := \
   include/uapi/linux/hw_breakpoint.h \
   include/linux/glob.h \
   kernel/trace/pid_list.h \
-  arch/arm64/include/asm/syscall.h \
-  include/uapi/linux/audit.h \
   kernel/trace/trace_entries.h \
   kernel/trace/trace_output.h \
   kernel/trace/bpf_trace.h \
@@ -1733,15 +1731,15 @@ deps_kernel/trace/bpf_trace.o := \
 kernel/trace/bpf_trace.o: $(deps_kernel/trace/bpf_trace.o)
 
 $(deps_kernel/trace/bpf_trace.o):
-#SYMVER bpf_trace_run1 0x83cadfac
-#SYMVER bpf_trace_run2 0x569ebe08
-#SYMVER bpf_trace_run3 0x410c029b
-#SYMVER bpf_trace_run4 0xc16c3411
-#SYMVER bpf_trace_run5 0x45421375
-#SYMVER bpf_trace_run6 0xacbdaebb
-#SYMVER bpf_trace_run7 0x60087e05
-#SYMVER bpf_trace_run8 0x4efbee8a
-#SYMVER bpf_trace_run9 0xe7956e39
-#SYMVER bpf_trace_run10 0x85941ebc
-#SYMVER bpf_trace_run11 0x12a8395b
-#SYMVER bpf_trace_run12 0x66e03eea
+#SYMVER bpf_trace_run1 0x02fdc2a9
+#SYMVER bpf_trace_run2 0xd645ad4c
+#SYMVER bpf_trace_run3 0x81fd2c34
+#SYMVER bpf_trace_run4 0x61734716
+#SYMVER bpf_trace_run5 0xdbe05325
+#SYMVER bpf_trace_run6 0x46730933
+#SYMVER bpf_trace_run7 0x5f4d6fc4
+#SYMVER bpf_trace_run8 0xe722aac9
+#SYMVER bpf_trace_run9 0x578ddc22
+#SYMVER bpf_trace_run10 0x610db3fa
+#SYMVER bpf_trace_run11 0xac67cf53
+#SYMVER bpf_trace_run12 0x330690f3

@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/realtek/rtw88/phy.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/realtek/rtw88/.phy.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"phy"' -DKBUILD_MODNAME='"rtw88_core"' -D__KBUILD_MODNAME=kmod_rtw88_core -c -o drivers/net/wireless/realtek/rtw88/phy.o drivers/net/wireless/realtek/rtw88/phy.c  
+savedcmd_drivers/net/wireless/realtek/rtw88/phy.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/realtek/rtw88/.phy.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"phy"' -DKBUILD_MODNAME='"rtw88_core"' -D__KBUILD_MODNAME=kmod_rtw88_core -c -o drivers/net/wireless/realtek/rtw88/phy.o drivers/net/wireless/realtek/rtw88/phy.c  
 
 source_drivers/net/wireless/realtek/rtw88/phy.o := drivers/net/wireless/realtek/rtw88/phy.c
 
@@ -785,6 +785,11 @@ deps_drivers/net/wireless/realtek/rtw88/phy.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -952,7 +957,6 @@ deps_drivers/net/wireless/realtek/rtw88/phy.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -993,7 +997,6 @@ deps_drivers/net/wireless/realtek/rtw88/phy.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1212,14 +1215,11 @@ deps_drivers/net/wireless/realtek/rtw88/phy.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1600,28 +1600,28 @@ drivers/net/wireless/realtek/rtw88/phy.o: $(deps_drivers/net/wireless/realtek/rt
 $(deps_drivers/net/wireless/realtek/rtw88/phy.o):
 #SYMVER rtw_rate_section 0x58210e60
 #SYMVER rtw_rate_size 0x519c8ba9
-#SYMVER rtw_phy_set_edcca_th 0xdb2074f4
-#SYMVER rtw_phy_init 0x61c93958
-#SYMVER rtw_phy_parsing_cfo 0xaa97720d
+#SYMVER rtw_phy_set_edcca_th 0x56addc18
+#SYMVER rtw_phy_init 0xb610d4c5
+#SYMVER rtw_phy_parsing_cfo 0xddc0d476
 #SYMVER rtw_phy_rf_power_2_rssi 0x440b7589
-#SYMVER rtw_phy_read_rf 0x3cfcca55
-#SYMVER rtw_phy_read_rf_sipi 0xbd793c39
-#SYMVER rtw_phy_write_rf_reg_sipi 0x440ffcb2
-#SYMVER rtw_phy_write_rf_reg_mix 0x166a509d
-#SYMVER rtw_parse_tbl_phy_cond 0xfbd448df
-#SYMVER rtw_parse_tbl_bb_pg 0x6b173019
-#SYMVER rtw_parse_tbl_txpwr_lmt 0x3d570ad0
-#SYMVER rtw_phy_cfg_mac 0x914ba278
-#SYMVER rtw_phy_cfg_agc 0x7cef1e45
-#SYMVER rtw_phy_cfg_bb 0xe7f75345
-#SYMVER rtw_phy_cfg_rf 0x23f87656
-#SYMVER rtw_phy_load_tables 0x6e381f61
-#SYMVER rtw_phy_get_tx_power_index 0x78f748ff
-#SYMVER rtw_phy_set_tx_power_level 0x415e968e
-#SYMVER rtw_phy_config_swing_table 0xc1e17dc5
-#SYMVER rtw_phy_pwrtrack_avg 0x48d10c0d
-#SYMVER rtw_phy_pwrtrack_thermal_changed 0xdd149c57
-#SYMVER rtw_phy_pwrtrack_get_delta 0x5c1890b9
-#SYMVER rtw_phy_pwrtrack_get_pwridx 0xddc05861
-#SYMVER rtw_phy_pwrtrack_need_lck 0xd7ee58f0
-#SYMVER rtw_phy_pwrtrack_need_iqk 0x5d8f4aed
+#SYMVER rtw_phy_read_rf 0xef24f054
+#SYMVER rtw_phy_read_rf_sipi 0x39f46977
+#SYMVER rtw_phy_write_rf_reg_sipi 0xe9ef1ce6
+#SYMVER rtw_phy_write_rf_reg_mix 0x1f578ecf
+#SYMVER rtw_parse_tbl_phy_cond 0xf4498605
+#SYMVER rtw_parse_tbl_bb_pg 0xdbc19f6e
+#SYMVER rtw_parse_tbl_txpwr_lmt 0x57ea9bb5
+#SYMVER rtw_phy_cfg_mac 0x95564df7
+#SYMVER rtw_phy_cfg_agc 0x79801db4
+#SYMVER rtw_phy_cfg_bb 0x4b9423f7
+#SYMVER rtw_phy_cfg_rf 0x038e2eed
+#SYMVER rtw_phy_load_tables 0xea9bbb06
+#SYMVER rtw_phy_get_tx_power_index 0x15906ae8
+#SYMVER rtw_phy_set_tx_power_level 0x04861b2d
+#SYMVER rtw_phy_config_swing_table 0x6e383969
+#SYMVER rtw_phy_pwrtrack_avg 0x842e8bea
+#SYMVER rtw_phy_pwrtrack_thermal_changed 0xbfc8c1f3
+#SYMVER rtw_phy_pwrtrack_get_delta 0xafccf71d
+#SYMVER rtw_phy_pwrtrack_get_pwridx 0x93a092b7
+#SYMVER rtw_phy_pwrtrack_need_lck 0x4c4c2526
+#SYMVER rtw_phy_pwrtrack_need_iqk 0x3723e2db

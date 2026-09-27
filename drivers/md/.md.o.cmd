@@ -1,4 +1,4 @@
-savedcmd_drivers/md/md.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/md/.md.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"md"' -DKBUILD_MODNAME='"md_mod"' -D__KBUILD_MODNAME=kmod_md_mod -c -o drivers/md/md.o drivers/md/md.c  
+savedcmd_drivers/md/md.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/md/.md.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"md"' -DKBUILD_MODNAME='"md_mod"' -D__KBUILD_MODNAME=kmod_md_mod -c -o drivers/md/md.o drivers/md/md.c  
 
 source_drivers/md/md.o := drivers/md/md.c
 
@@ -637,6 +637,11 @@ deps_drivers/md/md.o := \
   include/linux/swait.h \
   include/linux/wait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -927,7 +932,6 @@ deps_drivers/md/md.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -968,7 +972,6 @@ deps_drivers/md/md.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1188,14 +1191,11 @@ deps_drivers/md/md.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1365,56 +1365,56 @@ deps_drivers/md/md.o := \
 drivers/md/md.o: $(deps_drivers/md/md.o)
 
 $(deps_drivers/md/md.o):
-#SYMVER md_cluster_ops 0xc35c34bc
+#SYMVER md_cluster_ops 0xa8794574
 #SYMVER md_new_event 0xe6e6b684
-#SYMVER md_handle_request 0x67e98bc1
-#SYMVER mddev_suspend 0x815271fe
-#SYMVER mddev_resume 0x07ea2460
-#SYMVER md_flush_request 0x121ea2b5
-#SYMVER mddev_init 0x98969471
-#SYMVER mddev_destroy 0x9cc3eb2a
-#SYMVER mddev_unlock 0x2fdfafd9
-#SYMVER md_find_rdev_nr_rcu 0x8c878449
-#SYMVER md_find_rdev_rcu 0x8f198d85
-#SYMVER md_rdev_clear 0xd6bdc2ba
-#SYMVER sync_page_io 0x02ec163d
-#SYMVER md_check_no_bitmap 0x873c10a3
-#SYMVER md_integrity_register 0xe5422e4f
-#SYMVER md_update_sb 0x3dfaf0a9
-#SYMVER md_rdev_init 0x083c7d57
-#SYMVER md_idle_sync_thread 0xcd6f1f12
-#SYMVER md_frozen_sync_thread 0x82baf886
-#SYMVER md_unfrozen_sync_thread 0x38713e0c
-#SYMVER mddev_stack_rdev_limits 0xcd1ae527
-#SYMVER mddev_stack_new_rdev 0x68978d51
-#SYMVER mddev_update_io_opt 0x2a7777a9
+#SYMVER md_handle_request 0x962487ea
+#SYMVER mddev_suspend 0x047920c4
+#SYMVER mddev_resume 0x9660afc8
+#SYMVER md_flush_request 0xd9cd6a97
+#SYMVER mddev_init 0x070aad58
+#SYMVER mddev_destroy 0x998a6c7e
+#SYMVER mddev_unlock 0x19c45e13
+#SYMVER md_find_rdev_nr_rcu 0x12d915e7
+#SYMVER md_find_rdev_rcu 0xb51d8082
+#SYMVER md_rdev_clear 0x8ca5cf98
+#SYMVER sync_page_io 0x9c7bd040
+#SYMVER md_check_no_bitmap 0x9973d6d4
+#SYMVER md_integrity_register 0x766b17e5
+#SYMVER md_update_sb 0x7e2541b0
+#SYMVER md_rdev_init 0x180aeacf
+#SYMVER md_idle_sync_thread 0x484fd7f8
+#SYMVER md_frozen_sync_thread 0xfea7fc92
+#SYMVER md_unfrozen_sync_thread 0x8876874c
+#SYMVER mddev_stack_rdev_limits 0xd3a11f99
+#SYMVER mddev_stack_new_rdev 0xf368c02f
+#SYMVER mddev_update_io_opt 0x99cfb28e
 #SYMVER md_init_stacking_limits 0x36370808
-#SYMVER md_run 0xf0708df1
-#SYMVER md_start 0xc2aec988
-#SYMVER md_stop_writes 0xf1af51e8
-#SYMVER md_stop 0x8a6196fe
-#SYMVER md_set_array_sectors 0xcf0b44ae
-#SYMVER __md_wakeup_thread 0xf14c19c3
-#SYMVER md_register_thread 0xf7365471
-#SYMVER md_unregister_thread 0xed0c2780
-#SYMVER md_error 0xea9a13c6
-#SYMVER register_md_personality 0x60d0bfd1
-#SYMVER unregister_md_personality 0x717b9e37
-#SYMVER register_md_cluster_operations 0x1bb035f0
+#SYMVER md_run 0xbce90794
+#SYMVER md_start 0xe5cff8e7
+#SYMVER md_stop_writes 0xdd24106b
+#SYMVER md_stop 0x1a0b0fab
+#SYMVER md_set_array_sectors 0x0b493bde
+#SYMVER __md_wakeup_thread 0x18d5a45e
+#SYMVER md_register_thread 0xb1dfcf02
+#SYMVER md_unregister_thread 0x143e6b2a
+#SYMVER md_error 0x7f75404b
+#SYMVER register_md_personality 0x73cf2efa
+#SYMVER unregister_md_personality 0x2ad1eb0a
+#SYMVER register_md_cluster_operations 0xc245a3ea
 #SYMVER unregister_md_cluster_operations 0x15bafe29
-#SYMVER md_done_sync 0x7c23357a
-#SYMVER md_write_start 0x313cbef4
-#SYMVER md_write_inc 0x6e62999d
-#SYMVER md_write_end 0xcbd103c3
-#SYMVER md_submit_discard_bio 0xe985e6ac
-#SYMVER md_account_bio 0x33b04112
-#SYMVER md_free_cloned_bio 0x4d7e85de
-#SYMVER md_allow_write 0xdbca10f7
-#SYMVER md_do_sync 0xd2352313
-#SYMVER md_check_recovery 0x431dc50e
-#SYMVER md_reap_sync_thread 0xc5b88f91
-#SYMVER md_wait_for_blocked_rdev 0xf43c1db9
-#SYMVER md_finish_reshape 0x07238430
-#SYMVER rdev_set_badblocks 0xc6c4f185
-#SYMVER rdev_clear_badblocks 0x894ceaae
-#SYMVER md_reload_sb 0xbbeb66bc
+#SYMVER md_done_sync 0x6af4f3bd
+#SYMVER md_write_start 0x9951abe1
+#SYMVER md_write_inc 0x211944de
+#SYMVER md_write_end 0x023eac1e
+#SYMVER md_submit_discard_bio 0x4fd2f548
+#SYMVER md_account_bio 0xcc6f9e09
+#SYMVER md_free_cloned_bio 0x0501b7e2
+#SYMVER md_allow_write 0x48ddde8a
+#SYMVER md_do_sync 0x636147a5
+#SYMVER md_check_recovery 0xaf0eebc4
+#SYMVER md_reap_sync_thread 0xf6639b00
+#SYMVER md_wait_for_blocked_rdev 0x4ab8942b
+#SYMVER md_finish_reshape 0xd37cbe3b
+#SYMVER rdev_set_badblocks 0xeb22f4c1
+#SYMVER rdev_clear_badblocks 0x56491a38
+#SYMVER md_reload_sb 0x41523912

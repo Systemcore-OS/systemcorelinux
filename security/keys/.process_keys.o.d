@@ -197,34 +197,37 @@ process_keys.o: security/keys/process_keys.c \
  include/linux/mm_types.h include/linux/auxvec.h \
  include/uapi/linux/auxvec.h arch/arm64/include/uapi/asm/auxvec.h \
  include/linux/kref.h include/linux/rbtree.h include/linux/maple_tree.h \
- include/linux/rwsem.h include/linux/uprobes.h include/linux/workqueue.h \
- include/linux/timer.h include/linux/ktime.h include/linux/jiffies.h \
- include/vdso/jiffies.h include/generated/timeconst.h \
- include/vdso/ktime.h include/linux/timekeeping.h \
- include/linux/clocksource_ids.h include/linux/debugobjects.h \
- include/linux/workqueue_types.h arch/arm64/include/asm/mmu.h \
- include/linux/page-flags.h include/linux/local_lock.h \
- include/linux/local_lock_internal.h include/linux/zswap.h \
- include/linux/memory_hotplug.h include/linux/notifier.h \
- include/linux/srcu.h include/linux/rcu_segcblist.h \
- include/linux/srcutree.h include/linux/rcu_node_tree.h \
- arch/arm64/include/generated/asm/mmzone.h include/asm-generic/mmzone.h \
- include/linux/topology.h include/linux/arch_topology.h \
- arch/arm64/include/asm/topology.h arch/arm64/include/asm/numa.h \
- include/asm-generic/numa.h include/asm-generic/topology.h \
- include/linux/kconfig.h include/linux/sched/mm.h \
- include/linux/sync_core.h include/linux/sched/coredump.h \
- include/linux/radix-tree.h include/linux/pid.h \
- include/linux/capability.h include/uapi/linux/capability.h \
- include/linux/semaphore.h include/linux/fcntl.h \
- include/uapi/linux/fcntl.h arch/arm64/include/uapi/asm/fcntl.h \
- include/uapi/asm-generic/fcntl.h include/uapi/linux/openat2.h \
- include/linux/migrate_mode.h include/linux/percpu-rwsem.h \
- include/linux/rcuwait.h include/linux/sched/signal.h \
- include/linux/signal.h include/linux/sched/jobctl.h \
- include/linux/sched/task.h include/linux/uaccess.h \
- include/linux/fault-inject-usercopy.h include/linux/nospec.h \
- arch/arm64/include/asm/uaccess.h arch/arm64/include/asm/kernel-pgtable.h \
+ include/linux/rwsem.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
+ include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
+ include/linux/jiffies.h include/vdso/jiffies.h \
+ include/generated/timeconst.h include/vdso/ktime.h \
+ include/linux/timekeeping.h include/linux/clocksource_ids.h \
+ include/linux/debugobjects.h include/linux/workqueue_types.h \
+ arch/arm64/include/asm/mmu.h include/linux/page-flags.h \
+ include/linux/local_lock.h include/linux/local_lock_internal.h \
+ include/linux/zswap.h include/linux/memory_hotplug.h \
+ include/linux/notifier.h include/linux/srcu.h \
+ include/linux/rcu_segcblist.h include/linux/srcutree.h \
+ include/linux/rcu_node_tree.h arch/arm64/include/generated/asm/mmzone.h \
+ include/asm-generic/mmzone.h include/linux/topology.h \
+ include/linux/arch_topology.h arch/arm64/include/asm/topology.h \
+ arch/arm64/include/asm/numa.h include/asm-generic/numa.h \
+ include/asm-generic/topology.h include/linux/kconfig.h \
+ include/linux/sched/mm.h include/linux/sync_core.h \
+ include/linux/sched/coredump.h include/linux/radix-tree.h \
+ include/linux/pid.h include/linux/capability.h \
+ include/uapi/linux/capability.h include/linux/semaphore.h \
+ include/linux/fcntl.h include/uapi/linux/fcntl.h \
+ arch/arm64/include/uapi/asm/fcntl.h include/uapi/asm-generic/fcntl.h \
+ include/uapi/linux/openat2.h include/linux/migrate_mode.h \
+ include/linux/percpu-rwsem.h include/linux/rcuwait.h \
+ include/linux/sched/signal.h include/linux/signal.h \
+ include/linux/sched/jobctl.h include/linux/sched/task.h \
+ include/linux/uaccess.h include/linux/fault-inject-usercopy.h \
+ include/linux/nospec.h arch/arm64/include/asm/uaccess.h \
+ arch/arm64/include/asm/kernel-pgtable.h \
  arch/arm64/include/asm/asm-extable.h arch/arm64/include/asm/mte.h \
  arch/arm64/include/asm/extable.h include/asm-generic/access_ok.h \
  include/linux/cred.h include/linux/key.h include/linux/sysctl.h \
@@ -290,8 +293,8 @@ process_keys.o: security/keys/process_keys.c \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -335,26 +338,24 @@ process_keys.o: security/keys/process_keys.c \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- include/linux/kmsan.h include/linux/dma-direction.h \
- include/linux/highmem-internal.h include/linux/pagevec.h \
- include/linux/bio.h include/linux/mempool.h include/linux/cfi.h \
- arch/arm64/include/generated/asm/cfi.h include/asm-generic/cfi.h \
- include/linux/bpf_types.h include/uapi/linux/lsm.h \
- include/linux/init_task.h include/linux/utsname.h \
- include/uapi/linux/utsname.h include/linux/securebits.h \
- include/uapi/linux/securebits.h include/linux/sched/autogroup.h \
- include/net/net_namespace.h include/net/flow.h include/linux/in6.h \
- include/uapi/linux/in6.h include/net/netns/core.h \
- include/net/netns/mib.h include/net/snmp.h include/uapi/linux/snmp.h \
- include/net/netns/unix.h include/net/netns/packet.h \
- include/net/netns/ipv4.h include/net/inet_frag.h \
- include/net/dropreason-core.h include/linux/siphash.h \
- include/net/netns/ipv6.h include/net/dst_ops.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/dma-direction.h include/linux/highmem-internal.h \
+ include/linux/pagevec.h include/linux/bio.h include/linux/mempool.h \
+ include/linux/cfi.h arch/arm64/include/generated/asm/cfi.h \
+ include/asm-generic/cfi.h include/linux/bpf_types.h \
+ include/uapi/linux/lsm.h include/linux/init_task.h \
+ include/linux/utsname.h include/uapi/linux/utsname.h \
+ include/linux/securebits.h include/uapi/linux/securebits.h \
+ include/linux/sched/autogroup.h include/net/net_namespace.h \
+ include/net/flow.h include/linux/in6.h include/uapi/linux/in6.h \
+ include/net/netns/core.h include/net/netns/mib.h include/net/snmp.h \
+ include/uapi/linux/snmp.h include/net/netns/unix.h \
+ include/net/netns/packet.h include/net/netns/ipv4.h \
+ include/net/inet_frag.h include/net/dropreason-core.h \
+ include/linux/siphash.h include/net/netns/ipv6.h include/net/dst_ops.h \
  include/uapi/linux/icmpv6.h include/net/netns/nexthop.h \
  include/net/netns/ieee802154_6lowpan.h include/net/netns/sctp.h \
  include/net/netns/netfilter.h include/linux/netfilter_defs.h \

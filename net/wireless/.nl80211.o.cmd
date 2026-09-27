@@ -1,4 +1,4 @@
-savedcmd_net/wireless/nl80211.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/wireless/.nl80211.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"nl80211"' -DKBUILD_MODNAME='"cfg80211"' -D__KBUILD_MODNAME=kmod_cfg80211 -c -o net/wireless/nl80211.o net/wireless/nl80211.c  
+savedcmd_net/wireless/nl80211.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/wireless/.nl80211.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"nl80211"' -DKBUILD_MODNAME='"cfg80211"' -D__KBUILD_MODNAME=kmod_cfg80211 -c -o net/wireless/nl80211.o net/wireless/nl80211.c  
 
 source_net/wireless/nl80211.o := net/wireless/nl80211.c
 
@@ -532,6 +532,11 @@ deps_net/wireless/nl80211.o := \
   include/linux/wait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -717,7 +722,6 @@ deps_net/wireless/nl80211.o := \
     $(wildcard include/config/TREE_SRCU) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1050,7 +1054,6 @@ deps_net/wireless/nl80211.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1209,14 +1212,11 @@ deps_net/wireless/nl80211.o := \
   include/uapi/asm-generic/sembuf.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1623,46 +1623,46 @@ deps_net/wireless/nl80211.o := \
 net/wireless/nl80211.o: $(deps_net/wireless/nl80211.o)
 
 $(deps_net/wireless/nl80211.o):
-#SYMVER nl80211_send_chandef 0x86563164
-#SYMVER cfg80211_check_station_change 0x2342c98c
-#SYMVER __cfg80211_alloc_event_skb 0x5467a97c
-#SYMVER __cfg80211_send_event_skb 0x22fe18d2
-#SYMVER cfg80211_nan_match 0xdee8acf8
-#SYMVER cfg80211_nan_func_terminated 0x753f51b0
-#SYMVER __cfg80211_alloc_reply_skb 0x541eb8c4
-#SYMVER cfg80211_vendor_cmd_reply 0x3c7b9610
-#SYMVER cfg80211_vendor_cmd_get_sender 0x671b19ca
-#SYMVER cfg80211_rx_unprot_mlme_mgmt 0x71a2301e
-#SYMVER cfg80211_links_removed 0xdf4e7301
-#SYMVER cfg80211_notify_new_peer_candidate 0xe91ebb75
-#SYMVER cfg80211_assoc_comeback 0xf83533a5
-#SYMVER cfg80211_ready_on_channel 0xdbe02b48
-#SYMVER cfg80211_remain_on_channel_expired 0x8b8e9be7
-#SYMVER cfg80211_tx_mgmt_expired 0x0ac31904
-#SYMVER cfg80211_new_sta 0x36bdf0c1
-#SYMVER cfg80211_del_sta_sinfo 0x762492a3
-#SYMVER cfg80211_conn_failed 0x23283f35
-#SYMVER cfg80211_rx_spurious_frame 0xa100ce08
-#SYMVER cfg80211_rx_unexpected_4addr_frame 0xf2302853
-#SYMVER cfg80211_control_port_tx_status 0xf8dcc1b1
-#SYMVER cfg80211_mgmt_tx_status_ext 0xaa401a41
-#SYMVER cfg80211_rx_control_port 0x5f3a9374
-#SYMVER cfg80211_cqm_rssi_notify 0xd78f684c
-#SYMVER cfg80211_cqm_txe_notify 0xe2419692
-#SYMVER cfg80211_cqm_pktloss_notify 0x976b52ee
-#SYMVER cfg80211_cqm_beacon_loss_notify 0x45e03808
-#SYMVER cfg80211_gtk_rekey_notify 0x3b3ca278
-#SYMVER cfg80211_pmksa_candidate_notify 0x9ebf7214
-#SYMVER cfg80211_ch_switch_notify 0xe55e2141
-#SYMVER cfg80211_ch_switch_started_notify 0xd1d4bd74
-#SYMVER cfg80211_bss_color_notify 0xc13a2a1d
-#SYMVER cfg80211_sta_opmode_change_notify 0x6a96fa8a
-#SYMVER cfg80211_probe_status 0x2fc5e7cd
-#SYMVER cfg80211_report_obss_beacon_khz 0xeff8abdc
-#SYMVER cfg80211_report_wowlan_wakeup 0x15c88bf9
-#SYMVER cfg80211_tdls_oper_request 0xe9d98f26
-#SYMVER cfg80211_ft_event 0xeee807dd
-#SYMVER cfg80211_crit_proto_stopped 0x803993c2
-#SYMVER cfg80211_external_auth_request 0xd7e201d7
-#SYMVER cfg80211_update_owe_info_event 0x30de57ff
-#SYMVER cfg80211_schedule_channels_check 0x7d12ef6a
+#SYMVER nl80211_send_chandef 0xc15f3157
+#SYMVER cfg80211_check_station_change 0x3402291f
+#SYMVER __cfg80211_alloc_event_skb 0xce077c67
+#SYMVER __cfg80211_send_event_skb 0x799fe147
+#SYMVER cfg80211_nan_match 0x6a4242f1
+#SYMVER cfg80211_nan_func_terminated 0x62a43083
+#SYMVER __cfg80211_alloc_reply_skb 0xc7fb00dc
+#SYMVER cfg80211_vendor_cmd_reply 0xdcc66434
+#SYMVER cfg80211_vendor_cmd_get_sender 0x16036f9a
+#SYMVER cfg80211_rx_unprot_mlme_mgmt 0xd4b33e78
+#SYMVER cfg80211_links_removed 0x8901660e
+#SYMVER cfg80211_notify_new_peer_candidate 0xfb62805c
+#SYMVER cfg80211_assoc_comeback 0x6575b296
+#SYMVER cfg80211_ready_on_channel 0xaf934361
+#SYMVER cfg80211_remain_on_channel_expired 0x51eefd14
+#SYMVER cfg80211_tx_mgmt_expired 0x457a8aec
+#SYMVER cfg80211_new_sta 0x9476bd19
+#SYMVER cfg80211_del_sta_sinfo 0xfdf61e97
+#SYMVER cfg80211_conn_failed 0x5728533c
+#SYMVER cfg80211_rx_spurious_frame 0x42286c31
+#SYMVER cfg80211_rx_unexpected_4addr_frame 0x430b2d0d
+#SYMVER cfg80211_control_port_tx_status 0x3c44a691
+#SYMVER cfg80211_mgmt_tx_status_ext 0x18b6ff12
+#SYMVER cfg80211_rx_control_port 0xd60765f5
+#SYMVER cfg80211_cqm_rssi_notify 0x4889abd2
+#SYMVER cfg80211_cqm_txe_notify 0x775c7cb8
+#SYMVER cfg80211_cqm_pktloss_notify 0xa29fceeb
+#SYMVER cfg80211_cqm_beacon_loss_notify 0xee22eaf0
+#SYMVER cfg80211_gtk_rekey_notify 0xabebeff5
+#SYMVER cfg80211_pmksa_candidate_notify 0x44216169
+#SYMVER cfg80211_ch_switch_notify 0x3bd54a8a
+#SYMVER cfg80211_ch_switch_started_notify 0xec480141
+#SYMVER cfg80211_bss_color_notify 0xf9e7e017
+#SYMVER cfg80211_sta_opmode_change_notify 0x0d6a5aab
+#SYMVER cfg80211_probe_status 0x57a27540
+#SYMVER cfg80211_report_obss_beacon_khz 0xe61969ea
+#SYMVER cfg80211_report_wowlan_wakeup 0xc3cbf4fa
+#SYMVER cfg80211_tdls_oper_request 0x60ee1287
+#SYMVER cfg80211_ft_event 0xf7c0295b
+#SYMVER cfg80211_crit_proto_stopped 0x102bcb5b
+#SYMVER cfg80211_external_auth_request 0x546a88cc
+#SYMVER cfg80211_update_owe_info_event 0xd0d7e244
+#SYMVER cfg80211_schedule_channels_check 0xac0c731b

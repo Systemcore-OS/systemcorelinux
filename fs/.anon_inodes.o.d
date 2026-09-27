@@ -205,6 +205,8 @@ anon_inodes.o: fs/anon_inodes.c include/linux/compiler-version.h \
  include/linux/mm_types.h include/linux/auxvec.h \
  include/uapi/linux/auxvec.h arch/arm64/include/uapi/asm/auxvec.h \
  include/linux/kref.h include/linux/maple_tree.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h \
  include/linux/debugobjects.h include/linux/workqueue_types.h \
  arch/arm64/include/asm/mmu.h include/linux/page-flags.h \
@@ -294,8 +296,8 @@ anon_inodes.o: fs/anon_inodes.c include/linux/compiler-version.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -339,13 +341,12 @@ anon_inodes.o: fs/anon_inodes.c include/linux/compiler-version.h \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- include/linux/kmsan.h include/linux/dma-direction.h \
- include/linux/highmem-internal.h include/linux/pagevec.h \
- include/linux/bio.h include/linux/mempool.h include/linux/cfi.h \
- arch/arm64/include/generated/asm/cfi.h include/asm-generic/cfi.h \
- include/linux/bpf_types.h include/uapi/linux/lsm.h
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/dma-direction.h include/linux/highmem-internal.h \
+ include/linux/pagevec.h include/linux/bio.h include/linux/mempool.h \
+ include/linux/cfi.h arch/arm64/include/generated/asm/cfi.h \
+ include/asm-generic/cfi.h include/linux/bpf_types.h \
+ include/uapi/linux/lsm.h

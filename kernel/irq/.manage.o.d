@@ -178,6 +178,8 @@ manage.o: kernel/irq/manage.c include/linux/compiler-version.h \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
  include/linux/time.h include/linux/time64.h include/vdso/time64.h \
@@ -270,14 +272,14 @@ manage.o: kernel/irq/manage.c include/linux/compiler-version.h \
  include/linux/hardirq.h include/linux/context_tracking_state.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irqdomain.h include/linux/irqdomain_defs.h \
- include/linux/of.h include/linux/mod_devicetable.h \
- include/uapi/linux/mei.h include/uapi/linux/mei_uuid.h \
- include/linux/property.h include/linux/sched/isolation.h \
- include/linux/cpuset.h include/linux/sched/topology.h \
- include/linux/sched/idle.h include/linux/sched/sd_flags.h \
- include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
+ include/asm-generic/hardirq.h include/linux/irqdomain.h \
+ include/linux/irqdomain_defs.h include/linux/of.h \
+ include/linux/mod_devicetable.h include/uapi/linux/mei.h \
+ include/uapi/linux/mei_uuid.h include/linux/property.h \
+ include/linux/sched/isolation.h include/linux/cpuset.h \
+ include/linux/sched/topology.h include/linux/sched/idle.h \
+ include/linux/sched/sd_flags.h include/linux/mm.h \
+ include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
  include/linux/huge_mm.h include/linux/vmstat.h \
@@ -311,12 +313,11 @@ manage.o: kernel/irq/manage.c include/linux/compiler-version.h \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- arch/arm64/include/asm/daifflags.h arch/arm64/include/asm/arch_gicv3.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h arch/arm64/include/asm/daifflags.h \
+ arch/arm64/include/asm/arch_gicv3.h \
  include/linux/irqchip/arm-gic-common.h \
  include/linux/irqchip/arm-vgic-info.h include/asm-generic/mmu_context.h \
  include/linux/tick.h include/linux/clockchips.h \

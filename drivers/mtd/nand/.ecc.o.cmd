@@ -1,4 +1,4 @@
-savedcmd_drivers/mtd/nand/ecc.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/mtd/nand/.ecc.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"ecc"' -DKBUILD_MODNAME='"nandcore"' -D__KBUILD_MODNAME=kmod_nandcore -c -o drivers/mtd/nand/ecc.o drivers/mtd/nand/ecc.c  
+savedcmd_drivers/mtd/nand/ecc.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/mtd/nand/.ecc.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"ecc"' -DKBUILD_MODNAME='"nandcore"' -D__KBUILD_MODNAME=kmod_nandcore -c -o drivers/mtd/nand/ecc.o drivers/mtd/nand/ecc.c  
 
 source_drivers/mtd/nand/ecc.o := drivers/mtd/nand/ecc.c
 
@@ -727,6 +727,10 @@ deps_drivers/mtd/nand/ecc.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1034,22 +1038,22 @@ deps_drivers/mtd/nand/ecc.o := \
 drivers/mtd/nand/ecc.o: $(deps_drivers/mtd/nand/ecc.o)
 
 $(deps_drivers/mtd/nand/ecc.o):
-#SYMVER nand_ecc_init_ctx 0x486c0059
-#SYMVER nand_ecc_cleanup_ctx 0xd02522d2
-#SYMVER nand_ecc_prepare_io_req 0xe816658d
-#SYMVER nand_ecc_finish_io_req 0x78bd56ff
-#SYMVER nand_get_small_page_ooblayout 0x903c8bdb
-#SYMVER nand_get_large_page_ooblayout 0x4e950106
-#SYMVER nand_get_large_page_hamming_ooblayout 0xd27d2d32
-#SYMVER of_get_nand_ecc_user_config 0x3bcb976a
-#SYMVER nand_ecc_is_strong_enough 0x6c17ae9c
-#SYMVER nand_ecc_init_req_tweaking 0xbe65f966
-#SYMVER nand_ecc_cleanup_req_tweaking 0x32df9519
-#SYMVER nand_ecc_tweak_req 0x7aa11cdb
-#SYMVER nand_ecc_restore_req 0xecde2e31
-#SYMVER nand_ecc_get_sw_engine 0x1753e5ef
-#SYMVER nand_ecc_get_on_die_hw_engine 0x8fea5276
-#SYMVER nand_ecc_register_on_host_hw_engine 0x965d85b8
-#SYMVER nand_ecc_unregister_on_host_hw_engine 0x55c22023
-#SYMVER nand_ecc_get_on_host_hw_engine 0x705610e7
-#SYMVER nand_ecc_put_on_host_hw_engine 0x2de5a8b1
+#SYMVER nand_ecc_init_ctx 0x3e444636
+#SYMVER nand_ecc_cleanup_ctx 0xf1188348
+#SYMVER nand_ecc_prepare_io_req 0xfcd7bda8
+#SYMVER nand_ecc_finish_io_req 0x79e5025b
+#SYMVER nand_get_small_page_ooblayout 0x942b2a8a
+#SYMVER nand_get_large_page_ooblayout 0x4a82a057
+#SYMVER nand_get_large_page_hamming_ooblayout 0x417e9253
+#SYMVER of_get_nand_ecc_user_config 0xdab58e1b
+#SYMVER nand_ecc_is_strong_enough 0x09167ec6
+#SYMVER nand_ecc_init_req_tweaking 0xad4d18c8
+#SYMVER nand_ecc_cleanup_req_tweaking 0xbc0d2349
+#SYMVER nand_ecc_tweak_req 0xe1dda1d2
+#SYMVER nand_ecc_restore_req 0xa90e7b9d
+#SYMVER nand_ecc_get_sw_engine 0x822755df
+#SYMVER nand_ecc_get_on_die_hw_engine 0xbb8fb3c8
+#SYMVER nand_ecc_register_on_host_hw_engine 0x899f31f9
+#SYMVER nand_ecc_unregister_on_host_hw_engine 0x16b7da4f
+#SYMVER nand_ecc_get_on_host_hw_engine 0x5cbbeb8d
+#SYMVER nand_ecc_put_on_host_hw_engine 0xd6ca2851

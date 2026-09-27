@@ -1,0 +1,1 @@
+savedcmd_net/sunrpc/auth_gss/rpcsec_gss_krb5.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o net/sunrpc/auth_gss/rpcsec_gss_krb5.ko net/sunrpc/auth_gss/rpcsec_gss_krb5.o net/sunrpc/auth_gss/rpcsec_gss_krb5.mod.o .module-common.o

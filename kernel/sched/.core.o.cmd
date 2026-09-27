@@ -1,4 +1,4 @@
-savedcmd_kernel/sched/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/sched/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Wno-unused-but-set-variable -fno-omit-frame-pointer    -DKBUILD_MODFILE='"kernel/sched/core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"core"' -D__KBUILD_MODNAME=kmod_core -c -o kernel/sched/core.o kernel/sched/core.c  
+savedcmd_kernel/sched/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/sched/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wno-unused-but-set-variable -fno-omit-frame-pointer    -DKBUILD_MODFILE='"kernel/sched/core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"core"' -D__KBUILD_MODNAME=kmod_core -c -o kernel/sched/core.o kernel/sched/core.c  
 
 source_kernel/sched/core.o := kernel/sched/core.c
 
@@ -760,6 +760,11 @@ deps_kernel/sched/core.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -926,7 +931,6 @@ deps_kernel/sched/core.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -965,7 +969,6 @@ deps_kernel/sched/core.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1186,14 +1189,11 @@ deps_kernel/sched/core.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1734,62 +1734,56 @@ $(deps_kernel/sched/core.o):
 #SYMVER __traceiter_ipi_send_cpumask 0xb0eb8b1d
 #SYMVER __SCK__tp_func_ipi_send_cpumask 0xaf7ad94c
 #SYMVER __tracepoint_pelt_cfs_tp 0x56ef15d0
-#SYMVER __traceiter_pelt_cfs_tp 0x91ffb85e
+#SYMVER __traceiter_pelt_cfs_tp 0x5d8bb555
 #SYMVER __SCK__tp_func_pelt_cfs_tp 0xf6beee37
 #SYMVER __tracepoint_pelt_rt_tp 0x50eabb98
-#SYMVER __traceiter_pelt_rt_tp 0xf148d95e
+#SYMVER __traceiter_pelt_rt_tp 0x0a172db5
 #SYMVER __SCK__tp_func_pelt_rt_tp 0x0bf32478
 #SYMVER __tracepoint_pelt_dl_tp 0xd5f5865d
-#SYMVER __traceiter_pelt_dl_tp 0xa8018dfd
+#SYMVER __traceiter_pelt_dl_tp 0x23a30ac8
 #SYMVER __SCK__tp_func_pelt_dl_tp 0x8eec19bd
 #SYMVER __tracepoint_pelt_irq_tp 0x10185973
-#SYMVER __traceiter_pelt_irq_tp 0x259d2d93
+#SYMVER __traceiter_pelt_irq_tp 0x02c09381
 #SYMVER __SCK__tp_func_pelt_irq_tp 0xb049a294
 #SYMVER __tracepoint_pelt_se_tp 0xc636d60f
-#SYMVER __traceiter_pelt_se_tp 0xc24685a2
+#SYMVER __traceiter_pelt_se_tp 0xc9bdf16c
 #SYMVER __SCK__tp_func_pelt_se_tp 0x9d2f49ef
 #SYMVER __tracepoint_pelt_hw_tp 0xb507e0b5
-#SYMVER __traceiter_pelt_hw_tp 0x096b13da
+#SYMVER __traceiter_pelt_hw_tp 0xc417f9e7
 #SYMVER __SCK__tp_func_pelt_hw_tp 0xee1e7f55
 #SYMVER __tracepoint_sched_cpu_capacity_tp 0x26c44a3b
-#SYMVER __traceiter_sched_cpu_capacity_tp 0xa5fc6b21
+#SYMVER __traceiter_sched_cpu_capacity_tp 0x32021946
 #SYMVER __SCK__tp_func_sched_cpu_capacity_tp 0x397e2142
 #SYMVER __tracepoint_sched_overutilized_tp 0xb0802f90
-#SYMVER __traceiter_sched_overutilized_tp 0xbf05abc4
+#SYMVER __traceiter_sched_overutilized_tp 0xac2423b0
 #SYMVER __SCK__tp_func_sched_overutilized_tp 0xaf3a44e9
 #SYMVER __tracepoint_sched_util_est_cfs_tp 0x31dc42f5
-#SYMVER __traceiter_sched_util_est_cfs_tp 0xa7950988
+#SYMVER __traceiter_sched_util_est_cfs_tp 0x8b2d0619
 #SYMVER __SCK__tp_func_sched_util_est_cfs_tp 0x2e66298c
 #SYMVER __tracepoint_sched_util_est_se_tp 0x282b3f94
-#SYMVER __traceiter_sched_util_est_se_tp 0xad61f927
+#SYMVER __traceiter_sched_util_est_se_tp 0x51eee61b
 #SYMVER __SCK__tp_func_sched_util_est_se_tp 0x48c32847
 #SYMVER __tracepoint_sched_update_nr_running_tp 0x476461e8
-#SYMVER __traceiter_sched_update_nr_running_tp 0x380ea812
+#SYMVER __traceiter_sched_update_nr_running_tp 0xc4c42718
 #SYMVER __SCK__tp_func_sched_update_nr_running_tp 0x5a12e60c
 #SYMVER __tracepoint_sched_compute_energy_tp 0xe6524498
-#SYMVER __traceiter_sched_compute_energy_tp 0x46508cbe
+#SYMVER __traceiter_sched_compute_energy_tp 0x77f3cb07
 #SYMVER __SCK__tp_func_sched_compute_energy_tp 0xc2cf214d
 #SYMVER migrate_disable 0x49608959
 #SYMVER migrate_enable 0x4d7272e4
-#SYMVER set_cpus_allowed_ptr 0x6552fc66
-#SYMVER kick_process 0xe6f62ed7
-#SYMVER wake_up_process 0xda34ba9e
-#SYMVER preempt_notifier_inc 0x0402cbbf
-#SYMVER preempt_notifier_dec 0x32bc0fcf
-#SYMVER preempt_notifier_register 0xef01bd5a
-#SYMVER preempt_notifier_unregister 0xd1159dd2
+#SYMVER set_cpus_allowed_ptr 0xdd78e70f
+#SYMVER kick_process 0x87f866e5
+#SYMVER wake_up_process 0x35462a61
 #SYMVER single_task_running 0x4248ae3c
 #SYMVER kstat 0x38869d88
 #SYMVER kernel_cpustat 0xb58aeaab
-#SYMVER preempt_count_add 0xf229424a
-#SYMVER preempt_count_sub 0x706c5a65
 #SYMVER schedule 0x01000e51
 #SYMVER preempt_schedule 0x43b0c9c3
 #SYMVER preempt_schedule_notrace 0xf70e4a4d
 #SYMVER default_wake_function 0xaad8c7d6
-#SYMVER __cond_resched_lock 0xe6af3755
-#SYMVER __cond_resched_rwlock_read 0x46871e32
-#SYMVER __cond_resched_rwlock_write 0x85ea499b
+#SYMVER __cond_resched_lock 0x24ea546b
+#SYMVER __cond_resched_rwlock_read 0x5a92e775
+#SYMVER __cond_resched_rwlock_write 0x00a9d541
 #SYMVER io_schedule_timeout 0xfbc4f89e
 #SYMVER io_schedule 0x93a6e0b2
-#SYMVER sched_show_task 0xa4c8e187
+#SYMVER sched_show_task 0x41f94fb7

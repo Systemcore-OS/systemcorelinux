@@ -1,4 +1,4 @@
-savedcmd_drivers/base/regmap/regmap.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/base/regmap/.regmap.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Idrivers/base/regmap    -DKBUILD_MODFILE='"drivers/base/regmap/regmap"' -DKBUILD_BASENAME='"regmap"' -DKBUILD_MODNAME='"regmap"' -D__KBUILD_MODNAME=kmod_regmap -c -o drivers/base/regmap/regmap.o drivers/base/regmap/regmap.c  
+savedcmd_drivers/base/regmap/regmap.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/base/regmap/.regmap.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Idrivers/base/regmap    -DKBUILD_MODFILE='"drivers/base/regmap/regmap"' -DKBUILD_BASENAME='"regmap"' -DKBUILD_MODNAME='"regmap"' -D__KBUILD_MODNAME=kmod_regmap -c -o drivers/base/regmap/regmap.o drivers/base/regmap/regmap.c  
 
 source_drivers/base/regmap/regmap.o := drivers/base/regmap/regmap.c
 
@@ -703,6 +703,11 @@ deps_drivers/base/regmap/regmap.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -843,7 +848,6 @@ deps_drivers/base/regmap/regmap.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1161,7 +1165,6 @@ deps_drivers/base/regmap/regmap.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1271,7 +1274,6 @@ deps_drivers/base/regmap/regmap.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/irq_work.h \
     $(wildcard include/config/IRQ_WORK) \
   arch/arm64/include/asm/irq_work.h \
@@ -1369,9 +1371,7 @@ deps_drivers/base/regmap/regmap.o := \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1403,52 +1403,52 @@ drivers/base/regmap/regmap.o: $(deps_drivers/base/regmap/regmap.o)
 
 $(deps_drivers/base/regmap/regmap.o):
 #SYMVER regmap_reg_in_ranges 0x0465a073
-#SYMVER regmap_check_range_table 0x6e90fd80
-#SYMVER regmap_attach_dev 0x4373f285
-#SYMVER regmap_get_val_endian 0x50285009
-#SYMVER __regmap_init 0x1cac5f2a
-#SYMVER __devm_regmap_init 0x1db8cd50
-#SYMVER devm_regmap_field_alloc 0xb3b03139
-#SYMVER regmap_field_bulk_alloc 0xaad162ea
-#SYMVER devm_regmap_field_bulk_alloc 0x3ea153fb
-#SYMVER regmap_field_bulk_free 0x90a66e12
-#SYMVER devm_regmap_field_bulk_free 0xb994a4bf
-#SYMVER devm_regmap_field_free 0x61ed8bef
-#SYMVER regmap_field_alloc 0x133eec05
-#SYMVER regmap_field_free 0x1bb0728d
-#SYMVER regmap_reinit_cache 0x6b170292
-#SYMVER regmap_exit 0x84aaf372
-#SYMVER dev_get_regmap 0xd7538969
-#SYMVER regmap_get_device 0x23d4734c
-#SYMVER regmap_can_raw_write 0x0d4d98aa
-#SYMVER regmap_get_raw_read_max 0x66f002ac
-#SYMVER regmap_get_raw_write_max 0x2ee4c832
-#SYMVER regmap_write 0xf9ac8a02
-#SYMVER regmap_write_async 0x927b53ec
-#SYMVER regmap_raw_write 0x4505a57e
-#SYMVER regmap_noinc_write 0x782a6170
-#SYMVER regmap_field_update_bits_base 0xdbb33e61
-#SYMVER regmap_field_test_bits 0x24e70dcd
-#SYMVER regmap_fields_update_bits_base 0xb50fc3e0
-#SYMVER regmap_bulk_write 0x1111e2d8
-#SYMVER regmap_multi_reg_write 0x6386e2d9
-#SYMVER regmap_multi_reg_write_bypassed 0x98677e9f
-#SYMVER regmap_raw_write_async 0x69ef789c
-#SYMVER regmap_read 0x3fcac796
-#SYMVER regmap_read_bypassed 0x88895c9c
-#SYMVER regmap_raw_read 0x61927776
-#SYMVER regmap_noinc_read 0x8309c84c
-#SYMVER regmap_field_read 0x9f45fb4d
-#SYMVER regmap_fields_read 0x69987056
-#SYMVER regmap_bulk_read 0xef31f6fe
-#SYMVER regmap_multi_reg_read 0xc71c0a8d
-#SYMVER regmap_update_bits_base 0x281c29dc
-#SYMVER regmap_test_bits 0xc94456df
-#SYMVER regmap_async_complete_cb 0x090fe725
-#SYMVER regmap_async_complete 0x99800771
-#SYMVER regmap_register_patch 0x2cdff6b8
-#SYMVER regmap_get_val_bytes 0xa8ad2678
-#SYMVER regmap_get_max_register 0xac1911b9
-#SYMVER regmap_get_reg_stride 0x248559ca
-#SYMVER regmap_might_sleep 0x32ded2d9
-#SYMVER regmap_parse_val 0x2b5488f8
+#SYMVER regmap_check_range_table 0xf72c176c
+#SYMVER regmap_attach_dev 0xbc02f1ad
+#SYMVER regmap_get_val_endian 0xfefc9819
+#SYMVER __regmap_init 0xc5c7b4be
+#SYMVER __devm_regmap_init 0x2c38d02e
+#SYMVER devm_regmap_field_alloc 0x7ed8ff11
+#SYMVER regmap_field_bulk_alloc 0xad6fdac3
+#SYMVER devm_regmap_field_bulk_alloc 0xef000309
+#SYMVER regmap_field_bulk_free 0xad4c9d2e
+#SYMVER devm_regmap_field_bulk_free 0xff5f0cd5
+#SYMVER devm_regmap_field_free 0x9fbe1702
+#SYMVER regmap_field_alloc 0x959ff2e6
+#SYMVER regmap_field_free 0x851f1cb2
+#SYMVER regmap_reinit_cache 0x546c02f1
+#SYMVER regmap_exit 0x7c12dcdc
+#SYMVER dev_get_regmap 0x8fed9274
+#SYMVER regmap_get_device 0xa28361a8
+#SYMVER regmap_can_raw_write 0x603a419e
+#SYMVER regmap_get_raw_read_max 0x5c5aec6a
+#SYMVER regmap_get_raw_write_max 0x3439a94c
+#SYMVER regmap_write 0x3ba22014
+#SYMVER regmap_write_async 0xbea83168
+#SYMVER regmap_raw_write 0x37db9dde
+#SYMVER regmap_noinc_write 0x02a42e14
+#SYMVER regmap_field_update_bits_base 0xc3cd5c2c
+#SYMVER regmap_field_test_bits 0x2f2303ee
+#SYMVER regmap_fields_update_bits_base 0x4871dbd8
+#SYMVER regmap_bulk_write 0xa6be29bb
+#SYMVER regmap_multi_reg_write 0xe53f1151
+#SYMVER regmap_multi_reg_write_bypassed 0xe96a9bcc
+#SYMVER regmap_raw_write_async 0x8faf8e92
+#SYMVER regmap_read 0x5e6a02c7
+#SYMVER regmap_read_bypassed 0xd7489860
+#SYMVER regmap_raw_read 0x415f6bc1
+#SYMVER regmap_noinc_read 0x4eb182f7
+#SYMVER regmap_field_read 0x1bf77f7c
+#SYMVER regmap_fields_read 0xb2c00523
+#SYMVER regmap_bulk_read 0x05d29923
+#SYMVER regmap_multi_reg_read 0x1131b27e
+#SYMVER regmap_update_bits_base 0x9b30ac11
+#SYMVER regmap_test_bits 0xc868f38e
+#SYMVER regmap_async_complete_cb 0xf306c8ee
+#SYMVER regmap_async_complete 0xe77214c5
+#SYMVER regmap_register_patch 0x8636ba8e
+#SYMVER regmap_get_val_bytes 0x5c7b6d32
+#SYMVER regmap_get_max_register 0xfcf6fd2c
+#SYMVER regmap_get_reg_stride 0xc4bde6ff
+#SYMVER regmap_might_sleep 0xed5debbf
+#SYMVER regmap_parse_val 0x095507f0

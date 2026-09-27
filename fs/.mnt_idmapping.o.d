@@ -200,6 +200,8 @@ mnt_idmapping.o: fs/mnt_idmapping.c include/linux/compiler-version.h \
  include/linux/mm_types.h include/linux/auxvec.h \
  include/uapi/linux/auxvec.h arch/arm64/include/uapi/asm/auxvec.h \
  include/linux/kref.h include/linux/maple_tree.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/vdso/jiffies.h \
  include/generated/timeconst.h include/vdso/ktime.h \

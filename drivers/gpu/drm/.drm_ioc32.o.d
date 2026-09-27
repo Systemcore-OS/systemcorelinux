@@ -194,7 +194,9 @@ drm_ioc32.o: drivers/gpu/drm/drm_ioc32.c include/linux/compiler-version.h \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/wait.h \
- include/linux/uprobes.h include/linux/page-flags-layout.h \
+ include/linux/uprobes.h arch/arm64/include/asm/uprobes.h \
+ arch/arm64/include/asm/debug-monitors.h arch/arm64/include/asm/esr.h \
+ arch/arm64/include/asm/probes.h include/linux/page-flags-layout.h \
  include/generated/bounds.h include/linux/workqueue.h \
  include/linux/timer.h include/linux/ktime.h include/linux/jiffies.h \
  include/vdso/jiffies.h include/generated/timeconst.h \
@@ -307,8 +309,8 @@ drm_ioc32.o: drivers/gpu/drm/drm_ioc32.c include/linux/compiler-version.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/generated/asm/irq_regs.h \
  include/asm-generic/irq_regs.h include/linux/irqdesc.h \
  arch/arm64/include/generated/asm/hw_irq.h include/asm-generic/hw_irq.h \
@@ -322,8 +324,7 @@ drm_ioc32.o: drivers/gpu/drm/drm_ioc32.c include/linux/compiler-version.h \
  include/uapi/linux/seccomp.h arch/arm64/include/asm/seccomp.h \
  arch/arm64/include/generated/asm/unistd_compat_32.h \
  include/asm-generic/seccomp.h arch/arm64/include/asm/ftrace.h \
- include/linux/ftrace_regs.h include/linux/objpool.h \
- include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
- include/asm-generic/kprobes.h arch/arm64/include/asm/probes.h \
- arch/arm64/include/asm/kgdb.h arch/arm64/include/asm/debug-monitors.h \
- include/drm/drm_property.h include/uapi/drm/drm_mode.h
+ include/linux/objpool.h include/linux/rethook.h \
+ arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
+ arch/arm64/include/asm/kgdb.h include/drm/drm_property.h \
+ include/uapi/drm/drm_mode.h

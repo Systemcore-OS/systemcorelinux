@@ -1,4 +1,4 @@
-savedcmd_drivers/of/property.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/of/.property.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/of/property"' -DKBUILD_BASENAME='"property"' -DKBUILD_MODNAME='"property"' -D__KBUILD_MODNAME=kmod_property -c -o drivers/of/property.o drivers/of/property.c  
+savedcmd_drivers/of/property.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/of/.property.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/of/property"' -DKBUILD_BASENAME='"property"' -DKBUILD_MODNAME='"property"' -D__KBUILD_MODNAME=kmod_property -c -o drivers/of/property.o drivers/of/property.c  
 
 source_drivers/of/property.o := drivers/of/property.c
 
@@ -692,6 +692,11 @@ deps_drivers/of/property.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -879,7 +884,6 @@ deps_drivers/of/property.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1068,28 +1072,28 @@ deps_drivers/of/property.o := \
 drivers/of/property.o: $(deps_drivers/of/property.o)
 
 $(deps_drivers/of/property.o):
-#SYMVER of_graph_is_present 0x5fe95c86
-#SYMVER of_property_count_elems_of_size 0xcad7539d
-#SYMVER of_property_read_u32_index 0x7f51ed4c
-#SYMVER of_property_read_u64_index 0xed9e3dd9
-#SYMVER of_property_read_variable_u8_array 0xde969c02
-#SYMVER of_property_read_variable_u16_array 0x50f6ccf8
-#SYMVER of_property_read_variable_u32_array 0x0ad834b0
-#SYMVER of_property_read_u64 0xaad840fc
-#SYMVER of_property_read_variable_u64_array 0x42d1af09
-#SYMVER of_property_read_string 0x171379da
-#SYMVER of_property_match_string 0xdf3346ee
-#SYMVER of_property_read_string_helper 0x4f7ba37f
-#SYMVER of_prop_next_u32 0x9ded429e
-#SYMVER of_prop_next_string 0x40d43c22
-#SYMVER of_graph_parse_endpoint 0x8cb0d7fd
-#SYMVER of_graph_get_port_by_id 0xb33926b9
-#SYMVER of_graph_get_next_endpoint 0x22c66531
-#SYMVER of_graph_get_endpoint_by_regs 0x831cce9f
-#SYMVER of_graph_get_remote_endpoint 0x246a90bd
-#SYMVER of_graph_get_port_parent 0x767de17d
-#SYMVER of_graph_get_remote_port_parent 0xe0f2701b
-#SYMVER of_graph_get_remote_port 0x948a98ed
-#SYMVER of_graph_get_endpoint_count 0x2a95f292
-#SYMVER of_graph_get_remote_node 0x08785dce
+#SYMVER of_graph_is_present 0x76db0900
+#SYMVER of_property_count_elems_of_size 0xda5758c8
+#SYMVER of_property_read_u32_index 0x793deb6b
+#SYMVER of_property_read_u64_index 0xf04d2050
+#SYMVER of_property_read_variable_u8_array 0xbcadb305
+#SYMVER of_property_read_variable_u16_array 0x59e5bd15
+#SYMVER of_property_read_variable_u32_array 0x58d422fd
+#SYMVER of_property_read_u64 0x4b0be257
+#SYMVER of_property_read_variable_u64_array 0x5da591d5
+#SYMVER of_property_read_string 0xe4c74392
+#SYMVER of_property_match_string 0x9946fe2e
+#SYMVER of_property_read_string_helper 0xe2fc6d62
+#SYMVER of_prop_next_u32 0xced30f83
+#SYMVER of_prop_next_string 0xe416cf65
+#SYMVER of_graph_parse_endpoint 0x93b2cf53
+#SYMVER of_graph_get_port_by_id 0x76ab54fe
+#SYMVER of_graph_get_next_endpoint 0x83358b6d
+#SYMVER of_graph_get_endpoint_by_regs 0xe2b6296b
+#SYMVER of_graph_get_remote_endpoint 0x47953366
+#SYMVER of_graph_get_port_parent 0x57c24182
+#SYMVER of_graph_get_remote_port_parent 0xc906aa0e
+#SYMVER of_graph_get_remote_port 0x7cf7deac
+#SYMVER of_graph_get_endpoint_count 0xe91cd0ff
+#SYMVER of_graph_get_remote_node 0x1f1a5826
 #SYMVER of_fwnode_ops 0x8d1a1cb6

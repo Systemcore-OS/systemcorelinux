@@ -1,4 +1,4 @@
-savedcmd_net/ipv4/inet_connection_sock.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ipv4/.inet_connection_sock.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/ipv4/inet_connection_sock"' -DKBUILD_BASENAME='"inet_connection_sock"' -DKBUILD_MODNAME='"inet_connection_sock"' -D__KBUILD_MODNAME=kmod_inet_connection_sock -c -o net/ipv4/inet_connection_sock.o net/ipv4/inet_connection_sock.c  
+savedcmd_net/ipv4/inet_connection_sock.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ipv4/.inet_connection_sock.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/ipv4/inet_connection_sock"' -DKBUILD_BASENAME='"inet_connection_sock"' -DKBUILD_MODNAME='"inet_connection_sock"' -D__KBUILD_MODNAME=kmod_inet_connection_sock -c -o net/ipv4/inet_connection_sock.o net/ipv4/inet_connection_sock.c  
 
 source_net/ipv4/inet_connection_sock.o := net/ipv4/inet_connection_sock.c
 
@@ -729,6 +729,10 @@ deps_net/ipv4/inet_connection_sock.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1193,7 +1197,6 @@ deps_net/ipv4/inet_connection_sock.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1352,14 +1355,11 @@ deps_net/ipv4/inet_connection_sock.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1676,27 +1676,27 @@ deps_net/ipv4/inet_connection_sock.o := \
 net/ipv4/inet_connection_sock.o: $(deps_net/ipv4/inet_connection_sock.o)
 
 $(deps_net/ipv4/inet_connection_sock.o):
-#SYMVER inet_rcv_saddr_equal 0x1aaf221d
-#SYMVER inet_sk_get_local_port_range 0x6b2ff2bc
-#SYMVER inet_csk_get_port 0x62e6d304
-#SYMVER inet_csk_accept 0xcb91e570
-#SYMVER inet_csk_init_xmit_timers 0x162d9562
-#SYMVER inet_csk_clear_xmit_timers 0x86d06138
-#SYMVER inet_csk_delete_keepalive_timer 0x1783bd6a
-#SYMVER inet_csk_reset_keepalive_timer 0xde86aad8
-#SYMVER inet_csk_route_req 0x082066cf
-#SYMVER inet_csk_route_child_sock 0xe018fa7d
-#SYMVER inet_rtx_syn_ack 0xdb83c19e
-#SYMVER inet_reqsk_alloc 0xea037da4
-#SYMVER inet_csk_reqsk_queue_drop 0x951acd5b
-#SYMVER inet_csk_reqsk_queue_drop_and_put 0xb2dc4dbf
-#SYMVER inet_csk_reqsk_queue_hash_add 0x4c9a470d
-#SYMVER inet_csk_clone_lock 0x12ad2666
-#SYMVER inet_csk_destroy_sock 0xa3488006
-#SYMVER inet_csk_prepare_forced_close 0x03d3f4dc
-#SYMVER inet_csk_listen_start 0x8edb8247
-#SYMVER inet_csk_reqsk_queue_add 0x19ebacff
-#SYMVER inet_csk_complete_hashdance 0xcaad84b9
-#SYMVER inet_csk_listen_stop 0x829cfa94
-#SYMVER inet_csk_addr2sockaddr 0x1e07abc6
-#SYMVER inet_csk_update_pmtu 0x120415a4
+#SYMVER inet_rcv_saddr_equal 0xcd9f0406
+#SYMVER inet_sk_get_local_port_range 0x9e615eac
+#SYMVER inet_csk_get_port 0x7c443e1d
+#SYMVER inet_csk_accept 0xa5f7b1dc
+#SYMVER inet_csk_init_xmit_timers 0xb4539787
+#SYMVER inet_csk_clear_xmit_timers 0x7d2b1341
+#SYMVER inet_csk_delete_keepalive_timer 0xfdf7aaaa
+#SYMVER inet_csk_reset_keepalive_timer 0x7e22fa3e
+#SYMVER inet_csk_route_req 0x6310a20b
+#SYMVER inet_csk_route_child_sock 0xa7c09acb
+#SYMVER inet_rtx_syn_ack 0x5dd0cdef
+#SYMVER inet_reqsk_alloc 0x5449808e
+#SYMVER inet_csk_reqsk_queue_drop 0x4ba8dab9
+#SYMVER inet_csk_reqsk_queue_drop_and_put 0xb570f0b5
+#SYMVER inet_csk_reqsk_queue_hash_add 0x8292218c
+#SYMVER inet_csk_clone_lock 0x2aec61b5
+#SYMVER inet_csk_destroy_sock 0xbeed52d1
+#SYMVER inet_csk_prepare_forced_close 0x6efbc2f0
+#SYMVER inet_csk_listen_start 0x072c1032
+#SYMVER inet_csk_reqsk_queue_add 0x18feb2d5
+#SYMVER inet_csk_complete_hashdance 0x64fcbab8
+#SYMVER inet_csk_listen_stop 0xdb2ff67d
+#SYMVER inet_csk_addr2sockaddr 0xc5446048
+#SYMVER inet_csk_update_pmtu 0x03476c0f

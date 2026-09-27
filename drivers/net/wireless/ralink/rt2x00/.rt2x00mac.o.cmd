@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/ralink/rt2x00/rt2x00mac.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/ralink/rt2x00/.rt2x00mac.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"rt2x00mac"' -DKBUILD_MODNAME='"rt2x00lib"' -D__KBUILD_MODNAME=kmod_rt2x00lib -c -o drivers/net/wireless/ralink/rt2x00/rt2x00mac.o drivers/net/wireless/ralink/rt2x00/rt2x00mac.c  
+savedcmd_drivers/net/wireless/ralink/rt2x00/rt2x00mac.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/ralink/rt2x00/.rt2x00mac.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"rt2x00mac"' -DKBUILD_MODNAME='"rt2x00lib"' -D__KBUILD_MODNAME=kmod_rt2x00lib -c -o drivers/net/wireless/ralink/rt2x00/rt2x00mac.o drivers/net/wireless/ralink/rt2x00/rt2x00mac.c  
 
 source_drivers/net/wireless/ralink/rt2x00/rt2x00mac.o := drivers/net/wireless/ralink/rt2x00/rt2x00mac.c
 
@@ -728,6 +728,10 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2x00mac.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -983,7 +987,6 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2x00mac.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1214,14 +1217,11 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2x00mac.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1614,24 +1614,24 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2x00mac.o := \
 drivers/net/wireless/ralink/rt2x00/rt2x00mac.o: $(deps_drivers/net/wireless/ralink/rt2x00/rt2x00mac.o)
 
 $(deps_drivers/net/wireless/ralink/rt2x00/rt2x00mac.o):
-#SYMVER rt2x00mac_tx 0xf96853fc
-#SYMVER rt2x00mac_start 0x1f16b39e
-#SYMVER rt2x00mac_stop 0xd6b42f7f
-#SYMVER rt2x00mac_reconfig_complete 0xb2fe81d7
-#SYMVER rt2x00mac_add_interface 0xd3e78c2d
-#SYMVER rt2x00mac_remove_interface 0x40e59dec
-#SYMVER rt2x00mac_config 0x03fbc8c9
-#SYMVER rt2x00mac_configure_filter 0x14dc5aeb
-#SYMVER rt2x00mac_set_tim 0xb1cc4621
-#SYMVER rt2x00mac_set_key 0x337851ff
-#SYMVER rt2x00mac_sw_scan_start 0xbb2d0648
-#SYMVER rt2x00mac_sw_scan_complete 0x92539888
-#SYMVER rt2x00mac_get_stats 0x76a7cae0
-#SYMVER rt2x00mac_bss_info_changed 0xfaff0ab8
-#SYMVER rt2x00mac_conf_tx 0xc382766c
-#SYMVER rt2x00mac_rfkill_poll 0x3a1e0ef5
-#SYMVER rt2x00mac_flush 0x6fc10af9
-#SYMVER rt2x00mac_set_antenna 0x8c2de486
-#SYMVER rt2x00mac_get_antenna 0x4d8cc16e
-#SYMVER rt2x00mac_get_ringparam 0xd9e30e98
-#SYMVER rt2x00mac_tx_frames_pending 0xf5136410
+#SYMVER rt2x00mac_tx 0x8a7c0d0f
+#SYMVER rt2x00mac_start 0xa60e15fa
+#SYMVER rt2x00mac_stop 0xc3ccf26c
+#SYMVER rt2x00mac_reconfig_complete 0xa811e345
+#SYMVER rt2x00mac_add_interface 0x72155792
+#SYMVER rt2x00mac_remove_interface 0xeb35206c
+#SYMVER rt2x00mac_config 0x49da9faa
+#SYMVER rt2x00mac_configure_filter 0xb40fe8e8
+#SYMVER rt2x00mac_set_tim 0x4b8404ea
+#SYMVER rt2x00mac_set_key 0xb35204b5
+#SYMVER rt2x00mac_sw_scan_start 0x0b769ae1
+#SYMVER rt2x00mac_sw_scan_complete 0xc6fa7757
+#SYMVER rt2x00mac_get_stats 0xf34ca105
+#SYMVER rt2x00mac_bss_info_changed 0xecf1f443
+#SYMVER rt2x00mac_conf_tx 0xcafd6544
+#SYMVER rt2x00mac_rfkill_poll 0x0498bace
+#SYMVER rt2x00mac_flush 0x07911515
+#SYMVER rt2x00mac_set_antenna 0x648b7f36
+#SYMVER rt2x00mac_get_antenna 0xbafe8a1e
+#SYMVER rt2x00mac_get_ringparam 0xa6bb5a51
+#SYMVER rt2x00mac_tx_frames_pending 0xb1ec3188

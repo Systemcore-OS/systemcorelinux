@@ -1,4 +1,4 @@
-savedcmd_fs/debugfs/file.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/debugfs/.file.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"fs/debugfs/debugfs"' -DKBUILD_BASENAME='"file"' -DKBUILD_MODNAME='"debugfs"' -D__KBUILD_MODNAME=kmod_debugfs -c -o fs/debugfs/file.o fs/debugfs/file.c  
+savedcmd_fs/debugfs/file.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/debugfs/.file.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/debugfs/debugfs"' -DKBUILD_BASENAME='"file"' -DKBUILD_MODNAME='"debugfs"' -D__KBUILD_MODNAME=kmod_debugfs -c -o fs/debugfs/file.o fs/debugfs/file.c  
 
 source_fs/debugfs/file.o := fs/debugfs/file.c
 
@@ -728,6 +728,10 @@ deps_fs/debugfs/file.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1084,7 +1088,6 @@ deps_fs/debugfs/file.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1179,14 +1182,11 @@ deps_fs/debugfs/file.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1355,31 +1355,31 @@ deps_fs/debugfs/file.o := \
 fs/debugfs/file.o: $(deps_fs/debugfs/file.o)
 
 $(deps_fs/debugfs/file.o):
-#SYMVER debugfs_real_fops 0xa824883f
-#SYMVER debugfs_file_get 0x16486507
-#SYMVER debugfs_file_put 0xb966f7d4
-#SYMVER debugfs_enter_cancellation 0x9b17d075
-#SYMVER debugfs_leave_cancellation 0x8c8c1c8b
-#SYMVER debugfs_attr_read 0xa2b27f16
-#SYMVER debugfs_attr_write 0xc817013e
-#SYMVER debugfs_attr_write_signed 0x09e0067b
-#SYMVER debugfs_create_u8 0x3ab374ef
-#SYMVER debugfs_create_u16 0x08b824ce
-#SYMVER debugfs_create_u32 0xc98d8a8f
-#SYMVER debugfs_create_u64 0x1c7e7c0b
-#SYMVER debugfs_create_ulong 0x49cef678
-#SYMVER debugfs_create_x8 0x47c476d6
-#SYMVER debugfs_create_x16 0xe832b52f
-#SYMVER debugfs_create_x32 0x29071b6e
-#SYMVER debugfs_create_x64 0xfcf4edea
-#SYMVER debugfs_create_size_t 0x1083a86d
-#SYMVER debugfs_create_atomic_t 0x79f55b24
-#SYMVER debugfs_read_file_bool 0x67f69817
-#SYMVER debugfs_write_file_bool 0x293f4c2a
-#SYMVER debugfs_create_bool 0x5a092cf6
-#SYMVER debugfs_create_str 0x16914c46
-#SYMVER debugfs_create_blob 0xf082e6aa
-#SYMVER debugfs_create_u32_array 0xcfaac429
-#SYMVER debugfs_print_regs32 0x47182422
-#SYMVER debugfs_create_regset32 0xe239b105
-#SYMVER debugfs_create_devm_seqfile 0x29ebd1ba
+#SYMVER debugfs_real_fops 0x85216a63
+#SYMVER debugfs_file_get 0xf38f8513
+#SYMVER debugfs_file_put 0xeea955e7
+#SYMVER debugfs_enter_cancellation 0x58ebff63
+#SYMVER debugfs_leave_cancellation 0x80dea464
+#SYMVER debugfs_attr_read 0x7e2b7e29
+#SYMVER debugfs_attr_write 0xd1dc1eec
+#SYMVER debugfs_attr_write_signed 0xb893f15f
+#SYMVER debugfs_create_u8 0x9b7dad42
+#SYMVER debugfs_create_u16 0x290350d4
+#SYMVER debugfs_create_u32 0x386f9338
+#SYMVER debugfs_create_u64 0x9c4fe4f6
+#SYMVER debugfs_create_ulong 0xf75d18c1
+#SYMVER debugfs_create_x8 0x01f2716b
+#SYMVER debugfs_create_x16 0xe220cb4f
+#SYMVER debugfs_create_x32 0xf34c08a3
+#SYMVER debugfs_create_x64 0x576c7f6d
+#SYMVER debugfs_create_size_t 0x5159f580
+#SYMVER debugfs_create_atomic_t 0x8ae29575
+#SYMVER debugfs_read_file_bool 0x658d8b9e
+#SYMVER debugfs_write_file_bool 0xcc462f13
+#SYMVER debugfs_create_bool 0xe9551a5b
+#SYMVER debugfs_create_str 0xf388072b
+#SYMVER debugfs_create_blob 0xcaaf2467
+#SYMVER debugfs_create_u32_array 0x055845df
+#SYMVER debugfs_print_regs32 0x4e917711
+#SYMVER debugfs_create_regset32 0x3e493fbd
+#SYMVER debugfs_create_devm_seqfile 0xbebadc72

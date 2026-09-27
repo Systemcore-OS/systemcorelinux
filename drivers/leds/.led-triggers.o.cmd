@@ -1,4 +1,4 @@
-savedcmd_drivers/leds/led-triggers.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/leds/.led-triggers.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/leds/led-triggers"' -DKBUILD_BASENAME='"led_triggers"' -DKBUILD_MODNAME='"led_triggers"' -D__KBUILD_MODNAME=kmod_led_triggers -c -o drivers/leds/led-triggers.o drivers/leds/led-triggers.c  
+savedcmd_drivers/leds/led-triggers.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/leds/.led-triggers.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/leds/led-triggers"' -DKBUILD_BASENAME='"led_triggers"' -DKBUILD_MODNAME='"led_triggers"' -D__KBUILD_MODNAME=kmod_led_triggers -c -o drivers/leds/led-triggers.o drivers/leds/led-triggers.c  
 
 source_drivers/leds/led-triggers.o := drivers/leds/led-triggers.c
 
@@ -703,6 +703,11 @@ deps_drivers/leds/led-triggers.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -843,7 +848,6 @@ deps_drivers/leds/led-triggers.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1088,17 +1092,17 @@ deps_drivers/leds/led-triggers.o := \
 drivers/leds/led-triggers.o: $(deps_drivers/leds/led-triggers.o)
 
 $(deps_drivers/leds/led-triggers.o):
-#SYMVER led_trigger_write 0xe7060041
-#SYMVER led_trigger_read 0x8667a603
-#SYMVER led_trigger_set 0xe0ac1018
-#SYMVER led_trigger_remove 0xc45869eb
-#SYMVER led_trigger_set_default 0x99d7fdc5
-#SYMVER led_trigger_register 0xea821503
-#SYMVER led_trigger_unregister 0xa393a677
-#SYMVER devm_led_trigger_register 0x387dc44e
-#SYMVER led_trigger_event 0x2d4fe3a0
-#SYMVER led_mc_trigger_event 0xce7c44d3
-#SYMVER led_trigger_blink 0x57dd0f07
-#SYMVER led_trigger_blink_oneshot 0xe8a8d2e1
-#SYMVER led_trigger_register_simple 0xc6388a02
-#SYMVER led_trigger_unregister_simple 0x16a5a032
+#SYMVER led_trigger_write 0x30a16e41
+#SYMVER led_trigger_read 0xefc8df7f
+#SYMVER led_trigger_set 0x5d6bdd2d
+#SYMVER led_trigger_remove 0xe797c696
+#SYMVER led_trigger_set_default 0x72b61f87
+#SYMVER led_trigger_register 0x6534f5ba
+#SYMVER led_trigger_unregister 0x50c63ad6
+#SYMVER devm_led_trigger_register 0xd658f9f3
+#SYMVER led_trigger_event 0x803b5283
+#SYMVER led_mc_trigger_event 0xbe6fb3f5
+#SYMVER led_trigger_blink 0x06acec71
+#SYMVER led_trigger_blink_oneshot 0xe8a2140a
+#SYMVER led_trigger_register_simple 0xb58dad7c
+#SYMVER led_trigger_unregister_simple 0xd4587674

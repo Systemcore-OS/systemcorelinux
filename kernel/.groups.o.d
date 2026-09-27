@@ -184,27 +184,30 @@ groups.o: kernel/groups.c include/linux/compiler-version.h \
  include/linux/auxvec.h include/uapi/linux/auxvec.h \
  arch/arm64/include/uapi/asm/auxvec.h include/linux/kref.h \
  include/linux/maple_tree.h include/linux/completion.h \
- include/linux/swait.h include/linux/uprobes.h include/linux/workqueue.h \
- include/linux/timer.h include/linux/ktime.h include/linux/jiffies.h \
- include/linux/time.h include/linux/time32.h include/linux/timex.h \
- include/uapi/linux/timex.h arch/arm64/include/asm/timex.h \
- arch/arm64/include/asm/arch_timer.h include/clocksource/arm_arch_timer.h \
- include/linux/timecounter.h include/asm-generic/timex.h \
- include/vdso/time32.h include/vdso/time.h include/vdso/jiffies.h \
- include/generated/timeconst.h include/vdso/ktime.h \
- include/linux/timekeeping.h include/linux/clocksource_ids.h \
- include/linux/debugobjects.h include/linux/workqueue_types.h \
- arch/arm64/include/asm/mmu.h include/linux/page-flags.h \
- include/linux/local_lock.h include/linux/local_lock_internal.h \
- include/linux/zswap.h include/linux/memory_hotplug.h \
- include/linux/notifier.h include/linux/srcu.h \
- include/linux/rcu_segcblist.h include/linux/srcutree.h \
- include/linux/rcu_node_tree.h arch/arm64/include/generated/asm/mmzone.h \
- include/asm-generic/mmzone.h include/linux/topology.h \
- include/linux/arch_topology.h arch/arm64/include/asm/topology.h \
- arch/arm64/include/asm/numa.h include/asm-generic/numa.h \
- include/asm-generic/topology.h include/linux/percpu-refcount.h \
- include/linux/hash.h include/linux/kasan.h include/linux/security.h \
+ include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
+ include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
+ include/linux/jiffies.h include/linux/time.h include/linux/time32.h \
+ include/linux/timex.h include/uapi/linux/timex.h \
+ arch/arm64/include/asm/timex.h arch/arm64/include/asm/arch_timer.h \
+ include/clocksource/arm_arch_timer.h include/linux/timecounter.h \
+ include/asm-generic/timex.h include/vdso/time32.h include/vdso/time.h \
+ include/vdso/jiffies.h include/generated/timeconst.h \
+ include/vdso/ktime.h include/linux/timekeeping.h \
+ include/linux/clocksource_ids.h include/linux/debugobjects.h \
+ include/linux/workqueue_types.h arch/arm64/include/asm/mmu.h \
+ include/linux/page-flags.h include/linux/local_lock.h \
+ include/linux/local_lock_internal.h include/linux/zswap.h \
+ include/linux/memory_hotplug.h include/linux/notifier.h \
+ include/linux/srcu.h include/linux/rcu_segcblist.h \
+ include/linux/srcutree.h include/linux/rcu_node_tree.h \
+ arch/arm64/include/generated/asm/mmzone.h include/asm-generic/mmzone.h \
+ include/linux/topology.h include/linux/arch_topology.h \
+ arch/arm64/include/asm/topology.h arch/arm64/include/asm/numa.h \
+ include/asm-generic/numa.h include/asm-generic/topology.h \
+ include/linux/percpu-refcount.h include/linux/hash.h \
+ include/linux/kasan.h include/linux/security.h \
  include/linux/kernel_read_file.h include/linux/file.h include/linux/fs.h \
  include/linux/wait_bit.h include/linux/kdev_t.h \
  include/uapi/linux/kdev_t.h include/linux/dcache.h \
@@ -289,8 +292,8 @@ groups.o: kernel/groups.c include/linux/compiler-version.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -334,20 +337,19 @@ groups.o: kernel/groups.c include/linux/compiler-version.h \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- include/linux/kmsan.h include/linux/dma-direction.h \
- include/linux/highmem-internal.h include/linux/pagevec.h \
- include/linux/bio.h include/linux/mempool.h include/linux/cfi.h \
- arch/arm64/include/generated/asm/cfi.h include/asm-generic/cfi.h \
- include/linux/bpf_types.h include/uapi/linux/lsm.h include/linux/sort.h \
- include/linux/syscalls.h include/trace/syscall.h \
- include/linux/tracepoint.h include/linux/trace_events.h \
- include/linux/ring_buffer.h include/linux/poll.h \
- include/uapi/linux/poll.h arch/arm64/include/generated/uapi/asm/poll.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/dma-direction.h include/linux/highmem-internal.h \
+ include/linux/pagevec.h include/linux/bio.h include/linux/mempool.h \
+ include/linux/cfi.h arch/arm64/include/generated/asm/cfi.h \
+ include/asm-generic/cfi.h include/linux/bpf_types.h \
+ include/uapi/linux/lsm.h include/linux/sort.h include/linux/syscalls.h \
+ include/trace/syscall.h include/linux/tracepoint.h \
+ include/linux/trace_events.h include/linux/ring_buffer.h \
+ include/linux/poll.h include/uapi/linux/poll.h \
+ arch/arm64/include/generated/uapi/asm/poll.h \
  include/uapi/asm-generic/poll.h include/uapi/linux/eventpoll.h \
  include/uapi/linux/trace_mmap.h include/linux/trace_seq.h \
  include/linux/seq_buf.h include/linux/perf_event.h \

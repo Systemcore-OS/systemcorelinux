@@ -1,4 +1,4 @@
-savedcmd_drivers/i2c/i2c-core-base.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/i2c/.i2c-core-base.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/i2c/i2c-core"' -DKBUILD_BASENAME='"i2c_core_base"' -DKBUILD_MODNAME='"i2c_core"' -D__KBUILD_MODNAME=kmod_i2c_core -c -o drivers/i2c/i2c-core-base.o drivers/i2c/i2c-core-base.c  
+savedcmd_drivers/i2c/i2c-core-base.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/i2c/.i2c-core-base.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/i2c/i2c-core"' -DKBUILD_BASENAME='"i2c_core_base"' -DKBUILD_MODNAME='"i2c_core"' -D__KBUILD_MODNAME=kmod_i2c_core -c -o drivers/i2c/i2c-core-base.o drivers/i2c/i2c-core-base.c  
 
 source_drivers/i2c/i2c-core-base.o := drivers/i2c/i2c-core-base.c
 
@@ -598,6 +598,11 @@ deps_drivers/i2c/i2c-core-base.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -886,7 +891,6 @@ deps_drivers/i2c/i2c-core-base.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1126,7 +1130,6 @@ deps_drivers/i2c/i2c-core-base.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1353,14 +1356,11 @@ deps_drivers/i2c/i2c-core-base.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1501,42 +1501,42 @@ drivers/i2c/i2c-core-base.o: $(deps_drivers/i2c/i2c-core-base.o)
 
 $(deps_drivers/i2c/i2c-core-base.o):
 #SYMVER i2c_freq_mode_string 0x550f3e05
-#SYMVER i2c_match_id 0x203965de
-#SYMVER i2c_get_match_data 0x9ae4993e
-#SYMVER i2c_generic_scl_recovery 0x9d242b88
-#SYMVER i2c_recover_bus 0xbd1c6595
-#SYMVER i2c_bus_type 0xde67f0be
-#SYMVER i2c_client_type 0x1b9f70d7
-#SYMVER i2c_verify_client 0x0223f045
-#SYMVER i2c_new_client_device 0x1c192085
-#SYMVER i2c_unregister_device 0x74ba2dc3
-#SYMVER i2c_find_device_by_fwnode 0x896f9b72
-#SYMVER i2c_new_dummy_device 0xe73efee4
-#SYMVER devm_i2c_new_dummy_device 0x4e1dda11
-#SYMVER i2c_new_ancillary_device 0x9fc75989
-#SYMVER i2c_adapter_depth 0x6fb820a5
-#SYMVER i2c_adapter_type 0xb4517a0d
-#SYMVER i2c_verify_adapter 0xba81d194
-#SYMVER i2c_handle_smbus_host_notify 0x3f06ea3b
-#SYMVER i2c_add_adapter 0xfd6789f4
-#SYMVER i2c_add_numbered_adapter 0x874a506c
-#SYMVER i2c_del_adapter 0xb4d4014d
-#SYMVER devm_i2c_add_adapter 0x58fd9092
-#SYMVER i2c_find_adapter_by_fwnode 0xa51f2f56
-#SYMVER i2c_get_adapter_by_fwnode 0x2793ef8d
-#SYMVER i2c_parse_fw_timings 0x22ddb81e
-#SYMVER i2c_for_each_dev 0xccd0656f
-#SYMVER i2c_register_driver 0xe6b07427
-#SYMVER i2c_del_driver 0x98e8cac4
-#SYMVER i2c_clients_command 0xded8f6fc
-#SYMVER __i2c_transfer 0x43e05459
-#SYMVER i2c_transfer 0x89cc04c1
-#SYMVER i2c_transfer_buffer_flags 0x48c96bf6
-#SYMVER i2c_get_device_id 0xb41c69e9
-#SYMVER i2c_client_get_device_id 0x096701c1
-#SYMVER i2c_probe_func_quick_read 0x59562fd8
-#SYMVER i2c_new_scanned_device 0xdfba4dfe
-#SYMVER i2c_get_adapter 0x9f5ab184
-#SYMVER i2c_put_adapter 0xd5717b93
+#SYMVER i2c_match_id 0xfa1f77e0
+#SYMVER i2c_get_match_data 0x3d7d9eea
+#SYMVER i2c_generic_scl_recovery 0x132ebbec
+#SYMVER i2c_recover_bus 0x89eade87
+#SYMVER i2c_bus_type 0x1c83a95f
+#SYMVER i2c_client_type 0x0340dc21
+#SYMVER i2c_verify_client 0xcc892fd8
+#SYMVER i2c_new_client_device 0xe8400e8d
+#SYMVER i2c_unregister_device 0xc60d07d6
+#SYMVER i2c_find_device_by_fwnode 0x1db615c9
+#SYMVER i2c_new_dummy_device 0x5a8bc16d
+#SYMVER devm_i2c_new_dummy_device 0x6797115c
+#SYMVER i2c_new_ancillary_device 0x9f4d69d0
+#SYMVER i2c_adapter_depth 0x944de842
+#SYMVER i2c_adapter_type 0xe097f288
+#SYMVER i2c_verify_adapter 0x9922f635
+#SYMVER i2c_handle_smbus_host_notify 0x25af97b8
+#SYMVER i2c_add_adapter 0x39acd990
+#SYMVER i2c_add_numbered_adapter 0x3236405d
+#SYMVER i2c_del_adapter 0x9206a65d
+#SYMVER devm_i2c_add_adapter 0xb80d6263
+#SYMVER i2c_find_adapter_by_fwnode 0xb37ee3a7
+#SYMVER i2c_get_adapter_by_fwnode 0x2a905b52
+#SYMVER i2c_parse_fw_timings 0x8710d158
+#SYMVER i2c_for_each_dev 0x642b7d45
+#SYMVER i2c_register_driver 0x07ae5575
+#SYMVER i2c_del_driver 0xc798dd30
+#SYMVER i2c_clients_command 0x2a4b72d3
+#SYMVER __i2c_transfer 0xe5baebd9
+#SYMVER i2c_transfer 0x812581bc
+#SYMVER i2c_transfer_buffer_flags 0xb5a16e55
+#SYMVER i2c_get_device_id 0x496a39e7
+#SYMVER i2c_client_get_device_id 0xfd2965c5
+#SYMVER i2c_probe_func_quick_read 0x43033a79
+#SYMVER i2c_new_scanned_device 0xec2deba6
+#SYMVER i2c_get_adapter 0x6e0172d2
+#SYMVER i2c_put_adapter 0x1e5e5b89
 #SYMVER i2c_get_dma_safe_msg_buf 0x42041512
 #SYMVER i2c_put_dma_safe_msg_buf 0x4dae16e4

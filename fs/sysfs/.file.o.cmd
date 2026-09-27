@@ -1,4 +1,4 @@
-savedcmd_fs/sysfs/file.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/sysfs/.file.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"fs/sysfs/file"' -DKBUILD_BASENAME='"file"' -DKBUILD_MODNAME='"file"' -D__KBUILD_MODNAME=kmod_file -c -o fs/sysfs/file.o fs/sysfs/file.c  
+savedcmd_fs/sysfs/file.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/sysfs/.file.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/sysfs/file"' -DKBUILD_BASENAME='"file"' -DKBUILD_MODNAME='"file"' -D__KBUILD_MODNAME=kmod_file -c -o fs/sysfs/file.o fs/sysfs/file.c  
 
 source_fs/sysfs/file.o := fs/sysfs/file.c
 
@@ -727,6 +727,10 @@ deps_fs/sysfs/file.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1039,21 +1043,21 @@ deps_fs/sysfs/file.o := \
 fs/sysfs/file.o: $(deps_fs/sysfs/file.o)
 
 $(deps_fs/sysfs/file.o):
-#SYMVER sysfs_notify 0x383495e6
-#SYMVER sysfs_create_file_ns 0x76f844ec
-#SYMVER sysfs_create_files 0x6325384e
-#SYMVER sysfs_add_file_to_group 0x3563437b
-#SYMVER sysfs_chmod_file 0xefdca141
-#SYMVER sysfs_break_active_protection 0x10b69224
-#SYMVER sysfs_unbreak_active_protection 0x7e837b18
-#SYMVER sysfs_remove_file_ns 0xe5dd86e2
-#SYMVER sysfs_remove_file_self 0x8bba18f5
-#SYMVER sysfs_remove_files 0x5cb0d20f
-#SYMVER sysfs_remove_file_from_group 0x1a835aef
-#SYMVER sysfs_create_bin_file 0x754a42e4
-#SYMVER sysfs_remove_bin_file 0x55a6de42
-#SYMVER sysfs_file_change_owner 0xe941df92
-#SYMVER sysfs_change_owner 0xac83a05f
+#SYMVER sysfs_notify 0xba8681f6
+#SYMVER sysfs_create_file_ns 0xfba1cce4
+#SYMVER sysfs_create_files 0x68b82e54
+#SYMVER sysfs_add_file_to_group 0x4d9881d3
+#SYMVER sysfs_chmod_file 0x4e81ca4d
+#SYMVER sysfs_break_active_protection 0xdeb6066e
+#SYMVER sysfs_unbreak_active_protection 0xf9ca4165
+#SYMVER sysfs_remove_file_ns 0xd4c79cd2
+#SYMVER sysfs_remove_file_self 0x8554f0c0
+#SYMVER sysfs_remove_files 0xd1db8b63
+#SYMVER sysfs_remove_file_from_group 0x01b81673
+#SYMVER sysfs_create_bin_file 0x21b19195
+#SYMVER sysfs_remove_bin_file 0x24c0afe3
+#SYMVER sysfs_file_change_owner 0x1048bd8e
+#SYMVER sysfs_change_owner 0xc78e15ce
 #SYMVER sysfs_emit 0xe783e261
 #SYMVER sysfs_emit_at 0x99f2d00a
-#SYMVER sysfs_bin_attr_simple_read 0xb712d276
+#SYMVER sysfs_bin_attr_simple_read 0x99adeb03

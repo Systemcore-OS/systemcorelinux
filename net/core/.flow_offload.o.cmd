@@ -1,4 +1,4 @@
-savedcmd_net/core/flow_offload.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.flow_offload.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/core/flow_offload"' -DKBUILD_BASENAME='"flow_offload"' -DKBUILD_MODNAME='"flow_offload"' -D__KBUILD_MODNAME=kmod_flow_offload -c -o net/core/flow_offload.o net/core/flow_offload.c  
+savedcmd_net/core/flow_offload.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.flow_offload.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/core/flow_offload"' -DKBUILD_BASENAME='"flow_offload"' -DKBUILD_MODNAME='"flow_offload"' -D__KBUILD_MODNAME=kmod_flow_offload -c -o net/core/flow_offload.o net/core/flow_offload.c  
 
 source_net/core/flow_offload.o := net/core/flow_offload.c
 
@@ -560,6 +560,11 @@ deps_net/core/flow_offload.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -947,7 +952,6 @@ deps_net/core/flow_offload.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -988,7 +992,6 @@ deps_net/core/flow_offload.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1207,14 +1210,11 @@ deps_net/core/flow_offload.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1566,45 +1566,45 @@ deps_net/core/flow_offload.o := \
 net/core/flow_offload.o: $(deps_net/core/flow_offload.o)
 
 $(deps_net/core/flow_offload.o):
-#SYMVER flow_rule_alloc 0x6c0fd11f
-#SYMVER flow_rule_match_meta 0x9e6113e1
-#SYMVER flow_rule_match_basic 0x8ffc919f
-#SYMVER flow_rule_match_control 0x243b7587
-#SYMVER flow_rule_match_eth_addrs 0x9c3b4e65
-#SYMVER flow_rule_match_vlan 0x2c5641c9
-#SYMVER flow_rule_match_cvlan 0xfc494984
-#SYMVER flow_rule_match_arp 0xaac2bc8d
-#SYMVER flow_rule_match_ipv4_addrs 0xce7795a1
-#SYMVER flow_rule_match_ipv6_addrs 0xefce93df
-#SYMVER flow_rule_match_ip 0xaf117d01
-#SYMVER flow_rule_match_ports 0xade78941
-#SYMVER flow_rule_match_ports_range 0x96e7dbd6
-#SYMVER flow_rule_match_tcp 0xfe806f1a
-#SYMVER flow_rule_match_ipsec 0xc4ccd70e
-#SYMVER flow_rule_match_icmp 0x5bc7c058
-#SYMVER flow_rule_match_mpls 0x12bf4410
-#SYMVER flow_rule_match_enc_control 0x86a2bd9e
-#SYMVER flow_rule_match_enc_ipv4_addrs 0xe3871701
-#SYMVER flow_rule_match_enc_ipv6_addrs 0x8503843e
-#SYMVER flow_rule_match_enc_ip 0x9440e3a4
-#SYMVER flow_rule_match_enc_ports 0x53fd2dcc
-#SYMVER flow_rule_match_enc_keyid 0x1cdde38d
-#SYMVER flow_rule_match_enc_opts 0x871fb407
+#SYMVER flow_rule_alloc 0x7d706782
+#SYMVER flow_rule_match_meta 0x1d9a5216
+#SYMVER flow_rule_match_basic 0xc82ef1d2
+#SYMVER flow_rule_match_control 0x0df9a6c4
+#SYMVER flow_rule_match_eth_addrs 0xefb25bb8
+#SYMVER flow_rule_match_vlan 0x5110794c
+#SYMVER flow_rule_match_cvlan 0xad3a471e
+#SYMVER flow_rule_match_arp 0x78384664
+#SYMVER flow_rule_match_ipv4_addrs 0xd78bbba6
+#SYMVER flow_rule_match_ipv6_addrs 0xac48915a
+#SYMVER flow_rule_match_ip 0x63caa993
+#SYMVER flow_rule_match_ports 0x30d0c075
+#SYMVER flow_rule_match_ports_range 0xcb54751e
+#SYMVER flow_rule_match_tcp 0xedbb024c
+#SYMVER flow_rule_match_ipsec 0x39377a1e
+#SYMVER flow_rule_match_icmp 0x2e9175e6
+#SYMVER flow_rule_match_mpls 0x172bc3d1
+#SYMVER flow_rule_match_enc_control 0xf2e67293
+#SYMVER flow_rule_match_enc_ipv4_addrs 0xc5dc8f9e
+#SYMVER flow_rule_match_enc_ipv6_addrs 0x5b4249f9
+#SYMVER flow_rule_match_enc_ip 0xf6bdd75c
+#SYMVER flow_rule_match_enc_ports 0xe9ffa17b
+#SYMVER flow_rule_match_enc_keyid 0xe231e92c
+#SYMVER flow_rule_match_enc_opts 0xd5ba10f2
 #SYMVER flow_action_cookie_create 0x5bd4ff88
 #SYMVER flow_action_cookie_destroy 0x63a58370
-#SYMVER flow_rule_match_ct 0xf10ffb05
-#SYMVER flow_rule_match_pppoe 0x5533a392
-#SYMVER flow_rule_match_l2tpv3 0x3136364a
-#SYMVER flow_block_cb_alloc 0xdb5a1d6b
-#SYMVER flow_block_cb_free 0x9dad38b2
-#SYMVER flow_block_cb_lookup 0xaaf9017b
-#SYMVER flow_block_cb_priv 0x0393db9d
-#SYMVER flow_block_cb_incref 0x2b252c17
-#SYMVER flow_block_cb_decref 0x5ad5b19f
+#SYMVER flow_rule_match_ct 0x48f8a12b
+#SYMVER flow_rule_match_pppoe 0x4b992807
+#SYMVER flow_rule_match_l2tpv3 0x6438496b
+#SYMVER flow_block_cb_alloc 0x6e17d55e
+#SYMVER flow_block_cb_free 0xe618823f
+#SYMVER flow_block_cb_lookup 0xf7d76577
+#SYMVER flow_block_cb_priv 0xf49a7f8a
+#SYMVER flow_block_cb_incref 0x3d51f163
+#SYMVER flow_block_cb_decref 0x02c47478
 #SYMVER flow_block_cb_is_busy 0xdfd8110c
-#SYMVER flow_block_cb_setup_simple 0x563aa214
-#SYMVER flow_indr_dev_register 0x527ebcda
-#SYMVER flow_indr_dev_unregister 0xb6b6aa7d
-#SYMVER flow_indr_block_cb_alloc 0x06bb41d6
-#SYMVER flow_indr_dev_setup_offload 0xdb56ea8f
+#SYMVER flow_block_cb_setup_simple 0xc3454fc1
+#SYMVER flow_indr_dev_register 0x50ff2828
+#SYMVER flow_indr_dev_unregister 0xf617db5f
+#SYMVER flow_indr_block_cb_alloc 0x8f14501c
+#SYMVER flow_indr_dev_setup_offload 0x01476c83
 #SYMVER flow_indr_dev_exists 0x7a53a06d

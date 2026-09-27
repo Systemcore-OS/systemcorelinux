@@ -1,4 +1,4 @@
-savedcmd_drivers/gpu/drm/scheduler/sched_main.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/scheduler/.sched_main.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"sched_main"' -DKBUILD_MODNAME='"gpu_sched"' -D__KBUILD_MODNAME=kmod_gpu_sched -c -o drivers/gpu/drm/scheduler/sched_main.o drivers/gpu/drm/scheduler/sched_main.c  
+savedcmd_drivers/gpu/drm/scheduler/sched_main.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/scheduler/.sched_main.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"sched_main"' -DKBUILD_MODNAME='"gpu_sched"' -D__KBUILD_MODNAME=kmod_gpu_sched -c -o drivers/gpu/drm/scheduler/sched_main.o drivers/gpu/drm/scheduler/sched_main.c  
 
 source_drivers/gpu/drm/scheduler/sched_main.o := drivers/gpu/drm/scheduler/sched_main.c
 
@@ -708,6 +708,11 @@ deps_drivers/gpu/drm/scheduler/sched_main.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -861,7 +866,6 @@ deps_drivers/gpu/drm/scheduler/sched_main.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1186,7 +1190,6 @@ deps_drivers/gpu/drm/scheduler/sched_main.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1296,7 +1299,6 @@ deps_drivers/gpu/drm/scheduler/sched_main.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/jump_label_ratelimit.h \
   include/linux/perf_regs.h \
     $(wildcard include/config/HAVE_PERF_REGS) \
@@ -1390,9 +1392,7 @@ deps_drivers/gpu/drm/scheduler/sched_main.o := \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/highmem-internal.h \
@@ -1422,24 +1422,24 @@ deps_drivers/gpu/drm/scheduler/sched_main.o := \
 drivers/gpu/drm/scheduler/sched_main.o: $(deps_drivers/gpu/drm/scheduler/sched_main.o)
 
 $(deps_drivers/gpu/drm/scheduler/sched_main.o):
-#SYMVER drm_sched_tdr_queue_imm 0xf9bb0e55
-#SYMVER drm_sched_fault 0xe7e3f280
-#SYMVER drm_sched_suspend_timeout 0xbdba4a51
-#SYMVER drm_sched_resume_timeout 0xdc6669b2
-#SYMVER drm_sched_stop 0xe0dbdf59
-#SYMVER drm_sched_start 0x11d46c16
-#SYMVER drm_sched_resubmit_jobs 0x13ec321f
-#SYMVER drm_sched_job_init 0x69e238cd
-#SYMVER drm_sched_job_arm 0x5b52c153
-#SYMVER drm_sched_job_add_dependency 0x58677f47
-#SYMVER drm_sched_job_add_syncobj_dependency 0xea8af8fa
-#SYMVER drm_sched_job_add_resv_dependencies 0x4b6290f4
-#SYMVER drm_sched_job_add_implicit_dependencies 0x564bb014
-#SYMVER drm_sched_job_cleanup 0xac40f1b5
-#SYMVER drm_sched_pick_best 0x19e1afee
-#SYMVER drm_sched_init 0x1239e339
-#SYMVER drm_sched_fini 0x8bdfedcc
-#SYMVER drm_sched_increase_karma 0xc4e87808
-#SYMVER drm_sched_wqueue_ready 0x55be31d1
-#SYMVER drm_sched_wqueue_stop 0x9de1d1a8
-#SYMVER drm_sched_wqueue_start 0x71ee9b4f
+#SYMVER drm_sched_tdr_queue_imm 0x4ebdc1c0
+#SYMVER drm_sched_fault 0xe08e9d0e
+#SYMVER drm_sched_suspend_timeout 0x3703ecea
+#SYMVER drm_sched_resume_timeout 0x959939a2
+#SYMVER drm_sched_stop 0xd3101c4f
+#SYMVER drm_sched_start 0xb29911c2
+#SYMVER drm_sched_resubmit_jobs 0x11aa9332
+#SYMVER drm_sched_job_init 0xce2c64e4
+#SYMVER drm_sched_job_arm 0x8d000271
+#SYMVER drm_sched_job_add_dependency 0xd78393c0
+#SYMVER drm_sched_job_add_syncobj_dependency 0x43daad37
+#SYMVER drm_sched_job_add_resv_dependencies 0xc37bb6fe
+#SYMVER drm_sched_job_add_implicit_dependencies 0xe2b1dae6
+#SYMVER drm_sched_job_cleanup 0xd66ca238
+#SYMVER drm_sched_pick_best 0x06ca3ea3
+#SYMVER drm_sched_init 0xf71c603a
+#SYMVER drm_sched_fini 0x5b604a3d
+#SYMVER drm_sched_increase_karma 0xdb5a5da1
+#SYMVER drm_sched_wqueue_ready 0x0f93d2d7
+#SYMVER drm_sched_wqueue_stop 0x73cef606
+#SYMVER drm_sched_wqueue_start 0xf986202c

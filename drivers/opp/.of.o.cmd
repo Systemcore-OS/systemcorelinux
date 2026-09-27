@@ -1,4 +1,4 @@
-savedcmd_drivers/opp/of.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/opp/.of.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/opp/of"' -DKBUILD_BASENAME='"of"' -DKBUILD_MODNAME='"of"' -D__KBUILD_MODNAME=kmod_of -c -o drivers/opp/of.o drivers/opp/of.c  
+savedcmd_drivers/opp/of.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/opp/.of.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/opp/of"' -DKBUILD_BASENAME='"of"' -DKBUILD_MODNAME='"of"' -D__KBUILD_MODNAME=kmod_of -c -o drivers/opp/of.o drivers/opp/of.c  
 
 source_drivers/opp/of.o := drivers/opp/of.c
 
@@ -711,6 +711,11 @@ deps_drivers/opp/of.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -851,7 +856,6 @@ deps_drivers/opp/of.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1036,17 +1040,17 @@ deps_drivers/opp/of.o := \
 drivers/opp/of.o: $(deps_drivers/opp/of.o)
 
 $(deps_drivers/opp/of.o):
-#SYMVER dev_pm_opp_of_get_opp_desc_node 0xe8dca9e9
-#SYMVER dev_pm_opp_of_find_icc_paths 0xd82a32fe
-#SYMVER dev_pm_opp_of_remove_table 0x3178c32d
-#SYMVER devm_pm_opp_of_add_table 0x96fd9e53
-#SYMVER dev_pm_opp_of_add_table 0xec3c4276
-#SYMVER dev_pm_opp_of_add_table_indexed 0x320c847e
-#SYMVER devm_pm_opp_of_add_table_indexed 0x9f1da75e
+#SYMVER dev_pm_opp_of_get_opp_desc_node 0xd4a4e4d3
+#SYMVER dev_pm_opp_of_find_icc_paths 0x9354b62c
+#SYMVER dev_pm_opp_of_remove_table 0xde17a91d
+#SYMVER devm_pm_opp_of_add_table 0x74ec7b3e
+#SYMVER dev_pm_opp_of_add_table 0xf7e1ef4d
+#SYMVER dev_pm_opp_of_add_table_indexed 0xa16d5d4a
+#SYMVER devm_pm_opp_of_add_table_indexed 0x931b70ff
 #SYMVER dev_pm_opp_of_cpumask_remove_table 0x801eb65d
 #SYMVER dev_pm_opp_of_cpumask_add_table 0x91519a16
-#SYMVER dev_pm_opp_of_get_sharing_cpus 0x87b6e6cf
-#SYMVER of_get_required_opp_performance_state 0x4db7a6ac
-#SYMVER dev_pm_opp_get_of_node 0x3e3e9660
-#SYMVER dev_pm_opp_calc_power 0x9681f907
-#SYMVER dev_pm_opp_of_register_em 0x0d94ddfd
+#SYMVER dev_pm_opp_of_get_sharing_cpus 0x21f8f169
+#SYMVER of_get_required_opp_performance_state 0xbea1c1a3
+#SYMVER dev_pm_opp_get_of_node 0xd00c2796
+#SYMVER dev_pm_opp_calc_power 0x687fe91c
+#SYMVER dev_pm_opp_of_register_em 0xbb1ae519

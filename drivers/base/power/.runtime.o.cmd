@@ -1,4 +1,4 @@
-savedcmd_drivers/base/power/runtime.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/base/power/.runtime.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/base/power/runtime"' -DKBUILD_BASENAME='"runtime"' -DKBUILD_MODNAME='"runtime"' -D__KBUILD_MODNAME=kmod_runtime -c -o drivers/base/power/runtime.o drivers/base/power/runtime.c  
+savedcmd_drivers/base/power/runtime.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/base/power/.runtime.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/base/power/runtime"' -DKBUILD_BASENAME='"runtime"' -DKBUILD_MODNAME='"runtime"' -D__KBUILD_MODNAME=kmod_runtime -c -o drivers/base/power/runtime.o drivers/base/power/runtime.c  
 
 source_drivers/base/power/runtime.o := drivers/base/power/runtime.c
 
@@ -635,6 +635,11 @@ deps_drivers/base/power/runtime.o := \
   include/linux/swait.h \
   include/linux/wait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -844,7 +849,6 @@ deps_drivers/base/power/runtime.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1030,27 +1034,27 @@ deps_drivers/base/power/runtime.o := \
 drivers/base/power/runtime.o: $(deps_drivers/base/power/runtime.o)
 
 $(deps_drivers/base/power/runtime.o):
-#SYMVER pm_runtime_suspended_time 0xb8fd9a76
-#SYMVER pm_runtime_autosuspend_expiration 0xfe90f6e7
-#SYMVER pm_runtime_set_memalloc_noio 0x16d5bb9c
-#SYMVER pm_schedule_suspend 0xc912f74b
-#SYMVER __pm_runtime_idle 0xb3f7721f
-#SYMVER __pm_runtime_suspend 0x3a0fc465
-#SYMVER __pm_runtime_resume 0x238e93d4
-#SYMVER pm_runtime_get_if_active 0x6628ae99
-#SYMVER pm_runtime_get_if_in_use 0xf6c56154
-#SYMVER __pm_runtime_set_status 0xb5aad726
-#SYMVER pm_runtime_barrier 0x4ed0ba70
-#SYMVER __pm_runtime_disable 0xffe80b26
-#SYMVER pm_runtime_enable 0x78fdd046
-#SYMVER devm_pm_runtime_set_active_enabled 0x18feeea1
-#SYMVER devm_pm_runtime_enable 0x85d52d66
-#SYMVER devm_pm_runtime_get_noresume 0xb8f746ce
-#SYMVER pm_runtime_forbid 0x4a7ea232
-#SYMVER pm_runtime_allow 0xa3a0a64a
-#SYMVER pm_runtime_no_callbacks 0x644561fd
-#SYMVER pm_runtime_irq_safe 0xbf9c2c1a
-#SYMVER pm_runtime_set_autosuspend_delay 0x63ca9eb9
-#SYMVER __pm_runtime_use_autosuspend 0xa06a2c36
-#SYMVER pm_runtime_force_suspend 0x2ba1c577
-#SYMVER pm_runtime_force_resume 0x15d2b184
+#SYMVER pm_runtime_suspended_time 0x07876463
+#SYMVER pm_runtime_autosuspend_expiration 0x7f93260a
+#SYMVER pm_runtime_set_memalloc_noio 0x0287933e
+#SYMVER pm_schedule_suspend 0x2de48401
+#SYMVER __pm_runtime_idle 0x0f741cfe
+#SYMVER __pm_runtime_suspend 0x11f679e4
+#SYMVER __pm_runtime_resume 0xc51f16e2
+#SYMVER pm_runtime_get_if_active 0x4fddbe32
+#SYMVER pm_runtime_get_if_in_use 0xe8699d9f
+#SYMVER __pm_runtime_set_status 0x8a897f7f
+#SYMVER pm_runtime_barrier 0x91bc3863
+#SYMVER __pm_runtime_disable 0xa9138efd
+#SYMVER pm_runtime_enable 0xb3cd3e68
+#SYMVER devm_pm_runtime_set_active_enabled 0xf218437a
+#SYMVER devm_pm_runtime_enable 0x0976bdf1
+#SYMVER devm_pm_runtime_get_noresume 0x48d9d965
+#SYMVER pm_runtime_forbid 0xb5d1a3cf
+#SYMVER pm_runtime_allow 0x5c8fd9b8
+#SYMVER pm_runtime_no_callbacks 0x7afa73b2
+#SYMVER pm_runtime_irq_safe 0x203e4cd3
+#SYMVER pm_runtime_set_autosuspend_delay 0x0f29b5c1
+#SYMVER __pm_runtime_use_autosuspend 0xfa15dd73
+#SYMVER pm_runtime_force_suspend 0x9970e577
+#SYMVER pm_runtime_force_resume 0x409144ea

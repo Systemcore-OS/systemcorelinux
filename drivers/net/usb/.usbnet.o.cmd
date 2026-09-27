@@ -1,4 +1,4 @@
-savedcmd_drivers/net/usb/usbnet.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/usb/.usbnet.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/net/usb/usbnet"' -DKBUILD_BASENAME='"usbnet"' -DKBUILD_MODNAME='"usbnet"' -D__KBUILD_MODNAME=kmod_usbnet -c -o drivers/net/usb/usbnet.o drivers/net/usb/usbnet.c  
+savedcmd_drivers/net/usb/usbnet.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/usb/.usbnet.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/net/usb/usbnet"' -DKBUILD_BASENAME='"usbnet"' -DKBUILD_MODNAME='"usbnet"' -D__KBUILD_MODNAME=kmod_usbnet -c -o drivers/net/usb/usbnet.o drivers/net/usb/usbnet.c  
 
 source_drivers/net/usb/usbnet.o := drivers/net/usb/usbnet.c
 
@@ -728,6 +728,10 @@ deps_drivers/net/usb/usbnet.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1182,7 +1186,6 @@ deps_drivers/net/usb/usbnet.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1341,14 +1344,11 @@ deps_drivers/net/usb/usbnet.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1564,40 +1564,40 @@ deps_drivers/net/usb/usbnet.o := \
 drivers/net/usb/usbnet.o: $(deps_drivers/net/usb/usbnet.o)
 
 $(deps_drivers/net/usb/usbnet.o):
-#SYMVER usbnet_get_endpoints 0xee94fe59
-#SYMVER usbnet_get_ethernet_addr 0xd8d197cd
-#SYMVER usbnet_status_start 0x5a3f21f9
-#SYMVER usbnet_status_stop 0x974f63ac
-#SYMVER usbnet_skb_return 0x000bdd15
-#SYMVER usbnet_update_max_qlen 0x4344081a
-#SYMVER usbnet_change_mtu 0x059afec7
-#SYMVER usbnet_defer_kevent 0xcf8e7405
-#SYMVER usbnet_pause_rx 0x8637c114
-#SYMVER usbnet_resume_rx 0x3db7f0d2
-#SYMVER usbnet_purge_paused_rxq 0x6c24a857
-#SYMVER usbnet_unlink_rx_urbs 0xbf487012
-#SYMVER usbnet_stop 0x1279ea10
-#SYMVER usbnet_open 0xa08c7d7d
-#SYMVER usbnet_get_link_ksettings_mii 0x5fb50f84
-#SYMVER usbnet_get_link_ksettings_internal 0xe03f8f70
-#SYMVER usbnet_set_link_ksettings_mii 0xeeb8959f
-#SYMVER usbnet_get_link 0xc28ba1c5
-#SYMVER usbnet_nway_reset 0x8fadc8a3
-#SYMVER usbnet_get_drvinfo 0x70dd7dd5
-#SYMVER usbnet_get_msglevel 0x711bee39
-#SYMVER usbnet_set_msglevel 0x7ceaa553
-#SYMVER usbnet_set_rx_mode 0x186c82e2
-#SYMVER usbnet_tx_timeout 0xa6d91964
-#SYMVER usbnet_start_xmit 0x6903303c
-#SYMVER usbnet_disconnect 0xd3357eb2
-#SYMVER usbnet_probe 0xe1702f9b
-#SYMVER usbnet_suspend 0xc17850bf
-#SYMVER usbnet_resume 0xfe7657f5
-#SYMVER usbnet_device_suggests_idle 0xa256f577
-#SYMVER usbnet_manage_power 0x7b98745e
-#SYMVER usbnet_link_change 0x2a43e784
-#SYMVER usbnet_read_cmd 0x21d175de
-#SYMVER usbnet_write_cmd 0x715bf8b3
-#SYMVER usbnet_read_cmd_nopm 0xa607ca60
-#SYMVER usbnet_write_cmd_nopm 0x24b94177
-#SYMVER usbnet_write_cmd_async 0x41993b95
+#SYMVER usbnet_get_endpoints 0xf4158ef9
+#SYMVER usbnet_get_ethernet_addr 0xd8b030e4
+#SYMVER usbnet_status_start 0x94eec73e
+#SYMVER usbnet_status_stop 0x530c3b87
+#SYMVER usbnet_skb_return 0xff17a34e
+#SYMVER usbnet_update_max_qlen 0x2777db7b
+#SYMVER usbnet_change_mtu 0xddce3fe6
+#SYMVER usbnet_defer_kevent 0x3aa13ca4
+#SYMVER usbnet_pause_rx 0xca0c78ab
+#SYMVER usbnet_resume_rx 0x72053464
+#SYMVER usbnet_purge_paused_rxq 0xae3b0e1b
+#SYMVER usbnet_unlink_rx_urbs 0x4f7a8916
+#SYMVER usbnet_stop 0xbc877be8
+#SYMVER usbnet_open 0x8cf15559
+#SYMVER usbnet_get_link_ksettings_mii 0x21f12a59
+#SYMVER usbnet_get_link_ksettings_internal 0xeb598bf2
+#SYMVER usbnet_set_link_ksettings_mii 0xa7fc1660
+#SYMVER usbnet_get_link 0x62dc148f
+#SYMVER usbnet_nway_reset 0xf631e266
+#SYMVER usbnet_get_drvinfo 0xda952f4f
+#SYMVER usbnet_get_msglevel 0x5bbda865
+#SYMVER usbnet_set_msglevel 0xd59941db
+#SYMVER usbnet_set_rx_mode 0x0546c538
+#SYMVER usbnet_tx_timeout 0xa5da1602
+#SYMVER usbnet_start_xmit 0x2d992d22
+#SYMVER usbnet_disconnect 0x25cd136a
+#SYMVER usbnet_probe 0xde1b0571
+#SYMVER usbnet_suspend 0x8b1f1978
+#SYMVER usbnet_resume 0x76f24ac6
+#SYMVER usbnet_device_suggests_idle 0x309f9a75
+#SYMVER usbnet_manage_power 0x7f775083
+#SYMVER usbnet_link_change 0x20040bc3
+#SYMVER usbnet_read_cmd 0xc4908842
+#SYMVER usbnet_write_cmd 0x3b73b176
+#SYMVER usbnet_read_cmd_nopm 0x5721eb14
+#SYMVER usbnet_write_cmd_nopm 0xb6b37921
+#SYMVER usbnet_write_cmd_async 0x6f294d91

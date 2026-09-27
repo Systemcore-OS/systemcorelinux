@@ -1,4 +1,4 @@
-savedcmd_drivers/tty/tty_port.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/tty/.tty_port.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/tty/tty_port"' -DKBUILD_BASENAME='"tty_port"' -DKBUILD_MODNAME='"tty_port"' -D__KBUILD_MODNAME=kmod_tty_port -c -o drivers/tty/tty_port.o drivers/tty/tty_port.c  
+savedcmd_drivers/tty/tty_port.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/tty/.tty_port.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/tty/tty_port"' -DKBUILD_BASENAME='"tty_port"' -DKBUILD_MODNAME='"tty_port"' -D__KBUILD_MODNAME=kmod_tty_port -c -o drivers/tty/tty_port.o drivers/tty/tty_port.c  
 
 source_drivers/tty/tty_port.o := drivers/tty/tty_port.c
 
@@ -744,6 +744,11 @@ deps_drivers/tty/tty_port.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -976,7 +981,6 @@ deps_drivers/tty/tty_port.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1083,29 +1087,29 @@ deps_drivers/tty/tty_port.o := \
 drivers/tty/tty_port.o: $(deps_drivers/tty/tty_port.o)
 
 $(deps_drivers/tty/tty_port.o):
-#SYMVER tty_port_default_client_ops 0xa7e2e977
-#SYMVER tty_port_init 0x1d40dfa1
-#SYMVER tty_port_link_device 0x69b45454
-#SYMVER tty_port_register_device 0x124e14ab
-#SYMVER tty_port_register_device_attr 0x1f36973e
-#SYMVER tty_port_register_device_attr_serdev 0x40a830bf
-#SYMVER tty_port_register_device_serdev 0xe5c62544
-#SYMVER tty_port_unregister_device 0x59716dbb
-#SYMVER tty_port_alloc_xmit_buf 0xcc804e7f
-#SYMVER tty_port_free_xmit_buf 0x52408eb4
-#SYMVER tty_port_destroy 0x273f7363
-#SYMVER tty_port_put 0xe5af307c
-#SYMVER tty_port_tty_get 0xc69ff42e
-#SYMVER tty_port_tty_set 0xf54d6537
-#SYMVER tty_port_hangup 0xe3ebd74b
-#SYMVER __tty_port_tty_hangup 0x269cb107
-#SYMVER tty_port_tty_wakeup 0xc9a47d19
-#SYMVER tty_port_carrier_raised 0xa491ffd8
-#SYMVER tty_port_raise_dtr_rts 0x944638f6
-#SYMVER tty_port_lower_dtr_rts 0xff5fa59c
-#SYMVER tty_port_block_til_ready 0x4fd273ea
-#SYMVER tty_port_close_start 0x8401d1fd
-#SYMVER tty_port_close_end 0xec016bef
-#SYMVER tty_port_close 0xf565000a
-#SYMVER tty_port_install 0xcd1b7313
-#SYMVER tty_port_open 0x5da676f3
+#SYMVER tty_port_default_client_ops 0x6abefb6f
+#SYMVER tty_port_init 0xd937a0bc
+#SYMVER tty_port_link_device 0xef3f489c
+#SYMVER tty_port_register_device 0x09352341
+#SYMVER tty_port_register_device_attr 0x7e4a9d82
+#SYMVER tty_port_register_device_attr_serdev 0x8a7ae5d6
+#SYMVER tty_port_register_device_serdev 0x16eaeaf6
+#SYMVER tty_port_unregister_device 0x726586d9
+#SYMVER tty_port_alloc_xmit_buf 0x0b9233d9
+#SYMVER tty_port_free_xmit_buf 0xb5705154
+#SYMVER tty_port_destroy 0x35c545a9
+#SYMVER tty_port_put 0x89b4f67a
+#SYMVER tty_port_tty_get 0x1f929238
+#SYMVER tty_port_tty_set 0xcf51b1d4
+#SYMVER tty_port_hangup 0x0487be77
+#SYMVER __tty_port_tty_hangup 0x6484dd51
+#SYMVER tty_port_tty_wakeup 0x498615fd
+#SYMVER tty_port_carrier_raised 0xf03f2a76
+#SYMVER tty_port_raise_dtr_rts 0x2344e8ce
+#SYMVER tty_port_lower_dtr_rts 0xa913350b
+#SYMVER tty_port_block_til_ready 0xcfcfd8fd
+#SYMVER tty_port_close_start 0x4fc24493
+#SYMVER tty_port_close_end 0x97ad28ee
+#SYMVER tty_port_close 0xaee01501
+#SYMVER tty_port_install 0xbf0b1501
+#SYMVER tty_port_open 0x25a45f39

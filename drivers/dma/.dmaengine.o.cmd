@@ -1,4 +1,4 @@
-savedcmd_drivers/dma/dmaengine.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/dma/.dmaengine.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/dma/dmaengine"' -DKBUILD_BASENAME='"dmaengine"' -DKBUILD_MODNAME='"dmaengine"' -D__KBUILD_MODNAME=kmod_dmaengine -c -o drivers/dma/dmaengine.o drivers/dma/dmaengine.c  
+savedcmd_drivers/dma/dmaengine.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/dma/.dmaengine.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/dma/dmaengine"' -DKBUILD_BASENAME='"dmaengine"' -DKBUILD_MODNAME='"dmaengine"' -D__KBUILD_MODNAME=kmod_dmaengine -c -o drivers/dma/dmaengine.o drivers/dma/dmaengine.c  
 
 source_drivers/dma/dmaengine.o := drivers/dma/dmaengine.c
 
@@ -717,6 +717,11 @@ deps_drivers/dma/dmaengine.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -856,7 +861,6 @@ deps_drivers/dma/dmaengine.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1138,7 +1142,6 @@ deps_drivers/dma/dmaengine.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1242,28 +1245,28 @@ deps_drivers/dma/dmaengine.o := \
 drivers/dma/dmaengine.o: $(deps_drivers/dma/dmaengine.o)
 
 $(deps_drivers/dma/dmaengine.o):
-#SYMVER dma_sync_wait 0x14abfe73
-#SYMVER dma_find_channel 0x9f243012
+#SYMVER dma_sync_wait 0x5662f4d8
+#SYMVER dma_find_channel 0x8343ee1b
 #SYMVER dma_issue_pending_all 0x0acf7679
-#SYMVER dma_get_slave_caps 0xde0808a0
-#SYMVER dma_get_slave_channel 0xa4d01f70
-#SYMVER dma_get_any_slave_channel 0x4611dab0
-#SYMVER __dma_request_channel 0x59f0b242
-#SYMVER dma_request_chan 0xf91da470
-#SYMVER dma_request_chan_by_mask 0xb8ec16d8
-#SYMVER dma_release_channel 0xab95a8cf
+#SYMVER dma_get_slave_caps 0x90c4c11b
+#SYMVER dma_get_slave_channel 0x69e61cf0
+#SYMVER dma_get_any_slave_channel 0x533616d6
+#SYMVER __dma_request_channel 0xc49c99f2
+#SYMVER dma_request_chan 0x5868f3ed
+#SYMVER dma_request_chan_by_mask 0x19994145
+#SYMVER dma_release_channel 0xb7a4902f
 #SYMVER dmaengine_get 0x923b1276
 #SYMVER dmaengine_put 0x57575f08
-#SYMVER dma_async_device_channel_register 0x8463d224
-#SYMVER dma_async_device_channel_unregister 0x49f7df9e
-#SYMVER dma_async_device_register 0x10dca5b6
-#SYMVER dma_async_device_unregister 0x2f6b0df7
-#SYMVER dmaenginem_async_device_register 0x735f3d45
-#SYMVER dmaengine_unmap_put 0xaac8aecf
-#SYMVER dmaengine_get_unmap_data 0xa7f307b6
-#SYMVER dma_async_tx_descriptor_init 0x13424b38
-#SYMVER dmaengine_desc_attach_metadata 0x09808845
-#SYMVER dmaengine_desc_get_metadata_ptr 0x38ac3b58
-#SYMVER dmaengine_desc_set_metadata_len 0x77d3177f
-#SYMVER dma_wait_for_async_tx 0xe43bb6b1
-#SYMVER dma_run_dependencies 0xc2fc7983
+#SYMVER dma_async_device_channel_register 0x3ed3e563
+#SYMVER dma_async_device_channel_unregister 0xa8f7179f
+#SYMVER dma_async_device_register 0x6df25e9b
+#SYMVER dma_async_device_unregister 0xb4115680
+#SYMVER dmaenginem_async_device_register 0xc4cc3b51
+#SYMVER dmaengine_unmap_put 0xf0c80efb
+#SYMVER dmaengine_get_unmap_data 0x4002131e
+#SYMVER dma_async_tx_descriptor_init 0x4025c8bc
+#SYMVER dmaengine_desc_attach_metadata 0xdcea63e3
+#SYMVER dmaengine_desc_get_metadata_ptr 0x9ec7d6ae
+#SYMVER dmaengine_desc_set_metadata_len 0x3fcc669f
+#SYMVER dma_wait_for_async_tx 0x6be0e2a4
+#SYMVER dma_run_dependencies 0x76afb93b

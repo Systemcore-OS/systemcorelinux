@@ -1,4 +1,4 @@
-savedcmd_drivers/gpu/drm/drm_modes.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_modes.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_modes"' -DKBUILD_MODNAME='"drm"' -D__KBUILD_MODNAME=kmod_drm -c -o drivers/gpu/drm/drm_modes.o drivers/gpu/drm/drm_modes.c  
+savedcmd_drivers/gpu/drm/drm_modes.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_modes.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_modes"' -DKBUILD_MODNAME='"drm"' -D__KBUILD_MODNAME=kmod_drm -c -o drivers/gpu/drm/drm_modes.o drivers/gpu/drm/drm_modes.c  
 
 source_drivers/gpu/drm/drm_modes.o := drivers/gpu/drm/drm_modes.c
 
@@ -616,6 +616,11 @@ deps_drivers/gpu/drm/drm_modes.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -903,7 +908,6 @@ deps_drivers/gpu/drm/drm_modes.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1128,7 +1132,6 @@ deps_drivers/gpu/drm/drm_modes.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1356,14 +1359,11 @@ deps_drivers/gpu/drm/drm_modes.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1432,38 +1432,38 @@ drivers/gpu/drm/drm_modes.o: $(deps_drivers/gpu/drm/drm_modes.o)
 
 $(deps_drivers/gpu/drm/drm_modes.o):
 #SYMVER drm_mode_debug_printmodeline 0x2ed3c600
-#SYMVER drm_mode_create 0x912d07f6
-#SYMVER drm_mode_destroy 0xdaf2097c
-#SYMVER drm_mode_probed_add 0x86b23198
-#SYMVER drm_analog_tv_mode 0xc1c01476
-#SYMVER drm_cvt_mode 0x73bf9a74
-#SYMVER drm_gtf_mode_complex 0x0405f8c9
-#SYMVER drm_gtf_mode 0xe47045f5
+#SYMVER drm_mode_create 0xc523855f
+#SYMVER drm_mode_destroy 0x4a49a2c4
+#SYMVER drm_mode_probed_add 0x2e7a8ba1
+#SYMVER drm_analog_tv_mode 0x0cf29bbd
+#SYMVER drm_cvt_mode 0x33fda45b
+#SYMVER drm_gtf_mode_complex 0x3d709260
+#SYMVER drm_gtf_mode 0x437ad3d1
 #SYMVER drm_display_mode_from_videomode 0x66cf2f64
 #SYMVER drm_display_mode_to_videomode 0xfe9f72f3
 #SYMVER drm_bus_flags_from_videomode 0xad885165
-#SYMVER of_get_drm_display_mode 0x39065690
-#SYMVER of_get_drm_panel_display_mode 0x57972823
+#SYMVER of_get_drm_display_mode 0x5222a21a
+#SYMVER of_get_drm_panel_display_mode 0x511bbe58
 #SYMVER drm_mode_set_name 0x4a35d30d
 #SYMVER drm_mode_vrefresh 0xf1b5340a
 #SYMVER drm_mode_get_hv_timing 0x4403a9c3
 #SYMVER drm_mode_set_crtcinfo 0x4575a0ca
 #SYMVER drm_mode_copy 0x9ce050be
 #SYMVER drm_mode_init 0xcdb99cc9
-#SYMVER drm_mode_duplicate 0x514fc6b4
+#SYMVER drm_mode_duplicate 0x06a61b4b
 #SYMVER drm_mode_match 0x9b95c885
 #SYMVER drm_mode_equal 0x0d9b4753
 #SYMVER drm_mode_equal_no_clocks 0x3ab87110
 #SYMVER drm_mode_equal_no_clocks_no_stereo 0x24d124ac
-#SYMVER drm_mode_validate_driver 0xe7f7eb83
+#SYMVER drm_mode_validate_driver 0xc5fd73c6
 #SYMVER drm_mode_validate_size 0xd7a9cf42
-#SYMVER drm_mode_validate_ycbcr420 0x518ed203
-#SYMVER drm_mode_prune_invalid 0xe1580d22
+#SYMVER drm_mode_validate_ycbcr420 0x26f26df7
+#SYMVER drm_mode_prune_invalid 0x75975c5a
 #SYMVER drm_mode_sort 0xf1421d13
-#SYMVER drm_connector_list_update 0xe005e4ba
-#SYMVER drm_mode_parse_command_line_for_connector 0x0b6243ae
-#SYMVER drm_mode_create_from_cmdline_mode 0x88f6833d
+#SYMVER drm_connector_list_update 0x98cd75df
+#SYMVER drm_mode_parse_command_line_for_connector 0x0c8ba323
+#SYMVER drm_mode_create_from_cmdline_mode 0xd6b90831
 #SYMVER drm_mode_is_420_only 0xe7a9ecea
 #SYMVER drm_mode_is_420_also 0xace169b3
 #SYMVER drm_mode_is_420 0x784d6883
-#SYMVER drm_set_preferred_mode 0x358e94ee
+#SYMVER drm_set_preferred_mode 0x8984c454

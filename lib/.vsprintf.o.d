@@ -191,6 +191,8 @@ vsprintf.o: lib/vsprintf.c include/linux/compiler-version.h \
  arch/arm64/include/uapi/asm/auxvec.h include/linux/kref.h \
  include/linux/refcount.h include/linux/rbtree.h \
  include/linux/maple_tree.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
  include/linux/page-flags.h include/linux/local_lock.h \
  include/linux/local_lock_internal.h include/linux/zswap.h \
@@ -270,8 +272,8 @@ vsprintf.o: lib/vsprintf.c include/linux/compiler-version.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -323,21 +325,19 @@ vsprintf.o: lib/vsprintf.c include/linux/compiler-version.h \
  arch/arm64/include/generated/uapi/asm/sembuf.h \
  include/uapi/asm-generic/sembuf.h include/uapi/linux/if.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- include/linux/kmsan.h include/linux/dma-direction.h \
- include/linux/highmem-internal.h include/net/checksum.h \
- arch/arm64/include/asm/checksum.h include/asm-generic/checksum.h \
- include/linux/dma-mapping.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
- include/linux/netdev_features.h include/net/flow_dissector.h \
- include/linux/siphash.h include/uapi/linux/if_ether.h \
- include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
- include/uapi/linux/if_packet.h include/net/flow.h \
- include/linux/netfilter/nf_conntrack_common.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/dma-direction.h include/linux/highmem-internal.h \
+ include/net/checksum.h arch/arm64/include/asm/checksum.h \
+ include/asm-generic/checksum.h include/linux/dma-mapping.h \
+ include/linux/scatterlist.h include/linux/mem_encrypt.h \
+ arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/net/flow_dissector.h include/linux/siphash.h \
+ include/uapi/linux/if_ether.h include/uapi/linux/pkt_cls.h \
+ include/uapi/linux/pkt_sched.h include/uapi/linux/if_packet.h \
+ include/net/flow.h include/linux/netfilter/nf_conntrack_common.h \
  include/uapi/linux/netfilter/nf_conntrack_common.h \
  include/net/net_debug.h include/net/dropreason-core.h \
  include/net/netmem.h include/linux/win_minmax.h include/net/sock.h \

@@ -87,29 +87,35 @@ printk_safe.o: kernel/printk/printk_safe.c \
  include/asm-generic/memory_model.h include/linux/pfn.h \
  arch/arm64/include/asm/stack_pointer.h include/linux/kdb.h \
  include/linux/list.h include/linux/container_of.h include/linux/poison.h \
- include/linux/sched.h include/uapi/linux/sched.h \
- arch/arm64/include/asm/processor.h include/linux/cache.h \
- arch/arm64/include/asm/cache.h include/linux/kasan-enabled.h \
- include/linux/static_key.h arch/arm64/include/asm/cputype.h \
- arch/arm64/include/asm/mte-def.h include/linux/string.h \
- include/linux/args.h include/linux/array_size.h include/linux/err.h \
- include/uapi/linux/string.h arch/arm64/include/asm/string.h \
- include/vdso/processor.h arch/arm64/include/asm/vdso/processor.h \
- arch/arm64/include/asm/cpufeature.h arch/arm64/include/asm/hwcap.h \
- arch/arm64/include/uapi/asm/hwcap.h include/linux/log2.h \
- include/linux/kernel.h include/linux/align.h include/linux/hex.h \
- include/linux/kstrtox.h include/linux/math.h \
+ include/linux/smp.h include/linux/cpumask.h include/linux/kernel.h \
+ include/linux/align.h include/linux/array_size.h include/linux/hex.h \
+ include/linux/kstrtox.h include/linux/log2.h include/linux/math.h \
  arch/arm64/include/generated/asm/div64.h include/asm-generic/div64.h \
  include/linux/minmax.h include/linux/sprintf.h \
  include/linux/static_call_types.h include/linux/instruction_pointer.h \
- include/linux/wordpart.h include/linux/cpumask.h include/linux/bitmap.h \
- include/linux/find.h include/linux/bitmap-str.h \
- include/linux/cpumask_types.h include/linux/threads.h \
- include/linux/gfp_types.h include/linux/numa.h \
+ include/linux/wordpart.h include/linux/bitmap.h include/linux/find.h \
+ include/linux/string.h include/linux/args.h include/linux/err.h \
+ include/uapi/linux/string.h arch/arm64/include/asm/string.h \
+ include/linux/bitmap-str.h include/linux/cpumask_types.h \
+ include/linux/threads.h include/linux/gfp_types.h include/linux/numa.h \
  arch/arm64/include/asm/sparsemem.h arch/arm64/include/asm/pgtable-prot.h \
  arch/arm64/include/asm/pgtable-hwdef.h \
+ arch/arm64/include/asm/cpufeature.h arch/arm64/include/asm/cputype.h \
+ arch/arm64/include/asm/hwcap.h arch/arm64/include/uapi/asm/hwcap.h \
  arch/arm64/include/asm/pgtable-types.h \
  include/asm-generic/pgtable-nopud.h include/asm-generic/pgtable-nop4d.h \
+ include/linux/smp_types.h include/linux/llist.h \
+ arch/arm64/include/asm/smp.h include/linux/kprobes.h \
+ include/linux/notifier.h include/linux/mutex.h \
+ include/linux/spinlock_types.h include/linux/rtmutex.h \
+ include/linux/rbtree_types.h include/linux/rwlock_types.h \
+ include/linux/rwbase_rt.h include/linux/lockdep.h \
+ arch/arm64/include/asm/percpu.h include/asm-generic/percpu.h \
+ include/linux/percpu-defs.h arch/arm64/include/asm/processor.h \
+ include/linux/cache.h arch/arm64/include/asm/cache.h \
+ include/linux/kasan-enabled.h include/linux/static_key.h \
+ arch/arm64/include/asm/mte-def.h include/vdso/processor.h \
+ arch/arm64/include/asm/vdso/processor.h \
  arch/arm64/include/asm/hw_breakpoint.h arch/arm64/include/asm/virt.h \
  arch/arm64/include/asm/ptrace.h arch/arm64/include/uapi/asm/ptrace.h \
  arch/arm64/include/uapi/asm/sve_context.h \
@@ -121,24 +127,36 @@ printk_safe.o: kernel/printk/printk_safe.c \
  include/asm-generic/ioctl.h include/uapi/asm-generic/ioctl.h \
  include/linux/irqnr.h include/uapi/linux/irqnr.h include/linux/prandom.h \
  include/linux/once.h arch/arm64/include/asm/spectre.h \
- include/linux/smp.h include/linux/smp_types.h include/linux/llist.h \
- arch/arm64/include/asm/smp.h arch/arm64/include/asm/percpu.h \
- include/asm-generic/percpu.h include/linux/percpu-defs.h \
  arch/arm64/include/asm/fpsimd.h arch/arm64/include/uapi/asm/sigcontext.h \
- include/linux/irqflags_types.h include/linux/pid_types.h \
- include/linux/sem_types.h include/linux/shm.h \
+ include/linux/osq_lock.h include/linux/debug_locks.h \
+ include/linux/mutex_types.h include/linux/rwsem.h \
+ include/linux/spinlock.h include/linux/irqflags.h \
+ include/linux/irqflags_types.h arch/arm64/include/asm/irqflags.h \
+ include/linux/bottom_half.h arch/arm64/include/generated/asm/mmiowb.h \
+ include/asm-generic/mmiowb.h arch/arm64/include/asm/spinlock.h \
+ arch/arm64/include/generated/asm/qspinlock.h \
+ include/asm-generic/qspinlock.h \
+ arch/arm64/include/generated/asm/qrwlock.h include/asm-generic/qrwlock.h \
+ include/linux/spinlock_api_smp.h include/linux/spinlock_rt.h \
+ include/linux/rwlock_rt.h include/linux/srcu.h include/linux/rcupdate.h \
+ include/linux/context_tracking_irq.h include/linux/rcutree.h \
+ include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
+ include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
+ include/linux/time.h include/linux/time64.h include/vdso/time64.h \
+ include/uapi/linux/time.h include/uapi/linux/time_types.h \
+ include/linux/time32.h include/linux/timex.h include/uapi/linux/timex.h \
+ arch/arm64/include/asm/timex.h arch/arm64/include/asm/arch_timer.h \
+ include/linux/percpu.h include/linux/alloc_tag.h include/linux/codetag.h \
+ include/linux/sched.h include/uapi/linux/sched.h \
+ include/linux/pid_types.h include/linux/sem_types.h include/linux/shm.h \
  arch/arm64/include/asm/page.h include/linux/personality.h \
  include/uapi/linux/personality.h include/asm-generic/getorder.h \
  arch/arm64/include/asm/shmparam.h include/asm-generic/shmparam.h \
- include/linux/kmsan_types.h include/linux/mutex_types.h \
- include/linux/osq_lock.h include/linux/spinlock_types.h \
- include/linux/rtmutex.h include/linux/rbtree_types.h \
- include/linux/rwlock_types.h include/linux/rwbase_rt.h \
- include/linux/plist_types.h include/linux/hrtimer_types.h \
- include/linux/timerqueue_types.h include/linux/timer_types.h \
- include/linux/seccomp_types.h include/linux/nodemask_types.h \
- include/linux/refcount_types.h include/linux/resource.h \
- include/uapi/linux/resource.h include/uapi/linux/time_types.h \
+ include/linux/kmsan_types.h include/linux/plist_types.h \
+ include/linux/hrtimer_types.h include/linux/timerqueue_types.h \
+ include/linux/timer_types.h include/linux/seccomp_types.h \
+ include/linux/nodemask_types.h include/linux/refcount_types.h \
+ include/linux/resource.h include/uapi/linux/resource.h \
  arch/arm64/include/generated/uapi/asm/resource.h \
  include/asm-generic/resource.h include/uapi/asm-generic/resource.h \
  include/linux/latencytop.h include/linux/sched/prio.h \
@@ -157,25 +175,6 @@ printk_safe.o: kernel/printk/printk_safe.c \
  include/linux/livepatch_sched.h include/linux/uidgid_types.h \
  arch/arm64/include/generated/asm/kmap_size.h \
  include/asm-generic/kmap_size.h include/linux/sched/ext.h \
- include/linux/spinlock.h include/linux/irqflags.h \
- arch/arm64/include/asm/irqflags.h include/linux/bottom_half.h \
- include/linux/lockdep.h arch/arm64/include/generated/asm/mmiowb.h \
- include/asm-generic/mmiowb.h arch/arm64/include/asm/spinlock.h \
- arch/arm64/include/generated/asm/qspinlock.h \
- include/asm-generic/qspinlock.h \
- arch/arm64/include/generated/asm/qrwlock.h include/asm-generic/qrwlock.h \
- include/linux/spinlock_api_smp.h include/linux/spinlock_rt.h \
- include/linux/rwlock_rt.h include/linux/kprobes.h \
- include/linux/notifier.h include/linux/mutex.h \
- include/linux/debug_locks.h include/linux/rwsem.h include/linux/srcu.h \
- include/linux/rcupdate.h include/linux/context_tracking_irq.h \
- include/linux/rcutree.h include/linux/workqueue.h include/linux/timer.h \
- include/linux/ktime.h include/linux/jiffies.h include/linux/math64.h \
- include/vdso/math64.h include/linux/time.h include/linux/time64.h \
- include/vdso/time64.h include/uapi/linux/time.h include/linux/time32.h \
- include/linux/timex.h include/uapi/linux/timex.h \
- arch/arm64/include/asm/timex.h arch/arm64/include/asm/arch_timer.h \
- include/linux/percpu.h include/linux/alloc_tag.h include/linux/codetag.h \
  include/clocksource/arm_arch_timer.h include/linux/timecounter.h \
  include/asm-generic/timex.h include/vdso/time32.h include/vdso/time.h \
  include/vdso/jiffies.h include/generated/timeconst.h \
@@ -200,14 +199,15 @@ printk_safe.o: kernel/printk/printk_safe.c \
  include/uapi/linux/auxvec.h arch/arm64/include/uapi/asm/auxvec.h \
  include/linux/kref.h include/linux/refcount.h include/linux/rbtree.h \
  include/linux/maple_tree.h include/linux/uprobes.h \
- include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
- include/linux/page-flags.h include/linux/local_lock.h \
- include/linux/local_lock_internal.h include/linux/zswap.h \
- include/linux/memory_hotplug.h arch/arm64/include/generated/asm/mmzone.h \
- include/asm-generic/mmzone.h arch/arm64/include/asm/topology.h \
- arch/arm64/include/asm/numa.h include/asm-generic/numa.h \
- include/asm-generic/topology.h include/linux/io.h \
- arch/arm64/include/asm/io.h include/linux/pgtable.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/probes.h include/linux/percpu_counter.h \
+ arch/arm64/include/asm/mmu.h include/linux/page-flags.h \
+ include/linux/local_lock.h include/linux/local_lock_internal.h \
+ include/linux/zswap.h include/linux/memory_hotplug.h \
+ arch/arm64/include/generated/asm/mmzone.h include/asm-generic/mmzone.h \
+ arch/arm64/include/asm/topology.h arch/arm64/include/asm/numa.h \
+ include/asm-generic/numa.h include/asm-generic/topology.h \
+ include/linux/io.h arch/arm64/include/asm/io.h include/linux/pgtable.h \
  arch/arm64/include/asm/pgtable.h arch/arm64/include/asm/proc-fns.h \
  arch/arm64/include/asm/mte.h arch/arm64/include/asm/tlbflush.h \
  include/linux/mmu_notifier.h include/linux/mmap_lock.h \
@@ -304,9 +304,8 @@ printk_safe.o: kernel/printk/printk_safe.c \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h kernel/printk/internal.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h kernel/printk/internal.h \
  include/linux/console.h include/linux/irq_work.h \
  arch/arm64/include/asm/irq_work.h include/uapi/linux/vesa.h

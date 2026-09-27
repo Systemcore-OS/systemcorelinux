@@ -1,4 +1,4 @@
-savedcmd_drivers/regulator/helpers.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/regulator/.helpers.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/regulator/helpers"' -DKBUILD_BASENAME='"helpers"' -DKBUILD_MODNAME='"helpers"' -D__KBUILD_MODNAME=kmod_helpers -c -o drivers/regulator/helpers.o drivers/regulator/helpers.c  
+savedcmd_drivers/regulator/helpers.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/regulator/.helpers.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/regulator/helpers"' -DKBUILD_BASENAME='"helpers"' -DKBUILD_MODNAME='"helpers"' -D__KBUILD_MODNAME=kmod_helpers -c -o drivers/regulator/helpers.o drivers/regulator/helpers.c  
 
 source_drivers/regulator/helpers.o := drivers/regulator/helpers.c
 
@@ -704,6 +704,11 @@ deps_drivers/regulator/helpers.o := \
   include/linux/swait.h \
   include/linux/wait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -1015,7 +1020,6 @@ deps_drivers/regulator/helpers.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1135,7 +1139,6 @@ deps_drivers/regulator/helpers.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1246,14 +1249,11 @@ deps_drivers/regulator/helpers.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1320,32 +1320,32 @@ deps_drivers/regulator/helpers.o := \
 drivers/regulator/helpers.o: $(deps_drivers/regulator/helpers.o)
 
 $(deps_drivers/regulator/helpers.o):
-#SYMVER regulator_is_enabled_regmap 0x7d139977
-#SYMVER regulator_enable_regmap 0xca80c47c
-#SYMVER regulator_disable_regmap 0x4d4bcfd7
-#SYMVER regulator_get_voltage_sel_pickable_regmap 0xe2ca120a
-#SYMVER regulator_set_voltage_sel_pickable_regmap 0xd22b76be
-#SYMVER regulator_get_voltage_sel_regmap 0x9a451905
-#SYMVER regulator_set_voltage_sel_regmap 0xb1652781
-#SYMVER regulator_map_voltage_iterate 0xd632ed26
-#SYMVER regulator_map_voltage_ascend 0x09e655d0
-#SYMVER regulator_map_voltage_linear 0xa43d545b
-#SYMVER regulator_map_voltage_linear_range 0x04332118
-#SYMVER regulator_map_voltage_pickable_linear_range 0x7e144731
-#SYMVER regulator_desc_list_voltage_linear 0xbe88fe8e
-#SYMVER regulator_list_voltage_linear 0xa30c3a87
-#SYMVER regulator_list_voltage_pickable_linear_range 0xbacad7c9
-#SYMVER regulator_desc_list_voltage_linear_range 0x00afd2e7
-#SYMVER regulator_list_voltage_linear_range 0xda17c939
-#SYMVER regulator_list_voltage_table 0xccc63c94
-#SYMVER regulator_set_bypass_regmap 0x6cb9234b
-#SYMVER regulator_set_soft_start_regmap 0x3dfd2ec0
-#SYMVER regulator_set_pull_down_regmap 0x598d6239
-#SYMVER regulator_get_bypass_regmap 0x7b2bd607
-#SYMVER regulator_set_active_discharge_regmap 0x9d953528
-#SYMVER regulator_set_current_limit_regmap 0x0ed8c97a
-#SYMVER regulator_get_current_limit_regmap 0xb36a6a53
-#SYMVER regulator_bulk_set_supply_names 0x22d2ea5a
-#SYMVER regulator_is_equal 0xec08e0e8
+#SYMVER regulator_is_enabled_regmap 0xd6fd6129
+#SYMVER regulator_enable_regmap 0xc2fd32c4
+#SYMVER regulator_disable_regmap 0x3ee07af6
+#SYMVER regulator_get_voltage_sel_pickable_regmap 0x0369552f
+#SYMVER regulator_set_voltage_sel_pickable_regmap 0x6ab4ac41
+#SYMVER regulator_get_voltage_sel_regmap 0xf20c4928
+#SYMVER regulator_set_voltage_sel_regmap 0xd301f5f8
+#SYMVER regulator_map_voltage_iterate 0x380cfc21
+#SYMVER regulator_map_voltage_ascend 0xcca7f3cb
+#SYMVER regulator_map_voltage_linear 0xa68d5ec2
+#SYMVER regulator_map_voltage_linear_range 0xf4ae42d4
+#SYMVER regulator_map_voltage_pickable_linear_range 0xf225c373
+#SYMVER regulator_desc_list_voltage_linear 0x078da3e2
+#SYMVER regulator_list_voltage_linear 0x01c11404
+#SYMVER regulator_list_voltage_pickable_linear_range 0x1f62feea
+#SYMVER regulator_desc_list_voltage_linear_range 0x943e9c3e
+#SYMVER regulator_list_voltage_linear_range 0xa0893fb0
+#SYMVER regulator_list_voltage_table 0xea10d517
+#SYMVER regulator_set_bypass_regmap 0x158e6627
+#SYMVER regulator_set_soft_start_regmap 0x44017c98
+#SYMVER regulator_set_pull_down_regmap 0x8e9c9df8
+#SYMVER regulator_get_bypass_regmap 0xe45afeb5
+#SYMVER regulator_set_active_discharge_regmap 0x3a4be644
+#SYMVER regulator_set_current_limit_regmap 0xada9c1c9
+#SYMVER regulator_get_current_limit_regmap 0x71366299
+#SYMVER regulator_bulk_set_supply_names 0xca65bbe7
+#SYMVER regulator_is_equal 0xfc307394
 #SYMVER regulator_find_closest_bigger 0x8118caef
-#SYMVER regulator_set_ramp_delay_regmap 0x60d88e11
+#SYMVER regulator_set_ramp_delay_regmap 0x5bade843

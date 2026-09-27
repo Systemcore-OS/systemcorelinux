@@ -1,4 +1,4 @@
-savedcmd_drivers/base/devres.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/base/.devres.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/base/devres"' -DKBUILD_BASENAME='"devres"' -DKBUILD_MODNAME='"devres"' -D__KBUILD_MODNAME=kmod_devres -c -o drivers/base/devres.o drivers/base/devres.c  
+savedcmd_drivers/base/devres.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/base/.devres.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/base/devres"' -DKBUILD_BASENAME='"devres"' -DKBUILD_MODNAME='"devres"' -D__KBUILD_MODNAME=kmod_devres -c -o drivers/base/devres.o drivers/base/devres.c  
 
 source_drivers/base/devres.o := drivers/base/devres.c
 
@@ -704,6 +704,11 @@ deps_drivers/base/devres.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -844,7 +849,6 @@ deps_drivers/base/devres.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1024,31 +1028,31 @@ deps_drivers/base/devres.o := \
 drivers/base/devres.o: $(deps_drivers/base/devres.o)
 
 $(deps_drivers/base/devres.o):
-#SYMVER __devres_alloc_node 0x0f120601
-#SYMVER devres_for_each_res 0x56fe31c7
+#SYMVER __devres_alloc_node 0x87d2479e
+#SYMVER devres_for_each_res 0xec7e444d
 #SYMVER devres_free 0xe93e49c3
-#SYMVER devres_add 0xf225b793
-#SYMVER devres_find 0xc0d4e8df
-#SYMVER devres_get 0x9700ceee
-#SYMVER devres_remove 0xb5b52b8a
-#SYMVER devres_destroy 0xe31f7c71
-#SYMVER devres_release 0x047a426f
-#SYMVER devres_open_group 0x29398456
-#SYMVER devres_close_group 0x13b7a941
-#SYMVER devres_remove_group 0x6b17e888
-#SYMVER devres_release_group 0x73ab072a
-#SYMVER __devm_add_action 0x95c7268a
-#SYMVER devm_remove_action 0x5585a63c
-#SYMVER devm_release_action 0x562761ec
-#SYMVER devm_kmalloc 0x9af13da1
-#SYMVER devm_krealloc 0x925767cd
-#SYMVER devm_kstrdup 0x2af22d90
-#SYMVER devm_kstrdup_const 0x999cc833
-#SYMVER devm_kvasprintf 0x69c07f8b
-#SYMVER devm_kasprintf 0xc6ac4e9a
-#SYMVER devm_kfree 0x6086212e
-#SYMVER devm_kmemdup 0xcdfb12bd
-#SYMVER devm_get_free_pages 0x5ceb50d6
-#SYMVER devm_free_pages 0xa80deaed
-#SYMVER __devm_alloc_percpu 0x67762958
-#SYMVER devm_free_percpu 0xeb2ef3e3
+#SYMVER devres_add 0xba875d2d
+#SYMVER devres_find 0x37124bc5
+#SYMVER devres_get 0xf7cd878c
+#SYMVER devres_remove 0x0787885e
+#SYMVER devres_destroy 0x616ebcad
+#SYMVER devres_release 0x3681c875
+#SYMVER devres_open_group 0xca67242d
+#SYMVER devres_close_group 0x65be93e8
+#SYMVER devres_remove_group 0xcfaf6eab
+#SYMVER devres_release_group 0xf6e7ec74
+#SYMVER __devm_add_action 0x4b143424
+#SYMVER devm_remove_action 0x30c8048f
+#SYMVER devm_release_action 0xea98143c
+#SYMVER devm_kmalloc 0x18935783
+#SYMVER devm_krealloc 0x74c8c770
+#SYMVER devm_kstrdup 0xff631c74
+#SYMVER devm_kstrdup_const 0xd862f686
+#SYMVER devm_kvasprintf 0xc0d92f0e
+#SYMVER devm_kasprintf 0xfdbd3614
+#SYMVER devm_kfree 0x069da335
+#SYMVER devm_kmemdup 0xef8de9be
+#SYMVER devm_get_free_pages 0x65236c80
+#SYMVER devm_free_pages 0x5ee285de
+#SYMVER __devm_alloc_percpu 0xe7b90e61
+#SYMVER devm_free_percpu 0x962e0bef

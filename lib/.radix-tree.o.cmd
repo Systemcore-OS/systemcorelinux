@@ -1,4 +1,4 @@
-savedcmd_lib/radix-tree.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.radix-tree.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"lib/radix-tree"' -DKBUILD_BASENAME='"radix_tree"' -DKBUILD_MODNAME='"radix_tree"' -D__KBUILD_MODNAME=kmod_radix_tree -c -o lib/radix-tree.o lib/radix-tree.c  
+savedcmd_lib/radix-tree.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.radix-tree.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"lib/radix-tree"' -DKBUILD_BASENAME='"radix_tree"' -DKBUILD_MODNAME='"radix_tree"' -D__KBUILD_MODNAME=kmod_radix_tree -c -o lib/radix-tree.o lib/radix-tree.c  
 
 source_lib/radix-tree.o := lib/radix-tree.c
 
@@ -711,6 +711,11 @@ deps_lib/radix-tree.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -851,7 +856,6 @@ deps_lib/radix-tree.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1039,24 +1043,24 @@ deps_lib/radix-tree.o := \
 lib/radix-tree.o: $(deps_lib/radix-tree.o)
 
 $(deps_lib/radix-tree.o):
-#SYMVER radix_tree_preloads 0xd6e005b3
+#SYMVER radix_tree_preloads 0xa101856e
 #SYMVER radix_tree_preload 0x32ce3777
 #SYMVER radix_tree_maybe_preload 0xb22e16d5
-#SYMVER radix_tree_insert 0xa76c838e
-#SYMVER radix_tree_lookup_slot 0x381aeab4
-#SYMVER radix_tree_lookup 0x67ab3637
-#SYMVER radix_tree_replace_slot 0x8819e750
-#SYMVER radix_tree_tag_set 0x93443bb6
-#SYMVER radix_tree_tag_clear 0xdc4ca3d2
-#SYMVER radix_tree_tag_get 0x0cdb04f7
-#SYMVER radix_tree_iter_resume 0x9e31f430
-#SYMVER radix_tree_next_chunk 0xe0dd7372
-#SYMVER radix_tree_gang_lookup 0x495a3b98
-#SYMVER radix_tree_gang_lookup_tag 0x4f75d23f
-#SYMVER radix_tree_gang_lookup_tag_slot 0xc3733184
-#SYMVER radix_tree_iter_delete 0xee5fbe54
-#SYMVER radix_tree_delete_item 0x860142b0
-#SYMVER radix_tree_delete 0x611f8e5c
-#SYMVER radix_tree_tagged 0xdb2ab95d
+#SYMVER radix_tree_insert 0x1db6a8f4
+#SYMVER radix_tree_lookup_slot 0x5cbfd85d
+#SYMVER radix_tree_lookup 0xf3d73939
+#SYMVER radix_tree_replace_slot 0xe6049ca1
+#SYMVER radix_tree_tag_set 0xa9e7534b
+#SYMVER radix_tree_tag_clear 0x529f329b
+#SYMVER radix_tree_tag_get 0xc231043c
+#SYMVER radix_tree_iter_resume 0x52ca3754
+#SYMVER radix_tree_next_chunk 0x13deb931
+#SYMVER radix_tree_gang_lookup 0x5368eecc
+#SYMVER radix_tree_gang_lookup_tag 0xaa8e7f2d
+#SYMVER radix_tree_gang_lookup_tag_slot 0x97f40f97
+#SYMVER radix_tree_iter_delete 0xd37b1af2
+#SYMVER radix_tree_delete_item 0xd3585d8a
+#SYMVER radix_tree_delete 0x04c51162
+#SYMVER radix_tree_tagged 0x651c09b6
 #SYMVER idr_preload 0x954f099c
-#SYMVER idr_destroy 0x7c28f543
+#SYMVER idr_destroy 0xc82edfce

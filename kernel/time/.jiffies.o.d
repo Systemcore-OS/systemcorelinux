@@ -187,6 +187,8 @@ jiffies.o: kernel/time/jiffies.c include/linux/compiler-version.h \
  include/linux/kref.h include/linux/refcount.h include/linux/rbtree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/workqueue_types.h \
  include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
  include/linux/page-flags.h include/linux/local_lock.h \

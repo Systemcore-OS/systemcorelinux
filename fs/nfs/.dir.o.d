@@ -194,7 +194,9 @@ dir.o: fs/nfs/dir.c include/linux/compiler-version.h \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/wait.h \
- include/linux/uprobes.h include/linux/page-flags-layout.h \
+ include/linux/uprobes.h arch/arm64/include/asm/uprobes.h \
+ arch/arm64/include/asm/debug-monitors.h arch/arm64/include/asm/esr.h \
+ arch/arm64/include/asm/probes.h include/linux/page-flags-layout.h \
  include/generated/bounds.h include/linux/workqueue.h \
  include/linux/timer.h include/linux/ktime.h include/linux/jiffies.h \
  include/vdso/jiffies.h include/generated/timeconst.h \
@@ -315,9 +317,8 @@ dir.o: fs/nfs/dir.c include/linux/compiler-version.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
  include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
  arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h arch/arm64/include/asm/esr.h \
- include/asm-generic/hardirq.h include/linux/irq.h \
- include/linux/irqhandler.h include/linux/io.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -334,34 +335,32 @@ dir.o: fs/nfs/dir.c include/linux/compiler-version.h \
  arch/arm64/include/asm/seccomp.h \
  arch/arm64/include/generated/asm/unistd_compat_32.h \
  include/asm-generic/seccomp.h arch/arm64/include/asm/ftrace.h \
- include/linux/ftrace_regs.h include/linux/objpool.h \
- include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
- include/asm-generic/kprobes.h arch/arm64/include/asm/probes.h \
- arch/arm64/include/asm/kgdb.h arch/arm64/include/asm/debug-monitors.h \
- include/asm-generic/cacheflush.h include/linux/kmsan.h \
- include/linux/dma-direction.h include/linux/highmem-internal.h \
- include/net/checksum.h arch/arm64/include/asm/checksum.h \
- include/asm-generic/checksum.h include/linux/dma-mapping.h \
- include/linux/device.h include/linux/dev_printk.h \
- include/linux/energy_model.h include/linux/sched/cpufreq.h \
- include/linux/sched/topology.h include/linux/sched/idle.h \
- include/linux/sched/sd_flags.h include/linux/klist.h include/linux/pm.h \
- include/linux/device/bus.h include/linux/device/class.h \
- include/linux/device/devres.h include/linux/device/driver.h \
- arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
- include/net/flow_dissector.h include/uapi/linux/if_ether.h \
- include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
- include/uapi/linux/if_packet.h include/net/net_debug.h \
- include/net/netmem.h include/linux/seq_file_net.h \
- include/linux/seq_file.h include/linux/string_helpers.h \
- include/linux/ctype.h include/linux/string_choices.h \
- include/linux/sunrpc/sched.h include/linux/sunrpc/types.h \
- include/linux/sunrpc/debug.h include/uapi/linux/sunrpc/debug.h \
- include/linux/sunrpc/xdr.h include/linux/unaligned.h \
- include/linux/unaligned/packed_struct.h include/vdso/unaligned.h \
- include/linux/sunrpc/xprt.h include/linux/lwq.h \
+ include/linux/objpool.h include/linux/rethook.h \
+ arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
+ arch/arm64/include/asm/kgdb.h include/asm-generic/cacheflush.h \
+ include/linux/kmsan.h include/linux/dma-direction.h \
+ include/linux/highmem-internal.h include/net/checksum.h \
+ arch/arm64/include/asm/checksum.h include/asm-generic/checksum.h \
+ include/linux/dma-mapping.h include/linux/device.h \
+ include/linux/dev_printk.h include/linux/energy_model.h \
+ include/linux/sched/cpufreq.h include/linux/sched/topology.h \
+ include/linux/sched/idle.h include/linux/sched/sd_flags.h \
+ include/linux/klist.h include/linux/pm.h include/linux/device/bus.h \
+ include/linux/device/class.h include/linux/device/devres.h \
+ include/linux/device/driver.h arch/arm64/include/asm/device.h \
+ include/linux/pm_wakeup.h include/linux/scatterlist.h \
+ include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
+ include/linux/netdev_features.h include/net/flow_dissector.h \
+ include/uapi/linux/if_ether.h include/uapi/linux/pkt_cls.h \
+ include/uapi/linux/pkt_sched.h include/uapi/linux/if_packet.h \
+ include/net/net_debug.h include/net/netmem.h \
+ include/linux/seq_file_net.h include/linux/seq_file.h \
+ include/linux/string_helpers.h include/linux/ctype.h \
+ include/linux/string_choices.h include/linux/sunrpc/sched.h \
+ include/linux/sunrpc/types.h include/linux/sunrpc/debug.h \
+ include/uapi/linux/sunrpc/debug.h include/linux/sunrpc/xdr.h \
+ include/linux/unaligned.h include/linux/unaligned/packed_struct.h \
+ include/vdso/unaligned.h include/linux/sunrpc/xprt.h include/linux/lwq.h \
  include/linux/sunrpc/auth.h include/linux/utsname.h \
  include/uapi/linux/utsname.h include/linux/sunrpc/stats.h \
  include/linux/proc_fs.h include/linux/sunrpc/timer.h \

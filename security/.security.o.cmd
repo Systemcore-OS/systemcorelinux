@@ -1,4 +1,4 @@
-savedcmd_security/security.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,security/.security.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"security/security"' -DKBUILD_BASENAME='"security"' -DKBUILD_MODNAME='"security"' -D__KBUILD_MODNAME=kmod_security -c -o security/security.o security/security.c  
+savedcmd_security/security.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,security/.security.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"security/security"' -DKBUILD_BASENAME='"security"' -DKBUILD_MODNAME='"security"' -D__KBUILD_MODNAME=kmod_security -c -o security/security.o security/security.c  
 
 source_security/security.o := security/security.c
 
@@ -711,6 +711,11 @@ deps_security/security.o := \
   include/linux/swait.h \
   include/linux/wait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/percpu_counter.h \
@@ -726,7 +731,6 @@ deps_security/security.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/TREE_SRCU) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1160,7 +1164,6 @@ deps_security/security.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1312,14 +1315,11 @@ deps_security/security.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1638,54 +1638,54 @@ $(deps_security/security.o):
 #SYMVER unregister_blocking_lsm_notifier 0x88822d38
 #SYMVER security_free_mnt_opts 0xf2e5bd87
 #SYMVER security_sb_eat_lsm_opts 0xb48d4d22
-#SYMVER security_sb_mnt_opts_compat 0xe426f84f
-#SYMVER security_sb_remount 0x962303b6
-#SYMVER security_sb_set_mnt_opts 0x77740a68
-#SYMVER security_sb_clone_mnt_opts 0x704dc298
-#SYMVER security_dentry_init_security 0x319289e4
-#SYMVER security_dentry_create_files_as 0xc7fce027
-#SYMVER security_inode_init_security 0xb69a2448
-#SYMVER security_path_mknod 0xa8da8dd5
-#SYMVER security_path_mkdir 0x0ec31ab7
-#SYMVER security_path_unlink 0x22e05880
-#SYMVER security_path_rename 0x57da5c47
-#SYMVER security_inode_create 0x24356ca0
-#SYMVER security_inode_mkdir 0xa53b9491
-#SYMVER security_inode_setattr 0x288312a0
-#SYMVER security_inode_listsecurity 0xfec4e0f8
-#SYMVER security_inode_copy_up 0x90ca9b50
-#SYMVER security_inode_copy_up_xattr 0x347642da
-#SYMVER security_inode_setintegrity 0x99db4e10
-#SYMVER security_file_ioctl 0x81f7a3a2
-#SYMVER security_file_ioctl_compat 0x7830cf58
-#SYMVER security_file_post_open 0x958cc6b3
-#SYMVER security_cred_getsecid 0xbb1480fa
-#SYMVER security_kernel_read_file 0xd859ef68
-#SYMVER security_kernel_post_read_file 0x499c7e8b
+#SYMVER security_sb_mnt_opts_compat 0x3e90e190
+#SYMVER security_sb_remount 0x785bf22b
+#SYMVER security_sb_set_mnt_opts 0xd89704ff
+#SYMVER security_sb_clone_mnt_opts 0xae48200f
+#SYMVER security_dentry_init_security 0x30ddd6c3
+#SYMVER security_dentry_create_files_as 0x20d04ca8
+#SYMVER security_inode_init_security 0x5c17ef7d
+#SYMVER security_path_mknod 0xaf5bb831
+#SYMVER security_path_mkdir 0xc3037235
+#SYMVER security_path_unlink 0xb084c8c2
+#SYMVER security_path_rename 0x5c86d3ca
+#SYMVER security_inode_create 0xbc1f0ef7
+#SYMVER security_inode_mkdir 0x601a7c14
+#SYMVER security_inode_setattr 0xc8b1b21d
+#SYMVER security_inode_listsecurity 0x1a4f8165
+#SYMVER security_inode_copy_up 0x71fe8bdb
+#SYMVER security_inode_copy_up_xattr 0x9028161a
+#SYMVER security_inode_setintegrity 0x932f4f26
+#SYMVER security_file_ioctl 0xc640f1d0
+#SYMVER security_file_ioctl_compat 0xab80c4bd
+#SYMVER security_file_post_open 0xe78a4c34
+#SYMVER security_cred_getsecid 0x4fa6de30
+#SYMVER security_kernel_read_file 0x03d865d0
+#SYMVER security_kernel_post_read_file 0x40e9ea93
 #SYMVER security_kernel_load_data 0x25bbfa9a
 #SYMVER security_kernel_post_load_data 0xd92ef192
 #SYMVER security_current_getsecid_subj 0x189adfe6
-#SYMVER security_task_getsecid_obj 0x83042b84
-#SYMVER security_d_instantiate 0x3875273e
+#SYMVER security_task_getsecid_obj 0x9ab73a66
+#SYMVER security_d_instantiate 0x3b9dacbd
 #SYMVER security_ismaclabel 0xcdc39c9e
 #SYMVER security_secid_to_secctx 0xf44d53da
 #SYMVER security_secctx_to_secid 0xf9c1f9ab
 #SYMVER security_release_secctx 0xed61f6b3
-#SYMVER security_inode_invalidate_secctx 0x3b9e1e92
-#SYMVER security_inode_notifysecctx 0x8968e412
-#SYMVER security_inode_setsecctx 0x57dd9f21
-#SYMVER security_inode_getsecctx 0x72e8f298
-#SYMVER security_unix_stream_connect 0x771f0c43
-#SYMVER security_unix_may_send 0xfa9ad55a
-#SYMVER security_socket_socketpair 0x589b581e
-#SYMVER security_sock_rcv_skb 0xb7562279
-#SYMVER security_socket_getpeersec_dgram 0x4ab26347
-#SYMVER security_sk_clone 0x7a9b72e6
-#SYMVER security_sk_classify_flow 0xe6279fc4
+#SYMVER security_inode_invalidate_secctx 0x94a8d9c9
+#SYMVER security_inode_notifysecctx 0x143cb6ea
+#SYMVER security_inode_setsecctx 0x7a5395bb
+#SYMVER security_inode_getsecctx 0x299f60d0
+#SYMVER security_unix_stream_connect 0x11b42443
+#SYMVER security_unix_may_send 0xbad2c837
+#SYMVER security_socket_socketpair 0x5e8a4194
+#SYMVER security_sock_rcv_skb 0x9ccfbd87
+#SYMVER security_socket_getpeersec_dgram 0xbf02371a
+#SYMVER security_sk_clone 0x1d34dbbe
+#SYMVER security_sk_classify_flow 0xf4a2f53b
 #SYMVER security_req_classify_flow 0x26e67e99
-#SYMVER security_sock_graft 0x67a40a29
-#SYMVER security_inet_conn_request 0x778b5450
-#SYMVER security_inet_conn_established 0x5f3447ea
+#SYMVER security_sock_graft 0x49db85ef
+#SYMVER security_inet_conn_request 0x161cd604
+#SYMVER security_inet_conn_established 0xc47e1fb4
 #SYMVER security_secmark_relabel_packet 0x2c82c36a
 #SYMVER security_secmark_refcount_inc 0x2f03fc4b
 #SYMVER security_secmark_refcount_dec 0x19bd383b
@@ -1693,13 +1693,13 @@ $(deps_security/security.o):
 #SYMVER security_tun_dev_free_security 0x50097088
 #SYMVER security_tun_dev_create 0x4f1cd128
 #SYMVER security_tun_dev_attach_queue 0x34f3484e
-#SYMVER security_tun_dev_attach 0x28f2edb0
+#SYMVER security_tun_dev_attach 0xaef83f38
 #SYMVER security_tun_dev_open 0xda3d10a8
-#SYMVER security_sctp_assoc_request 0xaadef215
-#SYMVER security_sctp_bind_connect 0xc4df9d5d
-#SYMVER security_sctp_sk_clone 0x860f72de
-#SYMVER security_sctp_assoc_established 0x71f347af
+#SYMVER security_sctp_assoc_request 0x6aee2a64
+#SYMVER security_sctp_bind_connect 0xf9092bb1
+#SYMVER security_sctp_sk_clone 0x57cbb7b2
+#SYMVER security_sctp_assoc_established 0x5be61b36
 #SYMVER security_locked_down 0x127d83ea
-#SYMVER security_bdev_alloc 0xd081fbff
-#SYMVER security_bdev_free 0x5de51894
-#SYMVER security_bdev_setintegrity 0x9e1e08c7
+#SYMVER security_bdev_alloc 0xd9b73760
+#SYMVER security_bdev_free 0xb2d40621
+#SYMVER security_bdev_setintegrity 0x3d8cb8eb

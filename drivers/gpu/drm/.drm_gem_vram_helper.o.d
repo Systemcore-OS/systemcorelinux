@@ -148,7 +148,9 @@ drm_gem_vram_helper.o: drivers/gpu/drm/drm_gem_vram_helper.c \
  include/linux/rcupdate.h include/linux/context_tracking_irq.h \
  include/linux/rcutree.h include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/wait.h \
- include/linux/uprobes.h include/linux/page-flags-layout.h \
+ include/linux/uprobes.h arch/arm64/include/asm/uprobes.h \
+ arch/arm64/include/asm/debug-monitors.h arch/arm64/include/asm/esr.h \
+ arch/arm64/include/asm/probes.h include/linux/page-flags-layout.h \
  include/generated/bounds.h include/linux/workqueue.h \
  include/linux/timer.h include/linux/ktime.h include/linux/jiffies.h \
  include/linux/math64.h include/vdso/math64.h include/linux/time.h \
@@ -300,9 +302,9 @@ drm_gem_vram_helper.o: drivers/gpu/drm/drm_gem_vram_helper.c \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
  include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
  arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h arch/arm64/include/asm/esr.h \
- include/asm-generic/hardirq.h include/linux/irq.h \
- include/linux/irqhandler.h arch/arm64/include/generated/asm/irq_regs.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/irq.h include/linux/irqhandler.h \
+ arch/arm64/include/generated/asm/irq_regs.h \
  include/asm-generic/irq_regs.h include/linux/irqdesc.h \
  arch/arm64/include/generated/asm/hw_irq.h include/asm-generic/hw_irq.h \
  include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
@@ -331,11 +333,9 @@ drm_gem_vram_helper.o: drivers/gpu/drm/drm_gem_vram_helper.c \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
  include/drm/drm_gem_framebuffer_helper.h \
  include/drm/drm_gem_ttm_helper.h include/drm/ttm/ttm_bo.h \
  include/drm/ttm/ttm_device.h include/drm/ttm/ttm_resource.h \

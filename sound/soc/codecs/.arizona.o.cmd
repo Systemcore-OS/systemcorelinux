@@ -1,4 +1,4 @@
-savedcmd_sound/soc/codecs/arizona.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/codecs/.arizona.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"arizona"' -DKBUILD_MODNAME='"snd_soc_arizona"' -D__KBUILD_MODNAME=kmod_snd_soc_arizona -c -o sound/soc/codecs/arizona.o sound/soc/codecs/arizona.c  
+savedcmd_sound/soc/codecs/arizona.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/codecs/.arizona.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"arizona"' -DKBUILD_MODNAME='"snd_soc_arizona"' -D__KBUILD_MODNAME=kmod_snd_soc_arizona -c -o sound/soc/codecs/arizona.o sound/soc/codecs/arizona.c  
 
 source_sound/soc/codecs/arizona.o := sound/soc/codecs/arizona.c
 
@@ -731,6 +731,10 @@ deps_sound/soc/codecs/arizona.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1149,7 +1153,6 @@ deps_sound/soc/codecs/arizona.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1337,14 +1340,11 @@ deps_sound/soc/codecs/arizona.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/highmem-internal.h \
@@ -1411,13 +1411,13 @@ deps_sound/soc/codecs/arizona.o := \
 sound/soc/codecs/arizona.o: $(deps_sound/soc/codecs/arizona.o)
 
 $(deps_sound/soc/codecs/arizona.o):
-#SYMVER arizona_init_spk 0xea44f15a
-#SYMVER arizona_init_spk_irqs 0x914ae100
-#SYMVER arizona_free_spk_irqs 0xbdeb0558
-#SYMVER arizona_init_mono 0x2bfe83f3
-#SYMVER arizona_init_gpio 0x4d301c52
-#SYMVER arizona_init_common 0x5e5adab8
-#SYMVER arizona_init_vol_limit 0xf72c3ce4
+#SYMVER arizona_init_spk 0xbea2810c
+#SYMVER arizona_init_spk_irqs 0xe11c6c86
+#SYMVER arizona_free_spk_irqs 0x270b8dad
+#SYMVER arizona_init_mono 0x7139eec6
+#SYMVER arizona_init_gpio 0x66cd4533
+#SYMVER arizona_init_common 0x0bf2a4f6
+#SYMVER arizona_init_vol_limit 0xbdecd8f6
 #SYMVER arizona_mixer_texts 0x7f26f273
 #SYMVER arizona_mixer_values 0x729a5ef3
 #SYMVER arizona_mixer_tlv 0xc9c29637
@@ -1443,26 +1443,26 @@ $(deps_sound/soc/codecs/arizona.o):
 #SYMVER arizona_anc_input_src 0x0e93f73b
 #SYMVER arizona_anc_ng_enum 0x48e31891
 #SYMVER arizona_output_anc_src 0xb56c878b
-#SYMVER arizona_voice_trigger_switch 0xf01945b1
-#SYMVER arizona_input_analog 0x8c416217
-#SYMVER arizona_in_ev 0xa8bbdeda
-#SYMVER arizona_out_ev 0xc0cc896a
-#SYMVER arizona_hp_ev 0x5096ed21
-#SYMVER arizona_dvfs_up 0x8ec81d3e
-#SYMVER arizona_dvfs_down 0xdd80bbc2
-#SYMVER arizona_dvfs_sysclk_ev 0xb3cfd5c5
-#SYMVER arizona_init_dvfs 0xa9306b9d
-#SYMVER arizona_anc_ev 0x85bcff31
-#SYMVER arizona_clk_ev 0x2d3c767a
-#SYMVER arizona_set_sysclk 0x8c890fa2
-#SYMVER arizona_dai_ops 0xc6f0f72c
-#SYMVER arizona_simple_dai_ops 0xe114b1e0
-#SYMVER arizona_init_dai 0xf1da6869
-#SYMVER arizona_set_fll_refclk 0x2e17c074
-#SYMVER arizona_set_fll 0x32170620
-#SYMVER arizona_init_fll 0x386b7c1e
-#SYMVER arizona_set_output_mode 0x66b50bb0
-#SYMVER arizona_adsp2_rate_controls 0x546d5f0f
-#SYMVER arizona_eq_coeff_put 0x6d96481d
-#SYMVER arizona_lhpf_coeff_put 0x7b1d56ed
-#SYMVER arizona_of_get_audio_pdata 0xb4417cad
+#SYMVER arizona_voice_trigger_switch 0x4665c183
+#SYMVER arizona_input_analog 0xbfd8aaa2
+#SYMVER arizona_in_ev 0x8e8f0317
+#SYMVER arizona_out_ev 0x06734ef4
+#SYMVER arizona_hp_ev 0x5dcbdb80
+#SYMVER arizona_dvfs_up 0xe372ccce
+#SYMVER arizona_dvfs_down 0x6d6773cf
+#SYMVER arizona_dvfs_sysclk_ev 0xbc3ead65
+#SYMVER arizona_init_dvfs 0xd5dacfcc
+#SYMVER arizona_anc_ev 0x66f444f0
+#SYMVER arizona_clk_ev 0x1eeca86e
+#SYMVER arizona_set_sysclk 0x3d13e736
+#SYMVER arizona_dai_ops 0xdb4cfedd
+#SYMVER arizona_simple_dai_ops 0x7356bb12
+#SYMVER arizona_init_dai 0x7fe998c1
+#SYMVER arizona_set_fll_refclk 0x0190ae8a
+#SYMVER arizona_set_fll 0xfb682770
+#SYMVER arizona_init_fll 0xe23245d8
+#SYMVER arizona_set_output_mode 0x2733d043
+#SYMVER arizona_adsp2_rate_controls 0x4ec45030
+#SYMVER arizona_eq_coeff_put 0x58a03ae8
+#SYMVER arizona_lhpf_coeff_put 0x583e9c77
+#SYMVER arizona_of_get_audio_pdata 0x23458e38

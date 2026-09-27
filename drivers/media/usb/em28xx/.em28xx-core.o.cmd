@@ -1,4 +1,4 @@
-savedcmd_drivers/media/usb/em28xx/em28xx-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/media/usb/em28xx/.em28xx-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -I ./drivers/media/tuners -I ./drivers/media/dvb-frontends  -DMODULE  -DKBUILD_BASENAME='"em28xx_core"' -DKBUILD_MODNAME='"em28xx"' -D__KBUILD_MODNAME=kmod_em28xx -c -o drivers/media/usb/em28xx/em28xx-core.o drivers/media/usb/em28xx/em28xx-core.c  
+savedcmd_drivers/media/usb/em28xx/em28xx-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/media/usb/em28xx/.em28xx-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -I ./drivers/media/tuners -I ./drivers/media/dvb-frontends  -DMODULE  -DKBUILD_BASENAME='"em28xx_core"' -DKBUILD_MODNAME='"em28xx"' -D__KBUILD_MODNAME=kmod_em28xx -c -o drivers/media/usb/em28xx/em28xx-core.o drivers/media/usb/em28xx/em28xx-core.c  
 
 source_drivers/media/usb/em28xx/em28xx-core.o := drivers/media/usb/em28xx/em28xx-core.c
 
@@ -758,6 +758,11 @@ deps_drivers/media/usb/em28xx/em28xx-core.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
     $(wildcard include/config/ARM64_E0PD) \
@@ -891,7 +896,6 @@ deps_drivers/media/usb/em28xx/em28xx-core.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1117,7 +1121,6 @@ deps_drivers/media/usb/em28xx/em28xx-core.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1345,14 +1348,11 @@ deps_drivers/media/usb/em28xx/em28xx-core.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1557,21 +1557,21 @@ deps_drivers/media/usb/em28xx/em28xx-core.o := \
 drivers/media/usb/em28xx/em28xx-core.o: $(deps_drivers/media/usb/em28xx/em28xx-core.o)
 
 $(deps_drivers/media/usb/em28xx/em28xx-core.o):
-#SYMVER em28xx_read_reg 0x26f61e12
-#SYMVER em28xx_write_regs 0x3369bf81
-#SYMVER em28xx_write_reg 0xa2c944db
-#SYMVER em28xx_write_reg_bits 0xc5cc0183
-#SYMVER em28xx_toggle_reg_bits 0xfc8a0c3f
-#SYMVER em28xx_read_ac97 0x38e59051
-#SYMVER em28xx_write_ac97 0x8db0e793
-#SYMVER em28xx_audio_analog_set 0x1c3dda56
-#SYMVER em28xx_audio_setup 0xb0bba68e
-#SYMVER em28xx_find_led 0xf43d8aaf
-#SYMVER em28xx_gpio_set 0xc23c53d8
-#SYMVER em28xx_set_mode 0x5fd40dfc
-#SYMVER em28xx_uninit_usb_xfer 0x7add86a3
-#SYMVER em28xx_stop_urbs 0x474f45c4
-#SYMVER em28xx_alloc_urbs 0xcbdcbec0
-#SYMVER em28xx_init_usb_xfer 0x7f6ebca2
-#SYMVER em28xx_register_extension 0x98836695
-#SYMVER em28xx_unregister_extension 0x88f4decd
+#SYMVER em28xx_read_reg 0x029ad2a9
+#SYMVER em28xx_write_regs 0xcefe0682
+#SYMVER em28xx_write_reg 0x74c6abcf
+#SYMVER em28xx_write_reg_bits 0x95dfc35b
+#SYMVER em28xx_toggle_reg_bits 0x95792bfd
+#SYMVER em28xx_read_ac97 0xd85170f1
+#SYMVER em28xx_write_ac97 0x8fdaa3b6
+#SYMVER em28xx_audio_analog_set 0xd9083d85
+#SYMVER em28xx_audio_setup 0x208dcb6e
+#SYMVER em28xx_find_led 0x37f866df
+#SYMVER em28xx_gpio_set 0x33a2613a
+#SYMVER em28xx_set_mode 0xd63cdf53
+#SYMVER em28xx_uninit_usb_xfer 0x89234596
+#SYMVER em28xx_stop_urbs 0x215fec5a
+#SYMVER em28xx_alloc_urbs 0xd897a95c
+#SYMVER em28xx_init_usb_xfer 0x81b7eca4
+#SYMVER em28xx_register_extension 0x2be766db
+#SYMVER em28xx_unregister_extension 0xd4df6eb0

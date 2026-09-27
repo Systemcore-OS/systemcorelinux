@@ -1,4 +1,4 @@
-savedcmd_kernel/rcu/update.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/rcu/.update.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"kernel/rcu/update"' -DKBUILD_BASENAME='"update"' -DKBUILD_MODNAME='"update"' -D__KBUILD_MODNAME=kmod_update -c -o kernel/rcu/update.o kernel/rcu/update.c  
+savedcmd_kernel/rcu/update.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/rcu/.update.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"kernel/rcu/update"' -DKBUILD_BASENAME='"update"' -DKBUILD_MODNAME='"update"' -D__KBUILD_MODNAME=kmod_update -c -o kernel/rcu/update.o kernel/rcu/update.c  
 
 source_kernel/rcu/update.o := kernel/rcu/update.c
 
@@ -713,6 +713,10 @@ deps_kernel/rcu/update.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1008,7 +1012,6 @@ deps_kernel/rcu/update.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1279,14 +1282,11 @@ deps_kernel/rcu/update.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   arch/arm64/include/asm/daifflags.h \
   arch/arm64/include/asm/arch_gicv3.h \
@@ -1456,7 +1456,7 @@ $(deps_kernel/rcu/update.o):
 #SYMVER rcu_inkernel_boot_has_ended 0x24da0093
 #SYMVER wakeme_after_rcu 0xcd9cd2ff
 #SYMVER __wait_rcu_gp 0x0dc19a4c
-#SYMVER finish_rcuwait 0xde67aae0
+#SYMVER finish_rcuwait 0x07b59a81
 #SYMVER do_trace_rcu_torture_read 0x92db8f68
 #SYMVER rcu_cpu_stall_notifiers 0xa422dcfc
 #SYMVER rcu_cpu_stall_suppress 0xb0747ed2
@@ -1467,20 +1467,15 @@ $(deps_kernel/rcu/update.o):
 #SYMVER rcu_barrier_tasks 0xf6f16c56
 #SYMVER show_rcu_tasks_classic_gp_kthread 0xd74e400f
 #SYMVER rcu_tasks_torture_stats_print 0x4a0df198
-#SYMVER get_rcu_tasks_gp_kthread 0x39a1bdf6
+#SYMVER get_rcu_tasks_gp_kthread 0xaaf5e039
 #SYMVER rcu_tasks_get_gp_data 0x25bf7b31
-#SYMVER synchronize_rcu_tasks_rude 0xb7a387fc
-#SYMVER show_rcu_tasks_rude_gp_kthread 0xd42f1d4e
-#SYMVER rcu_tasks_rude_torture_stats_print 0x7fe51d3d
-#SYMVER get_rcu_tasks_rude_gp_kthread 0x01bb9a5d
-#SYMVER rcu_tasks_rude_get_gp_data 0x10579794
-#SYMVER rcu_trc_cmpxchg_need_qs 0x50ec87cb
-#SYMVER rcu_read_unlock_trace_special 0xbc4b154d
-#SYMVER rcu_tasks_trace_qs_blkd 0x1815196c
+#SYMVER rcu_trc_cmpxchg_need_qs 0xe66685e0
+#SYMVER rcu_read_unlock_trace_special 0x20e073a2
+#SYMVER rcu_tasks_trace_qs_blkd 0xae62c44e
 #SYMVER call_rcu_tasks_trace 0x52c35e83
 #SYMVER synchronize_rcu_tasks_trace 0x6246a629
 #SYMVER rcu_barrier_tasks_trace 0xcfc7b4e4
 #SYMVER show_rcu_tasks_trace_gp_kthread 0x7c291e86
 #SYMVER rcu_tasks_trace_torture_stats_print 0x45f31b5a
-#SYMVER get_rcu_tasks_trace_gp_kthread 0xf842cbdf
+#SYMVER get_rcu_tasks_trace_gp_kthread 0x6345f298
 #SYMVER rcu_tasks_trace_get_gp_data 0x2a4191f3

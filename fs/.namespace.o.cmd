@@ -1,4 +1,4 @@
-savedcmd_fs/namespace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.namespace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"fs/namespace"' -DKBUILD_BASENAME='"namespace"' -DKBUILD_MODNAME='"namespace"' -D__KBUILD_MODNAME=kmod_namespace -c -o fs/namespace.o fs/namespace.c  
+savedcmd_fs/namespace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.namespace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/namespace"' -DKBUILD_BASENAME='"namespace"' -DKBUILD_MODNAME='"namespace"' -D__KBUILD_MODNAME=kmod_namespace -c -o fs/namespace.o fs/namespace.c  
 
 source_fs/namespace.o := fs/namespace.c
 
@@ -755,6 +755,11 @@ deps_fs/namespace.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -999,7 +1004,6 @@ deps_fs/namespace.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1149,7 +1153,6 @@ deps_fs/namespace.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1260,7 +1263,6 @@ deps_fs/namespace.o := \
   include/uapi/linux/libc-compat.h \
   include/uapi/linux/hdlc/ioctl.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/irq_work.h \
     $(wildcard include/config/IRQ_WORK) \
   arch/arm64/include/asm/irq_work.h \
@@ -1359,9 +1361,7 @@ deps_fs/namespace.o := \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1426,28 +1426,28 @@ deps_fs/namespace.o := \
 fs/namespace.o: $(deps_fs/namespace.o)
 
 $(deps_fs/namespace.o):
-#SYMVER fs_kobj 0x261a5546
-#SYMVER __mnt_is_readonly 0x2fa82d71
-#SYMVER mnt_get_write_access 0x19037089
-#SYMVER mnt_want_write 0x965d08f5
-#SYMVER mnt_want_write_file 0x4d071032
-#SYMVER mnt_put_write_access 0x93c39e02
-#SYMVER mnt_drop_write 0x07f0a410
-#SYMVER mnt_drop_write_file 0x9df6ab69
-#SYMVER vfs_create_mount 0x29c9f281
-#SYMVER fc_mount 0x5dce4df4
-#SYMVER vfs_kern_mount 0x27608144
-#SYMVER vfs_submount 0x46d9dd15
-#SYMVER mntput 0x594f45b7
-#SYMVER mntget 0xa722d447
-#SYMVER path_is_mountpoint 0x771cd9ce
-#SYMVER may_umount_tree 0x8c778e97
-#SYMVER may_umount 0x495f455a
-#SYMVER clone_private_mount 0x1757e0fd
-#SYMVER mnt_set_expiry 0x4d3865ee
+#SYMVER fs_kobj 0x5659157b
+#SYMVER __mnt_is_readonly 0xf54b9870
+#SYMVER mnt_get_write_access 0xf9b93025
+#SYMVER mnt_want_write 0x27637b4e
+#SYMVER mnt_want_write_file 0x3b66f927
+#SYMVER mnt_put_write_access 0xf1e4cf9d
+#SYMVER mnt_drop_write 0x060d03bd
+#SYMVER mnt_drop_write_file 0x1ff334f9
+#SYMVER vfs_create_mount 0x577764d4
+#SYMVER fc_mount 0xd1d2c383
+#SYMVER vfs_kern_mount 0xe572f20d
+#SYMVER vfs_submount 0x589a6cd2
+#SYMVER mntput 0xc7b345f9
+#SYMVER mntget 0xea5f0725
+#SYMVER path_is_mountpoint 0x6baf8346
+#SYMVER may_umount_tree 0xdde97485
+#SYMVER may_umount 0xc8904976
+#SYMVER clone_private_mount 0x76e2bfcf
+#SYMVER mnt_set_expiry 0x76cadb9a
 #SYMVER mark_mounts_for_expiry 0x064db9a5
-#SYMVER mount_subtree 0xd8b87d5c
-#SYMVER path_is_under 0x30fbc843
-#SYMVER kern_mount 0x8ad3de62
-#SYMVER kern_unmount 0xd2b20f50
-#SYMVER kern_unmount_array 0xe19be3de
+#SYMVER mount_subtree 0xd537f294
+#SYMVER path_is_under 0x6ade3a90
+#SYMVER kern_mount 0xf46d4837
+#SYMVER kern_unmount 0x9a6c1701
+#SYMVER kern_unmount_array 0x53cea992

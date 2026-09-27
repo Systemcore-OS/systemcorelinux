@@ -1,4 +1,4 @@
-savedcmd_block/bio.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,block/.bio.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"block/bio"' -DKBUILD_BASENAME='"bio"' -DKBUILD_MODNAME='"bio"' -D__KBUILD_MODNAME=kmod_bio -c -o block/bio.o block/bio.c  
+savedcmd_block/bio.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,block/.bio.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"block/bio"' -DKBUILD_BASENAME='"bio"' -DKBUILD_MODNAME='"bio"' -D__KBUILD_MODNAME=kmod_bio -c -o block/bio.o block/bio.c  
 
 source_block/bio.o := block/bio.c
 
@@ -591,6 +591,11 @@ deps_block/bio.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1037,7 +1042,6 @@ deps_block/bio.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1119,7 +1123,6 @@ deps_block/bio.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1230,14 +1233,11 @@ deps_block/bio.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1377,36 +1377,36 @@ deps_block/bio.o := \
 block/bio.o: $(deps_block/bio.o)
 
 $(deps_block/bio.o):
-#SYMVER fs_bio_set 0xb8ffe86c
-#SYMVER bio_uninit 0x1b30d975
-#SYMVER bio_init 0xadba3e3e
-#SYMVER bio_reset 0x1393e98b
-#SYMVER bio_chain 0x0232bc58
-#SYMVER blk_next_bio 0x203d340a
-#SYMVER bio_alloc_bioset 0x9c45be37
-#SYMVER bio_kmalloc 0x521ce713
-#SYMVER zero_fill_bio_iter 0x1b61db57
-#SYMVER bio_put 0x34d286f7
-#SYMVER bio_alloc_clone 0x61f598d4
-#SYMVER bio_init_clone 0x68864aae
-#SYMVER bio_add_pc_page 0x86f98aed
-#SYMVER bio_add_zone_append_page 0x65b5d44d
-#SYMVER __bio_add_page 0x398f950e
-#SYMVER bio_add_virt_nofail 0xb7948475
-#SYMVER bio_add_page 0x297fdf97
-#SYMVER bio_add_folio_nofail 0x7395cc41
-#SYMVER bio_add_folio 0x85ae5f8e
-#SYMVER __bio_release_pages 0x57cb2c34
-#SYMVER bio_iov_iter_get_pages 0x1f06d288
-#SYMVER submit_bio_wait 0x5c57b8e5
-#SYMVER __bio_advance 0x618f6465
-#SYMVER bio_copy_data_iter 0xc2140c20
-#SYMVER bio_copy_data 0xbd20853b
-#SYMVER bio_free_pages 0xa4295a4b
-#SYMVER bio_set_pages_dirty 0x68292e64
-#SYMVER bio_check_pages_dirty 0x2d296931
-#SYMVER bio_endio 0x03fd2687
-#SYMVER bio_split 0x4f3d85f7
-#SYMVER bio_trim 0x3595e043
-#SYMVER bioset_exit 0xc2335025
-#SYMVER bioset_init 0x44773d57
+#SYMVER fs_bio_set 0xf8c737ad
+#SYMVER bio_uninit 0xf9fa75cf
+#SYMVER bio_init 0xb43aab19
+#SYMVER bio_reset 0xa51a1477
+#SYMVER bio_chain 0x9f2369ee
+#SYMVER blk_next_bio 0x44a088dd
+#SYMVER bio_alloc_bioset 0x44a4d058
+#SYMVER bio_kmalloc 0x31733447
+#SYMVER zero_fill_bio_iter 0x5a5671ea
+#SYMVER bio_put 0x4093c89e
+#SYMVER bio_alloc_clone 0xea0409dd
+#SYMVER bio_init_clone 0xf2074adc
+#SYMVER bio_add_pc_page 0x2dea34cc
+#SYMVER bio_add_zone_append_page 0x05816889
+#SYMVER __bio_add_page 0xc6a9b572
+#SYMVER bio_add_virt_nofail 0x9907be0f
+#SYMVER bio_add_page 0x1b790003
+#SYMVER bio_add_folio_nofail 0xf097c865
+#SYMVER bio_add_folio 0xa02570b7
+#SYMVER __bio_release_pages 0xcd2872eb
+#SYMVER bio_iov_iter_get_pages 0xfae88882
+#SYMVER submit_bio_wait 0x7cdc4e54
+#SYMVER __bio_advance 0x480f84fb
+#SYMVER bio_copy_data_iter 0x59349218
+#SYMVER bio_copy_data 0x4f5d7581
+#SYMVER bio_free_pages 0xc584f8b4
+#SYMVER bio_set_pages_dirty 0x3a0013a4
+#SYMVER bio_check_pages_dirty 0xcdaa110a
+#SYMVER bio_endio 0xc7773802
+#SYMVER bio_split 0xd6f9c144
+#SYMVER bio_trim 0xd778ab96
+#SYMVER bioset_exit 0xda4d20c6
+#SYMVER bioset_init 0x1cf4995d

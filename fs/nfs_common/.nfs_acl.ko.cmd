@@ -1,0 +1,1 @@
+savedcmd_fs/nfs_common/nfs_acl.ko := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o fs/nfs_common/nfs_acl.ko fs/nfs_common/nfs_acl.o fs/nfs_common/nfs_acl.mod.o .module-common.o

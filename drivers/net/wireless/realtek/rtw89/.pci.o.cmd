@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/realtek/rtw89/pci.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/realtek/rtw89/.pci.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"pci"' -DKBUILD_MODNAME='"rtw89_pci"' -D__KBUILD_MODNAME=kmod_rtw89_pci -c -o drivers/net/wireless/realtek/rtw89/pci.o drivers/net/wireless/realtek/rtw89/pci.c  
+savedcmd_drivers/net/wireless/realtek/rtw89/pci.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/realtek/rtw89/.pci.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"pci"' -DKBUILD_MODNAME='"rtw89_pci"' -D__KBUILD_MODNAME=kmod_rtw89_pci -c -o drivers/net/wireless/realtek/rtw89/pci.o drivers/net/wireless/realtek/rtw89/pci.c  
 
 source_drivers/net/wireless/realtek/rtw89/pci.o := drivers/net/wireless/realtek/rtw89/pci.c
 
@@ -713,6 +713,11 @@ deps_drivers/net/wireless/realtek/rtw89/pci.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -872,7 +877,6 @@ deps_drivers/net/wireless/realtek/rtw89/pci.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1044,7 +1048,6 @@ deps_drivers/net/wireless/realtek/rtw89/pci.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1312,14 +1315,11 @@ deps_drivers/net/wireless/realtek/rtw89/pci.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/highmem-internal.h \
@@ -1626,28 +1626,28 @@ deps_drivers/net/wireless/realtek/rtw89/pci.o := \
 drivers/net/wireless/realtek/rtw89/pci.o: $(deps_drivers/net/wireless/realtek/rtw89/pci.o)
 
 $(deps_drivers/net/wireless/realtek/rtw89/pci.o):
-#SYMVER rtw89_pci_recognize_intrs 0x35f8297e
-#SYMVER rtw89_pci_recognize_intrs_v1 0xc076ea6c
-#SYMVER rtw89_pci_recognize_intrs_v2 0x8b7f54bd
-#SYMVER rtw89_pci_enable_intr 0xf7e2a064
-#SYMVER rtw89_pci_disable_intr 0x050c2f45
-#SYMVER rtw89_pci_enable_intr_v1 0xfca74f75
-#SYMVER rtw89_pci_disable_intr_v1 0x3e8128ab
-#SYMVER rtw89_pci_enable_intr_v2 0x33fe6a46
-#SYMVER rtw89_pci_disable_intr_v2 0xf1d80d98
+#SYMVER rtw89_pci_recognize_intrs 0x01f606fd
+#SYMVER rtw89_pci_recognize_intrs_v1 0x80551ed0
+#SYMVER rtw89_pci_recognize_intrs_v2 0xd7183981
+#SYMVER rtw89_pci_enable_intr 0x30d65d0d
+#SYMVER rtw89_pci_disable_intr 0x22c439b2
+#SYMVER rtw89_pci_enable_intr_v1 0x541ecee5
+#SYMVER rtw89_pci_disable_intr_v1 0x6834a831
+#SYMVER rtw89_pci_enable_intr_v2 0x52f37ddf
+#SYMVER rtw89_pci_disable_intr_v2 0x6ed91b0b
 #SYMVER rtw89_pci_ch_dma_addr_set 0x9ce0961b
 #SYMVER rtw89_pci_ch_dma_addr_set_v1 0xf630d9a9
 #SYMVER rtw89_pci_ch_dma_addr_set_be 0x33c84a55
-#SYMVER rtw89_pci_fill_txaddr_info 0xce2137d2
-#SYMVER rtw89_pci_fill_txaddr_info_v1 0xa6accba0
+#SYMVER rtw89_pci_fill_txaddr_info 0x9f1821b8
+#SYMVER rtw89_pci_fill_txaddr_info_v1 0x38423040
 #SYMVER rtw89_bd_ram_table_dual 0x6efd9f2c
 #SYMVER rtw89_bd_ram_table_single 0x71162055
-#SYMVER rtw89_pci_ltr_set 0x37e3c911
-#SYMVER rtw89_pci_ltr_set_v1 0x5fa328ad
-#SYMVER rtw89_pci_config_intr_mask 0x0471b398
-#SYMVER rtw89_pci_config_intr_mask_v1 0x4d90dcca
-#SYMVER rtw89_pci_config_intr_mask_v2 0x04255207
-#SYMVER rtw89_pm_ops 0x00da457c
-#SYMVER rtw89_pci_gen_ax 0xa80a7765
-#SYMVER rtw89_pci_probe 0x97159427
-#SYMVER rtw89_pci_remove 0x8f6e4121
+#SYMVER rtw89_pci_ltr_set 0x9deece08
+#SYMVER rtw89_pci_ltr_set_v1 0x50c846fc
+#SYMVER rtw89_pci_config_intr_mask 0x53ebb152
+#SYMVER rtw89_pci_config_intr_mask_v1 0x75bca73a
+#SYMVER rtw89_pci_config_intr_mask_v2 0x1a982ded
+#SYMVER rtw89_pm_ops 0xba0fedb7
+#SYMVER rtw89_pci_gen_ax 0xde40bfa9
+#SYMVER rtw89_pci_probe 0x0812c664
+#SYMVER rtw89_pci_remove 0x949bf04d

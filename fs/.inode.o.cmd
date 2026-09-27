@@ -1,4 +1,4 @@
-savedcmd_fs/inode.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.inode.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"fs/inode"' -DKBUILD_BASENAME='"inode"' -DKBUILD_MODNAME='"inode"' -D__KBUILD_MODNAME=kmod_inode -c -o fs/inode.o fs/inode.c  
+savedcmd_fs/inode.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.inode.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/inode"' -DKBUILD_BASENAME='"inode"' -DKBUILD_MODNAME='"inode"' -D__KBUILD_MODNAME=kmod_inode -c -o fs/inode.o fs/inode.c  
 
 source_fs/inode.o := fs/inode.c
 
@@ -743,6 +743,11 @@ deps_fs/inode.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1044,7 +1049,6 @@ deps_fs/inode.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1135,7 +1139,6 @@ deps_fs/inode.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1229,14 +1232,11 @@ deps_fs/inode.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1378,66 +1378,66 @@ deps_fs/inode.o := \
 fs/inode.o: $(deps_fs/inode.o)
 
 $(deps_fs/inode.o):
-#SYMVER empty_aops 0x978687e0
-#SYMVER inode_init_always_gfp 0xa4ef7fec
-#SYMVER free_inode_nonrcu 0xe0587207
-#SYMVER __destroy_inode 0xb1f7e611
-#SYMVER drop_nlink 0x8279044f
-#SYMVER clear_nlink 0x76c04e03
-#SYMVER set_nlink 0x920f0978
-#SYMVER inc_nlink 0xae6bf5d7
-#SYMVER address_space_init_once 0xc14ae93e
-#SYMVER inode_init_once 0xec04a76a
-#SYMVER ihold 0x80fbc726
-#SYMVER inode_bit_waitqueue 0x372715fc
-#SYMVER inode_sb_list_add 0x0efb841e
-#SYMVER __insert_inode_hash 0x244e128f
-#SYMVER __remove_inode_hash 0x1a4da9c1
-#SYMVER clear_inode 0x71c22a96
-#SYMVER evict_inodes 0xfc1a22d5
+#SYMVER empty_aops 0xe59dd052
+#SYMVER inode_init_always_gfp 0xed113596
+#SYMVER free_inode_nonrcu 0x23684b15
+#SYMVER __destroy_inode 0x59941d1b
+#SYMVER drop_nlink 0x0db71d61
+#SYMVER clear_nlink 0x88c97c7d
+#SYMVER set_nlink 0xad9ceab5
+#SYMVER inc_nlink 0xf5523cf1
+#SYMVER address_space_init_once 0x76845856
+#SYMVER inode_init_once 0x9734d9a8
+#SYMVER ihold 0xc8361f32
+#SYMVER inode_bit_waitqueue 0x33362888
+#SYMVER inode_sb_list_add 0x413f0c19
+#SYMVER __insert_inode_hash 0x3b151366
+#SYMVER __remove_inode_hash 0xc33a6b50
+#SYMVER clear_inode 0xbb5ad2ec
+#SYMVER evict_inodes 0xccfd8256
 #SYMVER get_next_ino 0xe953b21f
-#SYMVER new_inode 0x6ea12f55
-#SYMVER unlock_new_inode 0x70b6ec40
-#SYMVER discard_new_inode 0x2ac21b0d
-#SYMVER lock_two_nondirectories 0xc4c5f912
-#SYMVER unlock_two_nondirectories 0x912b00c7
-#SYMVER inode_insert5 0xdead15b1
-#SYMVER iget5_locked 0x9f07ab3b
-#SYMVER iget5_locked_rcu 0x0aeafd3c
-#SYMVER iget_locked 0x68f44b35
-#SYMVER iunique 0x0d010ad5
-#SYMVER igrab 0x3780da57
-#SYMVER ilookup5_nowait 0x0527d942
-#SYMVER ilookup5 0x967c2f17
-#SYMVER ilookup 0x3935a03a
-#SYMVER find_inode_nowait 0x3c7da4bf
-#SYMVER find_inode_rcu 0x49dd9e11
-#SYMVER find_inode_by_ino_rcu 0x1079c4ec
-#SYMVER insert_inode_locked 0x6448cf87
-#SYMVER insert_inode_locked4 0x93ab5bee
-#SYMVER generic_delete_inode 0xff81c226
-#SYMVER iput 0xdd3d3d0e
-#SYMVER bmap 0xf8ab6af1
-#SYMVER inode_update_timestamps 0x818a9f0d
-#SYMVER generic_update_time 0x9af45c07
-#SYMVER inode_update_time 0xd7ba8ab7
-#SYMVER touch_atime 0x6b13d8b3
-#SYMVER file_remove_privs_flags 0x06dc7a04
-#SYMVER file_remove_privs 0xfda3d732
-#SYMVER file_update_time 0x612dec33
-#SYMVER file_modified 0xff1773f3
-#SYMVER kiocb_modified 0x503b088b
-#SYMVER inode_needs_sync 0x766322d7
-#SYMVER init_special_inode 0x4bdf60bf
-#SYMVER inode_init_owner 0xe77fd5db
-#SYMVER inode_owner_or_capable 0x141ce69a
-#SYMVER inode_dio_finished 0x79dbfe6a
-#SYMVER inode_dio_wait 0xdcff8d6a
-#SYMVER inode_dio_wait_interruptible 0x0226c0c9
-#SYMVER inode_set_flags 0x47cb0ca2
-#SYMVER inode_nohighmem 0x461666b0
-#SYMVER timestamp_truncate 0xb8b98c3d
-#SYMVER current_time 0x80694546
-#SYMVER inode_set_ctime_current 0xf92977d7
-#SYMVER in_group_or_capable 0xe87f7f34
-#SYMVER mode_strip_sgid 0x8f7a15b4
+#SYMVER new_inode 0xd84ffe2e
+#SYMVER unlock_new_inode 0xfb95e923
+#SYMVER discard_new_inode 0x2b1d7755
+#SYMVER lock_two_nondirectories 0x8c7e5f9c
+#SYMVER unlock_two_nondirectories 0x6fa8f164
+#SYMVER inode_insert5 0x1f3b6b7a
+#SYMVER iget5_locked 0xa15d8713
+#SYMVER iget5_locked_rcu 0xdf0e6d1c
+#SYMVER iget_locked 0xce924371
+#SYMVER iunique 0xa1498c32
+#SYMVER igrab 0x893b2bc1
+#SYMVER ilookup5_nowait 0x443a037a
+#SYMVER ilookup5 0x23ee2d6a
+#SYMVER ilookup 0xfe8e8747
+#SYMVER find_inode_nowait 0x0613daf1
+#SYMVER find_inode_rcu 0x507dc6ba
+#SYMVER find_inode_by_ino_rcu 0x0e0f8e46
+#SYMVER insert_inode_locked 0x3c9d1de0
+#SYMVER insert_inode_locked4 0xedc30323
+#SYMVER generic_delete_inode 0xecff055f
+#SYMVER iput 0xbe9be4fe
+#SYMVER bmap 0x4d3a9ba4
+#SYMVER inode_update_timestamps 0xff1a65eb
+#SYMVER generic_update_time 0xcae72eeb
+#SYMVER inode_update_time 0x43aeec4c
+#SYMVER touch_atime 0xddf24b38
+#SYMVER file_remove_privs_flags 0xb27cef93
+#SYMVER file_remove_privs 0x529b8a03
+#SYMVER file_update_time 0x2007fca2
+#SYMVER file_modified 0x8b31a11c
+#SYMVER kiocb_modified 0xec643a0b
+#SYMVER inode_needs_sync 0xb1e16b75
+#SYMVER init_special_inode 0x44a8b7ef
+#SYMVER inode_init_owner 0xca8f269d
+#SYMVER inode_owner_or_capable 0x1bb8bfaf
+#SYMVER inode_dio_finished 0x64621384
+#SYMVER inode_dio_wait 0x442dd5f7
+#SYMVER inode_dio_wait_interruptible 0x4e7d03a6
+#SYMVER inode_set_flags 0xb224cc62
+#SYMVER inode_nohighmem 0xb0bf3b8d
+#SYMVER timestamp_truncate 0xa7c873f1
+#SYMVER current_time 0xda636da5
+#SYMVER inode_set_ctime_current 0xf526b6ae
+#SYMVER in_group_or_capable 0x9f193a07
+#SYMVER mode_strip_sgid 0xa434a6f2

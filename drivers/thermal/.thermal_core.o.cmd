@@ -1,4 +1,4 @@
-savedcmd_drivers/thermal/thermal_core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/thermal/.thermal_core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Idrivers/thermal    -DKBUILD_MODFILE='"drivers/thermal/thermal_sys"' -DKBUILD_BASENAME='"thermal_core"' -DKBUILD_MODNAME='"thermal_sys"' -D__KBUILD_MODNAME=kmod_thermal_sys -c -o drivers/thermal/thermal_core.o drivers/thermal/thermal_core.c  
+savedcmd_drivers/thermal/thermal_core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/thermal/.thermal_core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Idrivers/thermal    -DKBUILD_MODFILE='"drivers/thermal/thermal_sys"' -DKBUILD_BASENAME='"thermal_core"' -DKBUILD_MODNAME='"thermal_sys"' -D__KBUILD_MODNAME=kmod_thermal_sys -c -o drivers/thermal/thermal_core.o drivers/thermal/thermal_core.c  
 
 source_drivers/thermal/thermal_core.o := drivers/thermal/thermal_core.c
 
@@ -704,6 +704,11 @@ deps_drivers/thermal/thermal_core.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -844,7 +849,6 @@ deps_drivers/thermal/thermal_core.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1072,7 +1076,6 @@ deps_drivers/thermal/thermal_core.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1302,14 +1305,11 @@ deps_drivers/thermal/thermal_core.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1447,21 +1447,21 @@ deps_drivers/thermal/thermal_core.o := \
 drivers/thermal/thermal_core.o: $(deps_drivers/thermal/thermal_core.o)
 
 $(deps_drivers/thermal/thermal_core.o):
-#SYMVER thermal_zone_device_critical 0x48d2ee05
-#SYMVER thermal_zone_device_enable 0xed3d59cd
-#SYMVER thermal_zone_device_disable 0xa31b7f57
-#SYMVER thermal_zone_device_update 0xe420a05d
-#SYMVER thermal_cooling_device_register 0x5234c755
-#SYMVER thermal_of_cooling_device_register 0x5291e611
-#SYMVER devm_thermal_of_cooling_device_register 0x027e3c70
-#SYMVER thermal_cooling_device_update 0x9ab7d261
-#SYMVER thermal_cooling_device_unregister 0x83adf885
-#SYMVER thermal_zone_get_crit_temp 0xcea6e380
-#SYMVER thermal_zone_device_register_with_trips 0xca47b0ed
-#SYMVER thermal_tripless_zone_device_register 0x0c4afb50
-#SYMVER thermal_zone_device_priv 0xce60f721
-#SYMVER thermal_zone_device_type 0x2c342bc3
-#SYMVER thermal_zone_device_id 0x68dc2889
-#SYMVER thermal_zone_device 0x27c4e07a
-#SYMVER thermal_zone_device_unregister 0x5c0f05b7
-#SYMVER thermal_zone_get_zone_by_name 0x0157a317
+#SYMVER thermal_zone_device_critical 0x753f71e0
+#SYMVER thermal_zone_device_enable 0xe8b2a9f7
+#SYMVER thermal_zone_device_disable 0x4c272f8a
+#SYMVER thermal_zone_device_update 0xf0354ca5
+#SYMVER thermal_cooling_device_register 0xf725543a
+#SYMVER thermal_of_cooling_device_register 0x38b4a832
+#SYMVER devm_thermal_of_cooling_device_register 0x1578a44c
+#SYMVER thermal_cooling_device_update 0xcde5cd53
+#SYMVER thermal_cooling_device_unregister 0x220f0608
+#SYMVER thermal_zone_get_crit_temp 0x3c6ac051
+#SYMVER thermal_zone_device_register_with_trips 0xb4d0957d
+#SYMVER thermal_tripless_zone_device_register 0xd80b7b7c
+#SYMVER thermal_zone_device_priv 0x3fdc040b
+#SYMVER thermal_zone_device_type 0xf7dd423f
+#SYMVER thermal_zone_device_id 0x636c4ee2
+#SYMVER thermal_zone_device 0x108ee2e0
+#SYMVER thermal_zone_device_unregister 0xc716ec90
+#SYMVER thermal_zone_get_zone_by_name 0x88b15051

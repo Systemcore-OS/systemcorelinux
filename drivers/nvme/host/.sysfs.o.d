@@ -151,6 +151,8 @@ sysfs.o: drivers/nvme/host/sysfs.c include/linux/compiler-version.h \
  include/linux/kref.h include/linux/rbtree.h include/linux/rcupdate.h \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
  include/linux/time.h include/linux/time64.h include/vdso/time64.h \
@@ -267,8 +269,8 @@ sysfs.o: drivers/nvme/host/sysfs.c include/linux/compiler-version.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h include/linux/pgtable.h \
  arch/arm64/include/asm/pgtable.h arch/arm64/include/asm/proc-fns.h \
  arch/arm64/include/asm/tlbflush.h include/linux/mmu_notifier.h \
@@ -322,21 +324,19 @@ sysfs.o: drivers/nvme/host/sysfs.c include/linux/compiler-version.h \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- include/linux/kmsan.h include/linux/highmem-internal.h \
- include/linux/bio.h include/linux/mempool.h \
- include/uapi/linux/blkzoned.h include/linux/sbitmap.h \
- include/linux/file.h include/linux/prefetch.h include/linux/sed-opal.h \
- include/uapi/linux/sed-opal.h include/linux/fault-inject.h \
- include/linux/t10-pi.h include/trace/events/block.h \
- include/linux/blktrace_api.h include/linux/relay.h \
- include/linux/irq_work.h arch/arm64/include/asm/irq_work.h \
- include/linux/poll.h include/uapi/linux/poll.h \
- arch/arm64/include/generated/uapi/asm/poll.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/highmem-internal.h include/linux/bio.h \
+ include/linux/mempool.h include/uapi/linux/blkzoned.h \
+ include/linux/sbitmap.h include/linux/file.h include/linux/prefetch.h \
+ include/linux/sed-opal.h include/uapi/linux/sed-opal.h \
+ include/linux/fault-inject.h include/linux/t10-pi.h \
+ include/trace/events/block.h include/linux/blktrace_api.h \
+ include/linux/relay.h include/linux/irq_work.h \
+ arch/arm64/include/asm/irq_work.h include/linux/poll.h \
+ include/uapi/linux/poll.h arch/arm64/include/generated/uapi/asm/poll.h \
  include/uapi/asm-generic/poll.h include/uapi/linux/eventpoll.h \
  include/uapi/linux/blktrace_api.h include/linux/buffer_head.h \
  include/linux/pagemap.h include/linux/hugetlb_inline.h \

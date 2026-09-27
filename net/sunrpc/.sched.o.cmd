@@ -1,4 +1,4 @@
-savedcmd_net/sunrpc/sched.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/sunrpc/.sched.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/sunrpc/sunrpc"' -DKBUILD_BASENAME='"sched"' -DKBUILD_MODNAME='"sunrpc"' -D__KBUILD_MODNAME=kmod_sunrpc -c -o net/sunrpc/sched.o net/sunrpc/sched.c  
+savedcmd_net/sunrpc/sched.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/sunrpc/.sched.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"sched"' -DKBUILD_MODNAME='"sunrpc"' -D__KBUILD_MODNAME=kmod_sunrpc -c -o net/sunrpc/sched.o net/sunrpc/sched.c  
 
 source_net/sunrpc/sched.o := net/sunrpc/sched.c
 
@@ -728,6 +728,10 @@ deps_net/sunrpc/sched.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -972,7 +976,6 @@ deps_net/sunrpc/sched.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1303,14 +1306,11 @@ deps_net/sunrpc/sched.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1676,23 +1676,23 @@ net/sunrpc/sched.o: $(deps_net/sunrpc/sched.o)
 $(deps_net/sunrpc/sched.o):
 #SYMVER xprtiod_workqueue 0x4afedab1
 #SYMVER rpc_task_gfp_mask 0x609202f9
-#SYMVER rpc_task_timeout 0xea48f94c
-#SYMVER rpc_init_priority_wait_queue 0xa8a68f5e
-#SYMVER rpc_init_wait_queue 0xb719911f
-#SYMVER rpc_destroy_wait_queue 0xfb8e0deb
-#SYMVER rpc_wait_for_completion_task 0x11d2e21d
-#SYMVER rpc_sleep_on_timeout 0x07dd349c
-#SYMVER rpc_sleep_on 0x52ac9753
-#SYMVER rpc_sleep_on_priority_timeout 0x4a906e9d
-#SYMVER rpc_sleep_on_priority 0xb9832a4e
-#SYMVER rpc_wake_up_queued_task 0x54ef1e19
-#SYMVER rpc_wake_up_first 0x512d2e9d
-#SYMVER rpc_wake_up_next 0xc2352cf6
-#SYMVER rpc_wake_up 0x5f5c290f
-#SYMVER rpc_wake_up_status 0x5334cba6
-#SYMVER rpc_delay 0xa0f8317b
-#SYMVER rpc_exit 0xa3dff250
-#SYMVER rpc_malloc 0x0f9fc8a3
-#SYMVER rpc_free 0xfa05b27e
-#SYMVER rpc_put_task 0x945c878b
-#SYMVER rpc_put_task_async 0xe57aa676
+#SYMVER rpc_task_timeout 0xcbd95b6f
+#SYMVER rpc_init_priority_wait_queue 0x0686d7a5
+#SYMVER rpc_init_wait_queue 0x9fd109aa
+#SYMVER rpc_destroy_wait_queue 0x3fd212c6
+#SYMVER rpc_wait_for_completion_task 0xdf9d59a6
+#SYMVER rpc_sleep_on_timeout 0x5792a384
+#SYMVER rpc_sleep_on 0xf1d8328a
+#SYMVER rpc_sleep_on_priority_timeout 0xc4d24665
+#SYMVER rpc_sleep_on_priority 0xe0a57792
+#SYMVER rpc_wake_up_queued_task 0x2bdde6a6
+#SYMVER rpc_wake_up_first 0x51f0df3d
+#SYMVER rpc_wake_up_next 0x1b3fda7b
+#SYMVER rpc_wake_up 0xa27de535
+#SYMVER rpc_wake_up_status 0x7cf36bcd
+#SYMVER rpc_delay 0x35f25b84
+#SYMVER rpc_exit 0xbb146d7c
+#SYMVER rpc_malloc 0x55f37a93
+#SYMVER rpc_free 0xeb6fc5f7
+#SYMVER rpc_put_task 0xa4f2b500
+#SYMVER rpc_put_task_async 0x9302cb52

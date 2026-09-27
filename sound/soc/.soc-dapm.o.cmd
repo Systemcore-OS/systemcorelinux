@@ -1,4 +1,4 @@
-savedcmd_sound/soc/soc-dapm.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/.soc-dapm.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"soc_dapm"' -DKBUILD_MODNAME='"snd_soc_core"' -D__KBUILD_MODNAME=kmod_snd_soc_core -c -o sound/soc/soc-dapm.o sound/soc/soc-dapm.c  
+savedcmd_sound/soc/soc-dapm.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/.soc-dapm.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"soc_dapm"' -DKBUILD_MODNAME='"snd_soc_core"' -D__KBUILD_MODNAME=kmod_snd_soc_core -c -o sound/soc/soc-dapm.o sound/soc/soc-dapm.c  
 
 source_sound/soc/soc-dapm.o := sound/soc/soc-dapm.c
 
@@ -728,6 +728,10 @@ deps_sound/soc/soc-dapm.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1061,7 +1065,6 @@ deps_sound/soc/soc-dapm.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1291,14 +1294,11 @@ deps_sound/soc/soc-dapm.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1420,47 +1420,47 @@ deps_sound/soc/soc-dapm.o := \
 sound/soc/soc-dapm.o: $(deps_sound/soc/soc-dapm.o)
 
 $(deps_sound/soc/soc-dapm.o):
-#SYMVER dapm_mark_endpoints_dirty 0xb5f5df3d
-#SYMVER dapm_kcontrol_get_value 0x2e4167b8
-#SYMVER snd_soc_dapm_kcontrol_widget 0x573a9385
-#SYMVER snd_soc_dapm_kcontrol_dapm 0xe3497f9c
-#SYMVER snd_soc_dapm_force_bias_level 0x7a398972
-#SYMVER snd_soc_dapm_dai_get_connected_widgets 0x6ac53f8d
-#SYMVER snd_soc_dapm_dai_free_widgets 0xbdd8b543
-#SYMVER dapm_regulator_event 0x079414f0
-#SYMVER dapm_pinctrl_event 0x8298f4b1
-#SYMVER dapm_clock_event 0x210f8b76
-#SYMVER snd_soc_dapm_mux_update_power 0x63192042
-#SYMVER snd_soc_dapm_mixer_update_power 0x297cbc77
-#SYMVER snd_soc_dapm_free_widget 0x284db3fe
-#SYMVER snd_soc_dapm_sync_unlocked 0x6fb93220
-#SYMVER snd_soc_dapm_sync 0xf539292d
-#SYMVER snd_soc_dapm_update_dai 0x15ed23b0
-#SYMVER snd_soc_dapm_widget_name_cmp 0xced5f632
-#SYMVER snd_soc_dapm_add_routes 0x2eb7e8bc
-#SYMVER snd_soc_dapm_del_routes 0x9abb522a
-#SYMVER snd_soc_dapm_weak_routes 0x8cc53f96
-#SYMVER snd_soc_dapm_new_widgets 0xf7fbbadd
-#SYMVER snd_soc_dapm_get_volsw 0xddc84e3b
-#SYMVER snd_soc_dapm_put_volsw 0x4ba22590
-#SYMVER snd_soc_dapm_get_enum_double 0x4c84a513
-#SYMVER snd_soc_dapm_put_enum_double 0x7cb8d147
-#SYMVER snd_soc_dapm_info_pin_switch 0x12ba50c8
-#SYMVER snd_soc_dapm_get_pin_switch 0x6c4a3f57
-#SYMVER snd_soc_dapm_put_pin_switch 0xe5c182b8
-#SYMVER snd_soc_dapm_new_control 0x3250bf16
-#SYMVER snd_soc_dapm_new_controls 0x5c8358ad
-#SYMVER snd_soc_dapm_new_dai_widgets 0x4357d8f2
-#SYMVER snd_soc_dapm_stream_stop 0x5d966177
-#SYMVER snd_soc_dapm_enable_pin_unlocked 0xb43264c9
-#SYMVER snd_soc_dapm_enable_pin 0xdb251304
-#SYMVER snd_soc_dapm_force_enable_pin_unlocked 0x55d4d452
-#SYMVER snd_soc_dapm_force_enable_pin 0xf3a14eef
-#SYMVER snd_soc_dapm_disable_pin_unlocked 0xb9a76af8
-#SYMVER snd_soc_dapm_disable_pin 0x7154fe75
-#SYMVER snd_soc_dapm_nc_pin_unlocked 0x6a60818f
-#SYMVER snd_soc_dapm_nc_pin 0x1a97d6c7
-#SYMVER snd_soc_dapm_get_pin_status 0xf5a52eb9
-#SYMVER snd_soc_dapm_ignore_suspend 0x9112a7e6
-#SYMVER snd_soc_dapm_free 0x34c8e820
-#SYMVER snd_soc_dapm_init 0x0d536183
+#SYMVER dapm_mark_endpoints_dirty 0xa7a921aa
+#SYMVER dapm_kcontrol_get_value 0x18f496a4
+#SYMVER snd_soc_dapm_kcontrol_widget 0x88bc3654
+#SYMVER snd_soc_dapm_kcontrol_dapm 0x49cc4740
+#SYMVER snd_soc_dapm_force_bias_level 0x490bf672
+#SYMVER snd_soc_dapm_dai_get_connected_widgets 0x41d19021
+#SYMVER snd_soc_dapm_dai_free_widgets 0xa59b5587
+#SYMVER dapm_regulator_event 0x15c44713
+#SYMVER dapm_pinctrl_event 0x83a89406
+#SYMVER dapm_clock_event 0xb95d279b
+#SYMVER snd_soc_dapm_mux_update_power 0xee515ed5
+#SYMVER snd_soc_dapm_mixer_update_power 0x3098ef3e
+#SYMVER snd_soc_dapm_free_widget 0xe45f97ed
+#SYMVER snd_soc_dapm_sync_unlocked 0xacad65ea
+#SYMVER snd_soc_dapm_sync 0x63ac9198
+#SYMVER snd_soc_dapm_update_dai 0xb7234f9f
+#SYMVER snd_soc_dapm_widget_name_cmp 0x3bf40300
+#SYMVER snd_soc_dapm_add_routes 0x0333e8b7
+#SYMVER snd_soc_dapm_del_routes 0x61a5e72e
+#SYMVER snd_soc_dapm_weak_routes 0x1ffdcd42
+#SYMVER snd_soc_dapm_new_widgets 0x3fbcb5fc
+#SYMVER snd_soc_dapm_get_volsw 0x0d0b79b6
+#SYMVER snd_soc_dapm_put_volsw 0xe848ad63
+#SYMVER snd_soc_dapm_get_enum_double 0x470a23e0
+#SYMVER snd_soc_dapm_put_enum_double 0x5f04927d
+#SYMVER snd_soc_dapm_info_pin_switch 0xefea74f7
+#SYMVER snd_soc_dapm_get_pin_switch 0xcedf6dcc
+#SYMVER snd_soc_dapm_put_pin_switch 0x7729871b
+#SYMVER snd_soc_dapm_new_control 0x350f1715
+#SYMVER snd_soc_dapm_new_controls 0x3c248d55
+#SYMVER snd_soc_dapm_new_dai_widgets 0x80e7824a
+#SYMVER snd_soc_dapm_stream_stop 0x9ef18e9f
+#SYMVER snd_soc_dapm_enable_pin_unlocked 0xc6a4fb55
+#SYMVER snd_soc_dapm_enable_pin 0x4cc0d16c
+#SYMVER snd_soc_dapm_force_enable_pin_unlocked 0x0f9a6fa4
+#SYMVER snd_soc_dapm_force_enable_pin 0xbd044a43
+#SYMVER snd_soc_dapm_disable_pin_unlocked 0x2cc43aab
+#SYMVER snd_soc_dapm_disable_pin 0x0f21a2cc
+#SYMVER snd_soc_dapm_nc_pin_unlocked 0xac22c965
+#SYMVER snd_soc_dapm_nc_pin 0x46bc56d1
+#SYMVER snd_soc_dapm_get_pin_status 0xfb1cabb3
+#SYMVER snd_soc_dapm_ignore_suspend 0xc31d1a02
+#SYMVER snd_soc_dapm_free 0xdccde3f5
+#SYMVER snd_soc_dapm_init 0x7af71740

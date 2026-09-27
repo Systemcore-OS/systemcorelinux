@@ -186,6 +186,8 @@ ip6_fib.o: net/ipv6/ip6_fib.c include/linux/compiler-version.h \
  include/linux/refcount.h include/linux/maple_tree.h \
  include/linux/rwsem.h include/linux/completion.h include/linux/swait.h \
  include/linux/wait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/page-flags-layout.h include/generated/bounds.h \
  include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
  include/linux/module.h include/linux/stat.h \
@@ -287,8 +289,8 @@ ip6_fib.o: net/ipv6/ip6_fib.c include/linux/compiler-version.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -332,26 +334,25 @@ ip6_fib.o: net/ipv6/ip6_fib.c include/linux/compiler-version.h \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- include/linux/kmsan.h include/linux/dma-direction.h \
- include/linux/highmem-internal.h include/linux/pagevec.h \
- include/linux/bio.h include/linux/mempool.h include/linux/cfi.h \
- arch/arm64/include/generated/asm/cfi.h include/asm-generic/cfi.h \
- include/linux/bpf_types.h include/linux/net.h include/uapi/linux/net.h \
- include/uapi/linux/route.h include/linux/netdevice.h \
- include/linux/delay.h arch/arm64/include/generated/asm/delay.h \
- include/asm-generic/delay.h include/linux/prefetch.h \
- include/linux/dynamic_queue_limits.h include/net/net_namespace.h \
- include/net/flow.h include/linux/in6.h include/uapi/linux/in6.h \
- include/net/netns/core.h include/net/netns/mib.h include/net/snmp.h \
- include/uapi/linux/snmp.h include/net/netns/unix.h \
- include/net/netns/packet.h include/net/netns/ipv4.h \
- include/net/inet_frag.h include/net/dropreason-core.h \
- include/linux/siphash.h include/net/netns/ipv6.h include/net/dst_ops.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/dma-direction.h include/linux/highmem-internal.h \
+ include/linux/pagevec.h include/linux/bio.h include/linux/mempool.h \
+ include/linux/cfi.h arch/arm64/include/generated/asm/cfi.h \
+ include/asm-generic/cfi.h include/linux/bpf_types.h include/linux/net.h \
+ include/uapi/linux/net.h include/uapi/linux/route.h \
+ include/linux/netdevice.h include/linux/delay.h \
+ arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
+ include/linux/prefetch.h include/linux/dynamic_queue_limits.h \
+ include/net/net_namespace.h include/net/flow.h include/linux/in6.h \
+ include/uapi/linux/in6.h include/net/netns/core.h \
+ include/net/netns/mib.h include/net/snmp.h include/uapi/linux/snmp.h \
+ include/net/netns/unix.h include/net/netns/packet.h \
+ include/net/netns/ipv4.h include/net/inet_frag.h \
+ include/net/dropreason-core.h include/linux/siphash.h \
+ include/net/netns/ipv6.h include/net/dst_ops.h \
  include/uapi/linux/icmpv6.h include/net/netns/nexthop.h \
  include/net/netns/ieee802154_6lowpan.h include/net/netns/sctp.h \
  include/net/netns/netfilter.h include/linux/netfilter_defs.h \

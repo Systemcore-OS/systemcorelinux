@@ -179,31 +179,34 @@ soc-card.o: sound/soc/soc-card.c include/linux/compiler-version.h \
  arch/arm64/include/uapi/asm/auxvec.h include/linux/kref.h \
  include/linux/refcount.h include/linux/rbtree.h \
  include/linux/maple_tree.h include/linux/completion.h \
- include/linux/swait.h include/linux/uprobes.h include/linux/workqueue.h \
- include/linux/timer.h include/linux/ktime.h include/linux/jiffies.h \
- include/linux/math64.h include/vdso/math64.h include/linux/time.h \
- include/linux/time64.h include/vdso/time64.h include/uapi/linux/time.h \
- include/linux/time32.h include/linux/timex.h include/uapi/linux/timex.h \
- arch/arm64/include/asm/timex.h arch/arm64/include/asm/arch_timer.h \
- include/clocksource/arm_arch_timer.h include/linux/timecounter.h \
- include/asm-generic/timex.h include/vdso/time32.h include/vdso/time.h \
- include/vdso/jiffies.h include/generated/timeconst.h \
- include/vdso/ktime.h include/linux/timekeeping.h \
- include/linux/clocksource_ids.h include/linux/debugobjects.h \
- include/linux/workqueue_types.h include/linux/percpu_counter.h \
- arch/arm64/include/asm/mmu.h include/linux/page-flags.h \
- include/linux/local_lock.h include/linux/local_lock_internal.h \
- include/linux/zswap.h include/linux/memory_hotplug.h \
- include/linux/notifier.h include/linux/srcu.h \
- include/linux/rcu_segcblist.h include/linux/srcutree.h \
- include/linux/rcu_node_tree.h arch/arm64/include/generated/asm/mmzone.h \
- include/asm-generic/mmzone.h include/linux/topology.h \
- include/linux/arch_topology.h arch/arm64/include/asm/topology.h \
- arch/arm64/include/asm/numa.h include/asm-generic/numa.h \
- include/asm-generic/topology.h include/linux/kconfig.h \
- include/linux/sched/mm.h include/linux/sync_core.h \
- include/linux/sched/coredump.h include/linux/uidgid.h \
- include/linux/highuid.h include/linux/kobject_ns.h include/linux/stat.h \
+ include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
+ include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
+ include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
+ include/linux/time.h include/linux/time64.h include/vdso/time64.h \
+ include/uapi/linux/time.h include/linux/time32.h include/linux/timex.h \
+ include/uapi/linux/timex.h arch/arm64/include/asm/timex.h \
+ arch/arm64/include/asm/arch_timer.h include/clocksource/arm_arch_timer.h \
+ include/linux/timecounter.h include/asm-generic/timex.h \
+ include/vdso/time32.h include/vdso/time.h include/vdso/jiffies.h \
+ include/generated/timeconst.h include/vdso/ktime.h \
+ include/linux/timekeeping.h include/linux/clocksource_ids.h \
+ include/linux/debugobjects.h include/linux/workqueue_types.h \
+ include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
+ include/linux/page-flags.h include/linux/local_lock.h \
+ include/linux/local_lock_internal.h include/linux/zswap.h \
+ include/linux/memory_hotplug.h include/linux/notifier.h \
+ include/linux/srcu.h include/linux/rcu_segcblist.h \
+ include/linux/srcutree.h include/linux/rcu_node_tree.h \
+ arch/arm64/include/generated/asm/mmzone.h include/asm-generic/mmzone.h \
+ include/linux/topology.h include/linux/arch_topology.h \
+ arch/arm64/include/asm/topology.h arch/arm64/include/asm/numa.h \
+ include/asm-generic/numa.h include/asm-generic/topology.h \
+ include/linux/kconfig.h include/linux/sched/mm.h \
+ include/linux/sync_core.h include/linux/sched/coredump.h \
+ include/linux/uidgid.h include/linux/highuid.h \
+ include/linux/kobject_ns.h include/linux/stat.h \
  arch/arm64/include/asm/stat.h \
  arch/arm64/include/generated/uapi/asm/stat.h \
  include/uapi/asm-generic/stat.h arch/arm64/include/asm/compat.h \
@@ -263,8 +266,8 @@ soc-card.o: sound/soc/soc-card.c include/linux/compiler-version.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h include/linux/pgtable.h \
  arch/arm64/include/asm/pgtable.h arch/arm64/include/asm/proc-fns.h \
  arch/arm64/include/asm/tlbflush.h include/linux/mmu_notifier.h \

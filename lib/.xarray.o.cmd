@@ -1,4 +1,4 @@
-savedcmd_lib/xarray.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.xarray.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"lib/xarray"' -DKBUILD_BASENAME='"xarray"' -DKBUILD_MODNAME='"xarray"' -D__KBUILD_MODNAME=kmod_xarray -c -o lib/xarray.o lib/xarray.c  
+savedcmd_lib/xarray.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.xarray.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"lib/xarray"' -DKBUILD_BASENAME='"xarray"' -DKBUILD_MODNAME='"xarray"' -D__KBUILD_MODNAME=kmod_xarray -c -o lib/xarray.o lib/xarray.c  
 
 source_lib/xarray.o := lib/xarray.c
 
@@ -561,6 +561,11 @@ deps_lib/xarray.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -774,41 +779,41 @@ deps_lib/xarray.o := \
 lib/xarray.o: $(deps_lib/xarray.o)
 
 $(deps_lib/xarray.o):
-#SYMVER xas_load 0x6ac8e34d
-#SYMVER xas_nomem 0x92a1fab3
-#SYMVER xas_create_range 0xe77ded06
-#SYMVER xas_store 0xb365f842
-#SYMVER xas_get_mark 0x57d21acc
-#SYMVER xas_set_mark 0x666f15ca
-#SYMVER xas_clear_mark 0x1b896cbe
-#SYMVER xas_init_marks 0x85e752fa
-#SYMVER xas_split_alloc 0x5b901380
-#SYMVER xas_split 0xe3cc425d
-#SYMVER xas_pause 0x57b2b9cd
-#SYMVER __xas_prev 0x05ff4858
-#SYMVER __xas_next 0x21be7fad
-#SYMVER xas_find 0xb902fa42
-#SYMVER xas_find_marked 0x3c218065
-#SYMVER xas_find_conflict 0x67117da6
-#SYMVER xa_load 0x119ebbaf
-#SYMVER __xa_erase 0x5b37e983
-#SYMVER xa_erase 0x82cf243f
-#SYMVER __xa_store 0x26646e72
-#SYMVER xa_store 0xc6b702b4
-#SYMVER __xa_cmpxchg 0x69b53c76
-#SYMVER __xa_insert 0x375f572c
-#SYMVER xa_store_range 0xd34d6e83
-#SYMVER xas_get_order 0x12a3bc0d
-#SYMVER xa_get_order 0x575c05d5
-#SYMVER __xa_alloc 0x41ab2338
-#SYMVER __xa_alloc_cyclic 0x2b3ccd32
-#SYMVER __xa_set_mark 0xced9776d
-#SYMVER __xa_clear_mark 0x0343d05b
-#SYMVER xa_get_mark 0xb966dd07
-#SYMVER xa_set_mark 0xd0cd9775
-#SYMVER xa_clear_mark 0x2152b46e
-#SYMVER xa_find 0xb3054d99
-#SYMVER xa_find_after 0xe5dcee91
-#SYMVER xa_extract 0xe420f5c7
-#SYMVER xa_delete_node 0x0f33d5fb
-#SYMVER xa_destroy 0x0bd45c35
+#SYMVER xas_load 0xf53f4d4f
+#SYMVER xas_nomem 0xa3100556
+#SYMVER xas_create_range 0x663ca17c
+#SYMVER xas_store 0x129e92e9
+#SYMVER xas_get_mark 0x1a5c72d5
+#SYMVER xas_set_mark 0x5ff65e8f
+#SYMVER xas_clear_mark 0x630dd185
+#SYMVER xas_init_marks 0x7dd1a397
+#SYMVER xas_split_alloc 0xf314c2a1
+#SYMVER xas_split 0xe0489028
+#SYMVER xas_pause 0x502ba411
+#SYMVER __xas_prev 0xfb6a6a84
+#SYMVER __xas_next 0x1fea3d63
+#SYMVER xas_find 0xf2a89d7a
+#SYMVER xas_find_marked 0x90761438
+#SYMVER xas_find_conflict 0x5e559da2
+#SYMVER xa_load 0xb07705d5
+#SYMVER __xa_erase 0xe0e6a4a0
+#SYMVER xa_erase 0x999adfb6
+#SYMVER __xa_store 0x5756d732
+#SYMVER xa_store 0x651e5eae
+#SYMVER __xa_cmpxchg 0x2d8491c8
+#SYMVER __xa_insert 0xc5a56d9d
+#SYMVER xa_store_range 0xf941e72a
+#SYMVER xas_get_order 0xb10e5a52
+#SYMVER xa_get_order 0x3a45fb8a
+#SYMVER __xa_alloc 0x3c8b805a
+#SYMVER __xa_alloc_cyclic 0x4a981e08
+#SYMVER __xa_set_mark 0x9ca3f25b
+#SYMVER __xa_clear_mark 0x9e87476a
+#SYMVER xa_get_mark 0x106aa63f
+#SYMVER xa_set_mark 0xf27a9dc4
+#SYMVER xa_clear_mark 0xb553c3af
+#SYMVER xa_find 0x7bad8cf7
+#SYMVER xa_find_after 0x12edac9c
+#SYMVER xa_extract 0x18fc05a3
+#SYMVER xa_delete_node 0x5bee50b7
+#SYMVER xa_destroy 0x3ccedfc5

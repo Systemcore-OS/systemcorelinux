@@ -1,4 +1,4 @@
-savedcmd_net/netfilter/nf_tables_api.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/netfilter/.nf_tables_api.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"nf_tables_api"' -DKBUILD_MODNAME='"nf_tables"' -D__KBUILD_MODNAME=kmod_nf_tables -c -o net/netfilter/nf_tables_api.o net/netfilter/nf_tables_api.c  
+savedcmd_net/netfilter/nf_tables_api.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/netfilter/.nf_tables_api.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"nf_tables_api"' -DKBUILD_MODNAME='"nf_tables"' -D__KBUILD_MODNAME=kmod_nf_tables -c -o net/netfilter/nf_tables_api.o net/netfilter/nf_tables_api.c  
 
 source_net/netfilter/nf_tables_api.o := net/netfilter/nf_tables_api.c
 
@@ -734,6 +734,10 @@ deps_net/netfilter/nf_tables_api.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1037,7 +1041,6 @@ deps_net/netfilter/nf_tables_api.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1209,14 +1212,11 @@ deps_net/netfilter/nf_tables_api.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1618,38 +1618,38 @@ deps_net/netfilter/nf_tables_api.o := \
 net/netfilter/nf_tables_api.o: $(deps_net/netfilter/nf_tables_api.o)
 
 $(deps_net/netfilter/nf_tables_api.o):
-#SYMVER nft_reg_track_update 0xa186d9fd
-#SYMVER nft_reg_track_cancel 0x8485ae7f
-#SYMVER __nft_reg_track_cancel 0x99688b01
-#SYMVER nft_request_module 0x10fa3639
-#SYMVER nft_register_chain_type 0x988538fd
-#SYMVER nft_unregister_chain_type 0x21c64c9a
-#SYMVER nft_register_expr 0x4d5e3594
-#SYMVER nft_unregister_expr 0xa3496a41
-#SYMVER nft_chain_validate 0x2245fe4f
-#SYMVER nft_set_lookup_global 0x4fe3e0b6
-#SYMVER nf_tables_bind_set 0x5134b7d3
-#SYMVER nf_tables_activate_set 0xcda88bfe
-#SYMVER nf_tables_deactivate_set 0x4aa6e887
-#SYMVER nf_tables_destroy_set 0x893de444
-#SYMVER nft_set_elem_destroy 0x967fe79d
-#SYMVER nft_set_catchall_lookup 0x1b6b045d
-#SYMVER nft_register_obj 0xba4607ab
-#SYMVER nft_unregister_obj 0x0c2e8fe8
-#SYMVER nft_obj_lookup 0xe258e80d
-#SYMVER nft_obj_notify 0x243adff1
-#SYMVER nft_register_flowtable_type 0xdaa8f3f9
-#SYMVER nft_unregister_flowtable_type 0xfa64287a
-#SYMVER nft_flowtable_lookup 0xdf78c689
-#SYMVER nf_tables_deactivate_flowtable 0x87476692
-#SYMVER nf_tables_trans_destroy_flush_work 0xcabfd5a8
-#SYMVER nft_chain_validate_dependency 0x11c0cc61
-#SYMVER nft_chain_validate_hooks 0x69a91990
+#SYMVER nft_reg_track_update 0x48c83faf
+#SYMVER nft_reg_track_cancel 0xbc8bb7eb
+#SYMVER __nft_reg_track_cancel 0xbdee3466
+#SYMVER nft_request_module 0x76adcfbe
+#SYMVER nft_register_chain_type 0xf98cff24
+#SYMVER nft_unregister_chain_type 0x148384db
+#SYMVER nft_register_expr 0xded2f50a
+#SYMVER nft_unregister_expr 0xd4b7f662
+#SYMVER nft_chain_validate 0xb681481b
+#SYMVER nft_set_lookup_global 0xe2115d69
+#SYMVER nf_tables_bind_set 0x4c64d63c
+#SYMVER nf_tables_activate_set 0x23f3af4e
+#SYMVER nf_tables_deactivate_set 0xdefcea8a
+#SYMVER nf_tables_destroy_set 0xdb6ff901
+#SYMVER nft_set_elem_destroy 0x7fdd094a
+#SYMVER nft_set_catchall_lookup 0x80a1d00b
+#SYMVER nft_register_obj 0xbc44bf84
+#SYMVER nft_unregister_obj 0x5b84924c
+#SYMVER nft_obj_lookup 0xf9346bf7
+#SYMVER nft_obj_notify 0x2e5266c7
+#SYMVER nft_register_flowtable_type 0xe9a0c5c4
+#SYMVER nft_unregister_flowtable_type 0x277a6988
+#SYMVER nft_flowtable_lookup 0x2add899d
+#SYMVER nf_tables_deactivate_flowtable 0x759121aa
+#SYMVER nf_tables_trans_destroy_flush_work 0x13d40704
+#SYMVER nft_chain_validate_dependency 0xed317c50
+#SYMVER nft_chain_validate_hooks 0x7dd099f3
 #SYMVER nft_parse_u32_check 0xde57b5f5
-#SYMVER nft_dump_register 0xecf340ad
-#SYMVER nft_parse_register_load 0x43707aa9
-#SYMVER nft_parse_register_store 0x766c7934
-#SYMVER nft_data_init 0x668b190a
-#SYMVER nft_data_release 0x6b732242
-#SYMVER nft_data_dump 0x64847ffa
-#SYMVER __nft_release_basechain 0xf526f83c
+#SYMVER nft_dump_register 0x396780f9
+#SYMVER nft_parse_register_load 0xa2cbe9ce
+#SYMVER nft_parse_register_store 0xbf31e86e
+#SYMVER nft_data_init 0x0d874588
+#SYMVER nft_data_release 0x0806ddbe
+#SYMVER nft_data_dump 0x30d29586
+#SYMVER __nft_release_basechain 0x51af3501

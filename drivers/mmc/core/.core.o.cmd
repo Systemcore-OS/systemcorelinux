@@ -1,4 +1,4 @@
-savedcmd_drivers/mmc/core/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/mmc/core/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/mmc/core/mmc_core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"mmc_core"' -D__KBUILD_MODNAME=kmod_mmc_core -c -o drivers/mmc/core/core.o drivers/mmc/core/core.c  
+savedcmd_drivers/mmc/core/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/mmc/core/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/mmc/core/mmc_core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"mmc_core"' -D__KBUILD_MODNAME=kmod_mmc_core -c -o drivers/mmc/core/core.o drivers/mmc/core/core.c  
 
 source_drivers/mmc/core/core.o := drivers/mmc/core/core.c
 
@@ -728,6 +728,10 @@ deps_drivers/mmc/core/core.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -972,7 +976,6 @@ deps_drivers/mmc/core/core.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1221,14 +1224,11 @@ deps_drivers/mmc/core/core.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1466,33 +1466,33 @@ deps_drivers/mmc/core/core.o := \
 drivers/mmc/core/core.o: $(deps_drivers/mmc/core/core.o)
 
 $(deps_drivers/mmc/core/core.o):
-#SYMVER mmc_command_done 0xee4ee955
-#SYMVER mmc_request_done 0xd4bfb2a6
-#SYMVER mmc_start_request 0xc1c89cd8
-#SYMVER mmc_wait_for_req_done 0xaee28d86
-#SYMVER mmc_cqe_start_req 0x06bcb27b
-#SYMVER mmc_cqe_request_done 0xc658ebcb
-#SYMVER mmc_cqe_post_req 0x25678c88
-#SYMVER mmc_cqe_recovery 0x79ba0c55
-#SYMVER mmc_is_req_done 0xcca3daf2
-#SYMVER mmc_wait_for_req 0x67539da1
-#SYMVER mmc_wait_for_cmd 0x4b7c142c
-#SYMVER mmc_set_data_timeout 0x32df5386
-#SYMVER __mmc_claim_host 0x607b5326
-#SYMVER mmc_release_host 0x9767af38
-#SYMVER mmc_get_card 0xb9a704bb
-#SYMVER mmc_put_card 0x0b1e8917
-#SYMVER mmc_detect_change 0xc6668738
-#SYMVER mmc_erase 0xac9aaa35
-#SYMVER mmc_can_erase 0x2262001e
-#SYMVER mmc_can_trim 0x8b08101e
-#SYMVER mmc_can_discard 0x955a22c5
-#SYMVER mmc_can_secure_erase_trim 0xa9efa02a
-#SYMVER mmc_erase_group_aligned 0x7dce5ec2
-#SYMVER mmc_calc_max_discard 0x38781aae
-#SYMVER mmc_card_is_blockaddr 0x5be0d754
-#SYMVER mmc_set_blocklen 0xbc598d4c
-#SYMVER mmc_hw_reset 0x13cc9441
-#SYMVER mmc_sw_reset 0xeb2ca35e
-#SYMVER mmc_detect_card_removed 0x8db132fe
-#SYMVER mmc_card_alternative_gpt_sector 0xa741527f
+#SYMVER mmc_command_done 0xf30f9e1d
+#SYMVER mmc_request_done 0x3f270958
+#SYMVER mmc_start_request 0xd2a22f60
+#SYMVER mmc_wait_for_req_done 0x1e5d891f
+#SYMVER mmc_cqe_start_req 0x004f832e
+#SYMVER mmc_cqe_request_done 0xb1443600
+#SYMVER mmc_cqe_post_req 0x17e34ea3
+#SYMVER mmc_cqe_recovery 0x5046283f
+#SYMVER mmc_is_req_done 0xe64ff72a
+#SYMVER mmc_wait_for_req 0xc4466e08
+#SYMVER mmc_wait_for_cmd 0x8940077c
+#SYMVER mmc_set_data_timeout 0x3b8d7c51
+#SYMVER __mmc_claim_host 0x2a1af222
+#SYMVER mmc_release_host 0x477c1418
+#SYMVER mmc_get_card 0xde42bfeb
+#SYMVER mmc_put_card 0x665b9b14
+#SYMVER mmc_detect_change 0x6c5a0eee
+#SYMVER mmc_erase 0x87309f06
+#SYMVER mmc_can_erase 0x01d11b3d
+#SYMVER mmc_can_trim 0x7c464820
+#SYMVER mmc_can_discard 0x318bd312
+#SYMVER mmc_can_secure_erase_trim 0x47b21612
+#SYMVER mmc_erase_group_aligned 0xc2b9e403
+#SYMVER mmc_calc_max_discard 0xb2cac188
+#SYMVER mmc_card_is_blockaddr 0x666830b5
+#SYMVER mmc_set_blocklen 0xbd4b10d1
+#SYMVER mmc_hw_reset 0x0579fdde
+#SYMVER mmc_sw_reset 0x454db23f
+#SYMVER mmc_detect_card_removed 0x59a9282d
+#SYMVER mmc_card_alternative_gpt_sector 0x76aded21

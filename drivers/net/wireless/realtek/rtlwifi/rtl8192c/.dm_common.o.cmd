@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/realtek/rtlwifi/rtl8192c/.dm_common.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"dm_common"' -DKBUILD_MODNAME='"rtl8192c_common"' -D__KBUILD_MODNAME=kmod_rtl8192c_common -c -o drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.c  
+savedcmd_drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/realtek/rtlwifi/rtl8192c/.dm_common.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"dm_common"' -DKBUILD_MODNAME='"rtl8192c_common"' -D__KBUILD_MODNAME=kmod_rtl8192c_common -c -o drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.c  
 
 source_drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o := drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.c
 
@@ -667,6 +667,11 @@ deps_drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -950,7 +955,6 @@ deps_drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -991,7 +995,6 @@ deps_drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1210,14 +1213,11 @@ deps_drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1634,15 +1634,15 @@ deps_drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o := \
 drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o: $(deps_drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o)
 
 $(deps_drivers/net/wireless/realtek/rtlwifi/rtl8192c/dm_common.o):
-#SYMVER dm_restorepowerindex 0x626be1da
-#SYMVER dm_writepowerindex 0x00a80b7a
-#SYMVER dm_savepowerindex 0xb83a26bc
-#SYMVER rtl92c_dm_write_dig 0xa8e9094d
-#SYMVER rtl92c_dm_init_edca_turbo 0xe234c497
-#SYMVER rtl92c_dm_check_txpower_tracking 0x1ee56354
-#SYMVER rtl92c_dm_init_rate_adaptive_mask 0x51985ec8
-#SYMVER rtl92c_dm_rf_saving 0x727f0f82
-#SYMVER rtl92c_dm_init 0x79d50c41
-#SYMVER rtl92c_dm_watchdog 0xbba4b43c
-#SYMVER rtl92c_bt_rssi_state_change 0x81d95400
-#SYMVER rtl92c_dm_bt_coexist 0xef07cad0
+#SYMVER dm_restorepowerindex 0x60d6466a
+#SYMVER dm_writepowerindex 0x0399174e
+#SYMVER dm_savepowerindex 0x85c45631
+#SYMVER rtl92c_dm_write_dig 0x8158df64
+#SYMVER rtl92c_dm_init_edca_turbo 0x07a8ce80
+#SYMVER rtl92c_dm_check_txpower_tracking 0x248a2e97
+#SYMVER rtl92c_dm_init_rate_adaptive_mask 0x2a6f0a93
+#SYMVER rtl92c_dm_rf_saving 0x0b1aaa23
+#SYMVER rtl92c_dm_init 0x07511aff
+#SYMVER rtl92c_dm_watchdog 0x26a98eff
+#SYMVER rtl92c_bt_rssi_state_change 0xa364e9fe
+#SYMVER rtl92c_dm_bt_coexist 0xbda61eea

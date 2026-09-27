@@ -1,4 +1,4 @@
-savedcmd_mm/filemap.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.filemap.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"mm/filemap"' -DKBUILD_BASENAME='"filemap"' -DKBUILD_MODNAME='"filemap"' -D__KBUILD_MODNAME=kmod_filemap -c -o mm/filemap.o mm/filemap.c  
+savedcmd_mm/filemap.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.filemap.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"mm/filemap"' -DKBUILD_BASENAME='"filemap"' -DKBUILD_MODNAME='"filemap"' -D__KBUILD_MODNAME=kmod_filemap -c -o mm/filemap.o mm/filemap.c  
 
 source_mm/filemap.o := mm/filemap.c
 
@@ -747,6 +747,11 @@ deps_mm/filemap.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1016,7 +1021,6 @@ deps_mm/filemap.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1123,7 +1127,6 @@ deps_mm/filemap.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1234,14 +1237,11 @@ deps_mm/filemap.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1463,60 +1463,60 @@ deps_mm/filemap.o := \
 mm/filemap.o: $(deps_mm/filemap.o)
 
 $(deps_mm/filemap.o):
-#SYMVER filemap_check_errors 0x0a3ab945
-#SYMVER filemap_fdatawrite_wbc 0xf62d4203
-#SYMVER filemap_fdatawrite 0x0c1e678e
-#SYMVER filemap_fdatawrite_range 0xe66fd8b1
-#SYMVER filemap_flush 0x12843d2b
-#SYMVER filemap_range_has_page 0x72f38b58
-#SYMVER filemap_fdatawait_range 0x33318e1d
-#SYMVER filemap_fdatawait_range_keep_errors 0x9e2a168a
-#SYMVER file_fdatawait_range 0xa6bc3d90
-#SYMVER filemap_fdatawait_keep_errors 0x6c3f97bb
-#SYMVER filemap_range_has_writeback 0xa7e9b74f
-#SYMVER filemap_write_and_wait_range 0xdc03e542
-#SYMVER __filemap_set_wb_err 0x7934e040
-#SYMVER file_check_and_advance_wb_err 0xba9c8752
-#SYMVER file_write_and_wait_range 0x41361f88
-#SYMVER replace_page_cache_folio 0xaa039d73
-#SYMVER filemap_add_folio 0xf1844e97
-#SYMVER filemap_alloc_folio_noprof 0x3a52f4d7
-#SYMVER filemap_invalidate_lock_two 0xac2eed4e
-#SYMVER filemap_invalidate_unlock_two 0x70550fbe
-#SYMVER folio_wait_bit 0xe8f6aa0a
-#SYMVER folio_wait_bit_killable 0x6ca9c7a7
-#SYMVER folio_add_wait_queue 0x7b93de04
-#SYMVER folio_unlock 0x1739ef16
-#SYMVER folio_end_read 0x516ac8b2
-#SYMVER folio_end_private_2 0x0261daca
-#SYMVER folio_wait_private_2 0x42477380
-#SYMVER folio_wait_private_2_killable 0xada713c3
-#SYMVER folio_end_writeback 0xb2bce8e4
-#SYMVER __folio_lock 0x6bc6ebe5
-#SYMVER __folio_lock_killable 0x0f5411e5
-#SYMVER page_cache_next_miss 0x5261eadf
-#SYMVER page_cache_prev_miss 0x0391769c
-#SYMVER __filemap_get_folio 0x4cd7a2c7
-#SYMVER filemap_get_folios 0x81aa3f5d
-#SYMVER filemap_get_folios_contig 0x292bbd42
-#SYMVER filemap_get_folios_tag 0xeb873f0b
-#SYMVER filemap_read 0xad269d7b
-#SYMVER kiocb_write_and_wait 0xe91ace46
-#SYMVER kiocb_invalidate_pages 0x4044b100
-#SYMVER generic_file_read_iter 0x30723ae4
-#SYMVER filemap_splice_read 0xbd1b8a1d
-#SYMVER filemap_fault 0x97fea6e2
-#SYMVER filemap_map_pages 0xc7351ebb
-#SYMVER filemap_page_mkwrite 0x18841413
-#SYMVER generic_file_mmap 0xbf904d8e
-#SYMVER generic_file_readonly_mmap 0x393d944e
-#SYMVER read_cache_folio 0x708f25cc
-#SYMVER mapping_read_folio_gfp 0xdcf62da0
-#SYMVER read_cache_page 0xf4066bc5
-#SYMVER read_cache_page_gfp 0x95de2353
-#SYMVER generic_file_direct_write 0x308d80d5
-#SYMVER generic_perform_write 0xe4b798d7
-#SYMVER __generic_file_write_iter 0x4099a286
-#SYMVER generic_file_write_iter 0x5f8041b8
-#SYMVER filemap_release_folio 0xe63d0cd7
-#SYMVER filemap_invalidate_inode 0x5e6b3717
+#SYMVER filemap_check_errors 0x220df514
+#SYMVER filemap_fdatawrite_wbc 0x17277543
+#SYMVER filemap_fdatawrite 0x7d1b311f
+#SYMVER filemap_fdatawrite_range 0x5f077cf5
+#SYMVER filemap_flush 0xeac024eb
+#SYMVER filemap_range_has_page 0x5c751f59
+#SYMVER filemap_fdatawait_range 0xf68a8bf9
+#SYMVER filemap_fdatawait_range_keep_errors 0xb5d3a623
+#SYMVER file_fdatawait_range 0xbf9fdd81
+#SYMVER filemap_fdatawait_keep_errors 0x8aedcab2
+#SYMVER filemap_range_has_writeback 0xe13215c1
+#SYMVER filemap_write_and_wait_range 0xa6d94a1b
+#SYMVER __filemap_set_wb_err 0xa18dbe02
+#SYMVER file_check_and_advance_wb_err 0x646606f8
+#SYMVER file_write_and_wait_range 0x996173dd
+#SYMVER replace_page_cache_folio 0x268a9395
+#SYMVER filemap_add_folio 0x12b28f79
+#SYMVER filemap_alloc_folio_noprof 0x5ca5fa95
+#SYMVER filemap_invalidate_lock_two 0x89b74b59
+#SYMVER filemap_invalidate_unlock_two 0xdee3382d
+#SYMVER folio_wait_bit 0x8a5c5853
+#SYMVER folio_wait_bit_killable 0x128e046a
+#SYMVER folio_add_wait_queue 0x42c7e782
+#SYMVER folio_unlock 0x1406a055
+#SYMVER folio_end_read 0xa1688a53
+#SYMVER folio_end_private_2 0xdef66957
+#SYMVER folio_wait_private_2 0xb2d4108e
+#SYMVER folio_wait_private_2_killable 0x44f85aa8
+#SYMVER folio_end_writeback 0x613415e2
+#SYMVER __folio_lock 0x714ac7b7
+#SYMVER __folio_lock_killable 0xe36845a3
+#SYMVER page_cache_next_miss 0xc49aad81
+#SYMVER page_cache_prev_miss 0x097fad39
+#SYMVER __filemap_get_folio 0x54f2989d
+#SYMVER filemap_get_folios 0xf10e8062
+#SYMVER filemap_get_folios_contig 0x0194a225
+#SYMVER filemap_get_folios_tag 0x2daa0753
+#SYMVER filemap_read 0x58199cc3
+#SYMVER kiocb_write_and_wait 0x2b97dbae
+#SYMVER kiocb_invalidate_pages 0x6730b643
+#SYMVER generic_file_read_iter 0xecf5462d
+#SYMVER filemap_splice_read 0x0d089278
+#SYMVER filemap_fault 0xa24dae4c
+#SYMVER filemap_map_pages 0x65f212f5
+#SYMVER filemap_page_mkwrite 0x927141bc
+#SYMVER generic_file_mmap 0xeaf2116b
+#SYMVER generic_file_readonly_mmap 0x7ce84e1e
+#SYMVER read_cache_folio 0x35d63ced
+#SYMVER mapping_read_folio_gfp 0x5800e7ff
+#SYMVER read_cache_page 0x26d370be
+#SYMVER read_cache_page_gfp 0x7fd27c3c
+#SYMVER generic_file_direct_write 0xe4659589
+#SYMVER generic_perform_write 0xc6aebfaf
+#SYMVER __generic_file_write_iter 0x549c1562
+#SYMVER generic_file_write_iter 0xf07d79e0
+#SYMVER filemap_release_folio 0xe434939d
+#SYMVER filemap_invalidate_inode 0x9702fa48

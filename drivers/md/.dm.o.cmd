@@ -1,4 +1,4 @@
-savedcmd_drivers/md/dm.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/md/.dm.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"dm"' -DKBUILD_MODNAME='"dm_mod"' -D__KBUILD_MODNAME=kmod_dm_mod -c -o drivers/md/dm.o drivers/md/dm.c  
+savedcmd_drivers/md/dm.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/md/.dm.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"dm"' -DKBUILD_MODNAME='"dm_mod"' -D__KBUILD_MODNAME=kmod_dm_mod -c -o drivers/md/dm.o drivers/md/dm.c  
 
 source_drivers/md/dm.o := drivers/md/dm.c
 
@@ -771,6 +771,11 @@ deps_drivers/md/dm.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -931,7 +936,6 @@ deps_drivers/md/dm.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -972,7 +976,6 @@ deps_drivers/md/dm.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1193,14 +1196,11 @@ deps_drivers/md/dm.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1367,23 +1367,23 @@ deps_drivers/md/dm.o := \
 drivers/md/dm.o: $(deps_drivers/md/dm.o)
 
 $(deps_drivers/md/dm.o):
-#SYMVER dm_per_bio_data 0xbf43748e
-#SYMVER dm_bio_from_per_bio_data 0xcf87e16d
-#SYMVER dm_bio_get_target_bio_nr 0xddaeeea7
+#SYMVER dm_per_bio_data 0x92197a65
+#SYMVER dm_bio_from_per_bio_data 0x85f132f7
+#SYMVER dm_bio_get_target_bio_nr 0x740e0baf
 #SYMVER dm_get_reserved_bio_based_ios 0x38f704de
-#SYMVER dm_start_time_ns_from_clone 0x1203f470
-#SYMVER dm_set_target_max_io_len 0xa30eacc7
-#SYMVER dm_accept_partial_bio 0x81c1ee6e
-#SYMVER dm_submit_bio_remap 0xef0dc1fd
-#SYMVER dm_get_md 0xfda0f357
-#SYMVER dm_hold 0x61a771fe
-#SYMVER dm_device_name 0xf5a3078f
-#SYMVER dm_put 0x23d66f66
-#SYMVER dm_internal_suspend_noflush 0xc5c0d8c8
-#SYMVER dm_internal_resume 0x911bff1a
-#SYMVER dm_internal_suspend_fast 0x205e01a9
-#SYMVER dm_internal_resume_fast 0x411c5ea0
-#SYMVER dm_disk 0x8b1d214a
-#SYMVER dm_suspended 0x0be80fb0
-#SYMVER dm_post_suspending 0xecf8630d
-#SYMVER dm_noflush_suspending 0x8c62a8e3
+#SYMVER dm_start_time_ns_from_clone 0x61216575
+#SYMVER dm_set_target_max_io_len 0xe91b25ee
+#SYMVER dm_accept_partial_bio 0xbb73465d
+#SYMVER dm_submit_bio_remap 0x59b1c6bd
+#SYMVER dm_get_md 0xfba18658
+#SYMVER dm_hold 0x5db7cc6b
+#SYMVER dm_device_name 0xaacf1f23
+#SYMVER dm_put 0x3b3e2cfe
+#SYMVER dm_internal_suspend_noflush 0x3abf0128
+#SYMVER dm_internal_resume 0x5c0bdb6a
+#SYMVER dm_internal_suspend_fast 0x495717cb
+#SYMVER dm_internal_resume_fast 0x10099092
+#SYMVER dm_disk 0x4cbb4f97
+#SYMVER dm_suspended 0x49aa407a
+#SYMVER dm_post_suspending 0x60fc12ac
+#SYMVER dm_noflush_suspending 0x780116a8

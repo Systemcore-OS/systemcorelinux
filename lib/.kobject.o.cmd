@@ -1,4 +1,4 @@
-savedcmd_lib/kobject.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.kobject.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"lib/kobject"' -DKBUILD_BASENAME='"kobject"' -DKBUILD_MODNAME='"kobject"' -D__KBUILD_MODNAME=kmod_kobject -c -o lib/kobject.o lib/kobject.c  
+savedcmd_lib/kobject.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.kobject.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"lib/kobject"' -DKBUILD_BASENAME='"kobject"' -DKBUILD_MODNAME='"kobject"' -D__KBUILD_MODNAME=kmod_kobject -c -o lib/kobject.o lib/kobject.c  
 
 source_lib/kobject.o := lib/kobject.c
 
@@ -680,6 +680,11 @@ deps_lib/kobject.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -798,22 +803,22 @@ deps_lib/kobject.o := \
 lib/kobject.o: $(deps_lib/kobject.o)
 
 $(deps_lib/kobject.o):
-#SYMVER kobject_get_path 0xcffd1388
-#SYMVER kobject_set_name 0x5707a5c7
-#SYMVER kobject_init 0x7f9ed7b0
-#SYMVER kobject_add 0x857ab456
-#SYMVER kobject_init_and_add 0x62ef4092
-#SYMVER kobject_rename 0x66f69a7d
-#SYMVER kobject_move 0x43f8c8a2
-#SYMVER kobject_del 0xb66c2ad5
-#SYMVER kobject_get 0x8fc8140a
-#SYMVER kobject_get_unless_zero 0xab0c44ed
-#SYMVER kobject_put 0xb8c5b1d0
-#SYMVER kobject_create_and_add 0xdf41ef71
-#SYMVER kobj_sysfs_ops 0xcfe45e90
-#SYMVER kset_register 0xb83d03ac
-#SYMVER kset_unregister 0x20410941
-#SYMVER kset_find_obj 0x072f0840
-#SYMVER kset_create_and_add 0x1f38e8bc
+#SYMVER kobject_get_path 0x3e0c9a9c
+#SYMVER kobject_set_name 0xfc2dc104
+#SYMVER kobject_init 0x4535e49f
+#SYMVER kobject_add 0x82a8d653
+#SYMVER kobject_init_and_add 0xaf5d83a7
+#SYMVER kobject_rename 0x9fdb1dca
+#SYMVER kobject_move 0x1a83adcf
+#SYMVER kobject_del 0x22e8fb4a
+#SYMVER kobject_get 0x7045faed
+#SYMVER kobject_get_unless_zero 0x7d333de1
+#SYMVER kobject_put 0xd4840c08
+#SYMVER kobject_create_and_add 0x498283bd
+#SYMVER kobj_sysfs_ops 0x6e5e30b8
+#SYMVER kset_register 0x0e0fa05c
+#SYMVER kset_unregister 0x894a963e
+#SYMVER kset_find_obj 0xdd60cc16
+#SYMVER kset_create_and_add 0x04497de8
 #SYMVER kobj_ns_grab_current 0x2d2dd36f
 #SYMVER kobj_ns_drop 0xc7fa4aa9

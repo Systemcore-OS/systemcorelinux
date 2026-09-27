@@ -1,4 +1,4 @@
-savedcmd_kernel/irq/generic-chip.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/irq/.generic-chip.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"kernel/irq/generic-chip"' -DKBUILD_BASENAME='"generic_chip"' -DKBUILD_MODNAME='"generic_chip"' -D__KBUILD_MODNAME=kmod_generic_chip -c -o kernel/irq/generic-chip.o kernel/irq/generic-chip.c  
+savedcmd_kernel/irq/generic-chip.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/irq/.generic-chip.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"kernel/irq/generic-chip"' -DKBUILD_BASENAME='"generic_chip"' -DKBUILD_MODNAME='"generic_chip"' -D__KBUILD_MODNAME=kmod_generic_chip -c -o kernel/irq/generic-chip.o kernel/irq/generic-chip.c  
 
 source_kernel/irq/generic-chip.o := kernel/irq/generic-chip.c
 
@@ -547,6 +547,11 @@ deps_kernel/irq/generic-chip.o := \
   include/linux/wait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -904,7 +909,6 @@ deps_kernel/irq/generic-chip.o := \
     $(wildcard include/config/IRQ_TIME_ACCOUNTING) \
   arch/arm64/include/asm/hardirq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/hrtimer.h \
     $(wildcard include/config/HIGH_RES_TIMERS) \
@@ -964,7 +968,6 @@ deps_kernel/irq/generic-chip.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1119,19 +1122,19 @@ deps_kernel/irq/generic-chip.o := \
 kernel/irq/generic-chip.o: $(deps_kernel/irq/generic-chip.o)
 
 $(deps_kernel/irq/generic-chip.o):
-#SYMVER irq_gc_noop 0xc6f6a31b
-#SYMVER irq_gc_mask_disable_reg 0x6075cdf8
-#SYMVER irq_gc_mask_set_bit 0x483c4196
-#SYMVER irq_gc_mask_clr_bit 0x4570a4c0
-#SYMVER irq_gc_unmask_enable_reg 0x6ddcb5de
-#SYMVER irq_gc_ack_set_bit 0x989adac2
-#SYMVER irq_gc_set_wake 0xe8fad819
-#SYMVER irq_alloc_generic_chip 0x367161ef
-#SYMVER irq_domain_alloc_generic_chips 0xce62d909
-#SYMVER irq_domain_remove_generic_chips 0xd8d6cca7
-#SYMVER __irq_alloc_domain_generic_chips 0x4cf3aead
-#SYMVER irq_get_domain_generic_chip 0xb4068c0a
-#SYMVER irq_generic_chip_ops 0x4a8757fe
-#SYMVER irq_setup_generic_chip 0x0679717c
-#SYMVER irq_setup_alt_chip 0xdc2134bc
-#SYMVER irq_remove_generic_chip 0x51c489c5
+#SYMVER irq_gc_noop 0x123a30f0
+#SYMVER irq_gc_mask_disable_reg 0xca99fb08
+#SYMVER irq_gc_mask_set_bit 0xb57d5c86
+#SYMVER irq_gc_mask_clr_bit 0xcba491b6
+#SYMVER irq_gc_unmask_enable_reg 0x69d037cf
+#SYMVER irq_gc_ack_set_bit 0x3b8b794d
+#SYMVER irq_gc_set_wake 0xc2a2be24
+#SYMVER irq_alloc_generic_chip 0x5fe114ca
+#SYMVER irq_domain_alloc_generic_chips 0xa63f4b9c
+#SYMVER irq_domain_remove_generic_chips 0xf8c2018d
+#SYMVER __irq_alloc_domain_generic_chips 0x0e237c16
+#SYMVER irq_get_domain_generic_chip 0x0c37b7c1
+#SYMVER irq_generic_chip_ops 0x08d9e878
+#SYMVER irq_setup_generic_chip 0x8e3849b6
+#SYMVER irq_setup_alt_chip 0x44acc7c0
+#SYMVER irq_remove_generic_chip 0x6bc69f29

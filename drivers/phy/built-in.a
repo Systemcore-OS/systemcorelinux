@@ -5,8 +5,8 @@ phy-core-mipi-dphy.o/
 broadcom/phy-brcm-usb.o/
 broadcom/phy-brcm-usb-init.o/
 broadcom/phy-brcm-usb-init-synopsys.o/
-/0              0           0     0     644     43080     `
-/12             0           0     0     644     4048      `
-/34             0           0     0     644     20432     `
-/59             0           0     0     644     16696     `
-/89             0           0     0     644     11552     `
+/0              0           0     0     644     32456     `
+/12             0           0     0     644     3344      `
+/34             0           0     0     644     17704     `
+/59             0           0     0     644     14144     `
+/89             0           0     0     644     7912      `

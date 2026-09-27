@@ -1,4 +1,4 @@
-savedcmd_drivers/iio/industrialio-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/iio/.industrialio-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"industrialio_core"' -DKBUILD_MODNAME='"industrialio"' -D__KBUILD_MODNAME=kmod_industrialio -c -o drivers/iio/industrialio-core.o drivers/iio/industrialio-core.c  
+savedcmd_drivers/iio/industrialio-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/iio/.industrialio-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"industrialio_core"' -DKBUILD_MODNAME='"industrialio"' -D__KBUILD_MODNAME=kmod_industrialio -c -o drivers/iio/industrialio-core.o drivers/iio/industrialio-core.c  
 
 source_drivers/iio/industrialio-core.o := drivers/iio/industrialio-core.c
 
@@ -683,6 +683,11 @@ deps_drivers/iio/industrialio-core.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -848,7 +853,6 @@ deps_drivers/iio/industrialio-core.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1031,30 +1035,30 @@ deps_drivers/iio/industrialio-core.o := \
 drivers/iio/industrialio-core.o: $(deps_drivers/iio/industrialio-core.o)
 
 $(deps_drivers/iio/industrialio-core.o):
-#SYMVER iio_bus_type 0xa66f0e00
-#SYMVER iio_device_id 0xbdd057c2
-#SYMVER iio_buffer_enabled 0xa89bd8fb
-#SYMVER iio_get_debugfs_dentry 0xc84d2882
-#SYMVER iio_read_const_attr 0xe740be81
-#SYMVER iio_device_set_clock 0x9c7302b6
-#SYMVER iio_device_get_clock 0x9772ee0c
-#SYMVER iio_get_time_ns 0x07467fee
-#SYMVER iio_enum_available_read 0xbe780042
-#SYMVER iio_enum_read 0x48049ab9
-#SYMVER iio_enum_write 0x7a5a63bf
-#SYMVER iio_show_mount_matrix 0xab3551b0
-#SYMVER iio_read_mount_matrix 0x803b7be0
+#SYMVER iio_bus_type 0x92169796
+#SYMVER iio_device_id 0x40524bd5
+#SYMVER iio_buffer_enabled 0x1dd77f1f
+#SYMVER iio_get_debugfs_dentry 0xe167fdf7
+#SYMVER iio_read_const_attr 0x1d7fcc71
+#SYMVER iio_device_set_clock 0xc2928742
+#SYMVER iio_device_get_clock 0xee2fca57
+#SYMVER iio_get_time_ns 0x6466b4bc
+#SYMVER iio_enum_available_read 0x0970f6fe
+#SYMVER iio_enum_read 0x4deb0422
+#SYMVER iio_enum_write 0xa9b1fd6f
+#SYMVER iio_show_mount_matrix 0x0585ee50
+#SYMVER iio_read_mount_matrix 0x1243998f
 #SYMVER iio_format_value 0x4dce7dd4
 #SYMVER iio_str_to_fixpoint 0x26f6b499
-#SYMVER iio_device_alloc 0x359b3cca
-#SYMVER iio_device_free 0x06960c72
-#SYMVER devm_iio_device_alloc 0x9749e909
-#SYMVER iio_active_scan_mask_index 0x33a0eebb
-#SYMVER __iio_device_register 0xa1e99895
-#SYMVER iio_device_unregister 0xc036d18f
-#SYMVER __devm_iio_device_register 0xbbcd3e21
-#SYMVER iio_device_claim_direct_mode 0xd5f8752e
-#SYMVER iio_device_release_direct_mode 0xd3a87d29
-#SYMVER iio_device_claim_buffer_mode 0xa5efab7d
-#SYMVER iio_device_release_buffer_mode 0xa3bfa37a
-#SYMVER iio_device_get_current_mode 0xe1b7e621
+#SYMVER iio_device_alloc 0xa2eba191
+#SYMVER iio_device_free 0xbad271dc
+#SYMVER devm_iio_device_alloc 0xfd515a27
+#SYMVER iio_active_scan_mask_index 0x07931cdf
+#SYMVER __iio_device_register 0xc5f328c9
+#SYMVER iio_device_unregister 0x9008f0c2
+#SYMVER __devm_iio_device_register 0x3749638e
+#SYMVER iio_device_claim_direct_mode 0x2dc2bb89
+#SYMVER iio_device_release_direct_mode 0x05299c76
+#SYMVER iio_device_claim_buffer_mode 0x28d83195
+#SYMVER iio_device_release_buffer_mode 0x0033166a
+#SYMVER iio_device_get_current_mode 0x4110c655

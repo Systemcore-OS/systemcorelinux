@@ -1,4 +1,4 @@
-savedcmd_drivers/usb/serial/generic.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/serial/.generic.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"generic"' -DKBUILD_MODNAME='"usbserial"' -D__KBUILD_MODNAME=kmod_usbserial -c -o drivers/usb/serial/generic.o drivers/usb/serial/generic.c  
+savedcmd_drivers/usb/serial/generic.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/serial/.generic.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"generic"' -DKBUILD_MODNAME='"usbserial"' -D__KBUILD_MODNAME=kmod_usbserial -c -o drivers/usb/serial/generic.o drivers/usb/serial/generic.c  
 
 source_drivers/usb/serial/generic.o := drivers/usb/serial/generic.c
 
@@ -672,6 +672,11 @@ deps_drivers/usb/serial/generic.o := \
   include/linux/swait.h \
   include/linux/wait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -980,7 +985,6 @@ deps_drivers/usb/serial/generic.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1056,7 +1060,6 @@ deps_drivers/usb/serial/generic.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1134,19 +1137,19 @@ deps_drivers/usb/serial/generic.o := \
 drivers/usb/serial/generic.o: $(deps_drivers/usb/serial/generic.o)
 
 $(deps_drivers/usb/serial/generic.o):
-#SYMVER usb_serial_generic_open 0xba74b743
-#SYMVER usb_serial_generic_close 0x417eb6b2
-#SYMVER usb_serial_generic_write_start 0x476c5ba7
-#SYMVER usb_serial_generic_write 0x971364e8
-#SYMVER usb_serial_generic_chars_in_buffer 0x7c097add
-#SYMVER usb_serial_generic_wait_until_sent 0x8cd7317e
-#SYMVER usb_serial_generic_submit_read_urbs 0xfeb52271
-#SYMVER usb_serial_generic_process_read_urb 0xa175591e
-#SYMVER usb_serial_generic_read_bulk_callback 0x094bf757
-#SYMVER usb_serial_generic_write_bulk_callback 0x26c407c6
-#SYMVER usb_serial_generic_throttle 0x947d884b
-#SYMVER usb_serial_generic_unthrottle 0xf2129bef
-#SYMVER usb_serial_generic_tiocmiwait 0xd710fb70
-#SYMVER usb_serial_generic_get_icount 0xec6231bd
-#SYMVER usb_serial_handle_dcd_change 0x34f09f34
-#SYMVER usb_serial_generic_resume 0x35dd3ba0
+#SYMVER usb_serial_generic_open 0x45f3c305
+#SYMVER usb_serial_generic_close 0x8c400f3a
+#SYMVER usb_serial_generic_write_start 0x61924bff
+#SYMVER usb_serial_generic_write 0x68407d86
+#SYMVER usb_serial_generic_chars_in_buffer 0xbdd16078
+#SYMVER usb_serial_generic_wait_until_sent 0xb34d531f
+#SYMVER usb_serial_generic_submit_read_urbs 0x8165c516
+#SYMVER usb_serial_generic_process_read_urb 0xc0c1a8a5
+#SYMVER usb_serial_generic_read_bulk_callback 0xc5f1e956
+#SYMVER usb_serial_generic_write_bulk_callback 0x2a3550ed
+#SYMVER usb_serial_generic_throttle 0x3519a25c
+#SYMVER usb_serial_generic_unthrottle 0x7088b64a
+#SYMVER usb_serial_generic_tiocmiwait 0x583ede8f
+#SYMVER usb_serial_generic_get_icount 0x525c2323
+#SYMVER usb_serial_handle_dcd_change 0x72280f69
+#SYMVER usb_serial_generic_resume 0x818b0fa3

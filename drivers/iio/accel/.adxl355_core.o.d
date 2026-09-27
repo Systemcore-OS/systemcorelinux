@@ -179,6 +179,8 @@ adxl355_core.o: drivers/iio/accel/adxl355_core.c \
  include/linux/kref.h include/linux/refcount.h include/linux/rbtree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
  include/linux/time.h include/linux/time64.h include/vdso/time64.h \
@@ -281,10 +283,10 @@ adxl355_core.o: drivers/iio/accel/adxl355_core.c \
  include/linux/hardirq.h include/linux/context_tracking_state.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/iio/trigger_consumer.h include/linux/mod_devicetable.h \
- include/uapi/linux/mei.h include/uapi/linux/mei_uuid.h \
- include/linux/property.h include/linux/regmap.h include/linux/delay.h \
+ include/asm-generic/hardirq.h include/linux/iio/trigger_consumer.h \
+ include/linux/mod_devicetable.h include/uapi/linux/mei.h \
+ include/uapi/linux/mei_uuid.h include/linux/property.h \
+ include/linux/regmap.h include/linux/delay.h \
  arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
  include/linux/iopoll.h include/linux/units.h include/linux/unaligned.h \
  include/linux/unaligned/packed_struct.h include/vdso/unaligned.h \

@@ -152,6 +152,8 @@ drm_self_refresh_helper.o: drivers/gpu/drm/drm_self_refresh_helper.c \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
  include/linux/time.h include/linux/time64.h include/vdso/time64.h \
@@ -270,8 +272,8 @@ drm_self_refresh_helper.o: drivers/gpu/drm/drm_self_refresh_helper.c \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h include/linux/pgtable.h \
  arch/arm64/include/asm/pgtable.h arch/arm64/include/asm/proc-fns.h \
  arch/arm64/include/asm/tlbflush.h include/linux/mmu_notifier.h \
@@ -316,18 +318,16 @@ drm_self_refresh_helper.o: drivers/gpu/drm/drm_self_refresh_helper.c \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/drm/drm_property.h \
- include/uapi/drm/drm_mode.h include/uapi/drm/drm.h \
- include/uapi/drm/drm_mode.h include/drm/drm_device.h \
- include/drm/drm_mode_config.h include/drm/drm_plane.h \
- include/linux/kmsg_dump.h include/drm/drm_color_mgmt.h \
- include/drm/drm_rect.h include/drm/drm_debugfs_crc.h \
- include/drm/drm_atomic_helper.h include/drm/drm_modeset_helper_vtables.h \
- include/drm/drm_encoder.h include/uapi/drm/drm_mode.h \
- include/drm/drm_modeset_helper.h include/drm/drm_atomic_state_helper.h \
- include/drm/drm_print.h include/uapi/drm/drm.h \
- include/drm/drm_self_refresh_helper.h
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/drm/drm_property.h include/uapi/drm/drm_mode.h \
+ include/uapi/drm/drm.h include/uapi/drm/drm_mode.h \
+ include/drm/drm_device.h include/drm/drm_mode_config.h \
+ include/drm/drm_plane.h include/linux/kmsg_dump.h \
+ include/drm/drm_color_mgmt.h include/drm/drm_rect.h \
+ include/drm/drm_debugfs_crc.h include/drm/drm_atomic_helper.h \
+ include/drm/drm_modeset_helper_vtables.h include/drm/drm_encoder.h \
+ include/uapi/drm/drm_mode.h include/drm/drm_modeset_helper.h \
+ include/drm/drm_atomic_state_helper.h include/drm/drm_print.h \
+ include/uapi/drm/drm.h include/drm/drm_self_refresh_helper.h

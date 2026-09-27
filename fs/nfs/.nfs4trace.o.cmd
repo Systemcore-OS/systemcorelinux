@@ -1,4 +1,4 @@
-savedcmd_fs/nfs/nfs4trace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/nfs/.nfs4trace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424 -Ifs/nfs    -DKBUILD_MODFILE='"fs/nfs/nfsv4"' -DKBUILD_BASENAME='"nfs4trace"' -DKBUILD_MODNAME='"nfsv4"' -D__KBUILD_MODNAME=kmod_nfsv4 -c -o fs/nfs/nfs4trace.o fs/nfs/nfs4trace.c  
+savedcmd_fs/nfs/nfs4trace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/nfs/.nfs4trace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Ifs/nfs  -DMODULE  -DKBUILD_BASENAME='"nfs4trace"' -DKBUILD_MODNAME='"nfsv4"' -D__KBUILD_MODNAME=kmod_nfsv4 -c -o fs/nfs/nfs4trace.o fs/nfs/nfs4trace.c  
 
 source_fs/nfs/nfs4trace.o := fs/nfs/nfs4trace.c
 
@@ -758,6 +758,11 @@ deps_fs/nfs/nfs4trace.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -926,7 +931,6 @@ deps_fs/nfs/nfs4trace.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -967,7 +971,6 @@ deps_fs/nfs/nfs4trace.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1188,14 +1191,11 @@ deps_fs/nfs/nfs4trace.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1721,56 +1721,56 @@ fs/nfs/nfs4trace.o: $(deps_fs/nfs/nfs4trace.o)
 
 $(deps_fs/nfs/nfs4trace.o):
 #SYMVER __tracepoint_nfs4_pnfs_read 0x802046c5
-#SYMVER __traceiter_nfs4_pnfs_read 0x7a7ea650
+#SYMVER __traceiter_nfs4_pnfs_read 0xadb99571
 #SYMVER __SCK__tp_func_nfs4_pnfs_read 0xc7a9d954
 #SYMVER __tracepoint_nfs4_pnfs_write 0xd47333c2
-#SYMVER __traceiter_nfs4_pnfs_write 0x9df8436f
+#SYMVER __traceiter_nfs4_pnfs_write 0x9aa093a7
 #SYMVER __SCK__tp_func_nfs4_pnfs_write 0x533c198f
 #SYMVER __tracepoint_nfs4_pnfs_commit_ds 0x02da1276
-#SYMVER __traceiter_nfs4_pnfs_commit_ds 0x5d23f6fe
+#SYMVER __traceiter_nfs4_pnfs_commit_ds 0x893eccb3
 #SYMVER __SCK__tp_func_nfs4_pnfs_commit_ds 0x5a4314e9
 #SYMVER __tracepoint_pnfs_mds_fallback_pg_init_read 0x1d57c82c
-#SYMVER __traceiter_pnfs_mds_fallback_pg_init_read 0xb0271ab3
+#SYMVER __traceiter_pnfs_mds_fallback_pg_init_read 0xc58b6d5c
 #SYMVER __SCK__tp_func_pnfs_mds_fallback_pg_init_read 0xba53a1ef
 #SYMVER __tracepoint_pnfs_mds_fallback_pg_init_write 0x0d381e90
-#SYMVER __traceiter_pnfs_mds_fallback_pg_init_write 0xe99f0651
+#SYMVER __traceiter_pnfs_mds_fallback_pg_init_write 0x70d0b5c9
 #SYMVER __SCK__tp_func_pnfs_mds_fallback_pg_init_write 0x0ff289f3
 #SYMVER __tracepoint_pnfs_mds_fallback_pg_get_mirror_count 0x8be24f50
-#SYMVER __traceiter_pnfs_mds_fallback_pg_get_mirror_count 0x7dc8bb09
+#SYMVER __traceiter_pnfs_mds_fallback_pg_get_mirror_count 0xba24135e
 #SYMVER __SCK__tp_func_pnfs_mds_fallback_pg_get_mirror_count 0x7cd013a8
 #SYMVER __tracepoint_pnfs_mds_fallback_read_done 0xdd342fa8
-#SYMVER __traceiter_pnfs_mds_fallback_read_done 0x4aaac4a6
+#SYMVER __traceiter_pnfs_mds_fallback_read_done 0xbae70221
 #SYMVER __SCK__tp_func_pnfs_mds_fallback_read_done 0x7a4e7f4e
 #SYMVER __tracepoint_pnfs_mds_fallback_write_done 0x6e637af7
-#SYMVER __traceiter_pnfs_mds_fallback_write_done 0xacb81391
+#SYMVER __traceiter_pnfs_mds_fallback_write_done 0x0270f874
 #SYMVER __SCK__tp_func_pnfs_mds_fallback_write_done 0x27ad47ea
 #SYMVER __tracepoint_pnfs_mds_fallback_read_pagelist 0x555bb1db
-#SYMVER __traceiter_pnfs_mds_fallback_read_pagelist 0xf6ada77d
+#SYMVER __traceiter_pnfs_mds_fallback_read_pagelist 0x3cc2cd62
 #SYMVER __SCK__tp_func_pnfs_mds_fallback_read_pagelist 0x579126b8
 #SYMVER __tracepoint_pnfs_mds_fallback_write_pagelist 0x0bd06bd1
-#SYMVER __traceiter_pnfs_mds_fallback_write_pagelist 0x220a734e
+#SYMVER __traceiter_pnfs_mds_fallback_write_pagelist 0x83f8e397
 #SYMVER __SCK__tp_func_pnfs_mds_fallback_write_pagelist 0xdf6991a4
 #SYMVER __tracepoint_ff_layout_read_error 0x18b41178
-#SYMVER __traceiter_ff_layout_read_error 0x7ee99668
+#SYMVER __traceiter_ff_layout_read_error 0x7687c1d2
 #SYMVER __SCK__tp_func_ff_layout_read_error 0x785c06ab
 #SYMVER __tracepoint_ff_layout_write_error 0x2f1e21ba
-#SYMVER __traceiter_ff_layout_write_error 0xe4a9674b
+#SYMVER __traceiter_ff_layout_write_error 0x50d70e18
 #SYMVER __SCK__tp_func_ff_layout_write_error 0x30a44ac3
 #SYMVER __tracepoint_ff_layout_commit_error 0x2174b794
-#SYMVER __traceiter_ff_layout_commit_error 0xc16272b3
+#SYMVER __traceiter_ff_layout_commit_error 0x2c5d88c4
 #SYMVER __SCK__tp_func_ff_layout_commit_error 0x08b2c467
 #SYMVER __tracepoint_bl_pr_key_reg 0x39d8a50e
-#SYMVER __traceiter_bl_pr_key_reg 0x4cff842b
+#SYMVER __traceiter_bl_pr_key_reg 0x57661719
 #SYMVER __SCK__tp_func_bl_pr_key_reg 0x02884be0
 #SYMVER __tracepoint_bl_pr_key_reg_err 0x0ea40716
-#SYMVER __traceiter_bl_pr_key_reg_err 0x7d7e107b
+#SYMVER __traceiter_bl_pr_key_reg_err 0x4980e93a
 #SYMVER __SCK__tp_func_bl_pr_key_reg_err 0x90c878c7
 #SYMVER __tracepoint_bl_pr_key_unreg 0x13776549
-#SYMVER __traceiter_bl_pr_key_unreg 0x5f8201d9
+#SYMVER __traceiter_bl_pr_key_unreg 0x64fa4d79
 #SYMVER __SCK__tp_func_bl_pr_key_unreg 0x94384f04
 #SYMVER __tracepoint_bl_pr_key_unreg_err 0x6bec9822
-#SYMVER __traceiter_bl_pr_key_unreg_err 0x24660bcd
+#SYMVER __traceiter_bl_pr_key_unreg_err 0x9ebf38d3
 #SYMVER __SCK__tp_func_bl_pr_key_unreg_err 0x33759ebd
 #SYMVER __tracepoint_fl_getdevinfo 0xb4284c9b
-#SYMVER __traceiter_fl_getdevinfo 0xd7f99c0d
+#SYMVER __traceiter_fl_getdevinfo 0x40ccd387
 #SYMVER __SCK__tp_func_fl_getdevinfo 0x8f78a275

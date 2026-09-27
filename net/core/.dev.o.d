@@ -174,7 +174,9 @@ dev.o: net/core/dev.c include/linux/compiler-version.h \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/wait.h \
- include/linux/uprobes.h include/linux/page-flags-layout.h \
+ include/linux/uprobes.h arch/arm64/include/asm/uprobes.h \
+ arch/arm64/include/asm/debug-monitors.h arch/arm64/include/asm/esr.h \
+ arch/arm64/include/asm/probes.h include/linux/page-flags-layout.h \
  include/generated/bounds.h include/linux/workqueue.h \
  include/linux/timer.h include/linux/ktime.h include/linux/jiffies.h \
  include/linux/math64.h include/vdso/math64.h include/linux/time.h \
@@ -279,9 +281,8 @@ dev.o: net/core/dev.c include/linux/compiler-version.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
  include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
  arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h arch/arm64/include/asm/esr.h \
- include/asm-generic/hardirq.h include/linux/irq.h \
- include/linux/irqhandler.h include/linux/io.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -314,12 +315,11 @@ dev.o: net/core/dev.c include/linux/compiler-version.h \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- arch/arm64/include/asm/daifflags.h arch/arm64/include/asm/arch_gicv3.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h arch/arm64/include/asm/daifflags.h \
+ arch/arm64/include/asm/arch_gicv3.h \
  include/linux/irqchip/arm-gic-common.h \
  include/linux/irqchip/arm-vgic-info.h include/asm-generic/mmu_context.h \
  include/linux/tick.h include/linux/clockchips.h \

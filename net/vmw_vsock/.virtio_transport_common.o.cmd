@@ -1,4 +1,4 @@
-savedcmd_net/vmw_vsock/virtio_transport_common.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/vmw_vsock/.virtio_transport_common.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"virtio_transport_common"' -DKBUILD_MODNAME='"vmw_vsock_virtio_transport_common"' -D__KBUILD_MODNAME=kmod_vmw_vsock_virtio_transport_common -c -o net/vmw_vsock/virtio_transport_common.o net/vmw_vsock/virtio_transport_common.c  
+savedcmd_net/vmw_vsock/virtio_transport_common.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/vmw_vsock/.virtio_transport_common.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"virtio_transport_common"' -DKBUILD_MODNAME='"vmw_vsock_virtio_transport_common"' -D__KBUILD_MODNAME=kmod_vmw_vsock_virtio_transport_common -c -o net/vmw_vsock/virtio_transport_common.o net/vmw_vsock/virtio_transport_common.c  
 
 source_net/vmw_vsock/virtio_transport_common.o := net/vmw_vsock/virtio_transport_common.c
 
@@ -727,6 +727,10 @@ deps_net/vmw_vsock/virtio_transport_common.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1153,7 +1157,6 @@ deps_net/vmw_vsock/virtio_transport_common.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1417,14 +1420,11 @@ deps_net/vmw_vsock/virtio_transport_common.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/highmem-internal.h \
@@ -1623,43 +1623,43 @@ deps_net/vmw_vsock/virtio_transport_common.o := \
 net/vmw_vsock/virtio_transport_common.o: $(deps_net/vmw_vsock/virtio_transport_common.o)
 
 $(deps_net/vmw_vsock/virtio_transport_common.o):
-#SYMVER virtio_transport_deliver_tap_pkt 0xb76195a8
-#SYMVER virtio_transport_inc_tx_pkt 0xf909758b
-#SYMVER virtio_transport_consume_skb_sent 0xfead259a
-#SYMVER virtio_transport_get_credit 0x0c37d00f
-#SYMVER virtio_transport_put_credit 0x745e2d4d
-#SYMVER virtio_transport_stream_dequeue 0x4dcda417
-#SYMVER virtio_transport_seqpacket_dequeue 0xa5815036
-#SYMVER virtio_transport_seqpacket_enqueue 0x87559293
-#SYMVER virtio_transport_dgram_dequeue 0xd3d7b6f8
-#SYMVER virtio_transport_stream_has_data 0x89e07d00
-#SYMVER virtio_transport_seqpacket_has_data 0xde06a3f5
-#SYMVER virtio_transport_stream_has_space 0x63fa5a90
-#SYMVER virtio_transport_do_socket_init 0x0fc8c9db
-#SYMVER virtio_transport_notify_buffer_size 0x66f94a64
-#SYMVER virtio_transport_notify_poll_in 0x4e86a1a5
-#SYMVER virtio_transport_notify_poll_out 0x1bc1da84
-#SYMVER virtio_transport_notify_recv_init 0xdd3f956a
-#SYMVER virtio_transport_notify_recv_pre_block 0xabe8b775
-#SYMVER virtio_transport_notify_recv_pre_dequeue 0x955c43f2
-#SYMVER virtio_transport_notify_recv_post_dequeue 0x717b910d
-#SYMVER virtio_transport_notify_send_init 0xc216b9a2
-#SYMVER virtio_transport_notify_send_pre_block 0xe90592c8
-#SYMVER virtio_transport_notify_send_pre_enqueue 0xa5535055
-#SYMVER virtio_transport_notify_send_post_enqueue 0x4ef6a433
-#SYMVER virtio_transport_stream_rcvhiwat 0x0728d91f
-#SYMVER virtio_transport_stream_is_active 0x0ab29744
+#SYMVER virtio_transport_deliver_tap_pkt 0xdecee2bc
+#SYMVER virtio_transport_inc_tx_pkt 0x5f601ae5
+#SYMVER virtio_transport_consume_skb_sent 0x8b382965
+#SYMVER virtio_transport_get_credit 0x4a3a422f
+#SYMVER virtio_transport_put_credit 0xa064a139
+#SYMVER virtio_transport_stream_dequeue 0x02d3898b
+#SYMVER virtio_transport_seqpacket_dequeue 0xa5e52b06
+#SYMVER virtio_transport_seqpacket_enqueue 0xd692dcf1
+#SYMVER virtio_transport_dgram_dequeue 0x560e11df
+#SYMVER virtio_transport_stream_has_data 0xc6bc5505
+#SYMVER virtio_transport_seqpacket_has_data 0x448e4599
+#SYMVER virtio_transport_stream_has_space 0x417ba1c3
+#SYMVER virtio_transport_do_socket_init 0x1b73dacc
+#SYMVER virtio_transport_notify_buffer_size 0x760a665d
+#SYMVER virtio_transport_notify_poll_in 0xff974f26
+#SYMVER virtio_transport_notify_poll_out 0x3aec261f
+#SYMVER virtio_transport_notify_recv_init 0x025c8b74
+#SYMVER virtio_transport_notify_recv_pre_block 0x9dc7d62f
+#SYMVER virtio_transport_notify_recv_pre_dequeue 0x1937bb9b
+#SYMVER virtio_transport_notify_recv_post_dequeue 0xbb1c4bb0
+#SYMVER virtio_transport_notify_send_init 0x89389e99
+#SYMVER virtio_transport_notify_send_pre_block 0x6f67a143
+#SYMVER virtio_transport_notify_send_pre_enqueue 0xcddbb2f2
+#SYMVER virtio_transport_notify_send_post_enqueue 0x2076b3b5
+#SYMVER virtio_transport_stream_rcvhiwat 0xfb18a4eb
+#SYMVER virtio_transport_stream_is_active 0xfc3512ea
 #SYMVER virtio_transport_stream_allow 0x03a81e69
-#SYMVER virtio_transport_dgram_bind 0x4aa6cfaa
+#SYMVER virtio_transport_dgram_bind 0x0169a5b7
 #SYMVER virtio_transport_dgram_allow 0xbabd30f5
-#SYMVER virtio_transport_connect 0xa6ba509b
-#SYMVER virtio_transport_shutdown 0xcb09bb1d
-#SYMVER virtio_transport_dgram_enqueue 0x2b6c6929
-#SYMVER virtio_transport_stream_enqueue 0x46f0a9d9
-#SYMVER virtio_transport_destruct 0x5500e7e6
-#SYMVER virtio_transport_unsent_bytes 0xf888ac54
-#SYMVER virtio_transport_release 0x01b29e07
-#SYMVER virtio_transport_recv_pkt 0x07c5b864
-#SYMVER virtio_transport_purge_skbs 0x856535ea
-#SYMVER virtio_transport_read_skb 0xc4dba88f
-#SYMVER virtio_transport_notify_set_rcvlowat 0x911d3631
+#SYMVER virtio_transport_connect 0x2140343c
+#SYMVER virtio_transport_shutdown 0xf3f85490
+#SYMVER virtio_transport_dgram_enqueue 0xe677eec1
+#SYMVER virtio_transport_stream_enqueue 0xe9dd83af
+#SYMVER virtio_transport_destruct 0xd2a65aac
+#SYMVER virtio_transport_unsent_bytes 0x598f6430
+#SYMVER virtio_transport_release 0x1d0ad5a6
+#SYMVER virtio_transport_recv_pkt 0x499f9da3
+#SYMVER virtio_transport_purge_skbs 0x66f5b502
+#SYMVER virtio_transport_read_skb 0x69c67cc0
+#SYMVER virtio_transport_notify_set_rcvlowat 0xe76d5594

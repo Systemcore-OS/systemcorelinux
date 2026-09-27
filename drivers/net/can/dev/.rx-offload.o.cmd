@@ -1,4 +1,4 @@
-savedcmd_drivers/net/can/dev/rx-offload.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/can/dev/.rx-offload.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/net/can/dev/can-dev"' -DKBUILD_BASENAME='"rx_offload"' -DKBUILD_MODNAME='"can_dev"' -D__KBUILD_MODNAME=kmod_can_dev -c -o drivers/net/can/dev/rx-offload.o drivers/net/can/dev/rx-offload.c  
+savedcmd_drivers/net/can/dev/rx-offload.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/can/dev/.rx-offload.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/net/can/dev/can-dev"' -DKBUILD_BASENAME='"rx_offload"' -DKBUILD_MODNAME='"can_dev"' -D__KBUILD_MODNAME=kmod_can_dev -c -o drivers/net/can/dev/rx-offload.o drivers/net/can/dev/rx-offload.c  
 
 source_drivers/net/can/dev/rx-offload.o := drivers/net/can/dev/rx-offload.c
 
@@ -527,6 +527,11 @@ deps_drivers/net/can/dev/rx-offload.o := \
   include/linux/wait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -1099,7 +1104,6 @@ deps_drivers/net/can/dev/rx-offload.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1140,7 +1144,6 @@ deps_drivers/net/can/dev/rx-offload.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1345,14 +1348,11 @@ deps_drivers/net/can/dev/rx-offload.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1577,16 +1577,16 @@ deps_drivers/net/can/dev/rx-offload.o := \
 drivers/net/can/dev/rx-offload.o: $(deps_drivers/net/can/dev/rx-offload.o)
 
 $(deps_drivers/net/can/dev/rx-offload.o):
-#SYMVER can_rx_offload_irq_offload_timestamp 0xf54a183b
-#SYMVER can_rx_offload_irq_offload_fifo 0xec6c8f8b
-#SYMVER can_rx_offload_queue_timestamp 0xd34e62cd
-#SYMVER can_rx_offload_get_echo_skb_queue_timestamp 0x72a6d269
-#SYMVER can_rx_offload_queue_tail 0x0fd430d1
-#SYMVER can_rx_offload_get_echo_skb_queue_tail 0xa8394a2d
-#SYMVER can_rx_offload_irq_finish 0xe87de7d6
-#SYMVER can_rx_offload_threaded_irq_finish 0xbf055913
-#SYMVER can_rx_offload_add_timestamp 0xecc9d454
-#SYMVER can_rx_offload_add_fifo 0xe781e0c5
-#SYMVER can_rx_offload_add_manual 0xe2424400
-#SYMVER can_rx_offload_enable 0xb30ef70d
-#SYMVER can_rx_offload_del 0x5badfbd0
+#SYMVER can_rx_offload_irq_offload_timestamp 0xa903a2a9
+#SYMVER can_rx_offload_irq_offload_fifo 0x76e7bd0d
+#SYMVER can_rx_offload_queue_timestamp 0x0d67692f
+#SYMVER can_rx_offload_get_echo_skb_queue_timestamp 0xbe55effc
+#SYMVER can_rx_offload_queue_tail 0x103a0152
+#SYMVER can_rx_offload_get_echo_skb_queue_tail 0xe1cf9816
+#SYMVER can_rx_offload_irq_finish 0x22db4caa
+#SYMVER can_rx_offload_threaded_irq_finish 0xa359cbe4
+#SYMVER can_rx_offload_add_timestamp 0x42c689d0
+#SYMVER can_rx_offload_add_fifo 0x4673058c
+#SYMVER can_rx_offload_add_manual 0x5d5eedbd
+#SYMVER can_rx_offload_enable 0x994be4eb
+#SYMVER can_rx_offload_del 0xfd3119c0

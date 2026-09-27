@@ -195,7 +195,9 @@ bcm2835_smi.o: drivers/misc/bcm2835_smi.c \
  include/linux/mm_types.h include/linux/auxvec.h \
  include/uapi/linux/auxvec.h arch/arm64/include/uapi/asm/auxvec.h \
  include/linux/kref.h include/linux/rbtree.h include/linux/maple_tree.h \
- include/linux/uprobes.h include/linux/percpu_counter.h \
+ include/linux/uprobes.h arch/arm64/include/asm/uprobes.h \
+ arch/arm64/include/asm/debug-monitors.h arch/arm64/include/asm/esr.h \
+ arch/arm64/include/asm/probes.h include/linux/percpu_counter.h \
  arch/arm64/include/asm/mmu.h include/linux/page-flags.h \
  include/linux/local_lock.h include/linux/local_lock_internal.h \
  include/linux/zswap.h include/linux/memory_hotplug.h \
@@ -285,9 +287,9 @@ bcm2835_smi.o: drivers/misc/bcm2835_smi.c \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
  include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
  arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h arch/arm64/include/asm/esr.h \
- include/asm-generic/hardirq.h include/linux/irq.h \
- include/linux/irqhandler.h arch/arm64/include/generated/asm/irq_regs.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/irq.h include/linux/irqhandler.h \
+ arch/arm64/include/generated/asm/irq_regs.h \
  include/asm-generic/irq_regs.h include/linux/irqdesc.h \
  arch/arm64/include/generated/asm/hw_irq.h include/asm-generic/hw_irq.h \
  include/linux/trace_clock.h \
@@ -315,13 +317,12 @@ bcm2835_smi.o: drivers/misc/bcm2835_smi.c \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- include/linux/kmsan.h include/linux/dma-direction.h \
- include/linux/highmem-internal.h include/linux/hugetlb_inline.h \
- include/linux/dma-mapping.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
- include/linux/dmaengine.h include/linux/broadcom/bcm2835_smi.h
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/dma-direction.h include/linux/highmem-internal.h \
+ include/linux/hugetlb_inline.h include/linux/dma-mapping.h \
+ include/linux/scatterlist.h include/linux/mem_encrypt.h \
+ arch/arm64/include/asm/mem_encrypt.h include/linux/dmaengine.h \
+ include/linux/broadcom/bcm2835_smi.h

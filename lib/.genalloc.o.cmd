@@ -1,4 +1,4 @@
-savedcmd_lib/genalloc.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.genalloc.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"lib/genalloc"' -DKBUILD_BASENAME='"genalloc"' -DKBUILD_MODNAME='"genalloc"' -D__KBUILD_MODNAME=kmod_genalloc -c -o lib/genalloc.o lib/genalloc.c  
+savedcmd_lib/genalloc.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.genalloc.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"lib/genalloc"' -DKBUILD_BASENAME='"genalloc"' -DKBUILD_MODNAME='"genalloc"' -D__KBUILD_MODNAME=kmod_genalloc -c -o lib/genalloc.o lib/genalloc.c  
 
 source_lib/genalloc.o := lib/genalloc.c
 
@@ -561,6 +561,11 @@ deps_lib/genalloc.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -782,7 +787,6 @@ deps_lib/genalloc.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -966,7 +970,6 @@ deps_lib/genalloc.o := \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1111,28 +1114,28 @@ deps_lib/genalloc.o := \
 lib/genalloc.o: $(deps_lib/genalloc.o)
 
 $(deps_lib/genalloc.o):
-#SYMVER gen_pool_create 0x2481751e
-#SYMVER gen_pool_add_owner 0xa707fc7e
-#SYMVER gen_pool_virt_to_phys 0x4d3cb443
-#SYMVER gen_pool_destroy 0x6486be43
-#SYMVER gen_pool_alloc_algo_owner 0xfc9dcee3
-#SYMVER gen_pool_dma_alloc 0xc42c5b1d
-#SYMVER gen_pool_dma_alloc_algo 0xa395389b
-#SYMVER gen_pool_dma_alloc_align 0x615cd9d1
-#SYMVER gen_pool_dma_zalloc 0x0611f87e
-#SYMVER gen_pool_dma_zalloc_algo 0x52a44826
-#SYMVER gen_pool_dma_zalloc_align 0x5d339926
-#SYMVER gen_pool_free_owner 0xdb0d45f4
-#SYMVER gen_pool_for_each_chunk 0x51998f86
-#SYMVER gen_pool_has_addr 0x8f0d9476
-#SYMVER gen_pool_avail 0x59eef8ea
-#SYMVER gen_pool_size 0xbe4cdacd
-#SYMVER gen_pool_set_algo 0x7096ad5c
-#SYMVER gen_pool_first_fit 0x2dca2616
-#SYMVER gen_pool_first_fit_align 0x914084b1
-#SYMVER gen_pool_fixed_alloc 0xfb1624f5
-#SYMVER gen_pool_first_fit_order_align 0x4d47a625
-#SYMVER gen_pool_best_fit 0x3276ea14
-#SYMVER gen_pool_get 0x1e77bdbb
-#SYMVER devm_gen_pool_create 0x9cb558fb
-#SYMVER of_gen_pool_get 0x890ccd59
+#SYMVER gen_pool_create 0x5b7a5d71
+#SYMVER gen_pool_add_owner 0x0dec39a0
+#SYMVER gen_pool_virt_to_phys 0x419c1ef5
+#SYMVER gen_pool_destroy 0x1be467d1
+#SYMVER gen_pool_alloc_algo_owner 0x3ee47a95
+#SYMVER gen_pool_dma_alloc 0x584133a5
+#SYMVER gen_pool_dma_alloc_algo 0x667302ee
+#SYMVER gen_pool_dma_alloc_align 0x58b1d679
+#SYMVER gen_pool_dma_zalloc 0x58708ec3
+#SYMVER gen_pool_dma_zalloc_algo 0x2ebac57c
+#SYMVER gen_pool_dma_zalloc_align 0x8cf0c513
+#SYMVER gen_pool_free_owner 0x3a28b1b2
+#SYMVER gen_pool_for_each_chunk 0x94bcedf0
+#SYMVER gen_pool_has_addr 0xeac55860
+#SYMVER gen_pool_avail 0x7be979ce
+#SYMVER gen_pool_size 0x8705ef19
+#SYMVER gen_pool_set_algo 0x227b762b
+#SYMVER gen_pool_first_fit 0x01a7fb3e
+#SYMVER gen_pool_first_fit_align 0x18ab91b5
+#SYMVER gen_pool_fixed_alloc 0xe497f323
+#SYMVER gen_pool_first_fit_order_align 0x4c137f1c
+#SYMVER gen_pool_best_fit 0x13e379a2
+#SYMVER gen_pool_get 0xd83d48ce
+#SYMVER devm_gen_pool_create 0x4c5e8bfb
+#SYMVER of_gen_pool_get 0x73394353

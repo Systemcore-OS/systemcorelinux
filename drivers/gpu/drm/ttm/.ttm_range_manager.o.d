@@ -188,7 +188,9 @@ ttm_range_manager.o: drivers/gpu/drm/ttm/ttm_range_manager.c \
  include/linux/refcount.h include/linux/rbtree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/wait.h \
- include/linux/uprobes.h include/linux/page-flags-layout.h \
+ include/linux/uprobes.h arch/arm64/include/asm/uprobes.h \
+ arch/arm64/include/asm/debug-monitors.h arch/arm64/include/asm/esr.h \
+ arch/arm64/include/asm/probes.h include/linux/page-flags-layout.h \
  include/generated/bounds.h include/linux/seqlock.h \
  include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
  arch/arm64/include/asm/tlbflush.h include/linux/mmu_notifier.h \

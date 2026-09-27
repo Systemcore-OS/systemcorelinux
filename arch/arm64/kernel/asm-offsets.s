@@ -3,28 +3,19 @@
 // GNU C11 (Buildroot 2025.11.3) version 14.3.0 (aarch64-buildroot-linux-gnu)
 //	compiled by GNU C version 11.4.0, GMP version 6.3.0, MPFR version 4.1.1, MPC version 1.3.1, isl version none
 // GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-// options passed: -mlittle-endian -mgeneral-regs-only -mabi=lp64 -mbranch-protection=pac-ret -mcpu=cortex-a76 -O2 -std=gnu11 -fstack-protector-strong -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -fno-asynchronous-unwind-tables -fno-unwind-tables -fno-delete-null-pointer-checks -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fstack-check=no -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen
+// options passed: -mlittle-endian -mgeneral-regs-only -mabi=lp64 -mbranch-protection=pac-ret -mcpu=cortex-a76 -O2 -std=gnu11 -fstack-protector-strong -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -fno-asynchronous-unwind-tables -fno-unwind-tables -fno-delete-null-pointer-checks -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fstack-check=no -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen
 	.text
 	.section	.text.startup,"ax",@progbits
-	.align	3
+	.align	2
 	.p2align 5,,15
 	.global	main
-	.section	__patchable_function_entries,"awo",@progbits,.LPFE6390
-	.align	3
-	.8byte	.LPFE6390
-	.section	.text.startup
-.LPFE6390:
-	nop	
-	nop	
 	.type	main, %function
 main:
-	nop	
-	nop	
 // arch/arm64/kernel/asm-offsets.c:32:   DEFINE(TSK_ACTIVE_MM,		offsetof(struct task_struct, active_mm));
 #APP
 // 32 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->TSK_ACTIVE_MM 1296 offsetof(struct task_struct, active_mm)"	//
+.ascii "->TSK_ACTIVE_MM 1288 offsetof(struct task_struct, active_mm)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:33:   BLANK();
 // 33 "arch/arm64/kernel/asm-offsets.c" 1
@@ -54,7 +45,7 @@ main:
 // arch/arm64/kernel/asm-offsets.c:46:   DEFINE(TSK_STACK_CANARY,	offsetof(struct task_struct, stack_canary));
 // 46 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->TSK_STACK_CANARY 1424 offsetof(struct task_struct, stack_canary)"	//
+.ascii "->TSK_STACK_CANARY 1416 offsetof(struct task_struct, stack_canary)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:48:   BLANK();
 // 48 "arch/arm64/kernel/asm-offsets.c" 1
@@ -64,27 +55,27 @@ main:
 // arch/arm64/kernel/asm-offsets.c:49:   DEFINE(THREAD_CPU_CONTEXT,	offsetof(struct task_struct, thread.cpu_context));
 // 49 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_CPU_CONTEXT 6864 offsetof(struct task_struct, thread.cpu_context)"	//
+.ascii "->THREAD_CPU_CONTEXT 2896 offsetof(struct task_struct, thread.cpu_context)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:50:   DEFINE(THREAD_SCTLR_USER,	offsetof(struct task_struct, thread.sctlr_user));
 // 50 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_SCTLR_USER 8512 offsetof(struct task_struct, thread.sctlr_user)"	//
+.ascii "->THREAD_SCTLR_USER 4544 offsetof(struct task_struct, thread.sctlr_user)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:52:   DEFINE(THREAD_KEYS_USER,	offsetof(struct task_struct, thread.keys_user));
 // 52 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_KEYS_USER 8408 offsetof(struct task_struct, thread.keys_user)"	//
+.ascii "->THREAD_KEYS_USER 4440 offsetof(struct task_struct, thread.keys_user)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:55:   DEFINE(THREAD_KEYS_KERNEL,	offsetof(struct task_struct, thread.keys_kernel));
 // 55 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_KEYS_KERNEL 8488 offsetof(struct task_struct, thread.keys_kernel)"	//
+.ascii "->THREAD_KEYS_KERNEL 4520 offsetof(struct task_struct, thread.keys_kernel)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:58:   DEFINE(THREAD_MTE_CTRL,	offsetof(struct task_struct, thread.mte_ctrl));
 // 58 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_MTE_CTRL 8504 offsetof(struct task_struct, thread.mte_ctrl)"	//
+.ascii "->THREAD_MTE_CTRL 4536 offsetof(struct task_struct, thread.mte_ctrl)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:60:   BLANK();
 // 60 "arch/arm64/kernel/asm-offsets.c" 1
@@ -221,66 +212,6 @@ main:
 	
 .ascii "->"
 // 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:88:   DEFINE(FREGS_X0,		offsetof(struct __arch_ftrace_regs, regs[0]));
-// 88 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->FREGS_X0 0 offsetof(struct __arch_ftrace_regs, regs[0])"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:89:   DEFINE(FREGS_X2,		offsetof(struct __arch_ftrace_regs, regs[2]));
-// 89 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->FREGS_X2 16 offsetof(struct __arch_ftrace_regs, regs[2])"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:90:   DEFINE(FREGS_X4,		offsetof(struct __arch_ftrace_regs, regs[4]));
-// 90 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->FREGS_X4 32 offsetof(struct __arch_ftrace_regs, regs[4])"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:91:   DEFINE(FREGS_X6,		offsetof(struct __arch_ftrace_regs, regs[6]));
-// 91 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->FREGS_X6 48 offsetof(struct __arch_ftrace_regs, regs[6])"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:92:   DEFINE(FREGS_X8,		offsetof(struct __arch_ftrace_regs, regs[8]));
-// 92 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->FREGS_X8 64 offsetof(struct __arch_ftrace_regs, regs[8])"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:93:   DEFINE(FREGS_FP,		offsetof(struct __arch_ftrace_regs, fp));
-// 93 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->FREGS_FP 80 offsetof(struct __arch_ftrace_regs, fp)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:94:   DEFINE(FREGS_LR,		offsetof(struct __arch_ftrace_regs, lr));
-// 94 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->FREGS_LR 88 offsetof(struct __arch_ftrace_regs, lr)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:95:   DEFINE(FREGS_SP,		offsetof(struct __arch_ftrace_regs, sp));
-// 95 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->FREGS_SP 96 offsetof(struct __arch_ftrace_regs, sp)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:96:   DEFINE(FREGS_PC,		offsetof(struct __arch_ftrace_regs, pc));
-// 96 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->FREGS_PC 104 offsetof(struct __arch_ftrace_regs, pc)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:98:   DEFINE(FREGS_DIRECT_TRAMP,	offsetof(struct __arch_ftrace_regs, direct_tramp));
-// 98 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->FREGS_DIRECT_TRAMP 72 offsetof(struct __arch_ftrace_regs, direct_tramp)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:100:   DEFINE(FREGS_SIZE,		sizeof(struct __arch_ftrace_regs));
-// 100 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->FREGS_SIZE 112 sizeof(struct __arch_ftrace_regs)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:101:   BLANK();
-// 101 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->"
-// 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:104:   DEFINE(COMPAT_SIGFRAME_REGS_OFFSET,		offsetof(struct compat_sigframe, uc.uc_mcontext.arm_r0));
 // 104 "arch/arm64/kernel/asm-offsets.c" 1
 	
@@ -390,121 +321,6 @@ main:
 // 126 "arch/arm64/kernel/asm-offsets.c" 1
 	
 .ascii "->"
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:128:   DEFINE(VCPU_CONTEXT,		offsetof(struct kvm_vcpu, arch.ctxt));
-// 128 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->VCPU_CONTEXT 240 offsetof(struct kvm_vcpu, arch.ctxt)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:129:   DEFINE(VCPU_FAULT_DISR,	offsetof(struct kvm_vcpu, arch.fault.disr_el1));
-// 129 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->VCPU_FAULT_DISR 3416 offsetof(struct kvm_vcpu, arch.fault.disr_el1)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:130:   DEFINE(VCPU_HCR_EL2,		offsetof(struct kvm_vcpu, arch.hcr_el2));
-// 130 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->VCPU_HCR_EL2 3368 offsetof(struct kvm_vcpu, arch.hcr_el2)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:131:   DEFINE(CPU_USER_PT_REGS,	offsetof(struct kvm_cpu_context, regs));
-// 131 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->CPU_USER_PT_REGS 0 offsetof(struct kvm_cpu_context, regs)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:132:   DEFINE(CPU_ELR_EL2,		offsetof(struct kvm_cpu_context, sys_regs[ELR_EL2]));
-// 132 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->CPU_ELR_EL2 1728 offsetof(struct kvm_cpu_context, sys_regs[ELR_EL2])"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:133:   DEFINE(CPU_RGSR_EL1,		offsetof(struct kvm_cpu_context, sys_regs[RGSR_EL1]));
-// 133 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->CPU_RGSR_EL1 1568 offsetof(struct kvm_cpu_context, sys_regs[RGSR_EL1])"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:134:   DEFINE(CPU_GCR_EL1,		offsetof(struct kvm_cpu_context, sys_regs[GCR_EL1]));
-// 134 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->CPU_GCR_EL1 1576 offsetof(struct kvm_cpu_context, sys_regs[GCR_EL1])"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:135:   DEFINE(CPU_APIAKEYLO_EL1,	offsetof(struct kvm_cpu_context, sys_regs[APIAKEYLO_EL1]));
-// 135 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->CPU_APIAKEYLO_EL1 1488 offsetof(struct kvm_cpu_context, sys_regs[APIAKEYLO_EL1])"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:136:   DEFINE(CPU_APIBKEYLO_EL1,	offsetof(struct kvm_cpu_context, sys_regs[APIBKEYLO_EL1]));
-// 136 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->CPU_APIBKEYLO_EL1 1504 offsetof(struct kvm_cpu_context, sys_regs[APIBKEYLO_EL1])"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:137:   DEFINE(CPU_APDAKEYLO_EL1,	offsetof(struct kvm_cpu_context, sys_regs[APDAKEYLO_EL1]));
-// 137 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->CPU_APDAKEYLO_EL1 1520 offsetof(struct kvm_cpu_context, sys_regs[APDAKEYLO_EL1])"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:138:   DEFINE(CPU_APDBKEYLO_EL1,	offsetof(struct kvm_cpu_context, sys_regs[APDBKEYLO_EL1]));
-// 138 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->CPU_APDBKEYLO_EL1 1536 offsetof(struct kvm_cpu_context, sys_regs[APDBKEYLO_EL1])"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:139:   DEFINE(CPU_APGAKEYLO_EL1,	offsetof(struct kvm_cpu_context, sys_regs[APGAKEYLO_EL1]));
-// 139 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->CPU_APGAKEYLO_EL1 1552 offsetof(struct kvm_cpu_context, sys_regs[APGAKEYLO_EL1])"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:140:   DEFINE(HOST_CONTEXT_VCPU,	offsetof(struct kvm_cpu_context, __hyp_running_vcpu));
-// 140 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->HOST_CONTEXT_VCPU 3088 offsetof(struct kvm_cpu_context, __hyp_running_vcpu)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:141:   DEFINE(HOST_DATA_CONTEXT,	offsetof(struct kvm_host_data, host_ctxt));
-// 141 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->HOST_DATA_CONTEXT 0 offsetof(struct kvm_host_data, host_ctxt)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:142:   DEFINE(NVHE_INIT_MAIR_EL2,	offsetof(struct kvm_nvhe_init_params, mair_el2));
-// 142 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->NVHE_INIT_MAIR_EL2 0 offsetof(struct kvm_nvhe_init_params, mair_el2)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:143:   DEFINE(NVHE_INIT_TCR_EL2,	offsetof(struct kvm_nvhe_init_params, tcr_el2));
-// 143 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->NVHE_INIT_TCR_EL2 8 offsetof(struct kvm_nvhe_init_params, tcr_el2)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:144:   DEFINE(NVHE_INIT_TPIDR_EL2,	offsetof(struct kvm_nvhe_init_params, tpidr_el2));
-// 144 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->NVHE_INIT_TPIDR_EL2 16 offsetof(struct kvm_nvhe_init_params, tpidr_el2)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:145:   DEFINE(NVHE_INIT_STACK_HYP_VA,	offsetof(struct kvm_nvhe_init_params, stack_hyp_va));
-// 145 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->NVHE_INIT_STACK_HYP_VA 24 offsetof(struct kvm_nvhe_init_params, stack_hyp_va)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:146:   DEFINE(NVHE_INIT_PGD_PA,	offsetof(struct kvm_nvhe_init_params, pgd_pa));
-// 146 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->NVHE_INIT_PGD_PA 40 offsetof(struct kvm_nvhe_init_params, pgd_pa)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:147:   DEFINE(NVHE_INIT_HCR_EL2,	offsetof(struct kvm_nvhe_init_params, hcr_el2));
-// 147 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->NVHE_INIT_HCR_EL2 48 offsetof(struct kvm_nvhe_init_params, hcr_el2)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:148:   DEFINE(NVHE_INIT_VTTBR,	offsetof(struct kvm_nvhe_init_params, vttbr));
-// 148 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->NVHE_INIT_VTTBR 56 offsetof(struct kvm_nvhe_init_params, vttbr)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:149:   DEFINE(NVHE_INIT_VTCR,	offsetof(struct kvm_nvhe_init_params, vtcr));
-// 149 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->NVHE_INIT_VTCR 64 offsetof(struct kvm_nvhe_init_params, vtcr)"	//
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:150:   DEFINE(NVHE_INIT_TMP,		offsetof(struct kvm_nvhe_init_params, tmp));
-// 150 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->NVHE_INIT_TMP 72 offsetof(struct kvm_nvhe_init_params, tmp)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:153:   DEFINE(CPU_CTX_SP,		offsetof(struct cpu_suspend_ctx, sp));
 // 153 "arch/arm64/kernel/asm-offsets.c" 1
@@ -646,20 +462,10 @@ main:
 	
 .ascii "->"
 // 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:203:   DEFINE(FTRACE_OPS_FUNC,		offsetof(struct ftrace_ops, func));
-// 203 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->FTRACE_OPS_FUNC 0 offsetof(struct ftrace_ops, func)"	//
-// 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:205:   BLANK();
 // 205 "arch/arm64/kernel/asm-offsets.c" 1
 	
 .ascii "->"
-// 0 "" 2
-// arch/arm64/kernel/asm-offsets.c:207:   DEFINE(FTRACE_OPS_DIRECT_CALL,	offsetof(struct ftrace_ops, direct_call));
-// 207 "arch/arm64/kernel/asm-offsets.c" 1
-	
-.ascii "->FTRACE_OPS_DIRECT_CALL 208 offsetof(struct ftrace_ops, direct_call)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:210: }
 #NO_APP

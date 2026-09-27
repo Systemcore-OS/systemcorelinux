@@ -189,6 +189,8 @@ arizona-jack.o: sound/soc/codecs/arizona-jack.c \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/vdso/jiffies.h \
  include/generated/timeconst.h include/vdso/ktime.h \
@@ -255,8 +257,8 @@ arizona-jack.o: sound/soc/codecs/arizona-jack.c \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h include/linux/pgtable.h \
  arch/arm64/include/asm/pgtable.h arch/arm64/include/asm/proc-fns.h \
  arch/arm64/include/asm/tlbflush.h include/linux/mmu_notifier.h \
@@ -329,20 +331,18 @@ arizona-jack.o: sound/soc/codecs/arizona-jack.c \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- include/linux/kmsan.h include/linux/dma-direction.h \
- include/linux/highmem-internal.h include/linux/pagevec.h \
- include/linux/bio.h include/linux/mempool.h include/linux/node.h \
- include/linux/pagemap.h include/linux/hugetlb_inline.h \
- include/uapi/linux/mempolicy.h include/linux/freezer.h \
- include/uapi/regulator/regulator.h include/sound/jack.h \
- include/sound/core.h include/sound/soc.h include/linux/of.h \
- include/sound/ac97_codec.h include/sound/ac97/regs.h include/sound/pcm.h \
- include/sound/asound.h include/uapi/sound/asound.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/dma-direction.h include/linux/highmem-internal.h \
+ include/linux/pagevec.h include/linux/bio.h include/linux/mempool.h \
+ include/linux/node.h include/linux/pagemap.h \
+ include/linux/hugetlb_inline.h include/uapi/linux/mempolicy.h \
+ include/linux/freezer.h include/uapi/regulator/regulator.h \
+ include/sound/jack.h include/sound/core.h include/sound/soc.h \
+ include/linux/of.h include/sound/ac97_codec.h include/sound/ac97/regs.h \
+ include/sound/pcm.h include/sound/asound.h include/uapi/sound/asound.h \
  include/sound/memalloc.h include/sound/minors.h include/linux/poll.h \
  include/uapi/linux/poll.h arch/arm64/include/generated/uapi/asm/poll.h \
  include/uapi/asm-generic/poll.h include/uapi/linux/eventpoll.h \

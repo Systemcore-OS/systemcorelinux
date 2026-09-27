@@ -1,4 +1,4 @@
-savedcmd_net/core/skbuff.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.skbuff.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/core/skbuff"' -DKBUILD_BASENAME='"skbuff"' -DKBUILD_MODNAME='"skbuff"' -D__KBUILD_MODNAME=kmod_skbuff -c -o net/core/skbuff.o net/core/skbuff.c  
+savedcmd_net/core/skbuff.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.skbuff.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/core/skbuff"' -DKBUILD_BASENAME='"skbuff"' -DKBUILD_MODNAME='"skbuff"' -D__KBUILD_MODNAME=kmod_skbuff -c -o net/core/skbuff.o net/core/skbuff.c  
 
 source_net/core/skbuff.o := net/core/skbuff.c
 
@@ -745,6 +745,10 @@ deps_net/core/skbuff.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1065,7 +1069,6 @@ deps_net/core/skbuff.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1300,14 +1303,11 @@ deps_net/core/skbuff.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1719,119 +1719,119 @@ $(deps_net/core/skbuff.o):
 #SYMVER drop_reasons_unregister_subsys 0xff2d565c
 #SYMVER __napi_alloc_frag_align 0x99f9638f
 #SYMVER __netdev_alloc_frag_align 0x91a488ac
-#SYMVER slab_build_skb 0x026ffea2
-#SYMVER build_skb 0xf6c85c01
-#SYMVER build_skb_around 0xc5e10aae
-#SYMVER napi_build_skb 0x70143933
-#SYMVER __alloc_skb 0xd606ad08
-#SYMVER __netdev_alloc_skb 0x0f9d8f94
-#SYMVER napi_alloc_skb 0xd84d8abe
-#SYMVER skb_add_rx_frag_netmem 0xb48a2c95
-#SYMVER skb_coalesce_rx_frag 0xf6ba4aaf
-#SYMVER skb_pp_cow_data 0x26c377bb
-#SYMVER skb_cow_data_for_xdp 0xbb7e3995
+#SYMVER slab_build_skb 0x2497a712
+#SYMVER build_skb 0x262c234c
+#SYMVER build_skb_around 0xdb4d2fca
+#SYMVER napi_build_skb 0xccf8a862
+#SYMVER __alloc_skb 0xb2841d34
+#SYMVER __netdev_alloc_skb 0x7de2a54d
+#SYMVER napi_alloc_skb 0xb3bc5830
+#SYMVER skb_add_rx_frag_netmem 0x6f3cdd88
+#SYMVER skb_coalesce_rx_frag 0x447be182
+#SYMVER skb_pp_cow_data 0x3352953e
+#SYMVER skb_cow_data_for_xdp 0x4ffdf2d9
 #SYMVER napi_pp_put_page 0xe229fc1c
-#SYMVER __kfree_skb 0x807080ea
-#SYMVER sk_skb_reason_drop 0x6ca66b34
-#SYMVER kfree_skb_list_reason 0xf312fb7f
-#SYMVER skb_dump 0xb87d7fe7
-#SYMVER skb_tx_error 0x8e36be4f
-#SYMVER consume_skb 0xf002725a
-#SYMVER napi_consume_skb 0x9b79c048
-#SYMVER alloc_skb_for_msg 0x4392b6e6
-#SYMVER skb_morph 0xb685902d
+#SYMVER __kfree_skb 0x4615900b
+#SYMVER sk_skb_reason_drop 0x2b7250df
+#SYMVER kfree_skb_list_reason 0xedbb66e6
+#SYMVER skb_dump 0xc31f3578
+#SYMVER skb_tx_error 0xc2776186
+#SYMVER consume_skb 0xedb03bb7
+#SYMVER napi_consume_skb 0x9486bf0a
+#SYMVER alloc_skb_for_msg 0x3410ebfd
+#SYMVER skb_morph 0x998e6e1a
 #SYMVER mm_account_pinned_pages 0x830e1ce4
 #SYMVER mm_unaccount_pinned_pages 0x574f2b8a
-#SYMVER msg_zerocopy_realloc 0xf55f34b8
-#SYMVER msg_zerocopy_put_abort 0xd6447cf9
-#SYMVER msg_zerocopy_ubuf_ops 0x018325cf
-#SYMVER skb_zerocopy_iter_stream 0x961047cc
-#SYMVER __skb_zcopy_downgrade_managed 0xd9054860
-#SYMVER skb_copy_ubufs 0xe7fc6fae
-#SYMVER skb_clone 0xb07c0bc1
-#SYMVER skb_headers_offset_update 0x20854324
-#SYMVER skb_copy_header 0x56e09b87
-#SYMVER skb_copy 0xd634ba99
-#SYMVER __pskb_copy_fclone 0xf75811c3
-#SYMVER pskb_expand_head 0xdf03812a
-#SYMVER skb_realloc_headroom 0x8a4e4f23
-#SYMVER skb_expand_head 0xb0417209
-#SYMVER skb_copy_expand 0xbadec542
-#SYMVER __skb_pad 0xf193ce50
-#SYMVER pskb_put 0x828975de
-#SYMVER skb_put 0x70661d0a
-#SYMVER skb_push 0xc3a231e4
-#SYMVER skb_pull 0xb5262ca2
-#SYMVER skb_pull_data 0x90ed398d
-#SYMVER skb_trim 0x73a8054c
-#SYMVER ___pskb_trim 0x85672fac
-#SYMVER pskb_trim_rcsum_slow 0x2368775f
-#SYMVER __pskb_pull_tail 0x2a18344b
-#SYMVER skb_copy_bits 0x452a82ef
-#SYMVER skb_splice_bits 0xf665e2ba
-#SYMVER skb_send_sock_locked 0x4927be49
-#SYMVER skb_store_bits 0xc89e43cf
-#SYMVER __skb_checksum 0x218e14f7
-#SYMVER skb_checksum 0x2d82359b
-#SYMVER skb_copy_and_csum_bits 0x32d828f8
-#SYMVER __skb_checksum_complete_head 0xad8ae734
-#SYMVER __skb_checksum_complete 0x186eb0b1
+#SYMVER msg_zerocopy_realloc 0x17c89beb
+#SYMVER msg_zerocopy_put_abort 0x4b912663
+#SYMVER msg_zerocopy_ubuf_ops 0x0047185e
+#SYMVER skb_zerocopy_iter_stream 0x5637817c
+#SYMVER __skb_zcopy_downgrade_managed 0x21640f78
+#SYMVER skb_copy_ubufs 0x3fa60249
+#SYMVER skb_clone 0xc7fe56da
+#SYMVER skb_headers_offset_update 0x54ad6c5a
+#SYMVER skb_copy_header 0xbb198143
+#SYMVER skb_copy 0x7aacebaa
+#SYMVER __pskb_copy_fclone 0x5a8f1d51
+#SYMVER pskb_expand_head 0x4c8c6bf3
+#SYMVER skb_realloc_headroom 0x479322ef
+#SYMVER skb_expand_head 0x7a43222d
+#SYMVER skb_copy_expand 0xf01fcc26
+#SYMVER __skb_pad 0xda74b0c3
+#SYMVER pskb_put 0x383aba0b
+#SYMVER skb_put 0xa60f9a8e
+#SYMVER skb_push 0xe6c6c0d4
+#SYMVER skb_pull 0xf1770515
+#SYMVER skb_pull_data 0x80a019df
+#SYMVER skb_trim 0x59a5fc9d
+#SYMVER ___pskb_trim 0x5cac9f50
+#SYMVER pskb_trim_rcsum_slow 0x18b88359
+#SYMVER __pskb_pull_tail 0x607723bf
+#SYMVER skb_copy_bits 0x2a7808e0
+#SYMVER skb_splice_bits 0xc780d72c
+#SYMVER skb_send_sock_locked 0xb3dd2077
+#SYMVER skb_store_bits 0x4bdaafc5
+#SYMVER __skb_checksum 0x9bb431d0
+#SYMVER skb_checksum 0x03dbc605
+#SYMVER skb_copy_and_csum_bits 0x24a20b26
+#SYMVER __skb_checksum_complete_head 0x4da127c7
+#SYMVER __skb_checksum_complete 0x3d22c79a
 #SYMVER crc32c_csum_stub 0x5be63c5b
-#SYMVER skb_zerocopy_headlen 0x0bc2a097
-#SYMVER skb_zerocopy 0xc9c4ae2c
-#SYMVER skb_copy_and_csum_dev 0x62eb3d5c
-#SYMVER skb_dequeue 0x13d86cd5
-#SYMVER skb_dequeue_tail 0xc483f881
-#SYMVER skb_queue_purge_reason 0x594f8a9e
-#SYMVER skb_errqueue_purge 0xe04f07b9
-#SYMVER skb_queue_head 0xb5d8e94e
-#SYMVER skb_queue_tail 0x83feb68f
-#SYMVER skb_unlink 0xfb32d7e9
-#SYMVER skb_append 0x13f2d067
-#SYMVER skb_split 0xb7d2f5dd
-#SYMVER skb_prepare_seq_read 0xd444415d
-#SYMVER skb_seq_read 0x2eade3c1
-#SYMVER skb_abort_seq_read 0xb9b6ff72
-#SYMVER skb_copy_seq_read 0x9fed0859
-#SYMVER skb_find_text 0xc70d58d1
-#SYMVER skb_append_pagefrags 0x8972ba21
-#SYMVER skb_pull_rcsum 0xd51c6070
-#SYMVER skb_segment_list 0xc89908b2
-#SYMVER skb_segment 0x9e0a6156
-#SYMVER skb_to_sgvec 0xef5aecc9
-#SYMVER skb_to_sgvec_nomark 0x7705b852
-#SYMVER skb_cow_data 0x3b9353cd
-#SYMVER sock_queue_err_skb 0x378c6a79
-#SYMVER sock_dequeue_err_skb 0x8e9ced36
-#SYMVER skb_clone_sk 0xcfb1e57e
-#SYMVER skb_complete_tx_timestamp 0x0882b2cd
-#SYMVER __skb_tstamp_tx 0x9375739b
-#SYMVER skb_tstamp_tx 0xd8cd817a
-#SYMVER skb_complete_wifi_ack 0x3eec1044
-#SYMVER skb_partial_csum_set 0xcd55dd31
-#SYMVER skb_checksum_setup 0x6af38a52
-#SYMVER skb_checksum_trimmed 0x8e1894d5
-#SYMVER __skb_warn_lro_forwarding 0x0005ce57
-#SYMVER kfree_skb_partial 0x19bae9e3
-#SYMVER skb_try_coalesce 0xdf82a382
-#SYMVER skb_scrub_packet 0xe8025468
-#SYMVER skb_vlan_untag 0xebf5adcf
-#SYMVER skb_ensure_writable 0xfa9901bd
-#SYMVER skb_ensure_writable_head_tail 0x31c2f92b
-#SYMVER __skb_vlan_pop 0xbe8aed78
-#SYMVER skb_vlan_pop 0x79c1470a
-#SYMVER skb_vlan_push 0x9d2cae52
-#SYMVER skb_eth_pop 0x6ef4f4d8
-#SYMVER skb_eth_push 0x854a9524
-#SYMVER skb_mpls_push 0x5cf7b18a
-#SYMVER skb_mpls_pop 0xe3e4a786
-#SYMVER skb_mpls_update_lse 0xdc4ccf4c
-#SYMVER skb_mpls_dec_ttl 0x9c4e0d0e
-#SYMVER alloc_skb_with_frags 0x51a2b9f8
-#SYMVER pskb_extract 0xc633b042
-#SYMVER skb_condense 0xe184fdb3
-#SYMVER skb_ext_add 0xd6482796
-#SYMVER __skb_ext_del 0xfd0c4201
+#SYMVER skb_zerocopy_headlen 0x300160dc
+#SYMVER skb_zerocopy 0xa02a0534
+#SYMVER skb_copy_and_csum_dev 0x4ea98786
+#SYMVER skb_dequeue 0x96b5e1d4
+#SYMVER skb_dequeue_tail 0xe02b8baa
+#SYMVER skb_queue_purge_reason 0xdf423295
+#SYMVER skb_errqueue_purge 0x19da3fd6
+#SYMVER skb_queue_head 0x40f49d51
+#SYMVER skb_queue_tail 0x17fa8ef7
+#SYMVER skb_unlink 0x2f53d942
+#SYMVER skb_append 0xf7cd710f
+#SYMVER skb_split 0x1353a110
+#SYMVER skb_prepare_seq_read 0x797ee8ff
+#SYMVER skb_seq_read 0x557852cf
+#SYMVER skb_abort_seq_read 0x7abfda60
+#SYMVER skb_copy_seq_read 0xac816c37
+#SYMVER skb_find_text 0x614247c4
+#SYMVER skb_append_pagefrags 0xe03a4c75
+#SYMVER skb_pull_rcsum 0x74f103a1
+#SYMVER skb_segment_list 0xea41777d
+#SYMVER skb_segment 0xa2c387d7
+#SYMVER skb_to_sgvec 0x8be88487
+#SYMVER skb_to_sgvec_nomark 0xf162a918
+#SYMVER skb_cow_data 0xda868b0e
+#SYMVER sock_queue_err_skb 0x0766da75
+#SYMVER sock_dequeue_err_skb 0xf91eb02d
+#SYMVER skb_clone_sk 0x184ade6d
+#SYMVER skb_complete_tx_timestamp 0x496dec1d
+#SYMVER __skb_tstamp_tx 0x605280a5
+#SYMVER skb_tstamp_tx 0xb657f111
+#SYMVER skb_complete_wifi_ack 0x85735522
+#SYMVER skb_partial_csum_set 0x007d1e8d
+#SYMVER skb_checksum_setup 0x6defb71a
+#SYMVER skb_checksum_trimmed 0x575941b4
+#SYMVER __skb_warn_lro_forwarding 0x61877fb4
+#SYMVER kfree_skb_partial 0x4209e5f1
+#SYMVER skb_try_coalesce 0x157ef4ac
+#SYMVER skb_scrub_packet 0x546822b4
+#SYMVER skb_vlan_untag 0x3b11d282
+#SYMVER skb_ensure_writable 0xcefebf6f
+#SYMVER skb_ensure_writable_head_tail 0x3406d621
+#SYMVER __skb_vlan_pop 0x8ee68dd1
+#SYMVER skb_vlan_pop 0x0e48fd82
+#SYMVER skb_vlan_push 0x0946d6dd
+#SYMVER skb_eth_pop 0xb27f6ca1
+#SYMVER skb_eth_push 0x8c4d94d9
+#SYMVER skb_mpls_push 0xa0a71a40
+#SYMVER skb_mpls_pop 0x35ffd32b
+#SYMVER skb_mpls_update_lse 0x7e6d565e
+#SYMVER skb_mpls_dec_ttl 0x2e4e14a1
+#SYMVER alloc_skb_with_frags 0xbca06636
+#SYMVER pskb_extract 0x5cb0ca12
+#SYMVER skb_condense 0x1359c4d7
+#SYMVER skb_ext_add 0x3ffe7acd
+#SYMVER __skb_ext_del 0xd569eded
 #SYMVER __skb_ext_put 0x7aa9285d
-#SYMVER skb_splice_from_iter 0x59343173
-#SYMVER csum_and_copy_from_iter_full 0x8116ae9a
+#SYMVER skb_splice_from_iter 0x68139b3d
+#SYMVER csum_and_copy_from_iter_full 0x2ccbcc81

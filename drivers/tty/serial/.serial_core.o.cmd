@@ -1,4 +1,4 @@
-savedcmd_drivers/tty/serial/serial_core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/tty/serial/.serial_core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/tty/serial/serial_base"' -DKBUILD_BASENAME='"serial_core"' -DKBUILD_MODNAME='"serial_base"' -D__KBUILD_MODNAME=kmod_serial_base -c -o drivers/tty/serial/serial_core.o drivers/tty/serial/serial_core.c  
+savedcmd_drivers/tty/serial/serial_core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/tty/serial/.serial_core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/tty/serial/serial_base"' -DKBUILD_BASENAME='"serial_core"' -DKBUILD_MODNAME='"serial_base"' -D__KBUILD_MODNAME=kmod_serial_base -c -o drivers/tty/serial/serial_core.o drivers/tty/serial/serial_core.c  
 
 source_drivers/tty/serial/serial_core.o := drivers/tty/serial/serial_core.c
 
@@ -732,6 +732,10 @@ deps_drivers/tty/serial/serial_core.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1074,7 +1078,6 @@ deps_drivers/tty/serial/serial_core.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1373,14 +1376,11 @@ deps_drivers/tty/serial/serial_core.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1402,23 +1402,23 @@ deps_drivers/tty/serial/serial_core.o := \
 drivers/tty/serial/serial_core.o: $(deps_drivers/tty/serial/serial_core.o)
 
 $(deps_drivers/tty/serial/serial_core.o):
-#SYMVER uart_write_wakeup 0x93e985ec
-#SYMVER uart_update_timeout 0xb4b13041
-#SYMVER uart_get_baud_rate 0xdc0fc8ad
-#SYMVER uart_get_divisor 0xa6a1d027
-#SYMVER uart_xchar_out 0x62e07113
-#SYMVER uart_console_write 0xb08f27eb
+#SYMVER uart_write_wakeup 0xe24a6e59
+#SYMVER uart_update_timeout 0xd9b3b1af
+#SYMVER uart_get_baud_rate 0xd953d547
+#SYMVER uart_get_divisor 0x3ddc2792
+#SYMVER uart_xchar_out 0x4a3bf546
+#SYMVER uart_console_write 0x6ca71f23
 #SYMVER uart_parse_earlycon 0xc5a5c678
 #SYMVER uart_parse_options 0x4f72a987
-#SYMVER uart_set_options 0x6ca2e619
-#SYMVER uart_suspend_port 0x437fed22
-#SYMVER uart_resume_port 0x0d0b9981
-#SYMVER uart_register_driver 0xdd4ad8ba
-#SYMVER uart_unregister_driver 0xeb6a195a
-#SYMVER uart_console_device 0x40757f21
-#SYMVER uart_match_port 0xea192e7c
-#SYMVER uart_handle_dcd_change 0xf7c2e350
-#SYMVER uart_handle_cts_change 0x437964ad
-#SYMVER uart_insert_char 0x67288a96
-#SYMVER uart_try_toggle_sysrq 0x8673fb6b
-#SYMVER uart_get_rs485_mode 0xa1c16f21
+#SYMVER uart_set_options 0x71d671d5
+#SYMVER uart_suspend_port 0x360b0462
+#SYMVER uart_resume_port 0xc1647e51
+#SYMVER uart_register_driver 0x4e2f0789
+#SYMVER uart_unregister_driver 0x871a5f4e
+#SYMVER uart_console_device 0xa92fed90
+#SYMVER uart_match_port 0xd57ece72
+#SYMVER uart_handle_dcd_change 0x1b4612de
+#SYMVER uart_handle_cts_change 0x7e8ad001
+#SYMVER uart_insert_char 0x25ade753
+#SYMVER uart_try_toggle_sysrq 0x14516b8f
+#SYMVER uart_get_rs485_mode 0xd28bfcea

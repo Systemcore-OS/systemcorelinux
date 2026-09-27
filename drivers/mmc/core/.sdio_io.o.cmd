@@ -1,4 +1,4 @@
-savedcmd_drivers/mmc/core/sdio_io.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/mmc/core/.sdio_io.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/mmc/core/mmc_core"' -DKBUILD_BASENAME='"sdio_io"' -DKBUILD_MODNAME='"mmc_core"' -D__KBUILD_MODNAME=kmod_mmc_core -c -o drivers/mmc/core/sdio_io.o drivers/mmc/core/sdio_io.c  
+savedcmd_drivers/mmc/core/sdio_io.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/mmc/core/.sdio_io.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/mmc/core/mmc_core"' -DKBUILD_BASENAME='"sdio_io"' -DKBUILD_MODNAME='"mmc_core"' -D__KBUILD_MODNAME=kmod_mmc_core -c -o drivers/mmc/core/sdio_io.o drivers/mmc/core/sdio_io.c  
 
 source_drivers/mmc/core/sdio_io.o := drivers/mmc/core/sdio_io.c
 
@@ -707,6 +707,11 @@ deps_drivers/mmc/core/sdio_io.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -847,7 +852,6 @@ deps_drivers/mmc/core/sdio_io.o := \
     $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1076,7 +1080,6 @@ deps_drivers/mmc/core/sdio_io.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1247,14 +1250,11 @@ deps_drivers/mmc/core/sdio_io.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/highmem-internal.h \
@@ -1280,28 +1280,28 @@ deps_drivers/mmc/core/sdio_io.o := \
 drivers/mmc/core/sdio_io.o: $(deps_drivers/mmc/core/sdio_io.o)
 
 $(deps_drivers/mmc/core/sdio_io.o):
-#SYMVER sdio_claim_host 0xb6004ad9
-#SYMVER sdio_release_host 0x4d72f424
-#SYMVER sdio_enable_func 0xbcbf21b3
-#SYMVER sdio_disable_func 0x77d134ce
-#SYMVER sdio_set_block_size 0xc5e5062c
-#SYMVER sdio_align_size 0xda310f50
-#SYMVER sdio_readb 0xea4e35a3
-#SYMVER sdio_writeb 0x8c069ce7
-#SYMVER sdio_writeb_readb 0x1b1578fa
-#SYMVER sdio_memcpy_fromio 0x187f5616
-#SYMVER sdio_memcpy_toio 0x8fb59812
-#SYMVER sdio_readsb 0x520ad8d1
-#SYMVER sdio_writesb 0x90d369bd
-#SYMVER sdio_readw 0x66485ebc
-#SYMVER sdio_writew 0x551a98f2
-#SYMVER sdio_readl 0x6c4749bf
-#SYMVER sdio_writel 0x1d17515a
-#SYMVER sdio_f0_readb 0xae0855fd
-#SYMVER sdio_f0_writeb 0x7a937792
-#SYMVER sdio_get_host_pm_caps 0xc964fd45
-#SYMVER sdio_set_host_pm_flags 0xb83d2a4b
-#SYMVER sdio_retune_crc_disable 0xa6d57048
-#SYMVER sdio_retune_crc_enable 0x5aebf63d
-#SYMVER sdio_retune_hold_now 0x7da8ce5f
-#SYMVER sdio_retune_release 0x810dce7c
+#SYMVER sdio_claim_host 0xa9af09f8
+#SYMVER sdio_release_host 0xb08c85de
+#SYMVER sdio_enable_func 0x1ac2a15c
+#SYMVER sdio_disable_func 0x6dc6d40c
+#SYMVER sdio_set_block_size 0x9d05a8d1
+#SYMVER sdio_align_size 0x4db6af60
+#SYMVER sdio_readb 0xbafa77eb
+#SYMVER sdio_writeb 0x0572598c
+#SYMVER sdio_writeb_readb 0xc89d1918
+#SYMVER sdio_memcpy_fromio 0x5585709a
+#SYMVER sdio_memcpy_toio 0x97df99d4
+#SYMVER sdio_readsb 0xaa7e46f1
+#SYMVER sdio_writesb 0x7ca33ddb
+#SYMVER sdio_readw 0x6df73441
+#SYMVER sdio_writew 0xccbac51c
+#SYMVER sdio_readl 0x65719b12
+#SYMVER sdio_writel 0xb568911e
+#SYMVER sdio_f0_readb 0xfe0c14e5
+#SYMVER sdio_f0_writeb 0x19948db1
+#SYMVER sdio_get_host_pm_caps 0x31750fcc
+#SYMVER sdio_set_host_pm_flags 0x93b80384
+#SYMVER sdio_retune_crc_disable 0x78dab654
+#SYMVER sdio_retune_crc_enable 0xf7d8aa67
+#SYMVER sdio_retune_hold_now 0x86035807
+#SYMVER sdio_retune_release 0x2557e11e

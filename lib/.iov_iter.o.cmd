@@ -1,4 +1,4 @@
-savedcmd_lib/iov_iter.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.iov_iter.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"lib/iov_iter"' -DKBUILD_BASENAME='"iov_iter"' -DKBUILD_MODNAME='"iov_iter"' -D__KBUILD_MODNAME=kmod_iov_iter -c -o lib/iov_iter.o lib/iov_iter.c  
+savedcmd_lib/iov_iter.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.iov_iter.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"lib/iov_iter"' -DKBUILD_BASENAME='"iov_iter"' -DKBUILD_MODNAME='"iov_iter"' -D__KBUILD_MODNAME=kmod_iov_iter -c -o lib/iov_iter.o lib/iov_iter.c  
 
 source_lib/iov_iter.o := lib/iov_iter.c
 
@@ -746,6 +746,11 @@ deps_lib/iov_iter.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -913,7 +918,6 @@ deps_lib/iov_iter.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -954,7 +958,6 @@ deps_lib/iov_iter.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1174,14 +1177,11 @@ deps_lib/iov_iter.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1208,32 +1208,32 @@ deps_lib/iov_iter.o := \
 lib/iov_iter.o: $(deps_lib/iov_iter.o)
 
 $(deps_lib/iov_iter.o):
-#SYMVER fault_in_iov_iter_readable 0x604ef88c
-#SYMVER fault_in_iov_iter_writeable 0xfc2adbc8
-#SYMVER iov_iter_init 0x83e146fe
-#SYMVER _copy_to_iter 0x7160f1bf
-#SYMVER _copy_from_iter 0x18eb2d5d
-#SYMVER _copy_from_iter_nocache 0x2572ec41
-#SYMVER copy_page_to_iter 0x5a401ccf
-#SYMVER copy_page_to_iter_nofault 0x3b070dc5
-#SYMVER copy_page_from_iter 0x92351ba3
-#SYMVER iov_iter_zero 0x7558ecd9
-#SYMVER copy_page_from_iter_atomic 0x1bd5f618
-#SYMVER iov_iter_advance 0xe2a47d36
-#SYMVER iov_iter_revert 0x1f552223
-#SYMVER iov_iter_single_seg_count 0x849d97c7
-#SYMVER iov_iter_kvec 0xf9b1f370
-#SYMVER iov_iter_bvec 0xedb39705
-#SYMVER iov_iter_folio_queue 0x18fa52da
-#SYMVER iov_iter_xarray 0x92a048dc
-#SYMVER iov_iter_discard 0x3b03c196
-#SYMVER iov_iter_is_aligned 0x1974d87e
-#SYMVER iov_iter_alignment 0xdfd99c91
-#SYMVER iov_iter_gap_alignment 0x4bbd254d
-#SYMVER iov_iter_get_pages2 0xf829ffd1
-#SYMVER iov_iter_get_pages_alloc2 0xa438302e
-#SYMVER iov_iter_npages 0x3b650ac6
-#SYMVER dup_iter 0x574f30e9
-#SYMVER import_iovec 0x8da149ca
-#SYMVER import_ubuf 0x06b4ec3f
-#SYMVER iov_iter_extract_pages 0x854853ef
+#SYMVER fault_in_iov_iter_readable 0xaf505c5e
+#SYMVER fault_in_iov_iter_writeable 0x86c5e235
+#SYMVER iov_iter_init 0xa171dfa5
+#SYMVER _copy_to_iter 0x5ca9085a
+#SYMVER _copy_from_iter 0xb54e57be
+#SYMVER _copy_from_iter_nocache 0x3a6a44b4
+#SYMVER copy_page_to_iter 0x0b7f2535
+#SYMVER copy_page_to_iter_nofault 0x2320defb
+#SYMVER copy_page_from_iter 0x1a5d37d4
+#SYMVER iov_iter_zero 0xacf2fcff
+#SYMVER copy_page_from_iter_atomic 0xefa5b061
+#SYMVER iov_iter_advance 0xf516c89c
+#SYMVER iov_iter_revert 0xed5f8634
+#SYMVER iov_iter_single_seg_count 0x2d4c98cc
+#SYMVER iov_iter_kvec 0xb99a079f
+#SYMVER iov_iter_bvec 0x6286f3da
+#SYMVER iov_iter_folio_queue 0x0078a84b
+#SYMVER iov_iter_xarray 0x2ee2944a
+#SYMVER iov_iter_discard 0x9948b8dd
+#SYMVER iov_iter_is_aligned 0x593216c0
+#SYMVER iov_iter_alignment 0x5a050145
+#SYMVER iov_iter_gap_alignment 0xbee60946
+#SYMVER iov_iter_get_pages2 0xc03a9021
+#SYMVER iov_iter_get_pages_alloc2 0xc33ad4e1
+#SYMVER iov_iter_npages 0x53c883a2
+#SYMVER dup_iter 0x3884368e
+#SYMVER import_iovec 0xef93843c
+#SYMVER import_ubuf 0x37c72083
+#SYMVER iov_iter_extract_pages 0x3ca5bfd2

@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/mediatek/mt76/mac80211.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/mediatek/mt76/.mac80211.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"mac80211"' -DKBUILD_MODNAME='"mt76"' -D__KBUILD_MODNAME=kmod_mt76 -c -o drivers/net/wireless/mediatek/mt76/mac80211.o drivers/net/wireless/mediatek/mt76/mac80211.c  
+savedcmd_drivers/net/wireless/mediatek/mt76/mac80211.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/mediatek/mt76/.mac80211.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"mac80211"' -DKBUILD_MODNAME='"mt76"' -D__KBUILD_MODNAME=kmod_mt76 -c -o drivers/net/wireless/mediatek/mt76/mac80211.o drivers/net/wireless/mediatek/mt76/mac80211.c  
 
 source_drivers/net/wireless/mediatek/mt76/mac80211.o := drivers/net/wireless/mediatek/mt76/mac80211.c
 
@@ -692,6 +692,11 @@ deps_drivers/net/wireless/mediatek/mt76/mac80211.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1015,7 +1020,6 @@ deps_drivers/net/wireless/mediatek/mt76/mac80211.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1056,7 +1060,6 @@ deps_drivers/net/wireless/mediatek/mt76/mac80211.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1220,14 +1223,11 @@ deps_drivers/net/wireless/mediatek/mt76/mac80211.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1640,42 +1640,42 @@ drivers/net/wireless/mediatek/mt76/mac80211.o: $(deps_drivers/net/wireless/media
 
 $(deps_drivers/net/wireless/mediatek/mt76/mac80211.o):
 #SYMVER mt76_rates 0x17f568e9
-#SYMVER mt76_set_stream_caps 0xe283b49d
-#SYMVER mt76_alloc_phy 0x39065b0f
-#SYMVER mt76_register_phy 0xe6ea3335
-#SYMVER mt76_unregister_phy 0xf41c5699
-#SYMVER mt76_create_page_pool 0xe438ca15
-#SYMVER mt76_alloc_device 0x80cf419c
-#SYMVER mt76_register_device 0xe269a968
-#SYMVER mt76_unregister_device 0x94028556
-#SYMVER mt76_free_device 0x9003c1a3
-#SYMVER mt76_rx 0x83709193
-#SYMVER mt76_has_tx_pending 0x4ac05ba3
-#SYMVER mt76_update_survey_active_time 0x2f1065b2
-#SYMVER mt76_update_survey 0x4e3584f7
-#SYMVER mt76_update_channel 0x57b6d85b
-#SYMVER mt76_get_survey 0x643205c8
-#SYMVER mt76_wcid_key_setup 0x64d0cabe
+#SYMVER mt76_set_stream_caps 0x2a4b65c1
+#SYMVER mt76_alloc_phy 0x315dfc28
+#SYMVER mt76_register_phy 0x2f1ec82b
+#SYMVER mt76_unregister_phy 0xf57bebe5
+#SYMVER mt76_create_page_pool 0x0b94cebd
+#SYMVER mt76_alloc_device 0x476c85a9
+#SYMVER mt76_register_device 0xf33e1592
+#SYMVER mt76_unregister_device 0xd5030f1c
+#SYMVER mt76_free_device 0xc4360806
+#SYMVER mt76_rx 0x71e17f31
+#SYMVER mt76_has_tx_pending 0x7bb786b2
+#SYMVER mt76_update_survey_active_time 0x7b23c081
+#SYMVER mt76_update_survey 0xd6bf6bfe
+#SYMVER mt76_update_channel 0xaafca6bf
+#SYMVER mt76_get_survey 0xe98408f5
+#SYMVER mt76_wcid_key_setup 0x8f9894da
 #SYMVER mt76_rx_signal 0x327a9822
-#SYMVER mt76_rx_poll_complete 0xf5827641
-#SYMVER __mt76_sta_remove 0xb8e7f4d4
-#SYMVER mt76_sta_state 0xebfa4d05
-#SYMVER mt76_sta_pre_rcu_remove 0x7a1ace26
-#SYMVER mt76_wcid_init 0x4b880c28
-#SYMVER mt76_wcid_cleanup 0x8001985b
-#SYMVER mt76_get_txpower 0x726959f8
-#SYMVER mt76_init_sar_power 0xcfeaa1e2
-#SYMVER mt76_get_sar_power 0xdf761568
-#SYMVER mt76_csa_finish 0x50025ba0
-#SYMVER mt76_csa_check 0x147dad22
-#SYMVER mt76_set_tim 0x60083b7e
-#SYMVER mt76_insert_ccmp_hdr 0x64278994
-#SYMVER mt76_get_rate 0x9229b4ba
-#SYMVER mt76_sw_scan 0x5af052e2
-#SYMVER mt76_sw_scan_complete 0x2e3c653b
-#SYMVER mt76_get_antenna 0xa883a993
-#SYMVER mt76_init_queue 0xfddb26f1
-#SYMVER mt76_calculate_default_rate 0x3d118b6e
+#SYMVER mt76_rx_poll_complete 0x4bb196af
+#SYMVER __mt76_sta_remove 0x28cbbfb5
+#SYMVER mt76_sta_state 0xcaf74faa
+#SYMVER mt76_sta_pre_rcu_remove 0x28ed3da3
+#SYMVER mt76_wcid_init 0xc1fce555
+#SYMVER mt76_wcid_cleanup 0x21615ff9
+#SYMVER mt76_get_txpower 0xae19ad91
+#SYMVER mt76_init_sar_power 0x6513d472
+#SYMVER mt76_get_sar_power 0xff4c64b2
+#SYMVER mt76_csa_finish 0x64c97e01
+#SYMVER mt76_csa_check 0x41e4acde
+#SYMVER mt76_set_tim 0x84e55ea8
+#SYMVER mt76_insert_ccmp_hdr 0x096a40fc
+#SYMVER mt76_get_rate 0x409c4bed
+#SYMVER mt76_sw_scan 0x5d0dbd0d
+#SYMVER mt76_sw_scan_complete 0x1b5760df
+#SYMVER mt76_get_antenna 0xe61ce396
+#SYMVER mt76_init_queue 0x1f08a7e2
+#SYMVER mt76_calculate_default_rate 0xa54a3187
 #SYMVER mt76_ethtool_worker 0xab9d88b8
-#SYMVER mt76_ethtool_page_pool_stats 0xe491ba5a
-#SYMVER mt76_phy_dfs_state 0x37d84844
+#SYMVER mt76_ethtool_page_pool_stats 0xc0eb2c74
+#SYMVER mt76_phy_dfs_state 0x91e2e43b

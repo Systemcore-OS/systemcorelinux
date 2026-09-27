@@ -1,4 +1,4 @@
-savedcmd_kernel/rcu/srcutree.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/rcu/.srcutree.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"kernel/rcu/srcutree"' -DKBUILD_BASENAME='"srcutree"' -DKBUILD_MODNAME='"srcutree"' -D__KBUILD_MODNAME=kmod_srcutree -c -o kernel/rcu/srcutree.o kernel/rcu/srcutree.c  
+savedcmd_kernel/rcu/srcutree.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/rcu/.srcutree.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"kernel/rcu/srcutree"' -DKBUILD_BASENAME='"srcutree"' -DKBUILD_MODNAME='"srcutree"' -D__KBUILD_MODNAME=kmod_srcutree -c -o kernel/rcu/srcutree.o kernel/rcu/srcutree.c  
 
 source_kernel/rcu/srcutree.o := kernel/rcu/srcutree.c
 
@@ -732,6 +732,10 @@ deps_kernel/rcu/srcutree.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1028,17 +1032,17 @@ deps_kernel/rcu/srcutree.o := \
 kernel/rcu/srcutree.o: $(deps_kernel/rcu/srcutree.o)
 
 $(deps_kernel/rcu/srcutree.o):
-#SYMVER init_srcu_struct 0x9d9407d0
-#SYMVER cleanup_srcu_struct 0x5f31a3e4
-#SYMVER __srcu_read_lock 0x916c228a
-#SYMVER __srcu_read_unlock 0x4f8c7ecd
-#SYMVER call_srcu 0x03bb43bc
-#SYMVER synchronize_srcu_expedited 0x9487c7a3
-#SYMVER synchronize_srcu 0x778b7774
-#SYMVER get_state_synchronize_srcu 0x8941e725
-#SYMVER start_poll_synchronize_srcu 0xc1f2b024
-#SYMVER poll_state_synchronize_srcu 0xf215a47d
-#SYMVER srcu_barrier 0x78938cd4
-#SYMVER srcu_batches_completed 0xf96e439c
-#SYMVER srcutorture_get_gp_data 0x7ae61466
-#SYMVER srcu_torture_stats_print 0x408436a4
+#SYMVER init_srcu_struct 0xbbc8d2a1
+#SYMVER cleanup_srcu_struct 0x21ab36ab
+#SYMVER __srcu_read_lock 0x8ffc6cca
+#SYMVER __srcu_read_unlock 0xfb108918
+#SYMVER call_srcu 0xe9afe694
+#SYMVER synchronize_srcu_expedited 0x9dba261b
+#SYMVER synchronize_srcu 0x21e7a491
+#SYMVER get_state_synchronize_srcu 0x42be2afd
+#SYMVER start_poll_synchronize_srcu 0x324987d6
+#SYMVER poll_state_synchronize_srcu 0x03d1228b
+#SYMVER srcu_barrier 0x81eaa169
+#SYMVER srcu_batches_completed 0xd6c252ea
+#SYMVER srcutorture_get_gp_data 0xf82ddd9a
+#SYMVER srcu_torture_stats_print 0xb8a9cbd8

@@ -1,4 +1,4 @@
-savedcmd_fs/posix_acl.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.posix_acl.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"fs/posix_acl"' -DKBUILD_BASENAME='"posix_acl"' -DKBUILD_MODNAME='"posix_acl"' -D__KBUILD_MODNAME=kmod_posix_acl -c -o fs/posix_acl.o fs/posix_acl.c  
+savedcmd_fs/posix_acl.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.posix_acl.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/posix_acl"' -DKBUILD_BASENAME='"posix_acl"' -DKBUILD_MODNAME='"posix_acl"' -D__KBUILD_MODNAME=kmod_posix_acl -c -o fs/posix_acl.o fs/posix_acl.c  
 
 source_fs/posix_acl.o := fs/posix_acl.c
 
@@ -560,6 +560,11 @@ deps_fs/posix_acl.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1043,7 +1048,6 @@ deps_fs/posix_acl.o := \
     $(wildcard include/config/MODULE_SIG) \
     $(wildcard include/config/KALLSYMS) \
     $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/MODULE_UNLOAD) \
     $(wildcard include/config/MITIGATION_ITS) \
     $(wildcard include/config/CONSTRUCTORS) \
@@ -1171,7 +1175,6 @@ deps_fs/posix_acl.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1322,14 +1325,11 @@ deps_fs/posix_acl.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1363,28 +1363,28 @@ deps_fs/posix_acl.o := \
 fs/posix_acl.o: $(deps_fs/posix_acl.o)
 
 $(deps_fs/posix_acl.o):
-#SYMVER get_cached_acl 0xbce3e74c
-#SYMVER get_cached_acl_rcu 0x1d6a1345
-#SYMVER set_cached_acl 0x18599c8a
-#SYMVER forget_cached_acl 0xff7ce868
-#SYMVER forget_all_cached_acls 0x610afe44
-#SYMVER get_inode_acl 0xe1802690
+#SYMVER get_cached_acl 0x4533ea68
+#SYMVER get_cached_acl_rcu 0x5049b476
+#SYMVER set_cached_acl 0xa03a931d
+#SYMVER forget_cached_acl 0xad3c9dde
+#SYMVER forget_all_cached_acls 0xdbde3fe6
+#SYMVER get_inode_acl 0x9260e873
 #SYMVER posix_acl_init 0xbf59c419
 #SYMVER posix_acl_alloc 0x9b496b21
 #SYMVER posix_acl_clone 0xfb60faf5
-#SYMVER posix_acl_valid 0x6013af6f
+#SYMVER posix_acl_valid 0x595eee91
 #SYMVER posix_acl_equiv_mode 0x00b4e615
 #SYMVER posix_acl_from_mode 0x5818fe3c
 #SYMVER __posix_acl_create 0x803ddbb6
 #SYMVER __posix_acl_chmod 0xeafc141f
-#SYMVER posix_acl_chmod 0x918529ce
-#SYMVER posix_acl_create 0x353135d9
-#SYMVER posix_acl_update_mode 0xd6c98adf
-#SYMVER posix_acl_from_xattr 0xd14c0a88
-#SYMVER posix_acl_to_xattr 0x3143f067
-#SYMVER set_posix_acl 0xdac7779a
-#SYMVER nop_posix_acl_access 0x57313fa6
-#SYMVER nop_posix_acl_default 0xb435d74b
-#SYMVER vfs_set_acl 0x7f594361
-#SYMVER vfs_get_acl 0x2631e7e6
-#SYMVER vfs_remove_acl 0xd43cd057
+#SYMVER posix_acl_chmod 0x455248d0
+#SYMVER posix_acl_create 0x74d4b9a7
+#SYMVER posix_acl_update_mode 0xa7861f85
+#SYMVER posix_acl_from_xattr 0x61a751ed
+#SYMVER posix_acl_to_xattr 0x5be036f0
+#SYMVER set_posix_acl 0x5c90bcb9
+#SYMVER nop_posix_acl_access 0x881f901d
+#SYMVER nop_posix_acl_default 0xe85993e0
+#SYMVER vfs_set_acl 0x30a360af
+#SYMVER vfs_get_acl 0x70f8079e
+#SYMVER vfs_remove_acl 0xd6eeed21

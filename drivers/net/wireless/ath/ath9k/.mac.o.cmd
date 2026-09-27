@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/ath/ath9k/mac.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/ath/ath9k/.mac.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"mac"' -DKBUILD_MODNAME='"ath9k_hw"' -D__KBUILD_MODNAME=kmod_ath9k_hw -c -o drivers/net/wireless/ath/ath9k/mac.o drivers/net/wireless/ath/ath9k/mac.c  
+savedcmd_drivers/net/wireless/ath/ath9k/mac.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/ath/ath9k/.mac.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"mac"' -DKBUILD_MODNAME='"ath9k_hw"' -D__KBUILD_MODNAME=kmod_ath9k_hw -c -o drivers/net/wireless/ath/ath9k/mac.o drivers/net/wireless/ath/ath9k/mac.c  
 
 source_drivers/net/wireless/ath/ath9k/mac.o := drivers/net/wireless/ath/ath9k/mac.c
 
@@ -780,6 +780,11 @@ deps_drivers/net/wireless/ath/ath9k/mac.o := \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -947,7 +952,6 @@ deps_drivers/net/wireless/ath/ath9k/mac.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -988,7 +992,6 @@ deps_drivers/net/wireless/ath/ath9k/mac.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1207,14 +1210,11 @@ deps_drivers/net/wireless/ath/ath9k/mac.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1600,29 +1600,29 @@ deps_drivers/net/wireless/ath/ath9k/mac.o := \
 drivers/net/wireless/ath/ath9k/mac.o: $(deps_drivers/net/wireless/ath/ath9k/mac.o)
 
 $(deps_drivers/net/wireless/ath/ath9k/mac.o):
-#SYMVER ath9k_hw_gettxbuf 0x476d9e38
-#SYMVER ath9k_hw_puttxbuf 0x25681f00
-#SYMVER ath9k_hw_txstart 0xf64f8fff
-#SYMVER ath9k_hw_numtxpending 0x9f390862
-#SYMVER ath9k_hw_updatetxtriglevel 0x60249bb6
-#SYMVER ath9k_hw_abort_tx_dma 0x72c38a48
-#SYMVER ath9k_hw_stop_dma_queue 0xceb6a538
-#SYMVER ath9k_hw_set_txq_props 0x437eb880
-#SYMVER ath9k_hw_get_txq_props 0x169f403a
-#SYMVER ath9k_hw_setuptxqueue 0x791ed380
-#SYMVER ath9k_hw_releasetxqueue 0xbb20553d
-#SYMVER ath9k_hw_resettxqueue 0x515755d8
-#SYMVER ath9k_hw_rxprocdesc 0x1a06a5cd
-#SYMVER ath9k_hw_setrxabort 0xf58a60e0
-#SYMVER ath9k_hw_putrxbuf 0x1ce2dc24
-#SYMVER ath9k_hw_startpcureceive 0xd9c94e91
-#SYMVER ath9k_hw_abortpcurecv 0x80bc7665
-#SYMVER ath9k_hw_stopdmarecv 0xf1953742
-#SYMVER ath9k_hw_beaconq_setup 0xa04d1cf1
-#SYMVER ath9k_hw_intrpend 0x4b08131a
-#SYMVER ath9k_hw_kill_interrupts 0x9d1c8be9
-#SYMVER ath9k_hw_disable_interrupts 0x17285e55
-#SYMVER ath9k_hw_resume_interrupts 0x6553a030
-#SYMVER ath9k_hw_enable_interrupts 0x68bb7d80
-#SYMVER ath9k_hw_set_interrupts 0xe5ad6353
-#SYMVER ath9k_hw_set_tx_filter 0xe5c882c6
+#SYMVER ath9k_hw_gettxbuf 0x608dad46
+#SYMVER ath9k_hw_puttxbuf 0xdf3fa555
+#SYMVER ath9k_hw_txstart 0x165ff28e
+#SYMVER ath9k_hw_numtxpending 0x883c7a9f
+#SYMVER ath9k_hw_updatetxtriglevel 0xd0d52804
+#SYMVER ath9k_hw_abort_tx_dma 0xcd878b4f
+#SYMVER ath9k_hw_stop_dma_queue 0xe8125e41
+#SYMVER ath9k_hw_set_txq_props 0xf308fda5
+#SYMVER ath9k_hw_get_txq_props 0xb210bc82
+#SYMVER ath9k_hw_setuptxqueue 0x4df18233
+#SYMVER ath9k_hw_releasetxqueue 0x6e6d15d6
+#SYMVER ath9k_hw_resettxqueue 0x619dba69
+#SYMVER ath9k_hw_rxprocdesc 0xc8a7dd3c
+#SYMVER ath9k_hw_setrxabort 0xeef1473e
+#SYMVER ath9k_hw_putrxbuf 0x6daa052d
+#SYMVER ath9k_hw_startpcureceive 0x145fbcf4
+#SYMVER ath9k_hw_abortpcurecv 0x46429d79
+#SYMVER ath9k_hw_stopdmarecv 0x2f4a0c27
+#SYMVER ath9k_hw_beaconq_setup 0x7d7ae66a
+#SYMVER ath9k_hw_intrpend 0x877991a6
+#SYMVER ath9k_hw_kill_interrupts 0xb92311b8
+#SYMVER ath9k_hw_disable_interrupts 0x03127cd0
+#SYMVER ath9k_hw_resume_interrupts 0x2b1232c8
+#SYMVER ath9k_hw_enable_interrupts 0x0b88435d
+#SYMVER ath9k_hw_set_interrupts 0xa5eb54df
+#SYMVER ath9k_hw_set_tx_filter 0x97583ce1

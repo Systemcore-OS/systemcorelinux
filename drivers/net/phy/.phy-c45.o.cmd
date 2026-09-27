@@ -1,4 +1,4 @@
-savedcmd_drivers/net/phy/phy-c45.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/phy/.phy-c45.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/net/phy/libphy"' -DKBUILD_BASENAME='"phy_c45"' -DKBUILD_MODNAME='"libphy"' -D__KBUILD_MODNAME=kmod_libphy -c -o drivers/net/phy/phy-c45.o drivers/net/phy/phy-c45.c  
+savedcmd_drivers/net/phy/phy-c45.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/phy/.phy-c45.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/net/phy/libphy"' -DKBUILD_BASENAME='"phy_c45"' -DKBUILD_MODNAME='"libphy"' -D__KBUILD_MODNAME=kmod_libphy -c -o drivers/net/phy/phy-c45.o drivers/net/phy/phy-c45.c  
 
 source_drivers/net/phy/phy-c45.o := drivers/net/phy/phy-c45.c
 
@@ -705,6 +705,11 @@ deps_drivers/net/phy/phy-c45.o := \
   include/linux/swait.h \
   include/linux/wait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/workqueue.h \
@@ -976,7 +981,6 @@ deps_drivers/net/phy/phy-c45.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1017,7 +1021,6 @@ deps_drivers/net/phy/phy-c45.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1204,14 +1207,11 @@ deps_drivers/net/phy/phy-c45.o := \
   arch/arm64/include/generated/asm/unistd_compat_32.h \
   include/asm-generic/seccomp.h \
   arch/arm64/include/asm/ftrace.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1443,33 +1443,33 @@ deps_drivers/net/phy/phy-c45.o := \
 drivers/net/phy/phy-c45.o: $(deps_drivers/net/phy/phy-c45.o)
 
 $(deps_drivers/net/phy/phy-c45.o):
-#SYMVER genphy_c45_pma_resume 0xa0594fbf
-#SYMVER genphy_c45_pma_suspend 0x54dcfe99
-#SYMVER genphy_c45_pma_baset1_setup_master_slave 0xbc1358b9
-#SYMVER genphy_c45_pma_setup_forced 0x5c45ba3d
-#SYMVER genphy_c45_an_config_aneg 0x86c3adcc
-#SYMVER genphy_c45_an_disable_aneg 0x66973212
-#SYMVER genphy_c45_restart_aneg 0x1dac300d
-#SYMVER genphy_c45_check_and_restart_aneg 0x539b074f
-#SYMVER genphy_c45_aneg_done 0x5a3521c5
-#SYMVER genphy_c45_read_link 0x1cc26b34
-#SYMVER genphy_c45_read_lpa 0xbf0e126d
-#SYMVER genphy_c45_pma_baset1_read_master_slave 0x12457fd0
-#SYMVER genphy_c45_read_pma 0x68f35232
-#SYMVER genphy_c45_read_mdix 0xe61ac4f3
-#SYMVER genphy_c45_read_eee_abilities 0x7f72b9a0
-#SYMVER genphy_c45_pma_baset1_read_abilities 0xbecce34b
-#SYMVER genphy_c45_pma_read_ext_abilities 0x5e98e660
-#SYMVER genphy_c45_pma_read_abilities 0xaa0d507d
-#SYMVER genphy_c45_baset1_read_status 0x195c1fe0
-#SYMVER genphy_c45_read_status 0x6698292b
-#SYMVER genphy_c45_config_aneg 0x07949474
-#SYMVER gen10g_config_aneg 0x2fd66cfd
-#SYMVER genphy_c45_loopback 0xc5798831
-#SYMVER genphy_c45_fast_retrain 0x3d95da8e
-#SYMVER genphy_c45_plca_get_cfg 0x3132877f
-#SYMVER genphy_c45_plca_set_cfg 0x1d232bf6
-#SYMVER genphy_c45_plca_get_status 0xf6c55d96
-#SYMVER genphy_c45_eee_is_active 0xab82470e
-#SYMVER genphy_c45_ethtool_get_eee 0xc9b7d4d4
-#SYMVER genphy_c45_ethtool_set_eee 0xae21cc31
+#SYMVER genphy_c45_pma_resume 0x1cfb6115
+#SYMVER genphy_c45_pma_suspend 0x704d4a77
+#SYMVER genphy_c45_pma_baset1_setup_master_slave 0x817e5da0
+#SYMVER genphy_c45_pma_setup_forced 0xae1f86e2
+#SYMVER genphy_c45_an_config_aneg 0xc42c6c5c
+#SYMVER genphy_c45_an_disable_aneg 0x418e1f4a
+#SYMVER genphy_c45_restart_aneg 0x7fb1fa55
+#SYMVER genphy_c45_check_and_restart_aneg 0xd1702a82
+#SYMVER genphy_c45_aneg_done 0xccb9d512
+#SYMVER genphy_c45_read_link 0x9ff0c026
+#SYMVER genphy_c45_read_lpa 0x964711b9
+#SYMVER genphy_c45_pma_baset1_read_master_slave 0xb4ab63c3
+#SYMVER genphy_c45_read_pma 0xba0a960a
+#SYMVER genphy_c45_read_mdix 0x10556d48
+#SYMVER genphy_c45_read_eee_abilities 0xf0e7784f
+#SYMVER genphy_c45_pma_baset1_read_abilities 0x84c40ae2
+#SYMVER genphy_c45_pma_read_ext_abilities 0x624c7566
+#SYMVER genphy_c45_pma_read_abilities 0x05fe296d
+#SYMVER genphy_c45_baset1_read_status 0xca11a313
+#SYMVER genphy_c45_read_status 0x16222262
+#SYMVER genphy_c45_config_aneg 0x52def998
+#SYMVER gen10g_config_aneg 0x6e36ec8d
+#SYMVER genphy_c45_loopback 0xc0344079
+#SYMVER genphy_c45_fast_retrain 0xcbb232c9
+#SYMVER genphy_c45_plca_get_cfg 0x7197fa61
+#SYMVER genphy_c45_plca_set_cfg 0x7f2bf4d4
+#SYMVER genphy_c45_plca_get_status 0xb46f063a
+#SYMVER genphy_c45_eee_is_active 0xe4cbd2e5
+#SYMVER genphy_c45_ethtool_get_eee 0x1acb491c
+#SYMVER genphy_c45_ethtool_set_eee 0x34ef94cb

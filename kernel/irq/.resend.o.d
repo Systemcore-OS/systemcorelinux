@@ -178,6 +178,8 @@ resend.o: kernel/irq/resend.c include/linux/compiler-version.h \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
  include/linux/time.h include/linux/time64.h include/vdso/time64.h \
@@ -269,17 +271,16 @@ resend.o: kernel/irq/resend.c include/linux/compiler-version.h \
  include/linux/hardirq.h include/linux/context_tracking_state.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- kernel/irq/internals.h include/linux/kernel_stat.h \
- include/linux/pm_runtime.h include/linux/device.h \
- include/linux/dev_printk.h include/linux/energy_model.h \
- include/linux/sched/cpufreq.h include/linux/sched/topology.h \
- include/linux/sched/idle.h include/linux/sched/sd_flags.h \
- include/linux/ioport.h include/linux/klist.h include/linux/pm.h \
- include/linux/device/bus.h include/linux/device/class.h \
- include/linux/device/devres.h include/linux/device/driver.h \
- arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/sched/clock.h kernel/irq/debug.h kernel/irq/settings.h \
- include/linux/debugfs.h include/linux/seq_file.h \
+ include/asm-generic/hardirq.h kernel/irq/internals.h \
+ include/linux/kernel_stat.h include/linux/pm_runtime.h \
+ include/linux/device.h include/linux/dev_printk.h \
+ include/linux/energy_model.h include/linux/sched/cpufreq.h \
+ include/linux/sched/topology.h include/linux/sched/idle.h \
+ include/linux/sched/sd_flags.h include/linux/ioport.h \
+ include/linux/klist.h include/linux/pm.h include/linux/device/bus.h \
+ include/linux/device/class.h include/linux/device/devres.h \
+ include/linux/device/driver.h arch/arm64/include/asm/device.h \
+ include/linux/pm_wakeup.h include/linux/sched/clock.h kernel/irq/debug.h \
+ kernel/irq/settings.h include/linux/debugfs.h include/linux/seq_file.h \
  include/linux/string_helpers.h include/linux/ctype.h \
  include/linux/string_choices.h

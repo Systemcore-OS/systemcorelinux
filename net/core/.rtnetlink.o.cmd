@@ -1,4 +1,4 @@
-savedcmd_net/core/rtnetlink.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.rtnetlink.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/core/rtnetlink"' -DKBUILD_BASENAME='"rtnetlink"' -DKBUILD_MODNAME='"rtnetlink"' -D__KBUILD_MODNAME=kmod_rtnetlink -c -o net/core/rtnetlink.o net/core/rtnetlink.c  
+savedcmd_net/core/rtnetlink.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.rtnetlink.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/core/rtnetlink"' -DKBUILD_BASENAME='"rtnetlink"' -DKBUILD_MODNAME='"rtnetlink"' -D__KBUILD_MODNAME=kmod_rtnetlink -c -o net/core/rtnetlink.o net/core/rtnetlink.c  
 
 source_net/core/rtnetlink.o := net/core/rtnetlink.c
 
@@ -729,6 +729,10 @@ deps_net/core/rtnetlink.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1064,7 +1068,6 @@ deps_net/core/rtnetlink.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1207,14 +1210,11 @@ deps_net/core/rtnetlink.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1731,36 +1731,36 @@ net/core/rtnetlink.o: $(deps_net/core/rtnetlink.o)
 $(deps_net/core/rtnetlink.o):
 #SYMVER rtnl_lock 0xc7a4fbed
 #SYMVER rtnl_lock_killable 0x6b55acd0
-#SYMVER rtnl_kfree_skbs 0x20ac0b9b
+#SYMVER rtnl_kfree_skbs 0xfee594c2
 #SYMVER rtnl_unlock 0x6e720ff2
 #SYMVER rtnl_trylock 0xf4f14de6
 #SYMVER rtnl_is_locked 0x85670f1d
 #SYMVER refcount_dec_and_rtnl_lock 0xa74c9877
-#SYMVER rtnl_register_module 0x38f0a278
+#SYMVER rtnl_register_module 0x370de758
 #SYMVER rtnl_unregister 0x07b52e38
 #SYMVER rtnl_unregister_all 0x579e0bf5
-#SYMVER __rtnl_register_many 0x41423c06
-#SYMVER __rtnl_unregister_many 0x7ac29a58
-#SYMVER __rtnl_link_register 0x163eb138
-#SYMVER rtnl_link_register 0x16772b37
-#SYMVER __rtnl_link_unregister 0x43bfbe55
-#SYMVER rtnl_link_unregister 0x6ae84ba3
-#SYMVER rtnl_af_register 0xda279507
-#SYMVER rtnl_af_unregister 0x6291d1b6
-#SYMVER rtnl_unicast 0xa3663d40
-#SYMVER rtnl_notify 0xd574f142
-#SYMVER rtnl_set_sk_err 0x896c7077
-#SYMVER rtnetlink_put_metrics 0x38ceb99d
-#SYMVER rtnl_put_cacheinfo 0xcf03bf3d
-#SYMVER netdev_set_operstate 0xbc8be324
-#SYMVER rtnl_get_net_ns_capable 0x1033c321
+#SYMVER __rtnl_register_many 0xa385f1e0
+#SYMVER __rtnl_unregister_many 0xb37dbb48
+#SYMVER __rtnl_link_register 0x34cf57e8
+#SYMVER rtnl_link_register 0x3159baf4
+#SYMVER __rtnl_link_unregister 0x453b6837
+#SYMVER rtnl_link_unregister 0x1d1b09f4
+#SYMVER rtnl_af_register 0xb9b99481
+#SYMVER rtnl_af_unregister 0x7eee4598
+#SYMVER rtnl_unicast 0x83d7cdf5
+#SYMVER rtnl_notify 0x355c682d
+#SYMVER rtnl_set_sk_err 0xccf49852
+#SYMVER rtnetlink_put_metrics 0xf2d30bb2
+#SYMVER rtnl_put_cacheinfo 0xaea2081a
+#SYMVER netdev_set_operstate 0x7e2f0c62
+#SYMVER rtnl_get_net_ns_capable 0x38cbedcb
 #SYMVER rtnl_nla_parse_ifinfomsg 0xef5f7e8b
-#SYMVER rtnl_link_get_net 0xc972dca9
-#SYMVER rtnl_delete_link 0x1044c7f9
-#SYMVER rtnl_configure_link 0x9b0e2276
-#SYMVER rtnl_create_link 0xbfe95877
-#SYMVER ndo_dflt_fdb_add 0xc7756a59
-#SYMVER ndo_dflt_fdb_del 0x1b2f331d
-#SYMVER ndo_dflt_fdb_dump 0x37346448
-#SYMVER ndo_dflt_bridge_getlink 0x9149541d
-#SYMVER rtnl_offload_xstats_notify 0xc1e6a6ee
+#SYMVER rtnl_link_get_net 0x36f8545d
+#SYMVER rtnl_delete_link 0x84bd2ed9
+#SYMVER rtnl_configure_link 0xeb147167
+#SYMVER rtnl_create_link 0xeea1fe8c
+#SYMVER ndo_dflt_fdb_add 0xe603a744
+#SYMVER ndo_dflt_fdb_del 0x2a266c8f
+#SYMVER ndo_dflt_fdb_dump 0xd5f367b3
+#SYMVER ndo_dflt_bridge_getlink 0xbb695f7e
+#SYMVER rtnl_offload_xstats_notify 0x9abde400

@@ -1,4 +1,4 @@
-savedcmd_fs/namei.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.namei.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"fs/namei"' -DKBUILD_BASENAME='"namei"' -DKBUILD_MODNAME='"namei"' -D__KBUILD_MODNAME=kmod_namei -c -o fs/namei.o fs/namei.c  
+savedcmd_fs/namei.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.namei.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/namei"' -DKBUILD_BASENAME='"namei"' -DKBUILD_MODNAME='"namei"' -D__KBUILD_MODNAME=kmod_namei -c -o fs/namei.o fs/namei.c  
 
 source_fs/namei.o := fs/namei.c
 
@@ -565,6 +565,11 @@ deps_fs/namei.o := \
   include/linux/swait.h \
   include/linux/uprobes.h \
     $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1005,7 +1010,6 @@ deps_fs/namei.o := \
     $(wildcard include/config/SERIAL_KGDB_NMI) \
     $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
   include/linux/kprobes.h \
-    $(wildcard include/config/KPROBES) \
     $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
     $(wildcard include/config/OPTPROBES) \
     $(wildcard include/config/KPROBES_ON_FTRACE) \
@@ -1046,7 +1050,6 @@ deps_fs/namei.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1178,14 +1181,11 @@ deps_fs/namei.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1557,50 +1557,50 @@ fs/namei.o: $(deps_fs/namei.o)
 $(deps_fs/namei.o):
 #SYMVER getname_kernel 0x22694647
 #SYMVER putname 0x95cb3de8
-#SYMVER generic_permission 0x98eb9f4f
-#SYMVER inode_permission 0xb800788c
-#SYMVER path_get 0x532402de
-#SYMVER path_put 0x71a3d6b8
-#SYMVER follow_up 0xf59e12e2
-#SYMVER follow_down_one 0x67bfbd36
-#SYMVER follow_down 0x6121d065
-#SYMVER lookup_one_qstr_excl 0xe25ca4fa
+#SYMVER generic_permission 0xcb09bb64
+#SYMVER inode_permission 0x635face5
+#SYMVER path_get 0xaaa01875
+#SYMVER path_put 0x317c42e5
+#SYMVER follow_up 0x33f68b7f
+#SYMVER follow_down_one 0xd57943a5
+#SYMVER follow_down 0xdad71737
+#SYMVER lookup_one_qstr_excl 0x95ac23c1
 #SYMVER full_name_hash 0xd6eaaea1
 #SYMVER hashlen_string 0x162893fd
-#SYMVER user_path_locked_at 0xf016baf0
-#SYMVER kern_path 0x14b7741a
-#SYMVER vfs_path_parent_lookup 0x72c241d9
-#SYMVER vfs_path_lookup 0xb6696961
-#SYMVER try_lookup_one_len 0x4cbb66ac
-#SYMVER lookup_one_len 0x6bdbd409
-#SYMVER lookup_one 0x81483d2c
-#SYMVER lookup_one_unlocked 0xe6f199ec
-#SYMVER lookup_one_positive_unlocked 0xc49d6535
-#SYMVER lookup_one_len_unlocked 0xed0b41d9
-#SYMVER lookup_positive_unlocked 0x0005af95
-#SYMVER user_path_at 0x318029a7
-#SYMVER __check_sticky 0xda666170
-#SYMVER lock_rename 0xd57271e4
-#SYMVER lock_rename_child 0x284147c1
-#SYMVER unlock_rename 0x423f23bb
-#SYMVER vfs_create 0x0fefdef7
-#SYMVER vfs_mkobj 0x9e4098fc
-#SYMVER kernel_tmpfile_open 0xdb7c8ba8
-#SYMVER kern_path_create 0xc610de20
-#SYMVER done_path_create 0x88eb7ba0
-#SYMVER user_path_create 0x0adb9813
-#SYMVER vfs_mknod 0x4bb59403
-#SYMVER vfs_mkdir 0x9684ad86
-#SYMVER vfs_rmdir 0x6976afd0
-#SYMVER vfs_unlink 0xe892a4f7
-#SYMVER vfs_symlink 0x9bc30291
-#SYMVER vfs_link 0x25d34582
-#SYMVER vfs_rename 0x2d9e9875
-#SYMVER vfs_readlink 0xab4aa437
-#SYMVER vfs_get_link 0x34439cb7
-#SYMVER page_get_link_raw 0x5aa70228
-#SYMVER page_get_link 0xbd2d0f2b
+#SYMVER user_path_locked_at 0x17e68b7d
+#SYMVER kern_path 0x346e930d
+#SYMVER vfs_path_parent_lookup 0x8b28b533
+#SYMVER vfs_path_lookup 0x0119022b
+#SYMVER try_lookup_one_len 0xdf556900
+#SYMVER lookup_one_len 0x06f439e1
+#SYMVER lookup_one 0x25adce0f
+#SYMVER lookup_one_unlocked 0xff7cee6b
+#SYMVER lookup_one_positive_unlocked 0xad24485b
+#SYMVER lookup_one_len_unlocked 0xf9af076b
+#SYMVER lookup_positive_unlocked 0x257ed973
+#SYMVER user_path_at 0x018b5c4c
+#SYMVER __check_sticky 0x1e1d3501
+#SYMVER lock_rename 0xc378e172
+#SYMVER lock_rename_child 0x456eaa29
+#SYMVER unlock_rename 0xacc8489f
+#SYMVER vfs_create 0x523ab456
+#SYMVER vfs_mkobj 0x1e591907
+#SYMVER kernel_tmpfile_open 0x460e1592
+#SYMVER kern_path_create 0x9f874449
+#SYMVER done_path_create 0xa2673a0b
+#SYMVER user_path_create 0x534c027a
+#SYMVER vfs_mknod 0xe086f4e1
+#SYMVER vfs_mkdir 0xf8430d5b
+#SYMVER vfs_rmdir 0xcbb870b0
+#SYMVER vfs_unlink 0xc9a754f2
+#SYMVER vfs_symlink 0xad479def
+#SYMVER vfs_link 0xdc76323b
+#SYMVER vfs_rename 0x20adab30
+#SYMVER vfs_readlink 0x31ba9fa4
+#SYMVER vfs_get_link 0xba0d746e
+#SYMVER page_get_link_raw 0x97412853
+#SYMVER page_get_link 0x1cdc14b0
 #SYMVER page_put_link 0x3c185c61
-#SYMVER page_readlink 0x67bfcceb
-#SYMVER page_symlink 0x76b57fff
-#SYMVER page_symlink_inode_operations 0xcaa00b61
+#SYMVER page_readlink 0xe068814a
+#SYMVER page_symlink 0x9eda6910
+#SYMVER page_symlink_inode_operations 0x1f39dc8e

@@ -1,4 +1,4 @@
-savedcmd_net/netlink/af_netlink.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/netlink/.af_netlink.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"net/netlink/af_netlink"' -DKBUILD_BASENAME='"af_netlink"' -DKBUILD_MODNAME='"af_netlink"' -D__KBUILD_MODNAME=kmod_af_netlink -c -o net/netlink/af_netlink.o net/netlink/af_netlink.c  
+savedcmd_net/netlink/af_netlink.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/netlink/.af_netlink.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/netlink/af_netlink"' -DKBUILD_BASENAME='"af_netlink"' -DKBUILD_MODNAME='"af_netlink"' -D__KBUILD_MODNAME=kmod_af_netlink -c -o net/netlink/af_netlink.o net/netlink/af_netlink.c  
 
 source_net/netlink/af_netlink.o := net/netlink/af_netlink.c
 
@@ -730,6 +730,10 @@ deps_net/netlink/af_netlink.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1156,7 +1160,6 @@ deps_net/netlink/af_netlink.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1308,14 +1311,11 @@ deps_net/netlink/af_netlink.o := \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
-  include/linux/ftrace_regs.h \
   include/linux/objpool.h \
   include/linux/rethook.h \
   arch/arm64/include/asm/kprobes.h \
   include/asm-generic/kprobes.h \
-  arch/arm64/include/asm/probes.h \
   arch/arm64/include/asm/kgdb.h \
-  arch/arm64/include/asm/debug-monitors.h \
   include/asm-generic/cacheflush.h \
   include/linux/kmsan.h \
   include/linux/dma-direction.h \
@@ -1663,27 +1663,27 @@ deps_net/netlink/af_netlink.o := \
 net/netlink/af_netlink.o: $(deps_net/netlink/af_netlink.o)
 
 $(deps_net/netlink/af_netlink.o):
-#SYMVER nl_table 0x52a6e2a1
-#SYMVER nl_table_lock 0xedfb8778
+#SYMVER nl_table 0x407d4f59
+#SYMVER nl_table_lock 0xb0ef0408
 #SYMVER do_trace_netlink_extack 0xe6d2458e
-#SYMVER netlink_add_tap 0x00636db2
-#SYMVER netlink_remove_tap 0x4f77b2c6
-#SYMVER __netlink_ns_capable 0x855e67c8
-#SYMVER netlink_ns_capable 0x662f4231
-#SYMVER netlink_capable 0x7c74de54
-#SYMVER netlink_net_capable 0x24da51df
-#SYMVER netlink_unicast 0x0ad321d7
-#SYMVER netlink_has_listeners 0x80ce18cc
-#SYMVER netlink_strict_get_check 0xe2f41e9b
-#SYMVER netlink_broadcast_filtered 0xd39085e5
-#SYMVER netlink_broadcast 0xb7070e5e
-#SYMVER netlink_set_err 0x7a344545
-#SYMVER __netlink_kernel_create 0x378b7577
-#SYMVER netlink_kernel_release 0xa1301c9c
-#SYMVER __nlmsg_put 0x10872d8e
-#SYMVER __netlink_dump_start 0x6a259727
-#SYMVER netlink_ack 0x1169c90b
-#SYMVER netlink_rcv_skb 0xef24a89e
-#SYMVER nlmsg_notify 0xb0727bfc
+#SYMVER netlink_add_tap 0x1b579719
+#SYMVER netlink_remove_tap 0x1bc420ea
+#SYMVER __netlink_ns_capable 0x9ad69bc8
+#SYMVER netlink_ns_capable 0x47fd5aba
+#SYMVER netlink_capable 0x885d9517
+#SYMVER netlink_net_capable 0xde562644
+#SYMVER netlink_unicast 0x93c1472e
+#SYMVER netlink_has_listeners 0x1f546c9d
+#SYMVER netlink_strict_get_check 0x0d01f6f5
+#SYMVER netlink_broadcast_filtered 0x38bcd490
+#SYMVER netlink_broadcast 0xd80ca39f
+#SYMVER netlink_set_err 0xb897a994
+#SYMVER __netlink_kernel_create 0x39070225
+#SYMVER netlink_kernel_release 0x18039356
+#SYMVER __nlmsg_put 0x39bd59ff
+#SYMVER __netlink_dump_start 0xd6b7d9c3
+#SYMVER netlink_ack 0x533a5148
+#SYMVER netlink_rcv_skb 0x92811cbe
+#SYMVER nlmsg_notify 0xb8ec4f78
 #SYMVER netlink_register_notifier 0xfa599bb2
 #SYMVER netlink_unregister_notifier 0xdf54a8f7

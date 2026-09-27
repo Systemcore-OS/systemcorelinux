@@ -1,4 +1,4 @@
-savedcmd_drivers/usb/gadget/udc/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/gadget/udc/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424    -DKBUILD_MODFILE='"drivers/usb/gadget/udc/udc-core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"udc_core"' -D__KBUILD_MODNAME=kmod_udc_core -c -o drivers/usb/gadget/udc/core.o drivers/usb/gadget/udc/core.c  
+savedcmd_drivers/usb/gadget/udc/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/gadget/udc/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/usb/gadget/udc/udc-core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"udc_core"' -D__KBUILD_MODNAME=kmod_udc_core -c -o drivers/usb/gadget/udc/core.o drivers/usb/gadget/udc/core.c  
 
 source_drivers/usb/gadget/udc/core.o := drivers/usb/gadget/udc/core.c
 
@@ -728,6 +728,10 @@ deps_drivers/usb/gadget/udc/core.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1139,7 +1143,6 @@ deps_drivers/usb/gadget/udc/core.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1199,35 +1202,35 @@ $(deps_drivers/usb/gadget/udc/core.o):
 #SYMVER usb_ep_set_wedge 0x050e6a74
 #SYMVER usb_ep_fifo_status 0x6d25d67e
 #SYMVER usb_ep_fifo_flush 0x438096a0
-#SYMVER usb_gadget_frame_number 0x0c6855e9
-#SYMVER usb_gadget_wakeup 0x3e9df938
-#SYMVER usb_gadget_set_remote_wakeup 0x47af78c2
-#SYMVER usb_gadget_set_selfpowered 0x39dacbd2
-#SYMVER usb_gadget_clear_selfpowered 0x6992d551
-#SYMVER usb_gadget_vbus_connect 0xfd1ecb24
-#SYMVER usb_gadget_vbus_draw 0x13bcb4df
-#SYMVER usb_gadget_vbus_disconnect 0x7b9764fe
-#SYMVER usb_gadget_connect 0x92bdfdc8
-#SYMVER usb_gadget_disconnect 0x1dac2e72
-#SYMVER usb_gadget_deactivate 0x59fbd2a5
-#SYMVER usb_gadget_activate 0x527c974a
-#SYMVER usb_gadget_map_request_by_dev 0xb2c8a1e2
-#SYMVER usb_gadget_map_request 0x703f9a69
-#SYMVER usb_gadget_unmap_request_by_dev 0xeb95c63d
-#SYMVER usb_gadget_unmap_request 0xa117febf
+#SYMVER usb_gadget_frame_number 0x0d6d95bc
+#SYMVER usb_gadget_wakeup 0x2e5a74af
+#SYMVER usb_gadget_set_remote_wakeup 0xd28999f3
+#SYMVER usb_gadget_set_selfpowered 0xba362312
+#SYMVER usb_gadget_clear_selfpowered 0x13552932
+#SYMVER usb_gadget_vbus_connect 0xdbda2941
+#SYMVER usb_gadget_vbus_draw 0xf95b18e7
+#SYMVER usb_gadget_vbus_disconnect 0xd9d47e25
+#SYMVER usb_gadget_connect 0x903abfff
+#SYMVER usb_gadget_disconnect 0x91056290
+#SYMVER usb_gadget_deactivate 0xd471f8c2
+#SYMVER usb_gadget_activate 0xce3deafe
+#SYMVER usb_gadget_map_request_by_dev 0x81e8f850
+#SYMVER usb_gadget_map_request 0x84eaa486
+#SYMVER usb_gadget_unmap_request_by_dev 0x3f968d58
+#SYMVER usb_gadget_unmap_request 0x0d7a3365
 #SYMVER usb_gadget_giveback_request 0xb9232cdc
-#SYMVER gadget_find_ep_by_name 0x1fd8508a
-#SYMVER usb_gadget_ep_match_desc 0x80ee54c2
-#SYMVER usb_gadget_check_config 0x66658626
-#SYMVER usb_gadget_set_state 0x2fbfc610
-#SYMVER usb_udc_vbus_handler 0x4419770d
-#SYMVER usb_gadget_udc_reset 0xf4d888c0
-#SYMVER usb_initialize_gadget 0xc4677264
-#SYMVER usb_add_gadget 0xce2e664d
-#SYMVER usb_add_gadget_udc_release 0xddbdc12e
+#SYMVER gadget_find_ep_by_name 0xcdd3e097
+#SYMVER usb_gadget_ep_match_desc 0xf34df52d
+#SYMVER usb_gadget_check_config 0x200523ce
+#SYMVER usb_gadget_set_state 0x4af7c12c
+#SYMVER usb_udc_vbus_handler 0x2e3fe80c
+#SYMVER usb_gadget_udc_reset 0x0bff56b3
+#SYMVER usb_initialize_gadget 0xcf7317ec
+#SYMVER usb_add_gadget 0x97f913fe
+#SYMVER usb_add_gadget_udc_release 0xe7d0b086
 #SYMVER usb_get_gadget_udc_name 0x50b88f41
-#SYMVER usb_add_gadget_udc 0x3e9395bc
-#SYMVER usb_del_gadget 0x80f8be2c
-#SYMVER usb_del_gadget_udc 0x91bd6420
-#SYMVER usb_gadget_register_driver_owner 0xa1292ef9
-#SYMVER usb_gadget_unregister_driver 0x31bff149
+#SYMVER usb_add_gadget_udc 0x333b7a93
+#SYMVER usb_del_gadget 0x723ac8fc
+#SYMVER usb_del_gadget_udc 0xbea8e6c8
+#SYMVER usb_gadget_register_driver_owner 0xda905483
+#SYMVER usb_gadget_unregister_driver 0x005a3301

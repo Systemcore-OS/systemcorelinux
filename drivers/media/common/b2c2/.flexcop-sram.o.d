@@ -184,27 +184,29 @@ flexcop-sram.o: drivers/media/common/b2c2/flexcop-sram.c \
  include/linux/rcupdate.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
- include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
- include/linux/jiffies.h include/linux/math64.h include/vdso/math64.h \
- include/linux/time.h include/linux/time64.h include/vdso/time64.h \
- include/uapi/linux/time.h include/linux/time32.h include/linux/timex.h \
- include/uapi/linux/timex.h arch/arm64/include/asm/timex.h \
- arch/arm64/include/asm/arch_timer.h include/clocksource/arm_arch_timer.h \
- include/linux/timecounter.h include/asm-generic/timex.h \
- include/vdso/time32.h include/vdso/time.h include/vdso/jiffies.h \
- include/generated/timeconst.h include/vdso/ktime.h \
- include/linux/timekeeping.h include/linux/clocksource_ids.h \
- include/linux/debugobjects.h include/linux/workqueue_types.h \
- include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
- include/linux/page-flags.h include/linux/local_lock.h \
- include/linux/local_lock_internal.h include/linux/zswap.h \
- include/linux/memory_hotplug.h include/linux/notifier.h \
- include/linux/srcu.h include/linux/rcu_segcblist.h \
- include/linux/srcutree.h include/linux/rcu_node_tree.h \
- arch/arm64/include/generated/asm/mmzone.h include/asm-generic/mmzone.h \
- arch/arm64/include/asm/topology.h arch/arm64/include/asm/numa.h \
- include/asm-generic/numa.h include/asm-generic/topology.h \
- include/linux/io.h arch/arm64/include/asm/io.h include/linux/pgtable.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/probes.h include/linux/workqueue.h \
+ include/linux/timer.h include/linux/ktime.h include/linux/jiffies.h \
+ include/linux/math64.h include/vdso/math64.h include/linux/time.h \
+ include/linux/time64.h include/vdso/time64.h include/uapi/linux/time.h \
+ include/linux/time32.h include/linux/timex.h include/uapi/linux/timex.h \
+ arch/arm64/include/asm/timex.h arch/arm64/include/asm/arch_timer.h \
+ include/clocksource/arm_arch_timer.h include/linux/timecounter.h \
+ include/asm-generic/timex.h include/vdso/time32.h include/vdso/time.h \
+ include/vdso/jiffies.h include/generated/timeconst.h \
+ include/vdso/ktime.h include/linux/timekeeping.h \
+ include/linux/clocksource_ids.h include/linux/debugobjects.h \
+ include/linux/workqueue_types.h include/linux/percpu_counter.h \
+ arch/arm64/include/asm/mmu.h include/linux/page-flags.h \
+ include/linux/local_lock.h include/linux/local_lock_internal.h \
+ include/linux/zswap.h include/linux/memory_hotplug.h \
+ include/linux/notifier.h include/linux/srcu.h \
+ include/linux/rcu_segcblist.h include/linux/srcutree.h \
+ include/linux/rcu_node_tree.h arch/arm64/include/generated/asm/mmzone.h \
+ include/asm-generic/mmzone.h arch/arm64/include/asm/topology.h \
+ arch/arm64/include/asm/numa.h include/asm-generic/numa.h \
+ include/asm-generic/topology.h include/linux/io.h \
+ arch/arm64/include/asm/io.h include/linux/pgtable.h \
  arch/arm64/include/asm/pgtable.h arch/arm64/include/asm/proc-fns.h \
  arch/arm64/include/asm/mte.h arch/arm64/include/asm/tlbflush.h \
  include/linux/mmu_notifier.h include/linux/mmap_lock.h \
@@ -362,17 +364,15 @@ flexcop-sram.o: drivers/media/common/b2c2/flexcop-sram.c \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- include/linux/kmsan.h include/linux/highmem-internal.h \
- include/linux/pagevec.h include/linux/bio.h include/linux/mempool.h \
- include/linux/pagemap.h include/linux/hugetlb_inline.h \
- include/uapi/linux/mempolicy.h include/linux/freezer.h \
- include/uapi/regulator/regulator.h include/linux/irqdomain.h \
- include/linux/irqdomain_defs.h include/linux/of.h \
- include/uapi/linux/i2c.h include/linux/delay.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/highmem-internal.h include/linux/pagevec.h \
+ include/linux/bio.h include/linux/mempool.h include/linux/pagemap.h \
+ include/linux/hugetlb_inline.h include/uapi/linux/mempolicy.h \
+ include/linux/freezer.h include/uapi/regulator/regulator.h \
+ include/linux/irqdomain.h include/linux/irqdomain_defs.h \
+ include/linux/of.h include/uapi/linux/i2c.h include/linux/delay.h \
  arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
  include/uapi/linux/dvb/frontend.h

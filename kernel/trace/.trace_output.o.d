@@ -189,6 +189,8 @@ trace_output.o: kernel/trace/trace_output.c \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/vdso/jiffies.h \
  include/generated/timeconst.h include/vdso/ktime.h \
@@ -256,8 +258,8 @@ trace_output.o: kernel/trace/trace_output.c \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h include/linux/pgtable.h \
  arch/arm64/include/asm/pgtable.h arch/arm64/include/asm/proc-fns.h \
  arch/arm64/include/asm/tlbflush.h include/linux/mmu_notifier.h \
@@ -301,15 +303,14 @@ trace_output.o: kernel/trace/trace_output.c \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/kprobes.h include/linux/objpool.h include/linux/rethook.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/kprobes.h \
+ include/linux/objpool.h include/linux/rethook.h \
  arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h include/linux/sched/clock.h \
- kernel/trace/trace_output.h include/linux/trace_seq.h \
- include/linux/seq_buf.h include/linux/seq_file.h \
- include/linux/string_helpers.h include/linux/ctype.h \
- include/linux/string_choices.h kernel/trace/trace.h \
- include/linux/clocksource.h include/linux/of.h \
+ include/linux/sched/clock.h kernel/trace/trace_output.h \
+ include/linux/trace_seq.h include/linux/seq_buf.h \
+ include/linux/seq_file.h include/linux/string_helpers.h \
+ include/linux/ctype.h include/linux/string_choices.h \
+ kernel/trace/trace.h include/linux/clocksource.h include/linux/of.h \
  include/linux/mod_devicetable.h include/uapi/linux/mei.h \
  include/uapi/linux/mei_uuid.h include/linux/property.h \
  arch/arm64/include/asm/clocksource.h \
@@ -355,13 +356,12 @@ trace_output.o: kernel/trace/trace_output.c \
  include/linux/backing-dev-defs.h include/linux/blk_types.h \
  include/linux/bvec.h include/linux/highmem.h include/linux/cacheflush.h \
  arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
- arch/arm64/include/asm/kgdb.h arch/arm64/include/asm/debug-monitors.h \
- include/asm-generic/cacheflush.h include/linux/kmsan.h \
- include/linux/dma-direction.h include/linux/highmem-internal.h \
- include/linux/pagevec.h include/linux/bio.h include/linux/mempool.h \
- include/linux/cfi.h arch/arm64/include/generated/asm/cfi.h \
- include/asm-generic/cfi.h include/linux/bpf_types.h \
- include/uapi/linux/lsm.h include/uapi/linux/hw_breakpoint.h \
- include/linux/trace_events.h include/linux/glob.h \
- kernel/trace/pid_list.h arch/arm64/include/asm/syscall.h \
- include/uapi/linux/audit.h kernel/trace/trace_entries.h
+ arch/arm64/include/asm/kgdb.h include/asm-generic/cacheflush.h \
+ include/linux/kmsan.h include/linux/dma-direction.h \
+ include/linux/highmem-internal.h include/linux/pagevec.h \
+ include/linux/bio.h include/linux/mempool.h include/linux/cfi.h \
+ arch/arm64/include/generated/asm/cfi.h include/asm-generic/cfi.h \
+ include/linux/bpf_types.h include/uapi/linux/lsm.h \
+ include/uapi/linux/hw_breakpoint.h include/linux/trace_events.h \
+ include/linux/glob.h kernel/trace/pid_list.h \
+ kernel/trace/trace_entries.h

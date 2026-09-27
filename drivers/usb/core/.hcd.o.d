@@ -189,6 +189,8 @@ hcd.o: drivers/usb/core/hcd.c include/linux/compiler-version.h \
  include/linux/context_tracking_irq.h include/linux/rcutree.h \
  include/linux/maple_tree.h include/linux/rwsem.h \
  include/linux/completion.h include/linux/swait.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
  include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
  include/linux/jiffies.h include/vdso/jiffies.h \
  include/generated/timeconst.h include/vdso/ktime.h \
@@ -294,9 +296,8 @@ hcd.o: drivers/usb/core/hcd.c include/linux/compiler-version.h \
  include/linux/hardirq.h include/linux/context_tracking_state.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h \
- arch/arm64/include/generated/asm/irq_regs.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h arch/arm64/include/generated/asm/irq_regs.h \
  include/asm-generic/irq_regs.h include/linux/irqdesc.h \
  arch/arm64/include/generated/asm/hw_irq.h include/asm-generic/hw_irq.h \
  include/linux/cgroup-defs.h include/linux/u64_stats_sync.h \
@@ -335,19 +336,17 @@ hcd.o: drivers/usb/core/hcd.c include/linux/compiler-version.h \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- include/linux/kmsan.h include/linux/highmem-internal.h \
- include/linux/pagevec.h include/linux/bio.h include/linux/mempool.h \
- include/linux/node.h include/linux/pagemap.h \
- include/linux/hugetlb_inline.h include/uapi/linux/mempolicy.h \
- include/linux/freezer.h include/uapi/regulator/regulator.h \
- include/linux/phy/phy-dp.h include/linux/phy/phy-lvds.h \
- include/linux/phy/phy-mipi-dphy.h include/linux/usb.h \
- include/linux/usb/ch9.h include/uapi/linux/usb/ch9.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/highmem-internal.h include/linux/pagevec.h \
+ include/linux/bio.h include/linux/mempool.h include/linux/node.h \
+ include/linux/pagemap.h include/linux/hugetlb_inline.h \
+ include/uapi/linux/mempolicy.h include/linux/freezer.h \
+ include/uapi/regulator/regulator.h include/linux/phy/phy-dp.h \
+ include/linux/phy/phy-lvds.h include/linux/phy/phy-mipi-dphy.h \
+ include/linux/usb.h include/linux/usb/ch9.h include/uapi/linux/usb/ch9.h \
  include/linux/delay.h arch/arm64/include/generated/asm/delay.h \
  include/asm-generic/delay.h include/linux/usb/hcd.h \
  include/uapi/linux/usb/ch11.h include/linux/usb/otg.h \

@@ -1,4 +1,4 @@
-savedcmd_drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/staging/vc04_services/vchiq-mmal/.mmal-vchiq.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=4,2 -fmin-function-alignment=8 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1424  -DMODULE  -DKBUILD_BASENAME='"mmal_vchiq"' -DKBUILD_MODNAME='"bcm2835_mmal_vchiq"' -D__KBUILD_MODNAME=kmod_bcm2835_mmal_vchiq -c -o drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.o drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.c  
+savedcmd_drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/staging/vc04_services/vchiq-mmal/.mmal-vchiq.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"mmal_vchiq"' -DKBUILD_MODNAME='"bcm2835_mmal_vchiq"' -D__KBUILD_MODNAME=kmod_bcm2835_mmal_vchiq -c -o drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.o drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.c  
 
 source_drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.o := drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.c
 
@@ -727,6 +727,10 @@ deps_drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.o := \
   include/linux/completion.h \
   include/linux/swait.h \
   include/linux/uprobes.h \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
   include/linux/workqueue.h \
     $(wildcard include/config/DEBUG_OBJECTS_WORK) \
     $(wildcard include/config/FREEZER) \
@@ -1176,7 +1180,6 @@ deps_drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.o := \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   arch/arm64/include/asm/kvm_arm.h \
-  arch/arm64/include/asm/esr.h \
   include/asm-generic/hardirq.h \
   include/linux/irq.h \
     $(wildcard include/config/GENERIC_IRQ_EFFECTIVE_AFF_MASK) \
@@ -1242,19 +1245,19 @@ deps_drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.o := \
 drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.o: $(deps_drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.o)
 
 $(deps_drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.o):
-#SYMVER vchiq_mmal_port_set_format 0xd515127b
-#SYMVER vchiq_mmal_port_parameter_set 0x67ed22ac
-#SYMVER vchiq_mmal_port_parameter_get 0x1693d606
-#SYMVER vchiq_mmal_port_enable 0x905c32ad
-#SYMVER vchiq_mmal_port_disable 0x236e26cc
-#SYMVER vchiq_mmal_port_connect_tunnel 0x4e09b965
-#SYMVER vchiq_mmal_submit_buffer 0xbaaea7c7
-#SYMVER mmal_vchi_buffer_init 0x84ab56ee
-#SYMVER mmal_vchi_buffer_cleanup 0x140a9cde
-#SYMVER vchiq_mmal_component_init 0xed1ee6c0
-#SYMVER vchiq_mmal_component_finalise 0x90022405
-#SYMVER vchiq_mmal_component_enable 0xda96d794
-#SYMVER vchiq_mmal_component_disable 0xdc1c4d1c
+#SYMVER vchiq_mmal_port_set_format 0x7b8bfc31
+#SYMVER vchiq_mmal_port_parameter_set 0x8961db9b
+#SYMVER vchiq_mmal_port_parameter_get 0xd3f7a593
+#SYMVER vchiq_mmal_port_enable 0xcb670c48
+#SYMVER vchiq_mmal_port_disable 0x521facb0
+#SYMVER vchiq_mmal_port_connect_tunnel 0x3e1be341
+#SYMVER vchiq_mmal_submit_buffer 0x95ad40ce
+#SYMVER mmal_vchi_buffer_init 0x2089c3d5
+#SYMVER mmal_vchi_buffer_cleanup 0x96895b28
+#SYMVER vchiq_mmal_component_init 0x021a0027
+#SYMVER vchiq_mmal_component_finalise 0x22ef95b3
+#SYMVER vchiq_mmal_component_enable 0x090ce070
+#SYMVER vchiq_mmal_component_disable 0x1652c5bf
 #SYMVER vchiq_mmal_version 0x6192e1a2
 #SYMVER vchiq_mmal_finalise 0x73577d20
-#SYMVER vchiq_mmal_init 0x0f54d02c
+#SYMVER vchiq_mmal_init 0x38ce9992

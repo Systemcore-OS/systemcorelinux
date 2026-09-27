@@ -193,35 +193,37 @@ core.o: drivers/regulator/core.c include/linux/compiler-version.h \
  include/linux/mm_types.h include/linux/auxvec.h \
  include/uapi/linux/auxvec.h arch/arm64/include/uapi/asm/auxvec.h \
  include/linux/kref.h include/linux/rbtree.h include/linux/maple_tree.h \
- include/linux/rwsem.h include/linux/uprobes.h include/linux/workqueue.h \
- include/linux/timer.h include/linux/ktime.h include/linux/jiffies.h \
- include/vdso/jiffies.h include/generated/timeconst.h \
- include/vdso/ktime.h include/linux/timekeeping.h \
- include/linux/clocksource_ids.h include/linux/debugobjects.h \
- include/linux/workqueue_types.h include/linux/percpu_counter.h \
- arch/arm64/include/asm/mmu.h include/linux/page-flags.h \
- include/linux/local_lock.h include/linux/local_lock_internal.h \
- include/linux/zswap.h include/linux/memory_hotplug.h \
- include/linux/notifier.h include/linux/srcu.h \
- include/linux/rcu_segcblist.h include/linux/srcutree.h \
- include/linux/rcu_node_tree.h arch/arm64/include/generated/asm/mmzone.h \
- include/asm-generic/mmzone.h include/linux/topology.h \
- include/linux/arch_topology.h arch/arm64/include/asm/topology.h \
- arch/arm64/include/asm/numa.h include/asm-generic/numa.h \
- include/asm-generic/topology.h include/linux/kconfig.h \
- include/linux/sched/mm.h include/linux/sync_core.h \
- include/linux/sched/coredump.h include/linux/radix-tree.h \
- include/linux/pid.h include/linux/capability.h \
- include/uapi/linux/capability.h include/linux/semaphore.h \
- include/linux/fcntl.h include/uapi/linux/fcntl.h \
- arch/arm64/include/uapi/asm/fcntl.h include/uapi/asm-generic/fcntl.h \
- include/uapi/linux/openat2.h include/linux/migrate_mode.h \
- include/linux/percpu-rwsem.h include/linux/rcuwait.h \
- include/linux/sched/signal.h include/linux/signal.h \
- include/linux/sched/jobctl.h include/linux/sched/task.h \
- include/linux/uaccess.h include/linux/fault-inject-usercopy.h \
- include/linux/nospec.h arch/arm64/include/asm/uaccess.h \
- arch/arm64/include/asm/kernel-pgtable.h \
+ include/linux/rwsem.h include/linux/uprobes.h \
+ arch/arm64/include/asm/uprobes.h arch/arm64/include/asm/debug-monitors.h \
+ arch/arm64/include/asm/esr.h arch/arm64/include/asm/probes.h \
+ include/linux/workqueue.h include/linux/timer.h include/linux/ktime.h \
+ include/linux/jiffies.h include/vdso/jiffies.h \
+ include/generated/timeconst.h include/vdso/ktime.h \
+ include/linux/timekeeping.h include/linux/clocksource_ids.h \
+ include/linux/debugobjects.h include/linux/workqueue_types.h \
+ include/linux/percpu_counter.h arch/arm64/include/asm/mmu.h \
+ include/linux/page-flags.h include/linux/local_lock.h \
+ include/linux/local_lock_internal.h include/linux/zswap.h \
+ include/linux/memory_hotplug.h include/linux/notifier.h \
+ include/linux/srcu.h include/linux/rcu_segcblist.h \
+ include/linux/srcutree.h include/linux/rcu_node_tree.h \
+ arch/arm64/include/generated/asm/mmzone.h include/asm-generic/mmzone.h \
+ include/linux/topology.h include/linux/arch_topology.h \
+ arch/arm64/include/asm/topology.h arch/arm64/include/asm/numa.h \
+ include/asm-generic/numa.h include/asm-generic/topology.h \
+ include/linux/kconfig.h include/linux/sched/mm.h \
+ include/linux/sync_core.h include/linux/sched/coredump.h \
+ include/linux/radix-tree.h include/linux/pid.h \
+ include/linux/capability.h include/uapi/linux/capability.h \
+ include/linux/semaphore.h include/linux/fcntl.h \
+ include/uapi/linux/fcntl.h arch/arm64/include/uapi/asm/fcntl.h \
+ include/uapi/asm-generic/fcntl.h include/uapi/linux/openat2.h \
+ include/linux/migrate_mode.h include/linux/percpu-rwsem.h \
+ include/linux/rcuwait.h include/linux/sched/signal.h \
+ include/linux/signal.h include/linux/sched/jobctl.h \
+ include/linux/sched/task.h include/linux/uaccess.h \
+ include/linux/fault-inject-usercopy.h include/linux/nospec.h \
+ arch/arm64/include/asm/uaccess.h arch/arm64/include/asm/kernel-pgtable.h \
  arch/arm64/include/asm/asm-extable.h arch/arm64/include/asm/mte.h \
  arch/arm64/include/asm/extable.h include/asm-generic/access_ok.h \
  include/linux/cred.h include/linux/key.h include/linux/sysctl.h \
@@ -270,8 +272,8 @@ core.o: drivers/regulator/core.c include/linux/compiler-version.h \
  include/linux/ftrace_irq.h include/linux/vtime.h \
  arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- arch/arm64/include/asm/esr.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h include/linux/pgtable.h \
  arch/arm64/include/asm/pgtable.h arch/arm64/include/asm/proc-fns.h \
  arch/arm64/include/asm/tlbflush.h include/linux/mmu_notifier.h \
@@ -325,22 +327,20 @@ core.o: drivers/regulator/core.c include/linux/compiler-version.h \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- arch/arm64/include/asm/syscall_wrapper.h include/linux/ftrace_regs.h \
- include/linux/objpool.h include/linux/rethook.h \
- arch/arm64/include/asm/kprobes.h include/asm-generic/kprobes.h \
- arch/arm64/include/asm/probes.h arch/arm64/include/asm/kgdb.h \
- arch/arm64/include/asm/debug-monitors.h include/asm-generic/cacheflush.h \
- include/linux/kmsan.h include/linux/dma-direction.h \
- include/linux/highmem-internal.h include/linux/pagevec.h \
- include/linux/bio.h include/linux/mempool.h include/linux/node.h \
- include/linux/pagemap.h include/linux/hugetlb_inline.h \
- include/uapi/linux/mempolicy.h include/linux/freezer.h \
- include/linux/delay.h arch/arm64/include/generated/asm/delay.h \
- include/asm-generic/delay.h include/linux/gpio/consumer.h \
- include/linux/of.h include/linux/mod_devicetable.h \
- include/uapi/linux/mei.h include/uapi/linux/mei_uuid.h \
- include/linux/property.h include/linux/reboot.h \
- include/uapi/linux/reboot.h \
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/dma-direction.h include/linux/highmem-internal.h \
+ include/linux/pagevec.h include/linux/bio.h include/linux/mempool.h \
+ include/linux/node.h include/linux/pagemap.h \
+ include/linux/hugetlb_inline.h include/uapi/linux/mempolicy.h \
+ include/linux/freezer.h include/linux/delay.h \
+ arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
+ include/linux/gpio/consumer.h include/linux/of.h \
+ include/linux/mod_devicetable.h include/uapi/linux/mei.h \
+ include/uapi/linux/mei_uuid.h include/linux/property.h \
+ include/linux/reboot.h include/uapi/linux/reboot.h \
  arch/arm64/include/generated/asm/emergency-restart.h \
  include/asm-generic/emergency-restart.h include/linux/regmap.h \
  include/linux/iopoll.h include/linux/regulator/of_regulator.h \
