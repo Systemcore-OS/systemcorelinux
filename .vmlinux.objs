@@ -248,6 +248,7 @@ kernel/audit_fsnotify.o
 kernel/audit_tree.o
 kernel/kprobes.o
 kernel/hung_task.o
+kernel/watchdog.o
 kernel/seccomp.o
 kernel/relay.o
 kernel/utsname_sysctl.o

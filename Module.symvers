@@ -1149,6 +1149,7 @@
 0x148fd794	enable_kprobe	vmlinux	EXPORT_SYMBOL_GPL	
 0x56fe1620	sysctl_hung_task_timeout_secs	vmlinux	EXPORT_SYMBOL_GPL	
 0xa3b958ce	reset_hung_task_detector	vmlinux	EXPORT_SYMBOL_GPL	
+0x6fcb87a1	touch_softlockup_watchdog	vmlinux	EXPORT_SYMBOL	
 0xb260f287	relay_buf_full	vmlinux	EXPORT_SYMBOL_GPL	
 0x0f9960ca	relay_reset	vmlinux	EXPORT_SYMBOL_GPL	
 0xd62a8bef	relay_open	vmlinux	EXPORT_SYMBOL_GPL	

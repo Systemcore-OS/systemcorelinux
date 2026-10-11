@@ -1657,7 +1657,7 @@ ifneq "$(PAHOLE)" "pahole"
 $(autoconfig): FORCE
 endif
 
-ifneq "$(RUSTC_VERSION_TEXT)" "rustc 1.98.1 (48a229cea 2026-09-01)"
+ifneq "$(RUSTC_VERSION_TEXT)" "rustc 1.99.0 (b940084d7 2026-09-28)"
 $(autoconfig): FORCE
 endif
 
