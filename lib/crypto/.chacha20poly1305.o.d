@@ -1,6 +1,7 @@
 chacha20poly1305.o: lib/crypto/chacha20poly1305.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/crypto/algapi.h \
  include/crypto/utils.h include/linux/unaligned.h \
@@ -259,8 +260,9 @@ chacha20poly1305.o: lib/crypto/chacha20poly1305.c \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \

@@ -1,6 +1,7 @@
 of_reserved_mem.o: drivers/of/of_reserved_mem.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/err.h \
  include/linux/compiler.h include/linux/compiler_types.h \
@@ -262,7 +263,8 @@ of_reserved_mem.o: drivers/of/of_reserved_mem.c \
  include/uapi/linux/fs.h include/linux/quota.h \
  include/uapi/linux/dqblk_xfs.h include/linux/dqblk_v1.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
- include/linux/projid.h include/uapi/linux/quota.h include/linux/vmstat.h \
+ include/linux/projid.h include/uapi/linux/quota.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/of_reserved_mem.h \
  include/linux/device.h include/linux/dev_printk.h \
  include/linux/energy_model.h include/linux/sched/cpufreq.h \
@@ -288,5 +290,4 @@ of_reserved_mem.o: drivers/of/of_reserved_mem.c \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  drivers/of/of_private.h

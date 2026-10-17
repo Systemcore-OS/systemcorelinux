@@ -1,6 +1,7 @@
 smsendian.o: drivers/media/common/siano/smsendian.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/export.h \
  include/linux/compiler.h include/linux/compiler_types.h \
@@ -272,7 +273,7 @@ smsendian.o: drivers/media/common/siano/smsendian.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/scatterlist.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
@@ -294,8 +295,7 @@ smsendian.o: drivers/media/common/siano/smsendian.c \
  include/uapi/linux/pci.h include/uapi/linux/pci_regs.h \
  include/linux/pci_ids.h include/linux/dmapool.h \
  arch/arm64/include/asm/pci.h include/linux/dma-mapping.h \
- include/linux/dma-direction.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/asm-generic/pci.h \
+ include/linux/dma-direction.h include/asm-generic/pci.h \
  include/linux/platform_device.h include/media/media-devnode.h \
  include/linux/poll.h include/uapi/linux/poll.h \
  arch/arm64/include/generated/uapi/asm/poll.h \

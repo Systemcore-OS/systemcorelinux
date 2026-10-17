@@ -1,4 +1,4 @@
-savedcmd_drivers/tty/serial/8250/8250_port.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/tty/serial/8250/.8250_port.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/tty/serial/8250/8250_base"' -DKBUILD_BASENAME='"8250_port"' -DKBUILD_MODNAME='"8250_base"' -D__KBUILD_MODNAME=kmod_8250_base -c -o drivers/tty/serial/8250/8250_port.o drivers/tty/serial/8250/8250_port.c  
+savedcmd_drivers/tty/serial/8250/8250_port.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/tty/serial/8250/.8250_port.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/tty/serial/8250/8250_base"' -DKBUILD_BASENAME='"8250_port"' -DKBUILD_MODNAME='"8250_base"' -D__KBUILD_MODNAME=kmod_8250_base -c -o drivers/tty/serial/8250/8250_port.o drivers/tty/serial/8250/8250_port.c  
 
 source_drivers/tty/serial/8250/8250_port.o := drivers/tty/serial/8250/8250_port.c
 
@@ -27,6 +27,7 @@ deps_drivers/tty/serial/8250/8250_port.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -500,6 +501,7 @@ deps_drivers/tty/serial/8250/8250_port.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -586,6 +588,7 @@ deps_drivers/tty/serial/8250/8250_port.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -680,6 +683,9 @@ deps_drivers/tty/serial/8250/8250_port.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -805,6 +811,7 @@ deps_drivers/tty/serial/8250/8250_port.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1223,6 +1230,8 @@ deps_drivers/tty/serial/8250/8250_port.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1235,29 +1244,29 @@ deps_drivers/tty/serial/8250/8250_port.o := \
 drivers/tty/serial/8250/8250_port.o: $(deps_drivers/tty/serial/8250/8250_port.o)
 
 $(deps_drivers/tty/serial/8250/8250_port.o):
-#SYMVER serial8250_clear_and_reinit_fifos 0xa23540d2
-#SYMVER serial8250_rpm_get 0x8dbdaac1
-#SYMVER serial8250_rpm_put 0xfb95a06e
-#SYMVER serial8250_em485_destroy 0xe38ecb54
+#SYMVER serial8250_clear_and_reinit_fifos 0xf089cbc3
+#SYMVER serial8250_rpm_get 0x71dbe865
+#SYMVER serial8250_rpm_put 0x61d13f8c
+#SYMVER serial8250_em485_destroy 0x111e0a58
 #SYMVER serial8250_em485_supported 0xf2ff4bc2
-#SYMVER serial8250_em485_config 0xc401cc21
-#SYMVER serial8250_rpm_get_tx 0x3e0f641a
-#SYMVER serial8250_rpm_put_tx 0x23713e41
-#SYMVER serial8250_em485_stop_tx 0xfe86eac5
-#SYMVER serial8250_em485_start_tx 0xa7d47c5a
-#SYMVER serial8250_read_char 0x0a06b9e8
-#SYMVER serial8250_rx_chars 0xdd55dc3d
-#SYMVER serial8250_tx_chars 0x2fe22341
-#SYMVER serial8250_modem_status 0x8f98237e
-#SYMVER serial8250_handle_irq 0xd56893f9
-#SYMVER serial8250_do_get_mctrl 0x19505d79
-#SYMVER serial8250_do_set_mctrl 0x493ad82b
-#SYMVER serial8250_do_startup 0xd4101a53
-#SYMVER serial8250_do_shutdown 0x1ca59735
-#SYMVER serial8250_do_set_divisor 0x1d7162bf
-#SYMVER serial8250_update_uartclk 0x707efc6e
-#SYMVER serial8250_do_set_termios 0xa9f60e5b
-#SYMVER serial8250_do_set_ldisc 0x8039ee1d
-#SYMVER serial8250_do_pm 0x0df85233
-#SYMVER serial8250_init_port 0x7bc0be78
-#SYMVER serial8250_set_defaults 0x93c1b264
+#SYMVER serial8250_em485_config 0xca570d78
+#SYMVER serial8250_rpm_get_tx 0x8d804228
+#SYMVER serial8250_rpm_put_tx 0x051f13d1
+#SYMVER serial8250_em485_stop_tx 0x08393fe8
+#SYMVER serial8250_em485_start_tx 0x461221a9
+#SYMVER serial8250_read_char 0xbd2181b9
+#SYMVER serial8250_rx_chars 0x91ec5ee8
+#SYMVER serial8250_tx_chars 0x697ee9de
+#SYMVER serial8250_modem_status 0x9978ee23
+#SYMVER serial8250_handle_irq 0xa7254d11
+#SYMVER serial8250_do_get_mctrl 0x1f92eb08
+#SYMVER serial8250_do_set_mctrl 0x34b89f11
+#SYMVER serial8250_do_startup 0x31953fc1
+#SYMVER serial8250_do_shutdown 0x9fa5bbc2
+#SYMVER serial8250_do_set_divisor 0x17530ed5
+#SYMVER serial8250_update_uartclk 0xa3e87b74
+#SYMVER serial8250_do_set_termios 0xbf3f77cd
+#SYMVER serial8250_do_set_ldisc 0x83167788
+#SYMVER serial8250_do_pm 0x01f86cd4
+#SYMVER serial8250_init_port 0x0b5f8468
+#SYMVER serial8250_set_defaults 0xd1e6791a

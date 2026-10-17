@@ -329,11 +329,6 @@ net/appletalk/appletalk.o
 net/netrom/netrom.o
 net/rose/rose.o
 net/ax25/ax25.o
-net/bluetooth/bluetooth.o
-net/bluetooth/rfcomm/rfcomm.o
-net/bluetooth/bnep/bnep.o
-net/bluetooth/hidp/hidp.o
-net/bluetooth/bluetooth_6lowpan.o
 net/sunrpc/sunrpc.o
 net/sunrpc/auth_gss/auth_rpcgss.o
 net/sunrpc/auth_gss/rpcsec_gss_krb5.o

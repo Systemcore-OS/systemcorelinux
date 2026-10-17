@@ -1,12 +1,12 @@
 cred.o: kernel/cred.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/export.h include/linux/compiler.h \
- include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
- include/asm-generic/rwonce.h include/linux/kasan-checks.h \
- include/linux/types.h include/uapi/linux/types.h \
- arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/export.h \
+ include/linux/compiler.h include/linux/compiler_types.h \
+ arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
+ include/linux/kasan-checks.h include/linux/types.h \
+ include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -276,7 +276,8 @@ cred.o: kernel/cred.c include/linux/compiler-version.h \
  include/uapi/linux/fs.h include/linux/quota.h \
  include/uapi/linux/dqblk_xfs.h include/linux/dqblk_v1.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
- include/linux/projid.h include/uapi/linux/quota.h include/linux/vmstat.h \
+ include/linux/projid.h include/uapi/linux/quota.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/module.h \
  include/linux/kmod.h include/linux/umh.h include/linux/elf.h \
  arch/arm64/include/asm/elf.h arch/arm64/include/generated/asm/user.h \
@@ -353,7 +354,6 @@ cred.o: kernel/cred.c include/linux/compiler-version.h \
  include/linux/device/class.h include/linux/device/devres.h \
  include/linux/device/driver.h arch/arm64/include/asm/device.h \
  include/linux/pm_wakeup.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/uapi/linux/if_ether.h include/uapi/linux/pkt_cls.h \
  include/uapi/linux/pkt_sched.h include/uapi/linux/if_packet.h \

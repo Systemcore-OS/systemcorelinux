@@ -1,8 +1,9 @@
 gspca.o: drivers/media/usb/gspca/gspca.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/init.h include/linux/build_bug.h include/linux/compiler.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/init.h \
+ include/linux/build_bug.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
  include/asm-generic/rwonce.h include/linux/kasan-checks.h \
  include/linux/types.h include/uapi/linux/types.h \
@@ -257,11 +258,11 @@ gspca.o: drivers/media/usb/gspca/gspca.c include/linux/compiler-version.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
  include/linux/ioport.h include/linux/huge_mm.h include/linux/kobject.h \
  include/linux/sysfs.h include/linux/kernfs.h include/linux/idr.h \
- include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/pagemap.h \
- include/linux/highmem.h include/linux/cacheflush.h \
- arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
- include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/pagemap.h include/linux/highmem.h \
+ include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
+ include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/interrupt.h \
  include/linux/irqreturn.h include/linux/hardirq.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
@@ -335,7 +336,6 @@ gspca.o: drivers/media/usb/gspca/gspca.c include/linux/compiler-version.h \
  include/uapi/linux/pci_regs.h include/linux/pci_ids.h \
  include/linux/dmapool.h include/linux/scatterlist.h \
  arch/arm64/include/asm/pci.h include/linux/dma-mapping.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/asm-generic/pci.h include/linux/platform_device.h \
  include/media/media-devnode.h include/linux/cdev.h \
  include/linux/debugfs.h include/linux/seq_file.h \

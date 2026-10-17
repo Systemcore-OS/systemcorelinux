@@ -1,6 +1,7 @@
 usbstring.o: drivers/usb/gadget/usbstring.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/errno.h \
  include/uapi/linux/errno.h arch/arm64/include/generated/uapi/asm/errno.h \
@@ -270,7 +271,7 @@ usbstring.o: drivers/usb/gadget/usbstring.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \

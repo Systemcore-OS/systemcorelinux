@@ -1,4 +1,4 @@
-savedcmd_net/ipv4/tcp.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ipv4/.tcp.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/ipv4/tcp"' -DKBUILD_BASENAME='"tcp"' -DKBUILD_MODNAME='"tcp"' -D__KBUILD_MODNAME=kmod_tcp -c -o net/ipv4/tcp.o net/ipv4/tcp.c  
+savedcmd_net/ipv4/tcp.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ipv4/.tcp.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"net/ipv4/tcp"' -DKBUILD_BASENAME='"tcp"' -DKBUILD_MODNAME='"tcp"' -D__KBUILD_MODNAME=kmod_tcp -c -o net/ipv4/tcp.o net/ipv4/tcp.c  
 
 source_net/ipv4/tcp.o := net/ipv4/tcp.c
 
@@ -28,6 +28,7 @@ deps_net/ipv4/tcp.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -498,6 +499,9 @@ deps_net/ipv4/tcp.o := \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/list_nulls.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -656,6 +660,7 @@ deps_net/ipv4/tcp.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -695,6 +700,7 @@ deps_net/ipv4/tcp.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -770,6 +776,11 @@ deps_net/ipv4/tcp.o := \
   include/linux/kasan.h \
     $(wildcard include/config/KASAN_STACK) \
     $(wildcard include/config/KASAN_VMALLOC) \
+  include/crypto/utils.h \
+    $(wildcard include/config/HAVE_EFFICIENT_UNALIGNED_ACCESS) \
+  include/linux/unaligned.h \
+  include/linux/unaligned/packed_struct.h \
+  include/vdso/unaligned.h \
   include/linux/module.h \
     $(wildcard include/config/MODULES_TREE_LOOKUP) \
     $(wildcard include/config/STACKTRACE_BUILD_ID) \
@@ -817,6 +828,7 @@ deps_net/ipv4/tcp.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -971,7 +983,6 @@ deps_net/ipv4/tcp.o := \
     $(wildcard include/config/IPV6) \
     $(wildcard include/config/SOCK_CGROUP_DATA) \
   include/net/netlink.h \
-    $(wildcard include/config/HAVE_EFFICIENT_UNALIGNED_ACCESS) \
   include/linux/netlink.h \
   include/linux/skbuff.h \
     $(wildcard include/config/NF_CONNTRACK) \
@@ -1164,6 +1175,8 @@ deps_net/ipv4/tcp.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1288,9 +1301,6 @@ deps_net/ipv4/tcp.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1434,7 +1444,6 @@ deps_net/ipv4/tcp.o := \
   include/linux/in.h \
   include/uapi/linux/in.h \
   include/linux/jhash.h \
-  include/linux/unaligned/packed_struct.h \
   include/net/inet_sock.h \
   include/linux/netdevice.h \
     $(wildcard include/config/DCB) \
@@ -1490,6 +1499,7 @@ deps_net/ipv4/tcp.o := \
     $(wildcard include/config/MPLS) \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1643,7 +1653,9 @@ deps_net/ipv4/tcp.o := \
   include/linux/set_memory.h \
     $(wildcard include/config/ARCH_HAS_SET_MEMORY) \
     $(wildcard include/config/ARCH_HAS_SET_DIRECT_MAP) \
+    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
   arch/arm64/include/asm/set_memory.h \
+  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/set_memory.h \
   include/linux/if_vlan.h \
   include/linux/etherdevice.h \
@@ -1651,8 +1663,6 @@ deps_net/ipv4/tcp.o := \
   include/linux/bitrev.h \
     $(wildcard include/config/HAVE_ARCH_BITREVERSE) \
   arch/arm64/include/asm/bitrev.h \
-  include/linux/unaligned.h \
-  include/vdso/unaligned.h \
   include/uapi/linux/if_vlan.h \
   include/linux/vmalloc.h \
     $(wildcard include/config/HAVE_ARCH_HUGE_VMALLOC) \
@@ -1688,6 +1698,7 @@ deps_net/ipv4/tcp.o := \
   include/linux/ipv6_route.h \
   include/uapi/linux/ipv6_route.h \
   include/net/gro_cells.h \
+  include/net/secure_seq.h \
   include/linux/bpf-cgroup.h \
   include/net/proto_memory.h \
   include/net/hotdata.h \
@@ -1717,40 +1728,40 @@ $(deps_net/ipv4/tcp.o):
 #SYMVER tcp_memory_per_cpu_fw_alloc 0x0d6a49d4
 #SYMVER tcp_sockets_allocated 0xb53f2810
 #SYMVER tcp_memory_pressure 0xc2a814db
-#SYMVER tcp_enter_memory_pressure 0x6f59bfbb
-#SYMVER tcp_leave_memory_pressure 0xfb62299d
-#SYMVER tcp_init_sock 0x15bf76b7
-#SYMVER tcp_poll 0xeaa5ec45
-#SYMVER tcp_ioctl 0x302de733
-#SYMVER tcp_splice_read 0x46497c3b
-#SYMVER tcp_sendmsg_locked 0xb2b7bd79
-#SYMVER tcp_sendmsg 0xb9db621e
-#SYMVER tcp_splice_eof 0x8fb1d0be
-#SYMVER tcp_recv_skb 0xbebbadff
-#SYMVER tcp_read_sock 0xb3b8f9e8
-#SYMVER tcp_read_skb 0x69e45ecd
-#SYMVER tcp_read_done 0xbc101697
-#SYMVER tcp_peek_len 0xa64153a5
-#SYMVER tcp_set_rcvlowat 0x7046172e
-#SYMVER tcp_mmap 0x0788f8a5
-#SYMVER tcp_recvmsg 0xd4411d2e
-#SYMVER tcp_set_state 0x5f74ecb5
-#SYMVER tcp_shutdown 0x21a7e5c4
-#SYMVER tcp_close 0xb639639e
-#SYMVER tcp_disconnect 0x1978d0bd
+#SYMVER tcp_enter_memory_pressure 0x3a9e336c
+#SYMVER tcp_leave_memory_pressure 0x35516e05
+#SYMVER tcp_init_sock 0x2018c126
+#SYMVER tcp_poll 0x97af6273
+#SYMVER tcp_ioctl 0xb9f6a751
+#SYMVER tcp_splice_read 0x74133245
+#SYMVER tcp_sendmsg_locked 0xf111a960
+#SYMVER tcp_sendmsg 0xfb427fa1
+#SYMVER tcp_splice_eof 0xac0e500f
+#SYMVER tcp_recv_skb 0x120d041a
+#SYMVER tcp_read_sock 0x588c4747
+#SYMVER tcp_read_skb 0xe301beb8
+#SYMVER tcp_read_done 0x59b72613
+#SYMVER tcp_peek_len 0x4d3711a2
+#SYMVER tcp_set_rcvlowat 0xddae6652
+#SYMVER tcp_mmap 0x3170190a
+#SYMVER tcp_recvmsg 0x2f9255be
+#SYMVER tcp_set_state 0x1e8ab52a
+#SYMVER tcp_shutdown 0x04cc29d6
+#SYMVER tcp_close 0x2f50eef2
+#SYMVER tcp_disconnect 0x559307c3
 #SYMVER tcp_tx_delay_enabled 0x14c67e3e
-#SYMVER tcp_sock_set_cork 0x5cc40557
-#SYMVER tcp_sock_set_nodelay 0xe79ac2d2
-#SYMVER tcp_sock_set_quickack 0x93033e6d
-#SYMVER tcp_sock_set_syncnt 0x0bb0fbf0
-#SYMVER tcp_sock_set_user_timeout 0xde17d5c2
-#SYMVER tcp_sock_set_keepidle 0x108209bd
-#SYMVER tcp_sock_set_keepintvl 0xa4a1b9f3
-#SYMVER tcp_sock_set_keepcnt 0x2e2fbb61
-#SYMVER tcp_setsockopt 0x1c033c2d
-#SYMVER tcp_get_info 0x7ff6fa20
+#SYMVER tcp_sock_set_cork 0x7a37264e
+#SYMVER tcp_sock_set_nodelay 0x9a7832d8
+#SYMVER tcp_sock_set_quickack 0xa6ed63f1
+#SYMVER tcp_sock_set_syncnt 0xe942519e
+#SYMVER tcp_sock_set_user_timeout 0x2c6e6523
+#SYMVER tcp_sock_set_keepidle 0x1f447f67
+#SYMVER tcp_sock_set_keepintvl 0xb08bdb6e
+#SYMVER tcp_sock_set_keepcnt 0x264b0cf6
+#SYMVER tcp_setsockopt 0xc157abeb
+#SYMVER tcp_get_info 0x3b756f9e
 #SYMVER tcp_bpf_bypass_getsockopt 0xffcc4ec7
-#SYMVER tcp_getsockopt 0x0307d29f
-#SYMVER tcp_inbound_hash 0x4cc5745e
-#SYMVER tcp_done 0x7d3d3b6b
-#SYMVER tcp_abort 0xb821e620
+#SYMVER tcp_getsockopt 0x9d009cef
+#SYMVER tcp_inbound_hash 0x99b3e8a3
+#SYMVER tcp_done 0xeed5f816
+#SYMVER tcp_abort 0xadd39451

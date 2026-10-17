@@ -1,10 +1,12 @@
-savedcmd_net/core/net_namespace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.net_namespace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/core/net_namespace"' -DKBUILD_BASENAME='"net_namespace"' -DKBUILD_MODNAME='"net_namespace"' -D__KBUILD_MODNAME=kmod_net_namespace -c -o net/core/net_namespace.o net/core/net_namespace.c  
+savedcmd_net/core/net_namespace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.net_namespace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"net/core/net_namespace"' -DKBUILD_BASENAME='"net_namespace"' -DKBUILD_MODNAME='"net_namespace"' -D__KBUILD_MODNAME=kmod_net_namespace -c -o net/core/net_namespace.o net/core/net_namespace.c  
 
 source_net/core/net_namespace.o := net/core/net_namespace.c
 
 deps_net/core/net_namespace.o := \
     $(wildcard include/config/KEYS) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
+    $(wildcard include/config/REF_TRACKER) \
   include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   include/linux/kconfig.h \
@@ -25,6 +27,7 @@ deps_net/core/net_namespace.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -486,6 +489,7 @@ deps_net/core/net_namespace.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -572,6 +576,7 @@ deps_net/core/net_namespace.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -749,6 +754,9 @@ deps_net/core/net_namespace.o := \
   include/uapi/linux/snmp.h \
   include/linux/u64_stats_sync.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   arch/arm64/include/generated/asm/local64.h \
   include/asm-generic/local64.h \
   include/net/netns/unix.h \
@@ -872,7 +880,6 @@ deps_net/core/net_namespace.o := \
   include/net/netns/mctp.h \
   include/net/net_trackers.h \
   include/linux/ref_tracker.h \
-    $(wildcard include/config/REF_TRACKER) \
   include/linux/stackdepot.h \
     $(wildcard include/config/STACKDEPOT) \
     $(wildcard include/config/STACKDEPOT_MAX_FRAMES) \
@@ -960,6 +967,7 @@ deps_net/core/net_namespace.o := \
   include/linux/bvec.h \
   include/linux/highmem.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1269,6 +1277,8 @@ deps_net/core/net_namespace.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1411,9 +1421,6 @@ deps_net/core/net_namespace.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1573,19 +1580,19 @@ net/core/net_namespace.o: $(deps_net/core/net_namespace.o)
 
 $(deps_net/core/net_namespace.o):
 #SYMVER net_namespace_list 0x6d2fc5a6
-#SYMVER net_rwsem 0xb07ec6d2
-#SYMVER init_net 0x76074aac
-#SYMVER pernet_ops_rwsem 0xd801a42c
-#SYMVER peernet2id_alloc 0x283cf064
-#SYMVER peernet2id 0xbc328302
-#SYMVER get_net_ns_by_id 0x3f2f38ba
-#SYMVER net_ns_get_ownership 0xc8cb3c6a
+#SYMVER net_rwsem 0xc5522057
+#SYMVER init_net 0xddce33ef
+#SYMVER pernet_ops_rwsem 0x9ae20b4d
+#SYMVER peernet2id_alloc 0x4003f410
+#SYMVER peernet2id 0x475d3a98
+#SYMVER get_net_ns_by_id 0x64d36f9f
+#SYMVER net_ns_get_ownership 0x73ee7002
 #SYMVER net_ns_barrier 0xf44a904a
-#SYMVER __put_net 0x99807dbd
-#SYMVER get_net_ns 0xe93f8679
-#SYMVER get_net_ns_by_fd 0xd989c736
-#SYMVER get_net_ns_by_pid 0x700d5716
-#SYMVER register_pernet_subsys 0xfd56bd6d
-#SYMVER unregister_pernet_subsys 0x4161e2c9
-#SYMVER register_pernet_device 0x881e679b
-#SYMVER unregister_pernet_device 0x3429383f
+#SYMVER __put_net 0x634b0fb8
+#SYMVER get_net_ns 0x31c3d947
+#SYMVER get_net_ns_by_fd 0x3bce5d91
+#SYMVER get_net_ns_by_pid 0xcf2caab2
+#SYMVER register_pernet_subsys 0x58208d5c
+#SYMVER unregister_pernet_subsys 0x45517b11
+#SYMVER register_pernet_device 0xf3fb90e1
+#SYMVER unregister_pernet_device 0xee8a66ac

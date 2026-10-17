@@ -1,4 +1,4 @@
-savedcmd_drivers/pci/pci.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pci/.pci.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/pci/pci"' -DKBUILD_BASENAME='"pci"' -DKBUILD_MODNAME='"pci"' -D__KBUILD_MODNAME=kmod_pci -c -o drivers/pci/pci.o drivers/pci/pci.c  
+savedcmd_drivers/pci/pci.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pci/.pci.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/pci/pci"' -DKBUILD_BASENAME='"pci"' -DKBUILD_MODNAME='"pci"' -D__KBUILD_MODNAME=kmod_pci -c -o drivers/pci/pci.o drivers/pci/pci.c  
 
 source_drivers/pci/pci.o := drivers/pci/pci.c
 
@@ -36,6 +36,7 @@ deps_drivers/pci/pci.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -179,6 +180,61 @@ deps_drivers/pci/pci.o := \
     $(wildcard include/config/RANDOM_KMALLOC_CACHES) \
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/SLAB_BUCKETS) \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
+  include/linux/once_lite.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
+  include/linux/stdarg.h \
+  include/linux/init.h \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+  include/linux/kern_levels.h \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+  arch/arm64/include/asm/linkage.h \
+  include/linux/ratelimit_types.h \
+  include/uapi/linux/param.h \
+  arch/arm64/include/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
+  include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/DEBUG_SPINLOCK) \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
+  arch/arm64/include/asm/spinlock_types.h \
+  include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/NR_CPUS) \
+  include/asm-generic/qrwlock_types.h \
+  arch/arm64/include/uapi/asm/byteorder.h \
+  include/linux/byteorder/little_endian.h \
+  include/uapi/linux/byteorder/little_endian.h \
+  include/linux/swab.h \
+  include/uapi/linux/swab.h \
+  arch/arm64/include/generated/uapi/asm/swab.h \
+  include/uapi/asm-generic/swab.h \
+  include/linux/byteorder/generic.h \
+  include/linux/lockdep_types.h \
+    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
+    $(wildcard include/config/LOCKDEP) \
+    $(wildcard include/config/LOCK_STAT) \
   include/linux/cache.h \
     $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
   include/uapi/linux/kernel.h \
@@ -207,15 +263,8 @@ deps_drivers/pci/pci.o := \
     $(wildcard include/config/ARM64_LSE_ATOMICS) \
   arch/arm64/include/asm/atomic_ll_sc.h \
     $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
-  include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  arch/arm64/include/asm/linkage.h \
   arch/arm64/include/asm/alternative.h \
     $(wildcard include/config/MODULES) \
-  include/linux/init.h \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
   arch/arm64/include/asm/atomic_lse.h \
   include/linux/atomic/atomic-arch-fallback.h \
     $(wildcard include/config/GENERIC_ATOMIC64) \
@@ -230,14 +279,6 @@ deps_drivers/pci/pci.o := \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/non-instrumented-non-atomic.h \
   include/asm-generic/bitops/le.h \
-  arch/arm64/include/uapi/asm/byteorder.h \
-  include/linux/byteorder/little_endian.h \
-  include/uapi/linux/byteorder/little_endian.h \
-  include/linux/swab.h \
-  include/uapi/linux/swab.h \
-  arch/arm64/include/generated/uapi/asm/swab.h \
-  include/uapi/asm-generic/swab.h \
-  include/linux/byteorder/generic.h \
   include/asm-generic/bitops/ext2-atomic-setbit.h \
   include/linux/kasan-enabled.h \
     $(wildcard include/config/KASAN) \
@@ -267,7 +308,6 @@ deps_drivers/pci/pci.o := \
     $(wildcard include/config/COMPACTION) \
     $(wildcard include/config/CONTIG_ALLOC) \
   include/linux/gfp_types.h \
-    $(wildcard include/config/LOCKDEP) \
   include/linux/mmzone.h \
     $(wildcard include/config/ARCH_FORCE_MAX_ORDER) \
     $(wildcard include/config/CMA) \
@@ -291,9 +331,7 @@ deps_drivers/pci/pci.o := \
     $(wildcard include/config/SPARSEMEM_EXTREME) \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/spinlock.h \
-    $(wildcard include/config/DEBUG_SPINLOCK) \
     $(wildcard include/config/PREEMPTION) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
     $(wildcard include/config/PREEMPT_RT) \
   include/linux/preempt.h \
     $(wildcard include/config/PREEMPT_COUNT) \
@@ -311,44 +349,7 @@ deps_drivers/pci/pci.o := \
     $(wildcard include/config/GENERIC_ENTRY) \
     $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
     $(wildcard include/config/HARDENED_USERCOPY) \
-    $(wildcard include/config/BUG) \
     $(wildcard include/config/SH) \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  include/linux/stdarg.h \
-  include/linux/kern_levels.h \
-  include/linux/ratelimit_types.h \
-  include/uapi/linux/param.h \
-  arch/arm64/include/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
-  include/linux/spinlock_types_raw.h \
-  arch/arm64/include/asm/spinlock_types.h \
-  include/asm-generic/qspinlock_types.h \
-    $(wildcard include/config/NR_CPUS) \
-  include/asm-generic/qrwlock_types.h \
-  include/linux/lockdep_types.h \
-    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/LOCK_STAT) \
   include/linux/restart_block.h \
   arch/arm64/include/asm/current.h \
   arch/arm64/include/asm/thread_info.h \
@@ -534,6 +535,9 @@ deps_drivers/pci/pci.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -696,6 +700,7 @@ deps_drivers/pci/pci.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -735,6 +740,7 @@ deps_drivers/pci/pci.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -920,6 +926,7 @@ deps_drivers/pci/pci.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1247,6 +1254,8 @@ deps_drivers/pci/pci.o := \
     $(wildcard include/config/DEVICE_PRIVATE) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1259,9 +1268,6 @@ deps_drivers/pci/pci.o := \
     $(wildcard include/config/DMA_API_DEBUG) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
   include/linux/dma-direction.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/pci.h \
   include/linux/pm_runtime.h \
   include/linux/pci_hotplug.h \
@@ -1283,93 +1289,92 @@ $(deps_drivers/pci/pci.o):
 #SYMVER pci_power_names 0x1ebf6c2a
 #SYMVER pci_pci_problems 0xdc14eda7
 #SYMVER pci_ats_disabled 0x75e9c735
-#SYMVER pci_bus_max_busnr 0x72a66e28
-#SYMVER pci_status_get_and_clear_errors 0x3d5d05ce
-#SYMVER pci_ioremap_bar 0xb4e814f3
-#SYMVER pci_ioremap_wc_bar 0xad7b1c88
-#SYMVER pci_find_next_capability 0x8db74e95
-#SYMVER pci_find_capability 0xb3317b60
-#SYMVER pci_bus_find_capability 0xc6a71790
-#SYMVER pci_find_next_ext_capability 0xf3b17ed6
-#SYMVER pci_find_ext_capability 0xbf398a73
-#SYMVER pci_get_dsn 0x5134c633
-#SYMVER pci_find_next_ht_capability 0x465cdae1
-#SYMVER pci_find_ht_capability 0xd31f03cf
-#SYMVER pci_find_vsec_capability 0x28a3344c
-#SYMVER pci_find_dvsec_capability 0x9e92aea8
-#SYMVER pci_find_parent_resource 0xf513c74e
-#SYMVER pci_find_resource 0xea0cac5f
-#SYMVER pcie_read_tlp_log 0x7022c72a
-#SYMVER pci_platform_power_transition 0xfec29fa3
-#SYMVER pci_set_power_state 0xa90c45d8
-#SYMVER pci_set_power_state_locked 0x126757da
-#SYMVER pci_save_state 0x5ec50bf9
-#SYMVER pci_restore_state 0xb750c1e1
-#SYMVER pci_store_saved_state 0xb52bbe5f
-#SYMVER pci_load_saved_state 0x5fc0d02c
-#SYMVER pci_load_and_free_saved_state 0x80bfe873
-#SYMVER pci_reenable_device 0x3bd2092e
-#SYMVER pci_enable_device_mem 0x287a9644
-#SYMVER pci_enable_device 0xbb0bd154
-#SYMVER pci_disable_device 0x31a6c30b
-#SYMVER pci_set_pcie_reset_state 0xa3bbb15a
-#SYMVER pci_pme_capable 0x78ee2861
-#SYMVER pci_pme_active 0x6ed471db
-#SYMVER pci_enable_wake 0x4abcb2f9
-#SYMVER pci_wake_from_d3 0x3ed301a6
-#SYMVER pci_prepare_to_sleep 0x4038500c
-#SYMVER pci_back_from_sleep 0x47468f7a
-#SYMVER pci_dev_run_wake 0xae2e5e90
-#SYMVER pci_choose_state 0xc9d62a81
-#SYMVER pci_d3cold_enable 0x5fb1d61c
-#SYMVER pci_d3cold_disable 0x27ce9011
-#SYMVER pci_rebar_get_possible_sizes 0x711c2440
-#SYMVER pci_enable_atomic_ops_to_root 0xdbdce4eb
-#SYMVER pci_release_region 0xc0fd36fe
-#SYMVER pci_request_region 0x68714693
-#SYMVER pci_release_selected_regions 0x1a25ad5c
-#SYMVER pci_request_selected_regions 0x4c59035a
-#SYMVER pci_request_selected_regions_exclusive 0xd2031848
-#SYMVER pci_release_regions 0x9b25f0e7
-#SYMVER pci_request_regions 0x644c3357
-#SYMVER pci_request_regions_exclusive 0x11b9eddc
+#SYMVER pci_bus_max_busnr 0xcd184352
+#SYMVER pci_status_get_and_clear_errors 0x3a67f68d
+#SYMVER pci_ioremap_bar 0x48a325d8
+#SYMVER pci_ioremap_wc_bar 0x04853959
+#SYMVER pci_find_next_capability 0xef24ffc7
+#SYMVER pci_find_capability 0x6ee02bb3
+#SYMVER pci_bus_find_capability 0x505bc57d
+#SYMVER pci_find_next_ext_capability 0xa4148915
+#SYMVER pci_find_ext_capability 0xf5889553
+#SYMVER pci_get_dsn 0x39cdbb09
+#SYMVER pci_find_next_ht_capability 0xc303eede
+#SYMVER pci_find_ht_capability 0xdfc74fbd
+#SYMVER pci_find_vsec_capability 0xba28a034
+#SYMVER pci_find_dvsec_capability 0x7fb369e1
+#SYMVER pci_find_parent_resource 0xe43883fe
+#SYMVER pci_find_resource 0xa67121f0
+#SYMVER pcie_read_tlp_log 0xb74c7373
+#SYMVER pci_platform_power_transition 0x95a78c9c
+#SYMVER pci_set_power_state 0xecf28dcb
+#SYMVER pci_set_power_state_locked 0x20a1e9ae
+#SYMVER pci_save_state 0x55fd63a1
+#SYMVER pci_restore_state 0xab757022
+#SYMVER pci_store_saved_state 0xfe7d547a
+#SYMVER pci_load_saved_state 0x8ca44623
+#SYMVER pci_load_and_free_saved_state 0xa91b25ae
+#SYMVER pci_reenable_device 0x2686f865
+#SYMVER pci_enable_device_mem 0x75ad12cb
+#SYMVER pci_enable_device 0xef2fdc2d
+#SYMVER pci_disable_device 0xff5bbaae
+#SYMVER pci_set_pcie_reset_state 0x51ec6e99
+#SYMVER pci_pme_capable 0xe0d9b999
+#SYMVER pci_pme_active 0x27aa6bed
+#SYMVER pci_enable_wake 0xd691c7e6
+#SYMVER pci_wake_from_d3 0x92323617
+#SYMVER pci_prepare_to_sleep 0x56430261
+#SYMVER pci_back_from_sleep 0xf00ddf2e
+#SYMVER pci_dev_run_wake 0x32b9ff84
+#SYMVER pci_choose_state 0x3984b014
+#SYMVER pci_d3cold_enable 0x52da5477
+#SYMVER pci_d3cold_disable 0xd7505dcc
+#SYMVER pci_enable_atomic_ops_to_root 0x83c5994d
+#SYMVER pci_release_region 0xac0d2415
+#SYMVER pci_request_region 0xc630b282
+#SYMVER pci_release_selected_regions 0x1fed18d3
+#SYMVER pci_request_selected_regions 0xca50e5c7
+#SYMVER pci_request_selected_regions_exclusive 0xb39ec99a
+#SYMVER pci_release_regions 0x020ecc78
+#SYMVER pci_request_regions 0x8fe0d195
+#SYMVER pci_request_regions_exclusive 0x1266f4cf
 #SYMVER pci_pio_to_address 0xf05fbf09
 #SYMVER pci_remap_iospace 0x0aaccc92
 #SYMVER pci_unmap_iospace 0x07f57478
-#SYMVER pci_set_master 0xcfd0cabe
-#SYMVER pci_clear_master 0x984926cd
-#SYMVER pci_set_cacheline_size 0x316bd4b9
-#SYMVER pci_set_mwi 0x43320431
-#SYMVER pci_try_set_mwi 0xa44c7bd7
-#SYMVER pci_clear_mwi 0x4cd37bda
-#SYMVER pci_intx 0x35ebcb4c
-#SYMVER pci_wait_for_pending_transaction 0x43e81cda
-#SYMVER pcie_flr 0xcac2ed5e
-#SYMVER pcie_reset_flr 0xd7e3d86c
-#SYMVER pci_bridge_secondary_bus_reset 0xe5f66c87
-#SYMVER pci_dev_lock 0xf7996eae
-#SYMVER pci_dev_trylock 0xfe577f87
-#SYMVER pci_dev_unlock 0x605c1907
-#SYMVER __pci_reset_function_locked 0x781d92ac
-#SYMVER pci_reset_function 0x0d2b7f51
-#SYMVER pci_reset_function_locked 0x316e68cd
-#SYMVER pci_try_reset_function 0x27765669
-#SYMVER pci_probe_reset_slot 0x2b5deed5
-#SYMVER pci_probe_reset_bus 0xf37d5b39
-#SYMVER pci_reset_bus 0x88585b6d
-#SYMVER pcix_get_max_mmrbc 0x399a1bf8
-#SYMVER pcix_get_mmrbc 0xeaca8204
-#SYMVER pcix_set_mmrbc 0xbdfec643
-#SYMVER pcie_get_readrq 0x60645744
-#SYMVER pcie_set_readrq 0xc4e38af2
-#SYMVER pcie_get_mps 0xe6de48d6
-#SYMVER pcie_set_mps 0xb57c4070
-#SYMVER pcie_link_speed_mbps 0x75aa2c30
-#SYMVER pcie_bandwidth_available 0xe94cb720
-#SYMVER pcie_get_speed_cap 0x27d6c896
-#SYMVER pcie_get_width_cap 0x37d91d96
-#SYMVER pcie_print_link_status 0xe51574e7
-#SYMVER pci_select_bars 0x3a87c224
-#SYMVER pci_device_is_present 0x88c89cbd
-#SYMVER pci_ignore_hotplug 0x1b2195eb
-#SYMVER pci_fixup_cardbus 0xc1f40239
+#SYMVER pci_set_master 0x9dda8061
+#SYMVER pci_clear_master 0xb44a0ca8
+#SYMVER pci_set_cacheline_size 0xc2e7b310
+#SYMVER pci_set_mwi 0x71743351
+#SYMVER pci_try_set_mwi 0x2c4b459f
+#SYMVER pci_clear_mwi 0x40e389cd
+#SYMVER pci_intx 0x7b5ca576
+#SYMVER pci_wait_for_pending_transaction 0xf5f0d7d5
+#SYMVER pcie_flr 0x4f381e29
+#SYMVER pcie_reset_flr 0xd6f4474b
+#SYMVER pci_bridge_secondary_bus_reset 0xa821418e
+#SYMVER pci_dev_lock 0xfabffeba
+#SYMVER pci_dev_trylock 0x27ddafe1
+#SYMVER pci_dev_unlock 0x79268d93
+#SYMVER __pci_reset_function_locked 0x71ec6752
+#SYMVER pci_reset_function 0xcc3071b0
+#SYMVER pci_reset_function_locked 0x090ebb60
+#SYMVER pci_try_reset_function 0xd9a23d1c
+#SYMVER pci_probe_reset_slot 0xbe63c0b7
+#SYMVER pci_probe_reset_bus 0x63dfafe9
+#SYMVER pci_reset_bus 0x86c1518c
+#SYMVER pcix_get_max_mmrbc 0x7efc6399
+#SYMVER pcix_get_mmrbc 0xf8a058c3
+#SYMVER pcix_set_mmrbc 0x0e5ff672
+#SYMVER pcie_get_readrq 0x290c30c5
+#SYMVER pcie_set_readrq 0x792440cf
+#SYMVER pcie_get_mps 0x95da556c
+#SYMVER pcie_set_mps 0xd510ba49
+#SYMVER pcie_link_speed_mbps 0x2c3b1a1d
+#SYMVER pcie_bandwidth_available 0xdab0a9e3
+#SYMVER pcie_get_speed_cap 0x45fc9202
+#SYMVER pcie_get_width_cap 0x9e1d8179
+#SYMVER pcie_print_link_status 0xfec3ab60
+#SYMVER pci_select_bars 0xc8df3c14
+#SYMVER pci_device_is_present 0x6ad13d26
+#SYMVER pci_ignore_hotplug 0x7344f1ee
+#SYMVER pci_fixup_cardbus 0xfdc59079

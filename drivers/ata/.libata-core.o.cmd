@@ -1,4 +1,4 @@
-savedcmd_drivers/ata/libata-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/ata/.libata-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"libata_core"' -DKBUILD_MODNAME='"libata"' -D__KBUILD_MODNAME=kmod_libata -c -o drivers/ata/libata-core.o drivers/ata/libata-core.c  
+savedcmd_drivers/ata/libata-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/ata/.libata-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"libata_core"' -DKBUILD_MODNAME='"libata"' -D__KBUILD_MODNAME=kmod_libata -c -o drivers/ata/libata-core.o drivers/ata/libata-core.c  
 
 source_drivers/ata/libata-core.o := drivers/ata/libata-core.c
 
@@ -29,6 +29,7 @@ deps_drivers/ata/libata-core.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -502,6 +503,7 @@ deps_drivers/ata/libata-core.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -588,6 +590,7 @@ deps_drivers/ata/libata-core.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -682,6 +685,9 @@ deps_drivers/ata/libata-core.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -807,6 +813,7 @@ deps_drivers/ata/libata-core.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1171,6 +1178,8 @@ deps_drivers/ata/libata-core.o := \
     $(wildcard include/config/DEVICE_PRIVATE) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1183,9 +1192,6 @@ deps_drivers/ata/libata-core.o := \
     $(wildcard include/config/DMA_API_DEBUG) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
   include/linux/dma-direction.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/pci.h \
   include/linux/blkdev.h \
     $(wildcard include/config/BLOCK_HOLDER_DEPRECATED) \
@@ -1558,8 +1564,8 @@ deps_drivers/ata/libata-core.o := \
 drivers/ata/libata-core.o: $(deps_drivers/ata/libata-core.o)
 
 $(deps_drivers/ata/libata-core.o):
-#SYMVER ata_link_next 0xd9d3de18
-#SYMVER ata_dev_next 0x02995b5d
+#SYMVER ata_link_next 0x21882416
+#SYMVER ata_dev_next 0x0a8d307e
 #SYMVER atapi_cmd_type 0x8462cb62
 #SYMVER ata_pack_xfermask 0x3a15013b
 #SYMVER ata_xfer_mask2mode 0xc2368ea5
@@ -1570,65 +1576,65 @@ $(deps_drivers/ata/libata-core.o):
 #SYMVER ata_id_string 0xccd86806
 #SYMVER ata_id_c_string 0xafddd545
 #SYMVER ata_id_xfermask 0x030cbca2
-#SYMVER ata_pio_need_iordy 0x6db91638
-#SYMVER ata_do_dev_read_id 0xc831734a
-#SYMVER ata_cable_40wire 0xa26e92fa
-#SYMVER ata_cable_80wire 0x07b9cdda
-#SYMVER ata_cable_unknown 0x1a4f07f2
-#SYMVER ata_cable_ignore 0x3115975f
-#SYMVER ata_cable_sata 0x53d135d6
-#SYMVER ata_dev_pair 0x0e9067d5
-#SYMVER ata_do_set_mode 0xd278172a
-#SYMVER ata_wait_after_reset 0x21c2646f
-#SYMVER ata_std_prereset 0xbbcf8052
-#SYMVER ata_std_postreset 0x6479fd75
-#SYMVER ata_dev_set_feature 0xb3fc12cb
-#SYMVER ata_std_qc_defer 0xbc8daf87
-#SYMVER ata_qc_complete 0xf1caf80e
-#SYMVER ata_qc_get_active 0x7eb9a4ec
-#SYMVER ata_link_online 0x48c08544
-#SYMVER ata_link_offline 0x8f6d65e2
-#SYMVER ata_sas_port_suspend 0x4bb7984c
-#SYMVER ata_sas_port_resume 0x65a1ddea
-#SYMVER ata_host_suspend 0xe2fd0a18
-#SYMVER ata_host_resume 0x876e04d6
-#SYMVER ata_port_alloc 0x55560027
-#SYMVER ata_port_free 0x99d5a7df
-#SYMVER ata_host_put 0x732029be
-#SYMVER ata_host_alloc 0x8a773928
-#SYMVER ata_host_alloc_pinfo 0x3bafc7c4
-#SYMVER ata_host_start 0x54afb278
-#SYMVER ata_host_init 0xd05de755
-#SYMVER ata_port_probe 0x7fb42394
-#SYMVER ata_host_register 0x219f4a28
-#SYMVER ata_host_activate 0xfb635b4c
-#SYMVER ata_host_detach 0xc9e5632e
-#SYMVER ata_pci_remove_one 0x74056703
-#SYMVER ata_pci_shutdown_one 0x657487db
-#SYMVER pci_test_config_bits 0xdd6ee024
-#SYMVER ata_pci_device_do_suspend 0xab4117c3
-#SYMVER ata_pci_device_do_resume 0x83628629
-#SYMVER ata_pci_device_suspend 0x543835bd
-#SYMVER ata_pci_device_resume 0x8e8e4f58
-#SYMVER ata_platform_remove_one 0xe5577ccf
+#SYMVER ata_pio_need_iordy 0x0bcfeea8
+#SYMVER ata_do_dev_read_id 0x0450a81b
+#SYMVER ata_cable_40wire 0x54e6003c
+#SYMVER ata_cable_80wire 0xac547519
+#SYMVER ata_cable_unknown 0x924b9dbc
+#SYMVER ata_cable_ignore 0x4926210a
+#SYMVER ata_cable_sata 0x98f83d3d
+#SYMVER ata_dev_pair 0xd86800f5
+#SYMVER ata_do_set_mode 0xff0c46fe
+#SYMVER ata_wait_after_reset 0x2a432c9d
+#SYMVER ata_std_prereset 0x50d0f920
+#SYMVER ata_std_postreset 0x20478b17
+#SYMVER ata_dev_set_feature 0x0792dd38
+#SYMVER ata_std_qc_defer 0xcce588b3
+#SYMVER ata_qc_complete 0x7609376f
+#SYMVER ata_qc_get_active 0x329fd452
+#SYMVER ata_link_online 0x6158ba86
+#SYMVER ata_link_offline 0x837650df
+#SYMVER ata_sas_port_suspend 0xed4a01a5
+#SYMVER ata_sas_port_resume 0x32f37dd5
+#SYMVER ata_host_suspend 0xd6e2d10b
+#SYMVER ata_host_resume 0xde616738
+#SYMVER ata_port_alloc 0x551cd2b7
+#SYMVER ata_port_free 0x329f7918
+#SYMVER ata_host_put 0x2dd477dc
+#SYMVER ata_host_alloc 0x129515fc
+#SYMVER ata_host_alloc_pinfo 0x4434dc20
+#SYMVER ata_host_start 0xb41e08cb
+#SYMVER ata_host_init 0xbb35a4e8
+#SYMVER ata_port_probe 0x092c1f2f
+#SYMVER ata_host_register 0x1cbbc8bc
+#SYMVER ata_host_activate 0xaa013206
+#SYMVER ata_host_detach 0xfe2d7e26
+#SYMVER ata_pci_remove_one 0xb7491b2f
+#SYMVER ata_pci_shutdown_one 0xa544fce6
+#SYMVER pci_test_config_bits 0xc363ab8b
+#SYMVER ata_pci_device_do_suspend 0x7ae8781b
+#SYMVER ata_pci_device_do_resume 0x4cd0727f
+#SYMVER ata_pci_device_suspend 0xa50f3b7b
+#SYMVER ata_pci_device_resume 0xfbc83e32
+#SYMVER ata_platform_remove_one 0xcac349e1
 #SYMVER ata_ratelimit 0xf8f3a0fb
-#SYMVER ata_msleep 0x3c0db520
-#SYMVER ata_wait_register 0x94504f10
-#SYMVER ata_dummy_port_ops 0x06ebed02
-#SYMVER ata_dummy_port_info 0x021f7bc5
-#SYMVER ata_print_version 0x4cebd18e
+#SYMVER ata_msleep 0x107e03af
+#SYMVER ata_wait_register 0x02d707e6
+#SYMVER ata_dummy_port_ops 0x87743ba3
+#SYMVER ata_dummy_port_info 0x39854375
+#SYMVER ata_print_version 0x2f09dcb9
 #SYMVER __tracepoint_ata_tf_load 0xa8f97178
-#SYMVER __traceiter_ata_tf_load 0x83f70b31
+#SYMVER __traceiter_ata_tf_load 0x775189d9
 #SYMVER __SCK__tp_func_ata_tf_load 0x08a88a9f
 #SYMVER __tracepoint_ata_exec_command 0xf0e52dc0
-#SYMVER __traceiter_ata_exec_command 0x70bbf0ae
+#SYMVER __traceiter_ata_exec_command 0xc06d9a9a
 #SYMVER __SCK__tp_func_ata_exec_command 0xf80f5fc7
 #SYMVER __tracepoint_ata_bmdma_setup 0x41c36b9b
-#SYMVER __traceiter_ata_bmdma_setup 0x45b8d109
+#SYMVER __traceiter_ata_bmdma_setup 0x7400c90e
 #SYMVER __SCK__tp_func_ata_bmdma_setup 0xc68c41d6
 #SYMVER __tracepoint_ata_bmdma_start 0x1aa7a185
-#SYMVER __traceiter_ata_bmdma_start 0x402c5585
+#SYMVER __traceiter_ata_bmdma_start 0xcb1d8688
 #SYMVER __SCK__tp_func_ata_bmdma_start 0x9de88bc8
 #SYMVER __tracepoint_ata_bmdma_status 0xc19b2437
-#SYMVER __traceiter_ata_bmdma_status 0xf8f27f34
+#SYMVER __traceiter_ata_bmdma_status 0x0260b016
 #SYMVER __SCK__tp_func_ata_bmdma_status 0xc9715630

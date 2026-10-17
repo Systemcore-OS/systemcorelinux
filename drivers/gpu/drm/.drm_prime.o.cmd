@@ -1,4 +1,4 @@
-savedcmd_drivers/gpu/drm/drm_prime.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_prime.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_prime"' -DKBUILD_MODNAME='"drm"' -D__KBUILD_MODNAME=kmod_drm -c -o drivers/gpu/drm/drm_prime.o drivers/gpu/drm/drm_prime.c  
+savedcmd_drivers/gpu/drm/drm_prime.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_prime.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_prime"' -DKBUILD_MODNAME='"drm"' -D__KBUILD_MODNAME=kmod_drm -c -o drivers/gpu/drm/drm_prime.o drivers/gpu/drm/drm_prime.c  
 
 source_drivers/gpu/drm/drm_prime.o := drivers/gpu/drm/drm_prime.c
 
@@ -23,6 +23,7 @@ deps_drivers/gpu/drm/drm_prime.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -645,6 +646,7 @@ deps_drivers/gpu/drm/drm_prime.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -688,6 +690,7 @@ deps_drivers/gpu/drm/drm_prime.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -721,6 +724,9 @@ deps_drivers/gpu/drm/drm_prime.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -879,6 +885,7 @@ deps_drivers/gpu/drm/drm_prime.o := \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -1018,6 +1025,8 @@ deps_drivers/gpu/drm/drm_prime.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1112,9 +1121,6 @@ deps_drivers/gpu/drm/drm_prime.o := \
   arch/arm64/include/asm/device.h \
   include/linux/pm_wakeup.h \
   include/linux/dma-direction.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/dma-fence.h \
   include/uapi/drm/drm.h \
   include/uapi/drm/drm_mode.h \
@@ -1289,24 +1295,24 @@ deps_drivers/gpu/drm/drm_prime.o := \
 drivers/gpu/drm/drm_prime.o: $(deps_drivers/gpu/drm/drm_prime.o)
 
 $(deps_drivers/gpu/drm/drm_prime.o):
-#SYMVER drm_gem_dmabuf_export 0x72786d05
-#SYMVER drm_gem_dmabuf_release 0x2794e3c3
-#SYMVER drm_gem_prime_fd_to_handle 0x61f8cddb
-#SYMVER drm_gem_prime_handle_to_dmabuf 0xac724451
-#SYMVER drm_gem_prime_handle_to_fd 0x98aedd1f
-#SYMVER drm_gem_map_attach 0x8695df55
-#SYMVER drm_gem_map_detach 0xb93d8cbc
-#SYMVER drm_gem_map_dma_buf 0x04b43d14
-#SYMVER drm_gem_unmap_dma_buf 0x5102690d
-#SYMVER drm_gem_dmabuf_vmap 0xe18c67d5
-#SYMVER drm_gem_dmabuf_vunmap 0x7507c835
-#SYMVER drm_gem_prime_mmap 0x3be95dec
-#SYMVER drm_gem_dmabuf_mmap 0x7aa158f3
-#SYMVER drm_prime_pages_to_sg 0xbbdc4d59
+#SYMVER drm_gem_dmabuf_export 0x94d5dd94
+#SYMVER drm_gem_dmabuf_release 0x3e6d6ea0
+#SYMVER drm_gem_prime_fd_to_handle 0x80000d92
+#SYMVER drm_gem_prime_handle_to_dmabuf 0xf22480e9
+#SYMVER drm_gem_prime_handle_to_fd 0xddf31e71
+#SYMVER drm_gem_map_attach 0xa8bd01f2
+#SYMVER drm_gem_map_detach 0xe078c568
+#SYMVER drm_gem_map_dma_buf 0x09d252a0
+#SYMVER drm_gem_unmap_dma_buf 0x7aac0c13
+#SYMVER drm_gem_dmabuf_vmap 0xd393e87d
+#SYMVER drm_gem_dmabuf_vunmap 0x17a8dbfd
+#SYMVER drm_gem_prime_mmap 0xa3ae7f8f
+#SYMVER drm_gem_dmabuf_mmap 0x7394b11d
+#SYMVER drm_prime_pages_to_sg 0x90c0adb8
 #SYMVER drm_prime_get_contiguous_size 0xdad9c8b1
-#SYMVER drm_gem_prime_export 0x4866fe69
-#SYMVER drm_gem_prime_import_dev 0x57c51a14
-#SYMVER drm_gem_prime_import 0xaf6cc455
-#SYMVER drm_prime_sg_to_page_array 0x9a753b43
+#SYMVER drm_gem_prime_export 0x20af61d9
+#SYMVER drm_gem_prime_import_dev 0x8a7063d8
+#SYMVER drm_gem_prime_import 0xeb23fecb
+#SYMVER drm_prime_sg_to_page_array 0xf208df2a
 #SYMVER drm_prime_sg_to_dma_addr_array 0x4e2a621e
-#SYMVER drm_prime_gem_destroy 0x4a6cf47e
+#SYMVER drm_prime_gem_destroy 0x6af79310

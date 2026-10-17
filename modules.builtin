@@ -173,6 +173,7 @@ kernel/drivers/net/phy/bcm-phy-lib.ko
 kernel/drivers/net/phy/bcm-phy-ptp.ko
 kernel/drivers/net/phy/broadcom.ko
 kernel/drivers/net/phy/fixed_phy.ko
+kernel/drivers/net/phy/mxl-86110.ko
 kernel/drivers/net/phy/micrel.ko
 kernel/drivers/net/phy/microchip.ko
 kernel/drivers/net/phy/smsc.ko
@@ -388,6 +389,7 @@ kernel/drivers/staging/vc04_services/vchiq.ko
 kernel/drivers/mailbox/bcm2835-mailbox.ko
 kernel/drivers/extcon/extcon-core.ko
 kernel/drivers/android/binder.ko
+kernel/drivers/nvmem/layouts/fixed-layout.ko
 kernel/drivers/nvmem/nvmem-raspberrypi-otp.ko
 kernel/sound/soundcore.ko
 kernel/net/core/selftests.ko

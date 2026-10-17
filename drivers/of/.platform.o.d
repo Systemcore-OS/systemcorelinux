@@ -1,9 +1,9 @@
 platform.o: drivers/of/platform.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/errno.h include/uapi/linux/errno.h \
- arch/arm64/include/generated/uapi/asm/errno.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/errno.h \
+ include/uapi/linux/errno.h arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  include/linux/module.h include/linux/list.h include/linux/container_of.h \
  include/linux/build_bug.h include/linux/compiler.h \
@@ -298,11 +298,12 @@ platform.o: drivers/of/platform.c include/linux/compiler-version.h \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h include/linux/writeback.h \
- include/linux/flex_proportions.h include/linux/backing-dev-defs.h \
- include/linux/blk_types.h include/linux/bvec.h include/linux/highmem.h \
- include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
- include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/writeback.h include/linux/flex_proportions.h \
+ include/linux/backing-dev-defs.h include/linux/blk_types.h \
+ include/linux/bvec.h include/linux/highmem.h include/linux/cacheflush.h \
+ arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
+ include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/trace_clock.h \
  arch/arm64/include/generated/asm/trace_clock.h \
  include/asm-generic/trace_clock.h include/linux/kallsyms.h \
@@ -337,7 +338,6 @@ platform.o: drivers/of/platform.c include/linux/compiler-version.h \
  include/linux/hugetlb_inline.h include/uapi/linux/mempolicy.h \
  include/linux/freezer.h include/uapi/regulator/regulator.h \
  include/linux/dma-mapping.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/of_address.h include/linux/of.h include/linux/property.h \
  include/linux/of_device.h include/linux/of_irq.h \
  include/linux/irqdomain.h include/linux/irqdomain_defs.h \

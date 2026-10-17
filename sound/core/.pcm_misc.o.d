@@ -1,8 +1,9 @@
 pcm_misc.o: sound/core/pcm_misc.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/time.h include/linux/cache.h include/uapi/linux/kernel.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/time.h \
+ include/linux/cache.h include/uapi/linux/kernel.h \
  include/uapi/linux/sysinfo.h include/linux/types.h \
  include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
@@ -274,7 +275,7 @@ pcm_misc.o: sound/core/pcm_misc.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/pm_qos.h \
  include/linux/plist.h include/linux/uio.h include/uapi/linux/uio.h \
  include/sound/pcm_oss.h sound/core/pcm_local.h

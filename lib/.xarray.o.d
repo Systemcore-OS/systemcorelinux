@@ -1,9 +1,10 @@
 xarray.o: lib/xarray.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/bitmap.h include/linux/align.h include/linux/const.h \
- include/vdso/const.h include/uapi/linux/const.h include/linux/bitops.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/bitmap.h \
+ include/linux/align.h include/linux/const.h include/vdso/const.h \
+ include/uapi/linux/const.h include/linux/bitops.h \
  arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
@@ -66,6 +67,16 @@ xarray.o: lib/xarray.c include/linux/compiler-version.h \
  include/uapi/linux/string.h arch/arm64/include/asm/string.h \
  include/linux/bitmap-str.h include/linux/list.h \
  include/linux/container_of.h include/linux/poison.h include/linux/slab.h \
+ include/linux/bug.h arch/arm64/include/asm/bug.h \
+ arch/arm64/include/asm/asm-bug.h include/asm-generic/bug.h \
+ include/linux/instrumentation.h include/linux/once_lite.h \
+ include/linux/panic.h include/linux/printk.h include/linux/kern_levels.h \
+ include/linux/ratelimit_types.h include/uapi/linux/param.h \
+ arch/arm64/include/uapi/asm/param.h include/asm-generic/param.h \
+ include/uapi/asm-generic/param.h include/linux/spinlock_types_raw.h \
+ arch/arm64/include/asm/spinlock_types.h \
+ include/asm-generic/qspinlock_types.h \
+ include/asm-generic/qrwlock_types.h include/linux/lockdep_types.h \
  include/linux/cache.h arch/arm64/include/asm/cache.h \
  include/linux/kasan-enabled.h include/linux/static_key.h \
  include/linux/jump_label.h arch/arm64/include/asm/jump_label.h \
@@ -77,16 +88,6 @@ xarray.o: lib/xarray.c include/linux/compiler-version.h \
  include/linux/gfp_types.h include/linux/mmzone.h \
  include/linux/spinlock.h include/linux/preempt.h \
  arch/arm64/include/asm/preempt.h include/linux/thread_info.h \
- include/linux/bug.h arch/arm64/include/asm/bug.h \
- arch/arm64/include/asm/asm-bug.h include/asm-generic/bug.h \
- include/linux/instrumentation.h include/linux/once_lite.h \
- include/linux/panic.h include/linux/printk.h include/linux/kern_levels.h \
- include/linux/ratelimit_types.h include/uapi/linux/param.h \
- arch/arm64/include/uapi/asm/param.h include/asm-generic/param.h \
- include/uapi/asm-generic/param.h include/linux/spinlock_types_raw.h \
- arch/arm64/include/asm/spinlock_types.h \
- include/asm-generic/qspinlock_types.h \
- include/asm-generic/qrwlock_types.h include/linux/lockdep_types.h \
  include/linux/restart_block.h arch/arm64/include/asm/current.h \
  arch/arm64/include/asm/thread_info.h arch/arm64/include/asm/memory.h \
  include/linux/sizes.h arch/arm64/include/asm/page-def.h \

@@ -1,9 +1,10 @@
 mpage.o: fs/mpage.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/kernel.h include/linux/stdarg.h include/linux/align.h \
- include/linux/const.h include/vdso/const.h include/uapi/linux/const.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/kernel.h \
+ include/linux/stdarg.h include/linux/align.h include/linux/const.h \
+ include/vdso/const.h include/uapi/linux/const.h \
  include/linux/array_size.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
  include/asm-generic/rwonce.h include/linux/kasan-checks.h \
@@ -251,8 +252,8 @@ mpage.o: fs/mpage.c include/linux/compiler-version.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/bio.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h include/linux/bio.h \
  include/linux/mempool.h include/linux/blk_types.h include/linux/bvec.h \
  include/linux/highmem.h include/linux/cacheflush.h \
  arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \

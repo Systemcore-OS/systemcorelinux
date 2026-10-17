@@ -1,8 +1,9 @@
 scsi_ioctl.o: drivers/scsi/scsi_ioctl.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/module.h include/linux/list.h include/linux/container_of.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/module.h \
+ include/linux/list.h include/linux/container_of.h \
  include/linux/build_bug.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
  include/asm-generic/rwonce.h include/linux/kasan-checks.h \
@@ -281,7 +282,7 @@ scsi_ioctl.o: drivers/scsi/scsi_ioctl.c include/linux/compiler-version.h \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/ptrace.h \
  include/linux/pid_namespace.h include/linux/nsproxy.h \
  include/linux/ns_common.h include/uapi/linux/ptrace.h \
@@ -324,7 +325,6 @@ scsi_ioctl.o: drivers/scsi/scsi_ioctl.c include/linux/compiler-version.h \
  include/uapi/linux/cdrom.h include/scsi/scsi.h \
  include/scsi/scsi_status.h include/scsi/scsi_cmnd.h \
  include/linux/dma-mapping.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/t10-pi.h include/linux/blk-mq.h include/linux/prefetch.h \
  include/scsi/scsi_device.h include/scsi/scsi_eh.h \
  include/scsi/scsi_host.h include/linux/seq_file.h \

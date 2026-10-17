@@ -1,4 +1,4 @@
-savedcmd_net/ipv4/inet_connection_sock.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ipv4/.inet_connection_sock.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/ipv4/inet_connection_sock"' -DKBUILD_BASENAME='"inet_connection_sock"' -DKBUILD_MODNAME='"inet_connection_sock"' -D__KBUILD_MODNAME=kmod_inet_connection_sock -c -o net/ipv4/inet_connection_sock.o net/ipv4/inet_connection_sock.c  
+savedcmd_net/ipv4/inet_connection_sock.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ipv4/.inet_connection_sock.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"net/ipv4/inet_connection_sock"' -DKBUILD_BASENAME='"inet_connection_sock"' -DKBUILD_MODNAME='"inet_connection_sock"' -D__KBUILD_MODNAME=kmod_inet_connection_sock -c -o net/ipv4/inet_connection_sock.o net/ipv4/inet_connection_sock.c  
 
 source_net/ipv4/inet_connection_sock.o := net/ipv4/inet_connection_sock.c
 
@@ -25,6 +25,7 @@ deps_net/ipv4/inet_connection_sock.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -498,6 +499,7 @@ deps_net/ipv4/inet_connection_sock.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -584,6 +586,7 @@ deps_net/ipv4/inet_connection_sock.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -678,6 +681,9 @@ deps_net/ipv4/inet_connection_sock.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -803,6 +809,7 @@ deps_net/ipv4/inet_connection_sock.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1039,6 +1046,7 @@ deps_net/ipv4/inet_connection_sock.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/flow.h \
@@ -1312,6 +1320,8 @@ deps_net/ipv4/inet_connection_sock.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1421,9 +1431,6 @@ deps_net/ipv4/inet_connection_sock.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1645,7 +1652,9 @@ deps_net/ipv4/inet_connection_sock.o := \
   include/linux/set_memory.h \
     $(wildcard include/config/ARCH_HAS_SET_MEMORY) \
     $(wildcard include/config/ARCH_HAS_SET_DIRECT_MAP) \
+    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
   arch/arm64/include/asm/set_memory.h \
+  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/set_memory.h \
   include/linux/if_vlan.h \
   include/linux/etherdevice.h \
@@ -1670,33 +1679,34 @@ deps_net/ipv4/inet_connection_sock.o := \
   include/net/dsfield.h \
   include/net/mptcp.h \
     $(wildcard include/config/MPTCP_IPV6) \
+  include/net/secure_seq.h \
   include/linux/bpf-cgroup.h \
   include/net/addrconf.h \
 
 net/ipv4/inet_connection_sock.o: $(deps_net/ipv4/inet_connection_sock.o)
 
 $(deps_net/ipv4/inet_connection_sock.o):
-#SYMVER inet_rcv_saddr_equal 0xcd9f0406
-#SYMVER inet_sk_get_local_port_range 0x9e615eac
-#SYMVER inet_csk_get_port 0x7c443e1d
-#SYMVER inet_csk_accept 0xa5f7b1dc
-#SYMVER inet_csk_init_xmit_timers 0xb4539787
-#SYMVER inet_csk_clear_xmit_timers 0x7d2b1341
-#SYMVER inet_csk_delete_keepalive_timer 0xfdf7aaaa
-#SYMVER inet_csk_reset_keepalive_timer 0x7e22fa3e
-#SYMVER inet_csk_route_req 0x6310a20b
-#SYMVER inet_csk_route_child_sock 0xa7c09acb
-#SYMVER inet_rtx_syn_ack 0x5dd0cdef
-#SYMVER inet_reqsk_alloc 0x5449808e
-#SYMVER inet_csk_reqsk_queue_drop 0x4ba8dab9
-#SYMVER inet_csk_reqsk_queue_drop_and_put 0xb570f0b5
-#SYMVER inet_csk_reqsk_queue_hash_add 0x8292218c
-#SYMVER inet_csk_clone_lock 0x2aec61b5
-#SYMVER inet_csk_destroy_sock 0xbeed52d1
-#SYMVER inet_csk_prepare_forced_close 0x6efbc2f0
-#SYMVER inet_csk_listen_start 0x072c1032
-#SYMVER inet_csk_reqsk_queue_add 0x18feb2d5
-#SYMVER inet_csk_complete_hashdance 0x64fcbab8
-#SYMVER inet_csk_listen_stop 0xdb2ff67d
-#SYMVER inet_csk_addr2sockaddr 0xc5446048
-#SYMVER inet_csk_update_pmtu 0x03476c0f
+#SYMVER inet_rcv_saddr_equal 0x2448b4d9
+#SYMVER inet_sk_get_local_port_range 0xd008c9d8
+#SYMVER inet_csk_get_port 0x4c48e7cc
+#SYMVER inet_csk_accept 0x870f16ec
+#SYMVER inet_csk_init_xmit_timers 0x8683a644
+#SYMVER inet_csk_clear_xmit_timers 0xb9e63423
+#SYMVER inet_csk_delete_keepalive_timer 0xfe87a6f8
+#SYMVER inet_csk_reset_keepalive_timer 0x0d10b326
+#SYMVER inet_csk_route_req 0xe851cda9
+#SYMVER inet_csk_route_child_sock 0x674d171f
+#SYMVER inet_rtx_syn_ack 0x50d29caf
+#SYMVER inet_reqsk_alloc 0x613aeb58
+#SYMVER inet_csk_reqsk_queue_drop 0x47f5eda5
+#SYMVER inet_csk_reqsk_queue_drop_and_put 0xb778f7d3
+#SYMVER inet_csk_reqsk_queue_hash_add 0x198866ed
+#SYMVER inet_csk_clone_lock 0x0b9964ec
+#SYMVER inet_csk_destroy_sock 0x20d5a9df
+#SYMVER inet_csk_prepare_forced_close 0xc6742fa9
+#SYMVER inet_csk_listen_start 0xc8b18e85
+#SYMVER inet_csk_reqsk_queue_add 0xe7778405
+#SYMVER inet_csk_complete_hashdance 0xb8845868
+#SYMVER inet_csk_listen_stop 0xc6c84c32
+#SYMVER inet_csk_addr2sockaddr 0xae8ed6ee
+#SYMVER inet_csk_update_pmtu 0x489cbc86

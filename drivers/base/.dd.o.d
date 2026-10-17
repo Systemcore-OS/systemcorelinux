@@ -1,8 +1,9 @@
 dd.o: drivers/base/dd.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/debugfs.h include/linux/fs.h include/linux/linkage.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/debugfs.h \
+ include/linux/fs.h include/linux/linkage.h \
  include/linux/compiler_types.h include/linux/stringify.h \
  include/linux/export.h include/linux/compiler.h \
  arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
@@ -278,14 +279,13 @@ dd.o: drivers/base/dd.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
- include/linux/fwnode.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/kthread.h \
- include/linux/async.h include/linux/pm_runtime.h \
- include/linux/pinctrl/devinfo.h include/linux/pinctrl/consumer.h \
- include/linux/pinctrl/pinctrl-state.h drivers/base/base.h \
- drivers/base/power/power.h include/linux/pm_qos.h include/linux/plist.h
+ include/linux/fwnode.h include/linux/kthread.h include/linux/async.h \
+ include/linux/pm_runtime.h include/linux/pinctrl/devinfo.h \
+ include/linux/pinctrl/consumer.h include/linux/pinctrl/pinctrl-state.h \
+ drivers/base/base.h drivers/base/power/power.h include/linux/pm_qos.h \
+ include/linux/plist.h

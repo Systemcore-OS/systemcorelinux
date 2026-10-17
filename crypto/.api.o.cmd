@@ -1,4 +1,4 @@
-savedcmd_crypto/api.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,crypto/.api.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"crypto/crypto"' -DKBUILD_BASENAME='"api"' -DKBUILD_MODNAME='"crypto"' -D__KBUILD_MODNAME=kmod_crypto -c -o crypto/api.o crypto/api.c  
+savedcmd_crypto/api.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,crypto/.api.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"crypto/crypto"' -DKBUILD_BASENAME='"api"' -DKBUILD_MODNAME='"crypto"' -D__KBUILD_MODNAME=kmod_crypto -c -o crypto/api.o crypto/api.c  
 
 source_crypto/api.o := crypto/api.c
 
@@ -25,6 +25,7 @@ deps_crypto/api.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -483,6 +484,9 @@ deps_crypto/api.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -646,6 +650,7 @@ deps_crypto/api.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -685,6 +690,7 @@ deps_crypto/api.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -803,6 +809,7 @@ deps_crypto/api.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1044,6 +1051,8 @@ deps_crypto/api.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1072,22 +1081,22 @@ crypto/api.o: $(deps_crypto/api.o)
 
 $(deps_crypto/api.o):
 #SYMVER crypto_alg_list 0x457594fa
-#SYMVER crypto_alg_sem 0x3bcbbb00
-#SYMVER crypto_chain 0xcced190a
-#SYMVER crypto_mod_get 0xbbec6fc9
-#SYMVER crypto_mod_put 0xdf55c4e1
-#SYMVER crypto_larval_alloc 0x16bf6701
-#SYMVER crypto_schedule_test 0x6008b20c
+#SYMVER crypto_alg_sem 0x1b7e116b
+#SYMVER crypto_chain 0xcad056b4
+#SYMVER crypto_mod_get 0xb27a86c6
+#SYMVER crypto_mod_put 0x47e679a8
+#SYMVER crypto_larval_alloc 0xf6ebf7e6
+#SYMVER crypto_schedule_test 0x4cd9615a
 #SYMVER crypto_probing_notify 0x5a7bfe41
-#SYMVER crypto_alg_mod_lookup 0xb380f772
-#SYMVER crypto_shoot_alg 0x46da76d6
-#SYMVER __crypto_alloc_tfmgfp 0xabe53afb
-#SYMVER __crypto_alloc_tfm 0xd5204305
-#SYMVER crypto_alloc_base 0x9ec6fc1d
-#SYMVER crypto_create_tfm_node 0xee14fd7f
-#SYMVER crypto_clone_tfm 0x2563de6e
-#SYMVER crypto_find_alg 0xaa3bf8e5
-#SYMVER crypto_alloc_tfm_node 0x39de8372
-#SYMVER crypto_destroy_tfm 0xbd83ef9b
+#SYMVER crypto_alg_mod_lookup 0xfd7abbd4
+#SYMVER crypto_shoot_alg 0xad060d42
+#SYMVER __crypto_alloc_tfmgfp 0x0eea080e
+#SYMVER __crypto_alloc_tfm 0xd32f293b
+#SYMVER crypto_alloc_base 0x461f7a58
+#SYMVER crypto_create_tfm_node 0x08f48fa9
+#SYMVER crypto_clone_tfm 0xfdc29e06
+#SYMVER crypto_find_alg 0x966426bc
+#SYMVER crypto_alloc_tfm_node 0x6a01bd3b
+#SYMVER crypto_destroy_tfm 0xe14b006f
 #SYMVER crypto_has_alg 0x951a2773
 #SYMVER crypto_req_done 0x0a8e458b

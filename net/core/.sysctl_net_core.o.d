@@ -1,6 +1,7 @@
 sysctl_net_core.o: net/core/sysctl_net_core.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/filter.h \
  include/linux/atomic.h include/linux/types.h include/uapi/linux/types.h \
@@ -266,10 +267,10 @@ sysctl_net_core.o: net/core/sysctl_net_core.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/bpfptr.h \
- include/linux/sockptr.h include/linux/btf.h include/linux/bsearch.h \
- include/linux/btf_ids.h include/uapi/linux/btf.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/bpfptr.h include/linux/sockptr.h include/linux/btf.h \
+ include/linux/bsearch.h include/linux/btf_ids.h include/uapi/linux/btf.h \
  include/linux/rcupdate_trace.h include/linux/static_call.h \
  include/linux/cpu.h include/linux/node.h include/linux/device.h \
  include/linux/dev_printk.h include/linux/energy_model.h \
@@ -348,7 +349,6 @@ sysctl_net_core.o: net/core/sysctl_net_core.c \
  arch/arm64/include/asm/checksum.h include/linux/in6.h \
  include/uapi/linux/in6.h include/asm-generic/checksum.h \
  include/linux/dma-mapping.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/linux/siphash.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
@@ -358,8 +358,8 @@ sysctl_net_core.o: net/core/sysctl_net_core.c \
  include/net/net_debug.h include/net/dropreason-core.h \
  include/net/netmem.h include/linux/sched/clock.h \
  include/linux/set_memory.h arch/arm64/include/asm/set_memory.h \
- include/asm-generic/set_memory.h include/linux/if_vlan.h \
- include/linux/netdevice.h include/linux/delay.h \
+ arch/arm64/include/asm/mem_encrypt.h include/asm-generic/set_memory.h \
+ include/linux/if_vlan.h include/linux/netdevice.h include/linux/delay.h \
  arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
  include/linux/prefetch.h include/linux/dynamic_queue_limits.h \
  include/net/net_namespace.h include/net/netns/core.h \

@@ -1,6 +1,7 @@
 mac.o: drivers/net/wireless/mediatek/mt76/mt7925/mac.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/devcoredump.h \
  include/linux/device.h include/linux/dev_printk.h \
@@ -274,7 +275,7 @@ mac.o: drivers/net/wireless/mediatek/mt76/mt7925/mac.c \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/pgtable.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -327,7 +328,6 @@ mac.o: drivers/net/wireless/mediatek/mt76/mt7925/mac.c \
  include/net/checksum.h arch/arm64/include/asm/checksum.h \
  include/linux/in6.h include/uapi/linux/in6.h \
  include/asm-generic/checksum.h include/linux/dma-mapping.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/linux/siphash.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \

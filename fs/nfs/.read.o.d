@@ -1,8 +1,9 @@
 read.o: fs/nfs/read.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/time.h include/linux/cache.h include/uapi/linux/kernel.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/time.h \
+ include/linux/cache.h include/uapi/linux/kernel.h \
  include/uapi/linux/sysinfo.h include/linux/types.h \
  include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
@@ -253,11 +254,12 @@ read.o: fs/nfs/read.c include/linux/compiler-version.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/task_io_accounting_ops.h \
- include/linux/pagemap.h include/linux/highmem.h \
- include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
- include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/task_io_accounting_ops.h include/linux/pagemap.h \
+ include/linux/highmem.h include/linux/cacheflush.h \
+ arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
+ include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/interrupt.h \
  include/linux/irqreturn.h include/linux/hardirq.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
@@ -349,8 +351,7 @@ read.o: fs/nfs/read.c include/linux/compiler-version.h \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
  include/uapi/linux/if_packet.h include/net/net_debug.h \

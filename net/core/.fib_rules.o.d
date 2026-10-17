@@ -1,9 +1,9 @@
 fib_rules.o: net/core/fib_rules.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/types.h include/uapi/linux/types.h \
- arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/types.h \
+ include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -71,22 +71,22 @@ fib_rules.o: net/core/fib_rules.c include/linux/compiler-version.h \
  include/asm-generic/qrwlock_types.h include/linux/lockdep_types.h \
  include/linux/once_lite.h include/linux/sprintf.h \
  include/linux/static_call_types.h include/linux/instruction_pointer.h \
- include/linux/wordpart.h include/linux/slab.h include/linux/cache.h \
- arch/arm64/include/asm/cache.h include/linux/kasan-enabled.h \
- include/linux/static_key.h include/linux/jump_label.h \
- arch/arm64/include/asm/jump_label.h arch/arm64/include/asm/insn.h \
- arch/arm64/include/asm/cputype.h arch/arm64/include/asm/sysreg.h \
- include/linux/kasan-tags.h arch/arm64/include/asm/gpr-num.h \
+ include/linux/wordpart.h include/linux/slab.h include/linux/bug.h \
+ arch/arm64/include/asm/bug.h arch/arm64/include/asm/asm-bug.h \
+ include/asm-generic/bug.h include/linux/instrumentation.h \
+ include/linux/cache.h arch/arm64/include/asm/cache.h \
+ include/linux/kasan-enabled.h include/linux/static_key.h \
+ include/linux/jump_label.h arch/arm64/include/asm/jump_label.h \
+ arch/arm64/include/asm/insn.h arch/arm64/include/asm/cputype.h \
+ arch/arm64/include/asm/sysreg.h include/linux/kasan-tags.h \
+ arch/arm64/include/asm/gpr-num.h \
  arch/arm64/include/generated/asm/sysreg-defs.h include/linux/bitfield.h \
  arch/arm64/include/asm/mte-def.h include/linux/gfp.h \
  include/linux/gfp_types.h include/linux/mmzone.h \
  include/linux/spinlock.h include/linux/preempt.h include/linux/cleanup.h \
  arch/arm64/include/asm/preempt.h include/linux/thread_info.h \
- include/linux/bug.h arch/arm64/include/asm/bug.h \
- arch/arm64/include/asm/asm-bug.h include/asm-generic/bug.h \
- include/linux/instrumentation.h include/linux/restart_block.h \
- include/linux/errno.h include/uapi/linux/errno.h \
- arch/arm64/include/generated/uapi/asm/errno.h \
+ include/linux/restart_block.h include/linux/errno.h \
+ include/uapi/linux/errno.h arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  arch/arm64/include/asm/current.h arch/arm64/include/asm/thread_info.h \
  arch/arm64/include/asm/memory.h include/linux/sizes.h \
@@ -315,7 +315,7 @@ fib_rules.o: net/core/fib_rules.c include/linux/compiler-version.h \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/ptrace.h \
  include/linux/pid_namespace.h include/linux/nsproxy.h \
  include/uapi/linux/ptrace.h include/linux/seccomp.h \
@@ -345,8 +345,7 @@ fib_rules.o: net/core/fib_rules.c include/linux/compiler-version.h \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
  include/uapi/linux/if_packet.h include/net/net_debug.h \

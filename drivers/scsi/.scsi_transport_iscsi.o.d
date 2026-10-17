@@ -1,6 +1,7 @@
 scsi_transport_iscsi.o: drivers/scsi/scsi_transport_iscsi.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/module.h \
  include/linux/list.h include/linux/container_of.h \
@@ -282,7 +283,7 @@ scsi_transport_iscsi.o: drivers/scsi/scsi_transport_iscsi.c \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/ptrace.h \
  include/linux/pid_namespace.h include/linux/nsproxy.h \
  include/linux/ns_common.h include/uapi/linux/ptrace.h \
@@ -325,7 +326,6 @@ scsi_transport_iscsi.o: drivers/scsi/scsi_transport_iscsi.c \
  arch/arm64/include/asm/checksum.h include/linux/in6.h \
  include/uapi/linux/in6.h include/asm-generic/checksum.h \
  include/linux/dma-mapping.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/linux/siphash.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
@@ -419,8 +419,9 @@ scsi_transport_iscsi.o: drivers/scsi/scsi_transport_iscsi.c \
  include/uapi/linux/lwtunnel.h include/net/sock_reuseport.h \
  include/linux/filter.h include/linux/sched/clock.h \
  include/linux/set_memory.h arch/arm64/include/asm/set_memory.h \
- include/asm-generic/set_memory.h include/linux/if_vlan.h \
- include/linux/etherdevice.h include/linux/crc32.h include/linux/bitrev.h \
+ arch/arm64/include/asm/mem_encrypt.h include/asm-generic/set_memory.h \
+ include/linux/if_vlan.h include/linux/etherdevice.h \
+ include/linux/crc32.h include/linux/bitrev.h \
  arch/arm64/include/asm/bitrev.h include/linux/unaligned.h \
  include/vdso/unaligned.h include/uapi/linux/if_vlan.h \
  include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
@@ -434,7 +435,8 @@ scsi_transport_iscsi.o: drivers/scsi/scsi_transport_iscsi.c \
  include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
  arch/arm64/include/asm/syscall.h include/net/ip6_fib.h \
  include/linux/ipv6_route.h include/uapi/linux/ipv6_route.h \
- include/net/gro_cells.h include/linux/bpf-cgroup.h include/scsi/scsi.h \
+ include/net/gro_cells.h include/net/secure_seq.h \
+ include/linux/bpf-cgroup.h include/scsi/scsi.h \
  include/scsi/scsi_common.h include/uapi/linux/pr.h \
  include/scsi/scsi_proto.h include/scsi/scsi_status.h \
  include/scsi/scsi_host.h include/linux/blk-mq.h \

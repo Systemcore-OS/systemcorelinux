@@ -1,8 +1,9 @@
 ioremap.o: arch/arm64/mm/ioremap.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/mm.h include/linux/errno.h include/uapi/linux/errno.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/mm.h \
+ include/linux/errno.h include/uapi/linux/errno.h \
  arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  include/linux/mmdebug.h include/linux/bug.h arch/arm64/include/asm/bug.h \
@@ -253,8 +254,8 @@ ioremap.o: arch/arm64/mm/ioremap.c include/linux/compiler-version.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/io.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \

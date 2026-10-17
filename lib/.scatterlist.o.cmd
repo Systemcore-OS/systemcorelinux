@@ -1,4 +1,4 @@
-savedcmd_lib/scatterlist.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.scatterlist.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"lib/scatterlist"' -DKBUILD_BASENAME='"scatterlist"' -DKBUILD_MODNAME='"scatterlist"' -D__KBUILD_MODNAME=kmod_scatterlist -c -o lib/scatterlist.o lib/scatterlist.c  
+savedcmd_lib/scatterlist.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.scatterlist.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"lib/scatterlist"' -DKBUILD_BASENAME='"scatterlist"' -DKBUILD_MODNAME='"scatterlist"' -D__KBUILD_MODNAME=kmod_scatterlist -c -o lib/scatterlist.o lib/scatterlist.c  
 
 source_lib/scatterlist.o := lib/scatterlist.c
 
@@ -25,6 +25,7 @@ deps_lib/scatterlist.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -88,25 +89,78 @@ deps_lib/scatterlist.o := \
     $(wildcard include/config/RANDOM_KMALLOC_CACHES) \
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/SLAB_BUCKETS) \
-  include/linux/cache.h \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  arch/arm64/include/asm/brk-imm.h \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
     $(wildcard include/config/SMP) \
-    $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
-  include/uapi/linux/kernel.h \
-  include/uapi/linux/sysinfo.h \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
+  include/linux/once_lite.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/DYNAMIC_DEBUG) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
+  include/linux/stdarg.h \
+  include/linux/init.h \
+    $(wildcard include/config/MEMORY_HOTPLUG) \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+  include/linux/build_bug.h \
+  include/linux/kern_levels.h \
+  include/linux/ratelimit_types.h \
+  include/linux/bits.h \
   include/linux/const.h \
   include/vdso/const.h \
   include/uapi/linux/const.h \
-  arch/arm64/include/asm/cache.h \
-    $(wildcard include/config/KASAN_HW_TAGS) \
-  include/linux/bitops.h \
-  include/linux/bits.h \
   include/vdso/bits.h \
   include/uapi/linux/bits.h \
-  include/linux/build_bug.h \
   include/linux/overflow.h \
   include/linux/limits.h \
   include/uapi/linux/limits.h \
   include/vdso/limits.h \
+  include/uapi/linux/param.h \
+  arch/arm64/include/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
+  include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/DEBUG_SPINLOCK) \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
+  arch/arm64/include/asm/spinlock_types.h \
+  include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/NR_CPUS) \
+  include/asm-generic/qrwlock_types.h \
+  arch/arm64/include/uapi/asm/byteorder.h \
+  include/linux/byteorder/little_endian.h \
+  include/uapi/linux/byteorder/little_endian.h \
+  include/linux/swab.h \
+  include/uapi/linux/swab.h \
+  arch/arm64/include/generated/uapi/asm/swab.h \
+  include/uapi/asm-generic/swab.h \
+  include/linux/byteorder/generic.h \
+  include/linux/lockdep_types.h \
+    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
+    $(wildcard include/config/LOCKDEP) \
+    $(wildcard include/config/LOCK_STAT) \
+  include/linux/cache.h \
+    $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
+  include/uapi/linux/kernel.h \
+  include/uapi/linux/sysinfo.h \
+  arch/arm64/include/asm/cache.h \
+    $(wildcard include/config/KASAN_HW_TAGS) \
+  include/linux/bitops.h \
   include/linux/typecheck.h \
   include/asm-generic/bitops/generic-non-atomic.h \
   arch/arm64/include/asm/barrier.h \
@@ -132,7 +186,6 @@ deps_lib/scatterlist.o := \
     $(wildcard include/config/ARM64_ERRATUM_3194386) \
   arch/arm64/include/generated/asm/cpucap-defs.h \
   arch/arm64/include/asm/insn-def.h \
-  arch/arm64/include/asm/brk-imm.h \
   include/asm-generic/barrier.h \
   arch/arm64/include/asm/bitops.h \
   include/asm-generic/bitops/builtin-__ffs.h \
@@ -155,9 +208,6 @@ deps_lib/scatterlist.o := \
     $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
   arch/arm64/include/asm/alternative.h \
     $(wildcard include/config/MODULES) \
-  include/linux/init.h \
-    $(wildcard include/config/MEMORY_HOTPLUG) \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
   arch/arm64/include/asm/atomic_lse.h \
   include/linux/atomic/atomic-arch-fallback.h \
     $(wildcard include/config/GENERIC_ATOMIC64) \
@@ -172,14 +222,6 @@ deps_lib/scatterlist.o := \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/non-instrumented-non-atomic.h \
   include/asm-generic/bitops/le.h \
-  arch/arm64/include/uapi/asm/byteorder.h \
-  include/linux/byteorder/little_endian.h \
-  include/uapi/linux/byteorder/little_endian.h \
-  include/linux/swab.h \
-  include/uapi/linux/swab.h \
-  arch/arm64/include/generated/uapi/asm/swab.h \
-  include/uapi/asm-generic/swab.h \
-  include/linux/byteorder/generic.h \
   include/asm-generic/bitops/ext2-atomic-setbit.h \
   include/linux/kasan-enabled.h \
     $(wildcard include/config/KASAN) \
@@ -209,7 +251,6 @@ deps_lib/scatterlist.o := \
     $(wildcard include/config/COMPACTION) \
     $(wildcard include/config/CONTIG_ALLOC) \
   include/linux/gfp_types.h \
-    $(wildcard include/config/LOCKDEP) \
   include/linux/mmzone.h \
     $(wildcard include/config/ARCH_FORCE_MAX_ORDER) \
     $(wildcard include/config/CMA) \
@@ -233,9 +274,7 @@ deps_lib/scatterlist.o := \
     $(wildcard include/config/SPARSEMEM_EXTREME) \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/spinlock.h \
-    $(wildcard include/config/DEBUG_SPINLOCK) \
     $(wildcard include/config/PREEMPTION) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
     $(wildcard include/config/PREEMPT_RT) \
   include/linux/preempt.h \
     $(wildcard include/config/PREEMPT_COUNT) \
@@ -253,45 +292,7 @@ deps_lib/scatterlist.o := \
     $(wildcard include/config/GENERIC_ENTRY) \
     $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
     $(wildcard include/config/HARDENED_USERCOPY) \
-    $(wildcard include/config/BUG) \
     $(wildcard include/config/SH) \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/DYNAMIC_DEBUG) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  include/linux/stdarg.h \
-  include/linux/kern_levels.h \
-  include/linux/ratelimit_types.h \
-  include/uapi/linux/param.h \
-  arch/arm64/include/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
-  include/linux/spinlock_types_raw.h \
-  arch/arm64/include/asm/spinlock_types.h \
-  include/asm-generic/qspinlock_types.h \
-    $(wildcard include/config/NR_CPUS) \
-  include/asm-generic/qrwlock_types.h \
-  include/linux/lockdep_types.h \
-    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/LOCK_STAT) \
   include/linux/restart_block.h \
   include/linux/errno.h \
   include/uapi/linux/errno.h \
@@ -490,6 +491,9 @@ deps_lib/scatterlist.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -652,6 +656,7 @@ deps_lib/scatterlist.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -691,6 +696,7 @@ deps_lib/scatterlist.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -857,6 +863,7 @@ deps_lib/scatterlist.o := \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -996,6 +1003,8 @@ deps_lib/scatterlist.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1216,8 +1225,8 @@ $(deps_lib/scatterlist.o):
 #SYMVER sg_free_table 0xc8c85086
 #SYMVER __sg_alloc_table 0xb306ec50
 #SYMVER sg_alloc_table 0xb3f985a8
-#SYMVER sg_alloc_append_table_from_pages 0xf676a279
-#SYMVER sg_alloc_table_from_pages_segment 0x4916993f
+#SYMVER sg_alloc_append_table_from_pages 0x9fdcfd19
+#SYMVER sg_alloc_table_from_pages_segment 0xf51e1e09
 #SYMVER sgl_alloc_order 0xc2cb862e
 #SYMVER sgl_alloc 0x5e934fc7
 #SYMVER sgl_free_n_order 0x5bcea5f1
@@ -1226,14 +1235,14 @@ $(deps_lib/scatterlist.o):
 #SYMVER __sg_page_iter_start 0x0562dc30
 #SYMVER __sg_page_iter_next 0x7ef4bddc
 #SYMVER __sg_page_iter_dma_next 0xe3ad3046
-#SYMVER sg_miter_start 0xeb91a4b1
-#SYMVER sg_miter_skip 0x9bc7fa59
-#SYMVER sg_miter_next 0xb6c0b27c
-#SYMVER sg_miter_stop 0xee135567
+#SYMVER sg_miter_start 0x6f144c81
+#SYMVER sg_miter_skip 0x13e8ded9
+#SYMVER sg_miter_next 0x18fdc3e4
+#SYMVER sg_miter_stop 0x8339c217
 #SYMVER sg_copy_buffer 0x6eecfaf4
 #SYMVER sg_copy_from_buffer 0xdcbeba1d
 #SYMVER sg_copy_to_buffer 0x016f123e
 #SYMVER sg_pcopy_from_buffer 0xfe1c9ea5
 #SYMVER sg_pcopy_to_buffer 0x54b23e67
 #SYMVER sg_zero_buffer 0xb49601a1
-#SYMVER extract_iter_to_sg 0x81932422
+#SYMVER extract_iter_to_sg 0xf9b73ee1

@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/intel/iwlwifi/fw/.regulatory.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Idrivers/net/wireless/intel/iwlwifi  -DMODULE  -DKBUILD_BASENAME='"regulatory"' -DKBUILD_MODNAME='"iwlwifi"' -D__KBUILD_MODNAME=kmod_iwlwifi -c -o drivers/net/wireless/intel/iwlwifi/fw/regulatory.o drivers/net/wireless/intel/iwlwifi/fw/regulatory.c  
+savedcmd_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/intel/iwlwifi/fw/.regulatory.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456 -Idrivers/net/wireless/intel/iwlwifi  -DMODULE  -DKBUILD_BASENAME='"regulatory"' -DKBUILD_MODNAME='"iwlwifi"' -D__KBUILD_MODNAME=kmod_iwlwifi -c -o drivers/net/wireless/intel/iwlwifi/fw/regulatory.o drivers/net/wireless/intel/iwlwifi/fw/regulatory.c  
 
 source_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o := drivers/net/wireless/intel/iwlwifi/fw/regulatory.c
 
@@ -23,6 +23,7 @@ deps_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -514,6 +515,7 @@ deps_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -563,6 +565,7 @@ deps_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -648,6 +651,9 @@ deps_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -882,6 +888,7 @@ deps_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
     $(wildcard include/config/NET) \
@@ -999,6 +1006,7 @@ deps_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o := \
   include/linux/bvec.h \
   include/linux/highmem.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1285,6 +1293,8 @@ deps_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1427,9 +1437,6 @@ deps_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1667,21 +1674,21 @@ deps_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o := \
 drivers/net/wireless/intel/iwlwifi/fw/regulatory.o: $(deps_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o)
 
 $(deps_drivers/net/wireless/intel/iwlwifi/fw/regulatory.o):
-#SYMVER iwl_bios_get_wrds_table 0x5b41217f
-#SYMVER iwl_bios_get_ewrd_table 0x51877606
-#SYMVER iwl_bios_get_wgds_table 0x16bda083
-#SYMVER iwl_bios_get_ppag_table 0xa2ce5f8f
-#SYMVER iwl_bios_get_tas_table 0xcab5bdfa
-#SYMVER iwl_bios_get_pwr_limit 0x2e7eb9db
-#SYMVER iwl_bios_get_mcc 0xbaa6e054
-#SYMVER iwl_bios_get_eckv 0xd2343a5b
-#SYMVER iwl_bios_get_wbem 0xf2fd5ec4
-#SYMVER iwl_sar_geo_support 0x515f1c63
-#SYMVER iwl_sar_geo_fill_table 0xf432e57f
-#SYMVER iwl_sar_fill_profile 0x9f3a3153
-#SYMVER iwl_fill_ppag_table 0x4cde5ea4
-#SYMVER iwl_is_ppag_approved 0xa5add3b4
+#SYMVER iwl_bios_get_wrds_table 0x8e605530
+#SYMVER iwl_bios_get_ewrd_table 0xcee0f563
+#SYMVER iwl_bios_get_wgds_table 0xdfe7a5cf
+#SYMVER iwl_bios_get_ppag_table 0xd879c558
+#SYMVER iwl_bios_get_tas_table 0x70df1771
+#SYMVER iwl_bios_get_pwr_limit 0x1175c1f1
+#SYMVER iwl_bios_get_mcc 0x147de389
+#SYMVER iwl_bios_get_eckv 0x40b90fe6
+#SYMVER iwl_bios_get_wbem 0x57a74dff
+#SYMVER iwl_sar_geo_support 0x6ac30cf5
+#SYMVER iwl_sar_geo_fill_table 0x68037f60
+#SYMVER iwl_sar_fill_profile 0x4c6a714e
+#SYMVER iwl_fill_ppag_table 0xa88b1738
+#SYMVER iwl_is_ppag_approved 0x6cfe1cc0
 #SYMVER iwl_is_tas_approved 0x7c55f97b
-#SYMVER iwl_fill_lari_config 0xd1ef70bc
-#SYMVER iwl_bios_get_dsm 0xde028224
+#SYMVER iwl_fill_lari_config 0x698178f3
+#SYMVER iwl_bios_get_dsm 0x6d544180
 #SYMVER iwl_puncturing_is_allowed_in_bios 0x6e6d992a

@@ -1,4 +1,4 @@
-savedcmd_drivers/usb/core/hcd.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/core/.hcd.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/usb/core/usbcore"' -DKBUILD_BASENAME='"hcd"' -DKBUILD_MODNAME='"usbcore"' -D__KBUILD_MODNAME=kmod_usbcore -c -o drivers/usb/core/hcd.o drivers/usb/core/hcd.c  
+savedcmd_drivers/usb/core/hcd.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/core/.hcd.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/usb/core/usbcore"' -DKBUILD_BASENAME='"hcd"' -DKBUILD_MODNAME='"usbcore"' -D__KBUILD_MODNAME=kmod_usbcore -c -o drivers/usb/core/hcd.o drivers/usb/core/hcd.c  
 
 source_drivers/usb/core/hcd.o := drivers/usb/core/hcd.c
 
@@ -29,6 +29,7 @@ deps_drivers/usb/core/hcd.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -503,6 +504,7 @@ deps_drivers/usb/core/hcd.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -589,6 +591,7 @@ deps_drivers/usb/core/hcd.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -683,6 +686,9 @@ deps_drivers/usb/core/hcd.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -808,6 +814,7 @@ deps_drivers/usb/core/hcd.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1041,6 +1048,8 @@ deps_drivers/usb/core/hcd.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1118,9 +1127,6 @@ deps_drivers/usb/core/hcd.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   arch/arm64/include/asm/irq.h \
   include/asm-generic/irq.h \
   include/linux/unaligned.h \
@@ -1429,31 +1435,31 @@ drivers/usb/core/hcd.o: $(deps_drivers/usb/core/hcd.o)
 
 $(deps_drivers/usb/core/hcd.o):
 #SYMVER usb_hcds_loaded 0xc17515d7
-#SYMVER usb_bus_idr 0xbd393c18
-#SYMVER usb_bus_idr_lock 0xde78eaa6
-#SYMVER usb_hcd_poll_rh_status 0xfdadfc36
-#SYMVER usb_hcd_start_port_resume 0xa2f2854f
-#SYMVER usb_hcd_end_port_resume 0xf798f045
+#SYMVER usb_bus_idr 0x786276bd
+#SYMVER usb_bus_idr_lock 0xcd12e721
+#SYMVER usb_hcd_poll_rh_status 0x21c51544
+#SYMVER usb_hcd_start_port_resume 0x12240646
+#SYMVER usb_hcd_end_port_resume 0x1c38fdf2
 #SYMVER usb_calc_bus_time 0x7e64181d
-#SYMVER usb_hcd_link_urb_to_ep 0xfcc8df23
-#SYMVER usb_hcd_check_unlink_urb 0x9ca1d2da
-#SYMVER usb_hcd_unlink_urb_from_ep 0x75ea3fa9
-#SYMVER usb_hcd_unmap_urb_setup_for_dma 0xdb624d9d
-#SYMVER usb_hcd_unmap_urb_for_dma 0x72680e9a
-#SYMVER usb_hcd_map_urb_for_dma 0xd8adc00d
-#SYMVER usb_hcd_giveback_urb 0xac516dff
-#SYMVER usb_alloc_streams 0xcf7a7514
-#SYMVER usb_free_streams 0x408632bc
-#SYMVER usb_hcd_resume_root_hub 0xd09d2a0e
+#SYMVER usb_hcd_link_urb_to_ep 0x08301bca
+#SYMVER usb_hcd_check_unlink_urb 0x1d7b59ef
+#SYMVER usb_hcd_unlink_urb_from_ep 0x9645031a
+#SYMVER usb_hcd_unmap_urb_setup_for_dma 0xe621f4fb
+#SYMVER usb_hcd_unmap_urb_for_dma 0x3ddda55a
+#SYMVER usb_hcd_map_urb_for_dma 0x6cd849e4
+#SYMVER usb_hcd_giveback_urb 0x48f36345
+#SYMVER usb_alloc_streams 0x8734f438
+#SYMVER usb_free_streams 0xf9a0b3b4
+#SYMVER usb_hcd_resume_root_hub 0x26a16bd2
 #SYMVER usb_hcd_irq 0x70cf032f
-#SYMVER usb_hc_died 0xaa318905
-#SYMVER __usb_create_hcd 0xf4925b0e
-#SYMVER usb_create_shared_hcd 0x60496cf9
-#SYMVER usb_create_hcd 0xe062c8dd
-#SYMVER usb_get_hcd 0x066c45ee
-#SYMVER usb_put_hcd 0x5340a74d
-#SYMVER usb_hcd_is_primary_hcd 0x2bab0c47
-#SYMVER usb_add_hcd 0xf06ebca8
-#SYMVER usb_remove_hcd 0xaaf9293d
-#SYMVER usb_hcd_platform_shutdown 0x2e73f53e
-#SYMVER usb_hcd_setup_local_mem 0x3ab937cd
+#SYMVER usb_hc_died 0xd59f4d5c
+#SYMVER __usb_create_hcd 0xdc72d4af
+#SYMVER usb_create_shared_hcd 0xf5de690e
+#SYMVER usb_create_hcd 0x8e9001b0
+#SYMVER usb_get_hcd 0x4e87929e
+#SYMVER usb_put_hcd 0x03d21fdc
+#SYMVER usb_hcd_is_primary_hcd 0xab177b12
+#SYMVER usb_add_hcd 0x93265949
+#SYMVER usb_remove_hcd 0x8e90070c
+#SYMVER usb_hcd_platform_shutdown 0x28c730a1
+#SYMVER usb_hcd_setup_local_mem 0x202fc201

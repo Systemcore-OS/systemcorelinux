@@ -1,4 +1,4 @@
-savedcmd_drivers/media/common/videobuf2/videobuf2-v4l2.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/media/common/videobuf2/.videobuf2-v4l2.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"videobuf2_v4l2"' -DKBUILD_MODNAME='"videobuf2_v4l2"' -D__KBUILD_MODNAME=kmod_videobuf2_v4l2 -c -o drivers/media/common/videobuf2/videobuf2-v4l2.o drivers/media/common/videobuf2/videobuf2-v4l2.c  
+savedcmd_drivers/media/common/videobuf2/videobuf2-v4l2.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/media/common/videobuf2/.videobuf2-v4l2.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"videobuf2_v4l2"' -DKBUILD_MODNAME='"videobuf2_v4l2"' -D__KBUILD_MODNAME=kmod_videobuf2_v4l2 -c -o drivers/media/common/videobuf2/videobuf2-v4l2.o drivers/media/common/videobuf2/videobuf2-v4l2.c  
 
 source_drivers/media/common/videobuf2/videobuf2-v4l2.o := drivers/media/common/videobuf2/videobuf2-v4l2.c
 
@@ -24,6 +24,7 @@ deps_drivers/media/common/videobuf2/videobuf2-v4l2.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -204,6 +205,7 @@ deps_drivers/media/common/videobuf2/videobuf2-v4l2.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -555,6 +557,7 @@ deps_drivers/media/common/videobuf2/videobuf2-v4l2.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -669,6 +672,9 @@ deps_drivers/media/common/videobuf2/videobuf2-v4l2.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -870,6 +876,7 @@ deps_drivers/media/common/videobuf2/videobuf2-v4l2.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1074,6 +1081,8 @@ deps_drivers/media/common/videobuf2/videobuf2-v4l2.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1441,9 +1450,6 @@ deps_drivers/media/common/videobuf2/videobuf2-v4l2.o := \
   include/linux/dma-mapping.h \
     $(wildcard include/config/DMA_API_DEBUG) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/pci.h \
   include/linux/platform_device.h \
     $(wildcard include/config/HIBERNATE_CALLBACKS) \
@@ -1471,39 +1477,39 @@ deps_drivers/media/common/videobuf2/videobuf2-v4l2.o := \
 drivers/media/common/videobuf2/videobuf2-v4l2.o: $(deps_drivers/media/common/videobuf2/videobuf2-v4l2.o)
 
 $(deps_drivers/media/common/videobuf2/videobuf2-v4l2.o):
-#SYMVER vb2_find_buffer 0x3b92d013
-#SYMVER vb2_querybuf 0x01bafd9c
-#SYMVER vb2_reqbufs 0xcf77cbfe
-#SYMVER vb2_prepare_buf 0xad09db3c
-#SYMVER vb2_create_bufs 0x3702c7b1
-#SYMVER vb2_qbuf 0x7f9b5727
-#SYMVER vb2_dqbuf 0x0346a69b
-#SYMVER vb2_streamon 0x05addd27
-#SYMVER vb2_streamoff 0x246f93eb
-#SYMVER vb2_expbuf 0x4f219e06
-#SYMVER vb2_queue_init_name 0xfbde337f
-#SYMVER vb2_queue_init 0x48886830
-#SYMVER vb2_queue_release 0xe9e908c3
-#SYMVER vb2_queue_change_type 0x5c820d2d
-#SYMVER vb2_poll 0x74906d98
-#SYMVER vb2_ioctl_remove_bufs 0xf84e642f
-#SYMVER vb2_ioctl_reqbufs 0x8877dba1
-#SYMVER vb2_ioctl_create_bufs 0x87303291
-#SYMVER vb2_ioctl_prepare_buf 0x04cf4ff9
-#SYMVER vb2_ioctl_querybuf 0x14880157
-#SYMVER vb2_ioctl_qbuf 0xc947ad98
-#SYMVER vb2_ioctl_dqbuf 0xa0f268b5
-#SYMVER vb2_ioctl_streamon 0xb848c27e
-#SYMVER vb2_ioctl_streamoff 0x3c624927
-#SYMVER vb2_ioctl_expbuf 0x71b763d1
-#SYMVER vb2_fop_mmap 0xad2f3128
-#SYMVER _vb2_fop_release 0x3539d0dd
-#SYMVER vb2_fop_release 0x678ee809
-#SYMVER vb2_fop_write 0x1e23bfcf
-#SYMVER vb2_fop_read 0xd9a07b4e
-#SYMVER vb2_fop_poll 0x6b650059
-#SYMVER vb2_video_unregister_device 0x48dd480a
-#SYMVER vb2_ops_wait_prepare 0xbb60c87e
-#SYMVER vb2_ops_wait_finish 0xc2ffe544
-#SYMVER vb2_request_validate 0xb92e1373
-#SYMVER vb2_request_queue 0x2c311615
+#SYMVER vb2_find_buffer 0xdf4dc05c
+#SYMVER vb2_querybuf 0x3223b839
+#SYMVER vb2_reqbufs 0xb5932386
+#SYMVER vb2_prepare_buf 0xa0db7040
+#SYMVER vb2_create_bufs 0xdbc57bc6
+#SYMVER vb2_qbuf 0x2f8722cb
+#SYMVER vb2_dqbuf 0xf96fcb90
+#SYMVER vb2_streamon 0x0e42ad4d
+#SYMVER vb2_streamoff 0x0ebdcc2a
+#SYMVER vb2_expbuf 0x299ca88d
+#SYMVER vb2_queue_init_name 0x232f71d3
+#SYMVER vb2_queue_init 0xa68a0934
+#SYMVER vb2_queue_release 0xb6904f51
+#SYMVER vb2_queue_change_type 0x700b87da
+#SYMVER vb2_poll 0x1961dc63
+#SYMVER vb2_ioctl_remove_bufs 0x6517d198
+#SYMVER vb2_ioctl_reqbufs 0xa8d2c20f
+#SYMVER vb2_ioctl_create_bufs 0xeee53d4d
+#SYMVER vb2_ioctl_prepare_buf 0x7eba6786
+#SYMVER vb2_ioctl_querybuf 0xfa8d7412
+#SYMVER vb2_ioctl_qbuf 0x57d76317
+#SYMVER vb2_ioctl_dqbuf 0x16821889
+#SYMVER vb2_ioctl_streamon 0x793e86c8
+#SYMVER vb2_ioctl_streamoff 0x67ccacbb
+#SYMVER vb2_ioctl_expbuf 0xceb5565d
+#SYMVER vb2_fop_mmap 0x0ad7ec40
+#SYMVER _vb2_fop_release 0x11e3b75e
+#SYMVER vb2_fop_release 0x70463984
+#SYMVER vb2_fop_write 0x78defd44
+#SYMVER vb2_fop_read 0x769089e4
+#SYMVER vb2_fop_poll 0x2909b1c4
+#SYMVER vb2_video_unregister_device 0xfa5a54e3
+#SYMVER vb2_ops_wait_prepare 0x001f8fd9
+#SYMVER vb2_ops_wait_finish 0x7a076a30
+#SYMVER vb2_request_validate 0x30d554f9
+#SYMVER vb2_request_queue 0x4766771c

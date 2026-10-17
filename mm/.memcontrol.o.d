@@ -1,9 +1,9 @@
 memcontrol.o: mm/memcontrol.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/cgroup-defs.h include/linux/limits.h \
- include/uapi/linux/limits.h include/linux/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/cgroup-defs.h \
+ include/linux/limits.h include/uapi/linux/limits.h include/linux/types.h \
  include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
@@ -278,11 +278,12 @@ memcontrol.o: mm/memcontrol.c include/linux/compiler-version.h \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
- include/linux/huge_mm.h include/linux/vmstat.h include/linux/writeback.h \
- include/linux/flex_proportions.h include/linux/backing-dev-defs.h \
- include/linux/blk_types.h include/linux/bvec.h include/linux/highmem.h \
- include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
- include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/writeback.h include/linux/flex_proportions.h \
+ include/linux/backing-dev-defs.h include/linux/blk_types.h \
+ include/linux/bvec.h include/linux/highmem.h include/linux/cacheflush.h \
+ arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
+ include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/trace_clock.h \
  arch/arm64/include/generated/asm/trace_clock.h \
  include/asm-generic/trace_clock.h include/linux/kallsyms.h \
@@ -369,17 +370,17 @@ memcontrol.o: mm/memcontrol.c include/linux/compiler-version.h \
  arch/arm64/include/asm/vdso/clocksource.h include/vdso/clocksource.h \
  include/linux/kmemleak.h include/linux/vmalloc.h \
  arch/arm64/include/asm/vmalloc.h mm/internal.h \
- include/linux/khugepaged.h include/linux/rmap.h mm/vma.h \
- include/net/sock.h include/linux/netdevice.h include/linux/delay.h \
- arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
- include/linux/prefetch.h include/linux/dynamic_queue_limits.h \
- include/net/net_namespace.h include/net/flow.h include/linux/in6.h \
- include/uapi/linux/in6.h include/net/netns/core.h \
- include/net/netns/mib.h include/net/snmp.h include/uapi/linux/snmp.h \
- include/net/netns/unix.h include/net/netns/packet.h \
- include/net/netns/ipv4.h include/net/inet_frag.h \
- include/net/dropreason-core.h include/linux/siphash.h \
- include/net/netns/ipv6.h include/net/dst_ops.h \
+ include/linux/khugepaged.h include/linux/pagewalk.h include/linux/rmap.h \
+ mm/vma.h include/net/sock.h include/linux/netdevice.h \
+ include/linux/delay.h arch/arm64/include/generated/asm/delay.h \
+ include/asm-generic/delay.h include/linux/prefetch.h \
+ include/linux/dynamic_queue_limits.h include/net/net_namespace.h \
+ include/net/flow.h include/linux/in6.h include/uapi/linux/in6.h \
+ include/net/netns/core.h include/net/netns/mib.h include/net/snmp.h \
+ include/uapi/linux/snmp.h include/net/netns/unix.h \
+ include/net/netns/packet.h include/net/netns/ipv4.h \
+ include/net/inet_frag.h include/net/dropreason-core.h \
+ include/linux/siphash.h include/net/netns/ipv6.h include/net/dst_ops.h \
  include/uapi/linux/icmpv6.h include/net/netns/nexthop.h \
  include/net/netns/ieee802154_6lowpan.h include/net/netns/sctp.h \
  include/net/netns/netfilter.h include/linux/netfilter_defs.h \
@@ -401,7 +402,6 @@ memcontrol.o: mm/memcontrol.c include/linux/compiler-version.h \
  include/linux/stackdepot.h include/linux/skbuff.h include/net/checksum.h \
  arch/arm64/include/asm/checksum.h include/asm-generic/checksum.h \
  include/linux/dma-mapping.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/uapi/linux/if_ether.h include/uapi/linux/pkt_cls.h \
  include/uapi/linux/pkt_sched.h include/uapi/linux/if_packet.h \

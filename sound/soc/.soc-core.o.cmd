@@ -1,4 +1,4 @@
-savedcmd_sound/soc/soc-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/.soc-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"soc_core"' -DKBUILD_MODNAME='"snd_soc_core"' -D__KBUILD_MODNAME=kmod_snd_soc_core -c -o sound/soc/soc-core.o sound/soc/soc-core.c  
+savedcmd_sound/soc/soc-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/.soc-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"soc_core"' -DKBUILD_MODNAME='"snd_soc_core"' -D__KBUILD_MODNAME=kmod_snd_soc_core -c -o sound/soc/soc-core.o sound/soc/soc-core.c  
 
 source_sound/soc/soc-core.o := sound/soc/soc-core.c
 
@@ -26,6 +26,7 @@ deps_sound/soc/soc-core.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -499,6 +500,7 @@ deps_sound/soc/soc-core.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -585,6 +587,7 @@ deps_sound/soc/soc-core.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -679,6 +682,9 @@ deps_sound/soc/soc-core.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -804,6 +810,7 @@ deps_sound/soc/soc-core.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1184,6 +1191,8 @@ deps_sound/soc/soc-core.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1524,57 +1533,57 @@ deps_sound/soc/soc-core.o := \
 sound/soc/soc-core.o: $(deps_sound/soc/soc-core.o)
 
 $(deps_sound/soc/soc-core.o):
-#SYMVER null_dailink_component 0x20675b9f
-#SYMVER snd_soc_debugfs_root 0x8c92f843
-#SYMVER snd_soc_dai_name_get 0xfa35aaee
-#SYMVER snd_soc_rtdcom_lookup 0x99ec903a
-#SYMVER snd_soc_lookup_component_nolocked 0x4b3b5023
-#SYMVER snd_soc_lookup_component 0x3469a0c5
-#SYMVER snd_soc_get_pcm_runtime 0x7be4a736
-#SYMVER snd_soc_close_delayed_work 0xb14c632d
-#SYMVER snd_soc_copy_dai_args 0x2a542880
-#SYMVER snd_soc_find_dai 0xf9cf44ce
-#SYMVER snd_soc_find_dai_with_mutex 0x6fa02e4d
-#SYMVER snd_soc_remove_pcm_runtime 0x054d4d6a
-#SYMVER snd_soc_add_pcm_runtimes 0x7dde1f7d
-#SYMVER snd_soc_runtime_set_dai_fmt 0xefc1d80e
-#SYMVER snd_soc_set_dmi_name 0x6ca2981a
-#SYMVER snd_soc_poweroff 0xfd70a3e9
-#SYMVER snd_soc_pm_ops 0x5b2ba638
-#SYMVER snd_soc_cnew 0x3360f6c7
-#SYMVER snd_soc_add_component_controls 0x0cbb6ef4
-#SYMVER snd_soc_add_card_controls 0x61addc33
-#SYMVER snd_soc_add_dai_controls 0x5d0e492d
-#SYMVER snd_soc_register_card 0x62d1cd8e
-#SYMVER snd_soc_unregister_card 0xf51c009f
-#SYMVER snd_soc_unregister_dai 0x5be39c9d
-#SYMVER snd_soc_register_dai 0xd824d5c5
-#SYMVER snd_soc_component_initialize 0xc19441f4
-#SYMVER snd_soc_add_component 0x5dd03dfa
-#SYMVER snd_soc_register_component 0x1481743e
-#SYMVER snd_soc_unregister_component_by_driver 0x8ea88a87
-#SYMVER snd_soc_unregister_component 0x27066612
-#SYMVER snd_soc_of_parse_card_name 0x149a97e1
-#SYMVER snd_soc_of_parse_audio_simple_widgets 0x56a27dc4
-#SYMVER snd_soc_of_parse_pin_switches 0x509b3ff1
-#SYMVER snd_soc_of_get_slot_mask 0xa78c1467
-#SYMVER snd_soc_of_parse_tdm_slot 0x51dcbfe6
-#SYMVER snd_soc_dlc_use_cpu_as_platform 0x1de92502
-#SYMVER snd_soc_of_parse_node_prefix 0x791cf89b
-#SYMVER snd_soc_of_parse_audio_routing 0x8e87041a
-#SYMVER snd_soc_of_parse_aux_devs 0x997436d9
+#SYMVER null_dailink_component 0x6832f2ef
+#SYMVER snd_soc_debugfs_root 0xd967bbd8
+#SYMVER snd_soc_dai_name_get 0x430a5f1c
+#SYMVER snd_soc_rtdcom_lookup 0x52f43e14
+#SYMVER snd_soc_lookup_component_nolocked 0x3226f293
+#SYMVER snd_soc_lookup_component 0x24b7ef6f
+#SYMVER snd_soc_get_pcm_runtime 0x178e04db
+#SYMVER snd_soc_close_delayed_work 0xf6979791
+#SYMVER snd_soc_copy_dai_args 0xa12a08bc
+#SYMVER snd_soc_find_dai 0xdc940f05
+#SYMVER snd_soc_find_dai_with_mutex 0xcae3cab7
+#SYMVER snd_soc_remove_pcm_runtime 0x6a1c091a
+#SYMVER snd_soc_add_pcm_runtimes 0x570c9c67
+#SYMVER snd_soc_runtime_set_dai_fmt 0x52cb1839
+#SYMVER snd_soc_set_dmi_name 0x661e6ddf
+#SYMVER snd_soc_poweroff 0x80cd3589
+#SYMVER snd_soc_pm_ops 0x55e0f05e
+#SYMVER snd_soc_cnew 0x16e46041
+#SYMVER snd_soc_add_component_controls 0xa46e1d42
+#SYMVER snd_soc_add_card_controls 0x225dc0e4
+#SYMVER snd_soc_add_dai_controls 0x9c15c67b
+#SYMVER snd_soc_register_card 0x8ec16e1b
+#SYMVER snd_soc_unregister_card 0x1f2da3d3
+#SYMVER snd_soc_unregister_dai 0x63b06f81
+#SYMVER snd_soc_register_dai 0x01e05379
+#SYMVER snd_soc_component_initialize 0xdcd5058a
+#SYMVER snd_soc_add_component 0x6fae0d96
+#SYMVER snd_soc_register_component 0xfe971099
+#SYMVER snd_soc_unregister_component_by_driver 0x1db0e1b8
+#SYMVER snd_soc_unregister_component 0xf4642f5d
+#SYMVER snd_soc_of_parse_card_name 0x7fd96150
+#SYMVER snd_soc_of_parse_audio_simple_widgets 0x8d6fd1af
+#SYMVER snd_soc_of_parse_pin_switches 0x9ad7c7b6
+#SYMVER snd_soc_of_get_slot_mask 0xf60bcec8
+#SYMVER snd_soc_of_parse_tdm_slot 0xd167ff55
+#SYMVER snd_soc_dlc_use_cpu_as_platform 0xfa13b0e9
+#SYMVER snd_soc_of_parse_node_prefix 0xb8513174
+#SYMVER snd_soc_of_parse_audio_routing 0x24acca97
+#SYMVER snd_soc_of_parse_aux_devs 0x8a6e14cc
 #SYMVER snd_soc_daifmt_clock_provider_flipped 0xc317a15e
 #SYMVER snd_soc_daifmt_clock_provider_from_bitmap 0xf9622dd1
-#SYMVER snd_soc_daifmt_parse_format 0xa3995243
-#SYMVER snd_soc_daifmt_parse_clock_provider_raw 0x63af8e3b
-#SYMVER snd_soc_get_stream_cpu 0x555b5d37
-#SYMVER snd_soc_get_dai_id 0xa7078c94
-#SYMVER snd_soc_get_dlc 0x2f78e67a
-#SYMVER snd_soc_of_get_dlc 0x42768e4d
-#SYMVER snd_soc_get_dai_name 0x6fa6c334
-#SYMVER snd_soc_of_get_dai_name 0xc15cf255
-#SYMVER snd_soc_get_dai_via_args 0xf1851357
-#SYMVER snd_soc_of_put_dai_link_codecs 0x5421bb5e
-#SYMVER snd_soc_of_get_dai_link_codecs 0x4659e09a
-#SYMVER snd_soc_of_put_dai_link_cpus 0x5152cad9
-#SYMVER snd_soc_of_get_dai_link_cpus 0x28c5f61f
+#SYMVER snd_soc_daifmt_parse_format 0x50bf9e31
+#SYMVER snd_soc_daifmt_parse_clock_provider_raw 0xbe4f6fd5
+#SYMVER snd_soc_get_stream_cpu 0x79df1efb
+#SYMVER snd_soc_get_dai_id 0xdd57167c
+#SYMVER snd_soc_get_dlc 0xa0bffd69
+#SYMVER snd_soc_of_get_dlc 0xd0e305c3
+#SYMVER snd_soc_get_dai_name 0x11772007
+#SYMVER snd_soc_of_get_dai_name 0x8007a93c
+#SYMVER snd_soc_get_dai_via_args 0x219c27c3
+#SYMVER snd_soc_of_put_dai_link_codecs 0x5c1f1a67
+#SYMVER snd_soc_of_get_dai_link_codecs 0x78081cc8
+#SYMVER snd_soc_of_put_dai_link_cpus 0xba405113
+#SYMVER snd_soc_of_get_dai_link_cpus 0xfd503418

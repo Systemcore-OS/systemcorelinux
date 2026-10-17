@@ -1,8 +1,9 @@
 mtdcore.o: drivers/mtd/mtdcore.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/module.h include/linux/list.h include/linux/container_of.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/module.h \
+ include/linux/list.h include/linux/container_of.h \
  include/linux/build_bug.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
  include/asm-generic/rwonce.h include/linux/kasan-checks.h \
@@ -261,11 +262,11 @@ mtdcore.o: drivers/mtd/mtdcore.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/nsproxy.h \
- include/linux/ns_common.h include/uapi/linux/ptrace.h \
- include/linux/seccomp.h include/uapi/linux/seccomp.h \
- arch/arm64/include/asm/seccomp.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/nsproxy.h include/linux/ns_common.h \
+ include/uapi/linux/ptrace.h include/linux/seccomp.h \
+ include/uapi/linux/seccomp.h arch/arm64/include/asm/seccomp.h \
  arch/arm64/include/generated/asm/unistd_compat_32.h \
  include/asm-generic/seccomp.h include/uapi/linux/unistd.h \
  arch/arm64/include/asm/unistd.h \

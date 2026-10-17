@@ -1,6 +1,7 @@
 sc16is7xx.o: drivers/tty/serial/sc16is7xx.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/bits.h \
  include/linux/const.h include/vdso/const.h include/uapi/linux/const.h \
@@ -18,8 +19,9 @@ sc16is7xx.o: drivers/tty/serial/sc16is7xx.c \
  arch/arm64/include/uapi/asm/posix_types.h \
  include/uapi/asm-generic/posix_types.h include/linux/kcsan-checks.h \
  include/linux/overflow.h include/linux/limits.h \
- include/uapi/linux/limits.h include/vdso/limits.h include/linux/clk.h \
- include/linux/err.h arch/arm64/include/generated/uapi/asm/errno.h \
+ include/uapi/linux/limits.h include/vdso/limits.h \
+ include/linux/cleanup.h include/linux/clk.h include/linux/err.h \
+ arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  include/linux/kernel.h include/linux/stdarg.h include/linux/align.h \
  include/linux/array_size.h include/linux/linkage.h \
@@ -81,8 +83,8 @@ sc16is7xx.o: drivers/tty/serial/sc16is7xx.c \
  include/linux/rtmutex.h include/linux/rbtree_types.h \
  include/linux/rwlock_types.h include/linux/rwbase_rt.h \
  include/linux/lockdep.h include/linux/smp.h include/linux/cpumask.h \
- include/linux/cleanup.h include/linux/bitmap.h include/linux/find.h \
- include/linux/string.h include/linux/args.h include/uapi/linux/string.h \
+ include/linux/bitmap.h include/linux/find.h include/linux/string.h \
+ include/linux/args.h include/uapi/linux/string.h \
  arch/arm64/include/asm/string.h include/linux/bitmap-str.h \
  include/linux/cpumask_types.h include/linux/threads.h \
  include/linux/bug.h arch/arm64/include/asm/bug.h \

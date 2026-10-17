@@ -1,10 +1,11 @@
 rdma_dim.o: lib/dim/rdma_dim.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/dim.h include/linux/bits.h include/linux/const.h \
- include/vdso/const.h include/uapi/linux/const.h include/vdso/bits.h \
- include/uapi/linux/bits.h arch/arm64/include/uapi/asm/bitsperlong.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/dim.h \
+ include/linux/bits.h include/linux/const.h include/vdso/const.h \
+ include/uapi/linux/const.h include/vdso/bits.h include/uapi/linux/bits.h \
+ arch/arm64/include/uapi/asm/bitsperlong.h \
  include/asm-generic/bitsperlong.h include/uapi/asm-generic/bitsperlong.h \
  include/linux/build_bug.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \

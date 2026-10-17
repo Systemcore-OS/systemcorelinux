@@ -1,6 +1,7 @@
 flow_dissector.o: net/core/flow_dissector.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/kernel.h \
  include/linux/stdarg.h include/linux/align.h include/linux/const.h \
@@ -273,19 +274,19 @@ flow_dissector.o: net/core/flow_dissector.c \
  include/linux/range.h include/linux/page_ext.h \
  include/linux/stacktrace.h include/linux/page_ref.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
- include/linux/vmstat.h include/linux/vm_event_item.h \
- include/linux/module.h include/linux/kmod.h include/linux/umh.h \
- include/linux/elf.h arch/arm64/include/asm/elf.h \
- arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
- include/uapi/linux/elf.h include/uapi/linux/elf-em.h \
- include/linux/moduleparam.h include/linux/rbtree_latch.h \
- include/linux/error-injection.h include/asm-generic/error-injection.h \
- include/linux/dynamic_debug.h arch/arm64/include/asm/module.h \
- include/asm-generic/module.h include/linux/ptrace.h \
- include/linux/pid_namespace.h include/linux/nsproxy.h \
- include/linux/ns_common.h include/uapi/linux/ptrace.h \
- include/linux/seccomp.h include/uapi/linux/seccomp.h \
- arch/arm64/include/asm/seccomp.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/vm_event_item.h include/linux/module.h \
+ include/linux/kmod.h include/linux/umh.h include/linux/elf.h \
+ arch/arm64/include/asm/elf.h arch/arm64/include/generated/asm/user.h \
+ include/asm-generic/user.h include/uapi/linux/elf.h \
+ include/uapi/linux/elf-em.h include/linux/moduleparam.h \
+ include/linux/rbtree_latch.h include/linux/error-injection.h \
+ include/asm-generic/error-injection.h include/linux/dynamic_debug.h \
+ arch/arm64/include/asm/module.h include/asm-generic/module.h \
+ include/linux/ptrace.h include/linux/pid_namespace.h \
+ include/linux/nsproxy.h include/linux/ns_common.h \
+ include/uapi/linux/ptrace.h include/linux/seccomp.h \
+ include/uapi/linux/seccomp.h arch/arm64/include/asm/seccomp.h \
  arch/arm64/include/generated/asm/unistd_compat_32.h \
  include/asm-generic/seccomp.h include/uapi/linux/unistd.h \
  arch/arm64/include/asm/unistd.h \
@@ -319,8 +320,7 @@ flow_dissector.o: net/core/flow_dissector.c \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/linux/siphash.h \
  include/uapi/linux/if_ether.h include/uapi/linux/pkt_cls.h \
  include/uapi/linux/pkt_sched.h include/uapi/linux/if_packet.h \
@@ -410,18 +410,19 @@ flow_dissector.o: net/core/flow_dissector.c \
  include/vdso/unaligned.h include/uapi/linux/if_vlan.h \
  include/linux/filter.h include/linux/sched/clock.h \
  include/linux/set_memory.h arch/arm64/include/asm/set_memory.h \
- include/asm-generic/set_memory.h include/linux/vmalloc.h \
- arch/arm64/include/asm/vmalloc.h include/crypto/sha1.h \
- include/net/sch_generic.h include/uapi/linux/pkt_cls.h \
- include/net/gen_stats.h include/uapi/linux/gen_stats.h \
- include/net/flow_offload.h include/net/dsa.h include/linux/of.h \
- include/linux/mod_devicetable.h include/uapi/linux/mei.h \
- include/uapi/linux/mei_uuid.h include/linux/property.h \
- include/linux/ethtool.h include/uapi/linux/ethtool.h include/linux/phy.h \
- include/linux/leds.h include/dt-bindings/leds/common.h \
- include/linux/linkmode.h include/linux/mdio.h include/uapi/linux/mdio.h \
- include/linux/mii.h include/uapi/linux/mii.h \
- include/linux/mii_timestamper.h include/linux/iopoll.h include/net/eee.h \
+ arch/arm64/include/asm/mem_encrypt.h include/asm-generic/set_memory.h \
+ include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
+ include/crypto/sha1.h include/net/sch_generic.h \
+ include/uapi/linux/pkt_cls.h include/net/gen_stats.h \
+ include/uapi/linux/gen_stats.h include/net/flow_offload.h \
+ include/net/dsa.h include/linux/of.h include/linux/mod_devicetable.h \
+ include/uapi/linux/mei.h include/uapi/linux/mei_uuid.h \
+ include/linux/property.h include/linux/ethtool.h \
+ include/uapi/linux/ethtool.h include/linux/phy.h include/linux/leds.h \
+ include/dt-bindings/leds/common.h include/linux/linkmode.h \
+ include/linux/mdio.h include/uapi/linux/mdio.h include/linux/mii.h \
+ include/uapi/linux/mii.h include/linux/mii_timestamper.h \
+ include/linux/iopoll.h include/net/eee.h \
  include/linux/platform_data/dsa.h include/linux/phylink.h \
  include/net/devlink.h include/uapi/linux/devlink.h \
  include/linux/firmware.h include/net/switchdev.h include/net/ip_fib.h \

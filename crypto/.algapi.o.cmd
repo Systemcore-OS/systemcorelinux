@@ -1,4 +1,4 @@
-savedcmd_crypto/algapi.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,crypto/.algapi.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"crypto/crypto_algapi"' -DKBUILD_BASENAME='"algapi"' -DKBUILD_MODNAME='"crypto_algapi"' -D__KBUILD_MODNAME=kmod_crypto_algapi -c -o crypto/algapi.o crypto/algapi.c  
+savedcmd_crypto/algapi.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,crypto/.algapi.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"crypto/crypto_algapi"' -DKBUILD_BASENAME='"algapi"' -DKBUILD_MODNAME='"crypto_algapi"' -D__KBUILD_MODNAME=kmod_crypto_algapi -c -o crypto/algapi.o crypto/algapi.c  
 
 source_crypto/algapi.o := crypto/algapi.c
 
@@ -28,6 +28,7 @@ deps_crypto/algapi.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -503,6 +504,9 @@ deps_crypto/algapi.o := \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/list_nulls.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -661,6 +665,7 @@ deps_crypto/algapi.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -700,6 +705,7 @@ deps_crypto/algapi.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -825,6 +831,7 @@ deps_crypto/algapi.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -971,6 +978,7 @@ deps_crypto/algapi.o := \
     $(wildcard include/config/MODULES_USE_ELF_REL) \
     $(wildcard include/config/MODULES_USE_ELF_RELA) \
   include/linux/rtnetlink.h \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_INGRESS) \
   include/linux/netdevice.h \
     $(wildcard include/config/DCB) \
@@ -1315,6 +1323,8 @@ deps_crypto/algapi.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1424,9 +1434,6 @@ deps_crypto/algapi.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1558,34 +1565,34 @@ deps_crypto/algapi.o := \
 crypto/algapi.o: $(deps_crypto/algapi.o)
 
 $(deps_crypto/algapi.o):
-#SYMVER crypto_remove_spawns 0x16ca24c5
+#SYMVER crypto_remove_spawns 0xf6f97255
 #SYMVER crypto_alg_tested 0x808ec1a3
 #SYMVER crypto_remove_final 0x3de9cae1
-#SYMVER crypto_register_alg 0x3ea08b84
-#SYMVER crypto_unregister_alg 0xbab5ab01
-#SYMVER crypto_register_algs 0xe150ca54
-#SYMVER crypto_unregister_algs 0xf6e933a9
-#SYMVER crypto_register_template 0x072917d7
-#SYMVER crypto_register_templates 0x08f73573
-#SYMVER crypto_unregister_template 0x41dc3d33
-#SYMVER crypto_unregister_templates 0x678449eb
-#SYMVER crypto_lookup_template 0x7b17482f
-#SYMVER crypto_register_instance 0x98c5b081
-#SYMVER crypto_unregister_instance 0x6248f5f7
-#SYMVER crypto_grab_spawn 0xdb899619
-#SYMVER crypto_drop_spawn 0x1f4a7dca
-#SYMVER crypto_spawn_tfm 0xe13b06bd
-#SYMVER crypto_spawn_tfm2 0x4f34490d
+#SYMVER crypto_register_alg 0x387c5352
+#SYMVER crypto_unregister_alg 0x1ecda068
+#SYMVER crypto_register_algs 0x939ef172
+#SYMVER crypto_unregister_algs 0xa475b19f
+#SYMVER crypto_register_template 0x3e6d7d92
+#SYMVER crypto_register_templates 0x04a26196
+#SYMVER crypto_unregister_template 0xc500ebec
+#SYMVER crypto_unregister_templates 0x430f1de4
+#SYMVER crypto_lookup_template 0xdeab059b
+#SYMVER crypto_register_instance 0x1e5fb7ce
+#SYMVER crypto_unregister_instance 0xda4db25f
+#SYMVER crypto_grab_spawn 0xbe360de6
+#SYMVER crypto_drop_spawn 0xb3f713cd
+#SYMVER crypto_spawn_tfm 0x9a58813c
+#SYMVER crypto_spawn_tfm2 0x4c7979c9
 #SYMVER crypto_register_notifier 0x9879932b
 #SYMVER crypto_unregister_notifier 0x710c73b6
 #SYMVER crypto_get_attr_type 0xfdbd7a17
 #SYMVER crypto_check_attr_type 0x4934bdd0
 #SYMVER crypto_attr_alg_name 0x9a11a0fc
-#SYMVER crypto_inst_setname 0x4ecc83c3
+#SYMVER crypto_inst_setname 0xbf5a2c01
 #SYMVER crypto_init_queue 0x499043d3
-#SYMVER crypto_enqueue_request 0x1bf175fd
-#SYMVER crypto_enqueue_request_head 0x966db89a
-#SYMVER crypto_dequeue_request 0x31865c51
+#SYMVER crypto_enqueue_request 0x2124b63b
+#SYMVER crypto_enqueue_request_head 0x7135fa81
+#SYMVER crypto_dequeue_request 0xa0d71293
 #SYMVER crypto_inc 0x3ef051c8
-#SYMVER crypto_alg_extsize 0x7ca1f5cf
-#SYMVER crypto_type_has_alg 0x635b367a
+#SYMVER crypto_alg_extsize 0x29edb4c6
+#SYMVER crypto_type_has_alg 0x13d5a9fa

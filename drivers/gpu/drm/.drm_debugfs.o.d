@@ -1,6 +1,7 @@
 drm_debugfs.o: drivers/gpu/drm/drm_debugfs.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/debugfs.h \
  include/linux/fs.h include/linux/linkage.h \
@@ -298,7 +299,7 @@ drm_debugfs.o: drivers/gpu/drm/drm_debugfs.c \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/ptrace.h \
  include/linux/pid_namespace.h include/linux/nsproxy.h \
  include/linux/ns_common.h include/uapi/linux/ptrace.h \
@@ -338,7 +339,6 @@ drm_debugfs.o: drivers/gpu/drm/drm_debugfs.c \
  include/linux/dma-fence.h include/drm/drm_gem.h include/linux/dma-buf.h \
  include/linux/file.h include/linux/scatterlist.h \
  include/linux/dma-mapping.h include/linux/dma-direction.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/drm/drm_vma_manager.h include/drm/drm_mm.h \
  include/drm/drm_print.h include/uapi/drm/drm.h include/drm/drm_exec.h \
  include/drm/drm_drv.h include/video/nomodeset.h include/drm/drm_edid.h \

@@ -1,12 +1,12 @@
 resource.o: kernel/resource.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/export.h include/linux/compiler.h \
- include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
- include/asm-generic/rwonce.h include/linux/kasan-checks.h \
- include/linux/types.h include/uapi/linux/types.h \
- arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/export.h \
+ include/linux/compiler.h include/linux/compiler_types.h \
+ arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
+ include/linux/kasan-checks.h include/linux/types.h \
+ include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -23,7 +23,24 @@ resource.o: kernel/resource.c include/linux/compiler-version.h \
  include/uapi/linux/bits.h include/linux/build_bug.h \
  include/linux/overflow.h include/linux/limits.h \
  include/uapi/linux/limits.h include/vdso/limits.h include/linux/minmax.h \
- include/linux/init.h include/linux/slab.h include/linux/cache.h \
+ include/linux/init.h include/linux/slab.h include/linux/bug.h \
+ arch/arm64/include/asm/bug.h arch/arm64/include/asm/asm-bug.h \
+ arch/arm64/include/asm/brk-imm.h include/asm-generic/bug.h \
+ include/linux/instrumentation.h include/linux/once_lite.h \
+ include/linux/panic.h include/linux/printk.h include/linux/stdarg.h \
+ include/linux/kern_levels.h include/linux/ratelimit_types.h \
+ include/uapi/linux/param.h arch/arm64/include/uapi/asm/param.h \
+ include/asm-generic/param.h include/uapi/asm-generic/param.h \
+ include/linux/spinlock_types_raw.h \
+ arch/arm64/include/asm/spinlock_types.h \
+ include/asm-generic/qspinlock_types.h \
+ include/asm-generic/qrwlock_types.h \
+ arch/arm64/include/uapi/asm/byteorder.h \
+ include/linux/byteorder/little_endian.h \
+ include/uapi/linux/byteorder/little_endian.h include/linux/swab.h \
+ include/uapi/linux/swab.h arch/arm64/include/generated/uapi/asm/swab.h \
+ include/uapi/asm-generic/swab.h include/linux/byteorder/generic.h \
+ include/linux/lockdep_types.h include/linux/cache.h \
  include/uapi/linux/kernel.h include/uapi/linux/sysinfo.h \
  arch/arm64/include/asm/cache.h include/linux/bitops.h \
  include/linux/typecheck.h \
@@ -32,8 +49,8 @@ resource.o: kernel/resource.c include/linux/compiler-version.h \
  arch/arm64/include/asm/alternative-macros.h \
  arch/arm64/include/asm/cpucaps.h \
  arch/arm64/include/generated/asm/cpucap-defs.h \
- arch/arm64/include/asm/insn-def.h arch/arm64/include/asm/brk-imm.h \
- include/asm-generic/barrier.h arch/arm64/include/asm/bitops.h \
+ arch/arm64/include/asm/insn-def.h include/asm-generic/barrier.h \
+ arch/arm64/include/asm/bitops.h \
  include/asm-generic/bitops/builtin-__ffs.h \
  include/asm-generic/bitops/builtin-ffs.h \
  include/asm-generic/bitops/builtin-__fls.h \
@@ -55,11 +72,7 @@ resource.o: kernel/resource.c include/linux/compiler-version.h \
  include/asm-generic/bitops/instrumented-lock.h \
  include/asm-generic/bitops/non-atomic.h \
  include/asm-generic/bitops/non-instrumented-non-atomic.h \
- include/asm-generic/bitops/le.h arch/arm64/include/uapi/asm/byteorder.h \
- include/linux/byteorder/little_endian.h \
- include/uapi/linux/byteorder/little_endian.h include/linux/swab.h \
- include/uapi/linux/swab.h arch/arm64/include/generated/uapi/asm/swab.h \
- include/uapi/asm-generic/swab.h include/linux/byteorder/generic.h \
+ include/asm-generic/bitops/le.h \
  include/asm-generic/bitops/ext2-atomic-setbit.h \
  include/linux/kasan-enabled.h include/linux/static_key.h \
  include/linux/jump_label.h arch/arm64/include/asm/jump_label.h \
@@ -71,17 +84,6 @@ resource.o: kernel/resource.c include/linux/compiler-version.h \
  include/linux/gfp_types.h include/linux/mmzone.h \
  include/linux/spinlock.h include/linux/preempt.h include/linux/cleanup.h \
  arch/arm64/include/asm/preempt.h include/linux/thread_info.h \
- include/linux/bug.h arch/arm64/include/asm/bug.h \
- arch/arm64/include/asm/asm-bug.h include/asm-generic/bug.h \
- include/linux/instrumentation.h include/linux/once_lite.h \
- include/linux/panic.h include/linux/printk.h include/linux/stdarg.h \
- include/linux/kern_levels.h include/linux/ratelimit_types.h \
- include/uapi/linux/param.h arch/arm64/include/uapi/asm/param.h \
- include/asm-generic/param.h include/uapi/asm-generic/param.h \
- include/linux/spinlock_types_raw.h \
- arch/arm64/include/asm/spinlock_types.h \
- include/asm-generic/qspinlock_types.h \
- include/asm-generic/qrwlock_types.h include/linux/lockdep_types.h \
  include/linux/restart_block.h arch/arm64/include/asm/current.h \
  arch/arm64/include/asm/thread_info.h arch/arm64/include/asm/memory.h \
  include/linux/sizes.h arch/arm64/include/asm/page-def.h \
@@ -256,9 +258,9 @@ resource.o: kernel/resource.c include/linux/compiler-version.h \
  include/linux/page_table_check.h include/asm-generic/pgtable_uffd.h \
  include/linux/memremap.h include/linux/huge_mm.h include/linux/kobject.h \
  include/linux/sysfs.h include/linux/kernfs.h include/linux/idr.h \
- include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sockptr.h \
- include/linux/bpf.h include/uapi/linux/bpf.h \
+ include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sockptr.h include/linux/bpf.h include/uapi/linux/bpf.h \
  include/uapi/linux/bpf_common.h include/uapi/linux/filter.h \
  include/linux/rbtree_latch.h include/linux/module.h \
  include/linux/buildid.h include/linux/kmod.h include/linux/umh.h \

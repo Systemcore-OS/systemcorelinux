@@ -1,4 +1,4 @@
-savedcmd_drivers/gpu/drm/ttm/ttm_bo_util.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/ttm/.ttm_bo_util.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"ttm_bo_util"' -DKBUILD_MODNAME='"ttm"' -D__KBUILD_MODNAME=kmod_ttm -c -o drivers/gpu/drm/ttm/ttm_bo_util.o drivers/gpu/drm/ttm/ttm_bo_util.c  
+savedcmd_drivers/gpu/drm/ttm/ttm_bo_util.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/ttm/.ttm_bo_util.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"ttm_bo_util"' -DKBUILD_MODNAME='"ttm"' -D__KBUILD_MODNAME=kmod_ttm -c -o drivers/gpu/drm/ttm/ttm_bo_util.o drivers/gpu/drm/ttm/ttm_bo_util.c  
 
 source_drivers/gpu/drm/ttm/ttm_bo_util.o := drivers/gpu/drm/ttm/ttm_bo_util.c
 
@@ -24,6 +24,7 @@ deps_drivers/gpu/drm/ttm/ttm_bo_util.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -456,6 +457,7 @@ deps_drivers/gpu/drm/ttm/ttm_bo_util.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -548,6 +550,7 @@ deps_drivers/gpu/drm/ttm/ttm_bo_util.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -616,6 +619,7 @@ deps_drivers/gpu/drm/ttm/ttm_bo_util.o := \
     $(wildcard include/config/ARCH_SUPPORTS_PMD_PFNMAP) \
     $(wildcard include/config/ARCH_SUPPORTS_PUD_PFNMAP) \
     $(wildcard include/config/PAGE_TABLE_CHECK) \
+    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
     $(wildcard include/config/ARCH_ENABLE_THP_MIGRATION) \
     $(wildcard include/config/ARM64_CONTPTE) \
   arch/arm64/include/asm/proc-fns.h \
@@ -709,6 +713,9 @@ deps_drivers/gpu/drm/ttm/ttm_bo_util.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -749,7 +756,6 @@ deps_drivers/gpu/drm/ttm/ttm_bo_util.o := \
   arch/arm64/include/asm/io.h \
   include/linux/pgtable.h \
     $(wildcard include/config/HIGHPTE) \
-    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
     $(wildcard include/config/ARCH_HAS_HW_PTE_YOUNG) \
     $(wildcard include/config/GUP_GET_PXX_LOW_HIGH) \
     $(wildcard include/config/ARCH_WANT_PMD_MKWRITE) \
@@ -885,6 +891,7 @@ deps_drivers/gpu/drm/ttm/ttm_bo_util.o := \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -1024,6 +1031,8 @@ deps_drivers/gpu/drm/ttm/ttm_bo_util.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1118,9 +1127,6 @@ deps_drivers/gpu/drm/ttm/ttm_bo_util.o := \
   arch/arm64/include/asm/device.h \
   include/linux/pm_wakeup.h \
   include/linux/dma-direction.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/dma-fence.h \
   include/linux/dma-resv.h \
   include/linux/ww_mutex.h \
@@ -1286,11 +1292,11 @@ drivers/gpu/drm/ttm/ttm_bo_util.o: $(deps_drivers/gpu/drm/ttm/ttm_bo_util.o)
 
 $(deps_drivers/gpu/drm/ttm/ttm_bo_util.o):
 #SYMVER ttm_move_memcpy 0x1a71d30c
-#SYMVER ttm_bo_move_memcpy 0x1eae5df9
-#SYMVER ttm_io_prot 0x2e776676
-#SYMVER ttm_bo_kmap 0x7c29f026
-#SYMVER ttm_bo_kunmap 0xb4168a78
-#SYMVER ttm_bo_vmap 0x4cc7bb37
-#SYMVER ttm_bo_vunmap 0xe4187a2c
-#SYMVER ttm_bo_move_accel_cleanup 0xf70cb85c
-#SYMVER ttm_bo_move_sync_cleanup 0xffcd464a
+#SYMVER ttm_bo_move_memcpy 0xe2e2172e
+#SYMVER ttm_io_prot 0x55deacde
+#SYMVER ttm_bo_kmap 0xa47aa771
+#SYMVER ttm_bo_kunmap 0xe138711a
+#SYMVER ttm_bo_vmap 0xbffe3502
+#SYMVER ttm_bo_vunmap 0x08c1dcaf
+#SYMVER ttm_bo_move_accel_cleanup 0xf64649e9
+#SYMVER ttm_bo_move_sync_cleanup 0x54ecfa5c

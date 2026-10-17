@@ -1,6 +1,7 @@
 drm_format_helper.o: drivers/gpu/drm/drm_format_helper.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/io.h \
  include/linux/sizes.h include/linux/const.h include/vdso/const.h \

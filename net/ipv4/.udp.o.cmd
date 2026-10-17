@@ -1,4 +1,4 @@
-savedcmd_net/ipv4/udp.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ipv4/.udp.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/ipv4/udp"' -DKBUILD_BASENAME='"udp"' -DKBUILD_MODNAME='"udp"' -D__KBUILD_MODNAME=kmod_udp -c -o net/ipv4/udp.o net/ipv4/udp.c  
+savedcmd_net/ipv4/udp.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ipv4/.udp.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"net/ipv4/udp"' -DKBUILD_BASENAME='"udp"' -DKBUILD_MODNAME='"udp"' -D__KBUILD_MODNAME=kmod_udp -c -o net/ipv4/udp.o net/ipv4/udp.c  
 
 source_net/ipv4/udp.o := net/ipv4/udp.c
 
@@ -30,6 +30,7 @@ deps_net/ipv4/udp.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -511,6 +512,7 @@ deps_net/ipv4/udp.o := \
     $(wildcard include/config/BCACHE) \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -597,6 +599,7 @@ deps_net/ipv4/udp.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -675,6 +678,9 @@ deps_net/ipv4/udp.o := \
   include/linux/rbtree_latch.h \
   include/linux/rbtree.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/mm_types.h \
@@ -827,6 +833,7 @@ deps_net/ipv4/udp.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1051,6 +1058,8 @@ deps_net/ipv4/udp.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1402,6 +1411,7 @@ deps_net/ipv4/udp.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/flow.h \
@@ -1506,9 +1516,6 @@ deps_net/ipv4/udp.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1693,7 +1700,9 @@ deps_net/ipv4/udp.o := \
   include/linux/set_memory.h \
     $(wildcard include/config/ARCH_HAS_SET_MEMORY) \
     $(wildcard include/config/ARCH_HAS_SET_DIRECT_MAP) \
+    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
   arch/arm64/include/asm/set_memory.h \
+  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/set_memory.h \
   include/linux/vmalloc.h \
     $(wildcard include/config/HAVE_ARCH_HUGE_VMALLOC) \
@@ -1718,44 +1727,44 @@ deps_net/ipv4/udp.o := \
 net/ipv4/udp.o: $(deps_net/ipv4/udp.o)
 
 $(deps_net/ipv4/udp.o):
-#SYMVER udp_table 0xe8077b35
+#SYMVER udp_table 0xc89a3b51
 #SYMVER sysctl_udp_mem 0x40973662
 #SYMVER udp_memory_allocated 0x272a8933
 #SYMVER udp_memory_per_cpu_fw_alloc 0xde0af24f
-#SYMVER udp_lib_get_port 0x645eecb5
-#SYMVER __udp4_lib_lookup 0x3b11aad1
-#SYMVER udp4_lib_lookup 0x60938a1d
+#SYMVER udp_lib_get_port 0xdac46a3e
+#SYMVER __udp4_lib_lookup 0x41083a6c
+#SYMVER udp4_lib_lookup 0x8a6a893c
 #SYMVER udp_encap_needed_key 0x3868fbbb
 #SYMVER udpv6_encap_needed_key 0xd0fabe2e
 #SYMVER udp_encap_enable 0x99517682
 #SYMVER udp_encap_disable 0xed656e30
-#SYMVER udp_flush_pending_frames 0x9f565b63
-#SYMVER udp4_hwcsum 0x34f19bff
-#SYMVER udp_set_csum 0x2ea74335
-#SYMVER udp_push_pending_frames 0x84827f7c
-#SYMVER udp_cmsg_send 0x697819ee
-#SYMVER udp_sendmsg 0x0ea6e374
-#SYMVER udp_splice_eof 0x00b9fc85
-#SYMVER udp_skb_destructor 0x22125fc2
-#SYMVER __udp_enqueue_schedule_skb 0x899da7a9
-#SYMVER udp_destruct_common 0x73ef96fe
-#SYMVER skb_consume_udp 0xae4437b6
-#SYMVER udp_ioctl 0x777f70ee
-#SYMVER __skb_recv_udp 0x0c454637
-#SYMVER udp_read_skb 0xf1e718b8
-#SYMVER udp_pre_connect 0x84c41b36
-#SYMVER __udp_disconnect 0x609f4029
-#SYMVER udp_disconnect 0x526565b8
-#SYMVER udp_lib_unhash 0xa56aa00d
-#SYMVER udp_lib_rehash 0x4f0d725c
-#SYMVER udp_sk_rx_dst_set 0x7abbfae8
-#SYMVER udp_lib_setsockopt 0x7d83baee
-#SYMVER udp_lib_getsockopt 0xa71a5dff
-#SYMVER udp_poll 0xcc0870d7
-#SYMVER udp_abort 0x84eb602c
-#SYMVER udp_prot 0x9fc5bc5b
-#SYMVER udp_seq_start 0x3e22d65d
-#SYMVER udp_seq_next 0x0bf11864
-#SYMVER udp_seq_stop 0x62d1cf14
-#SYMVER udp_seq_ops 0x8409cec1
+#SYMVER udp_flush_pending_frames 0x95acecd1
+#SYMVER udp4_hwcsum 0x01e9447c
+#SYMVER udp_set_csum 0xb9d80892
+#SYMVER udp_push_pending_frames 0xe876ffa3
+#SYMVER udp_cmsg_send 0x0f2f1a75
+#SYMVER udp_sendmsg 0x34d94f42
+#SYMVER udp_splice_eof 0x6ea84ce3
+#SYMVER udp_skb_destructor 0xec5bc026
+#SYMVER __udp_enqueue_schedule_skb 0x53e02111
+#SYMVER udp_destruct_common 0xdcb78842
+#SYMVER skb_consume_udp 0x7a101321
+#SYMVER udp_ioctl 0x3821be7e
+#SYMVER __skb_recv_udp 0x147188e3
+#SYMVER udp_read_skb 0x02aa250c
+#SYMVER udp_pre_connect 0xbbc589e6
+#SYMVER __udp_disconnect 0xca65d382
+#SYMVER udp_disconnect 0x3c32a1cc
+#SYMVER udp_lib_unhash 0x457cf60a
+#SYMVER udp_lib_rehash 0xb910aece
+#SYMVER udp_sk_rx_dst_set 0x990975f3
+#SYMVER udp_lib_setsockopt 0x7dd58770
+#SYMVER udp_lib_getsockopt 0xbeb6e168
+#SYMVER udp_poll 0x8a3e0a60
+#SYMVER udp_abort 0x51a7e6e5
+#SYMVER udp_prot 0xab53d9d2
+#SYMVER udp_seq_start 0xb39ff9d2
+#SYMVER udp_seq_next 0x1cc2306d
+#SYMVER udp_seq_stop 0xae5cecc9
+#SYMVER udp_seq_ops 0x5ef81b13
 #SYMVER udp_flow_hashrnd 0xac3201b0

@@ -1,6 +1,7 @@
 em28xx-cards.o: drivers/media/usb/em28xx/em28xx-cards.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h drivers/media/usb/em28xx/em28xx.h \
  include/linux/bitfield.h include/linux/build_bug.h \
@@ -310,11 +311,12 @@ em28xx-cards.o: drivers/media/usb/em28xx/em28xx-cards.c \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h include/linux/writeback.h \
- include/linux/flex_proportions.h include/linux/backing-dev-defs.h \
- include/linux/blk_types.h include/linux/bvec.h include/linux/highmem.h \
- include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
- include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/writeback.h include/linux/flex_proportions.h \
+ include/linux/backing-dev-defs.h include/linux/blk_types.h \
+ include/linux/bvec.h include/linux/highmem.h include/linux/cacheflush.h \
+ arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
+ include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/trace_clock.h \
  arch/arm64/include/generated/asm/trace_clock.h \
  include/asm-generic/trace_clock.h include/linux/kallsyms.h \
@@ -357,7 +359,6 @@ em28xx-cards.o: drivers/media/usb/em28xx/em28xx-cards.c \
  include/uapi/asm-generic/poll.h include/uapi/linux/eventpoll.h \
  include/linux/dma-buf.h include/linux/iosys-map.h include/linux/file.h \
  include/linux/scatterlist.h include/linux/dma-mapping.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/dma-fence.h include/media/media-request.h \
  include/media/media-device.h include/linux/pci.h include/linux/msi_api.h \
  include/uapi/linux/pci.h include/uapi/linux/pci_regs.h \

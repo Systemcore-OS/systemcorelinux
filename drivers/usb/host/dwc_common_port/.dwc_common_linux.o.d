@@ -1,6 +1,7 @@
 dwc_common_linux.o: drivers/usb/host/dwc_common_port/dwc_common_linux.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/kernel.h \
  include/linux/stdarg.h include/linux/align.h include/linux/const.h \
@@ -276,20 +277,18 @@ dwc_common_linux.o: drivers/usb/host/dwc_common_port/dwc_common_linux.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
- include/linux/fwnode.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/cdev.h \
- include/linux/interrupt.h include/linux/irqreturn.h \
- include/linux/hardirq.h include/linux/context_tracking_state.h \
- include/linux/ftrace_irq.h include/linux/vtime.h \
- arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
- include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- include/asm-generic/hardirq.h include/linux/irq.h \
- include/linux/irqhandler.h include/linux/io.h \
+ include/linux/fwnode.h include/linux/cdev.h include/linux/interrupt.h \
+ include/linux/irqreturn.h include/linux/hardirq.h \
+ include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
+ include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
+ arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/generated/asm/irq_regs.h \
  include/asm-generic/irq_regs.h include/linux/irqdesc.h \
  arch/arm64/include/generated/asm/hw_irq.h include/asm-generic/hw_irq.h \

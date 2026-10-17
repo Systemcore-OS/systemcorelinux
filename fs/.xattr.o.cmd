@@ -1,4 +1,4 @@
-savedcmd_fs/xattr.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.xattr.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/xattr"' -DKBUILD_BASENAME='"xattr"' -DKBUILD_MODNAME='"xattr"' -D__KBUILD_MODNAME=kmod_xattr -c -o fs/xattr.o fs/xattr.c  
+savedcmd_fs/xattr.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.xattr.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"fs/xattr"' -DKBUILD_BASENAME='"xattr"' -DKBUILD_MODNAME='"xattr"' -D__KBUILD_MODNAME=kmod_xattr -c -o fs/xattr.o fs/xattr.c  
 
 source_fs/xattr.o := fs/xattr.c
 
@@ -23,6 +23,7 @@ deps_fs/xattr.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -34,6 +35,7 @@ deps_fs/xattr.o := \
     $(wildcard include/config/ARM64_PTR_AUTH) \
     $(wildcard include/config/BUILTIN_RETURN_ADDRESS_STRIPS_PAC) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/SMP) \
     $(wildcard include/config/FS_POSIX_ACL) \
@@ -496,6 +498,9 @@ deps_fs/xattr.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -597,6 +602,7 @@ deps_fs/xattr.o := \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -645,6 +651,7 @@ deps_fs/xattr.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -993,6 +1000,8 @@ deps_fs/xattr.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1384,7 +1393,6 @@ deps_fs/xattr.o := \
     $(wildcard include/config/HAVE_PERF_REGS) \
   arch/arm64/include/uapi/asm/perf_regs.h \
   include/linux/fsnotify.h \
-    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
   include/linux/fsnotify_backend.h \
   include/linux/audit.h \
     $(wildcard include/config/AUDIT_COMPAT_GENERIC) \
@@ -1406,15 +1414,15 @@ deps_fs/xattr.o := \
 fs/xattr.o: $(deps_fs/xattr.o)
 
 $(deps_fs/xattr.o):
-#SYMVER xattr_supports_user_prefix 0x670f4541
-#SYMVER __vfs_setxattr 0xa2405323
-#SYMVER __vfs_setxattr_locked 0x3c94f0b3
-#SYMVER vfs_setxattr 0x014bc145
-#SYMVER __vfs_getxattr 0xa70e2a33
-#SYMVER vfs_getxattr 0x5731f676
-#SYMVER vfs_listxattr 0x03e3ad76
-#SYMVER __vfs_removexattr 0x9cc72158
-#SYMVER __vfs_removexattr_locked 0x18ef218b
-#SYMVER vfs_removexattr 0x08a1d719
-#SYMVER generic_listxattr 0x69c10b3e
-#SYMVER xattr_full_name 0x9f9119d3
+#SYMVER xattr_supports_user_prefix 0x2bd20a7b
+#SYMVER __vfs_setxattr 0xacea0991
+#SYMVER __vfs_setxattr_locked 0xdd9ed2fd
+#SYMVER vfs_setxattr 0x9e43d417
+#SYMVER __vfs_getxattr 0xe943ab0d
+#SYMVER vfs_getxattr 0x99cf8718
+#SYMVER vfs_listxattr 0xd1f18dfc
+#SYMVER __vfs_removexattr 0x7bbfc0b7
+#SYMVER __vfs_removexattr_locked 0x52a4cc31
+#SYMVER vfs_removexattr 0x828c23dc
+#SYMVER generic_listxattr 0xfc5273d6
+#SYMVER xattr_full_name 0xed389311

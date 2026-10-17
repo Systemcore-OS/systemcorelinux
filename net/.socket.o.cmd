@@ -1,4 +1,4 @@
-savedcmd_net/socket.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/.socket.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/socket"' -DKBUILD_BASENAME='"socket"' -DKBUILD_MODNAME='"socket"' -D__KBUILD_MODNAME=kmod_socket -c -o net/socket.o net/socket.c  
+savedcmd_net/socket.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/.socket.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"net/socket"' -DKBUILD_BASENAME='"socket"' -DKBUILD_MODNAME='"socket"' -D__KBUILD_MODNAME=kmod_socket -c -o net/socket.o net/socket.c  
 
 source_net/socket.o := net/socket.c
 
@@ -35,6 +35,7 @@ deps_net/socket.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -513,6 +514,7 @@ deps_net/socket.o := \
     $(wildcard include/config/BCACHE) \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -599,6 +601,7 @@ deps_net/socket.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -677,6 +680,9 @@ deps_net/socket.o := \
   include/linux/rbtree_latch.h \
   include/linux/rbtree.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/mm_types.h \
@@ -829,6 +835,7 @@ deps_net/socket.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1053,6 +1060,8 @@ deps_net/socket.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1402,6 +1411,7 @@ deps_net/socket.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/flow.h \
@@ -1505,9 +1515,6 @@ deps_net/socket.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1667,7 +1674,9 @@ deps_net/socket.o := \
   include/linux/set_memory.h \
     $(wildcard include/config/ARCH_HAS_SET_MEMORY) \
     $(wildcard include/config/ARCH_HAS_SET_DIRECT_MAP) \
+    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
   arch/arm64/include/asm/set_memory.h \
+  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/set_memory.h \
   include/linux/vmalloc.h \
     $(wildcard include/config/HAVE_ARCH_HUGE_VMALLOC) \
@@ -1752,38 +1761,38 @@ deps_net/socket.o := \
 net/socket.o: $(deps_net/socket.o)
 
 $(deps_net/socket.o):
-#SYMVER sock_alloc_file 0x3b775364
-#SYMVER sock_from_file 0x867a82c8
-#SYMVER sockfd_lookup 0x2780c12c
-#SYMVER sock_alloc 0xf46296b5
-#SYMVER sock_release 0x65f4094a
+#SYMVER sock_alloc_file 0x1bb6bf4d
+#SYMVER sock_from_file 0xda2d8b6a
+#SYMVER sockfd_lookup 0x93d4a639
+#SYMVER sock_alloc 0x0c005117
+#SYMVER sock_release 0xf3dc47cb
 #SYMVER __sock_tx_timestamp 0x437a0d6d
-#SYMVER sock_sendmsg 0xefc4ef47
-#SYMVER kernel_sendmsg 0xe610c634
-#SYMVER kernel_sendmsg_locked 0x2c63bf5d
-#SYMVER __sock_recv_timestamp 0x2e52dcd1
-#SYMVER __sock_recv_wifi_status 0x883f060a
-#SYMVER __sock_recv_cmsgs 0x72f7ddb0
-#SYMVER sock_recvmsg 0x2c51c384
-#SYMVER kernel_recvmsg 0x3191f78a
-#SYMVER brioctl_set 0x01ed5993
-#SYMVER vlan_ioctl_set 0x044edce4
-#SYMVER sock_create_lite 0xacfc01b3
-#SYMVER sock_wake_async 0x922df206
-#SYMVER __sock_create 0xbe36383b
-#SYMVER sock_create 0x2e7026df
-#SYMVER sock_create_kern 0xd5e29e8c
-#SYMVER do_sock_setsockopt 0x9501b8b0
-#SYMVER do_sock_getsockopt 0x018cac1a
-#SYMVER sock_register 0xc612faab
+#SYMVER sock_sendmsg 0x254a6390
+#SYMVER kernel_sendmsg 0x7aaa7f5b
+#SYMVER kernel_sendmsg_locked 0xaea39102
+#SYMVER __sock_recv_timestamp 0xfc046921
+#SYMVER __sock_recv_wifi_status 0x4e287714
+#SYMVER __sock_recv_cmsgs 0x955d3ae7
+#SYMVER sock_recvmsg 0xab902b8b
+#SYMVER kernel_recvmsg 0xcac8cb7e
+#SYMVER brioctl_set 0xec5089a1
+#SYMVER vlan_ioctl_set 0x20d9e8eb
+#SYMVER sock_create_lite 0x42e454f7
+#SYMVER sock_wake_async 0xaccf3256
+#SYMVER __sock_create 0x5dc01064
+#SYMVER sock_create 0x7daecca4
+#SYMVER sock_create_kern 0x06539fa2
+#SYMVER do_sock_setsockopt 0xe4023d18
+#SYMVER do_sock_getsockopt 0xecb2b5d5
+#SYMVER sock_register 0xa4b53c03
 #SYMVER sock_unregister 0x62737e1d
 #SYMVER get_user_ifreq 0x80816f26
 #SYMVER put_user_ifreq 0x87809aeb
-#SYMVER kernel_bind 0x478a5b55
-#SYMVER kernel_listen 0xfa52583e
-#SYMVER kernel_accept 0x609c9024
-#SYMVER kernel_connect 0x43d31cb1
-#SYMVER kernel_getsockname 0xc0d80177
-#SYMVER kernel_getpeername 0x64fc7eea
-#SYMVER kernel_sock_shutdown 0xe1259fa1
-#SYMVER kernel_sock_ip_overhead 0x43fd00fa
+#SYMVER kernel_bind 0x98220e44
+#SYMVER kernel_listen 0x13d1b276
+#SYMVER kernel_accept 0x5889359f
+#SYMVER kernel_connect 0xbdc06d58
+#SYMVER kernel_getsockname 0x121f90ba
+#SYMVER kernel_getpeername 0x89f452e3
+#SYMVER kernel_sock_shutdown 0x8162e77d
+#SYMVER kernel_sock_ip_overhead 0x0e346834

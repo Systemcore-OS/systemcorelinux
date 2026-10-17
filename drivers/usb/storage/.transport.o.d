@@ -1,6 +1,7 @@
 transport.o: drivers/usb/storage/transport.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/sched.h \
  include/uapi/linux/sched.h include/linux/types.h \
@@ -256,8 +257,9 @@ transport.o: drivers/usb/storage/transport.c \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
@@ -278,7 +280,6 @@ transport.o: drivers/usb/storage/transport.c \
  include/linux/dynamic_debug.h arch/arm64/include/asm/module.h \
  include/asm-generic/module.h arch/arm64/include/asm/device.h \
  include/linux/pm_wakeup.h include/linux/dma-direction.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/blkdev.h include/linux/blk_types.h include/linux/bvec.h \
  include/linux/highmem.h include/linux/cacheflush.h \
  arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \

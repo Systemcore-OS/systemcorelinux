@@ -303,6 +303,7 @@ deps_config := \
 	drivers/net/ethernet/adaptec/Kconfig \
 	drivers/net/ethernet/aeroflex/Kconfig \
 	drivers/net/ethernet/agere/Kconfig \
+	drivers/net/ethernet/airoha/Kconfig \
 	drivers/net/ethernet/alacritech/Kconfig \
 	drivers/net/ethernet/allwinner/Kconfig \
 	drivers/net/ethernet/alteon/Kconfig \
@@ -434,6 +435,7 @@ deps_config := \
 	drivers/net/ipa/Kconfig \
 	drivers/net/phy/Kconfig \
 	drivers/net/phy/aquantia/Kconfig \
+	drivers/net/phy/mediatek/Kconfig \
 	drivers/net/phy/qcom/Kconfig \
 	drivers/net/pse-pd/Kconfig \
 	drivers/net/can/Kconfig \
@@ -815,6 +817,7 @@ deps_config := \
 	drivers/auxdisplay/Kconfig \
 	drivers/char/agp/Kconfig \
 	drivers/gpu/vga/Kconfig \
+	drivers/gpu/Kconfig \
 	drivers/gpu/host1x/Kconfig \
 	drivers/gpu/ipu-v3/Kconfig \
 	drivers/gpu/drm/Kconfig \
@@ -1621,7 +1624,7 @@ ifneq "$(ARCH)" "arm64"
 $(autoconfig): FORCE
 endif
 
-ifneq "$(KERNELVERSION)" "6.12.77"
+ifneq "$(KERNELVERSION)" "6.12.112"
 $(autoconfig): FORCE
 endif
 

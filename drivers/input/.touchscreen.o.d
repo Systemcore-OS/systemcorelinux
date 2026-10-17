@@ -1,6 +1,7 @@
 touchscreen.o: drivers/input/touchscreen.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/property.h \
  include/linux/args.h include/linux/array_size.h include/linux/compiler.h \
@@ -19,21 +20,16 @@ touchscreen.o: drivers/input/touchscreen.c \
  include/uapi/linux/const.h include/vdso/bits.h include/uapi/linux/bits.h \
  include/linux/build_bug.h include/linux/overflow.h \
  include/linux/limits.h include/uapi/linux/limits.h include/vdso/limits.h \
- include/linux/cleanup.h include/linux/fwnode.h include/linux/err.h \
- arch/arm64/include/generated/uapi/asm/errno.h \
- include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
- include/linux/list.h include/linux/container_of.h include/linux/poison.h \
+ include/linux/cleanup.h include/linux/fwnode.h include/linux/bitops.h \
+ include/linux/typecheck.h include/uapi/linux/kernel.h \
+ include/uapi/linux/sysinfo.h \
+ include/asm-generic/bitops/generic-non-atomic.h \
  arch/arm64/include/asm/barrier.h \
  arch/arm64/include/asm/alternative-macros.h \
  arch/arm64/include/asm/cpucaps.h \
  arch/arm64/include/generated/asm/cpucap-defs.h \
  arch/arm64/include/asm/insn-def.h arch/arm64/include/asm/brk-imm.h \
  include/linux/stringify.h include/asm-generic/barrier.h \
- include/linux/input.h include/linux/time.h include/linux/cache.h \
- include/uapi/linux/kernel.h include/uapi/linux/sysinfo.h \
- arch/arm64/include/asm/cache.h include/linux/bitops.h \
- include/linux/typecheck.h \
- include/asm-generic/bitops/generic-non-atomic.h \
  arch/arm64/include/asm/bitops.h \
  include/asm-generic/bitops/builtin-__ffs.h \
  include/asm-generic/bitops/builtin-ffs.h \
@@ -63,12 +59,16 @@ touchscreen.o: drivers/input/touchscreen.c \
  include/uapi/linux/byteorder/little_endian.h include/linux/swab.h \
  include/uapi/linux/swab.h arch/arm64/include/generated/uapi/asm/swab.h \
  include/uapi/asm-generic/swab.h include/linux/byteorder/generic.h \
- include/asm-generic/bitops/ext2-atomic-setbit.h \
- include/linux/kasan-enabled.h include/linux/static_key.h \
- include/linux/jump_label.h arch/arm64/include/asm/jump_label.h \
- arch/arm64/include/asm/insn.h arch/arm64/include/asm/cputype.h \
- arch/arm64/include/asm/sysreg.h include/linux/kasan-tags.h \
- arch/arm64/include/asm/gpr-num.h \
+ include/asm-generic/bitops/ext2-atomic-setbit.h include/linux/err.h \
+ arch/arm64/include/generated/uapi/asm/errno.h \
+ include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
+ include/linux/list.h include/linux/container_of.h include/linux/poison.h \
+ include/linux/input.h include/linux/time.h include/linux/cache.h \
+ arch/arm64/include/asm/cache.h include/linux/kasan-enabled.h \
+ include/linux/static_key.h include/linux/jump_label.h \
+ arch/arm64/include/asm/jump_label.h arch/arm64/include/asm/insn.h \
+ arch/arm64/include/asm/cputype.h arch/arm64/include/asm/sysreg.h \
+ include/linux/kasan-tags.h arch/arm64/include/asm/gpr-num.h \
  arch/arm64/include/generated/asm/sysreg-defs.h include/linux/bitfield.h \
  arch/arm64/include/asm/mte-def.h include/linux/math64.h \
  include/linux/math.h arch/arm64/include/generated/asm/div64.h \

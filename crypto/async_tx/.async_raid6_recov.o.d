@@ -1,6 +1,7 @@
 async_raid6_recov.o: crypto/async_tx/async_raid6_recov.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/kernel.h \
  include/linux/stdarg.h include/linux/align.h include/linux/const.h \
@@ -285,9 +286,8 @@ async_raid6_recov.o: crypto/async_tx/async_raid6_recov.c \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/raid/pq.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/vm_event_item.h include/linux/raid/pq.h \
  include/linux/blkdev.h include/linux/blk_types.h include/linux/bvec.h \
  include/linux/highmem.h include/linux/cacheflush.h \
  arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \

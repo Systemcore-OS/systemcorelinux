@@ -1,9 +1,10 @@
 blk-core.o: block/blk-core.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/kernel.h include/linux/stdarg.h include/linux/align.h \
- include/linux/const.h include/vdso/const.h include/uapi/linux/const.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/kernel.h \
+ include/linux/stdarg.h include/linux/align.h include/linux/const.h \
+ include/vdso/const.h include/uapi/linux/const.h \
  include/linux/array_size.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
  include/asm-generic/rwonce.h include/linux/kasan-checks.h \
@@ -281,7 +282,7 @@ blk-core.o: block/blk-core.c include/linux/compiler-version.h \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/ptrace.h \
  include/linux/pid_namespace.h include/linux/nsproxy.h \
  include/linux/ns_common.h include/uapi/linux/ptrace.h \

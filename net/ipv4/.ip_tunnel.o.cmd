@@ -1,4 +1,4 @@
-savedcmd_net/ipv4/ip_tunnel.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ipv4/.ip_tunnel.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"ip_tunnel"' -DKBUILD_MODNAME='"ip_tunnel"' -D__KBUILD_MODNAME=kmod_ip_tunnel -c -o net/ipv4/ip_tunnel.o net/ipv4/ip_tunnel.c  
+savedcmd_net/ipv4/ip_tunnel.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ipv4/.ip_tunnel.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"ip_tunnel"' -DKBUILD_MODNAME='"ip_tunnel"' -D__KBUILD_MODNAME=kmod_ip_tunnel -c -o net/ipv4/ip_tunnel.o net/ipv4/ip_tunnel.c  
 
 source_net/ipv4/ip_tunnel.o := net/ipv4/ip_tunnel.c
 
@@ -25,6 +25,7 @@ deps_net/ipv4/ip_tunnel.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -505,6 +506,7 @@ deps_net/ipv4/ip_tunnel.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -591,6 +593,7 @@ deps_net/ipv4/ip_tunnel.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -680,6 +683,9 @@ deps_net/ipv4/ip_tunnel.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -805,6 +811,7 @@ deps_net/ipv4/ip_tunnel.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1151,6 +1158,8 @@ deps_net/ipv4/ip_tunnel.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1275,9 +1284,6 @@ deps_net/ipv4/ip_tunnel.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1353,6 +1359,7 @@ deps_net/ipv4/ip_tunnel.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1674,27 +1681,27 @@ deps_net/ipv4/ip_tunnel.o := \
 net/ipv4/ip_tunnel.o: $(deps_net/ipv4/ip_tunnel.o)
 
 $(deps_net/ipv4/ip_tunnel.o):
-#SYMVER ip_tunnel_lookup 0xd1f62443
-#SYMVER ip_tunnel_md_udp_encap 0x20fc8ed2
-#SYMVER ip_tunnel_rcv 0xc7771804
-#SYMVER ip_tunnel_encap_add_ops 0x286fdd34
-#SYMVER ip_tunnel_encap_del_ops 0x55f90a64
-#SYMVER ip_tunnel_encap_setup 0x091edf54
-#SYMVER ip_md_tunnel_xmit 0x6d4f224a
-#SYMVER ip_tunnel_xmit 0x6f68f4e6
-#SYMVER ip_tunnel_ctl 0x06eebade
+#SYMVER ip_tunnel_lookup 0x126aa24f
+#SYMVER ip_tunnel_md_udp_encap 0x20ee768b
+#SYMVER ip_tunnel_rcv 0xd0c944d8
+#SYMVER ip_tunnel_encap_add_ops 0xfe1063ec
+#SYMVER ip_tunnel_encap_del_ops 0x5c2bf289
+#SYMVER ip_tunnel_encap_setup 0x2a397009
+#SYMVER ip_md_tunnel_xmit 0x2424e231
+#SYMVER ip_tunnel_xmit 0xd82bc770
+#SYMVER ip_tunnel_ctl 0xf2ef134e
 #SYMVER ip_tunnel_parm_from_user 0x7f835b87
 #SYMVER ip_tunnel_parm_to_user 0xfca8744d
-#SYMVER ip_tunnel_siocdevprivate 0x7a225dca
-#SYMVER __ip_tunnel_change_mtu 0x8175e429
-#SYMVER ip_tunnel_change_mtu 0xa791f99f
-#SYMVER ip_tunnel_dellink 0xf9c64d1e
-#SYMVER ip_tunnel_get_link_net 0xef9ff6db
-#SYMVER ip_tunnel_get_iflink 0xebf4eb2c
-#SYMVER ip_tunnel_init_net 0xca53923b
-#SYMVER ip_tunnel_delete_nets 0x3489dfac
-#SYMVER ip_tunnel_newlink 0x82b2d5a7
-#SYMVER ip_tunnel_changelink 0xdec797e7
-#SYMVER ip_tunnel_init 0x4b89cebf
-#SYMVER ip_tunnel_uninit 0x3d88366d
-#SYMVER ip_tunnel_setup 0x2b78d7a9
+#SYMVER ip_tunnel_siocdevprivate 0x3f60be0d
+#SYMVER __ip_tunnel_change_mtu 0x68ecf3b1
+#SYMVER ip_tunnel_change_mtu 0xc228c474
+#SYMVER ip_tunnel_dellink 0x9b589d35
+#SYMVER ip_tunnel_get_link_net 0xa6e9915d
+#SYMVER ip_tunnel_get_iflink 0x4b1e414a
+#SYMVER ip_tunnel_init_net 0x5eae51ba
+#SYMVER ip_tunnel_delete_nets 0x4ad91c66
+#SYMVER ip_tunnel_newlink 0xe885b96a
+#SYMVER ip_tunnel_changelink 0x49d8a672
+#SYMVER ip_tunnel_init 0x5c6667c4
+#SYMVER ip_tunnel_uninit 0xd619a454
+#SYMVER ip_tunnel_setup 0x2e69be3f

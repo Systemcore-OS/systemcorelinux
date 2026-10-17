@@ -1,4 +1,4 @@
-savedcmd_drivers/gpu/drm/drm_mipi_dbi.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_mipi_dbi.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_mipi_dbi"' -DKBUILD_MODNAME='"drm_mipi_dbi"' -D__KBUILD_MODNAME=kmod_drm_mipi_dbi -c -o drivers/gpu/drm/drm_mipi_dbi.o drivers/gpu/drm/drm_mipi_dbi.c  
+savedcmd_drivers/gpu/drm/drm_mipi_dbi.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_mipi_dbi.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_mipi_dbi"' -DKBUILD_MODNAME='"drm_mipi_dbi"' -D__KBUILD_MODNAME=kmod_drm_mipi_dbi -c -o drivers/gpu/drm/drm_mipi_dbi.o drivers/gpu/drm/drm_mipi_dbi.c  
 
 source_drivers/gpu/drm/drm_mipi_dbi.o := drivers/gpu/drm/drm_mipi_dbi.c
 
@@ -25,6 +25,7 @@ deps_drivers/gpu/drm/drm_mipi_dbi.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -208,6 +209,7 @@ deps_drivers/gpu/drm/drm_mipi_dbi.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -559,6 +561,7 @@ deps_drivers/gpu/drm/drm_mipi_dbi.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -673,6 +676,9 @@ deps_drivers/gpu/drm/drm_mipi_dbi.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -874,6 +880,7 @@ deps_drivers/gpu/drm/drm_mipi_dbi.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1269,6 +1276,8 @@ deps_drivers/gpu/drm/drm_mipi_dbi.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
   include/linux/writeback.h \
@@ -1458,9 +1467,6 @@ deps_drivers/gpu/drm/drm_mipi_dbi.o := \
     $(wildcard include/config/DMA_API_DEBUG) \
     $(wildcard include/config/HAS_DMA) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/dma-fence.h \
   include/linux/dma-resv.h \
   include/drm/drm_vma_manager.h \
@@ -1478,26 +1484,26 @@ deps_drivers/gpu/drm/drm_mipi_dbi.o := \
 drivers/gpu/drm/drm_mipi_dbi.o: $(deps_drivers/gpu/drm/drm_mipi_dbi.o)
 
 $(deps_drivers/gpu/drm/drm_mipi_dbi.o):
-#SYMVER mipi_dbi_command_read 0xc70591ef
-#SYMVER mipi_dbi_command_buf 0xde3e04e8
-#SYMVER mipi_dbi_command_stackbuf 0x416490bc
-#SYMVER mipi_dbi_buf_copy 0xfb127a39
-#SYMVER mipi_dbi_pipe_mode_valid 0xd2202bba
-#SYMVER mipi_dbi_pipe_update 0x92f83727
-#SYMVER mipi_dbi_enable_flush 0xdc0992e7
-#SYMVER mipi_dbi_pipe_disable 0x49aed262
-#SYMVER mipi_dbi_pipe_begin_fb_access 0xd894d43b
-#SYMVER mipi_dbi_pipe_end_fb_access 0x3c626b2b
-#SYMVER mipi_dbi_pipe_reset_plane 0x308cbcb2
-#SYMVER mipi_dbi_pipe_duplicate_plane_state 0xaf477e40
-#SYMVER mipi_dbi_pipe_destroy_plane_state 0x9ac851c5
-#SYMVER mipi_dbi_dev_init_with_formats 0xde2c1775
-#SYMVER mipi_dbi_dev_init 0x6746109e
-#SYMVER mipi_dbi_hw_reset 0x0ccf6bb0
-#SYMVER mipi_dbi_display_is_on 0x1647d87a
-#SYMVER mipi_dbi_poweron_reset 0x5d9f19c8
-#SYMVER mipi_dbi_poweron_conditional_reset 0x4a68be06
-#SYMVER mipi_dbi_spi_cmd_max_speed 0x9487a394
-#SYMVER mipi_dbi_spi_init 0xab0aa8db
-#SYMVER mipi_dbi_spi_transfer 0xe899725f
-#SYMVER mipi_dbi_debugfs_init 0x2750e082
+#SYMVER mipi_dbi_command_read 0x81fc6d89
+#SYMVER mipi_dbi_command_buf 0x6e0ee0d6
+#SYMVER mipi_dbi_command_stackbuf 0x20693688
+#SYMVER mipi_dbi_buf_copy 0x8b24a249
+#SYMVER mipi_dbi_pipe_mode_valid 0x5b34ab3a
+#SYMVER mipi_dbi_pipe_update 0x99a492c1
+#SYMVER mipi_dbi_enable_flush 0x5555d896
+#SYMVER mipi_dbi_pipe_disable 0x56128597
+#SYMVER mipi_dbi_pipe_begin_fb_access 0x8d510360
+#SYMVER mipi_dbi_pipe_end_fb_access 0x2f1fc2fc
+#SYMVER mipi_dbi_pipe_reset_plane 0x18252a50
+#SYMVER mipi_dbi_pipe_duplicate_plane_state 0x9cc8a5eb
+#SYMVER mipi_dbi_pipe_destroy_plane_state 0x0c32a884
+#SYMVER mipi_dbi_dev_init_with_formats 0x96e5c82f
+#SYMVER mipi_dbi_dev_init 0x5b792605
+#SYMVER mipi_dbi_hw_reset 0xa99f78e8
+#SYMVER mipi_dbi_display_is_on 0x146a2480
+#SYMVER mipi_dbi_poweron_reset 0x691b7685
+#SYMVER mipi_dbi_poweron_conditional_reset 0x4523a9d1
+#SYMVER mipi_dbi_spi_cmd_max_speed 0x262dd5d2
+#SYMVER mipi_dbi_spi_init 0x7380b9f4
+#SYMVER mipi_dbi_spi_transfer 0xa674d9ee
+#SYMVER mipi_dbi_debugfs_init 0x97dfdf7b

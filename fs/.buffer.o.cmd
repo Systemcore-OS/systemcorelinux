@@ -1,4 +1,4 @@
-savedcmd_fs/buffer.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.buffer.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/buffer"' -DKBUILD_BASENAME='"buffer"' -DKBUILD_MODNAME='"buffer"' -D__KBUILD_MODNAME=kmod_buffer -c -o fs/buffer.o fs/buffer.c  
+savedcmd_fs/buffer.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.buffer.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"fs/buffer"' -DKBUILD_BASENAME='"buffer"' -DKBUILD_MODNAME='"buffer"' -D__KBUILD_MODNAME=kmod_buffer -c -o fs/buffer.o fs/buffer.c  
 
 source_fs/buffer.o := fs/buffer.c
 
@@ -25,6 +25,7 @@ deps_fs/buffer.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -522,6 +523,7 @@ deps_fs/buffer.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -571,6 +573,7 @@ deps_fs/buffer.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -724,6 +727,9 @@ deps_fs/buffer.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -774,6 +780,7 @@ deps_fs/buffer.o := \
     $(wildcard include/config/ADVISE_SYSCALLS) \
   include/uapi/linux/aio_abi.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1120,6 +1127,8 @@ deps_fs/buffer.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1482,56 +1491,56 @@ deps_fs/buffer.o := \
 fs/buffer.o: $(deps_fs/buffer.o)
 
 $(deps_fs/buffer.o):
-#SYMVER touch_buffer 0x290169ac
-#SYMVER __lock_buffer 0x9e76321e
-#SYMVER unlock_buffer 0xd35f7a20
-#SYMVER __wait_on_buffer 0x7e91b9fa
-#SYMVER end_buffer_read_sync 0x17c46b93
-#SYMVER end_buffer_write_sync 0x68b8445a
-#SYMVER mark_buffer_async_write 0xc3072575
-#SYMVER sync_mapping_buffers 0x5f4fef04
-#SYMVER generic_buffers_fsync_noflush 0x65bf1388
-#SYMVER generic_buffers_fsync 0x69c79189
-#SYMVER mark_buffer_dirty_inode 0x3505a907
-#SYMVER block_dirty_folio 0xb2b7365b
-#SYMVER invalidate_inode_buffers 0xbaf1f919
-#SYMVER folio_alloc_buffers 0x63812b31
-#SYMVER alloc_page_buffers 0x9ddc7eed
-#SYMVER mark_buffer_dirty 0x2cbc924d
-#SYMVER mark_buffer_write_io_error 0x08505c9a
-#SYMVER __brelse 0x8c42bcbe
-#SYMVER __bforget 0xb0e34963
-#SYMVER __find_get_block 0x8099445a
-#SYMVER __find_get_block_nonatomic 0x87d14d99
-#SYMVER bdev_getblk 0xc76a0ffb
-#SYMVER __breadahead 0x4a4e414d
-#SYMVER __bread_gfp 0x3e89a61b
+#SYMVER touch_buffer 0x60459286
+#SYMVER __lock_buffer 0x783b0b2d
+#SYMVER unlock_buffer 0xfd40788a
+#SYMVER __wait_on_buffer 0x904217ce
+#SYMVER end_buffer_read_sync 0x7640e0d4
+#SYMVER end_buffer_write_sync 0xc22042d8
+#SYMVER mark_buffer_async_write 0x6131e671
+#SYMVER sync_mapping_buffers 0x52c0bdd0
+#SYMVER generic_buffers_fsync_noflush 0xc61d347c
+#SYMVER generic_buffers_fsync 0xc1b3663d
+#SYMVER mark_buffer_dirty_inode 0xb4c1e7ff
+#SYMVER block_dirty_folio 0x38897a45
+#SYMVER invalidate_inode_buffers 0x348382c3
+#SYMVER folio_alloc_buffers 0x86266351
+#SYMVER alloc_page_buffers 0xab20d13a
+#SYMVER mark_buffer_dirty 0x787a7f7b
+#SYMVER mark_buffer_write_io_error 0xf4d43799
+#SYMVER __brelse 0x29fa754c
+#SYMVER __bforget 0xeaa20b3a
+#SYMVER __find_get_block 0x9d6303f8
+#SYMVER __find_get_block_nonatomic 0xf82d0c37
+#SYMVER bdev_getblk 0xffc64428
+#SYMVER __breadahead 0xfc03529a
+#SYMVER __bread_gfp 0x0625edc8
 #SYMVER invalidate_bh_lrus 0xf5a691cd
-#SYMVER folio_set_bh 0x0a9de574
-#SYMVER block_invalidate_folio 0x0bc45196
-#SYMVER create_empty_buffers 0xe788bcac
-#SYMVER clean_bdev_aliases 0xdc6aead0
-#SYMVER __block_write_full_folio 0xe8730f65
-#SYMVER folio_zero_new_buffers 0x3fa21864
-#SYMVER __block_write_begin 0x5fe73dca
-#SYMVER block_write_begin 0xe4d67813
-#SYMVER block_write_end 0xacedf13b
-#SYMVER generic_write_end 0xbc4962a5
-#SYMVER block_is_partially_uptodate 0xc2c89040
-#SYMVER block_read_full_folio 0x4dc5282d
-#SYMVER generic_cont_expand_simple 0x3e6398b9
-#SYMVER cont_write_begin 0x725f3215
-#SYMVER block_commit_write 0x8e6e8585
-#SYMVER block_page_mkwrite 0xc87be368
-#SYMVER block_truncate_page 0xb0f72a45
-#SYMVER generic_block_bmap 0xe5d51f74
-#SYMVER submit_bh 0xd1906cca
-#SYMVER write_dirty_buffer 0x643d175a
-#SYMVER __sync_dirty_buffer 0x9fc42230
-#SYMVER sync_dirty_buffer 0xe4a0901e
-#SYMVER try_to_free_buffers 0x446e1ac8
-#SYMVER alloc_buffer_head 0x8ed7a4a2
-#SYMVER free_buffer_head 0xa26433e6
-#SYMVER bh_uptodate_or_lock 0xb123b007
-#SYMVER __bh_read 0x51a4fc32
-#SYMVER __bh_read_batch 0x2f1febae
+#SYMVER folio_set_bh 0x0122ce77
+#SYMVER block_invalidate_folio 0xd46f611d
+#SYMVER create_empty_buffers 0x85168381
+#SYMVER clean_bdev_aliases 0x0ab64178
+#SYMVER __block_write_full_folio 0x70becaed
+#SYMVER folio_zero_new_buffers 0x2188c653
+#SYMVER __block_write_begin 0x95f30441
+#SYMVER block_write_begin 0xbd9eec0d
+#SYMVER block_write_end 0xebdbbd1c
+#SYMVER generic_write_end 0xcafc4705
+#SYMVER block_is_partially_uptodate 0x6000cd99
+#SYMVER block_read_full_folio 0x8aebd9c6
+#SYMVER generic_cont_expand_simple 0xb77d392e
+#SYMVER cont_write_begin 0x35d6d2ab
+#SYMVER block_commit_write 0x1e162e74
+#SYMVER block_page_mkwrite 0x1864a447
+#SYMVER block_truncate_page 0x64a599af
+#SYMVER generic_block_bmap 0x05dae890
+#SYMVER submit_bh 0xcd911f46
+#SYMVER write_dirty_buffer 0x28239da5
+#SYMVER __sync_dirty_buffer 0x587c4d9d
+#SYMVER sync_dirty_buffer 0xd5c2f53b
+#SYMVER try_to_free_buffers 0x24407b5b
+#SYMVER alloc_buffer_head 0x846bf4c6
+#SYMVER free_buffer_head 0x740592eb
+#SYMVER bh_uptodate_or_lock 0x1d053917
+#SYMVER __bh_read 0x6187be76
+#SYMVER __bh_read_batch 0x561d7ac9

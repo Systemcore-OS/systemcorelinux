@@ -1,4 +1,4 @@
-savedcmd_drivers/pmdomain/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pmdomain/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/pmdomain/core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"core"' -D__KBUILD_MODNAME=kmod_core -c -o drivers/pmdomain/core.o drivers/pmdomain/core.c  
+savedcmd_drivers/pmdomain/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pmdomain/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/pmdomain/core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"core"' -D__KBUILD_MODNAME=kmod_core -c -o drivers/pmdomain/core.o drivers/pmdomain/core.c  
 
 source_drivers/pmdomain/core.o := drivers/pmdomain/core.c
 
@@ -26,6 +26,7 @@ deps_drivers/pmdomain/core.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -157,6 +158,7 @@ deps_drivers/pmdomain/core.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -538,6 +540,7 @@ deps_drivers/pmdomain/core.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -643,6 +646,9 @@ deps_drivers/pmdomain/core.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -928,6 +934,7 @@ deps_drivers/pmdomain/core.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1220,6 +1227,8 @@ deps_drivers/pmdomain/core.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
   include/linux/writeback.h \
@@ -1347,28 +1356,28 @@ deps_drivers/pmdomain/core.o := \
 drivers/pmdomain/core.o: $(deps_drivers/pmdomain/core.o)
 
 $(deps_drivers/pmdomain/core.o):
-#SYMVER dev_pm_genpd_set_performance_state 0x1aa05edc
-#SYMVER dev_pm_genpd_set_next_wakeup 0x73bc8f48
-#SYMVER dev_pm_genpd_get_next_hrtimer 0x2f905e19
-#SYMVER dev_pm_genpd_synced_poweroff 0x8a31ccd2
-#SYMVER dev_pm_genpd_set_hwmode 0xe301391a
-#SYMVER dev_pm_genpd_get_hwmode 0x1167c192
-#SYMVER dev_pm_genpd_rpm_always_on 0xff813aa3
-#SYMVER pm_genpd_add_device 0x11a0eea5
-#SYMVER pm_genpd_remove_device 0x13f69f89
-#SYMVER dev_pm_genpd_add_notifier 0xbeec5b8c
-#SYMVER dev_pm_genpd_remove_notifier 0x7e959451
-#SYMVER pm_genpd_add_subdomain 0x8ffea454
-#SYMVER pm_genpd_remove_subdomain 0x74f450b0
-#SYMVER pm_genpd_init 0xddbd13e4
-#SYMVER pm_genpd_remove 0xccfcab48
-#SYMVER of_genpd_add_provider_simple 0xa832357f
-#SYMVER of_genpd_add_provider_onecell 0x07109669
-#SYMVER of_genpd_del_provider 0xda2ea2fb
-#SYMVER of_genpd_add_device 0xe5989ddc
-#SYMVER of_genpd_add_subdomain 0x8cd1d8f5
-#SYMVER of_genpd_remove_subdomain 0xbed3f146
-#SYMVER of_genpd_remove_last 0x7ca840c3
-#SYMVER genpd_dev_pm_attach 0xebcf9823
-#SYMVER genpd_dev_pm_attach_by_id 0x64915a33
-#SYMVER of_genpd_parse_idle_states 0x0ce24363
+#SYMVER dev_pm_genpd_set_performance_state 0xd08a6516
+#SYMVER dev_pm_genpd_set_next_wakeup 0x5045e3a8
+#SYMVER dev_pm_genpd_get_next_hrtimer 0xa4b0725c
+#SYMVER dev_pm_genpd_synced_poweroff 0x4192abfe
+#SYMVER dev_pm_genpd_set_hwmode 0x11374f7d
+#SYMVER dev_pm_genpd_get_hwmode 0x9440b304
+#SYMVER dev_pm_genpd_rpm_always_on 0x5ab0d38b
+#SYMVER pm_genpd_add_device 0x6f4476b6
+#SYMVER pm_genpd_remove_device 0x81a22940
+#SYMVER dev_pm_genpd_add_notifier 0xf794ff1b
+#SYMVER dev_pm_genpd_remove_notifier 0x385bade4
+#SYMVER pm_genpd_add_subdomain 0x0e65c774
+#SYMVER pm_genpd_remove_subdomain 0x2d6bcb55
+#SYMVER pm_genpd_init 0xc51ba7ca
+#SYMVER pm_genpd_remove 0xe9e632a2
+#SYMVER of_genpd_add_provider_simple 0xcaa84bc9
+#SYMVER of_genpd_add_provider_onecell 0x8e579897
+#SYMVER of_genpd_del_provider 0x18528695
+#SYMVER of_genpd_add_device 0xc4457392
+#SYMVER of_genpd_add_subdomain 0xff71c17e
+#SYMVER of_genpd_remove_subdomain 0x6e3e9427
+#SYMVER of_genpd_remove_last 0x99cc5fd4
+#SYMVER genpd_dev_pm_attach 0x4d3af546
+#SYMVER genpd_dev_pm_attach_by_id 0xe55269f7
+#SYMVER of_genpd_parse_idle_states 0xafca1c5b

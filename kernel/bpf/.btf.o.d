@@ -1,9 +1,10 @@
 btf.o: kernel/bpf/btf.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/uapi/linux/btf.h include/linux/types.h \
- include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/uapi/linux/btf.h \
+ include/linux/types.h include/uapi/linux/types.h \
+ arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -270,30 +271,31 @@ btf.o: kernel/bpf/btf.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/bpfptr.h \
- include/linux/sockptr.h include/linux/btf.h include/linux/bsearch.h \
- include/linux/btf_ids.h include/linux/rcupdate_trace.h \
- include/linux/static_call.h include/linux/cpu.h include/linux/node.h \
- include/linux/device.h include/linux/dev_printk.h \
- include/linux/energy_model.h include/linux/sched/cpufreq.h \
- include/linux/sched/topology.h include/linux/sched/idle.h \
- include/linux/sched/sd_flags.h include/linux/klist.h include/linux/pm.h \
- include/linux/device/bus.h include/linux/device/class.h \
- include/linux/device/devres.h include/linux/device/driver.h \
- arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/cpuhotplug.h include/linux/cpuhplock.h \
- include/linux/cpu_smt.h include/linux/memcontrol.h \
- include/linux/cgroup.h include/uapi/linux/cgroupstats.h \
- include/uapi/linux/taskstats.h include/linux/ns_common.h \
- include/linux/nsproxy.h include/linux/user_namespace.h \
- include/linux/kernel_stat.h include/linux/interrupt.h \
- include/linux/irqreturn.h include/linux/hardirq.h \
- include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
- include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
- arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/bpfptr.h include/linux/sockptr.h include/linux/btf.h \
+ include/linux/bsearch.h include/linux/btf_ids.h \
+ include/linux/rcupdate_trace.h include/linux/static_call.h \
+ include/linux/cpu.h include/linux/node.h include/linux/device.h \
+ include/linux/dev_printk.h include/linux/energy_model.h \
+ include/linux/sched/cpufreq.h include/linux/sched/topology.h \
+ include/linux/sched/idle.h include/linux/sched/sd_flags.h \
+ include/linux/klist.h include/linux/pm.h include/linux/device/bus.h \
+ include/linux/device/class.h include/linux/device/devres.h \
+ include/linux/device/driver.h arch/arm64/include/asm/device.h \
+ include/linux/pm_wakeup.h include/linux/cpuhotplug.h \
+ include/linux/cpuhplock.h include/linux/cpu_smt.h \
+ include/linux/memcontrol.h include/linux/cgroup.h \
+ include/uapi/linux/cgroupstats.h include/uapi/linux/taskstats.h \
+ include/linux/ns_common.h include/linux/nsproxy.h \
+ include/linux/user_namespace.h include/linux/kernel_stat.h \
+ include/linux/interrupt.h include/linux/irqreturn.h \
+ include/linux/hardirq.h include/linux/context_tracking_state.h \
+ include/linux/ftrace_irq.h include/linux/vtime.h \
+ arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
+ include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -349,7 +351,6 @@ btf.o: kernel/bpf/btf.c include/linux/compiler-version.h \
  arch/arm64/include/asm/checksum.h include/linux/in6.h \
  include/uapi/linux/in6.h include/asm-generic/checksum.h \
  include/linux/dma-mapping.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/linux/siphash.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
@@ -359,8 +360,8 @@ btf.o: kernel/bpf/btf.c include/linux/compiler-version.h \
  include/net/net_debug.h include/net/dropreason-core.h \
  include/net/netmem.h include/linux/sched/clock.h \
  include/linux/set_memory.h arch/arm64/include/asm/set_memory.h \
- include/asm-generic/set_memory.h include/linux/if_vlan.h \
- include/linux/netdevice.h include/linux/delay.h \
+ arch/arm64/include/asm/mem_encrypt.h include/asm-generic/set_memory.h \
+ include/linux/if_vlan.h include/linux/netdevice.h include/linux/delay.h \
  arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
  include/linux/prefetch.h include/linux/dynamic_queue_limits.h \
  include/net/net_namespace.h include/net/netns/core.h \
@@ -439,10 +440,11 @@ btf.o: kernel/bpf/btf.c include/linux/compiler-version.h \
  include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
  arch/arm64/include/asm/syscall.h include/net/ip6_fib.h \
  include/linux/ipv6_route.h include/uapi/linux/ipv6_route.h \
- include/net/gro_cells.h include/linux/bpf-cgroup.h \
- include/net/strparser.h include/linux/perf_event.h \
- include/uapi/linux/perf_event.h arch/arm64/include/asm/perf_event.h \
- include/linux/irq_work.h arch/arm64/include/asm/irq_work.h \
- include/linux/perf_regs.h arch/arm64/include/uapi/asm/perf_regs.h \
+ include/net/gro_cells.h include/net/secure_seq.h \
+ include/linux/bpf-cgroup.h include/net/strparser.h \
+ include/linux/perf_event.h include/uapi/linux/perf_event.h \
+ arch/arm64/include/asm/perf_event.h include/linux/irq_work.h \
+ arch/arm64/include/asm/irq_work.h include/linux/perf_regs.h \
+ arch/arm64/include/uapi/asm/perf_regs.h \
  include/net/netfilter/nf_bpf_link.h include/net/xdp.h \
  include/../tools/lib/bpf/relo_core.h

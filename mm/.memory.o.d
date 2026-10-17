@@ -1,9 +1,10 @@
 memory.o: mm/memory.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/kernel_stat.h include/linux/smp.h include/linux/errno.h \
- include/uapi/linux/errno.h arch/arm64/include/generated/uapi/asm/errno.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/kernel_stat.h \
+ include/linux/smp.h include/linux/errno.h include/uapi/linux/errno.h \
+ arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  include/linux/types.h include/uapi/linux/types.h \
  arch/arm64/include/generated/uapi/asm/types.h \
@@ -267,7 +268,8 @@ memory.o: mm/memory.c include/linux/compiler-version.h \
  include/uapi/linux/fs.h include/linux/quota.h \
  include/uapi/linux/dqblk_xfs.h include/linux/dqblk_v1.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
- include/linux/projid.h include/uapi/linux/quota.h include/linux/vmstat.h \
+ include/linux/projid.h include/uapi/linux/quota.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/mm_inline.h \
  include/linux/swap.h include/linux/memcontrol.h include/linux/cgroup.h \
  include/uapi/linux/cgroupstats.h include/uapi/linux/taskstats.h \
@@ -375,4 +377,5 @@ memory.o: mm/memory.c include/linux/compiler-version.h \
  arch/arm64/include/asm/pgalloc.h include/asm-generic/pgalloc.h \
  arch/arm64/include/asm/tlb.h include/asm-generic/tlb.h \
  mm/pgalloc-track.h mm/internal.h include/linux/khugepaged.h \
- include/linux/swap_cgroup.h mm/vma.h mm/swap.h include/linux/extable.h
+ include/linux/pagewalk.h include/linux/swap_cgroup.h mm/vma.h mm/swap.h \
+ include/linux/extable.h

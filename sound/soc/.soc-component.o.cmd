@@ -1,4 +1,4 @@
-savedcmd_sound/soc/soc-component.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/.soc-component.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"soc_component"' -DKBUILD_MODNAME='"snd_soc_core"' -D__KBUILD_MODNAME=kmod_snd_soc_core -c -o sound/soc/soc-component.o sound/soc/soc-component.c  
+savedcmd_sound/soc/soc-component.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/.soc-component.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"soc_component"' -DKBUILD_MODNAME='"snd_soc_core"' -D__KBUILD_MODNAME=kmod_snd_soc_core -c -o sound/soc/soc-component.o sound/soc/soc-component.c  
 
 source_sound/soc/soc-component.o := sound/soc/soc-component.c
 
@@ -24,6 +24,7 @@ deps_sound/soc/soc-component.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -497,6 +498,7 @@ deps_sound/soc/soc-component.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -583,6 +585,7 @@ deps_sound/soc/soc-component.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -677,6 +680,9 @@ deps_sound/soc/soc-component.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -802,6 +808,7 @@ deps_sound/soc/soc-component.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1172,6 +1179,8 @@ deps_sound/soc/soc-component.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1230,40 +1239,40 @@ deps_sound/soc/soc-component.o := \
 sound/soc/soc-component.o: $(deps_sound/soc/soc-component.o)
 
 $(deps_sound/soc/soc-component.o):
-#SYMVER snd_soc_component_set_sysclk 0x036c44aa
-#SYMVER snd_soc_component_set_pll 0xdeaef5f0
-#SYMVER snd_soc_component_enable_pin 0x01d1d1ad
-#SYMVER snd_soc_component_enable_pin_unlocked 0xd353bc3f
-#SYMVER snd_soc_component_disable_pin 0xfe7b75d2
-#SYMVER snd_soc_component_disable_pin_unlocked 0xd5517ea1
-#SYMVER snd_soc_component_nc_pin 0x67f541e6
-#SYMVER snd_soc_component_nc_pin_unlocked 0x454b64dc
-#SYMVER snd_soc_component_get_pin_status 0x0e9c2210
-#SYMVER snd_soc_component_force_enable_pin 0xc568b772
-#SYMVER snd_soc_component_force_enable_pin_unlocked 0x31fdcd3a
-#SYMVER snd_soc_component_get_kcontrol 0x9789e49f
-#SYMVER snd_soc_component_notify_control 0x8564ed61
-#SYMVER snd_soc_component_set_jack 0x72e7a841
-#SYMVER snd_soc_component_get_jack_type 0x791dbe3d
-#SYMVER snd_soc_component_init_regmap 0x51f815fa
-#SYMVER snd_soc_component_exit_regmap 0x304c265a
-#SYMVER snd_soc_component_compr_open 0x9a67a713
-#SYMVER snd_soc_component_compr_free 0x93f7b49e
-#SYMVER snd_soc_component_compr_trigger 0xee35299a
-#SYMVER snd_soc_component_compr_set_params 0xe489863e
-#SYMVER snd_soc_component_compr_get_params 0x81503033
-#SYMVER snd_soc_component_compr_get_caps 0xdb7efbbe
-#SYMVER snd_soc_component_compr_get_codec_caps 0x62c1b4c0
-#SYMVER snd_soc_component_compr_ack 0x0566d899
-#SYMVER snd_soc_component_compr_pointer 0x3df0093c
-#SYMVER snd_soc_component_compr_copy 0xc4c75afa
-#SYMVER snd_soc_component_compr_set_metadata 0xb6895a60
-#SYMVER snd_soc_component_compr_get_metadata 0x97fa336a
-#SYMVER snd_soc_component_read 0x4e424dee
-#SYMVER snd_soc_component_write 0x4e9cb508
-#SYMVER snd_soc_component_update_bits 0x88aa5e5e
-#SYMVER snd_soc_component_update_bits_async 0x13d3fc75
-#SYMVER snd_soc_component_read_field 0xfdc6240d
-#SYMVER snd_soc_component_write_field 0x3e13b234
-#SYMVER snd_soc_component_async_complete 0x203c8288
-#SYMVER snd_soc_component_test_bits 0xdc023570
+#SYMVER snd_soc_component_set_sysclk 0x68f469cd
+#SYMVER snd_soc_component_set_pll 0x264ae713
+#SYMVER snd_soc_component_enable_pin 0x5ba4f3a6
+#SYMVER snd_soc_component_enable_pin_unlocked 0xc201ac44
+#SYMVER snd_soc_component_disable_pin 0x76e728be
+#SYMVER snd_soc_component_disable_pin_unlocked 0x40bf5f6b
+#SYMVER snd_soc_component_nc_pin 0xc8be2a8a
+#SYMVER snd_soc_component_nc_pin_unlocked 0xe7ca17a9
+#SYMVER snd_soc_component_get_pin_status 0x746157a9
+#SYMVER snd_soc_component_force_enable_pin 0x497dcc4a
+#SYMVER snd_soc_component_force_enable_pin_unlocked 0x32ab7a6c
+#SYMVER snd_soc_component_get_kcontrol 0xe205f903
+#SYMVER snd_soc_component_notify_control 0xd8e1f1ef
+#SYMVER snd_soc_component_set_jack 0x3b10ac4d
+#SYMVER snd_soc_component_get_jack_type 0x9c34779c
+#SYMVER snd_soc_component_init_regmap 0x308524fb
+#SYMVER snd_soc_component_exit_regmap 0x27589dec
+#SYMVER snd_soc_component_compr_open 0x6638257e
+#SYMVER snd_soc_component_compr_free 0x86287ad5
+#SYMVER snd_soc_component_compr_trigger 0xd9b9b0f6
+#SYMVER snd_soc_component_compr_set_params 0xb9990f0b
+#SYMVER snd_soc_component_compr_get_params 0x2d275868
+#SYMVER snd_soc_component_compr_get_caps 0x29bc8676
+#SYMVER snd_soc_component_compr_get_codec_caps 0xbd84a097
+#SYMVER snd_soc_component_compr_ack 0x2c5e4b89
+#SYMVER snd_soc_component_compr_pointer 0x620131ea
+#SYMVER snd_soc_component_compr_copy 0xef4b1f19
+#SYMVER snd_soc_component_compr_set_metadata 0xa8c2d8a8
+#SYMVER snd_soc_component_compr_get_metadata 0x0f37e41d
+#SYMVER snd_soc_component_read 0x1d1c7710
+#SYMVER snd_soc_component_write 0x4508fb8c
+#SYMVER snd_soc_component_update_bits 0x207675a9
+#SYMVER snd_soc_component_update_bits_async 0xb45a8524
+#SYMVER snd_soc_component_read_field 0xb3ff9cdb
+#SYMVER snd_soc_component_write_field 0x80fd2156
+#SYMVER snd_soc_component_async_complete 0xdbd98f4e
+#SYMVER snd_soc_component_test_bits 0x7279fd76

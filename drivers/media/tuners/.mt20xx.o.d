@@ -1,9 +1,10 @@
 mt20xx.o: drivers/media/tuners/mt20xx.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/delay.h include/linux/math.h include/linux/types.h \
- include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/delay.h \
+ include/linux/math.h include/linux/types.h include/uapi/linux/types.h \
+ arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -310,11 +311,12 @@ mt20xx.o: drivers/media/tuners/mt20xx.c include/linux/compiler-version.h \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h include/linux/writeback.h \
- include/linux/flex_proportions.h include/linux/backing-dev-defs.h \
- include/linux/blk_types.h include/linux/bvec.h include/linux/highmem.h \
- include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
- include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/writeback.h include/linux/flex_proportions.h \
+ include/linux/backing-dev-defs.h include/linux/blk_types.h \
+ include/linux/bvec.h include/linux/highmem.h include/linux/cacheflush.h \
+ arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
+ include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/trace_clock.h \
  arch/arm64/include/generated/asm/trace_clock.h \
  include/asm-generic/trace_clock.h include/linux/kallsyms.h \
@@ -361,8 +363,7 @@ mt20xx.o: drivers/media/tuners/mt20xx.c include/linux/compiler-version.h \
  include/uapi/linux/pci.h include/uapi/linux/pci_regs.h \
  include/linux/pci_ids.h include/linux/dmapool.h \
  include/linux/scatterlist.h arch/arm64/include/asm/pci.h \
- include/linux/dma-mapping.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/asm-generic/pci.h \
+ include/linux/dma-mapping.h include/asm-generic/pci.h \
  include/linux/platform_device.h include/media/media-devnode.h \
  include/linux/cdev.h include/linux/debugfs.h \
  include/media/media-entity.h include/uapi/linux/media.h

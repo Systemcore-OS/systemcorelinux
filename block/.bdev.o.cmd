@@ -1,4 +1,4 @@
-savedcmd_block/bdev.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,block/.bdev.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"block/bdev"' -DKBUILD_BASENAME='"bdev"' -DKBUILD_MODNAME='"bdev"' -D__KBUILD_MODNAME=kmod_bdev -c -o block/bdev.o block/bdev.c  
+savedcmd_block/bdev.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,block/.bdev.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"block/bdev"' -DKBUILD_BASENAME='"bdev"' -DKBUILD_MODNAME='"bdev"' -D__KBUILD_MODNAME=kmod_bdev -c -o block/bdev.o block/bdev.c  
 
 source_block/bdev.o := block/bdev.c
 
@@ -25,6 +25,7 @@ deps_block/bdev.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -521,6 +522,9 @@ deps_block/bdev.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -679,6 +683,7 @@ deps_block/bdev.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -718,6 +723,7 @@ deps_block/bdev.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -852,6 +858,7 @@ deps_block/bdev.o := \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -991,6 +998,8 @@ deps_block/bdev.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1403,24 +1412,24 @@ deps_block/bdev.o := \
 block/bdev.o: $(deps_block/bdev.o)
 
 $(deps_block/bdev.o):
-#SYMVER I_BDEV 0xb60ac8b4
-#SYMVER file_bdev 0x020abeaf
-#SYMVER invalidate_bdev 0x3910d771
-#SYMVER set_blocksize 0x90dd7cde
-#SYMVER sb_set_blocksize 0xb6ecab17
-#SYMVER sb_min_blocksize 0xe4f51cb9
-#SYMVER sync_blockdev_nowait 0x582171f0
-#SYMVER sync_blockdev 0x382a9ee6
-#SYMVER sync_blockdev_range 0x18ed086e
-#SYMVER bdev_freeze 0x6b91fbc7
-#SYMVER bdev_thaw 0x8d04d33d
-#SYMVER blockdev_superblock 0x617e84f8
-#SYMVER bd_prepare_to_claim 0xdafed745
-#SYMVER bd_abort_claiming 0x9f7a38a0
-#SYMVER bdev_file_open_by_dev 0x8e736db7
-#SYMVER bdev_file_open_by_path 0x5417ea9e
-#SYMVER bdev_fput 0xd66e32b1
+#SYMVER I_BDEV 0x284ad7dd
+#SYMVER file_bdev 0x3b3dfdf4
+#SYMVER invalidate_bdev 0xfdc09996
+#SYMVER set_blocksize 0x7fbe3535
+#SYMVER sb_set_blocksize 0x4bcd7f9a
+#SYMVER sb_min_blocksize 0x5e6ea941
+#SYMVER sync_blockdev_nowait 0x867c4cbf
+#SYMVER sync_blockdev 0x0b4f99b3
+#SYMVER sync_blockdev_range 0x00c30dbb
+#SYMVER bdev_freeze 0x4cfc9273
+#SYMVER bdev_thaw 0x568ed29b
+#SYMVER blockdev_superblock 0xac9fd417
+#SYMVER bd_prepare_to_claim 0x1fbc3e92
+#SYMVER bd_abort_claiming 0xea8e1236
+#SYMVER bdev_file_open_by_dev 0x478b6bea
+#SYMVER bdev_file_open_by_path 0xe420286d
+#SYMVER bdev_fput 0x60c0fbcc
 #SYMVER lookup_bdev 0x34c7cdbc
-#SYMVER bdev_mark_dead 0x65e95b39
-#SYMVER disk_live 0x1dbfffa1
-#SYMVER block_size 0x73b64c7b
+#SYMVER bdev_mark_dead 0x30601ab6
+#SYMVER disk_live 0x63b09e8a
+#SYMVER block_size 0x41159ec9

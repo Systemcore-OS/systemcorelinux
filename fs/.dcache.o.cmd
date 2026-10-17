@@ -1,4 +1,4 @@
-savedcmd_fs/dcache.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.dcache.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/dcache"' -DKBUILD_BASENAME='"dcache"' -DKBUILD_MODNAME='"dcache"' -D__KBUILD_MODNAME=kmod_dcache -c -o fs/dcache.o fs/dcache.c  
+savedcmd_fs/dcache.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.dcache.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"fs/dcache"' -DKBUILD_BASENAME='"dcache"' -DKBUILD_MODNAME='"dcache"' -D__KBUILD_MODNAME=kmod_dcache -c -o fs/dcache.o fs/dcache.c  
 
 source_fs/dcache.o := fs/dcache.c
 
@@ -26,6 +26,7 @@ deps_fs/dcache.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -185,6 +186,7 @@ deps_fs/dcache.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -538,6 +540,7 @@ deps_fs/dcache.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -650,6 +653,9 @@ deps_fs/dcache.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -853,6 +859,7 @@ deps_fs/dcache.o := \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -989,6 +996,8 @@ deps_fs/dcache.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1000,7 +1009,6 @@ deps_fs/dcache.o := \
     $(wildcard include/config/FS_ENCRYPTION_INLINE_CRYPT) \
   include/uapi/linux/fscrypt.h \
   include/linux/fsnotify.h \
-    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
   include/linux/fsnotify_backend.h \
     $(wildcard include/config/INOTIFY_USER) \
     $(wildcard include/config/FANOTIFY) \
@@ -1372,46 +1380,46 @@ fs/dcache.o: $(deps_fs/dcache.o)
 
 $(deps_fs/dcache.o):
 #SYMVER sysctl_vfs_cache_pressure 0x82d79b51
-#SYMVER rename_lock 0xcfe0c3b8
+#SYMVER rename_lock 0x5782aceb
 #SYMVER empty_name 0x4bef1c67
 #SYMVER slash_name 0x92b9b180
 #SYMVER dotdot_name 0xafc08054
-#SYMVER take_dentry_name_snapshot 0x183596de
+#SYMVER take_dentry_name_snapshot 0xb29468dd
 #SYMVER release_dentry_name_snapshot 0x62ede055
-#SYMVER __d_drop 0x411d8d03
-#SYMVER d_drop 0xea680764
-#SYMVER d_mark_dontcache 0x4b2fcc92
-#SYMVER dput 0x82ea7862
-#SYMVER dget_parent 0x554037f6
-#SYMVER d_find_any_alias 0x809a22bc
-#SYMVER d_find_alias 0xe68008b0
-#SYMVER d_prune_aliases 0xae191b1c
-#SYMVER shrink_dcache_sb 0xaf54c97a
-#SYMVER path_has_submounts 0xa36184fa
-#SYMVER shrink_dcache_parent 0x69ba2fa7
-#SYMVER d_invalidate 0x1327f18c
-#SYMVER d_alloc 0xeaa5bb70
-#SYMVER d_alloc_anon 0x5b1586b9
-#SYMVER d_alloc_name 0x706a07bf
-#SYMVER d_set_d_op 0x7fb19e6e
-#SYMVER d_instantiate 0x30bb7b64
-#SYMVER d_instantiate_new 0x77e2fb24
-#SYMVER d_make_root 0xdd0a0171
-#SYMVER d_obtain_alias 0xee8a8c8a
-#SYMVER d_obtain_root 0x54188689
-#SYMVER d_add_ci 0x97f2e573
-#SYMVER d_same_name 0x50a1ec65
-#SYMVER d_lookup 0x95ea6bdc
-#SYMVER d_hash_and_lookup 0xaa17d860
-#SYMVER d_delete 0x53cc2bfa
-#SYMVER d_rehash 0x0f0dfbc2
-#SYMVER d_alloc_parallel 0xf3f022da
-#SYMVER __d_lookup_unhash_wake 0xbaa4f5ac
-#SYMVER d_add 0x832c68ec
-#SYMVER d_move 0x47de02e6
-#SYMVER d_splice_alias 0xeefa048e
-#SYMVER is_subdir 0x1186a0d1
-#SYMVER d_mark_tmpfile 0xd5a1e843
-#SYMVER d_tmpfile 0xa31bbe1a
-#SYMVER d_parent_ino 0x7cc9757d
+#SYMVER __d_drop 0x6b71d2fe
+#SYMVER d_drop 0x3153b133
+#SYMVER d_mark_dontcache 0xf72a4876
+#SYMVER dput 0xb494e1e0
+#SYMVER dget_parent 0x1545f592
+#SYMVER d_find_any_alias 0xad5eb513
+#SYMVER d_find_alias 0xa685cad4
+#SYMVER d_prune_aliases 0x9d87119f
+#SYMVER shrink_dcache_sb 0x8f0aa7da
+#SYMVER path_has_submounts 0xcbb58ee9
+#SYMVER shrink_dcache_parent 0xb7ff755f
+#SYMVER d_invalidate 0x698f345b
+#SYMVER d_alloc 0x85923c96
+#SYMVER d_alloc_anon 0x1ce10dbc
+#SYMVER d_alloc_name 0x88ce032e
+#SYMVER d_set_d_op 0x7087c228
+#SYMVER d_instantiate 0xb34f11e2
+#SYMVER d_instantiate_new 0x7d5f0aa7
+#SYMVER d_make_root 0x07c3039b
+#SYMVER d_obtain_alias 0x9a71c1b0
+#SYMVER d_obtain_root 0x1e87260a
+#SYMVER d_add_ci 0x6775b453
+#SYMVER d_same_name 0x74eeb44b
+#SYMVER d_lookup 0x866b5f52
+#SYMVER d_hash_and_lookup 0xf073177c
+#SYMVER d_delete 0xe14b599e
+#SYMVER d_rehash 0x45f2a22e
+#SYMVER d_alloc_parallel 0xb78d2719
+#SYMVER __d_lookup_unhash_wake 0x166c76ea
+#SYMVER d_add 0xece54b09
+#SYMVER d_move 0x7c16458e
+#SYMVER d_splice_alias 0x95022950
+#SYMVER is_subdir 0x2ff9cba1
+#SYMVER d_mark_tmpfile 0xe58a37ad
+#SYMVER d_tmpfile 0x9c525fc4
+#SYMVER d_parent_ino 0x1fd29ead
 #SYMVER names_cachep 0x3096be16

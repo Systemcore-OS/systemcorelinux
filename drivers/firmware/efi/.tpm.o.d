@@ -1,7 +1,8 @@
 tpm.o: drivers/firmware/efi/tpm.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/linux/types.h \
  include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
@@ -291,7 +292,8 @@ tpm.o: drivers/firmware/efi/tpm.c include/linux/compiler-version.h \
  include/asm-generic/emergency-restart.h include/linux/memblock.h \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/page_ext.h \
  include/linux/stacktrace.h include/linux/page_ref.h \
- include/linux/memremap.h include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/memremap.h include/linux/huge_mm.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/generated/asm/dma.h \
  include/asm-generic/dma.h include/linux/tpm_eventlog.h \
  include/linux/tpm.h include/linux/hw_random.h include/linux/acpi.h \

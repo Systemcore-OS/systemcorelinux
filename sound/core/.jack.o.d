@@ -1,11 +1,11 @@
 jack.o: sound/core/jack.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/input.h include/linux/time.h include/linux/cache.h \
- include/uapi/linux/kernel.h include/uapi/linux/sysinfo.h \
- include/linux/types.h include/uapi/linux/types.h \
- arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/input.h \
+ include/linux/time.h include/linux/cache.h include/uapi/linux/kernel.h \
+ include/uapi/linux/sysinfo.h include/linux/types.h \
+ include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -273,7 +273,7 @@ jack.o: sound/core/jack.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/debugfs.h \
  include/linux/seq_file.h include/linux/string_helpers.h \
  include/linux/string_choices.h include/sound/jack.h include/sound/core.h \

@@ -1,9 +1,10 @@
 health.o: net/devlink/health.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/net/genetlink.h include/linux/net.h include/linux/stringify.h \
- include/linux/random.h include/linux/bug.h arch/arm64/include/asm/bug.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/net/genetlink.h \
+ include/linux/net.h include/linux/stringify.h include/linux/random.h \
+ include/linux/bug.h arch/arm64/include/asm/bug.h \
  arch/arm64/include/asm/asm-bug.h arch/arm64/include/asm/brk-imm.h \
  include/asm-generic/bug.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
@@ -257,9 +258,9 @@ health.o: net/devlink/health.c include/linux/compiler-version.h \
  include/linux/page_table_check.h include/asm-generic/pgtable_uffd.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sockptr.h \
- include/uapi/linux/net.h include/linux/socket.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sockptr.h include/uapi/linux/net.h include/linux/socket.h \
  arch/arm64/include/generated/uapi/asm/socket.h \
  include/uapi/asm-generic/socket.h \
  arch/arm64/include/generated/uapi/asm/sockios.h \
@@ -326,7 +327,6 @@ health.o: net/devlink/health.c include/linux/compiler-version.h \
  include/linux/device/class.h include/linux/device/devres.h \
  include/linux/device/driver.h arch/arm64/include/asm/device.h \
  include/linux/pm_wakeup.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/linux/siphash.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \

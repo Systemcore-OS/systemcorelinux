@@ -1,6 +1,7 @@
 percpu-rwsem.o: kernel/locking/percpu-rwsem.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/atomic.h \
  include/linux/types.h include/uapi/linux/types.h \

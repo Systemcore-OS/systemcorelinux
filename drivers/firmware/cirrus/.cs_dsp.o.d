@@ -1,6 +1,7 @@
 cs_dsp.o: drivers/firmware/cirrus/cs_dsp.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/ctype.h \
  include/linux/compiler.h include/linux/compiler_types.h \

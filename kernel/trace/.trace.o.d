@@ -1,9 +1,10 @@
 trace.o: kernel/trace/trace.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/ring_buffer.h include/linux/mm.h include/linux/errno.h \
- include/uapi/linux/errno.h arch/arm64/include/generated/uapi/asm/errno.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/ring_buffer.h \
+ include/linux/mm.h include/linux/errno.h include/uapi/linux/errno.h \
+ arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  include/linux/mmdebug.h include/linux/bug.h arch/arm64/include/asm/bug.h \
  include/linux/stringify.h arch/arm64/include/asm/asm-bug.h \
@@ -253,11 +254,12 @@ trace.o: kernel/trace/trace.c include/linux/compiler-version.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/seq_file.h \
- include/linux/string_helpers.h include/linux/ctype.h \
- include/linux/string_choices.h include/linux/poll.h \
- include/uapi/linux/poll.h arch/arm64/include/generated/uapi/asm/poll.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/seq_file.h include/linux/string_helpers.h \
+ include/linux/ctype.h include/linux/string_choices.h \
+ include/linux/poll.h include/uapi/linux/poll.h \
+ arch/arm64/include/generated/uapi/asm/poll.h \
  include/uapi/asm-generic/poll.h include/uapi/linux/eventpoll.h \
  include/uapi/linux/trace_mmap.h include/linux/utsname.h \
  include/linux/nsproxy.h include/linux/ns_common.h \

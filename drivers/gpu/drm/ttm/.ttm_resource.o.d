@@ -1,6 +1,7 @@
 ttm_resource.o: drivers/gpu/drm/ttm/ttm_resource.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/debugfs.h \
  include/linux/fs.h include/linux/linkage.h \
@@ -266,9 +267,10 @@ ttm_resource.o: drivers/gpu/drm/ttm/ttm_resource.c \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
  include/linux/huge_mm.h include/linux/kobject.h include/linux/sysfs.h \
  include/linux/kernfs.h include/linux/idr.h include/linux/kobject_ns.h \
- include/linux/vmstat.h include/linux/vm_event_item.h \
- include/drm/ttm/ttm_bo.h include/drm/drm_gem.h include/linux/dma-buf.h \
- include/linux/file.h include/linux/dma-mapping.h include/linux/device.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/vm_event_item.h include/drm/ttm/ttm_bo.h \
+ include/drm/drm_gem.h include/linux/dma-buf.h include/linux/file.h \
+ include/linux/dma-mapping.h include/linux/device.h \
  include/linux/dev_printk.h include/linux/energy_model.h \
  include/linux/sched/cpufreq.h include/linux/sched/topology.h \
  include/linux/sched/idle.h include/linux/sched/sd_flags.h \
@@ -284,7 +286,6 @@ ttm_resource.o: drivers/gpu/drm/ttm/ttm_resource.c \
  include/linux/dynamic_debug.h arch/arm64/include/asm/module.h \
  include/asm-generic/module.h arch/arm64/include/asm/device.h \
  include/linux/pm_wakeup.h include/linux/dma-direction.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/dma-fence.h include/linux/dma-resv.h \
  include/linux/ww_mutex.h include/drm/drm_vma_manager.h \
  include/drm/drm_mm.h include/drm/drm_print.h include/uapi/drm/drm.h \

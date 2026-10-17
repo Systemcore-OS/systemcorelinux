@@ -1,6 +1,7 @@
 ixgbe_main.o: drivers/net/ethernet/intel/ixgbe/ixgbe_main.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/types.h \
  include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
@@ -288,10 +289,9 @@ ixgbe_main.o: drivers/net/ethernet/intel/ixgbe/ixgbe_main.c \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/asm/pci.h \
  include/linux/dma-mapping.h include/linux/dma-direction.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/asm-generic/pci.h include/linux/netdevice.h \
  include/linux/delay.h arch/arm64/include/generated/asm/delay.h \
  include/asm-generic/delay.h include/linux/prefetch.h \
@@ -430,16 +430,16 @@ ixgbe_main.o: drivers/net/ethernet/intel/ixgbe/ixgbe_main.c \
  include/linux/bpf_trace.h include/trace/events/xdp.h \
  include/linux/filter.h include/linux/sched/clock.h \
  include/linux/set_memory.h arch/arm64/include/asm/set_memory.h \
- include/asm-generic/set_memory.h include/crypto/sha1.h \
- include/net/sch_generic.h include/uapi/linux/pkt_cls.h \
- include/net/gen_stats.h include/uapi/linux/gen_stats.h \
- include/net/flow_offload.h include/linux/tracepoint.h include/net/xdp.h \
- include/net/xdp_priv.h include/linux/rhashtable.h \
- include/trace/define_trace.h include/generated/utsrelease.h \
- include/scsi/fc/fc_fcoe.h include/net/udp_tunnel.h \
- include/net/ip_tunnels.h include/linux/if_tunnel.h \
- include/uapi/linux/if_tunnel.h include/net/dsfield.h \
- include/net/gro_cells.h include/net/inet_ecn.h \
+ arch/arm64/include/asm/mem_encrypt.h include/asm-generic/set_memory.h \
+ include/crypto/sha1.h include/net/sch_generic.h \
+ include/uapi/linux/pkt_cls.h include/net/gen_stats.h \
+ include/uapi/linux/gen_stats.h include/net/flow_offload.h \
+ include/linux/tracepoint.h include/net/xdp.h include/net/xdp_priv.h \
+ include/linux/rhashtable.h include/trace/define_trace.h \
+ include/generated/utsrelease.h include/scsi/fc/fc_fcoe.h \
+ include/net/udp_tunnel.h include/net/ip_tunnels.h \
+ include/linux/if_tunnel.h include/uapi/linux/if_tunnel.h \
+ include/net/dsfield.h include/net/gro_cells.h include/net/inet_ecn.h \
  include/net/netns/generic.h include/net/dst_cache.h \
  include/net/ip6_fib.h include/linux/ipv6_route.h \
  include/uapi/linux/ipv6_route.h include/net/ip6_route.h \

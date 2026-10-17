@@ -1,10 +1,11 @@
 metrics.o: net/ipv4/metrics.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/netlink.h include/linux/capability.h \
- include/uapi/linux/capability.h include/linux/types.h \
- include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/netlink.h \
+ include/linux/capability.h include/uapi/linux/capability.h \
+ include/linux/types.h include/uapi/linux/types.h \
+ arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -273,19 +274,19 @@ metrics.o: net/ipv4/metrics.c include/linux/compiler-version.h \
  include/linux/range.h include/linux/page_ext.h \
  include/linux/stacktrace.h include/linux/page_ref.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
- include/linux/vmstat.h include/linux/vm_event_item.h \
- include/linux/module.h include/linux/kmod.h include/linux/umh.h \
- include/linux/elf.h arch/arm64/include/asm/elf.h \
- arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
- include/uapi/linux/elf.h include/uapi/linux/elf-em.h \
- include/linux/moduleparam.h include/linux/rbtree_latch.h \
- include/linux/error-injection.h include/asm-generic/error-injection.h \
- include/linux/dynamic_debug.h arch/arm64/include/asm/module.h \
- include/asm-generic/module.h include/linux/ptrace.h \
- include/linux/pid_namespace.h include/linux/nsproxy.h \
- include/linux/ns_common.h include/uapi/linux/ptrace.h \
- include/linux/seccomp.h include/uapi/linux/seccomp.h \
- arch/arm64/include/asm/seccomp.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/vm_event_item.h include/linux/module.h \
+ include/linux/kmod.h include/linux/umh.h include/linux/elf.h \
+ arch/arm64/include/asm/elf.h arch/arm64/include/generated/asm/user.h \
+ include/asm-generic/user.h include/uapi/linux/elf.h \
+ include/uapi/linux/elf-em.h include/linux/moduleparam.h \
+ include/linux/rbtree_latch.h include/linux/error-injection.h \
+ include/asm-generic/error-injection.h include/linux/dynamic_debug.h \
+ arch/arm64/include/asm/module.h include/asm-generic/module.h \
+ include/linux/ptrace.h include/linux/pid_namespace.h \
+ include/linux/nsproxy.h include/linux/ns_common.h \
+ include/uapi/linux/ptrace.h include/linux/seccomp.h \
+ include/uapi/linux/seccomp.h arch/arm64/include/asm/seccomp.h \
  arch/arm64/include/generated/asm/unistd_compat_32.h \
  include/asm-generic/seccomp.h include/uapi/linux/unistd.h \
  arch/arm64/include/asm/unistd.h \
@@ -319,8 +320,7 @@ metrics.o: net/ipv4/metrics.c include/linux/compiler-version.h \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/linux/siphash.h \
  include/uapi/linux/if_ether.h include/uapi/linux/pkt_cls.h \
  include/uapi/linux/pkt_sched.h include/uapi/linux/if_packet.h \
@@ -414,8 +414,9 @@ metrics.o: net/ipv4/metrics.c include/linux/compiler-version.h \
  include/net/inet_hashtables.h include/net/sock_reuseport.h \
  include/linux/filter.h include/linux/sched/clock.h \
  include/linux/set_memory.h arch/arm64/include/asm/set_memory.h \
- include/asm-generic/set_memory.h include/linux/if_vlan.h \
- include/linux/etherdevice.h include/linux/crc32.h include/linux/bitrev.h \
+ arch/arm64/include/asm/mem_encrypt.h include/asm-generic/set_memory.h \
+ include/linux/if_vlan.h include/linux/etherdevice.h \
+ include/linux/crc32.h include/linux/bitrev.h \
  arch/arm64/include/asm/bitrev.h include/linux/unaligned.h \
  include/vdso/unaligned.h include/uapi/linux/if_vlan.h \
  include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
@@ -429,4 +430,5 @@ metrics.o: net/ipv4/metrics.c include/linux/compiler-version.h \
  include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
  arch/arm64/include/asm/syscall.h include/net/ip6_fib.h \
  include/linux/ipv6_route.h include/uapi/linux/ipv6_route.h \
- include/net/gro_cells.h include/linux/bpf-cgroup.h
+ include/net/gro_cells.h include/net/secure_seq.h \
+ include/linux/bpf-cgroup.h

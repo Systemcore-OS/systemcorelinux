@@ -266,22 +266,19 @@ config MAXLINEAR_GPHY
 	  Support for the Maxlinear GPY115, GPY211, GPY212, GPY215,
 	  GPY241, GPY245 PHYs.
 
-config MEDIATEK_GE_PHY
-	tristate "MediaTek Gigabit Ethernet PHYs"
+config MAXLINEAR_86110_PHY
+	tristate "MaxLinear MXL86110 PHY support"
 	help
-	  Supports the MediaTek Gigabit Ethernet PHYs.
+	 Support for the MaxLinear MXL86110 Gigabit Ethernet
+	 Physical Layer transceiver.
+	 The MXL86110 is commonly used in networking equipment such as
+	 routers, switches, and embedded systems, providing the
+	 physical interface for 10/100/1000 Mbps Ethernet connections
+	 over copper media.
+	 If you are using a board with the MXL86110 PHY connected to your
+	 Ethernet MAC, you should enable this option.
 
-config MEDIATEK_GE_SOC_PHY
-	tristate "MediaTek SoC Ethernet PHYs"
-	depends on (ARM64 && ARCH_MEDIATEK) || COMPILE_TEST
-	depends on NVMEM_MTK_EFUSE
-	help
-	  Supports MediaTek SoC built-in Gigabit Ethernet PHYs.
-
-	  Include support for built-in Ethernet PHYs which are present in
-	  the MT7981 and MT7988 SoCs. These PHYs need calibration data
-	  present in the SoCs efuse and will dynamically calibrate VCM
-	  (common-mode voltage) during startup.
+source "drivers/net/phy/mediatek/Kconfig"
 
 config MICREL_PHY
 	tristate "Micrel PHYs"

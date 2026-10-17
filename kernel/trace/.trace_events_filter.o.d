@@ -1,6 +1,7 @@
 trace_events_filter.o: kernel/trace/trace_events_filter.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/uaccess.h \
  include/linux/fault-inject-usercopy.h include/linux/types.h \
@@ -268,9 +269,9 @@ trace_events_filter.o: kernel/trace/trace_events_filter.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/nsproxy.h \
- include/linux/ns_common.h include/linux/ftrace.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/nsproxy.h include/linux/ns_common.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/interrupt.h \
  include/linux/irqreturn.h include/linux/hardirq.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \

@@ -1,5 +1,6 @@
 aio.o: fs/aio.c include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/kernel.h \
  include/linux/stdarg.h include/linux/align.h include/linux/const.h \
@@ -279,7 +280,7 @@ aio.o: fs/aio.c include/linux/compiler-version.h include/linux/kconfig.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/seq_file.h \
  include/linux/string_helpers.h include/linux/ctype.h \
  include/linux/string_choices.h include/linux/poll.h \

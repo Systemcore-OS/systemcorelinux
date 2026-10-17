@@ -1,6 +1,7 @@
 drm_mode_config.o: drivers/gpu/drm/drm_mode_config.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/uaccess.h \
  include/linux/fault-inject-usercopy.h include/linux/types.h \
@@ -293,7 +294,7 @@ drm_mode_config.o: drivers/gpu/drm/drm_mode_config.c \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/ptrace.h \
  include/linux/pid_namespace.h include/linux/nsproxy.h \
  include/linux/ns_common.h include/uapi/linux/ptrace.h \

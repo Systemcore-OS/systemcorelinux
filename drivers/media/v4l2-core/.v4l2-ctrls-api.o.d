@@ -1,6 +1,7 @@
 v4l2-ctrls-api.o: drivers/media/v4l2-core/v4l2-ctrls-api.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/export.h \
  include/linux/compiler.h include/linux/compiler_types.h \
@@ -254,21 +255,22 @@ v4l2-ctrls-api.o: drivers/media/v4l2-core/v4l2-ctrls-api.c \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/media/v4l2-ctrls.h \
- include/linux/videodev2.h include/uapi/linux/videodev2.h \
- include/uapi/linux/v4l2-common.h include/uapi/linux/v4l2-controls.h \
- include/media/media-request.h include/media/media-device.h \
- include/linux/pci.h include/linux/mod_devicetable.h \
- include/uapi/linux/mei.h include/uapi/linux/mei_uuid.h \
- include/linux/device.h include/linux/dev_printk.h \
- include/linux/energy_model.h include/linux/sched/cpufreq.h \
- include/linux/sched/topology.h include/linux/sched/idle.h \
- include/linux/sched/sd_flags.h include/linux/klist.h include/linux/pm.h \
- include/linux/device/bus.h include/linux/device/class.h \
- include/linux/device/devres.h include/linux/device/driver.h \
- include/linux/module.h include/linux/buildid.h include/linux/kmod.h \
- include/linux/umh.h include/linux/elf.h arch/arm64/include/asm/elf.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/media/v4l2-ctrls.h include/linux/videodev2.h \
+ include/uapi/linux/videodev2.h include/uapi/linux/v4l2-common.h \
+ include/uapi/linux/v4l2-controls.h include/media/media-request.h \
+ include/media/media-device.h include/linux/pci.h \
+ include/linux/mod_devicetable.h include/uapi/linux/mei.h \
+ include/uapi/linux/mei_uuid.h include/linux/device.h \
+ include/linux/dev_printk.h include/linux/energy_model.h \
+ include/linux/sched/cpufreq.h include/linux/sched/topology.h \
+ include/linux/sched/idle.h include/linux/sched/sd_flags.h \
+ include/linux/klist.h include/linux/pm.h include/linux/device/bus.h \
+ include/linux/device/class.h include/linux/device/devres.h \
+ include/linux/device/driver.h include/linux/module.h \
+ include/linux/buildid.h include/linux/kmod.h include/linux/umh.h \
+ include/linux/elf.h arch/arm64/include/asm/elf.h \
  arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
  include/uapi/linux/elf.h include/uapi/linux/elf-em.h \
  include/linux/moduleparam.h include/linux/rbtree_latch.h \
@@ -294,7 +296,6 @@ v4l2-ctrls-api.o: drivers/media/v4l2-core/v4l2-ctrls-api.c \
  include/linux/pci_ids.h include/linux/dmapool.h \
  include/linux/scatterlist.h arch/arm64/include/asm/pci.h \
  include/linux/dma-mapping.h include/linux/dma-direction.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/asm-generic/pci.h include/linux/platform_device.h \
  include/media/media-devnode.h include/linux/poll.h \
  include/uapi/linux/poll.h arch/arm64/include/generated/uapi/asm/poll.h \

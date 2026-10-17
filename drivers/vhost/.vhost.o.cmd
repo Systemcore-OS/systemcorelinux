@@ -1,4 +1,4 @@
-savedcmd_drivers/vhost/vhost.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/vhost/.vhost.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"vhost"' -DKBUILD_MODNAME='"vhost"' -D__KBUILD_MODNAME=kmod_vhost -c -o drivers/vhost/vhost.o drivers/vhost/vhost.c  
+savedcmd_drivers/vhost/vhost.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/vhost/.vhost.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"vhost"' -DKBUILD_MODNAME='"vhost"' -D__KBUILD_MODNAME=kmod_vhost -c -o drivers/vhost/vhost.o drivers/vhost/vhost.c  
 
 source_drivers/vhost/vhost.o := drivers/vhost/vhost.c
 
@@ -25,6 +25,7 @@ deps_drivers/vhost/vhost.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -526,6 +527,7 @@ deps_drivers/vhost/vhost.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -578,6 +580,7 @@ deps_drivers/vhost/vhost.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -717,6 +720,9 @@ deps_drivers/vhost/vhost.o := \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/list_nulls.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -889,6 +895,7 @@ deps_drivers/vhost/vhost.o := \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -1007,6 +1014,8 @@ deps_drivers/vhost/vhost.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1119,9 +1128,6 @@ deps_drivers/vhost/vhost.o := \
     $(wildcard include/config/HAS_DMA) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
   include/linux/dma-direction.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/virtio_byteorder.h \
   include/uapi/linux/virtio_types.h \
   include/uapi/linux/virtio_config.h \
@@ -1326,47 +1332,47 @@ drivers/vhost/vhost.o: $(deps_drivers/vhost/vhost.o)
 
 $(deps_drivers/vhost/vhost.o):
 #SYMVER vhost_work_init 0xa909cfc5
-#SYMVER vhost_poll_init 0x814b5e8b
-#SYMVER vhost_poll_start 0xeb630421
-#SYMVER vhost_poll_stop 0xe5ae5a10
-#SYMVER vhost_vq_work_queue 0xe61603d0
-#SYMVER vhost_dev_flush 0x259fe8d2
-#SYMVER vhost_vq_has_work 0x392717d2
-#SYMVER vhost_poll_queue 0x5ba60838
-#SYMVER vhost_vq_is_setup 0x490b3802
-#SYMVER vhost_exceeds_weight 0x17edfb5d
-#SYMVER vhost_dev_init 0x5cce3072
-#SYMVER vhost_dev_check_owner 0xea60a43b
-#SYMVER vhost_dev_has_owner 0xccff4ee1
-#SYMVER vhost_worker_ioctl 0x37cb18e0
-#SYMVER vhost_dev_set_owner 0xb0bf18f7
+#SYMVER vhost_poll_init 0x88619300
+#SYMVER vhost_poll_start 0xade2ed65
+#SYMVER vhost_poll_stop 0xe09fea60
+#SYMVER vhost_vq_work_queue 0x0ccb25f2
+#SYMVER vhost_dev_flush 0x572d0cd7
+#SYMVER vhost_vq_has_work 0xb7668730
+#SYMVER vhost_poll_queue 0xcf70f29f
+#SYMVER vhost_vq_is_setup 0xdafbeac5
+#SYMVER vhost_exceeds_weight 0xf42e4e5d
+#SYMVER vhost_dev_init 0xd513c82b
+#SYMVER vhost_dev_check_owner 0x6ad30548
+#SYMVER vhost_dev_has_owner 0x69530357
+#SYMVER vhost_worker_ioctl 0xd7ab1e69
+#SYMVER vhost_dev_set_owner 0xb3d3c3c8
 #SYMVER vhost_dev_reset_owner_prepare 0xfd2b3e45
-#SYMVER vhost_dev_reset_owner 0x04b3930f
-#SYMVER vhost_dev_stop 0x48770c55
-#SYMVER vhost_clear_msg 0x5bd890bf
-#SYMVER vhost_dev_cleanup 0x322c6144
-#SYMVER vhost_chr_write_iter 0xf7ba36c5
-#SYMVER vhost_chr_poll 0x68230099
-#SYMVER vhost_chr_read_iter 0x8c6b93e1
-#SYMVER vq_meta_prefetch 0xb6c8ce88
-#SYMVER vhost_log_access_ok 0x254466e2
-#SYMVER vhost_vq_access_ok 0xf84e13b6
-#SYMVER vhost_vring_ioctl 0xe9cb3eca
-#SYMVER vhost_init_device_iotlb 0x0034ac0e
-#SYMVER vhost_dev_ioctl 0xf4d40bd0
-#SYMVER vhost_log_write 0x6da443ed
-#SYMVER vhost_vq_init_access 0xa96fb84f
-#SYMVER vhost_get_vq_desc 0xa95906f8
-#SYMVER vhost_discard_vq_desc 0x235df984
-#SYMVER vhost_add_used 0x4e06032a
-#SYMVER vhost_add_used_n 0xd5a97084
-#SYMVER vhost_signal 0x90bdeb9f
-#SYMVER vhost_add_used_and_signal 0x970926a6
-#SYMVER vhost_add_used_and_signal_n 0x5c5c64da
-#SYMVER vhost_vq_avail_empty 0x27b9df5c
-#SYMVER vhost_enable_notify 0xd49ec4ed
-#SYMVER vhost_disable_notify 0x6916fd6c
-#SYMVER vhost_new_msg 0x817ff2e5
-#SYMVER vhost_enqueue_msg 0x6cd77fdc
-#SYMVER vhost_dequeue_msg 0xd9cbc1c9
-#SYMVER vhost_set_backend_features 0x5606ae8b
+#SYMVER vhost_dev_reset_owner 0x0b68d4fc
+#SYMVER vhost_dev_stop 0x88523c5b
+#SYMVER vhost_clear_msg 0xec12d5e6
+#SYMVER vhost_dev_cleanup 0x1dd32d16
+#SYMVER vhost_chr_write_iter 0x97d68440
+#SYMVER vhost_chr_poll 0xbea4cc60
+#SYMVER vhost_chr_read_iter 0x9c46ffc1
+#SYMVER vq_meta_prefetch 0x3d67484b
+#SYMVER vhost_log_access_ok 0xe2221fe5
+#SYMVER vhost_vq_access_ok 0x701fda0b
+#SYMVER vhost_vring_ioctl 0x58317894
+#SYMVER vhost_init_device_iotlb 0x4d03b01e
+#SYMVER vhost_dev_ioctl 0x0574741f
+#SYMVER vhost_log_write 0xdbfd777e
+#SYMVER vhost_vq_init_access 0xce5c1288
+#SYMVER vhost_get_vq_desc 0x16f817cc
+#SYMVER vhost_discard_vq_desc 0x39ab6ed9
+#SYMVER vhost_add_used 0xe551dfb4
+#SYMVER vhost_add_used_n 0x54b892c4
+#SYMVER vhost_signal 0x14c35a30
+#SYMVER vhost_add_used_and_signal 0x7449b860
+#SYMVER vhost_add_used_and_signal_n 0xc09bbdb6
+#SYMVER vhost_vq_avail_empty 0x7df546a0
+#SYMVER vhost_enable_notify 0xaaefe326
+#SYMVER vhost_disable_notify 0x0bf79d2e
+#SYMVER vhost_new_msg 0xf72830de
+#SYMVER vhost_enqueue_msg 0x62f6bd3d
+#SYMVER vhost_dequeue_msg 0x2f36e8b2
+#SYMVER vhost_set_backend_features 0x6769e4a0

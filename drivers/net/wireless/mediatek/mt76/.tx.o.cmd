@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/mediatek/mt76/tx.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/mediatek/mt76/.tx.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"tx"' -DKBUILD_MODNAME='"mt76"' -D__KBUILD_MODNAME=kmod_mt76 -c -o drivers/net/wireless/mediatek/mt76/tx.o drivers/net/wireless/mediatek/mt76/tx.c  
+savedcmd_drivers/net/wireless/mediatek/mt76/tx.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/mediatek/mt76/.tx.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"tx"' -DKBUILD_MODNAME='"mt76"' -D__KBUILD_MODNAME=kmod_mt76 -c -o drivers/net/wireless/mediatek/mt76/tx.o drivers/net/wireless/mediatek/mt76/tx.c  
 
 source_drivers/net/wireless/mediatek/mt76/tx.o := drivers/net/wireless/mediatek/mt76/tx.c
 
@@ -25,6 +25,7 @@ deps_drivers/net/wireless/mediatek/mt76/tx.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -644,6 +645,7 @@ deps_drivers/net/wireless/mediatek/mt76/tx.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -687,6 +689,7 @@ deps_drivers/net/wireless/mediatek/mt76/tx.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -720,6 +723,9 @@ deps_drivers/net/wireless/mediatek/mt76/tx.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -794,6 +800,7 @@ deps_drivers/net/wireless/mediatek/mt76/tx.o := \
   include/linux/bvec.h \
   include/linux/highmem.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1119,6 +1126,8 @@ deps_drivers/net/wireless/mediatek/mt76/tx.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1276,9 +1285,6 @@ deps_drivers/net/wireless/mediatek/mt76/tx.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1408,6 +1414,7 @@ deps_drivers/net/wireless/mediatek/mt76/tx.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1630,26 +1637,26 @@ deps_drivers/net/wireless/mediatek/mt76/tx.o := \
 drivers/net/wireless/mediatek/mt76/tx.o: $(deps_drivers/net/wireless/mediatek/mt76/tx.o)
 
 $(deps_drivers/net/wireless/mediatek/mt76/tx.o):
-#SYMVER mt76_tx_check_agg_ssn 0x7022eb46
-#SYMVER mt76_tx_status_lock 0xfc49cfbe
-#SYMVER mt76_tx_status_unlock 0x3bf122ef
-#SYMVER mt76_tx_status_skb_done 0xd332c9b4
-#SYMVER mt76_tx_status_skb_add 0x9082ad15
-#SYMVER mt76_tx_status_skb_get 0xd6065cb5
-#SYMVER mt76_tx_status_check 0xefeefd11
-#SYMVER __mt76_tx_complete_skb 0x7e957ca7
-#SYMVER mt76_tx 0xc0fc16dc
-#SYMVER mt76_release_buffered_frames 0xa94e7b8e
-#SYMVER mt76_txq_schedule 0x72a6bc03
-#SYMVER mt76_txq_schedule_all 0xf75e1a02
-#SYMVER mt76_tx_worker_run 0xdf73075f
-#SYMVER mt76_stop_tx_queues 0xcc80958d
-#SYMVER mt76_wake_tx_queue 0x48df5a61
+#SYMVER mt76_tx_check_agg_ssn 0xcf3ddf86
+#SYMVER mt76_tx_status_lock 0xa08d7a41
+#SYMVER mt76_tx_status_unlock 0x0684a249
+#SYMVER mt76_tx_status_skb_done 0xd0443b30
+#SYMVER mt76_tx_status_skb_add 0x4e7bda5c
+#SYMVER mt76_tx_status_skb_get 0x3c60a92f
+#SYMVER mt76_tx_status_check 0xeb52a7e3
+#SYMVER __mt76_tx_complete_skb 0xe70f4923
+#SYMVER mt76_tx 0x1fe73101
+#SYMVER mt76_release_buffered_frames 0x169ab190
+#SYMVER mt76_txq_schedule 0x4fb00919
+#SYMVER mt76_txq_schedule_all 0x03c8a2f1
+#SYMVER mt76_tx_worker_run 0x7d90aa68
+#SYMVER mt76_stop_tx_queues 0x5e8dd888
+#SYMVER mt76_wake_tx_queue 0x8470c3ae
 #SYMVER mt76_ac_to_hwq 0xc6634315
-#SYMVER mt76_skb_adjust_pad 0x56e50426
-#SYMVER mt76_queue_tx_complete 0x47fa0f77
-#SYMVER __mt76_set_tx_blocked 0x65bd27d0
-#SYMVER mt76_token_consume 0xda97c963
-#SYMVER mt76_rx_token_consume 0x65a42014
-#SYMVER mt76_token_release 0x62df7512
-#SYMVER mt76_rx_token_release 0x8102244f
+#SYMVER mt76_skb_adjust_pad 0x474170e0
+#SYMVER mt76_queue_tx_complete 0xf8cff015
+#SYMVER __mt76_set_tx_blocked 0x3b5bd16c
+#SYMVER mt76_token_consume 0x11103c85
+#SYMVER mt76_rx_token_consume 0x95d0101e
+#SYMVER mt76_token_release 0xb5a7a692
+#SYMVER mt76_rx_token_release 0x50b3c0ca

@@ -1,6 +1,7 @@
 libata-transport.o: drivers/ata/libata-transport.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/kernel.h \
  include/linux/stdarg.h include/linux/align.h include/linux/const.h \
@@ -275,19 +276,19 @@ libata-transport.o: drivers/ata/libata-transport.c \
  include/linux/range.h include/linux/page_ext.h \
  include/linux/stacktrace.h include/linux/page_ref.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
- include/linux/vmstat.h include/linux/vm_event_item.h \
- include/linux/module.h include/linux/kmod.h include/linux/umh.h \
- include/linux/elf.h arch/arm64/include/asm/elf.h \
- arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
- include/uapi/linux/elf.h include/uapi/linux/elf-em.h \
- include/linux/moduleparam.h include/linux/rbtree_latch.h \
- include/linux/error-injection.h include/asm-generic/error-injection.h \
- include/linux/dynamic_debug.h arch/arm64/include/asm/module.h \
- include/asm-generic/module.h include/linux/ptrace.h \
- include/linux/pid_namespace.h include/linux/nsproxy.h \
- include/linux/ns_common.h include/uapi/linux/ptrace.h \
- include/linux/seccomp.h include/uapi/linux/seccomp.h \
- arch/arm64/include/asm/seccomp.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/vm_event_item.h include/linux/module.h \
+ include/linux/kmod.h include/linux/umh.h include/linux/elf.h \
+ arch/arm64/include/asm/elf.h arch/arm64/include/generated/asm/user.h \
+ include/asm-generic/user.h include/uapi/linux/elf.h \
+ include/uapi/linux/elf-em.h include/linux/moduleparam.h \
+ include/linux/rbtree_latch.h include/linux/error-injection.h \
+ include/asm-generic/error-injection.h include/linux/dynamic_debug.h \
+ arch/arm64/include/asm/module.h include/asm-generic/module.h \
+ include/linux/ptrace.h include/linux/pid_namespace.h \
+ include/linux/nsproxy.h include/linux/ns_common.h \
+ include/uapi/linux/ptrace.h include/linux/seccomp.h \
+ include/uapi/linux/seccomp.h arch/arm64/include/asm/seccomp.h \
  arch/arm64/include/generated/asm/unistd_compat_32.h \
  include/asm-generic/seccomp.h include/uapi/linux/unistd.h \
  arch/arm64/include/asm/unistd.h \
@@ -330,20 +331,18 @@ libata-transport.o: drivers/ata/libata-transport.c \
  include/scsi/scsi_proto.h include/scsi/scsi_status.h \
  include/scsi/scsi_device.h include/linux/libata.h include/linux/delay.h \
  arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
- include/linux/dma-mapping.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/ata.h \
- include/linux/acpi.h include/linux/resource_ext.h \
- include/linux/mod_devicetable.h include/uapi/linux/mei.h \
- include/uapi/linux/mei_uuid.h include/linux/property.h \
- include/linux/node.h include/acpi/acpi.h include/acpi/platform/acenv.h \
- include/acpi/platform/acgcc.h include/acpi/platform/aclinux.h \
- include/acpi/acnames.h include/acpi/actypes.h include/acpi/acexcep.h \
- include/acpi/actbl.h include/acpi/actbl1.h include/acpi/actbl2.h \
- include/acpi/actbl3.h include/acpi/acrestyp.h \
- include/acpi/platform/acenvex.h include/acpi/platform/aclinuxex.h \
- include/acpi/platform/acgccex.h include/acpi/acoutput.h \
- include/acpi/acpiosxf.h include/acpi/acpixf.h include/acpi/acconfig.h \
- include/acpi/acbuffer.h include/acpi/acpi_numa.h include/linux/cdrom.h \
- include/uapi/linux/cdrom.h include/linux/async.h \
+ include/linux/dma-mapping.h include/linux/ata.h include/linux/acpi.h \
+ include/linux/resource_ext.h include/linux/mod_devicetable.h \
+ include/uapi/linux/mei.h include/uapi/linux/mei_uuid.h \
+ include/linux/property.h include/linux/node.h include/acpi/acpi.h \
+ include/acpi/platform/acenv.h include/acpi/platform/acgcc.h \
+ include/acpi/platform/aclinux.h include/acpi/acnames.h \
+ include/acpi/actypes.h include/acpi/acexcep.h include/acpi/actbl.h \
+ include/acpi/actbl1.h include/acpi/actbl2.h include/acpi/actbl3.h \
+ include/acpi/acrestyp.h include/acpi/platform/acenvex.h \
+ include/acpi/platform/aclinuxex.h include/acpi/platform/acgccex.h \
+ include/acpi/acoutput.h include/acpi/acpiosxf.h include/acpi/acpixf.h \
+ include/acpi/acconfig.h include/acpi/acbuffer.h include/acpi/acpi_numa.h \
+ include/linux/cdrom.h include/uapi/linux/cdrom.h include/linux/async.h \
  include/uapi/linux/hdreg.h include/linux/pm_runtime.h \
  drivers/ata/libata.h drivers/ata/libata-transport.h

@@ -1,4 +1,4 @@
-savedcmd_net/ipv4/tcp_ipv4.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ipv4/.tcp_ipv4.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/ipv4/tcp_ipv4"' -DKBUILD_BASENAME='"tcp_ipv4"' -DKBUILD_MODNAME='"tcp_ipv4"' -D__KBUILD_MODNAME=kmod_tcp_ipv4 -c -o net/ipv4/tcp_ipv4.o net/ipv4/tcp_ipv4.c  
+savedcmd_net/ipv4/tcp_ipv4.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ipv4/.tcp_ipv4.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"net/ipv4/tcp_ipv4"' -DKBUILD_BASENAME='"tcp_ipv4"' -DKBUILD_MODNAME='"tcp_ipv4"' -D__KBUILD_MODNAME=kmod_tcp_ipv4 -c -o net/ipv4/tcp_ipv4.o net/ipv4/tcp_ipv4.c  
 
 source_net/ipv4/tcp_ipv4.o := net/ipv4/tcp_ipv4.c
 
@@ -30,6 +30,7 @@ deps_net/ipv4/tcp_ipv4.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -489,6 +490,7 @@ deps_net/ipv4/tcp_ipv4.o := \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -575,6 +577,7 @@ deps_net/ipv4/tcp_ipv4.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -688,6 +691,9 @@ deps_net/ipv4/tcp_ipv4.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -813,6 +819,7 @@ deps_net/ipv4/tcp_ipv4.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -964,120 +971,10 @@ deps_net/ipv4/tcp_ipv4.o := \
   include/linux/jhash.h \
   include/linux/unaligned/packed_struct.h \
   include/uapi/linux/times.h \
-  include/net/net_namespace.h \
-    $(wildcard include/config/NF_CONNTRACK) \
-    $(wildcard include/config/NF_FLOW_TABLE) \
-    $(wildcard include/config/UNIX) \
-    $(wildcard include/config/IEEE802154_6LOWPAN) \
-    $(wildcard include/config/IP_SCTP) \
-    $(wildcard include/config/NETFILTER) \
-    $(wildcard include/config/NF_TABLES) \
-    $(wildcard include/config/WEXT_CORE) \
-    $(wildcard include/config/XFRM) \
-    $(wildcard include/config/IP_VS) \
-    $(wildcard include/config/MPLS) \
-    $(wildcard include/config/CAN) \
-    $(wildcard include/config/XDP_SOCKETS) \
-    $(wildcard include/config/MCTP) \
-    $(wildcard include/config/CRYPTO_USER) \
-    $(wildcard include/config/SMC) \
-    $(wildcard include/config/NET_NS) \
-    $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
-  include/net/flow.h \
-  include/linux/in6.h \
-  include/uapi/linux/in6.h \
-  include/uapi/linux/libc-compat.h \
-  include/net/netns/core.h \
-    $(wildcard include/config/RPS) \
-  include/net/netns/mib.h \
-    $(wildcard include/config/XFRM_STATISTICS) \
-    $(wildcard include/config/TLS) \
-    $(wildcard include/config/MPTCP) \
-  include/net/snmp.h \
-  include/uapi/linux/snmp.h \
-  include/linux/u64_stats_sync.h \
-  arch/arm64/include/generated/asm/local64.h \
-  include/asm-generic/local64.h \
-  arch/arm64/include/generated/asm/local.h \
-  include/asm-generic/local.h \
-  include/net/netns/unix.h \
-  include/net/netns/packet.h \
-  include/net/netns/ipv4.h \
-    $(wildcard include/config/IP_ROUTE_MULTIPATH) \
-    $(wildcard include/config/IP_MULTIPLE_TABLES) \
-    $(wildcard include/config/IP_ROUTE_CLASSID) \
-    $(wildcard include/config/NET_L3_MASTER_DEV) \
-    $(wildcard include/config/IP_MROUTE) \
-    $(wildcard include/config/IP_MROUTE_MULTIPLE_TABLES) \
-  include/net/inet_frag.h \
-  include/linux/rhashtable-types.h \
-  include/net/dropreason-core.h \
-  include/linux/siphash.h \
-    $(wildcard include/config/HAVE_EFFICIENT_UNALIGNED_ACCESS) \
-  include/net/netns/ipv6.h \
-    $(wildcard include/config/IPV6_MULTIPLE_TABLES) \
-    $(wildcard include/config/IPV6_SUBTREES) \
-    $(wildcard include/config/IPV6_MROUTE) \
-    $(wildcard include/config/IPV6_MROUTE_MULTIPLE_TABLES) \
-    $(wildcard include/config/NF_DEFRAG_IPV6) \
-  include/net/dst_ops.h \
-  include/uapi/linux/icmpv6.h \
-  include/net/netns/nexthop.h \
-  include/net/netns/ieee802154_6lowpan.h \
-  include/net/netns/sctp.h \
-  include/net/netns/netfilter.h \
-    $(wildcard include/config/LWTUNNEL) \
-    $(wildcard include/config/NETFILTER_FAMILY_ARP) \
-    $(wildcard include/config/NETFILTER_FAMILY_BRIDGE) \
-    $(wildcard include/config/NF_DEFRAG_IPV4) \
-  include/linux/netfilter_defs.h \
-  include/uapi/linux/netfilter.h \
-  include/linux/in.h \
-  include/uapi/linux/in.h \
-  include/linux/socket.h \
-  arch/arm64/include/generated/uapi/asm/socket.h \
-  include/uapi/asm-generic/socket.h \
-  arch/arm64/include/generated/uapi/asm/sockios.h \
-  include/uapi/asm-generic/sockios.h \
-  include/uapi/linux/sockios.h \
-  include/linux/uio.h \
-    $(wildcard include/config/ARCH_HAS_COPY_MC) \
-  include/uapi/linux/uio.h \
-  include/uapi/linux/socket.h \
-  include/net/netns/conntrack.h \
-    $(wildcard include/config/NF_CT_PROTO_DCCP) \
-    $(wildcard include/config/NF_CT_PROTO_SCTP) \
-    $(wildcard include/config/NF_CT_PROTO_GRE) \
-    $(wildcard include/config/NF_CONNTRACK_EVENTS) \
-    $(wildcard include/config/NF_CONNTRACK_LABELS) \
-  include/linux/netfilter/nf_conntrack_tcp.h \
-  include/uapi/linux/netfilter/nf_conntrack_tcp.h \
-  include/linux/netfilter/nf_conntrack_dccp.h \
-  include/uapi/linux/netfilter/nf_conntrack_tuple_common.h \
-  include/linux/netfilter/nf_conntrack_common.h \
-  include/uapi/linux/netfilter/nf_conntrack_common.h \
-  include/linux/netfilter/nf_conntrack_sctp.h \
-  include/uapi/linux/netfilter/nf_conntrack_sctp.h \
-  include/net/netns/flow_table.h \
-  include/net/netns/nftables.h \
-  include/net/netns/xfrm.h \
-  include/uapi/linux/xfrm.h \
-  include/net/netns/mpls.h \
-  include/net/netns/can.h \
-  include/net/netns/xdp.h \
-  include/net/netns/smc.h \
-  include/net/netns/bpf.h \
-  include/net/netns/mctp.h \
-  include/net/net_trackers.h \
-    $(wildcard include/config/NET_DEV_REFCNT_TRACKER) \
-  include/linux/ref_tracker.h \
-    $(wildcard include/config/REF_TRACKER) \
-  include/linux/stackdepot.h \
-    $(wildcard include/config/STACKDEPOT) \
-    $(wildcard include/config/STACKDEPOT_MAX_FRAMES) \
-    $(wildcard include/config/STACKDEPOT_ALWAYS_INIT) \
-  include/linux/ns_common.h \
+  include/linux/sock_diag.h \
+  include/linux/netlink.h \
   include/linux/skbuff.h \
+    $(wildcard include/config/NF_CONNTRACK) \
     $(wildcard include/config/BRIDGE_NETFILTER) \
     $(wildcard include/config/NET_TC_SKB_EXT) \
     $(wildcard include/config/MAX_SKB_FRAGS) \
@@ -1086,17 +983,23 @@ deps_net/ipv4/tcp_ipv4.o := \
     $(wildcard include/config/NET_XGRESS) \
     $(wildcard include/config/WIRELESS) \
     $(wildcard include/config/IPV6_NDISC_NODETYPE) \
+    $(wildcard include/config/IP_VS) \
     $(wildcard include/config/NETFILTER_XT_TARGET_TRACE) \
+    $(wildcard include/config/NF_TABLES) \
     $(wildcard include/config/NET_SWITCHDEV) \
     $(wildcard include/config/NET_REDIRECT) \
     $(wildcard include/config/NETFILTER_SKIP_EGRESS) \
     $(wildcard include/config/SKB_DECRYPTED) \
+    $(wildcard include/config/IP_SCTP) \
     $(wildcard include/config/NET_SCHED) \
     $(wildcard include/config/NET_RX_BUSY_POLL) \
     $(wildcard include/config/XPS) \
     $(wildcard include/config/NETWORK_SECMARK) \
     $(wildcard include/config/DEBUG_NET) \
+    $(wildcard include/config/HAVE_EFFICIENT_UNALIGNED_ACCESS) \
     $(wildcard include/config/NETWORK_PHY_TIMESTAMPING) \
+    $(wildcard include/config/XFRM) \
+    $(wildcard include/config/MPTCP) \
     $(wildcard include/config/MCTP_FLOWS) \
   include/linux/bvec.h \
   include/linux/highmem.h \
@@ -1262,6 +1165,8 @@ deps_net/ipv4/tcp_ipv4.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1274,6 +1179,7 @@ deps_net/ipv4/tcp_ipv4.o := \
     $(wildcard include/config/MEMFD_CREATE) \
     $(wildcard include/config/PID_NS) \
   include/linux/nsproxy.h \
+  include/linux/ns_common.h \
   include/uapi/linux/ptrace.h \
   include/linux/seccomp.h \
     $(wildcard include/config/HAVE_ARCH_SECCOMP_FILTER) \
@@ -1296,12 +1202,24 @@ deps_net/ipv4/tcp_ipv4.o := \
   include/linux/sem.h \
   include/uapi/linux/sem.h \
   include/linux/ipc.h \
+  include/linux/rhashtable-types.h \
   include/uapi/linux/ipc.h \
   arch/arm64/include/generated/uapi/asm/ipcbuf.h \
   include/uapi/asm-generic/ipcbuf.h \
   arch/arm64/include/generated/uapi/asm/sembuf.h \
   include/uapi/asm-generic/sembuf.h \
+  include/linux/socket.h \
+  arch/arm64/include/generated/uapi/asm/socket.h \
+  include/uapi/asm-generic/socket.h \
+  arch/arm64/include/generated/uapi/asm/sockios.h \
+  include/uapi/asm-generic/sockios.h \
+  include/uapi/linux/sockios.h \
+  include/linux/uio.h \
+    $(wildcard include/config/ARCH_HAS_COPY_MC) \
+  include/uapi/linux/uio.h \
+  include/uapi/linux/socket.h \
   include/uapi/linux/if.h \
+  include/uapi/linux/libc-compat.h \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
   arch/arm64/include/asm/syscall_wrapper.h \
@@ -1316,6 +1234,8 @@ deps_net/ipv4/tcp_ipv4.o := \
   include/linux/highmem-internal.h \
   include/net/checksum.h \
   arch/arm64/include/asm/checksum.h \
+  include/linux/in6.h \
+  include/uapi/linux/in6.h \
   include/asm-generic/checksum.h \
   include/linux/dma-mapping.h \
     $(wildcard include/config/DMA_API_DEBUG) \
@@ -1371,30 +1291,216 @@ deps_net/ipv4/tcp_ipv4.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
+  include/linux/siphash.h \
   include/uapi/linux/if_ether.h \
   include/uapi/linux/pkt_cls.h \
     $(wildcard include/config/NET_CLS_ACT) \
   include/uapi/linux/pkt_sched.h \
   include/uapi/linux/if_packet.h \
+  include/net/flow.h \
+  include/linux/netfilter/nf_conntrack_common.h \
+  include/uapi/linux/netfilter/nf_conntrack_common.h \
   include/net/net_debug.h \
+  include/net/dropreason-core.h \
   include/net/netmem.h \
-  include/linux/seq_file_net.h \
+  include/net/scm.h \
+    $(wildcard include/config/UNIX) \
+    $(wildcard include/config/SECURITY_NETWORK) \
+  include/linux/net.h \
+  include/linux/sockptr.h \
+  include/uapi/linux/net.h \
+  include/linux/file.h \
+  include/linux/security.h \
+    $(wildcard include/config/SECURITY_INFINIBAND) \
+    $(wildcard include/config/SECURITY_NETWORK_XFRM) \
+    $(wildcard include/config/SECURITY_PATH) \
+    $(wildcard include/config/SECURITYFS) \
+  include/linux/kernel_read_file.h \
+  include/linux/bpf.h \
+    $(wildcard include/config/CGROUP_BPF) \
+    $(wildcard include/config/FINEIBT) \
+    $(wildcard include/config/BPF_LSM) \
+    $(wildcard include/config/BPF_JIT_ALWAYS_ON) \
+    $(wildcard include/config/INET) \
+  include/uapi/linux/bpf.h \
+    $(wildcard include/config/BPF_LIRC_MODE2) \
+    $(wildcard include/config/EFFICIENT_UNALIGNED_ACCESS) \
+    $(wildcard include/config/CGROUP_NET_CLASSID) \
+    $(wildcard include/config/IP_ROUTE_CLASSID) \
+    $(wildcard include/config/BPF_KPROBE_OVERRIDE) \
+    $(wildcard include/config/SOCK_CGROUP_DATA) \
+  include/uapi/linux/bpf_common.h \
+  include/uapi/linux/filter.h \
+  include/linux/bpfptr.h \
+  include/linux/btf.h \
+  include/linux/bsearch.h \
+  include/linux/btf_ids.h \
+  include/uapi/linux/btf.h \
+  include/linux/rcupdate_trace.h \
+    $(wildcard include/config/TASKS_TRACE_RCU_READ_MB) \
+  include/linux/static_call.h \
+  include/linux/cpu.h \
+    $(wildcard include/config/GENERIC_CPU_DEVICES) \
+    $(wildcard include/config/PM_SLEEP_SMP) \
+    $(wildcard include/config/PM_SLEEP_SMP_NONZERO_CPU) \
+    $(wildcard include/config/ARCH_HAS_CPU_FINALIZE_INIT) \
+    $(wildcard include/config/CPU_MITIGATIONS) \
+  include/linux/node.h \
+    $(wildcard include/config/HMEM_REPORTING) \
+  include/linux/cpuhotplug.h \
+    $(wildcard include/config/HOTPLUG_CORE_SYNC_DEAD) \
+  include/linux/cpuhplock.h \
+  include/linux/cpu_smt.h \
+    $(wildcard include/config/HOTPLUG_SMT) \
+  include/linux/memcontrol.h \
+  include/linux/cgroup.h \
+    $(wildcard include/config/DEBUG_CGROUP_REF) \
+    $(wildcard include/config/CGROUP_CPUACCT) \
+    $(wildcard include/config/CGROUP_DATA) \
+  include/uapi/linux/cgroupstats.h \
+  include/uapi/linux/taskstats.h \
   include/linux/seq_file.h \
   include/linux/string_helpers.h \
   include/linux/ctype.h \
   include/linux/string_choices.h \
-  include/net/icmp.h \
-    $(wildcard include/config/NF_NAT) \
-  include/linux/icmp.h \
-  include/uapi/linux/icmp.h \
-  include/uapi/linux/errqueue.h \
-  include/net/inet_sock.h \
-    $(wildcard include/config/INET) \
+  include/linux/user_namespace.h \
+    $(wildcard include/config/INOTIFY_USER) \
+    $(wildcard include/config/FANOTIFY) \
+    $(wildcard include/config/BINFMT_MISC) \
+    $(wildcard include/config/PERSISTENT_KEYRINGS) \
+  include/linux/kernel_stat.h \
+  include/linux/cgroup-defs.h \
+    $(wildcard include/config/CGROUP_NET_PRIO) \
+  include/linux/u64_stats_sync.h \
+  arch/arm64/include/generated/asm/local64.h \
+  include/asm-generic/local64.h \
+  arch/arm64/include/generated/asm/local.h \
+  include/asm-generic/local.h \
+  include/linux/bpf-cgroup-defs.h \
+  include/linux/psi_types.h \
+  include/linux/kthread.h \
+  include/linux/cgroup_subsys.h \
+    $(wildcard include/config/CGROUP_DEVICE) \
+    $(wildcard include/config/CGROUP_FREEZER) \
+    $(wildcard include/config/CGROUP_PERF) \
+    $(wildcard include/config/CGROUP_HUGETLB) \
+    $(wildcard include/config/CGROUP_PIDS) \
+    $(wildcard include/config/CGROUP_RDMA) \
+    $(wildcard include/config/CGROUP_MISC) \
+    $(wildcard include/config/CGROUP_DEBUG) \
+  include/linux/cgroup_refcnt.h \
+  include/linux/page_counter.h \
+  include/linux/vmpressure.h \
+  include/linux/eventfd.h \
+  include/uapi/linux/eventfd.h \
+  include/linux/writeback.h \
+  include/linux/flex_proportions.h \
+  include/linux/backing-dev-defs.h \
+    $(wildcard include/config/DEBUG_FS) \
+  include/linux/blk_types.h \
+    $(wildcard include/config/FAIL_MAKE_REQUEST) \
+    $(wildcard include/config/BLK_CGROUP_IOCOST) \
+    $(wildcard include/config/BLK_INLINE_ENCRYPTION) \
+    $(wildcard include/config/BLK_DEV_INTEGRITY) \
+  include/linux/pagevec.h \
+  include/linux/bio.h \
+    $(wildcard include/config/BLK_DEV_ZONED) \
+  include/linux/mempool.h \
+  include/linux/cfi.h \
+    $(wildcard include/config/CFI_CLANG) \
+  arch/arm64/include/generated/asm/cfi.h \
+  include/asm-generic/cfi.h \
+  include/linux/bpf_types.h \
+    $(wildcard include/config/NETFILTER_BPF_LINK) \
+    $(wildcard include/config/XDP_SOCKETS) \
+  include/uapi/linux/lsm.h \
+  include/net/compat.h \
+  include/uapi/linux/netlink.h \
+  include/net/net_namespace.h \
+    $(wildcard include/config/NF_FLOW_TABLE) \
+    $(wildcard include/config/IEEE802154_6LOWPAN) \
+    $(wildcard include/config/NETFILTER) \
+    $(wildcard include/config/WEXT_CORE) \
+    $(wildcard include/config/MPLS) \
+    $(wildcard include/config/CAN) \
+    $(wildcard include/config/MCTP) \
+    $(wildcard include/config/CRYPTO_USER) \
+    $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
+    $(wildcard include/config/NET_NS) \
+    $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
+  include/net/netns/core.h \
+    $(wildcard include/config/RPS) \
+  include/net/netns/mib.h \
+    $(wildcard include/config/XFRM_STATISTICS) \
+    $(wildcard include/config/TLS) \
+  include/net/snmp.h \
+  include/uapi/linux/snmp.h \
+  include/net/netns/unix.h \
+  include/net/netns/packet.h \
+  include/net/netns/ipv4.h \
+    $(wildcard include/config/IP_ROUTE_MULTIPATH) \
+    $(wildcard include/config/IP_MULTIPLE_TABLES) \
+    $(wildcard include/config/NET_L3_MASTER_DEV) \
+    $(wildcard include/config/IP_MROUTE) \
+    $(wildcard include/config/IP_MROUTE_MULTIPLE_TABLES) \
+  include/net/inet_frag.h \
+  include/net/netns/ipv6.h \
+    $(wildcard include/config/IPV6_MULTIPLE_TABLES) \
+    $(wildcard include/config/IPV6_SUBTREES) \
+    $(wildcard include/config/IPV6_MROUTE) \
+    $(wildcard include/config/IPV6_MROUTE_MULTIPLE_TABLES) \
+    $(wildcard include/config/NF_DEFRAG_IPV6) \
+  include/net/dst_ops.h \
+  include/uapi/linux/icmpv6.h \
+  include/net/netns/nexthop.h \
+  include/net/netns/ieee802154_6lowpan.h \
+  include/net/netns/sctp.h \
+  include/net/netns/netfilter.h \
+    $(wildcard include/config/LWTUNNEL) \
+    $(wildcard include/config/NETFILTER_FAMILY_ARP) \
+    $(wildcard include/config/NETFILTER_FAMILY_BRIDGE) \
+    $(wildcard include/config/NF_DEFRAG_IPV4) \
+  include/linux/netfilter_defs.h \
+  include/uapi/linux/netfilter.h \
+  include/linux/in.h \
+  include/uapi/linux/in.h \
+  include/net/netns/conntrack.h \
+    $(wildcard include/config/NF_CT_PROTO_DCCP) \
+    $(wildcard include/config/NF_CT_PROTO_SCTP) \
+    $(wildcard include/config/NF_CT_PROTO_GRE) \
+    $(wildcard include/config/NF_CONNTRACK_EVENTS) \
+    $(wildcard include/config/NF_CONNTRACK_LABELS) \
+  include/linux/netfilter/nf_conntrack_tcp.h \
+  include/uapi/linux/netfilter/nf_conntrack_tcp.h \
+  include/linux/netfilter/nf_conntrack_dccp.h \
+  include/uapi/linux/netfilter/nf_conntrack_tuple_common.h \
+  include/linux/netfilter/nf_conntrack_sctp.h \
+  include/uapi/linux/netfilter/nf_conntrack_sctp.h \
+  include/net/netns/flow_table.h \
+  include/net/netns/nftables.h \
+  include/net/netns/xfrm.h \
+  include/uapi/linux/xfrm.h \
+  include/net/netns/mpls.h \
+  include/net/netns/can.h \
+  include/net/netns/xdp.h \
+  include/net/netns/smc.h \
+  include/net/netns/bpf.h \
+  include/net/netns/mctp.h \
+  include/net/net_trackers.h \
+    $(wildcard include/config/NET_DEV_REFCNT_TRACKER) \
+  include/linux/ref_tracker.h \
+    $(wildcard include/config/REF_TRACKER) \
+  include/linux/stackdepot.h \
+    $(wildcard include/config/STACKDEPOT) \
+    $(wildcard include/config/STACKDEPOT_MAX_FRAMES) \
+    $(wildcard include/config/STACKDEPOT_ALWAYS_INIT) \
+  include/linux/seq_file_net.h \
+  include/net/sock.h \
+    $(wildcard include/config/SOCK_RX_QUEUE_MAPPING) \
+    $(wildcard include/config/SOCK_VALIDATE_XMIT) \
   include/linux/netdevice.h \
     $(wildcard include/config/DCB) \
     $(wildcard include/config/HYPERV_NET) \
@@ -1428,7 +1534,6 @@ deps_net/ipv4/tcp_ipv4.o := \
     $(wildcard include/config/GARP) \
     $(wildcard include/config/MRP) \
     $(wildcard include/config/NET_DROP_MONITOR) \
-    $(wildcard include/config/CGROUP_NET_PRIO) \
     $(wildcard include/config/MACSEC) \
     $(wildcard include/config/DPLL) \
     $(wildcard include/config/DIMLIB) \
@@ -1440,107 +1545,7 @@ deps_net/ipv4/tcp_ipv4.o := \
   include/linux/prefetch.h \
   include/linux/dynamic_queue_limits.h \
   include/net/netprio_cgroup.h \
-  include/linux/cgroup.h \
-    $(wildcard include/config/DEBUG_CGROUP_REF) \
-    $(wildcard include/config/CGROUP_CPUACCT) \
-    $(wildcard include/config/SOCK_CGROUP_DATA) \
-    $(wildcard include/config/CGROUP_DATA) \
-    $(wildcard include/config/CGROUP_BPF) \
-  include/uapi/linux/cgroupstats.h \
-  include/uapi/linux/taskstats.h \
-  include/linux/user_namespace.h \
-    $(wildcard include/config/INOTIFY_USER) \
-    $(wildcard include/config/FANOTIFY) \
-    $(wildcard include/config/BINFMT_MISC) \
-    $(wildcard include/config/PERSISTENT_KEYRINGS) \
-  include/linux/kernel_stat.h \
-  include/linux/cgroup-defs.h \
-    $(wildcard include/config/CGROUP_NET_CLASSID) \
-  include/linux/bpf-cgroup-defs.h \
-    $(wildcard include/config/BPF_LSM) \
-  include/linux/psi_types.h \
-  include/linux/kthread.h \
-  include/linux/cgroup_subsys.h \
-    $(wildcard include/config/CGROUP_DEVICE) \
-    $(wildcard include/config/CGROUP_FREEZER) \
-    $(wildcard include/config/CGROUP_PERF) \
-    $(wildcard include/config/CGROUP_HUGETLB) \
-    $(wildcard include/config/CGROUP_PIDS) \
-    $(wildcard include/config/CGROUP_RDMA) \
-    $(wildcard include/config/CGROUP_MISC) \
-    $(wildcard include/config/CGROUP_DEBUG) \
-  include/linux/cgroup_refcnt.h \
   include/uapi/linux/neighbour.h \
-  include/linux/netlink.h \
-  include/net/scm.h \
-    $(wildcard include/config/SECURITY_NETWORK) \
-  include/linux/net.h \
-  include/linux/sockptr.h \
-  include/uapi/linux/net.h \
-  include/linux/file.h \
-  include/linux/security.h \
-    $(wildcard include/config/SECURITY_INFINIBAND) \
-    $(wildcard include/config/SECURITY_NETWORK_XFRM) \
-    $(wildcard include/config/SECURITY_PATH) \
-    $(wildcard include/config/SECURITYFS) \
-  include/linux/kernel_read_file.h \
-  include/linux/bpf.h \
-    $(wildcard include/config/FINEIBT) \
-    $(wildcard include/config/BPF_JIT_ALWAYS_ON) \
-  include/uapi/linux/bpf.h \
-    $(wildcard include/config/BPF_LIRC_MODE2) \
-    $(wildcard include/config/EFFICIENT_UNALIGNED_ACCESS) \
-    $(wildcard include/config/BPF_KPROBE_OVERRIDE) \
-  include/uapi/linux/bpf_common.h \
-  include/uapi/linux/filter.h \
-  include/linux/bpfptr.h \
-  include/linux/btf.h \
-  include/linux/bsearch.h \
-  include/linux/btf_ids.h \
-  include/uapi/linux/btf.h \
-  include/linux/rcupdate_trace.h \
-    $(wildcard include/config/TASKS_TRACE_RCU_READ_MB) \
-  include/linux/static_call.h \
-  include/linux/cpu.h \
-    $(wildcard include/config/GENERIC_CPU_DEVICES) \
-    $(wildcard include/config/PM_SLEEP_SMP) \
-    $(wildcard include/config/PM_SLEEP_SMP_NONZERO_CPU) \
-    $(wildcard include/config/ARCH_HAS_CPU_FINALIZE_INIT) \
-    $(wildcard include/config/CPU_MITIGATIONS) \
-  include/linux/node.h \
-    $(wildcard include/config/HMEM_REPORTING) \
-  include/linux/cpuhotplug.h \
-    $(wildcard include/config/HOTPLUG_CORE_SYNC_DEAD) \
-  include/linux/cpuhplock.h \
-  include/linux/cpu_smt.h \
-    $(wildcard include/config/HOTPLUG_SMT) \
-  include/linux/memcontrol.h \
-  include/linux/page_counter.h \
-  include/linux/vmpressure.h \
-  include/linux/eventfd.h \
-  include/uapi/linux/eventfd.h \
-  include/linux/writeback.h \
-  include/linux/flex_proportions.h \
-  include/linux/backing-dev-defs.h \
-    $(wildcard include/config/DEBUG_FS) \
-  include/linux/blk_types.h \
-    $(wildcard include/config/FAIL_MAKE_REQUEST) \
-    $(wildcard include/config/BLK_CGROUP_IOCOST) \
-    $(wildcard include/config/BLK_INLINE_ENCRYPTION) \
-    $(wildcard include/config/BLK_DEV_INTEGRITY) \
-  include/linux/pagevec.h \
-  include/linux/bio.h \
-    $(wildcard include/config/BLK_DEV_ZONED) \
-  include/linux/mempool.h \
-  include/linux/cfi.h \
-    $(wildcard include/config/CFI_CLANG) \
-  arch/arm64/include/generated/asm/cfi.h \
-  include/asm-generic/cfi.h \
-  include/linux/bpf_types.h \
-    $(wildcard include/config/NETFILTER_BPF_LINK) \
-  include/uapi/linux/lsm.h \
-  include/net/compat.h \
-  include/uapi/linux/netlink.h \
   include/uapi/linux/netdevice.h \
   include/linux/if_ether.h \
   include/linux/if_link.h \
@@ -1548,9 +1553,6 @@ deps_net/ipv4/tcp_ipv4.o := \
   include/uapi/linux/if_bonding.h \
   include/uapi/linux/netdev.h \
   include/linux/hashtable.h \
-  include/net/sock.h \
-    $(wildcard include/config/SOCK_RX_QUEUE_MAPPING) \
-    $(wildcard include/config/SOCK_VALIDATE_XMIT) \
   include/linux/rculist_nulls.h \
   include/linux/poll.h \
   include/uapi/linux/poll.h \
@@ -1574,6 +1576,13 @@ deps_net/ipv4/tcp_ipv4.o := \
   include/net/fib_rules.h \
   include/uapi/linux/fib_rules.h \
   include/net/fib_notifier.h \
+  include/uapi/linux/sock_diag.h \
+  include/net/icmp.h \
+    $(wildcard include/config/NF_NAT) \
+  include/linux/icmp.h \
+  include/uapi/linux/icmp.h \
+  include/uapi/linux/errqueue.h \
+  include/net/inet_sock.h \
   include/net/request_sock.h \
   include/net/rstreason.h \
   include/uapi/linux/mptcp.h \
@@ -1630,7 +1639,9 @@ deps_net/ipv4/tcp_ipv4.o := \
   include/linux/set_memory.h \
     $(wildcard include/config/ARCH_HAS_SET_MEMORY) \
     $(wildcard include/config/ARCH_HAS_SET_DIRECT_MAP) \
+    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
   arch/arm64/include/asm/set_memory.h \
+  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/set_memory.h \
   include/linux/if_vlan.h \
   include/linux/etherdevice.h \
@@ -1675,10 +1686,10 @@ deps_net/ipv4/tcp_ipv4.o := \
   include/linux/ipv6_route.h \
   include/uapi/linux/ipv6_route.h \
   include/net/gro_cells.h \
+  include/net/secure_seq.h \
   include/linux/bpf-cgroup.h \
   include/net/transp_v6.h \
   include/net/inet_common.h \
-  include/net/secure_seq.h \
   include/net/busy_poll.h \
   include/net/xdp.h \
   include/linux/inet.h \
@@ -1688,34 +1699,32 @@ deps_net/ipv4/tcp_ipv4.o := \
   include/linux/skbuff_ref.h \
   include/crypto/hash.h \
   include/linux/crypto.h \
+  include/crypto/utils.h \
   include/trace/events/tcp.h \
   include/linux/tracepoint.h \
     $(wildcard include/config/HAVE_SYSCALL_TRACEPOINTS) \
-  include/linux/sock_diag.h \
-  include/uapi/linux/sock_diag.h \
   include/trace/events/net_probe_common.h \
   include/trace/define_trace.h \
 
 net/ipv4/tcp_ipv4.o: $(deps_net/ipv4/tcp_ipv4.o)
 
 $(deps_net/ipv4/tcp_ipv4.o):
-#SYMVER tcp_hashinfo 0x50621ba7
-#SYMVER tcp_twsk_unique 0xfe514465
-#SYMVER tcp_v4_connect 0x3a5e0240
-#SYMVER tcp_v4_mtu_reduced 0x38e8b005
-#SYMVER tcp_req_err 0xcc88a518
-#SYMVER tcp_ld_RTO_revert 0x0045374c
-#SYMVER tcp_v4_send_check 0x0ffae537
-#SYMVER tcp_v4_conn_request 0xb1b53039
-#SYMVER tcp_v4_syn_recv_sock 0x73dbbd5e
-#SYMVER tcp_v4_do_rcv 0x598c2b1f
-#SYMVER tcp_add_backlog 0x607c2a5e
-#SYMVER tcp_filter 0xe917e2dd
-#SYMVER inet_sk_rx_dst_set 0x5eb77eb1
-#SYMVER ipv4_specific 0x12aa3816
-#SYMVER tcp_v4_destroy_sock 0x0cfc5f49
-#SYMVER tcp_seq_start 0x8fb3a61c
-#SYMVER tcp_seq_next 0x8d6a5ee2
-#SYMVER tcp_seq_stop 0x91d1e45e
-#SYMVER tcp_stream_memory_free 0x7541c6de
-#SYMVER tcp_prot 0xe446731f
+#SYMVER tcp_twsk_unique 0x01e8b45a
+#SYMVER tcp_v4_connect 0xfc7769d6
+#SYMVER tcp_v4_mtu_reduced 0xc03657a7
+#SYMVER tcp_req_err 0xc89bc12f
+#SYMVER tcp_ld_RTO_revert 0xe28f830f
+#SYMVER tcp_v4_send_check 0x92449365
+#SYMVER tcp_v4_conn_request 0x12d94abc
+#SYMVER tcp_v4_syn_recv_sock 0xc6a47134
+#SYMVER tcp_v4_do_rcv 0x508880b0
+#SYMVER tcp_add_backlog 0xbb02c6e2
+#SYMVER tcp_filter 0x9162481b
+#SYMVER inet_sk_rx_dst_set 0x4acb408e
+#SYMVER ipv4_specific 0xc8d8fc04
+#SYMVER tcp_v4_destroy_sock 0x7a8fb25a
+#SYMVER tcp_seq_start 0xa8f5ad2e
+#SYMVER tcp_seq_next 0x38af2699
+#SYMVER tcp_seq_stop 0xc7f8db61
+#SYMVER tcp_stream_memory_free 0x7c523488
+#SYMVER tcp_prot 0xddbd9871

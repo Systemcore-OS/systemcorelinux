@@ -1,6 +1,7 @@
 compress_offload.o: sound/core/compress_offload.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/file.h \
  include/linux/compiler.h include/linux/compiler_types.h \
@@ -255,9 +256,10 @@ compress_offload.o: sound/core/compress_offload.c \
  include/linux/page_table_check.h include/asm-generic/pgtable_uffd.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/poll.h \
- include/uapi/linux/poll.h arch/arm64/include/generated/uapi/asm/poll.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/poll.h include/uapi/linux/poll.h \
+ arch/arm64/include/generated/uapi/asm/poll.h \
  include/uapi/asm-generic/poll.h include/uapi/linux/eventpoll.h \
  include/linux/uio.h include/uapi/linux/uio.h include/linux/module.h \
  include/linux/buildid.h include/linux/kmod.h include/linux/umh.h \

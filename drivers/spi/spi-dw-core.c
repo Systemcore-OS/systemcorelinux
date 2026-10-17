@@ -449,11 +449,17 @@ static void dw_spi_irq_setup(struct dw_spi *dws)
  * the SPI devices connected to the controller with native CS due to the
  * automatic CS assertion/de-assertion.
  */
+/* Poll instead of IRQ-driven PIO for transfers up to this many bytes (0 = never) */
+static unsigned int pio_poll_max = 16;
+module_param(pio_poll_max, uint, 0644);
+MODULE_PARM_DESC(pio_poll_max, "poll instead of IRQ-driven PIO for transfers up to this many bytes (0 = never)");
+
 static int dw_spi_poll_transfer(struct dw_spi *dws,
 				struct spi_transfer *transfer)
 {
 	struct spi_delay delay;
 	u16 nbits;
+	unsigned int spins = 100000;
 	int ret;
 
 	delay.unit = SPI_DELAY_UNIT_SCK;
@@ -475,6 +481,10 @@ static int dw_spi_poll_transfer(struct dw_spi *dws,
 		ret = dw_spi_check_status(dws, true);
 		if (ret)
 			return ret;
+		if (!--spins) {
+			dev_err(&dws->host->dev, "polled transfer timed out\n");
+			return -ETIMEDOUT;
+		}
 	} while (dws->rx_len || dws->tx_len || dw_spi_ctlr_busy(dws));
 
 	return 0;
@@ -542,7 +552,8 @@ static int dw_spi_transfer_one(struct spi_controller *host,
 
 	if (dws->dma_mapped)
 		return dws->dma_ops->dma_transfer(dws, transfer);
-	else if (dws->irq == IRQ_NOTCONNECTED)
+	else if (dws->irq == IRQ_NOTCONNECTED ||
+		 (pio_poll_max && transfer->len <= pio_poll_max))
 		return dw_spi_poll_transfer(dws, transfer);
 
 	dw_spi_irq_setup(dws);

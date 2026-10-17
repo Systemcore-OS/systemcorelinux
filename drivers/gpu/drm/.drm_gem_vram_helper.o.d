@@ -1,6 +1,7 @@
 drm_gem_vram_helper.o: drivers/gpu/drm/drm_gem_vram_helper.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/iosys-map.h \
  include/linux/compiler_types.h include/linux/io.h include/linux/sizes.h \
@@ -276,7 +277,7 @@ drm_gem_vram_helper.o: drivers/gpu/drm/drm_gem_vram_helper.c \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/dma-mapping.h \
  include/linux/device.h include/linux/dev_printk.h \
  include/linux/energy_model.h include/linux/sched/cpufreq.h \
@@ -285,8 +286,7 @@ drm_gem_vram_helper.o: drivers/gpu/drm/drm_gem_vram_helper.c \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/dma-direction.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/drm/drm_vma_manager.h \
+ include/linux/dma-direction.h include/drm/drm_vma_manager.h \
  include/drm/drm_mm.h include/drm/drm_print.h include/uapi/drm/drm.h \
  include/uapi/drm/drm_mode.h include/uapi/drm/drm.h \
  include/drm/drm_exec.h include/drm/drm_drv.h include/linux/irqreturn.h \

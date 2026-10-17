@@ -1,13 +1,14 @@
 dma-buf.o: drivers/dma-buf/dma-buf.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/fs.h include/linux/linkage.h \
- include/linux/compiler_types.h include/linux/stringify.h \
- include/linux/export.h include/linux/compiler.h \
- arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
- include/linux/kasan-checks.h include/linux/types.h \
- include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/fs.h \
+ include/linux/linkage.h include/linux/compiler_types.h \
+ include/linux/stringify.h include/linux/export.h \
+ include/linux/compiler.h arch/arm64/include/asm/rwonce.h \
+ include/asm-generic/rwonce.h include/linux/kasan-checks.h \
+ include/linux/types.h include/uapi/linux/types.h \
+ arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -262,16 +263,16 @@ dma-buf.o: drivers/dma-buf/dma-buf.c include/linux/compiler-version.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
  include/linux/huge_mm.h include/linux/kobject.h include/linux/sysfs.h \
  include/linux/kernfs.h include/linux/idr.h include/linux/kobject_ns.h \
- include/linux/vmstat.h include/linux/vm_event_item.h \
- include/linux/dma-mapping.h include/linux/device.h \
- include/linux/dev_printk.h include/linux/energy_model.h \
- include/linux/sched/cpufreq.h include/linux/sched/topology.h \
- include/linux/sched/idle.h include/linux/sched/sd_flags.h \
- include/linux/klist.h include/linux/pm.h include/linux/device/bus.h \
- include/linux/device/class.h include/linux/device/devres.h \
- include/linux/device/driver.h include/linux/module.h \
- include/linux/buildid.h include/linux/kmod.h include/linux/umh.h \
- include/linux/elf.h arch/arm64/include/asm/elf.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/vm_event_item.h include/linux/dma-mapping.h \
+ include/linux/device.h include/linux/dev_printk.h \
+ include/linux/energy_model.h include/linux/sched/cpufreq.h \
+ include/linux/sched/topology.h include/linux/sched/idle.h \
+ include/linux/sched/sd_flags.h include/linux/klist.h include/linux/pm.h \
+ include/linux/device/bus.h include/linux/device/class.h \
+ include/linux/device/devres.h include/linux/device/driver.h \
+ include/linux/module.h include/linux/buildid.h include/linux/kmod.h \
+ include/linux/umh.h include/linux/elf.h arch/arm64/include/asm/elf.h \
  arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
  include/uapi/linux/elf.h include/uapi/linux/elf-em.h \
  include/linux/moduleparam.h include/linux/rbtree_latch.h \
@@ -279,7 +280,6 @@ dma-buf.o: drivers/dma-buf/dma-buf.c include/linux/compiler-version.h \
  include/linux/dynamic_debug.h arch/arm64/include/asm/module.h \
  include/asm-generic/module.h arch/arm64/include/asm/device.h \
  include/linux/pm_wakeup.h include/linux/dma-direction.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/dma-fence.h include/linux/dma-fence-unwrap.h \
  include/linux/anon_inodes.h include/linux/debugfs.h \
  include/linux/seq_file.h include/linux/string_helpers.h \

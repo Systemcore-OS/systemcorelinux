@@ -1,9 +1,10 @@
 fadvise.o: mm/fadvise.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/kernel.h include/linux/stdarg.h include/linux/align.h \
- include/linux/const.h include/vdso/const.h include/uapi/linux/const.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/kernel.h \
+ include/linux/stdarg.h include/linux/align.h include/linux/const.h \
+ include/vdso/const.h include/uapi/linux/const.h \
  include/linux/array_size.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
  include/asm-generic/rwonce.h include/linux/kasan-checks.h \
@@ -253,11 +254,11 @@ fadvise.o: mm/fadvise.c include/linux/compiler-version.h \
  include/linux/page_table_check.h include/asm-generic/pgtable_uffd.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/pagemap.h \
- include/linux/highmem.h include/linux/cacheflush.h \
- arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
- include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/pagemap.h include/linux/highmem.h \
+ include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
+ include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/interrupt.h \
  include/linux/irqreturn.h include/linux/hardirq.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
@@ -359,5 +360,6 @@ fadvise.o: mm/fadvise.c include/linux/compiler-version.h \
  include/linux/bpf_types.h include/uapi/linux/lsm.h include/linux/swap.h \
  include/uapi/linux/mempolicy.h mm/internal.h include/linux/khugepaged.h \
  include/linux/mm_inline.h include/linux/userfaultfd_k.h \
- include/linux/swapops.h include/linux/swapfile.h include/linux/rmap.h \
+ include/linux/swapops.h include/linux/swapfile.h \
+ include/linux/pagewalk.h include/linux/rmap.h \
  include/linux/swap_cgroup.h mm/vma.h

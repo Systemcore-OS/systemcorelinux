@@ -1,6 +1,7 @@
 hid-roccat-common.o: drivers/hid/hid-roccat-common.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/hid.h \
  include/linux/bitops.h arch/arm64/include/generated/uapi/asm/types.h \
@@ -58,17 +59,6 @@ hid-roccat-common.o: drivers/hid/hid-roccat-common.c \
  include/uapi/linux/swab.h arch/arm64/include/generated/uapi/asm/swab.h \
  include/uapi/asm-generic/swab.h include/linux/byteorder/generic.h \
  include/asm-generic/bitops/ext2-atomic-setbit.h include/linux/slab.h \
- include/linux/cache.h arch/arm64/include/asm/cache.h \
- include/linux/kasan-enabled.h include/linux/static_key.h \
- include/linux/jump_label.h arch/arm64/include/asm/jump_label.h \
- arch/arm64/include/asm/insn.h arch/arm64/include/asm/cputype.h \
- arch/arm64/include/asm/sysreg.h include/linux/kasan-tags.h \
- arch/arm64/include/asm/gpr-num.h \
- arch/arm64/include/generated/asm/sysreg-defs.h include/linux/bitfield.h \
- arch/arm64/include/asm/mte-def.h include/linux/gfp.h \
- include/linux/gfp_types.h include/linux/mmzone.h \
- include/linux/spinlock.h include/linux/preempt.h include/linux/cleanup.h \
- arch/arm64/include/asm/preempt.h include/linux/thread_info.h \
  include/linux/bug.h arch/arm64/include/asm/bug.h \
  arch/arm64/include/asm/asm-bug.h include/asm-generic/bug.h \
  include/linux/instrumentation.h include/linux/once_lite.h \
@@ -80,6 +70,17 @@ hid-roccat-common.o: drivers/hid/hid-roccat-common.c \
  arch/arm64/include/asm/spinlock_types.h \
  include/asm-generic/qspinlock_types.h \
  include/asm-generic/qrwlock_types.h include/linux/lockdep_types.h \
+ include/linux/cache.h arch/arm64/include/asm/cache.h \
+ include/linux/kasan-enabled.h include/linux/static_key.h \
+ include/linux/jump_label.h arch/arm64/include/asm/jump_label.h \
+ arch/arm64/include/asm/insn.h arch/arm64/include/asm/cputype.h \
+ arch/arm64/include/asm/sysreg.h include/linux/kasan-tags.h \
+ arch/arm64/include/asm/gpr-num.h \
+ arch/arm64/include/generated/asm/sysreg-defs.h include/linux/bitfield.h \
+ arch/arm64/include/asm/mte-def.h include/linux/gfp.h \
+ include/linux/gfp_types.h include/linux/mmzone.h \
+ include/linux/spinlock.h include/linux/preempt.h include/linux/cleanup.h \
+ arch/arm64/include/asm/preempt.h include/linux/thread_info.h \
  include/linux/restart_block.h include/linux/errno.h \
  include/uapi/linux/errno.h arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
@@ -278,7 +279,7 @@ hid-roccat-common.o: drivers/hid/hid-roccat-common.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/bpfptr.h \
  include/linux/sockptr.h include/linux/btf.h include/linux/bsearch.h \
  include/linux/btf_ids.h include/uapi/linux/btf.h \

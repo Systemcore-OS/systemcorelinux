@@ -1,4 +1,4 @@
-savedcmd_drivers/nvmem/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/nvmem/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/nvmem/nvmem_core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"nvmem_core"' -D__KBUILD_MODNAME=kmod_nvmem_core -c -o drivers/nvmem/core.o drivers/nvmem/core.c  
+savedcmd_drivers/nvmem/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/nvmem/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/nvmem/nvmem_core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"nvmem_core"' -D__KBUILD_MODNAME=kmod_nvmem_core -c -o drivers/nvmem/core.o drivers/nvmem/core.c  
 
 source_drivers/nvmem/core.o := drivers/nvmem/core.c
 
@@ -26,6 +26,7 @@ deps_drivers/nvmem/core.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -205,6 +206,7 @@ deps_drivers/nvmem/core.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -556,6 +558,7 @@ deps_drivers/nvmem/core.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -670,6 +673,9 @@ deps_drivers/nvmem/core.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -871,6 +877,7 @@ deps_drivers/nvmem/core.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1025,40 +1032,41 @@ deps_drivers/nvmem/core.o := \
 drivers/nvmem/core.o: $(deps_drivers/nvmem/core.o)
 
 $(deps_drivers/nvmem/core.o):
-#SYMVER nvmem_add_one_cell 0xcebbda75
+#SYMVER nvmem_add_one_cell 0x0967f951
 #SYMVER nvmem_register_notifier 0xcb2bfe2b
 #SYMVER nvmem_unregister_notifier 0x420f3d01
-#SYMVER nvmem_layout_register 0x9cf44e7d
-#SYMVER nvmem_layout_unregister 0x4505170d
-#SYMVER nvmem_register 0x46daeebb
-#SYMVER nvmem_unregister 0x52527c24
-#SYMVER devm_nvmem_register 0x31f0c57b
-#SYMVER of_nvmem_device_get 0x20f27017
-#SYMVER nvmem_device_get 0xb4fec2d6
-#SYMVER nvmem_device_find 0x72359579
-#SYMVER devm_nvmem_device_put 0xcaa2db23
-#SYMVER nvmem_device_put 0x9314ffac
-#SYMVER devm_nvmem_device_get 0x0647441b
-#SYMVER of_nvmem_cell_get 0xcdd3d7b6
-#SYMVER nvmem_cell_get 0x3d52359d
-#SYMVER devm_nvmem_cell_get 0xef7ad132
-#SYMVER devm_nvmem_cell_put 0x25a16b84
+#SYMVER nvmem_add_cells_from_dt 0x7d169f07
+#SYMVER nvmem_layout_register 0x886e7bba
+#SYMVER nvmem_layout_unregister 0x52c3a2fd
+#SYMVER nvmem_register 0x0dc3b9ff
+#SYMVER nvmem_unregister 0xa7df650a
+#SYMVER devm_nvmem_register 0xc4408974
+#SYMVER of_nvmem_device_get 0xfaeab95d
+#SYMVER nvmem_device_get 0x93dd8def
+#SYMVER nvmem_device_find 0x9ca2131c
+#SYMVER devm_nvmem_device_put 0x2fa0a7b7
+#SYMVER nvmem_device_put 0x9802009b
+#SYMVER devm_nvmem_device_get 0x89cf9c5b
+#SYMVER of_nvmem_cell_get 0x18a69b26
+#SYMVER nvmem_cell_get 0x1ab0d148
+#SYMVER devm_nvmem_cell_get 0x54060412
+#SYMVER devm_nvmem_cell_put 0x98dab37c
 #SYMVER nvmem_cell_put 0x85540ebc
 #SYMVER nvmem_cell_read 0x99f018c4
 #SYMVER nvmem_cell_write 0x202d4ed6
-#SYMVER nvmem_cell_read_u8 0x5c025060
-#SYMVER nvmem_cell_read_u16 0xa94c9fd9
-#SYMVER nvmem_cell_read_u32 0x803d1dea
-#SYMVER nvmem_cell_read_u64 0x79bc2547
-#SYMVER nvmem_cell_read_variable_le_u32 0xeed75227
-#SYMVER nvmem_cell_read_variable_le_u64 0x17566a8a
-#SYMVER nvmem_device_cell_read 0x26bcff86
-#SYMVER nvmem_device_cell_write 0x02fb3304
-#SYMVER nvmem_device_read 0x319dc48b
-#SYMVER nvmem_device_write 0x79827062
-#SYMVER nvmem_add_cell_table 0x580595c4
-#SYMVER nvmem_del_cell_table 0xd6970c78
+#SYMVER nvmem_cell_read_u8 0xf7b8d935
+#SYMVER nvmem_cell_read_u16 0xe6e8d6d3
+#SYMVER nvmem_cell_read_u32 0xc748bf12
+#SYMVER nvmem_cell_read_u64 0x17ec8487
+#SYMVER nvmem_cell_read_variable_le_u32 0xad5ec295
+#SYMVER nvmem_cell_read_variable_le_u64 0x7dfaf900
+#SYMVER nvmem_device_cell_read 0x0594aed9
+#SYMVER nvmem_device_cell_write 0xb728ebcb
+#SYMVER nvmem_device_read 0x5ae29488
+#SYMVER nvmem_device_write 0x5a452eb5
+#SYMVER nvmem_add_cell_table 0x27d51084
+#SYMVER nvmem_del_cell_table 0xa97f265d
 #SYMVER nvmem_add_cell_lookups 0xb73713d7
 #SYMVER nvmem_del_cell_lookups 0x72d267dc
-#SYMVER nvmem_dev_name 0x646bc66f
-#SYMVER nvmem_dev_size 0xdedc7e2c
+#SYMVER nvmem_dev_name 0x70aaa51c
+#SYMVER nvmem_dev_size 0xfa2d869e

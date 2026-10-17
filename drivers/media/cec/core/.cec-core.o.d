@@ -1,6 +1,7 @@
 cec-core.o: drivers/media/cec/core/cec-core.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/errno.h \
  include/uapi/linux/errno.h arch/arm64/include/generated/uapi/asm/errno.h \
@@ -261,11 +262,12 @@ cec-core.o: drivers/media/cec/core/cec-core.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h drivers/media/cec/core/cec-priv.h \
- include/uapi/linux/cec-funcs.h include/uapi/linux/cec.h \
- include/media/cec-notifier.h include/media/cec.h include/linux/poll.h \
- include/uapi/linux/poll.h arch/arm64/include/generated/uapi/asm/poll.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ drivers/media/cec/core/cec-priv.h include/uapi/linux/cec-funcs.h \
+ include/uapi/linux/cec.h include/media/cec-notifier.h \
+ include/media/cec.h include/linux/poll.h include/uapi/linux/poll.h \
+ arch/arm64/include/generated/uapi/asm/poll.h \
  include/uapi/asm-generic/poll.h include/uapi/linux/eventpoll.h \
  include/linux/debugfs.h include/linux/seq_file.h \
  include/linux/string_helpers.h include/linux/ctype.h \

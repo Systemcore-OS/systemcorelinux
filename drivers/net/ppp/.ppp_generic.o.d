@@ -1,6 +1,7 @@
 ppp_generic.o: drivers/net/ppp/ppp_generic.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/module.h \
  include/linux/list.h include/linux/container_of.h \
@@ -318,7 +319,7 @@ ppp_generic.o: drivers/net/ppp/ppp_generic.c \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/ptrace.h \
  include/linux/pid_namespace.h include/linux/nsproxy.h \
  include/uapi/linux/ptrace.h include/linux/seccomp.h \
@@ -348,8 +349,7 @@ ppp_generic.o: drivers/net/ppp/ppp_generic.c \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
  include/uapi/linux/if_packet.h include/net/net_debug.h \
@@ -390,9 +390,9 @@ ppp_generic.o: drivers/net/ppp/ppp_generic.c \
  include/linux/ppp_defs.h include/linux/crc-ccitt.h \
  include/uapi/linux/ppp_defs.h include/linux/filter.h \
  include/linux/sched/clock.h include/linux/set_memory.h \
- arch/arm64/include/asm/set_memory.h include/asm-generic/set_memory.h \
- include/linux/if_vlan.h include/linux/etherdevice.h \
- include/linux/crc32.h include/linux/bitrev.h \
+ arch/arm64/include/asm/set_memory.h arch/arm64/include/asm/mem_encrypt.h \
+ include/asm-generic/set_memory.h include/linux/if_vlan.h \
+ include/linux/etherdevice.h include/linux/crc32.h include/linux/bitrev.h \
  arch/arm64/include/asm/bitrev.h include/linux/unaligned.h \
  include/linux/unaligned/packed_struct.h include/vdso/unaligned.h \
  include/linux/rtnetlink.h include/uapi/linux/rtnetlink.h \

@@ -1,6 +1,7 @@
 tlv320aic23.o: sound/soc/codecs/tlv320aic23.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/module.h \
  include/linux/list.h include/linux/container_of.h \
@@ -280,7 +281,7 @@ tlv320aic23.o: sound/soc/codecs/tlv320aic23.c \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/pm_qos.h \
  include/linux/plist.h include/linux/uio.h include/uapi/linux/uio.h \
  include/sound/pcm_oss.h include/sound/pcm_params.h include/sound/soc.h \

@@ -1,12 +1,13 @@
 spi-dw-core.o: drivers/spi/spi-dw-core.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/bitfield.h include/linux/build_bug.h \
- include/linux/compiler.h include/linux/compiler_types.h \
- arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
- include/linux/kasan-checks.h include/linux/types.h \
- include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/bitfield.h \
+ include/linux/build_bug.h include/linux/compiler.h \
+ include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
+ include/asm-generic/rwonce.h include/linux/kasan-checks.h \
+ include/linux/types.h include/uapi/linux/types.h \
+ arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -58,40 +59,41 @@ spi-dw-core.o: drivers/spi/spi-dw-core.c include/linux/compiler-version.h \
  include/asm-generic/bitops/non-instrumented-non-atomic.h \
  include/asm-generic/bitops/le.h \
  include/asm-generic/bitops/ext2-atomic-setbit.h \
- include/linux/dma-mapping.h include/linux/cache.h \
- arch/arm64/include/asm/cache.h include/linux/kasan-enabled.h \
- include/linux/static_key.h include/linux/jump_label.h \
- arch/arm64/include/asm/jump_label.h arch/arm64/include/asm/insn.h \
- arch/arm64/include/asm/cputype.h arch/arm64/include/asm/sysreg.h \
- include/linux/kasan-tags.h arch/arm64/include/asm/gpr-num.h \
- arch/arm64/include/generated/asm/sysreg-defs.h \
- arch/arm64/include/asm/mte-def.h include/linux/sizes.h \
- include/linux/string.h include/linux/args.h include/linux/array_size.h \
- include/linux/err.h arch/arm64/include/generated/uapi/asm/errno.h \
- include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
- include/linux/errno.h include/uapi/linux/errno.h include/linux/stdarg.h \
- include/uapi/linux/string.h arch/arm64/include/asm/string.h \
- include/linux/device.h include/linux/dev_printk.h \
- include/linux/ratelimit.h include/linux/ratelimit_types.h \
- include/uapi/linux/param.h arch/arm64/include/uapi/asm/param.h \
- include/asm-generic/param.h include/uapi/asm-generic/param.h \
- include/linux/spinlock_types_raw.h \
+ include/linux/dma-mapping.h include/linux/device.h \
+ include/linux/dev_printk.h include/linux/ratelimit.h \
+ include/linux/ratelimit_types.h include/uapi/linux/param.h \
+ arch/arm64/include/uapi/asm/param.h include/asm-generic/param.h \
+ include/uapi/asm-generic/param.h include/linux/spinlock_types_raw.h \
  arch/arm64/include/asm/spinlock_types.h \
  include/asm-generic/qspinlock_types.h \
  include/asm-generic/qrwlock_types.h include/linux/lockdep_types.h \
  include/linux/sched.h include/uapi/linux/sched.h \
  arch/arm64/include/asm/current.h arch/arm64/include/asm/processor.h \
+ include/linux/cache.h arch/arm64/include/asm/cache.h \
+ include/linux/kasan-enabled.h include/linux/static_key.h \
+ include/linux/jump_label.h arch/arm64/include/asm/jump_label.h \
+ arch/arm64/include/asm/insn.h arch/arm64/include/asm/cputype.h \
+ arch/arm64/include/asm/sysreg.h include/linux/kasan-tags.h \
+ arch/arm64/include/asm/gpr-num.h \
+ arch/arm64/include/generated/asm/sysreg-defs.h \
+ arch/arm64/include/asm/mte-def.h include/linux/string.h \
+ include/linux/args.h include/linux/array_size.h include/linux/err.h \
+ arch/arm64/include/generated/uapi/asm/errno.h \
+ include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
+ include/linux/errno.h include/uapi/linux/errno.h include/linux/stdarg.h \
+ include/uapi/linux/string.h arch/arm64/include/asm/string.h \
  include/linux/thread_info.h include/linux/bug.h \
  arch/arm64/include/asm/bug.h arch/arm64/include/asm/asm-bug.h \
  include/asm-generic/bug.h include/linux/instrumentation.h \
  include/linux/once_lite.h include/linux/panic.h include/linux/printk.h \
  include/linux/kern_levels.h include/linux/restart_block.h \
  arch/arm64/include/asm/thread_info.h arch/arm64/include/asm/memory.h \
- arch/arm64/include/asm/page-def.h include/linux/mmdebug.h \
- arch/arm64/include/asm/boot.h arch/arm64/include/asm/sections.h \
- include/asm-generic/sections.h include/asm-generic/memory_model.h \
- include/linux/pfn.h arch/arm64/include/asm/stack_pointer.h \
- include/vdso/processor.h arch/arm64/include/asm/vdso/processor.h \
+ include/linux/sizes.h arch/arm64/include/asm/page-def.h \
+ include/linux/mmdebug.h arch/arm64/include/asm/boot.h \
+ arch/arm64/include/asm/sections.h include/asm-generic/sections.h \
+ include/asm-generic/memory_model.h include/linux/pfn.h \
+ arch/arm64/include/asm/stack_pointer.h include/vdso/processor.h \
+ arch/arm64/include/asm/vdso/processor.h \
  arch/arm64/include/asm/cpufeature.h arch/arm64/include/asm/hwcap.h \
  arch/arm64/include/uapi/asm/hwcap.h include/linux/log2.h \
  include/linux/kernel.h include/linux/align.h \
@@ -271,13 +273,12 @@ spi-dw-core.o: drivers/spi/spi-dw-core.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
- include/linux/fwnode.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/interrupt.h \
+ include/linux/fwnode.h include/linux/interrupt.h \
  include/linux/irqreturn.h include/linux/hardirq.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
  include/linux/vtime.h arch/arm64/include/asm/hardirq.h \

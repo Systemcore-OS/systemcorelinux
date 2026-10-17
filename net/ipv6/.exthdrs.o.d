@@ -1,9 +1,9 @@
 exthdrs.o: net/ipv6/exthdrs.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/errno.h include/uapi/linux/errno.h \
- arch/arm64/include/generated/uapi/asm/errno.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/errno.h \
+ include/uapi/linux/errno.h arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  include/linux/types.h include/uapi/linux/types.h \
  arch/arm64/include/generated/uapi/asm/types.h \
@@ -257,9 +257,10 @@ exthdrs.o: net/ipv6/exthdrs.c include/linux/compiler-version.h \
  include/linux/page_table_check.h include/asm-generic/pgtable_uffd.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sockptr.h \
- include/uapi/linux/net.h include/linux/netdevice.h include/linux/delay.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sockptr.h include/uapi/linux/net.h \
+ include/linux/netdevice.h include/linux/delay.h \
  arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
  include/linux/prefetch.h arch/arm64/include/generated/asm/local.h \
  include/asm-generic/local.h include/linux/dynamic_queue_limits.h \
@@ -347,8 +348,7 @@ exthdrs.o: net/ipv6/exthdrs.c include/linux/compiler-version.h \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
  include/uapi/linux/if_packet.h include/net/net_debug.h \

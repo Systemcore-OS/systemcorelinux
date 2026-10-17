@@ -1,4 +1,4 @@
-savedcmd_drivers/ata/libata-sff.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/ata/.libata-sff.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"libata_sff"' -DKBUILD_MODNAME='"libata"' -D__KBUILD_MODNAME=kmod_libata -c -o drivers/ata/libata-sff.o drivers/ata/libata-sff.c  
+savedcmd_drivers/ata/libata-sff.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/ata/.libata-sff.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"libata_sff"' -DKBUILD_MODNAME='"libata"' -D__KBUILD_MODNAME=kmod_libata -c -o drivers/ata/libata-sff.o drivers/ata/libata-sff.c  
 
 source_drivers/ata/libata-sff.o := drivers/ata/libata-sff.c
 
@@ -26,6 +26,7 @@ deps_drivers/ata/libata-sff.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -482,6 +483,9 @@ deps_drivers/ata/libata-sff.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -645,6 +649,7 @@ deps_drivers/ata/libata-sff.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -684,6 +689,7 @@ deps_drivers/ata/libata-sff.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -901,6 +907,7 @@ deps_drivers/ata/libata-sff.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1170,6 +1177,8 @@ deps_drivers/ata/libata-sff.o := \
     $(wildcard include/config/DEVICE_PRIVATE) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1182,9 +1191,6 @@ deps_drivers/ata/libata-sff.o := \
     $(wildcard include/config/DMA_API_DEBUG) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
   include/linux/dma-direction.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/pci.h \
   include/linux/libata.h \
     $(wildcard include/config/ATA_NONSTANDARD) \
@@ -1404,59 +1410,59 @@ deps_drivers/ata/libata-sff.o := \
 drivers/ata/libata-sff.o: $(deps_drivers/ata/libata-sff.o)
 
 $(deps_drivers/ata/libata-sff.o):
-#SYMVER ata_sff_port_ops 0x2d9530a1
-#SYMVER ata_sff_check_status 0x34320c0c
-#SYMVER ata_sff_pause 0x0f56b72d
-#SYMVER ata_sff_dma_pause 0x7d205e1b
-#SYMVER ata_sff_wait_ready 0x9878a5a4
-#SYMVER ata_sff_dev_select 0xef73c580
-#SYMVER ata_sff_irq_on 0x8e37cd57
-#SYMVER ata_sff_tf_load 0x94fb06fc
-#SYMVER ata_sff_tf_read 0xb1a1694a
-#SYMVER ata_sff_exec_command 0xde14a7e8
-#SYMVER ata_sff_data_xfer 0x68143e45
-#SYMVER ata_sff_data_xfer32 0xf9d03d7e
-#SYMVER ata_sff_hsm_move 0x7d11ab42
+#SYMVER ata_sff_port_ops 0x5f3827c6
+#SYMVER ata_sff_check_status 0xfb34f1a5
+#SYMVER ata_sff_pause 0x8ec07230
+#SYMVER ata_sff_dma_pause 0x2ad535d9
+#SYMVER ata_sff_wait_ready 0x85bc28fe
+#SYMVER ata_sff_dev_select 0x763c49dd
+#SYMVER ata_sff_irq_on 0x5a638d2e
+#SYMVER ata_sff_tf_load 0x757fbb5d
+#SYMVER ata_sff_tf_read 0xae18c064
+#SYMVER ata_sff_exec_command 0x882b06a8
+#SYMVER ata_sff_data_xfer 0x9b6f3ba3
+#SYMVER ata_sff_data_xfer32 0x2fa000c1
+#SYMVER ata_sff_hsm_move 0x39e4314f
 #SYMVER ata_sff_queue_work 0xa6b06f65
 #SYMVER ata_sff_queue_delayed_work 0x4e17c613
-#SYMVER ata_sff_queue_pio_task 0x4386c712
-#SYMVER ata_sff_qc_issue 0x0d275c0a
-#SYMVER ata_sff_qc_fill_rtf 0x0e700f24
-#SYMVER ata_sff_port_intr 0x977298c1
+#SYMVER ata_sff_queue_pio_task 0x316918d3
+#SYMVER ata_sff_qc_issue 0xb0e849cb
+#SYMVER ata_sff_qc_fill_rtf 0x1663c622
+#SYMVER ata_sff_port_intr 0x608d008d
 #SYMVER ata_sff_interrupt 0x3a4f6a32
-#SYMVER ata_sff_lost_interrupt 0x88f3f998
-#SYMVER ata_sff_freeze 0xea8e1ec6
-#SYMVER ata_sff_thaw 0x1d852211
-#SYMVER ata_sff_prereset 0xc9462e8a
-#SYMVER ata_sff_dev_classify 0xb16254b9
-#SYMVER ata_sff_wait_after_reset 0xe6fcae86
-#SYMVER ata_sff_softreset 0x67f160d3
-#SYMVER sata_sff_hardreset 0x41433fca
-#SYMVER ata_sff_postreset 0x28c5baae
-#SYMVER ata_sff_drain_fifo 0x77caa7da
-#SYMVER ata_sff_error_handler 0x1d18bb1e
+#SYMVER ata_sff_lost_interrupt 0xbe9cd230
+#SYMVER ata_sff_freeze 0x6d8cf6f7
+#SYMVER ata_sff_thaw 0x22a3b2a3
+#SYMVER ata_sff_prereset 0x90514e4e
+#SYMVER ata_sff_dev_classify 0xd1405900
+#SYMVER ata_sff_wait_after_reset 0x92c078c7
+#SYMVER ata_sff_softreset 0x547179de
+#SYMVER sata_sff_hardreset 0x2a1e2820
+#SYMVER ata_sff_postreset 0x112824ea
+#SYMVER ata_sff_drain_fifo 0x84019067
+#SYMVER ata_sff_error_handler 0x76cc2610
 #SYMVER ata_sff_std_ports 0x73a48b4a
-#SYMVER ata_pci_sff_init_host 0x144c6257
-#SYMVER ata_pci_sff_prepare_host 0x116d4df2
-#SYMVER ata_pci_sff_activate_host 0xa376558f
-#SYMVER ata_pci_sff_init_one 0x102ce233
-#SYMVER ata_bmdma_port_ops 0x3fbaa287
-#SYMVER ata_bmdma32_port_ops 0x048e39d2
-#SYMVER ata_bmdma_qc_prep 0x56750a05
-#SYMVER ata_bmdma_dumb_qc_prep 0x2b8dc58c
-#SYMVER ata_bmdma_qc_issue 0x7b8590bf
-#SYMVER ata_bmdma_port_intr 0x76c4e8da
+#SYMVER ata_pci_sff_init_host 0x37eb778f
+#SYMVER ata_pci_sff_prepare_host 0x125f6ed1
+#SYMVER ata_pci_sff_activate_host 0xe1d416c5
+#SYMVER ata_pci_sff_init_one 0x7f02bb47
+#SYMVER ata_bmdma_port_ops 0x96d5a88d
+#SYMVER ata_bmdma32_port_ops 0x1eb49129
+#SYMVER ata_bmdma_qc_prep 0x2b1ce730
+#SYMVER ata_bmdma_dumb_qc_prep 0x2be9654f
+#SYMVER ata_bmdma_qc_issue 0x408d0b5d
+#SYMVER ata_bmdma_port_intr 0x22d439d1
 #SYMVER ata_bmdma_interrupt 0xe818b32b
-#SYMVER ata_bmdma_error_handler 0x3bfef389
-#SYMVER ata_bmdma_post_internal_cmd 0x65e8e0d9
-#SYMVER ata_bmdma_irq_clear 0x2a11679a
-#SYMVER ata_bmdma_setup 0xa247f368
-#SYMVER ata_bmdma_start 0x233d5bb9
-#SYMVER ata_bmdma_stop 0xc35e709a
-#SYMVER ata_bmdma_status 0xd302a031
-#SYMVER ata_bmdma_port_start 0xc8c509bb
-#SYMVER ata_bmdma_port_start32 0xfe090d4d
-#SYMVER ata_pci_bmdma_clear_simplex 0x8c094ede
-#SYMVER ata_pci_bmdma_init 0x66d6a4a4
-#SYMVER ata_pci_bmdma_prepare_host 0xe3d91a72
-#SYMVER ata_pci_bmdma_init_one 0x576d0b52
+#SYMVER ata_bmdma_error_handler 0x124366a8
+#SYMVER ata_bmdma_post_internal_cmd 0xef07a882
+#SYMVER ata_bmdma_irq_clear 0x483a94d1
+#SYMVER ata_bmdma_setup 0xea997599
+#SYMVER ata_bmdma_start 0x3502a5cf
+#SYMVER ata_bmdma_stop 0xf48affe1
+#SYMVER ata_bmdma_status 0xde8c84ee
+#SYMVER ata_bmdma_port_start 0xca92a868
+#SYMVER ata_bmdma_port_start32 0xed70da89
+#SYMVER ata_pci_bmdma_clear_simplex 0xa2a72297
+#SYMVER ata_pci_bmdma_init 0x96ef26e1
+#SYMVER ata_pci_bmdma_prepare_host 0x4039fb95
+#SYMVER ata_pci_bmdma_init_one 0x426fdcbe

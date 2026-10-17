@@ -1,4 +1,4 @@
-savedcmd_block/blk-mq.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,block/.blk-mq.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"block/blk-mq"' -DKBUILD_BASENAME='"blk_mq"' -DKBUILD_MODNAME='"blk_mq"' -D__KBUILD_MODNAME=kmod_blk_mq -c -o block/blk-mq.o block/blk-mq.c  
+savedcmd_block/blk-mq.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,block/.blk-mq.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"block/blk-mq"' -DKBUILD_BASENAME='"blk_mq"' -DKBUILD_MODNAME='"blk_mq"' -D__KBUILD_MODNAME=kmod_blk_mq -c -o block/blk-mq.o block/blk-mq.c  
 
 source_block/blk-mq.o := block/blk-mq.c
 
@@ -27,6 +27,7 @@ deps_block/blk-mq.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -498,6 +499,7 @@ deps_block/blk-mq.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -584,6 +586,7 @@ deps_block/blk-mq.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -678,6 +681,9 @@ deps_block/blk-mq.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -803,6 +809,7 @@ deps_block/blk-mq.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1176,6 +1183,8 @@ deps_block/blk-mq.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1469,61 +1478,61 @@ deps_block/blk-mq.o := \
 block/blk-mq.o: $(deps_block/blk-mq.o)
 
 $(deps_block/blk-mq.o):
-#SYMVER blk_freeze_queue_start 0x819259df
-#SYMVER blk_mq_freeze_queue_wait 0xbb0ff637
-#SYMVER blk_mq_freeze_queue_wait_timeout 0x5f9d04ae
-#SYMVER blk_mq_freeze_queue 0xe6b6bb8b
-#SYMVER blk_mq_unfreeze_queue 0x5d37e3df
-#SYMVER blk_freeze_queue_start_non_owner 0xa66cae85
-#SYMVER blk_mq_unfreeze_queue_non_owner 0xf5e8645f
-#SYMVER blk_mq_quiesce_queue_nowait 0x976e332a
-#SYMVER blk_mq_wait_quiesce_done 0x0a682313
-#SYMVER blk_mq_quiesce_queue 0x4179657b
-#SYMVER blk_mq_unquiesce_queue 0x2dc471ce
-#SYMVER blk_mq_quiesce_tagset 0x4b1b5fd0
-#SYMVER blk_mq_unquiesce_tagset 0xc873bded
-#SYMVER blk_rq_init 0xa4a7ef1d
-#SYMVER blk_mq_alloc_request 0x491407b2
-#SYMVER blk_mq_alloc_request_hctx 0xf0dd5db1
-#SYMVER blk_mq_free_request 0xc2f4ed3e
-#SYMVER blk_dump_rq_flags 0x31ebab00
-#SYMVER blk_update_request 0xd3fa1c51
-#SYMVER __blk_mq_end_request 0x3b5d5b97
-#SYMVER blk_mq_end_request 0xb716f575
-#SYMVER blk_mq_end_request_batch 0x273b9842
-#SYMVER blk_mq_complete_request_remote 0x8b1ab7f9
-#SYMVER blk_mq_complete_request 0x237f38c6
-#SYMVER blk_mq_start_request 0x9dfc7fa4
-#SYMVER blk_execute_rq_nowait 0xf3447489
-#SYMVER blk_rq_is_poll 0xa089dae6
-#SYMVER blk_execute_rq 0x1faeec1c
-#SYMVER blk_mq_requeue_request 0x18947e00
-#SYMVER blk_mq_kick_requeue_list 0xb100af4f
-#SYMVER blk_mq_delay_kick_requeue_list 0xc4e3600d
-#SYMVER blk_mq_queue_inflight 0xbda692b4
-#SYMVER blk_mq_flush_busy_ctxs 0x0a17f126
-#SYMVER blk_mq_delay_run_hw_queue 0xa80fbc56
-#SYMVER blk_mq_run_hw_queue 0x1e19e64f
-#SYMVER blk_mq_run_hw_queues 0xf008d487
-#SYMVER blk_mq_delay_run_hw_queues 0xbf3ec46f
-#SYMVER blk_mq_stop_hw_queue 0x5f0f88c4
-#SYMVER blk_mq_stop_hw_queues 0xfae3202e
-#SYMVER blk_mq_start_hw_queue 0x8bf0c933
-#SYMVER blk_mq_start_hw_queues 0xd9eeb8d0
-#SYMVER blk_mq_start_stopped_hw_queue 0x7557ec5c
-#SYMVER blk_mq_start_stopped_hw_queues 0x74dddb53
-#SYMVER blk_insert_cloned_request 0xad4812d5
-#SYMVER blk_rq_unprep_clone 0x83fbfde2
-#SYMVER blk_rq_prep_clone 0xdf4749f1
-#SYMVER blk_steal_bios 0x76e88224
-#SYMVER blk_mq_alloc_queue 0xfe65f52b
-#SYMVER blk_mq_destroy_queue 0x936a0d18
-#SYMVER __blk_mq_alloc_disk 0xb746e564
-#SYMVER blk_mq_alloc_disk_for_queue 0x4832e6d7
-#SYMVER blk_mq_init_allocated_queue 0xd831fa32
-#SYMVER blk_mq_alloc_tag_set 0xf1e97e7b
-#SYMVER blk_mq_alloc_sq_tag_set 0x440d741b
-#SYMVER blk_mq_free_tag_set 0x379eca1c
-#SYMVER blk_mq_update_nr_hw_queues 0x1e3b4384
-#SYMVER blk_rq_poll 0x4ae5e20e
-#SYMVER blk_mq_rq_cpu 0x0a3719ec
+#SYMVER blk_freeze_queue_start 0x137e7322
+#SYMVER blk_mq_freeze_queue_wait 0x2cdb5aef
+#SYMVER blk_mq_freeze_queue_wait_timeout 0x27facd8a
+#SYMVER blk_mq_freeze_queue 0x73cacd71
+#SYMVER blk_mq_unfreeze_queue 0x193efde0
+#SYMVER blk_freeze_queue_start_non_owner 0x2c9be6d9
+#SYMVER blk_mq_unfreeze_queue_non_owner 0x73ab7e3b
+#SYMVER blk_mq_quiesce_queue_nowait 0xa1d6ea1a
+#SYMVER blk_mq_wait_quiesce_done 0xc4f28c35
+#SYMVER blk_mq_quiesce_queue 0x878a2cba
+#SYMVER blk_mq_unquiesce_queue 0x00e87b58
+#SYMVER blk_mq_quiesce_tagset 0x6809c855
+#SYMVER blk_mq_unquiesce_tagset 0xf14e1a0e
+#SYMVER blk_rq_init 0x54ba2316
+#SYMVER blk_mq_alloc_request 0xc16518f1
+#SYMVER blk_mq_alloc_request_hctx 0x40f7bb76
+#SYMVER blk_mq_free_request 0x933880e2
+#SYMVER blk_dump_rq_flags 0x8eea1b76
+#SYMVER blk_update_request 0x78cb9fd7
+#SYMVER __blk_mq_end_request 0xc42bbb49
+#SYMVER blk_mq_end_request 0xf471da2b
+#SYMVER blk_mq_end_request_batch 0xcf61af86
+#SYMVER blk_mq_complete_request_remote 0x13a161c9
+#SYMVER blk_mq_complete_request 0xb778e454
+#SYMVER blk_mq_start_request 0x7a2786be
+#SYMVER blk_execute_rq_nowait 0x784ac304
+#SYMVER blk_rq_is_poll 0x1a456aac
+#SYMVER blk_execute_rq 0x262ddb43
+#SYMVER blk_mq_requeue_request 0x21d66988
+#SYMVER blk_mq_kick_requeue_list 0x54b40f6d
+#SYMVER blk_mq_delay_kick_requeue_list 0x334d5ee4
+#SYMVER blk_mq_queue_inflight 0x6ec6d3fe
+#SYMVER blk_mq_flush_busy_ctxs 0x18ae57f6
+#SYMVER blk_mq_delay_run_hw_queue 0x87a0cfc2
+#SYMVER blk_mq_run_hw_queue 0x7c53458f
+#SYMVER blk_mq_run_hw_queues 0xef501638
+#SYMVER blk_mq_delay_run_hw_queues 0x047557b8
+#SYMVER blk_mq_stop_hw_queue 0x54c1aae5
+#SYMVER blk_mq_stop_hw_queues 0x7ee50d84
+#SYMVER blk_mq_start_hw_queue 0x91fd0620
+#SYMVER blk_mq_start_hw_queues 0x952e0717
+#SYMVER blk_mq_start_stopped_hw_queue 0x4fe14890
+#SYMVER blk_mq_start_stopped_hw_queues 0x626ba9c0
+#SYMVER blk_insert_cloned_request 0x46188d0c
+#SYMVER blk_rq_unprep_clone 0x5a011a27
+#SYMVER blk_rq_prep_clone 0x1990e14e
+#SYMVER blk_steal_bios 0xd800546b
+#SYMVER blk_mq_alloc_queue 0x031cee4e
+#SYMVER blk_mq_destroy_queue 0xb6676c8f
+#SYMVER __blk_mq_alloc_disk 0xa332b24f
+#SYMVER blk_mq_alloc_disk_for_queue 0xe9ce3265
+#SYMVER blk_mq_init_allocated_queue 0xa66381f7
+#SYMVER blk_mq_alloc_tag_set 0xa95b6e20
+#SYMVER blk_mq_alloc_sq_tag_set 0x412a49ad
+#SYMVER blk_mq_free_tag_set 0xfd2ba9ac
+#SYMVER blk_mq_update_nr_hw_queues 0x3bb14f26
+#SYMVER blk_rq_poll 0xc86688d2
+#SYMVER blk_mq_rq_cpu 0x382202f7

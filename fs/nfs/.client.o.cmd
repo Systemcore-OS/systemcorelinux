@@ -1,4 +1,4 @@
-savedcmd_fs/nfs/client.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/nfs/.client.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"client"' -DKBUILD_MODNAME='"nfs"' -D__KBUILD_MODNAME=kmod_nfs -c -o fs/nfs/client.o fs/nfs/client.c  
+savedcmd_fs/nfs/client.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/nfs/.client.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"client"' -DKBUILD_MODNAME='"nfs"' -D__KBUILD_MODNAME=kmod_nfs -c -o fs/nfs/client.o fs/nfs/client.c  
 
 source_fs/nfs/client.o := fs/nfs/client.c
 
@@ -7,6 +7,7 @@ deps_fs/nfs/client.o := \
     $(wildcard include/config/NFS_V4) \
     $(wildcard include/config/NFS_DISABLE_UDP_SUPPORT) \
     $(wildcard include/config/NFS_V4_2) \
+    $(wildcard include/config/NFS_V4_1) \
     $(wildcard include/config/PROC_FS) \
   include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
@@ -28,6 +29,7 @@ deps_fs/nfs/client.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -501,6 +503,7 @@ deps_fs/nfs/client.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -587,6 +590,7 @@ deps_fs/nfs/client.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -681,6 +685,9 @@ deps_fs/nfs/client.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -806,6 +813,7 @@ deps_fs/nfs/client.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1031,6 +1039,8 @@ deps_fs/nfs/client.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1297,9 +1307,6 @@ deps_fs/nfs/client.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1379,6 +1386,7 @@ deps_fs/nfs/client.o := \
     $(wildcard include/config/MPLS) \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1647,7 +1655,6 @@ deps_fs/nfs/client.o := \
   include/linux/nfs4.h \
   include/uapi/linux/nfs4.h \
   include/linux/nfs_xdr.h \
-    $(wildcard include/config/NFS_V4_1) \
   include/linux/nfsacl.h \
   include/linux/posix_acl.h \
   include/uapi/linux/posix_acl.h \
@@ -1706,26 +1713,27 @@ deps_fs/nfs/client.o := \
 fs/nfs/client.o: $(deps_fs/nfs/client.o)
 
 $(deps_fs/nfs/client.o):
-#SYMVER register_nfs_version 0xf6803ab7
-#SYMVER unregister_nfs_version 0xbdf14734
-#SYMVER nfs_alloc_client 0x310acc12
-#SYMVER nfs_free_client 0x2208023c
-#SYMVER nfs_put_client 0xeb762854
-#SYMVER nfs_client_init_is_complete 0xbb8925ca
-#SYMVER nfs_client_init_status 0x2c4fea6d
-#SYMVER nfs_wait_client_init_complete 0x32ae840c
-#SYMVER nfs_get_client 0x4b473153
-#SYMVER nfs_mark_client_ready 0xf21201c8
+#SYMVER register_nfs_version 0xeeaa5a4e
+#SYMVER unregister_nfs_version 0x68dc17cb
+#SYMVER nfs_alloc_client 0x57c26daf
+#SYMVER nfs_cb_idr_remove 0x78564efa
+#SYMVER nfs_free_client 0x0bd8a809
+#SYMVER nfs_put_client 0x8991763e
+#SYMVER nfs_client_init_is_complete 0xbfd29c09
+#SYMVER nfs_client_init_status 0x461bebc2
+#SYMVER nfs_wait_client_init_complete 0x8a36d4a0
+#SYMVER nfs_get_client 0xb0d47424
+#SYMVER nfs_mark_client_ready 0x96071f68
 #SYMVER nfs_init_timeout_values 0x98b0ece8
-#SYMVER nfs_create_rpc_client 0xa6022234
-#SYMVER nfs_init_server_rpcclient 0x2fbdeba2
-#SYMVER nfs_init_client 0x3b49fbed
-#SYMVER nfs_server_set_init_caps 0x05703087
-#SYMVER nfs_probe_server 0xa924a36b
-#SYMVER nfs_server_copy_userdata 0x1c333714
-#SYMVER nfs_server_insert_lists 0xfbba9600
-#SYMVER nfs_server_remove_lists 0xa5f640bd
-#SYMVER nfs_alloc_server 0xe0f67fef
-#SYMVER nfs_free_server 0x4734a7a8
-#SYMVER nfs_create_server 0xb7adeb55
-#SYMVER nfs_clone_server 0x01a3e5b4
+#SYMVER nfs_create_rpc_client 0x339f4215
+#SYMVER nfs_init_server_rpcclient 0xdd666871
+#SYMVER nfs_init_client 0x5e62a960
+#SYMVER nfs_server_set_init_caps 0xecbb3f25
+#SYMVER nfs_probe_server 0xd79006ad
+#SYMVER nfs_server_copy_userdata 0xf241ddcf
+#SYMVER nfs_server_insert_lists 0x0f7f9d4f
+#SYMVER nfs_server_remove_lists 0x2643921b
+#SYMVER nfs_alloc_server 0x57fdf594
+#SYMVER nfs_free_server 0xdbfcc25d
+#SYMVER nfs_create_server 0x8ec00bd1
+#SYMVER nfs_clone_server 0xa83cd33d

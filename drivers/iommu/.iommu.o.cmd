@@ -1,4 +1,4 @@
-savedcmd_drivers/iommu/iommu.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/iommu/.iommu.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/iommu/iommu"' -DKBUILD_BASENAME='"iommu"' -DKBUILD_MODNAME='"iommu"' -D__KBUILD_MODNAME=kmod_iommu -c -o drivers/iommu/iommu.o drivers/iommu/iommu.c  
+savedcmd_drivers/iommu/iommu.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/iommu/.iommu.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/iommu/iommu"' -DKBUILD_BASENAME='"iommu"' -DKBUILD_MODNAME='"iommu"' -D__KBUILD_MODNAME=kmod_iommu -c -o drivers/iommu/iommu.o drivers/iommu/iommu.c  
 
 source_drivers/iommu/iommu.o := drivers/iommu/iommu.c
 
@@ -36,6 +36,7 @@ deps_drivers/iommu/iommu.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -593,6 +594,7 @@ deps_drivers/iommu/iommu.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -641,6 +643,7 @@ deps_drivers/iommu/iommu.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -737,6 +740,9 @@ deps_drivers/iommu/iommu.o := \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/list_nulls.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -886,6 +892,7 @@ deps_drivers/iommu/iommu.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1210,6 +1217,8 @@ deps_drivers/iommu/iommu.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
   include/linux/writeback.h \
@@ -1385,9 +1394,6 @@ deps_drivers/iommu/iommu.o := \
   include/linux/dma-mapping.h \
     $(wildcard include/config/DMA_API_DEBUG) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/pci.h \
   include/linux/pci-ats.h \
   include/linux/platform_device.h \
@@ -1421,65 +1427,65 @@ deps_drivers/iommu/iommu.o := \
 drivers/iommu/iommu.o: $(deps_drivers/iommu/iommu.o)
 
 $(deps_drivers/iommu/iommu.o):
-#SYMVER iommu_device_register 0xb7e15be1
-#SYMVER iommu_device_unregister 0xd9f60185
-#SYMVER dev_iommu_priv_set 0x4a70d044
+#SYMVER iommu_device_register 0xaf3c2ff7
+#SYMVER iommu_device_unregister 0xead2b963
+#SYMVER dev_iommu_priv_set 0x1b689809
 #SYMVER iommu_get_group_resv_regions 0x7006586e
 #SYMVER iommu_group_alloc 0x8d22bb58
 #SYMVER iommu_group_get_iommudata 0xd55ad93b
 #SYMVER iommu_group_set_iommudata 0xc66b77b1
 #SYMVER iommu_group_set_name 0xbcdd5b99
-#SYMVER iommu_group_add_device 0x90b16eab
-#SYMVER iommu_group_remove_device 0x3b961aa4
-#SYMVER iommu_group_for_each_dev 0x3e086b12
-#SYMVER iommu_group_get 0x1048ce48
+#SYMVER iommu_group_add_device 0xd64251b7
+#SYMVER iommu_group_remove_device 0x5812ccfe
+#SYMVER iommu_group_for_each_dev 0x0354dabc
+#SYMVER iommu_group_get 0x197a7b91
 #SYMVER iommu_group_ref_get 0x4d6d0bbc
 #SYMVER iommu_group_put 0x89485687
 #SYMVER iommu_group_id 0x6e7943ec
-#SYMVER generic_device_group 0x67cb5e30
-#SYMVER generic_single_device_group 0x9a2dce29
-#SYMVER pci_device_group 0xb0e82cb9
-#SYMVER fsl_mc_device_group 0x9851c43a
-#SYMVER iommu_present 0xfec3c0ba
-#SYMVER device_iommu_capable 0x4bfd846c
+#SYMVER generic_device_group 0xfa24bfde
+#SYMVER generic_single_device_group 0x3767597b
+#SYMVER pci_device_group 0xb7c37b44
+#SYMVER fsl_mc_device_group 0xea914573
+#SYMVER iommu_present 0x641c1653
+#SYMVER device_iommu_capable 0x68386e44
 #SYMVER iommu_group_has_isolated_msi 0x6d49c8ed
-#SYMVER iommu_set_fault_handler 0xda0fc78b
-#SYMVER iommu_domain_alloc 0x308ded8f
-#SYMVER iommu_paging_domain_alloc 0x6b0a2c5c
-#SYMVER iommu_domain_free 0xda7b593b
-#SYMVER iommu_attach_device 0x90818bca
-#SYMVER iommu_detach_device 0xb896df78
-#SYMVER iommu_get_domain_for_dev 0xf856ccea
-#SYMVER iommu_attach_group 0xff138cd5
-#SYMVER iommu_group_replace_domain 0xc225a1b2
-#SYMVER iommu_detach_group 0x13eba0c4
-#SYMVER iommu_iova_to_phys 0x4b890f12
-#SYMVER iommu_map 0xc9711eba
-#SYMVER iommu_unmap 0x14c154a4
-#SYMVER iommu_unmap_fast 0xfe36d680
-#SYMVER iommu_map_sg 0x151730ce
-#SYMVER report_iommu_fault 0x5fbaee45
-#SYMVER iommu_enable_nesting 0xd8a60ef2
-#SYMVER iommu_set_pgtable_quirks 0x8a598f4c
-#SYMVER iommu_get_resv_regions 0x0b110cea
-#SYMVER iommu_put_resv_regions 0x1c2dcff6
-#SYMVER iommu_alloc_resv_region 0x75889ddc
+#SYMVER iommu_set_fault_handler 0xda5a0458
+#SYMVER iommu_domain_alloc 0x7bab7603
+#SYMVER iommu_paging_domain_alloc 0x4945e779
+#SYMVER iommu_domain_free 0xc5710f2c
+#SYMVER iommu_attach_device 0x10ecfbba
+#SYMVER iommu_detach_device 0x18f5f960
+#SYMVER iommu_get_domain_for_dev 0xb58b505c
+#SYMVER iommu_attach_group 0xfc1ce7f5
+#SYMVER iommu_group_replace_domain 0xf7f7182d
+#SYMVER iommu_detach_group 0x23aa4b4c
+#SYMVER iommu_iova_to_phys 0x7938ed12
+#SYMVER iommu_map 0xc48db357
+#SYMVER iommu_unmap 0x989987a2
+#SYMVER iommu_unmap_fast 0x9f556c41
+#SYMVER iommu_map_sg 0xbbc88423
+#SYMVER report_iommu_fault 0x6c900e0c
+#SYMVER iommu_enable_nesting 0x84dcdaad
+#SYMVER iommu_set_pgtable_quirks 0x053bf017
+#SYMVER iommu_get_resv_regions 0x3be6ab8e
+#SYMVER iommu_put_resv_regions 0xe776885e
+#SYMVER iommu_alloc_resv_region 0xd04045e7
 #SYMVER iommu_default_passthrough 0xc3ea5305
-#SYMVER iommu_fwspec_init 0xcd6df453
-#SYMVER iommu_fwspec_free 0xf144b83e
-#SYMVER iommu_fwspec_add_ids 0x62ead2e0
-#SYMVER iommu_dev_enable_feature 0x98a71bb7
-#SYMVER iommu_dev_disable_feature 0x6dbbfb37
+#SYMVER iommu_fwspec_init 0x642c9a46
+#SYMVER iommu_fwspec_free 0xb108915a
+#SYMVER iommu_fwspec_add_ids 0xc2c4c95a
+#SYMVER iommu_dev_enable_feature 0x7264e970
+#SYMVER iommu_dev_disable_feature 0xa4155840
 #SYMVER iommu_group_claim_dma_owner 0x0cc9d36c
-#SYMVER iommu_device_claim_dma_owner 0x0f2ac5a6
+#SYMVER iommu_device_claim_dma_owner 0xc9a470d5
 #SYMVER iommu_group_release_dma_owner 0xe3e423ac
-#SYMVER iommu_device_release_dma_owner 0x533dabc4
+#SYMVER iommu_device_release_dma_owner 0x9c6ec4cd
 #SYMVER iommu_group_dma_owner_claimed 0xf5a067bf
-#SYMVER iommu_attach_device_pasid 0x4e47a4b0
-#SYMVER iommu_detach_device_pasid 0xec2991ca
-#SYMVER iommu_alloc_global_pasid 0x9de1d1b1
+#SYMVER iommu_attach_device_pasid 0xa0c89d23
+#SYMVER iommu_detach_device_pasid 0x780766f6
+#SYMVER iommu_alloc_global_pasid 0x8e706f4b
 #SYMVER iommu_free_global_pasid 0xfa13f45f
-#SYMVER iommu_attach_handle_get 0x27801f58
-#SYMVER iommu_attach_group_handle 0x8e2818c6
-#SYMVER iommu_detach_group_handle 0x0713c969
-#SYMVER iommu_replace_group_handle 0x02169b98
+#SYMVER iommu_attach_handle_get 0xce780736
+#SYMVER iommu_attach_group_handle 0xaf3e4417
+#SYMVER iommu_detach_group_handle 0x7d0fbb0c
+#SYMVER iommu_replace_group_handle 0x136bbca8

@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/ath/ath9k/hw.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/ath/ath9k/.hw.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"hw"' -DKBUILD_MODNAME='"ath9k_hw"' -D__KBUILD_MODNAME=kmod_ath9k_hw -c -o drivers/net/wireless/ath/ath9k/hw.o drivers/net/wireless/ath/ath9k/hw.c  
+savedcmd_drivers/net/wireless/ath/ath9k/hw.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/ath/ath9k/.hw.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"hw"' -DKBUILD_MODNAME='"ath9k_hw"' -D__KBUILD_MODNAME=kmod_ath9k_hw -c -o drivers/net/wireless/ath/ath9k/hw.o drivers/net/wireless/ath/ath9k/hw.c  
 
 source_drivers/net/wireless/ath/ath9k/hw.o := drivers/net/wireless/ath/ath9k/hw.c
 
@@ -25,6 +25,7 @@ deps_drivers/net/wireless/ath/ath9k/hw.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -643,6 +644,7 @@ deps_drivers/net/wireless/ath/ath9k/hw.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -686,6 +688,7 @@ deps_drivers/net/wireless/ath/ath9k/hw.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -719,6 +722,9 @@ deps_drivers/net/wireless/ath/ath9k/hw.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -862,6 +868,7 @@ deps_drivers/net/wireless/ath/ath9k/hw.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1153,6 +1160,8 @@ deps_drivers/net/wireless/ath/ath9k/hw.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1277,9 +1286,6 @@ deps_drivers/net/wireless/ath/ath9k/hw.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1356,6 +1362,7 @@ deps_drivers/net/wireless/ath/ath9k/hw.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1632,41 +1639,41 @@ deps_drivers/net/wireless/ath/ath9k/hw.o := \
 drivers/net/wireless/ath/ath9k/hw.o: $(deps_drivers/net/wireless/ath/ath9k/hw.o)
 
 $(deps_drivers/net/wireless/ath/ath9k/hw.o):
-#SYMVER ath9k_hw_wait 0xb16bfea7
-#SYMVER ath9k_hw_computetxtime 0x1ed3e20d
-#SYMVER ath9k_hw_init 0x2d4c990c
-#SYMVER ar9003_get_pll_sqsum_dvc 0xa24bb3c2
-#SYMVER ath9k_hw_init_global_settings 0x71a0a16d
-#SYMVER ath9k_hw_deinit 0x9169713b
-#SYMVER ath9k_hw_check_nav 0xf6d9b224
-#SYMVER ath9k_hw_check_alive 0x5d0144d9
+#SYMVER ath9k_hw_wait 0xf956e74f
+#SYMVER ath9k_hw_computetxtime 0x0e9252e0
+#SYMVER ath9k_hw_init 0x0eff6c96
+#SYMVER ar9003_get_pll_sqsum_dvc 0x7a56f2fb
+#SYMVER ath9k_hw_init_global_settings 0xec2969a2
+#SYMVER ath9k_hw_deinit 0x066ab574
+#SYMVER ath9k_hw_check_nav 0xbe97fd62
+#SYMVER ath9k_hw_check_alive 0xfdeacc1b
 #SYMVER ath9k_hw_get_tsf_offset 0x0f77dafc
-#SYMVER ath9k_hw_reset 0x272d60be
-#SYMVER ath9k_hw_setpower 0x05d75510
-#SYMVER ath9k_hw_beaconinit 0x58edba34
-#SYMVER ath9k_hw_set_sta_beacon_timers 0x5ee301a0
-#SYMVER ath9k_hw_gpio_request_in 0xffafd04c
-#SYMVER ath9k_hw_gpio_request_out 0xae486a00
-#SYMVER ath9k_hw_gpio_free 0x2959e595
-#SYMVER ath9k_hw_gpio_get 0xf77be2c4
-#SYMVER ath9k_hw_set_gpio 0x20263a25
-#SYMVER ath9k_hw_setantenna 0x6811de4e
-#SYMVER ath9k_hw_getrxfilter 0xc9deefb6
-#SYMVER ath9k_hw_setrxfilter 0x76004145
-#SYMVER ath9k_hw_phy_disable 0xd80c3950
-#SYMVER ath9k_hw_disable 0xddfef20c
-#SYMVER ath9k_hw_set_txpowerlimit 0xfde80d35
-#SYMVER ath9k_hw_setopmode 0xdccbd2dc
-#SYMVER ath9k_hw_setmcastfilter 0x2a38d2bd
-#SYMVER ath9k_hw_write_associd 0xbf38eec1
-#SYMVER ath9k_hw_gettsf64 0xa52fab24
-#SYMVER ath9k_hw_settsf64 0x78beb389
-#SYMVER ath9k_hw_reset_tsf 0xb861e9a4
-#SYMVER ath9k_hw_set_tsfadjust 0xc95a8cd7
-#SYMVER ath9k_hw_gettsf32 0x2a67d85b
-#SYMVER ath_gen_timer_alloc 0xee30ec57
-#SYMVER ath9k_hw_gen_timer_start 0x402d8f98
-#SYMVER ath9k_hw_gen_timer_stop 0xcd18a958
-#SYMVER ath_gen_timer_free 0xa5622255
-#SYMVER ath_gen_timer_isr 0x72630d16
-#SYMVER ath9k_hw_name 0xd77f97e2
+#SYMVER ath9k_hw_reset 0x833ace2c
+#SYMVER ath9k_hw_setpower 0x995c2aaf
+#SYMVER ath9k_hw_beaconinit 0x48d0b363
+#SYMVER ath9k_hw_set_sta_beacon_timers 0x2245eede
+#SYMVER ath9k_hw_gpio_request_in 0x6d2f3637
+#SYMVER ath9k_hw_gpio_request_out 0xdddc559d
+#SYMVER ath9k_hw_gpio_free 0x28b5d4ff
+#SYMVER ath9k_hw_gpio_get 0xec161522
+#SYMVER ath9k_hw_set_gpio 0xefc20964
+#SYMVER ath9k_hw_setantenna 0x2436ebe8
+#SYMVER ath9k_hw_getrxfilter 0xd7b4ba58
+#SYMVER ath9k_hw_setrxfilter 0x9f401f46
+#SYMVER ath9k_hw_phy_disable 0x6afc853e
+#SYMVER ath9k_hw_disable 0x843011ca
+#SYMVER ath9k_hw_set_txpowerlimit 0x598897f6
+#SYMVER ath9k_hw_setopmode 0x64861216
+#SYMVER ath9k_hw_setmcastfilter 0xdf99ac6a
+#SYMVER ath9k_hw_write_associd 0xa1d14c3a
+#SYMVER ath9k_hw_gettsf64 0x676a13c2
+#SYMVER ath9k_hw_settsf64 0xbeac5cfa
+#SYMVER ath9k_hw_reset_tsf 0x871021fc
+#SYMVER ath9k_hw_set_tsfadjust 0x84af4a7c
+#SYMVER ath9k_hw_gettsf32 0xafc047ee
+#SYMVER ath_gen_timer_alloc 0xd7bf6d62
+#SYMVER ath9k_hw_gen_timer_start 0xfe1f3459
+#SYMVER ath9k_hw_gen_timer_stop 0xf0b307c3
+#SYMVER ath_gen_timer_free 0x48cb264f
+#SYMVER ath_gen_timer_isr 0xd65a1bb9
+#SYMVER ath9k_hw_name 0x2749195d

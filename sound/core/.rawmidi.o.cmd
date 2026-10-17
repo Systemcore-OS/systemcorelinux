@@ -1,4 +1,4 @@
-savedcmd_sound/core/rawmidi.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/core/.rawmidi.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"rawmidi"' -DKBUILD_MODNAME='"snd_rawmidi"' -D__KBUILD_MODNAME=kmod_snd_rawmidi -c -o sound/core/rawmidi.o sound/core/rawmidi.c  
+savedcmd_sound/core/rawmidi.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/core/.rawmidi.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"rawmidi"' -DKBUILD_MODNAME='"snd_rawmidi"' -D__KBUILD_MODNAME=kmod_snd_rawmidi -c -o sound/core/rawmidi.o sound/core/rawmidi.c  
 
 source_sound/core/rawmidi.o := sound/core/rawmidi.c
 
@@ -27,6 +27,7 @@ deps_sound/core/rawmidi.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -218,6 +219,7 @@ deps_sound/core/rawmidi.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -569,6 +571,7 @@ deps_sound/core/rawmidi.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -683,6 +686,9 @@ deps_sound/core/rawmidi.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -884,6 +890,7 @@ deps_sound/core/rawmidi.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1089,6 +1096,8 @@ deps_sound/core/rawmidi.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1213,23 +1222,23 @@ deps_sound/core/rawmidi.o := \
 sound/core/rawmidi.o: $(deps_sound/core/rawmidi.o)
 
 $(deps_sound/core/rawmidi.o):
-#SYMVER snd_rawmidi_drop_output 0xbac9fca3
-#SYMVER snd_rawmidi_drain_output 0x28332d8c
-#SYMVER snd_rawmidi_drain_input 0xd4e156e0
-#SYMVER snd_rawmidi_kernel_open 0x4beba8a5
-#SYMVER snd_rawmidi_kernel_release 0xd0ad4844
-#SYMVER snd_rawmidi_info_select 0x57c73a7f
-#SYMVER snd_rawmidi_output_params 0x11051dd1
-#SYMVER snd_rawmidi_input_params 0x0182f2da
-#SYMVER snd_rawmidi_receive 0xcd035790
-#SYMVER snd_rawmidi_kernel_read 0x443dc8f7
-#SYMVER snd_rawmidi_transmit_empty 0x484d4090
-#SYMVER snd_rawmidi_transmit_peek 0x5bdc49b7
-#SYMVER snd_rawmidi_transmit_ack 0x7b601fec
-#SYMVER snd_rawmidi_transmit 0x0c0fafc1
-#SYMVER snd_rawmidi_proceed 0x0658f2c4
-#SYMVER snd_rawmidi_kernel_write 0x4e8c1513
-#SYMVER snd_rawmidi_init 0x7652210f
-#SYMVER snd_rawmidi_new 0xaf0b71ab
-#SYMVER snd_rawmidi_free 0x129f4ade
-#SYMVER snd_rawmidi_set_ops 0x5a6c49c1
+#SYMVER snd_rawmidi_drop_output 0x164c6817
+#SYMVER snd_rawmidi_drain_output 0xed3ffa46
+#SYMVER snd_rawmidi_drain_input 0x82ad2fa7
+#SYMVER snd_rawmidi_kernel_open 0x11025606
+#SYMVER snd_rawmidi_kernel_release 0xfbe86f56
+#SYMVER snd_rawmidi_info_select 0x114eece3
+#SYMVER snd_rawmidi_output_params 0xe11cad8d
+#SYMVER snd_rawmidi_input_params 0xbbb65f65
+#SYMVER snd_rawmidi_receive 0x06d9c69f
+#SYMVER snd_rawmidi_kernel_read 0x574a8d14
+#SYMVER snd_rawmidi_transmit_empty 0xb7372f29
+#SYMVER snd_rawmidi_transmit_peek 0x3628853c
+#SYMVER snd_rawmidi_transmit_ack 0xb3f6ea4c
+#SYMVER snd_rawmidi_transmit 0xc5394a63
+#SYMVER snd_rawmidi_proceed 0x8412b378
+#SYMVER snd_rawmidi_kernel_write 0x69aa25dc
+#SYMVER snd_rawmidi_init 0x8e63f71a
+#SYMVER snd_rawmidi_new 0x38772a6e
+#SYMVER snd_rawmidi_free 0xec6740ca
+#SYMVER snd_rawmidi_set_ops 0x15251084

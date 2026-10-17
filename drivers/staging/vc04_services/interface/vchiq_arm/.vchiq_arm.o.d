@@ -2,6 +2,7 @@ vchiq_arm.o: \
  drivers/staging/vc04_services/interface/vchiq_arm/vchiq_arm.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/kernel.h \
  include/linux/stdarg.h include/linux/align.h include/linux/const.h \
@@ -269,7 +270,7 @@ vchiq_arm.o: \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/highmem.h \
  include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
  include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
@@ -322,8 +323,7 @@ vchiq_arm.o: \
  include/uapi/linux/mei.h include/uapi/linux/mei_uuid.h \
  include/linux/property.h include/linux/of_platform.h \
  include/linux/platform_device.h include/linux/dma-mapping.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/dmapool.h \
+ include/linux/scatterlist.h include/linux/dmapool.h \
  include/linux/delay.h arch/arm64/include/generated/asm/delay.h \
  include/asm-generic/delay.h include/soc/bcm2835/raspberrypi-firmware.h \
  include/linux/of_device.h \

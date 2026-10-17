@@ -1,4 +1,4 @@
-savedcmd_drivers/net/phy/phy_device.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/phy/.phy_device.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/net/phy/libphy"' -DKBUILD_BASENAME='"phy_device"' -DKBUILD_MODNAME='"libphy"' -D__KBUILD_MODNAME=kmod_libphy -c -o drivers/net/phy/phy_device.o drivers/net/phy/phy_device.c  
+savedcmd_drivers/net/phy/phy_device.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/phy/.phy_device.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/net/phy/libphy"' -DKBUILD_BASENAME='"phy_device"' -DKBUILD_MODNAME='"libphy"' -D__KBUILD_MODNAME=kmod_libphy -c -o drivers/net/phy/phy_device.o drivers/net/phy/phy_device.c  
 
 source_drivers/net/phy/phy_device.o := drivers/net/phy/phy_device.c
 
@@ -27,6 +27,7 @@ deps_drivers/net/phy/phy_device.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -172,6 +173,61 @@ deps_drivers/net/phy/phy_device.o := \
     $(wildcard include/config/RANDOM_KMALLOC_CACHES) \
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/SLAB_BUCKETS) \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
+  include/linux/once_lite.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
+  include/linux/stdarg.h \
+  include/linux/init.h \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+  include/linux/kern_levels.h \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+  arch/arm64/include/asm/linkage.h \
+  include/linux/ratelimit_types.h \
+  include/uapi/linux/param.h \
+  arch/arm64/include/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
+  include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/DEBUG_SPINLOCK) \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
+  arch/arm64/include/asm/spinlock_types.h \
+  include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/NR_CPUS) \
+  include/asm-generic/qrwlock_types.h \
+  arch/arm64/include/uapi/asm/byteorder.h \
+  include/linux/byteorder/little_endian.h \
+  include/uapi/linux/byteorder/little_endian.h \
+  include/linux/swab.h \
+  include/uapi/linux/swab.h \
+  arch/arm64/include/generated/uapi/asm/swab.h \
+  include/uapi/asm-generic/swab.h \
+  include/linux/byteorder/generic.h \
+  include/linux/lockdep_types.h \
+    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
+    $(wildcard include/config/LOCKDEP) \
+    $(wildcard include/config/LOCK_STAT) \
   include/linux/cache.h \
     $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
   include/uapi/linux/kernel.h \
@@ -200,14 +256,7 @@ deps_drivers/net/phy/phy_device.o := \
     $(wildcard include/config/ARM64_LSE_ATOMICS) \
   arch/arm64/include/asm/atomic_ll_sc.h \
     $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
-  include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  arch/arm64/include/asm/linkage.h \
   arch/arm64/include/asm/alternative.h \
-  include/linux/init.h \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
   arch/arm64/include/asm/atomic_lse.h \
   include/linux/atomic/atomic-arch-fallback.h \
     $(wildcard include/config/GENERIC_ATOMIC64) \
@@ -222,14 +271,6 @@ deps_drivers/net/phy/phy_device.o := \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/non-instrumented-non-atomic.h \
   include/asm-generic/bitops/le.h \
-  arch/arm64/include/uapi/asm/byteorder.h \
-  include/linux/byteorder/little_endian.h \
-  include/uapi/linux/byteorder/little_endian.h \
-  include/linux/swab.h \
-  include/uapi/linux/swab.h \
-  arch/arm64/include/generated/uapi/asm/swab.h \
-  include/uapi/asm-generic/swab.h \
-  include/linux/byteorder/generic.h \
   include/asm-generic/bitops/ext2-atomic-setbit.h \
   include/linux/kasan-enabled.h \
     $(wildcard include/config/KASAN) \
@@ -259,7 +300,6 @@ deps_drivers/net/phy/phy_device.o := \
     $(wildcard include/config/COMPACTION) \
     $(wildcard include/config/CONTIG_ALLOC) \
   include/linux/gfp_types.h \
-    $(wildcard include/config/LOCKDEP) \
   include/linux/mmzone.h \
     $(wildcard include/config/ARCH_FORCE_MAX_ORDER) \
     $(wildcard include/config/CMA) \
@@ -283,9 +323,7 @@ deps_drivers/net/phy/phy_device.o := \
     $(wildcard include/config/SPARSEMEM_EXTREME) \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/spinlock.h \
-    $(wildcard include/config/DEBUG_SPINLOCK) \
     $(wildcard include/config/PREEMPTION) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
     $(wildcard include/config/PREEMPT_RT) \
   include/linux/preempt.h \
     $(wildcard include/config/PREEMPT_COUNT) \
@@ -303,44 +341,7 @@ deps_drivers/net/phy/phy_device.o := \
     $(wildcard include/config/GENERIC_ENTRY) \
     $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
     $(wildcard include/config/HARDENED_USERCOPY) \
-    $(wildcard include/config/BUG) \
     $(wildcard include/config/SH) \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  include/linux/stdarg.h \
-  include/linux/kern_levels.h \
-  include/linux/ratelimit_types.h \
-  include/uapi/linux/param.h \
-  arch/arm64/include/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
-  include/linux/spinlock_types_raw.h \
-  arch/arm64/include/asm/spinlock_types.h \
-  include/asm-generic/qspinlock_types.h \
-    $(wildcard include/config/NR_CPUS) \
-  include/asm-generic/qrwlock_types.h \
-  include/linux/lockdep_types.h \
-    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/LOCK_STAT) \
   include/linux/restart_block.h \
   arch/arm64/include/asm/current.h \
   arch/arm64/include/asm/thread_info.h \
@@ -527,6 +528,9 @@ deps_drivers/net/phy/phy_device.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -689,6 +693,7 @@ deps_drivers/net/phy/phy_device.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -728,6 +733,7 @@ deps_drivers/net/phy/phy_device.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -914,6 +920,7 @@ deps_drivers/net/phy/phy_device.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1259,6 +1266,8 @@ deps_drivers/net/phy/phy_device.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1340,9 +1349,6 @@ deps_drivers/net/phy/phy_device.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1416,6 +1422,7 @@ deps_drivers/net/phy/phy_device.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1668,84 +1675,85 @@ $(deps_drivers/net/phy/phy_device.o):
 #SYMVER phy_10gbit_full_features 0x004bfa1c
 #SYMVER phy_eee_cap1_features 0x1479a216
 #SYMVER phy_eee_cap2_features 0x0d15dc4b
-#SYMVER phy_device_free 0xcdd0f074
-#SYMVER phy_register_fixup 0xdf501d2a
-#SYMVER phy_register_fixup_for_uid 0x8ac80bb8
-#SYMVER phy_register_fixup_for_id 0x3f4cd572
+#SYMVER phy_device_free 0x44117902
+#SYMVER phy_register_fixup 0x017034d8
+#SYMVER phy_register_fixup_for_uid 0x4b6b8be6
+#SYMVER phy_register_fixup_for_id 0x4ba0ad94
 #SYMVER phy_unregister_fixup 0xc633d82d
 #SYMVER phy_unregister_fixup_for_uid 0xd738ca1b
 #SYMVER phy_unregister_fixup_for_id 0x3efe1703
-#SYMVER phy_device_create 0x7c1a76bc
-#SYMVER fwnode_get_phy_id 0x14e2110f
-#SYMVER get_phy_device 0x40a95b9f
-#SYMVER phy_device_register 0x36d4cacd
-#SYMVER phy_device_remove 0x594235d4
-#SYMVER phy_get_c45_ids 0xd0af5c30
-#SYMVER phy_find_first 0x8a80885c
-#SYMVER phy_connect_direct 0x4e3bccf6
-#SYMVER phy_connect 0x24dbdade
-#SYMVER phy_disconnect 0xee61da05
-#SYMVER phy_init_hw 0x7096ddc0
-#SYMVER phy_attached_info 0x59aac4b8
-#SYMVER phy_attached_info_irq 0xc70fdd74
-#SYMVER phy_attached_print 0x452debf9
-#SYMVER phy_sfp_connect_phy 0x6cf40e3e
-#SYMVER phy_sfp_disconnect_phy 0x11110b44
+#SYMVER phy_device_create 0x4a83a70d
+#SYMVER fwnode_get_phy_id 0xf31b2ddd
+#SYMVER get_phy_device 0xf2dce990
+#SYMVER phy_device_register 0x1158ecb9
+#SYMVER phy_device_remove 0x2a9c7a4d
+#SYMVER phy_get_c45_ids 0xb0780a25
+#SYMVER phy_find_first 0x50b2ea87
+#SYMVER phy_connect_direct 0xe556ddaf
+#SYMVER phy_connect 0xe8c63a23
+#SYMVER phy_disconnect 0x5bf108cb
+#SYMVER phy_init_hw 0xcbf30802
+#SYMVER phy_attached_info 0x18a4a581
+#SYMVER phy_attached_info_irq 0x73f045ca
+#SYMVER phy_attached_print 0x30fef870
+#SYMVER phy_sfp_connect_phy 0x37c12c38
+#SYMVER phy_sfp_disconnect_phy 0x20011ad7
 #SYMVER phy_sfp_attach 0x394a1e11
 #SYMVER phy_sfp_detach 0xb6acaa13
-#SYMVER phy_sfp_probe 0x57090405
-#SYMVER phy_attach_direct 0xb9340635
-#SYMVER phy_attach 0xa99045f5
-#SYMVER phy_driver_is_genphy 0x6a6aedd8
-#SYMVER phy_driver_is_genphy_10g 0x4ba1b3cc
-#SYMVER phy_package_join 0xf830b20c
-#SYMVER of_phy_package_join 0x4b4bbea7
-#SYMVER phy_package_leave 0xf57f2e60
-#SYMVER devm_phy_package_join 0xd364a90c
-#SYMVER devm_of_phy_package_join 0x633107d6
-#SYMVER phy_detach 0xbd5b381c
-#SYMVER phy_suspend 0x83260e6e
-#SYMVER __phy_resume 0x3e77a483
-#SYMVER phy_resume 0x8f81d69c
-#SYMVER phy_loopback 0xc40a1aed
-#SYMVER phy_reset_after_clk_enable 0xd7268cd7
-#SYMVER genphy_config_eee_advert 0xbfe29681
-#SYMVER genphy_setup_forced 0x871c872b
-#SYMVER genphy_read_master_slave 0xa49b042d
-#SYMVER genphy_restart_aneg 0xa8bc2af0
-#SYMVER genphy_check_and_restart_aneg 0x325da7c7
-#SYMVER __genphy_config_aneg 0x0c356b5e
-#SYMVER genphy_c37_config_aneg 0xc03d9cc0
-#SYMVER genphy_aneg_done 0xb2ddd2c3
-#SYMVER genphy_update_link 0xa9f3bbf9
-#SYMVER genphy_read_lpa 0xdb85bbcd
-#SYMVER genphy_read_status_fixed 0x25c959dc
-#SYMVER genphy_read_status 0x746ea997
-#SYMVER genphy_c37_read_status 0xccfa9df5
-#SYMVER genphy_soft_reset 0x9c42c74c
-#SYMVER genphy_handle_interrupt_no_ack 0xd7152f16
-#SYMVER genphy_read_abilities 0x81ec72d1
-#SYMVER genphy_read_mmd_unsupported 0x101ab4a0
-#SYMVER genphy_write_mmd_unsupported 0x7413003d
-#SYMVER genphy_suspend 0x59f850e4
-#SYMVER genphy_resume 0x31678cf7
-#SYMVER genphy_loopback 0x9e6a0bb2
-#SYMVER phy_remove_link_mode 0x4c8f0dbc
-#SYMVER phy_advertise_supported 0x609c8db1
-#SYMVER phy_advertise_eee_all 0x0c71883c
-#SYMVER phy_support_eee 0x5d1511ee
-#SYMVER phy_support_sym_pause 0x877a7f09
-#SYMVER phy_support_asym_pause 0x5f643290
-#SYMVER phy_set_sym_pause 0x407f0967
-#SYMVER phy_set_asym_pause 0xb8e1c2f5
-#SYMVER phy_validate_pause 0xb5825c99
-#SYMVER phy_get_pause 0xf57098b7
-#SYMVER phy_get_internal_delay 0xba3b47cb
-#SYMVER fwnode_mdio_find_device 0x65a5ec91
-#SYMVER fwnode_phy_find_device 0x4924876c
-#SYMVER device_phy_find_device 0x1f646e30
-#SYMVER fwnode_get_phy_node 0x1a2b0b8a
-#SYMVER phy_driver_register 0x2f5e1162
-#SYMVER phy_drivers_register 0xac34825f
-#SYMVER phy_driver_unregister 0x0f9d72d3
-#SYMVER phy_drivers_unregister 0xaf017347
+#SYMVER phy_sfp_probe 0x6110ee28
+#SYMVER phy_attach_direct 0x316f0884
+#SYMVER phy_attach 0x880a159a
+#SYMVER phy_driver_is_genphy 0x447a3ec8
+#SYMVER phy_driver_is_genphy_10g 0x12b1a3e9
+#SYMVER phy_package_join 0x65618ca3
+#SYMVER of_phy_package_join 0xb6ebf8e1
+#SYMVER phy_package_leave 0xf2c5645b
+#SYMVER devm_phy_package_join 0xd6925970
+#SYMVER devm_of_phy_package_join 0x890208d6
+#SYMVER phy_detach 0xe9ef5207
+#SYMVER phy_suspend 0x0db08710
+#SYMVER __phy_resume 0x0f1aa6cf
+#SYMVER phy_resume 0x275e49b0
+#SYMVER phy_loopback 0x84bfb3a6
+#SYMVER phy_reset_after_clk_enable 0xb2bab16e
+#SYMVER genphy_config_eee_advert 0xe78f3705
+#SYMVER genphy_setup_forced 0x0d4053c8
+#SYMVER genphy_read_master_slave 0xcd3d4d59
+#SYMVER genphy_restart_aneg 0x82dda1e9
+#SYMVER genphy_check_and_restart_aneg 0x8e899a30
+#SYMVER __genphy_config_aneg 0xf3df0385
+#SYMVER genphy_c37_config_aneg 0x349bede8
+#SYMVER genphy_aneg_done 0x65b1f3dd
+#SYMVER genphy_update_link 0xf282b543
+#SYMVER genphy_read_lpa 0xd053ca05
+#SYMVER genphy_read_status_fixed 0x241f23d0
+#SYMVER genphy_read_status 0xee794d25
+#SYMVER genphy_c37_read_status 0xc03cc5a2
+#SYMVER genphy_soft_reset 0x4ff2c081
+#SYMVER genphy_handle_interrupt_no_ack 0x5fd866b4
+#SYMVER genphy_read_abilities 0x508ecf21
+#SYMVER genphy_read_mmd_unsupported 0xe3faede2
+#SYMVER genphy_write_mmd_unsupported 0xdaa818f7
+#SYMVER genphy_suspend 0x1f7a7aa7
+#SYMVER genphy_resume 0x5a4aaee9
+#SYMVER genphy_loopback 0xf776ce31
+#SYMVER phy_remove_link_mode 0x61376857
+#SYMVER phy_advertise_supported 0x6e723b4e
+#SYMVER phy_advertise_eee_all 0x3768e76f
+#SYMVER phy_support_eee 0xcd2946dd
+#SYMVER phy_disable_eee 0x840ff726
+#SYMVER phy_support_sym_pause 0x70da1b99
+#SYMVER phy_support_asym_pause 0xf5301ae3
+#SYMVER phy_set_sym_pause 0x34313d0a
+#SYMVER phy_set_asym_pause 0xdc9b6f2a
+#SYMVER phy_validate_pause 0xaad47b57
+#SYMVER phy_get_pause 0x483a4c62
+#SYMVER phy_get_internal_delay 0x41d7a9d6
+#SYMVER fwnode_mdio_find_device 0x9931f3ce
+#SYMVER fwnode_phy_find_device 0xd929ef4f
+#SYMVER device_phy_find_device 0x619425c5
+#SYMVER fwnode_get_phy_node 0x410c87e3
+#SYMVER phy_driver_register 0x41fadefd
+#SYMVER phy_drivers_register 0x8a8cd155
+#SYMVER phy_driver_unregister 0xab84e317
+#SYMVER phy_drivers_unregister 0xfc243e85

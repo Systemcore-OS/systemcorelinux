@@ -1,8 +1,9 @@
 drm_print.o: drivers/gpu/drm/drm_print.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/debugfs.h include/linux/fs.h include/linux/linkage.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/debugfs.h \
+ include/linux/fs.h include/linux/linkage.h \
  include/linux/compiler_types.h include/linux/stringify.h \
  include/linux/export.h include/linux/compiler.h \
  arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \

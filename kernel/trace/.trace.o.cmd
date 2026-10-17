@@ -1,4 +1,4 @@
-savedcmd_kernel/trace/trace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/trace/.trace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"kernel/trace/trace"' -DKBUILD_BASENAME='"trace"' -DKBUILD_MODNAME='"trace"' -D__KBUILD_MODNAME=kmod_trace -c -o kernel/trace/trace.o kernel/trace/trace.c  
+savedcmd_kernel/trace/trace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/trace/.trace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"kernel/trace/trace"' -DKBUILD_BASENAME='"trace"' -DKBUILD_MODNAME='"trace"' -D__KBUILD_MODNAME=kmod_trace -c -o kernel/trace/trace.o kernel/trace/trace.c  
 
 source_kernel/trace/trace.o := kernel/trace/trace.c
 
@@ -26,6 +26,8 @@ deps_kernel/trace/trace.o := \
     $(wildcard include/config/HAVE_FUNCTION_ARG_ACCESS_API) \
     $(wildcard include/config/PROBE_EVENTS_BTF_ARGS) \
     $(wildcard include/config/SYNTH_EVENTS) \
+    $(wildcard include/config/DEBUG_INFO_BTF) \
+    $(wildcard include/config/PAHOLE_HAS_BTF_TAG) \
     $(wildcard include/config/FTRACE_SELFTEST) \
     $(wildcard include/config/MODULES) \
     $(wildcard include/config/HAVE_UNSTABLE_SCHED_CLOCK) \
@@ -36,8 +38,6 @@ deps_kernel/trace/trace.o := \
     $(wildcard include/config/BOOGER) \
     $(wildcard include/config/FOO) \
   include/linux/compiler_types.h \
-    $(wildcard include/config/DEBUG_INFO_BTF) \
-    $(wildcard include/config/PAHOLE_HAS_BTF_TAG) \
     $(wildcard include/config/FUNCTION_ALIGNMENT) \
     $(wildcard include/config/CC_HAS_SANE_FUNCTION_ALIGNMENT) \
     $(wildcard include/config/ARM64) \
@@ -48,6 +48,7 @@ deps_kernel/trace/trace.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -543,6 +544,9 @@ deps_kernel/trace/trace.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -700,6 +704,7 @@ deps_kernel/trace/trace.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -739,6 +744,7 @@ deps_kernel/trace/trace.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -872,6 +878,7 @@ deps_kernel/trace/trace.o := \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -1011,6 +1018,8 @@ deps_kernel/trace/trace.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1398,7 +1407,6 @@ deps_kernel/trace/trace.o := \
     $(wildcard include/config/ARCH_WANTS_NO_INSTR) \
     $(wildcard include/config/GENERIC_SCHED_CLOCK) \
   include/linux/fsnotify.h \
-    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
   include/linux/fsnotify_backend.h \
   include/linux/audit.h \
     $(wildcard include/config/AUDIT_COMPAT_GENERIC) \
@@ -1464,29 +1472,29 @@ kernel/trace/trace.o: $(deps_kernel/trace/trace.o)
 $(deps_kernel/trace/trace.o):
 #SYMVER register_ftrace_export 0x9593ef31
 #SYMVER unregister_ftrace_export 0x81f372a2
-#SYMVER trace_array_put 0x75801fcb
+#SYMVER trace_array_put 0x7a4a3cc5
 #SYMVER tracing_on 0x10138352
-#SYMVER __trace_array_puts 0xa0f9ed07
+#SYMVER __trace_array_puts 0xab267155
 #SYMVER __trace_puts 0x2d41e6f5
 #SYMVER __trace_bputs 0xb1e25684
 #SYMVER tracing_snapshot 0x369fcd70
-#SYMVER tracing_snapshot_cond 0xa5bbe083
+#SYMVER tracing_snapshot_cond 0x02d48fbb
 #SYMVER tracing_alloc_snapshot 0xe4971ade
 #SYMVER tracing_snapshot_alloc 0x697c5d0d
-#SYMVER tracing_cond_snapshot_data 0x524d0c5e
-#SYMVER tracing_snapshot_cond_enable 0x8a558768
-#SYMVER tracing_snapshot_cond_disable 0x386f4077
+#SYMVER tracing_cond_snapshot_data 0xa168341c
+#SYMVER tracing_snapshot_cond_enable 0x0dceb5d8
+#SYMVER tracing_snapshot_cond_disable 0xc7c98e47
 #SYMVER tracing_off 0x7944e0fc
 #SYMVER tracing_is_on 0x74baf17a
 #SYMVER trace_handle_return 0x85d120e3
-#SYMVER trace_event_buffer_lock_reserve 0xdc7fc4bb
-#SYMVER trace_event_buffer_commit 0xa8b58e38
+#SYMVER trace_event_buffer_lock_reserve 0xcb599ab7
+#SYMVER trace_event_buffer_commit 0x87c8f341
 #SYMVER trace_dump_stack 0x9430b198
 #SYMVER trace_printk_init_buffers 0xa2e1b3ef
 #SYMVER trace_vbprintk 0x317d290c
-#SYMVER trace_array_printk 0x612490c6
-#SYMVER trace_array_init_printk 0x640cba38
+#SYMVER trace_array_printk 0xa36b6372
+#SYMVER trace_array_init_printk 0xeb7794d3
 #SYMVER trace_vprintk 0x0286a5cd
-#SYMVER trace_array_get_by_name 0x0a44186e
-#SYMVER trace_array_destroy 0x4afdaae8
+#SYMVER trace_array_get_by_name 0xc701f013
+#SYMVER trace_array_destroy 0x1e35d454
 #SYMVER ftrace_dump 0x17fb15ac

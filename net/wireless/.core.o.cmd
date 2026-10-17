@@ -1,4 +1,4 @@
-savedcmd_net/wireless/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/wireless/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"cfg80211"' -D__KBUILD_MODNAME=kmod_cfg80211 -c -o net/wireless/core.o net/wireless/core.c  
+savedcmd_net/wireless/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/wireless/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"cfg80211"' -D__KBUILD_MODNAME=kmod_cfg80211 -c -o net/wireless/core.o net/wireless/core.c  
 
 source_net/wireless/core.o := net/wireless/core.c
 
@@ -27,6 +27,7 @@ deps_net/wireless/core.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -625,6 +626,7 @@ deps_net/wireless/core.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -668,6 +670,7 @@ deps_net/wireless/core.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -701,6 +704,9 @@ deps_net/wireless/core.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -819,6 +825,7 @@ deps_net/wireless/core.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1217,6 +1224,8 @@ deps_net/wireless/core.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1285,9 +1294,6 @@ deps_net/wireless/core.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1363,6 +1369,7 @@ deps_net/wireless/core.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1599,26 +1606,26 @@ deps_net/wireless/core.o := \
 net/wireless/core.o: $(deps_net/wireless/core.o)
 
 $(deps_net/wireless/core.o):
-#SYMVER cfg80211_shutdown_all_interfaces 0xa5794364
-#SYMVER wiphy_new_nm 0xf53e6884
-#SYMVER wiphy_register 0x399bf53c
-#SYMVER wiphy_rfkill_start_polling 0xe0fe28e7
-#SYMVER wiphy_unregister 0x308f61b6
-#SYMVER wiphy_free 0x150dd062
-#SYMVER wiphy_rfkill_set_hw_state_reason 0x5ef16dfc
-#SYMVER cfg80211_unregister_wdev 0x963a7cf7
-#SYMVER cfg80211_stop_iface 0x4178be07
-#SYMVER cfg80211_register_netdevice 0x929c65e6
-#SYMVER wiphy_work_queue 0x3e505c90
-#SYMVER wiphy_work_cancel 0x0ae703b9
-#SYMVER wiphy_work_flush 0x05c564bf
+#SYMVER cfg80211_shutdown_all_interfaces 0x8a11f5d6
+#SYMVER wiphy_new_nm 0xff8323ab
+#SYMVER wiphy_register 0xc3da7987
+#SYMVER wiphy_rfkill_start_polling 0x432931da
+#SYMVER wiphy_unregister 0xeaf06d42
+#SYMVER wiphy_free 0x41fa64e9
+#SYMVER wiphy_rfkill_set_hw_state_reason 0xf5966a72
+#SYMVER cfg80211_unregister_wdev 0x45d2ab70
+#SYMVER cfg80211_stop_iface 0xb1dfd1aa
+#SYMVER cfg80211_register_netdevice 0x14aa9313
+#SYMVER wiphy_work_queue 0xdc4d6c7d
+#SYMVER wiphy_work_cancel 0xfe0fffe7
+#SYMVER wiphy_work_flush 0xb0057fb0
 #SYMVER wiphy_delayed_work_timer 0x85de3f6f
-#SYMVER wiphy_delayed_work_queue 0xe0421251
-#SYMVER wiphy_delayed_work_cancel 0xbcb36b33
-#SYMVER wiphy_delayed_work_flush 0x8424fb6f
-#SYMVER wiphy_delayed_work_pending 0xf3d3c57a
-#SYMVER wiphy_hrtimer_work_timer 0xcb597b8d
-#SYMVER wiphy_hrtimer_work_queue 0x11710bec
-#SYMVER wiphy_hrtimer_work_cancel 0x9d4c09fb
-#SYMVER wiphy_hrtimer_work_flush 0xfd814a01
-#SYMVER wiphy_hrtimer_work_pending 0xd27229e6
+#SYMVER wiphy_delayed_work_queue 0xae19dd60
+#SYMVER wiphy_delayed_work_cancel 0x76cc5357
+#SYMVER wiphy_delayed_work_flush 0x06c3501d
+#SYMVER wiphy_delayed_work_pending 0xc13c01de
+#SYMVER wiphy_hrtimer_work_timer 0xac7a6d7d
+#SYMVER wiphy_hrtimer_work_queue 0x7a33733a
+#SYMVER wiphy_hrtimer_work_cancel 0x31f31147
+#SYMVER wiphy_hrtimer_work_flush 0x7ca5d4bf
+#SYMVER wiphy_hrtimer_work_pending 0x45d7929a

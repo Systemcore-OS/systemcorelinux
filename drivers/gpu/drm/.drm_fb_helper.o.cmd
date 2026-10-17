@@ -1,4 +1,4 @@
-savedcmd_drivers/gpu/drm/drm_fb_helper.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_fb_helper.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_fb_helper"' -DKBUILD_MODNAME='"drm_kms_helper"' -D__KBUILD_MODNAME=kmod_drm_kms_helper -c -o drivers/gpu/drm/drm_fb_helper.o drivers/gpu/drm/drm_fb_helper.c  
+savedcmd_drivers/gpu/drm/drm_fb_helper.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_fb_helper.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_fb_helper"' -DKBUILD_MODNAME='"drm_kms_helper"' -D__KBUILD_MODNAME=kmod_drm_kms_helper -c -o drivers/gpu/drm/drm_fb_helper.o drivers/gpu/drm/drm_fb_helper.c  
 
 source_drivers/gpu/drm/drm_fb_helper.o := drivers/gpu/drm/drm_fb_helper.c
 
@@ -26,6 +26,7 @@ deps_drivers/gpu/drm/drm_fb_helper.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -531,6 +532,7 @@ deps_drivers/gpu/drm/drm_fb_helper.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -580,6 +582,7 @@ deps_drivers/gpu/drm/drm_fb_helper.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -733,6 +736,9 @@ deps_drivers/gpu/drm/drm_fb_helper.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -942,6 +948,7 @@ deps_drivers/gpu/drm/drm_fb_helper.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1189,6 +1196,8 @@ deps_drivers/gpu/drm/drm_fb_helper.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1463,28 +1472,25 @@ deps_drivers/gpu/drm/drm_fb_helper.o := \
 drivers/gpu/drm/drm_fb_helper.o: $(deps_drivers/gpu/drm/drm_fb_helper.o)
 
 $(deps_drivers/gpu/drm/drm_fb_helper.o):
-#SYMVER drm_fb_helper_debug_enter 0xca4f7a36
-#SYMVER drm_fb_helper_debug_leave 0x65194bd5
-#SYMVER drm_fb_helper_restore_fbdev_mode_unlocked 0x898bed47
-#SYMVER drm_fb_helper_blank 0xc70f4cae
-#SYMVER drm_fb_helper_prepare 0xac1588c5
-#SYMVER drm_fb_helper_unprepare 0xcc5e092b
-#SYMVER drm_fb_helper_init 0xe96b4a95
-#SYMVER drm_fb_helper_alloc_info 0xf1ff7ea5
-#SYMVER drm_fb_helper_release_info 0xc958745c
-#SYMVER drm_fb_helper_unregister_info 0x3e344525
-#SYMVER drm_fb_helper_fini 0xc0cca817
-#SYMVER drm_fb_helper_damage_range 0x7f80d0b1
-#SYMVER drm_fb_helper_damage_area 0xd0f84bd0
-#SYMVER drm_fb_helper_deferred_io 0x8c6a33da
-#SYMVER drm_fb_helper_set_suspend 0x799ef8a6
-#SYMVER drm_fb_helper_set_suspend_unlocked 0x5ffe749a
-#SYMVER drm_fb_helper_setcmap 0x5865813c
-#SYMVER drm_fb_helper_ioctl 0xe7ec2ebb
-#SYMVER drm_fb_helper_check_var 0x29889730
-#SYMVER drm_fb_helper_set_par 0xba49e19f
-#SYMVER drm_fb_helper_pan_display 0x0ef872e1
-#SYMVER drm_fb_helper_fill_info 0x81dabe2b
-#SYMVER drm_fb_helper_initial_config 0xf4e4c1d3
-#SYMVER drm_fb_helper_hotplug_event 0x4bd1e077
-#SYMVER drm_fb_helper_lastclose 0x066ee843
+#SYMVER drm_fb_helper_debug_enter 0x9c1c6fcb
+#SYMVER drm_fb_helper_debug_leave 0x56ff2818
+#SYMVER drm_fb_helper_restore_fbdev_mode_unlocked 0x72f40651
+#SYMVER drm_fb_helper_blank 0x96d00d45
+#SYMVER drm_fb_helper_prepare 0xffd6e322
+#SYMVER drm_fb_helper_unprepare 0x75937ff7
+#SYMVER drm_fb_helper_init 0x8f3d8234
+#SYMVER drm_fb_helper_unregister_info 0xd4584c4d
+#SYMVER drm_fb_helper_fini 0xaaa67811
+#SYMVER drm_fb_helper_damage_range 0x8ff2fcfe
+#SYMVER drm_fb_helper_damage_area 0x5d739382
+#SYMVER drm_fb_helper_deferred_io 0xde17a35f
+#SYMVER drm_fb_helper_set_suspend 0xb3f85c06
+#SYMVER drm_fb_helper_set_suspend_unlocked 0x5a70659f
+#SYMVER drm_fb_helper_setcmap 0x4878709d
+#SYMVER drm_fb_helper_ioctl 0xc5df11ca
+#SYMVER drm_fb_helper_check_var 0xfc228491
+#SYMVER drm_fb_helper_set_par 0xdce71e14
+#SYMVER drm_fb_helper_pan_display 0xcded2f21
+#SYMVER drm_fb_helper_fill_info 0x27c0d327
+#SYMVER drm_fb_helper_initial_config 0xfe7f9ed1
+#SYMVER drm_fb_helper_hotplug_event 0x1dd63650

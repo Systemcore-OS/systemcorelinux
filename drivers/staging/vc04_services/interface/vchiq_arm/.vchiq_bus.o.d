@@ -2,6 +2,7 @@ vchiq_bus.o: \
  drivers/staging/vc04_services/interface/vchiq_arm/vchiq_bus.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/device/bus.h \
  include/linux/kobject.h include/linux/types.h include/uapi/linux/types.h \
@@ -274,13 +275,12 @@ vchiq_bus.o: \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
- include/linux/fwnode.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/of_device.h \
+ include/linux/fwnode.h include/linux/of_device.h \
  drivers/staging/vc04_services/interface/vchiq_arm/vchiq_arm.h \
  include/linux/platform_device.h \
  drivers/staging/vc04_services/interface/vchiq_arm/vchiq_core.h \

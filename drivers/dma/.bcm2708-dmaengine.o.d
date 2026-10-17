@@ -1,6 +1,7 @@
 bcm2708-dmaengine.o: drivers/dma/bcm2708-dmaengine.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/init.h \
  include/linux/build_bug.h include/linux/compiler.h \
@@ -287,7 +288,7 @@ bcm2708-dmaengine.o: drivers/dma/bcm2708-dmaengine.c \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h drivers/dma/dmaengine.h \
  include/linux/debugfs.h include/linux/seq_file.h \
  include/linux/string_helpers.h include/linux/ctype.h \

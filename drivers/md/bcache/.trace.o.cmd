@@ -1,4 +1,4 @@
-savedcmd_drivers/md/bcache/trace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/md/bcache/.trace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"trace"' -DKBUILD_MODNAME='"bcache"' -D__KBUILD_MODNAME=kmod_bcache -c -o drivers/md/bcache/trace.o drivers/md/bcache/trace.c  
+savedcmd_drivers/md/bcache/trace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/md/bcache/.trace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"trace"' -DKBUILD_MODNAME='"bcache"' -D__KBUILD_MODNAME=kmod_bcache -c -o drivers/md/bcache/trace.o drivers/md/bcache/trace.c  
 
 source_drivers/md/bcache/trace.o := drivers/md/bcache/trace.c
 
@@ -23,6 +23,7 @@ deps_drivers/md/bcache/trace.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -120,6 +121,7 @@ deps_drivers/md/bcache/trace.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -540,6 +542,7 @@ deps_drivers/md/bcache/trace.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -602,6 +605,7 @@ deps_drivers/md/bcache/trace.o := \
   include/linux/highmem.h \
     $(wildcard include/config/HIGHMEM) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -642,6 +646,9 @@ deps_drivers/md/bcache/trace.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/lockref.h \
@@ -1098,6 +1105,8 @@ deps_drivers/md/bcache/trace.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1430,25 +1439,25 @@ drivers/md/bcache/trace.o: $(deps_drivers/md/bcache/trace.o)
 
 $(deps_drivers/md/bcache/trace.o):
 #SYMVER __tracepoint_bcache_request_start 0xea3a1ab2
-#SYMVER __traceiter_bcache_request_start 0xcdcd1dbe
+#SYMVER __traceiter_bcache_request_start 0x3b9096f5
 #SYMVER __SCK__tp_func_bcache_request_start 0x8ad20d61
 #SYMVER __tracepoint_bcache_request_end 0x71a90620
-#SYMVER __traceiter_bcache_request_end 0x04aa912b
+#SYMVER __traceiter_bcache_request_end 0xb5774275
 #SYMVER __SCK__tp_func_bcache_request_end 0x80e3881d
 #SYMVER __tracepoint_bcache_bypass_sequential 0xfd5d057b
-#SYMVER __traceiter_bcache_bypass_sequential 0x427fc98e
+#SYMVER __traceiter_bcache_bypass_sequential 0x553a8949
 #SYMVER __SCK__tp_func_bcache_bypass_sequential 0x0bc0be45
 #SYMVER __tracepoint_bcache_bypass_congested 0x44bb87a3
-#SYMVER __traceiter_bcache_bypass_congested 0xf2aef300
+#SYMVER __traceiter_bcache_bypass_congested 0xee3d9cc9
 #SYMVER __SCK__tp_func_bcache_bypass_congested 0x6026e276
 #SYMVER __tracepoint_bcache_read 0x3a3eb678
-#SYMVER __traceiter_bcache_read 0x5b9e7d11
+#SYMVER __traceiter_bcache_read 0xbf2c5155
 #SYMVER __SCK__tp_func_bcache_read 0x9a6f4d9f
 #SYMVER __tracepoint_bcache_write 0x6119e203
-#SYMVER __traceiter_bcache_write 0x8fad09e2
+#SYMVER __traceiter_bcache_write 0x541d1b8a
 #SYMVER __SCK__tp_func_bcache_write 0x5fd7c423
 #SYMVER __tracepoint_bcache_read_retry 0x8b9fa1d8
-#SYMVER __traceiter_bcache_read_retry 0x9b675f81
+#SYMVER __traceiter_bcache_read_retry 0xee975baa
 #SYMVER __SCK__tp_func_bcache_read_retry 0x15f3de09
 #SYMVER __tracepoint_bcache_cache_insert 0x05058957
 #SYMVER __traceiter_bcache_cache_insert 0xb5a62a8c
@@ -1457,40 +1466,40 @@ $(deps_drivers/md/bcache/trace.o):
 #SYMVER __traceiter_bcache_journal_replay_key 0x2766fb04
 #SYMVER __SCK__tp_func_bcache_journal_replay_key 0xf6249e5f
 #SYMVER __tracepoint_bcache_journal_write 0xfc0a0b57
-#SYMVER __traceiter_bcache_journal_write 0x30dc74b5
+#SYMVER __traceiter_bcache_journal_write 0x84610d2c
 #SYMVER __SCK__tp_func_bcache_journal_write 0x9ce21c84
 #SYMVER __tracepoint_bcache_journal_full 0xfed8327b
-#SYMVER __traceiter_bcache_journal_full 0x3c10f2dd
+#SYMVER __traceiter_bcache_journal_full 0xf1f212f6
 #SYMVER __SCK__tp_func_bcache_journal_full 0xa64134e4
 #SYMVER __tracepoint_bcache_journal_entry_full 0xdd1455a7
-#SYMVER __traceiter_bcache_journal_entry_full 0xdce05f3d
+#SYMVER __traceiter_bcache_journal_entry_full 0x38ec8b50
 #SYMVER __SCK__tp_func_bcache_journal_entry_full 0x1c83d5b7
 #SYMVER __tracepoint_bcache_btree_cache_cannibalize 0x4b96c8a0
-#SYMVER __traceiter_bcache_btree_cache_cannibalize 0x5ef9495e
+#SYMVER __traceiter_bcache_btree_cache_cannibalize 0x5f4ede8e
 #SYMVER __SCK__tp_func_bcache_btree_cache_cannibalize 0xec92a163
 #SYMVER __tracepoint_bcache_btree_read 0xd8aa1746
-#SYMVER __traceiter_bcache_btree_read 0x1ffbecc8
+#SYMVER __traceiter_bcache_btree_read 0x9aa350e1
 #SYMVER __SCK__tp_func_bcache_btree_read 0x46c66897
 #SYMVER __tracepoint_bcache_btree_write 0xa09a6b09
-#SYMVER __traceiter_bcache_btree_write 0x0328d324
+#SYMVER __traceiter_bcache_btree_write 0x39c941a5
 #SYMVER __SCK__tp_func_bcache_btree_write 0x51d0e534
 #SYMVER __tracepoint_bcache_btree_node_alloc 0xec3327c6
-#SYMVER __traceiter_bcache_btree_node_alloc 0xdc657c9b
+#SYMVER __traceiter_bcache_btree_node_alloc 0x56f7ab13
 #SYMVER __SCK__tp_func_bcache_btree_node_alloc 0xc8ae4213
 #SYMVER __tracepoint_bcache_btree_node_alloc_fail 0x93c8c39b
-#SYMVER __traceiter_bcache_btree_node_alloc_fail 0x79d85b14
+#SYMVER __traceiter_bcache_btree_node_alloc_fail 0xf94d637e
 #SYMVER __SCK__tp_func_bcache_btree_node_alloc_fail 0xda06fe86
 #SYMVER __tracepoint_bcache_btree_node_free 0x47b2af54
-#SYMVER __traceiter_bcache_btree_node_free 0x49590424
+#SYMVER __traceiter_bcache_btree_node_free 0x82bdddc5
 #SYMVER __SCK__tp_func_bcache_btree_node_free 0x6e74dca7
 #SYMVER __tracepoint_bcache_btree_gc_coalesce 0xf021519f
 #SYMVER __traceiter_bcache_btree_gc_coalesce 0x1c599ebe
 #SYMVER __SCK__tp_func_bcache_btree_gc_coalesce 0x06bceaa1
 #SYMVER __tracepoint_bcache_gc_start 0x66232cfe
-#SYMVER __traceiter_bcache_gc_start 0x3f78aef3
+#SYMVER __traceiter_bcache_gc_start 0x08022efa
 #SYMVER __SCK__tp_func_bcache_gc_start 0xe16c06b3
 #SYMVER __tracepoint_bcache_gc_end 0x81d4d2d1
-#SYMVER __traceiter_bcache_gc_end 0xad0ff698
+#SYMVER __traceiter_bcache_gc_end 0x9c567bb6
 #SYMVER __SCK__tp_func_bcache_gc_end 0xba843c3f
 #SYMVER __tracepoint_bcache_gc_copy 0x5f9386a1
 #SYMVER __traceiter_bcache_gc_copy 0xad6440b4
@@ -1499,22 +1508,22 @@ $(deps_drivers/md/bcache/trace.o):
 #SYMVER __traceiter_bcache_gc_copy_collision 0xec29e22a
 #SYMVER __SCK__tp_func_bcache_gc_copy_collision 0x79eeb380
 #SYMVER __tracepoint_bcache_btree_insert_key 0xd9f63855
-#SYMVER __traceiter_bcache_btree_insert_key 0xa76a03cb
+#SYMVER __traceiter_bcache_btree_insert_key 0x8eca39ef
 #SYMVER __SCK__tp_func_bcache_btree_insert_key 0xfd6b5d80
 #SYMVER __tracepoint_bcache_btree_node_split 0x063306f1
-#SYMVER __traceiter_bcache_btree_node_split 0xbf7857ea
+#SYMVER __traceiter_bcache_btree_node_split 0xb8988d33
 #SYMVER __SCK__tp_func_bcache_btree_node_split 0x22ae6324
 #SYMVER __tracepoint_bcache_btree_node_compact 0x8bba9251
-#SYMVER __traceiter_bcache_btree_node_compact 0x298a5f37
+#SYMVER __traceiter_bcache_btree_node_compact 0xbdb9718f
 #SYMVER __SCK__tp_func_bcache_btree_node_compact 0x4a2d1241
 #SYMVER __tracepoint_bcache_btree_set_root 0x04b25810
-#SYMVER __traceiter_bcache_btree_set_root 0xb6458144
+#SYMVER __traceiter_bcache_btree_set_root 0x5104b9db
 #SYMVER __SCK__tp_func_bcache_btree_set_root 0x1b083369
 #SYMVER __tracepoint_bcache_invalidate 0x362eda19
-#SYMVER __traceiter_bcache_invalidate 0x591686c0
+#SYMVER __traceiter_bcache_invalidate 0x2ddfa8db
 #SYMVER __SCK__tp_func_bcache_invalidate 0xa842a5c8
 #SYMVER __tracepoint_bcache_alloc_fail 0x3feb7def
-#SYMVER __traceiter_bcache_alloc_fail 0x1827a684
+#SYMVER __traceiter_bcache_alloc_fail 0xf054d423
 #SYMVER __SCK__tp_func_bcache_alloc_fail 0xa187023e
 #SYMVER __tracepoint_bcache_writeback 0x6e7df078
 #SYMVER __traceiter_bcache_writeback 0x17a83e40

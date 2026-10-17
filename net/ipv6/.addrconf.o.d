@@ -1,9 +1,9 @@
 addrconf.o: net/ipv6/addrconf.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/errno.h include/uapi/linux/errno.h \
- arch/arm64/include/generated/uapi/asm/errno.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/errno.h \
+ include/uapi/linux/errno.h arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  include/linux/types.h include/uapi/linux/types.h \
  arch/arm64/include/generated/uapi/asm/types.h \
@@ -258,9 +258,9 @@ addrconf.o: net/ipv6/addrconf.c include/linux/compiler-version.h \
  include/linux/page_table_check.h include/asm-generic/pgtable_uffd.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sockptr.h \
- include/uapi/linux/net.h include/linux/inet.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sockptr.h include/uapi/linux/net.h include/linux/inet.h \
  include/net/net_namespace.h include/net/flow.h include/linux/in6.h \
  include/uapi/linux/in6.h include/uapi/linux/libc-compat.h \
  include/net/netns/core.h include/net/netns/mib.h include/net/snmp.h \
@@ -346,8 +346,7 @@ addrconf.o: net/ipv6/addrconf.c include/linux/compiler-version.h \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
  include/uapi/linux/if_packet.h include/net/net_debug.h \
@@ -428,16 +427,17 @@ addrconf.o: net/ipv6/addrconf.c include/linux/compiler-version.h \
  include/net/protocol.h include/net/tcp.h include/net/inet_hashtables.h \
  include/net/ip.h include/net/sock_reuseport.h include/linux/filter.h \
  include/linux/sched/clock.h include/linux/set_memory.h \
- arch/arm64/include/asm/set_memory.h include/asm-generic/set_memory.h \
- include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
- include/crypto/sha1.h include/net/sch_generic.h \
- include/uapi/linux/pkt_cls.h include/net/gen_stats.h \
- include/uapi/linux/gen_stats.h include/net/flow_offload.h \
- include/net/tcp_ao.h include/net/mptcp.h include/net/xfrm.h \
- include/uapi/linux/pfkeyv2.h include/uapi/linux/ipsec.h \
- include/linux/audit.h include/linux/audit_arch.h \
- include/uapi/linux/audit.h include/uapi/linux/netfilter/nf_tables.h \
- include/uapi/linux/fanotify.h arch/arm64/include/asm/syscall.h \
+ arch/arm64/include/asm/set_memory.h arch/arm64/include/asm/mem_encrypt.h \
+ include/asm-generic/set_memory.h include/linux/vmalloc.h \
+ arch/arm64/include/asm/vmalloc.h include/crypto/sha1.h \
+ include/net/sch_generic.h include/uapi/linux/pkt_cls.h \
+ include/net/gen_stats.h include/uapi/linux/gen_stats.h \
+ include/net/flow_offload.h include/net/tcp_ao.h include/net/mptcp.h \
+ include/net/xfrm.h include/uapi/linux/pfkeyv2.h \
+ include/uapi/linux/ipsec.h include/linux/audit.h \
+ include/linux/audit_arch.h include/uapi/linux/audit.h \
+ include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
+ arch/arm64/include/asm/syscall.h include/net/secure_seq.h \
  include/linux/bpf-cgroup.h include/net/pkt_sched.h \
  include/uapi/linux/pkt_sched.h include/uapi/linux/netconf.h \
  include/linux/proc_fs.h include/linux/ioam6.h include/uapi/linux/ioam6.h

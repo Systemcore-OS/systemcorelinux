@@ -1,4 +1,4 @@
-savedcmd_fs/locks.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.locks.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/locks"' -DKBUILD_BASENAME='"locks"' -DKBUILD_MODNAME='"locks"' -D__KBUILD_MODNAME=kmod_locks -c -o fs/locks.o fs/locks.c  
+savedcmd_fs/locks.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.locks.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"fs/locks"' -DKBUILD_BASENAME='"locks"' -DKBUILD_MODNAME='"locks"' -D__KBUILD_MODNAME=kmod_locks -c -o fs/locks.o fs/locks.c  
 
 source_fs/locks.o := fs/locks.c
 
@@ -26,6 +26,7 @@ deps_fs/locks.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -482,6 +483,7 @@ deps_fs/locks.o := \
   include/linux/rcutree.h \
   include/linux/nospec.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/SECURITY) \
@@ -508,6 +510,9 @@ deps_fs/locks.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -609,6 +614,7 @@ deps_fs/locks.o := \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -657,6 +663,7 @@ deps_fs/locks.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -1000,6 +1007,8 @@ deps_fs/locks.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1401,30 +1410,30 @@ deps_fs/locks.o := \
 fs/locks.o: $(deps_fs/locks.o)
 
 $(deps_fs/locks.o):
-#SYMVER locks_alloc_lock 0x2bb51bc0
-#SYMVER locks_alloc_lease 0xb1a24616
-#SYMVER locks_release_private 0x5ee09a4b
-#SYMVER locks_owner_has_blockers 0xc656f4c2
-#SYMVER locks_free_lock 0x0064eb8a
-#SYMVER locks_free_lease 0xdcb68615
-#SYMVER locks_init_lock 0x83d4aab5
-#SYMVER locks_init_lease 0x85b35e9f
-#SYMVER locks_copy_conflock 0xbc28851c
-#SYMVER locks_copy_lock 0x1f2fe81c
-#SYMVER locks_delete_block 0xe192dfc1
-#SYMVER posix_test_lock 0xd1d3472a
-#SYMVER posix_lock_file 0xb2d5751f
-#SYMVER lease_modify 0x4ae83136
-#SYMVER __break_lease 0x06d9c727
-#SYMVER lease_get_mtime 0x7046095e
-#SYMVER generic_setlease 0x750d3080
+#SYMVER locks_alloc_lock 0x0b482122
+#SYMVER locks_alloc_lease 0xde7d7a17
+#SYMVER locks_release_private 0x1e3399e3
+#SYMVER locks_owner_has_blockers 0x9678fe1a
+#SYMVER locks_free_lock 0xe141aeb5
+#SYMVER locks_free_lease 0xa3b6be45
+#SYMVER locks_init_lock 0xbbc0cf8c
+#SYMVER locks_init_lease 0x978738b0
+#SYMVER locks_copy_conflock 0xab91509c
+#SYMVER locks_copy_lock 0xc6d721b7
+#SYMVER locks_delete_block 0x3cf828a7
+#SYMVER posix_test_lock 0x2de9de48
+#SYMVER posix_lock_file 0x3289270e
+#SYMVER lease_modify 0x60e17451
+#SYMVER __break_lease 0x69cc81f9
+#SYMVER lease_get_mtime 0x355f1e9a
+#SYMVER generic_setlease 0x926a82e5
 #SYMVER lease_register_notifier 0x43aa319e
 #SYMVER lease_unregister_notifier 0x985453e1
-#SYMVER kernel_setlease 0xd2f5dadc
-#SYMVER vfs_setlease 0x5c54788f
-#SYMVER locks_lock_inode_wait 0x39aac94f
-#SYMVER vfs_test_lock 0x0488cbee
-#SYMVER vfs_lock_file 0x706fdf24
-#SYMVER locks_remove_posix 0x0186c6cf
-#SYMVER vfs_cancel_lock 0x5836b910
-#SYMVER vfs_inode_has_locks 0x4b2de099
+#SYMVER kernel_setlease 0xd2b08dee
+#SYMVER vfs_setlease 0x582be241
+#SYMVER locks_lock_inode_wait 0x2b795baa
+#SYMVER vfs_test_lock 0x074a232d
+#SYMVER vfs_lock_file 0x565ad0a9
+#SYMVER locks_remove_posix 0xb7e4fd64
+#SYMVER vfs_cancel_lock 0x820e80a0
+#SYMVER vfs_inode_has_locks 0x3d4cb569

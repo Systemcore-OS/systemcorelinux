@@ -1,4 +1,4 @@
-savedcmd_drivers/gpu/drm/drm_gem_vram_helper.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_gem_vram_helper.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_gem_vram_helper"' -DKBUILD_MODNAME='"drm_vram_helper"' -D__KBUILD_MODNAME=kmod_drm_vram_helper -c -o drivers/gpu/drm/drm_gem_vram_helper.o drivers/gpu/drm/drm_gem_vram_helper.c  
+savedcmd_drivers/gpu/drm/drm_gem_vram_helper.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_gem_vram_helper.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_gem_vram_helper"' -DKBUILD_MODNAME='"drm_vram_helper"' -D__KBUILD_MODNAME=kmod_drm_vram_helper -c -o drivers/gpu/drm/drm_gem_vram_helper.o drivers/gpu/drm/drm_gem_vram_helper.c  
 
 source_drivers/gpu/drm/drm_gem_vram_helper.o := drivers/gpu/drm/drm_gem_vram_helper.c
 
@@ -23,6 +23,7 @@ deps_drivers/gpu/drm/drm_gem_vram_helper.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -642,6 +643,7 @@ deps_drivers/gpu/drm/drm_gem_vram_helper.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -685,6 +687,7 @@ deps_drivers/gpu/drm/drm_gem_vram_helper.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -718,6 +721,9 @@ deps_drivers/gpu/drm/drm_gem_vram_helper.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -851,6 +857,7 @@ deps_drivers/gpu/drm/drm_gem_vram_helper.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1074,6 +1081,8 @@ deps_drivers/gpu/drm/drm_gem_vram_helper.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1130,9 +1139,6 @@ deps_drivers/gpu/drm/drm_gem_vram_helper.o := \
   arch/arm64/include/asm/device.h \
   include/linux/pm_wakeup.h \
   include/linux/dma-direction.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/drm/drm_vma_manager.h \
   include/drm/drm_mm.h \
     $(wildcard include/config/DRM_DEBUG_MM) \
@@ -1319,19 +1325,19 @@ deps_drivers/gpu/drm/drm_gem_vram_helper.o := \
 drivers/gpu/drm/drm_gem_vram_helper.o: $(deps_drivers/gpu/drm/drm_gem_vram_helper.o)
 
 $(deps_drivers/gpu/drm/drm_gem_vram_helper.o):
-#SYMVER drm_gem_vram_create 0x06a8bcc6
-#SYMVER drm_gem_vram_put 0x746b69a5
-#SYMVER drm_gem_vram_offset 0x58b99848
-#SYMVER drm_gem_vram_pin 0xc875963f
-#SYMVER drm_gem_vram_unpin 0x7dfade05
-#SYMVER drm_gem_vram_vmap 0x55fefdf6
-#SYMVER drm_gem_vram_vunmap 0xefe301ca
-#SYMVER drm_gem_vram_fill_create_dumb 0xd2a9a8fc
-#SYMVER drm_gem_vram_driver_dumb_create 0x33d63cd8
-#SYMVER drm_gem_vram_plane_helper_prepare_fb 0xcfe9ff41
-#SYMVER drm_gem_vram_plane_helper_cleanup_fb 0x4f5eb185
-#SYMVER drm_gem_vram_simple_display_pipe_prepare_fb 0xc89be43b
-#SYMVER drm_gem_vram_simple_display_pipe_cleanup_fb 0x067aca29
-#SYMVER drm_vram_mm_debugfs_init 0xc238a79b
-#SYMVER drmm_vram_helper_init 0x15a75b88
-#SYMVER drm_vram_helper_mode_valid 0x6a701740
+#SYMVER drm_gem_vram_create 0xca6d7c7f
+#SYMVER drm_gem_vram_put 0xa70bad10
+#SYMVER drm_gem_vram_offset 0xaeaadbae
+#SYMVER drm_gem_vram_pin 0x23f37828
+#SYMVER drm_gem_vram_unpin 0x85be1d26
+#SYMVER drm_gem_vram_vmap 0xa2a20f5c
+#SYMVER drm_gem_vram_vunmap 0x1e25f122
+#SYMVER drm_gem_vram_fill_create_dumb 0x5208cd3a
+#SYMVER drm_gem_vram_driver_dumb_create 0x3afff9cb
+#SYMVER drm_gem_vram_plane_helper_prepare_fb 0xb93165e8
+#SYMVER drm_gem_vram_plane_helper_cleanup_fb 0x47852b9a
+#SYMVER drm_gem_vram_simple_display_pipe_prepare_fb 0x537b53c8
+#SYMVER drm_gem_vram_simple_display_pipe_cleanup_fb 0xa5aba146
+#SYMVER drm_vram_mm_debugfs_init 0x940a7675
+#SYMVER drmm_vram_helper_init 0x44fb3aff
+#SYMVER drm_vram_helper_mode_valid 0x31d211d8

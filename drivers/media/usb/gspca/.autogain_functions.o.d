@@ -1,6 +1,7 @@
 autogain_functions.o: drivers/media/usb/gspca/autogain_functions.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h drivers/media/usb/gspca/gspca.h \
  include/linux/module.h include/linux/list.h include/linux/container_of.h \
@@ -320,11 +321,12 @@ autogain_functions.o: drivers/media/usb/gspca/autogain_functions.c \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h include/linux/writeback.h \
- include/linux/flex_proportions.h include/linux/backing-dev-defs.h \
- include/linux/blk_types.h include/linux/bvec.h include/linux/highmem.h \
- include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
- include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/writeback.h include/linux/flex_proportions.h \
+ include/linux/backing-dev-defs.h include/linux/blk_types.h \
+ include/linux/bvec.h include/linux/highmem.h include/linux/cacheflush.h \
+ arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
+ include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/trace_clock.h \
  arch/arm64/include/generated/asm/trace_clock.h \
  include/asm-generic/trace_clock.h include/linux/kallsyms.h \
@@ -366,8 +368,7 @@ autogain_functions.o: drivers/media/usb/gspca/autogain_functions.c \
  include/linux/pci.h include/linux/msi_api.h include/uapi/linux/pci.h \
  include/uapi/linux/pci_regs.h include/linux/pci_ids.h \
  include/linux/dmapool.h arch/arm64/include/asm/pci.h \
- include/linux/dma-mapping.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/asm-generic/pci.h \
+ include/linux/dma-mapping.h include/asm-generic/pci.h \
  include/linux/platform_device.h include/media/media-devnode.h \
  include/linux/debugfs.h include/media/v4l2-device.h \
  include/media/v4l2-subdev.h include/uapi/linux/v4l2-subdev.h \

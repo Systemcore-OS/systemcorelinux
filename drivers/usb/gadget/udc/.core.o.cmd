@@ -1,4 +1,4 @@
-savedcmd_drivers/usb/gadget/udc/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/gadget/udc/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/usb/gadget/udc/udc-core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"udc_core"' -D__KBUILD_MODNAME=kmod_udc_core -c -o drivers/usb/gadget/udc/core.o drivers/usb/gadget/udc/core.c  
+savedcmd_drivers/usb/gadget/udc/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/usb/gadget/udc/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/usb/gadget/udc/udc-core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"udc_core"' -D__KBUILD_MODNAME=kmod_udc_core -c -o drivers/usb/gadget/udc/core.o drivers/usb/gadget/udc/core.c  
 
 source_drivers/usb/gadget/udc/core.o := drivers/usb/gadget/udc/core.c
 
@@ -24,6 +24,7 @@ deps_drivers/usb/gadget/udc/core.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -497,6 +498,7 @@ deps_drivers/usb/gadget/udc/core.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -583,6 +585,7 @@ deps_drivers/usb/gadget/udc/core.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -677,6 +680,9 @@ deps_drivers/usb/gadget/udc/core.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -802,6 +808,7 @@ deps_drivers/usb/gadget/udc/core.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1083,6 +1090,8 @@ deps_drivers/usb/gadget/udc/core.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1106,9 +1115,6 @@ deps_drivers/usb/gadget/udc/core.o := \
   include/linux/logic_pio.h \
     $(wildcard include/config/INDIRECT_PIO) \
   include/linux/fwnode.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/usb/ch9.h \
   include/uapi/linux/usb/ch9.h \
   include/linux/usb/gadget.h \
@@ -1202,35 +1208,35 @@ $(deps_drivers/usb/gadget/udc/core.o):
 #SYMVER usb_ep_set_wedge 0x050e6a74
 #SYMVER usb_ep_fifo_status 0x6d25d67e
 #SYMVER usb_ep_fifo_flush 0x438096a0
-#SYMVER usb_gadget_frame_number 0x0d6d95bc
-#SYMVER usb_gadget_wakeup 0x2e5a74af
-#SYMVER usb_gadget_set_remote_wakeup 0xd28999f3
-#SYMVER usb_gadget_set_selfpowered 0xba362312
-#SYMVER usb_gadget_clear_selfpowered 0x13552932
-#SYMVER usb_gadget_vbus_connect 0xdbda2941
-#SYMVER usb_gadget_vbus_draw 0xf95b18e7
-#SYMVER usb_gadget_vbus_disconnect 0xd9d47e25
-#SYMVER usb_gadget_connect 0x903abfff
-#SYMVER usb_gadget_disconnect 0x91056290
-#SYMVER usb_gadget_deactivate 0xd471f8c2
-#SYMVER usb_gadget_activate 0xce3deafe
-#SYMVER usb_gadget_map_request_by_dev 0x81e8f850
-#SYMVER usb_gadget_map_request 0x84eaa486
-#SYMVER usb_gadget_unmap_request_by_dev 0x3f968d58
-#SYMVER usb_gadget_unmap_request 0x0d7a3365
+#SYMVER usb_gadget_frame_number 0xebcc7500
+#SYMVER usb_gadget_wakeup 0xc4d101b7
+#SYMVER usb_gadget_set_remote_wakeup 0x75b2f026
+#SYMVER usb_gadget_set_selfpowered 0x188637f5
+#SYMVER usb_gadget_clear_selfpowered 0xc62c0104
+#SYMVER usb_gadget_vbus_connect 0xb2072690
+#SYMVER usb_gadget_vbus_draw 0x3b897e4c
+#SYMVER usb_gadget_vbus_disconnect 0xf9f4efdb
+#SYMVER usb_gadget_connect 0x9d97942c
+#SYMVER usb_gadget_disconnect 0x134cb7fe
+#SYMVER usb_gadget_deactivate 0x4b17ae26
+#SYMVER usb_gadget_activate 0x29adc355
+#SYMVER usb_gadget_map_request_by_dev 0x0f8741c7
+#SYMVER usb_gadget_map_request 0x1ceacef2
+#SYMVER usb_gadget_unmap_request_by_dev 0x8af1930f
+#SYMVER usb_gadget_unmap_request 0x56bd28ca
 #SYMVER usb_gadget_giveback_request 0xb9232cdc
-#SYMVER gadget_find_ep_by_name 0xcdd3e097
-#SYMVER usb_gadget_ep_match_desc 0xf34df52d
-#SYMVER usb_gadget_check_config 0x200523ce
-#SYMVER usb_gadget_set_state 0x4af7c12c
-#SYMVER usb_udc_vbus_handler 0x2e3fe80c
-#SYMVER usb_gadget_udc_reset 0x0bff56b3
-#SYMVER usb_initialize_gadget 0xcf7317ec
-#SYMVER usb_add_gadget 0x97f913fe
-#SYMVER usb_add_gadget_udc_release 0xe7d0b086
+#SYMVER gadget_find_ep_by_name 0xc5827e4e
+#SYMVER usb_gadget_ep_match_desc 0x6bdaadff
+#SYMVER usb_gadget_check_config 0xf6ddeb31
+#SYMVER usb_gadget_set_state 0x8ec99092
+#SYMVER usb_udc_vbus_handler 0xc9d53638
+#SYMVER usb_gadget_udc_reset 0x1be6f802
+#SYMVER usb_initialize_gadget 0xffbe5feb
+#SYMVER usb_add_gadget 0xa28f9fcc
+#SYMVER usb_add_gadget_udc_release 0xef4e6096
 #SYMVER usb_get_gadget_udc_name 0x50b88f41
-#SYMVER usb_add_gadget_udc 0x333b7a93
-#SYMVER usb_del_gadget 0x723ac8fc
-#SYMVER usb_del_gadget_udc 0xbea8e6c8
-#SYMVER usb_gadget_register_driver_owner 0xda905483
-#SYMVER usb_gadget_unregister_driver 0x005a3301
+#SYMVER usb_add_gadget_udc 0xdfade210
+#SYMVER usb_del_gadget 0x44d34d67
+#SYMVER usb_del_gadget_udc 0xa05fbcdc
+#SYMVER usb_gadget_register_driver_owner 0x002773f7
+#SYMVER usb_gadget_unregister_driver 0x67ef2145

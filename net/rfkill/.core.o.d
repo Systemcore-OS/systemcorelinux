@@ -1,9 +1,10 @@
 core.o: net/rfkill/core.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/kernel.h include/linux/stdarg.h include/linux/align.h \
- include/linux/const.h include/vdso/const.h include/uapi/linux/const.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/kernel.h \
+ include/linux/stdarg.h include/linux/align.h include/linux/const.h \
+ include/vdso/const.h include/uapi/linux/const.h \
  include/linux/array_size.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
  include/asm-generic/rwonce.h include/linux/kasan-checks.h \

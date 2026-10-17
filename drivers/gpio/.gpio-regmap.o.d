@@ -1,6 +1,7 @@
 gpio-regmap.o: drivers/gpio/gpio-regmap.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/bits.h \
  include/linux/const.h include/vdso/const.h include/uapi/linux/const.h \

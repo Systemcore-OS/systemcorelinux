@@ -1,4 +1,4 @@
-savedcmd_drivers/firmware/cirrus/cs_dsp.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/firmware/cirrus/.cs_dsp.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"cs_dsp"' -DKBUILD_MODNAME='"cs_dsp"' -D__KBUILD_MODNAME=kmod_cs_dsp -c -o drivers/firmware/cirrus/cs_dsp.o drivers/firmware/cirrus/cs_dsp.c  
+savedcmd_drivers/firmware/cirrus/cs_dsp.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/firmware/cirrus/.cs_dsp.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"cs_dsp"' -DKBUILD_MODNAME='"cs_dsp"' -D__KBUILD_MODNAME=kmod_cs_dsp -c -o drivers/firmware/cirrus/cs_dsp.o drivers/firmware/cirrus/cs_dsp.c  
 
 source_drivers/firmware/cirrus/cs_dsp.o := drivers/firmware/cirrus/cs_dsp.c
 
@@ -24,6 +24,7 @@ deps_drivers/firmware/cirrus/cs_dsp.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -71,6 +72,7 @@ deps_drivers/firmware/cirrus/cs_dsp.o := \
     $(wildcard include/config/KCSAN_IGNORE_ATOMICS) \
   include/linux/debugfs.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/SMP) \
     $(wildcard include/config/FS_POSIX_ACL) \
@@ -499,6 +501,9 @@ deps_drivers/firmware/cirrus/cs_dsp.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -600,6 +605,7 @@ deps_drivers/firmware/cirrus/cs_dsp.o := \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -648,6 +654,7 @@ deps_drivers/firmware/cirrus/cs_dsp.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -974,6 +981,7 @@ deps_drivers/firmware/cirrus/cs_dsp.o := \
     $(wildcard include/config/ARCH_SUPPORTS_PMD_PFNMAP) \
     $(wildcard include/config/ARCH_SUPPORTS_PUD_PFNMAP) \
     $(wildcard include/config/PAGE_TABLE_CHECK) \
+    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
     $(wildcard include/config/ARCH_ENABLE_THP_MIGRATION) \
     $(wildcard include/config/ARM64_CONTPTE) \
   arch/arm64/include/asm/proc-fns.h \
@@ -1045,7 +1053,6 @@ deps_drivers/firmware/cirrus/cs_dsp.o := \
   arch/arm64/include/asm/io.h \
   include/linux/pgtable.h \
     $(wildcard include/config/HIGHPTE) \
-    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
     $(wildcard include/config/ARCH_HAS_HW_PTE_YOUNG) \
     $(wildcard include/config/GUP_GET_PXX_LOW_HIGH) \
     $(wildcard include/config/ARCH_WANT_PMD_MKWRITE) \
@@ -1073,36 +1080,36 @@ drivers/firmware/cirrus/cs_dsp.o: $(deps_drivers/firmware/cirrus/cs_dsp.o)
 
 $(deps_drivers/firmware/cirrus/cs_dsp.o):
 #SYMVER cs_dsp_mem_region_name 0x144d6986
-#SYMVER cs_dsp_init_debugfs 0xa01415de
-#SYMVER cs_dsp_cleanup_debugfs 0x4d0d4f2e
-#SYMVER cs_dsp_coeff_write_acked_control 0xc8e1ce0d
-#SYMVER cs_dsp_coeff_write_ctrl 0xaa6d2b35
-#SYMVER cs_dsp_coeff_lock_and_write_ctrl 0x8276430c
-#SYMVER cs_dsp_coeff_read_ctrl 0xa13f1155
-#SYMVER cs_dsp_coeff_lock_and_read_ctrl 0xe6ae8fe2
-#SYMVER cs_dsp_get_ctl 0x69bb41cd
-#SYMVER cs_dsp_find_alg_region 0x884209ee
-#SYMVER cs_dsp_adsp1_init 0xc4c36c82
-#SYMVER cs_dsp_adsp1_power_up 0xf5d7c6f3
-#SYMVER cs_dsp_adsp1_power_down 0xdbada296
-#SYMVER cs_dsp_set_dspclk 0x420f7253
-#SYMVER cs_dsp_power_up 0x7f0633cb
-#SYMVER cs_dsp_power_down 0x34e5ecd5
-#SYMVER cs_dsp_run 0xe3506084
-#SYMVER cs_dsp_stop 0x7ca9e35f
-#SYMVER cs_dsp_adsp2_init 0x6ea37cfe
-#SYMVER cs_dsp_halo_init 0x809c3701
-#SYMVER cs_dsp_remove 0x8c005148
-#SYMVER cs_dsp_read_raw_data_block 0x82e33b98
-#SYMVER cs_dsp_read_data_word 0x26c67008
-#SYMVER cs_dsp_write_data_word 0xb9a86513
+#SYMVER cs_dsp_init_debugfs 0x23528447
+#SYMVER cs_dsp_cleanup_debugfs 0xc670fc1e
+#SYMVER cs_dsp_coeff_write_acked_control 0x04aeb2aa
+#SYMVER cs_dsp_coeff_write_ctrl 0x14497952
+#SYMVER cs_dsp_coeff_lock_and_write_ctrl 0x402634cc
+#SYMVER cs_dsp_coeff_read_ctrl 0x7ab8b00c
+#SYMVER cs_dsp_coeff_lock_and_read_ctrl 0x32289a63
+#SYMVER cs_dsp_get_ctl 0x15c06a6b
+#SYMVER cs_dsp_find_alg_region 0x9fdb8272
+#SYMVER cs_dsp_adsp1_init 0xf7ed9f70
+#SYMVER cs_dsp_adsp1_power_up 0xb4a4690b
+#SYMVER cs_dsp_adsp1_power_down 0x17c50971
+#SYMVER cs_dsp_set_dspclk 0x1044cd67
+#SYMVER cs_dsp_power_up 0x82a4ddf6
+#SYMVER cs_dsp_power_down 0xf44253b0
+#SYMVER cs_dsp_run 0xb6a44678
+#SYMVER cs_dsp_stop 0x5b52274a
+#SYMVER cs_dsp_adsp2_init 0x1783044b
+#SYMVER cs_dsp_halo_init 0x8cf1d97e
+#SYMVER cs_dsp_remove 0x99f41035
+#SYMVER cs_dsp_read_raw_data_block 0xf0d21254
+#SYMVER cs_dsp_read_data_word 0x28b7a32d
+#SYMVER cs_dsp_write_data_word 0xc25e87cd
 #SYMVER cs_dsp_remove_padding 0x4e5562f8
-#SYMVER cs_dsp_adsp2_bus_error 0x99a44e8f
-#SYMVER cs_dsp_halo_bus_error 0x6638570e
-#SYMVER cs_dsp_halo_wdt_expire 0x621a4093
+#SYMVER cs_dsp_adsp2_bus_error 0x50a22378
+#SYMVER cs_dsp_halo_bus_error 0x806a5aee
+#SYMVER cs_dsp_halo_wdt_expire 0x59101a76
 #SYMVER cs_dsp_chunk_write 0x6e0cce2d
 #SYMVER cs_dsp_chunk_flush 0x9e324cb0
 #SYMVER cs_dsp_chunk_read 0xb6c0d9e7
-#SYMVER cs_dsp_wseq_init 0xd3bbef02
-#SYMVER cs_dsp_wseq_write 0x7300dfb0
-#SYMVER cs_dsp_wseq_multi_write 0x9b0b62f6
+#SYMVER cs_dsp_wseq_init 0x381cba67
+#SYMVER cs_dsp_wseq_write 0xc4612bce
+#SYMVER cs_dsp_wseq_multi_write 0x49b8eb70

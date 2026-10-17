@@ -1,8 +1,9 @@
 test_run.o: net/bpf/test_run.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/bpf.h include/uapi/linux/bpf.h include/linux/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/bpf.h \
+ include/uapi/linux/bpf.h include/linux/types.h \
  include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
@@ -264,10 +265,10 @@ test_run.o: net/bpf/test_run.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/bpfptr.h \
- include/linux/sockptr.h include/linux/btf.h include/linux/bsearch.h \
- include/linux/btf_ids.h include/uapi/linux/btf.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/bpfptr.h include/linux/sockptr.h include/linux/btf.h \
+ include/linux/bsearch.h include/linux/btf_ids.h include/uapi/linux/btf.h \
  include/linux/rcupdate_trace.h include/linux/static_call.h \
  include/linux/cpu.h include/linux/node.h include/linux/device.h \
  include/linux/dev_printk.h include/linux/energy_model.h \
@@ -348,7 +349,6 @@ test_run.o: net/bpf/test_run.c include/linux/compiler-version.h \
  arch/arm64/include/asm/checksum.h include/linux/in6.h \
  include/uapi/linux/in6.h include/asm-generic/checksum.h \
  include/linux/dma-mapping.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/linux/siphash.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
@@ -394,13 +394,13 @@ test_run.o: net/bpf/test_run.c include/linux/compiler-version.h \
  include/linux/unaligned/packed_struct.h include/vdso/unaligned.h \
  include/linux/filter.h include/linux/sched/clock.h \
  include/linux/set_memory.h arch/arm64/include/asm/set_memory.h \
- include/asm-generic/set_memory.h include/linux/if_vlan.h \
- include/linux/rtnetlink.h include/uapi/linux/rtnetlink.h \
- include/uapi/linux/if_addr.h include/uapi/linux/if_vlan.h \
- include/crypto/sha1.h include/net/sch_generic.h \
- include/uapi/linux/pkt_cls.h include/net/gen_stats.h \
- include/uapi/linux/gen_stats.h include/net/rtnetlink.h \
- include/net/netlink.h include/net/flow_offload.h \
+ arch/arm64/include/asm/mem_encrypt.h include/asm-generic/set_memory.h \
+ include/linux/if_vlan.h include/linux/rtnetlink.h \
+ include/uapi/linux/rtnetlink.h include/uapi/linux/if_addr.h \
+ include/uapi/linux/if_vlan.h include/crypto/sha1.h \
+ include/net/sch_generic.h include/uapi/linux/pkt_cls.h \
+ include/net/gen_stats.h include/uapi/linux/gen_stats.h \
+ include/net/rtnetlink.h include/net/netlink.h include/net/flow_offload.h \
  include/net/bpf_sk_storage.h include/net/sock.h \
  include/linux/rculist_nulls.h include/linux/poll.h \
  include/uapi/linux/poll.h arch/arm64/include/generated/uapi/asm/poll.h \
@@ -435,10 +435,10 @@ test_run.o: net/bpf/test_run.c include/linux/compiler-version.h \
  include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
  arch/arm64/include/asm/syscall.h include/net/ip6_fib.h \
  include/linux/ipv6_route.h include/uapi/linux/ipv6_route.h \
- include/net/gro_cells.h include/linux/bpf-cgroup.h \
- include/net/page_pool/helpers.h include/net/page_pool/types.h \
- include/linux/ptr_ring.h include/linux/sock_diag.h \
- include/linux/netfilter.h \
+ include/net/gro_cells.h include/net/secure_seq.h \
+ include/linux/bpf-cgroup.h include/net/page_pool/helpers.h \
+ include/net/page_pool/types.h include/linux/ptr_ring.h \
+ include/linux/sock_diag.h include/linux/netfilter.h \
  include/linux/netfilter/nf_conntrack_zones_common.h \
  include/uapi/linux/netfilter/nf_conntrack_tuple_common.h \
  include/net/netdev_rx_queue.h include/net/xdp.h \

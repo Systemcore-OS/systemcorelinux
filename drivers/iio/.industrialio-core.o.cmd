@@ -1,4 +1,4 @@
-savedcmd_drivers/iio/industrialio-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/iio/.industrialio-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"industrialio_core"' -DKBUILD_MODNAME='"industrialio"' -D__KBUILD_MODNAME=kmod_industrialio -c -o drivers/iio/industrialio-core.o drivers/iio/industrialio-core.c  
+savedcmd_drivers/iio/industrialio-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/iio/.industrialio-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"industrialio_core"' -DKBUILD_MODNAME='"industrialio"' -D__KBUILD_MODNAME=kmod_industrialio -c -o drivers/iio/industrialio-core.o drivers/iio/industrialio-core.c  
 
 source_drivers/iio/industrialio-core.o := drivers/iio/industrialio-core.c
 
@@ -24,6 +24,7 @@ deps_drivers/iio/industrialio-core.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -515,6 +516,7 @@ deps_drivers/iio/industrialio-core.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -564,6 +566,7 @@ deps_drivers/iio/industrialio-core.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -649,6 +652,9 @@ deps_drivers/iio/industrialio-core.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -875,6 +881,7 @@ deps_drivers/iio/industrialio-core.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1035,30 +1042,30 @@ deps_drivers/iio/industrialio-core.o := \
 drivers/iio/industrialio-core.o: $(deps_drivers/iio/industrialio-core.o)
 
 $(deps_drivers/iio/industrialio-core.o):
-#SYMVER iio_bus_type 0x92169796
-#SYMVER iio_device_id 0x40524bd5
-#SYMVER iio_buffer_enabled 0x1dd77f1f
-#SYMVER iio_get_debugfs_dentry 0xe167fdf7
-#SYMVER iio_read_const_attr 0x1d7fcc71
-#SYMVER iio_device_set_clock 0xc2928742
-#SYMVER iio_device_get_clock 0xee2fca57
-#SYMVER iio_get_time_ns 0x6466b4bc
-#SYMVER iio_enum_available_read 0x0970f6fe
-#SYMVER iio_enum_read 0x4deb0422
-#SYMVER iio_enum_write 0xa9b1fd6f
-#SYMVER iio_show_mount_matrix 0x0585ee50
-#SYMVER iio_read_mount_matrix 0x1243998f
+#SYMVER iio_bus_type 0x0d769770
+#SYMVER iio_device_id 0xcf74cdec
+#SYMVER iio_buffer_enabled 0x80d4051c
+#SYMVER iio_get_debugfs_dentry 0x9df6debf
+#SYMVER iio_read_const_attr 0x6dc2a5fe
+#SYMVER iio_device_set_clock 0x4409c064
+#SYMVER iio_device_get_clock 0xe7bb6727
+#SYMVER iio_get_time_ns 0xea2eca8f
+#SYMVER iio_enum_available_read 0xa7fa103a
+#SYMVER iio_enum_read 0x8a973e24
+#SYMVER iio_enum_write 0xb37de3dc
+#SYMVER iio_show_mount_matrix 0x6fa0ff9c
+#SYMVER iio_read_mount_matrix 0x4bcef9a2
 #SYMVER iio_format_value 0x4dce7dd4
 #SYMVER iio_str_to_fixpoint 0x26f6b499
-#SYMVER iio_device_alloc 0xa2eba191
-#SYMVER iio_device_free 0xbad271dc
-#SYMVER devm_iio_device_alloc 0xfd515a27
-#SYMVER iio_active_scan_mask_index 0x07931cdf
-#SYMVER __iio_device_register 0xc5f328c9
-#SYMVER iio_device_unregister 0x9008f0c2
-#SYMVER __devm_iio_device_register 0x3749638e
-#SYMVER iio_device_claim_direct_mode 0x2dc2bb89
-#SYMVER iio_device_release_direct_mode 0x05299c76
-#SYMVER iio_device_claim_buffer_mode 0x28d83195
-#SYMVER iio_device_release_buffer_mode 0x0033166a
-#SYMVER iio_device_get_current_mode 0x4110c655
+#SYMVER iio_device_alloc 0xde9f8082
+#SYMVER iio_device_free 0xe51336a4
+#SYMVER devm_iio_device_alloc 0x12ed8958
+#SYMVER iio_active_scan_mask_index 0x86e83f6e
+#SYMVER __iio_device_register 0x7ef75f9f
+#SYMVER iio_device_unregister 0x62434c1a
+#SYMVER __devm_iio_device_register 0x20dbbf30
+#SYMVER iio_device_claim_direct_mode 0x0dfe5f52
+#SYMVER iio_device_release_direct_mode 0xeba7c31c
+#SYMVER iio_device_claim_buffer_mode 0x08ba2fb2
+#SYMVER iio_device_release_buffer_mode 0xeee3b3fc
+#SYMVER iio_device_get_current_mode 0xf0940572

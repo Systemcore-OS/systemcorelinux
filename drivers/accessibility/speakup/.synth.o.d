@@ -1,6 +1,7 @@
 synth.o: drivers/accessibility/speakup/synth.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/types.h \
  include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
@@ -257,14 +258,15 @@ synth.o: drivers/accessibility/speakup/synth.c \
  include/linux/page_table_check.h include/asm-generic/pgtable_uffd.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/interrupt.h \
- include/linux/irqreturn.h include/linux/hardirq.h \
- include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
- include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
- arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/interrupt.h include/linux/irqreturn.h \
+ include/linux/hardirq.h include/linux/context_tracking_state.h \
+ include/linux/ftrace_irq.h include/linux/vtime.h \
+ arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
+ include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \

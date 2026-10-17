@@ -1,4 +1,4 @@
-savedcmd_drivers/opp/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/opp/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/opp/core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"core"' -D__KBUILD_MODNAME=kmod_core -c -o drivers/opp/core.o drivers/opp/core.c  
+savedcmd_drivers/opp/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/opp/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/opp/core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"core"' -D__KBUILD_MODNAME=kmod_core -c -o drivers/opp/core.o drivers/opp/core.c  
 
 source_drivers/opp/core.o := drivers/opp/core.c
 
@@ -23,6 +23,7 @@ deps_drivers/opp/core.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -580,6 +581,7 @@ deps_drivers/opp/core.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -628,6 +630,7 @@ deps_drivers/opp/core.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -725,6 +728,9 @@ deps_drivers/opp/core.o := \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/list_nulls.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -874,6 +880,7 @@ deps_drivers/opp/core.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1211,6 +1218,8 @@ deps_drivers/opp/core.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
   include/linux/writeback.h \
@@ -1333,46 +1342,46 @@ deps_drivers/opp/core.o := \
 drivers/opp/core.o: $(deps_drivers/opp/core.o)
 
 $(deps_drivers/opp/core.o):
-#SYMVER dev_pm_opp_get_voltage 0x55795ee9
-#SYMVER dev_pm_opp_get_supplies 0x033cdd58
-#SYMVER dev_pm_opp_get_power 0xa4691d22
-#SYMVER dev_pm_opp_get_freq_indexed 0xcff84a72
-#SYMVER dev_pm_opp_get_level 0xcffdf52c
-#SYMVER dev_pm_opp_get_required_pstate 0x59f3d40a
-#SYMVER dev_pm_opp_is_turbo 0x2304ecf8
-#SYMVER dev_pm_opp_get_max_clock_latency 0xa7cea27b
-#SYMVER dev_pm_opp_get_max_volt_latency 0x653c7ee4
-#SYMVER dev_pm_opp_get_max_transition_latency 0x392b22bc
-#SYMVER dev_pm_opp_get_suspend_opp_freq 0x790f5c5e
-#SYMVER dev_pm_opp_get_opp_count 0x0dd773ef
-#SYMVER dev_pm_opp_find_freq_exact 0x6f37999b
-#SYMVER dev_pm_opp_find_freq_exact_indexed 0x732d11c0
-#SYMVER dev_pm_opp_find_freq_ceil 0xe3100fb2
-#SYMVER dev_pm_opp_find_freq_ceil_indexed 0xb2564f2a
-#SYMVER dev_pm_opp_find_freq_floor 0x37ba2094
-#SYMVER dev_pm_opp_find_freq_floor_indexed 0x3eb925c4
-#SYMVER dev_pm_opp_find_level_exact 0x1353fc4c
-#SYMVER dev_pm_opp_find_level_ceil 0x5d37533f
-#SYMVER dev_pm_opp_find_level_floor 0x11dbccd9
-#SYMVER dev_pm_opp_find_bw_ceil 0x7f5a3b41
-#SYMVER dev_pm_opp_find_bw_floor 0x7e24dcf9
-#SYMVER dev_pm_opp_config_clks_simple 0x24eaf42d
-#SYMVER dev_pm_opp_set_rate 0xd1802b33
-#SYMVER dev_pm_opp_set_opp 0x4142d2c8
-#SYMVER dev_pm_opp_get_opp_table 0x2f50799a
-#SYMVER dev_pm_opp_put_opp_table 0x7bddf698
-#SYMVER dev_pm_opp_put 0x82c4dc49
-#SYMVER dev_pm_opp_remove 0x91d3d8a2
-#SYMVER dev_pm_opp_remove_all_dynamic 0x10251747
-#SYMVER dev_pm_opp_set_config 0xdbb2fd12
+#SYMVER dev_pm_opp_get_voltage 0x2819b32e
+#SYMVER dev_pm_opp_get_supplies 0xa377979b
+#SYMVER dev_pm_opp_get_power 0x4b5176e9
+#SYMVER dev_pm_opp_get_freq_indexed 0x02243977
+#SYMVER dev_pm_opp_get_level 0x48b52fb1
+#SYMVER dev_pm_opp_get_required_pstate 0x5b3f3afa
+#SYMVER dev_pm_opp_is_turbo 0x5883c2dc
+#SYMVER dev_pm_opp_get_max_clock_latency 0xb68ef6a4
+#SYMVER dev_pm_opp_get_max_volt_latency 0x48133f19
+#SYMVER dev_pm_opp_get_max_transition_latency 0x3fca5bed
+#SYMVER dev_pm_opp_get_suspend_opp_freq 0x3dfd68fa
+#SYMVER dev_pm_opp_get_opp_count 0xd627f22e
+#SYMVER dev_pm_opp_find_freq_exact 0x942a8064
+#SYMVER dev_pm_opp_find_freq_exact_indexed 0x47625999
+#SYMVER dev_pm_opp_find_freq_ceil 0x8921da58
+#SYMVER dev_pm_opp_find_freq_ceil_indexed 0xe6f7e0d8
+#SYMVER dev_pm_opp_find_freq_floor 0x770f1a27
+#SYMVER dev_pm_opp_find_freq_floor_indexed 0x6d5e175b
+#SYMVER dev_pm_opp_find_level_exact 0x92a6e45d
+#SYMVER dev_pm_opp_find_level_ceil 0x370686d5
+#SYMVER dev_pm_opp_find_level_floor 0x516ef66a
+#SYMVER dev_pm_opp_find_bw_ceil 0x76be5f3d
+#SYMVER dev_pm_opp_find_bw_floor 0x279e058a
+#SYMVER dev_pm_opp_config_clks_simple 0x9f64e0b2
+#SYMVER dev_pm_opp_set_rate 0x62985cd8
+#SYMVER dev_pm_opp_set_opp 0x29fd4ff8
+#SYMVER dev_pm_opp_get_opp_table 0x2051b5ec
+#SYMVER dev_pm_opp_put_opp_table 0x2958f4c8
+#SYMVER dev_pm_opp_put 0x16d73c24
+#SYMVER dev_pm_opp_remove 0xbb7c18e5
+#SYMVER dev_pm_opp_remove_all_dynamic 0x5463d4c0
+#SYMVER dev_pm_opp_set_config 0xa6fd9b32
 #SYMVER dev_pm_opp_clear_config 0x32295715
-#SYMVER devm_pm_opp_set_config 0x642f44bc
-#SYMVER dev_pm_opp_xlate_required_opp 0x40ba94bd
-#SYMVER dev_pm_opp_add_dynamic 0x2301df05
-#SYMVER dev_pm_opp_adjust_voltage 0x1795d682
-#SYMVER dev_pm_opp_sync_regulators 0x0b16d20e
-#SYMVER dev_pm_opp_enable 0xe1ae44c3
-#SYMVER dev_pm_opp_disable 0x96f8c90c
-#SYMVER dev_pm_opp_register_notifier 0xe96f07e2
-#SYMVER dev_pm_opp_unregister_notifier 0xc63d3952
-#SYMVER dev_pm_opp_remove_table 0x0fc17693
+#SYMVER devm_pm_opp_set_config 0xfe690b13
+#SYMVER dev_pm_opp_xlate_required_opp 0x918fc179
+#SYMVER dev_pm_opp_add_dynamic 0x467ae2e1
+#SYMVER dev_pm_opp_adjust_voltage 0x4d845a2f
+#SYMVER dev_pm_opp_sync_regulators 0xf37d29ca
+#SYMVER dev_pm_opp_enable 0xcb232708
+#SYMVER dev_pm_opp_disable 0x121855be
+#SYMVER dev_pm_opp_register_notifier 0x846546ef
+#SYMVER dev_pm_opp_unregister_notifier 0x822e2c4e
+#SYMVER dev_pm_opp_remove_table 0x820a43f3

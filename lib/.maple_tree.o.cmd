@@ -1,4 +1,4 @@
-savedcmd_lib/maple_tree.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.maple_tree.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"lib/maple_tree"' -DKBUILD_BASENAME='"maple_tree"' -DKBUILD_MODNAME='"maple_tree"' -D__KBUILD_MODNAME=kmod_maple_tree -c -o lib/maple_tree.o lib/maple_tree.c  
+savedcmd_lib/maple_tree.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.maple_tree.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"lib/maple_tree"' -DKBUILD_BASENAME='"maple_tree"' -DKBUILD_MODNAME='"maple_tree"' -D__KBUILD_MODNAME=kmod_maple_tree -c -o lib/maple_tree.o lib/maple_tree.c  
 
 source_lib/maple_tree.o := lib/maple_tree.c
 
@@ -25,6 +25,7 @@ deps_lib/maple_tree.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -505,6 +506,9 @@ deps_lib/maple_tree.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -645,6 +649,7 @@ deps_lib/maple_tree.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -684,6 +689,7 @@ deps_lib/maple_tree.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -894,6 +900,7 @@ deps_lib/maple_tree.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1099,6 +1106,8 @@ deps_lib/maple_tree.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1387,40 +1396,40 @@ deps_lib/maple_tree.o := \
 lib/maple_tree.o: $(deps_lib/maple_tree.o)
 
 $(deps_lib/maple_tree.o):
-#SYMVER mas_alloc_cyclic 0x53ff4715
-#SYMVER mas_walk 0x345e8c49
-#SYMVER mas_empty_area 0x9e4b8103
-#SYMVER mas_empty_area_rev 0xb0b39944
-#SYMVER mas_store 0x004f507b
-#SYMVER mas_store_gfp 0x2207079b
-#SYMVER mas_store_prealloc 0xb375f130
-#SYMVER mas_preallocate 0x6a37b321
-#SYMVER mas_destroy 0x25984caa
-#SYMVER mas_expected_entries 0xb5ae8931
-#SYMVER mas_next 0xe40699fc
-#SYMVER mas_next_range 0x539b19f2
-#SYMVER mt_next 0xd70da466
-#SYMVER mas_prev 0x9763dfed
-#SYMVER mas_prev_range 0x16edb41d
-#SYMVER mt_prev 0x80a5aacb
-#SYMVER mas_pause 0x4c1c0cc0
-#SYMVER mas_find 0x2e83bb91
-#SYMVER mas_find_range 0x1a4f2c8d
-#SYMVER mas_find_rev 0xe2fae905
-#SYMVER mas_find_range_rev 0x4692c3a0
-#SYMVER mas_erase 0xc106a433
-#SYMVER mtree_load 0x18582723
-#SYMVER mtree_store_range 0x28845a64
-#SYMVER mtree_store 0x4a5f4aac
-#SYMVER mtree_insert_range 0xd7ff101e
-#SYMVER mtree_insert 0x70f27914
-#SYMVER mtree_alloc_range 0x22ee082c
-#SYMVER mtree_alloc_cyclic 0x0d62a702
-#SYMVER mtree_alloc_rrange 0x74af3ff0
-#SYMVER mtree_erase 0x1177d712
-#SYMVER __mt_dup 0x1d517244
-#SYMVER mtree_dup 0x96985be2
-#SYMVER __mt_destroy 0x7c2b1b43
-#SYMVER mtree_destroy 0x3c248c8f
-#SYMVER mt_find 0xec204bf0
-#SYMVER mt_find_after 0x7740da55
+#SYMVER mas_alloc_cyclic 0xbd586cc0
+#SYMVER mas_walk 0xd14c06aa
+#SYMVER mas_empty_area 0xb3806c29
+#SYMVER mas_empty_area_rev 0xedbe1022
+#SYMVER mas_store 0x1cc0fb0f
+#SYMVER mas_store_gfp 0xb9675d84
+#SYMVER mas_store_prealloc 0xe5320a6e
+#SYMVER mas_preallocate 0xb8bafef1
+#SYMVER mas_destroy 0x69116ab1
+#SYMVER mas_expected_entries 0x2916b28e
+#SYMVER mas_next 0x218ac2a3
+#SYMVER mas_next_range 0x942fc6cf
+#SYMVER mt_next 0x52340057
+#SYMVER mas_prev 0x4a7e37db
+#SYMVER mas_prev_range 0xbe0c337f
+#SYMVER mt_prev 0x2ba519ea
+#SYMVER mas_pause 0x8f3a4456
+#SYMVER mas_find 0x69d026c4
+#SYMVER mas_find_range 0x86b3ab8c
+#SYMVER mas_find_rev 0xf832292b
+#SYMVER mas_find_range_rev 0x311a16a7
+#SYMVER mas_erase 0x772e00d1
+#SYMVER mtree_load 0xa6298b16
+#SYMVER mtree_store_range 0x85ddabee
+#SYMVER mtree_store 0x00e1db6c
+#SYMVER mtree_insert_range 0xaec943de
+#SYMVER mtree_insert 0xdd873f0a
+#SYMVER mtree_alloc_range 0xbf8c14cc
+#SYMVER mtree_alloc_cyclic 0xe678b73d
+#SYMVER mtree_alloc_rrange 0x2f95eb91
+#SYMVER mtree_erase 0x1f1e49c6
+#SYMVER __mt_dup 0x378c0491
+#SYMVER mtree_dup 0x929995b7
+#SYMVER __mt_destroy 0xb85459e5
+#SYMVER mtree_destroy 0x58411362
+#SYMVER mt_find 0xaa10f807
+#SYMVER mt_find_after 0xde9d252b

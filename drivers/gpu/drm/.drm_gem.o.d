@@ -1,12 +1,12 @@
 drm_gem.o: drivers/gpu/drm/drm_gem.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/dma-buf.h include/linux/iosys-map.h \
- include/linux/compiler_types.h include/linux/io.h include/linux/sizes.h \
- include/linux/const.h include/vdso/const.h include/uapi/linux/const.h \
- include/linux/types.h include/uapi/linux/types.h \
- arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/dma-buf.h \
+ include/linux/iosys-map.h include/linux/compiler_types.h \
+ include/linux/io.h include/linux/sizes.h include/linux/const.h \
+ include/vdso/const.h include/uapi/linux/const.h include/linux/types.h \
+ include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -260,16 +260,17 @@ drm_gem.o: drivers/gpu/drm/drm_gem.c include/linux/compiler-version.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/dma-mapping.h \
- include/linux/device.h include/linux/dev_printk.h \
- include/linux/energy_model.h include/linux/sched/cpufreq.h \
- include/linux/sched/topology.h include/linux/sched/idle.h \
- include/linux/sched/sd_flags.h include/linux/klist.h include/linux/pm.h \
- include/linux/device/bus.h include/linux/device/class.h \
- include/linux/device/devres.h include/linux/device/driver.h \
- include/linux/module.h include/linux/buildid.h include/linux/kmod.h \
- include/linux/umh.h include/linux/elf.h arch/arm64/include/asm/elf.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/dma-mapping.h include/linux/device.h \
+ include/linux/dev_printk.h include/linux/energy_model.h \
+ include/linux/sched/cpufreq.h include/linux/sched/topology.h \
+ include/linux/sched/idle.h include/linux/sched/sd_flags.h \
+ include/linux/klist.h include/linux/pm.h include/linux/device/bus.h \
+ include/linux/device/class.h include/linux/device/devres.h \
+ include/linux/device/driver.h include/linux/module.h \
+ include/linux/buildid.h include/linux/kmod.h include/linux/umh.h \
+ include/linux/elf.h arch/arm64/include/asm/elf.h \
  arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
  include/uapi/linux/elf.h include/uapi/linux/elf-em.h \
  include/linux/moduleparam.h include/linux/rbtree_latch.h \
@@ -277,24 +278,24 @@ drm_gem.o: drivers/gpu/drm/drm_gem.c include/linux/compiler-version.h \
  include/linux/dynamic_debug.h arch/arm64/include/asm/module.h \
  include/asm-generic/module.h arch/arm64/include/asm/device.h \
  include/linux/pm_wakeup.h include/linux/dma-direction.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
- include/linux/dma-fence.h include/linux/mman.h include/uapi/linux/mman.h \
- arch/arm64/include/asm/mman.h arch/arm64/include/uapi/asm/mman.h \
- include/uapi/asm-generic/mman.h include/uapi/asm-generic/mman-common.h \
- include/linux/shmem_fs.h include/linux/swap.h include/linux/memcontrol.h \
- include/linux/cgroup.h include/uapi/linux/cgroupstats.h \
- include/uapi/linux/taskstats.h include/linux/seq_file.h \
- include/linux/string_helpers.h include/linux/ctype.h \
- include/linux/string_choices.h include/linux/ns_common.h \
- include/linux/nsproxy.h include/linux/user_namespace.h \
- include/linux/kernel_stat.h include/linux/interrupt.h \
- include/linux/irqreturn.h include/linux/hardirq.h \
- include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
- include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
- arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h \
- arch/arm64/include/generated/asm/irq_regs.h \
+ include/linux/dma-fence.h include/linux/mem_encrypt.h \
+ arch/arm64/include/asm/mem_encrypt.h include/linux/mman.h \
+ include/uapi/linux/mman.h arch/arm64/include/asm/mman.h \
+ arch/arm64/include/uapi/asm/mman.h include/uapi/asm-generic/mman.h \
+ include/uapi/asm-generic/mman-common.h include/linux/shmem_fs.h \
+ include/linux/swap.h include/linux/memcontrol.h include/linux/cgroup.h \
+ include/uapi/linux/cgroupstats.h include/uapi/linux/taskstats.h \
+ include/linux/seq_file.h include/linux/string_helpers.h \
+ include/linux/ctype.h include/linux/string_choices.h \
+ include/linux/ns_common.h include/linux/nsproxy.h \
+ include/linux/user_namespace.h include/linux/kernel_stat.h \
+ include/linux/interrupt.h include/linux/irqreturn.h \
+ include/linux/hardirq.h include/linux/context_tracking_state.h \
+ include/linux/ftrace_irq.h include/linux/vtime.h \
+ arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
+ include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h arch/arm64/include/generated/asm/irq_regs.h \
  include/asm-generic/irq_regs.h include/linux/irqdesc.h \
  arch/arm64/include/generated/asm/hw_irq.h include/asm-generic/hw_irq.h \
  include/linux/cgroup-defs.h include/linux/u64_stats_sync.h \

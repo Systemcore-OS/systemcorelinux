@@ -1294,8 +1294,8 @@ xrep_xattr_swap_prep(
 			.geo		= sc->mp->m_attr_geo,
 			.whichfork	= XFS_ATTR_FORK,
 			.trans		= sc->tp,
-			.total		= 1,
-			.owner		= sc->ip->i_ino,
+			.total		= xfs_dabuf_nfsb(sc->mp, XFS_ATTR_FORK),
+			.owner		= I_INO(sc->ip),
 		};
 
 		error = xfs_attr_shortform_to_leaf(&args);
@@ -1427,7 +1427,8 @@ xrep_xattr_rebuild_tree(
 	 * If we didn't find any attributes to salvage, repair the file by
 	 * zapping its attr fork.
 	 */
-	if (rx->attrs_found == 0) {
+	if (rx->attrs_found == 0 &&
+	    (!xfs_has_parent(sc->mp) || xfarray_length(rx->pptr_recs) == 0)) {
 		xfs_trans_ijoin(sc->tp, sc->ip, 0);
 		error = xrep_xattr_reset_fork(sc);
 		if (error)
@@ -1531,7 +1532,6 @@ xrep_xattr_setup_scan(
 	struct xrep_xattr	**rxp)
 {
 	struct xrep_xattr	*rx;
-	char			*descr;
 	int			max_len;
 	int			error;
 
@@ -1557,35 +1557,26 @@ xrep_xattr_setup_scan(
 		goto out_rx;
 
 	/* Set up some staging for salvaged attribute keys and values */
-	descr = xchk_xfile_ino_descr(sc, "xattr keys");
-	error = xfarray_create(descr, 0, sizeof(struct xrep_xattr_key),
+	error = xfarray_create("xattr keys", 0, sizeof(struct xrep_xattr_key),
 			&rx->xattr_records);
-	kfree(descr);
 	if (error)
 		goto out_rx;
 
-	descr = xchk_xfile_ino_descr(sc, "xattr names");
-	error = xfblob_create(descr, &rx->xattr_blobs);
-	kfree(descr);
+	error = xfblob_create("xattr names", &rx->xattr_blobs);
 	if (error)
 		goto out_keys;
 
 	if (xfs_has_parent(sc->mp)) {
 		ASSERT(sc->flags & XCHK_FSGATES_DIRENTS);
 
-		descr = xchk_xfile_ino_descr(sc,
-				"xattr retained parent pointer entries");
-		error = xfarray_create(descr, 0,
+		error = xfarray_create("xattr parent pointer entries", 0,
 				sizeof(struct xrep_xattr_pptr),
 				&rx->pptr_recs);
-		kfree(descr);
 		if (error)
 			goto out_values;
 
-		descr = xchk_xfile_ino_descr(sc,
-				"xattr retained parent pointer names");
-		error = xfblob_create(descr, &rx->pptr_names);
-		kfree(descr);
+		error = xfblob_create("xattr parent pointer names",
+				&rx->pptr_names);
 		if (error)
 			goto out_pprecs;
 

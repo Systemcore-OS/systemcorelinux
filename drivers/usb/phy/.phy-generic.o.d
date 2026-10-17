@@ -1,6 +1,7 @@
 phy-generic.o: drivers/usb/phy/phy-generic.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/module.h \
  include/linux/list.h include/linux/container_of.h \
@@ -271,13 +272,12 @@ phy-generic.o: drivers/usb/phy/phy-generic.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
- include/linux/fwnode.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/usb/gadget.h \
+ include/linux/fwnode.h include/linux/usb/gadget.h \
  include/linux/configfs.h include/linux/usb/ch9.h \
  include/uapi/linux/usb/ch9.h include/linux/usb/otg.h \
  include/linux/phy/phy.h include/linux/of.h \

@@ -1,6 +1,7 @@
 context_tracking.o: kernel/context_tracking.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/context_tracking.h \
  include/linux/sched.h include/uapi/linux/sched.h include/linux/types.h \
@@ -274,7 +275,8 @@ context_tracking.o: kernel/context_tracking.c \
  include/uapi/linux/fs.h include/linux/quota.h \
  include/uapi/linux/dqblk_xfs.h include/linux/dqblk_v1.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
- include/linux/projid.h include/uapi/linux/quota.h include/linux/vmstat.h \
+ include/linux/projid.h include/uapi/linux/quota.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/module.h \
  include/linux/kmod.h include/linux/umh.h include/linux/elf.h \
  arch/arm64/include/asm/elf.h arch/arm64/include/generated/asm/user.h \

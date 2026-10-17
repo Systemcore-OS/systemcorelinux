@@ -1,6 +1,7 @@
 drm_syncobj.o: drivers/gpu/drm/drm_syncobj.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/anon_inodes.h \
  include/linux/types.h include/uapi/linux/types.h \
@@ -269,8 +270,9 @@ drm_syncobj.o: drivers/gpu/drm/drm_syncobj.c \
  include/linux/page_table_check.h include/asm-generic/pgtable_uffd.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
+ include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
@@ -291,7 +293,6 @@ drm_syncobj.o: drivers/gpu/drm/drm_syncobj.c \
  include/linux/dynamic_debug.h arch/arm64/include/asm/module.h \
  include/asm-generic/module.h arch/arm64/include/asm/device.h \
  include/linux/pm_wakeup.h include/linux/dma-direction.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/dma-resv.h include/drm/drm_vma_manager.h \
  include/drm/drm_mm.h include/drm/drm_print.h include/drm/drm_syncobj.h \
  include/linux/dma-fence-chain.h include/drm/drm_utils.h \

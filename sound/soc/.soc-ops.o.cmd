@@ -1,4 +1,4 @@
-savedcmd_sound/soc/soc-ops.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/.soc-ops.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"soc_ops"' -DKBUILD_MODNAME='"snd_soc_core"' -D__KBUILD_MODNAME=kmod_snd_soc_core -c -o sound/soc/soc-ops.o sound/soc/soc-ops.c  
+savedcmd_sound/soc/soc-ops.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,sound/soc/.soc-ops.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"soc_ops"' -DKBUILD_MODNAME='"snd_soc_core"' -D__KBUILD_MODNAME=kmod_snd_soc_core -c -o sound/soc/soc-ops.o sound/soc/soc-ops.c  
 
 source_sound/soc/soc-ops.o := sound/soc/soc-ops.c
 
@@ -23,6 +23,7 @@ deps_sound/soc/soc-ops.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -496,6 +497,7 @@ deps_sound/soc/soc-ops.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -582,6 +584,7 @@ deps_sound/soc/soc-ops.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -676,6 +679,9 @@ deps_sound/soc/soc-ops.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -801,6 +807,7 @@ deps_sound/soc/soc-ops.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1105,6 +1112,8 @@ deps_sound/soc/soc-ops.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1235,26 +1244,26 @@ deps_sound/soc/soc-ops.o := \
 sound/soc/soc-ops.o: $(deps_sound/soc/soc-ops.o)
 
 $(deps_sound/soc/soc-ops.o):
-#SYMVER snd_soc_info_enum_double 0x910ad1e9
-#SYMVER snd_soc_get_enum_double 0x1c2a3519
-#SYMVER snd_soc_put_enum_double 0xfd7d1acb
-#SYMVER snd_soc_info_volsw 0xf283457c
-#SYMVER snd_soc_info_volsw_sx 0x124062e3
-#SYMVER snd_soc_get_volsw 0x466dd08e
-#SYMVER snd_soc_put_volsw 0x4f73f5ab
-#SYMVER snd_soc_get_volsw_sx 0xa4ecc938
-#SYMVER snd_soc_put_volsw_sx 0x8896a0be
-#SYMVER snd_soc_info_volsw_range 0xc42c7bdc
-#SYMVER snd_soc_put_volsw_range 0xab9bf842
-#SYMVER snd_soc_get_volsw_range 0x4accd790
-#SYMVER snd_soc_limit_volume 0x6cb9d06c
-#SYMVER snd_soc_bytes_info 0x4c9783f3
-#SYMVER snd_soc_bytes_get 0x6e0e893e
-#SYMVER snd_soc_bytes_put 0x43b8c125
-#SYMVER snd_soc_bytes_info_ext 0x63f89afe
-#SYMVER snd_soc_bytes_tlv_callback 0x3c5af8e4
-#SYMVER snd_soc_info_xr_sx 0x7b9937f4
-#SYMVER snd_soc_get_xr_sx 0xa587c1ee
-#SYMVER snd_soc_put_xr_sx 0xac99e4cb
-#SYMVER snd_soc_get_strobe 0x3d3d308f
-#SYMVER snd_soc_put_strobe 0x7630faed
+#SYMVER snd_soc_info_enum_double 0x69c954bb
+#SYMVER snd_soc_get_enum_double 0x085d22eb
+#SYMVER snd_soc_put_enum_double 0x36b11277
+#SYMVER snd_soc_info_volsw 0x975d9538
+#SYMVER snd_soc_info_volsw_sx 0xf6f47d09
+#SYMVER snd_soc_get_volsw 0x19cfc7fb
+#SYMVER snd_soc_put_volsw 0xdb60483f
+#SYMVER snd_soc_get_volsw_sx 0x302a1deb
+#SYMVER snd_soc_put_volsw_sx 0x5cfe1948
+#SYMVER snd_soc_info_volsw_range 0xe010ed14
+#SYMVER snd_soc_put_volsw_range 0x705175b7
+#SYMVER snd_soc_get_volsw_range 0x4ebd452b
+#SYMVER snd_soc_limit_volume 0xc3908e61
+#SYMVER snd_soc_bytes_info 0x1b5cb415
+#SYMVER snd_soc_bytes_get 0x7fa68f40
+#SYMVER snd_soc_bytes_put 0xca87b4e6
+#SYMVER snd_soc_bytes_info_ext 0xfe6c128b
+#SYMVER snd_soc_bytes_tlv_callback 0x96056655
+#SYMVER snd_soc_info_xr_sx 0x031aea95
+#SYMVER snd_soc_get_xr_sx 0xb13c5fd1
+#SYMVER snd_soc_put_xr_sx 0x7393d015
+#SYMVER snd_soc_get_strobe 0xb07292fc
+#SYMVER snd_soc_put_strobe 0x2cb93bda

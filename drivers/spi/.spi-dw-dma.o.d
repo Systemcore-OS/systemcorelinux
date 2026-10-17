@@ -1,13 +1,14 @@
 spi-dw-dma.o: drivers/spi/spi-dw-dma.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/completion.h include/linux/swait.h include/linux/list.h \
- include/linux/container_of.h include/linux/build_bug.h \
- include/linux/compiler.h include/linux/compiler_types.h \
- arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
- include/linux/kasan-checks.h include/linux/types.h \
- include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/completion.h \
+ include/linux/swait.h include/linux/list.h include/linux/container_of.h \
+ include/linux/build_bug.h include/linux/compiler.h \
+ include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
+ include/asm-generic/rwonce.h include/linux/kasan-checks.h \
+ include/linux/types.h include/uapi/linux/types.h \
+ arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -273,22 +274,21 @@ spi-dw-dma.o: drivers/spi/spi-dw-dma.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
- include/linux/fwnode.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/dmaengine.h \
- include/linux/uio.h include/uapi/linux/uio.h include/linux/irqreturn.h \
- include/linux/pci.h include/linux/mod_devicetable.h \
- include/uapi/linux/mei.h include/uapi/linux/mei_uuid.h \
- include/linux/interrupt.h include/linux/hardirq.h \
- include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
- include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
- arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/linux/fwnode.h include/linux/dmaengine.h include/linux/uio.h \
+ include/uapi/linux/uio.h include/linux/irqreturn.h include/linux/pci.h \
+ include/linux/mod_devicetable.h include/uapi/linux/mei.h \
+ include/uapi/linux/mei_uuid.h include/linux/interrupt.h \
+ include/linux/hardirq.h include/linux/context_tracking_state.h \
+ include/linux/ftrace_irq.h include/linux/vtime.h \
+ arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
+ include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/generated/asm/irq_regs.h \
  include/asm-generic/irq_regs.h include/linux/irqdesc.h \
  arch/arm64/include/generated/asm/hw_irq.h include/asm-generic/hw_irq.h \

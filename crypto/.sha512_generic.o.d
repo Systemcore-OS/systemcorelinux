@@ -1,6 +1,7 @@
 sha512_generic.o: crypto/sha512_generic.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/crypto/internal/hash.h \
  include/crypto/algapi.h include/crypto/utils.h include/linux/unaligned.h \
@@ -267,6 +268,6 @@ sha512_generic.o: crypto/sha512_generic.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/crypto/sha2.h \
- include/crypto/sha512_base.h
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/crypto/sha2.h include/crypto/sha512_base.h

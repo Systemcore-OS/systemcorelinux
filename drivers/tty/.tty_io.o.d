@@ -1,9 +1,9 @@
 tty_io.o: drivers/tty/tty_io.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/types.h include/uapi/linux/types.h \
- arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/types.h \
+ include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -300,16 +300,28 @@ tty_io.o: drivers/tty/tty_io.c include/linux/compiler-version.h \
  include/uapi/linux/kd.h include/linux/mm.h include/linux/pgalloc_tag.h \
  include/linux/range.h include/linux/page_ext.h \
  include/linux/stacktrace.h include/linux/page_ref.h \
- include/linux/memremap.h include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/memremap.h include/linux/huge_mm.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/poll.h \
  include/uapi/linux/poll.h arch/arm64/include/generated/uapi/asm/poll.h \
  include/uapi/asm-generic/poll.h include/uapi/linux/eventpoll.h \
  include/uapi/linux/ppp-ioctl.h include/linux/ppp_defs.h \
- include/linux/crc-ccitt.h include/uapi/linux/ppp_defs.h \
- include/linux/proc_fs.h include/linux/delay.h \
- arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
- include/linux/serial.h include/uapi/linux/serial.h \
- include/uapi/linux/serial_reg.h include/linux/compat.h \
+ include/linux/crc-ccitt.h include/linux/skbuff.h include/linux/bvec.h \
+ include/linux/highmem.h include/linux/cacheflush.h \
+ arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
+ include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/trace_recursion.h include/linux/trace_clock.h \
+ arch/arm64/include/generated/asm/trace_clock.h \
+ include/asm-generic/trace_clock.h include/linux/kallsyms.h \
+ include/linux/ptrace.h include/linux/pid_namespace.h \
+ include/linux/nsproxy.h include/linux/ns_common.h \
+ include/uapi/linux/ptrace.h include/linux/seccomp.h \
+ include/uapi/linux/seccomp.h arch/arm64/include/asm/seccomp.h \
+ arch/arm64/include/generated/asm/unistd_compat_32.h \
+ include/asm-generic/seccomp.h include/uapi/linux/unistd.h \
+ arch/arm64/include/asm/unistd.h \
+ arch/arm64/include/generated/uapi/asm/unistd_64.h \
+ arch/arm64/include/asm/ftrace.h include/linux/compat.h \
  include/linux/sem.h include/uapi/linux/sem.h include/linux/ipc.h \
  include/linux/rhashtable-types.h include/uapi/linux/ipc.h \
  arch/arm64/include/generated/uapi/asm/ipcbuf.h \
@@ -323,12 +335,28 @@ tty_io.o: drivers/tty/tty_io.c include/linux/compiler-version.h \
  include/linux/uio.h include/uapi/linux/uio.h include/uapi/linux/socket.h \
  include/uapi/linux/if.h include/uapi/linux/libc-compat.h \
  include/uapi/linux/hdlc/ioctl.h include/uapi/linux/aio_abi.h \
- include/uapi/linux/unistd.h arch/arm64/include/asm/unistd.h \
- arch/arm64/include/generated/uapi/asm/unistd_64.h \
- arch/arm64/include/asm/syscall_wrapper.h \
- include/linux/termios_internal.h include/linux/kbd_kern.h \
- include/linux/keyboard.h include/uapi/linux/keyboard.h \
- include/linux/vt_kern.h include/linux/vt.h include/uapi/linux/vt.h \
- include/linux/console_struct.h include/linux/consolemap.h \
- include/linux/selection.h include/uapi/linux/tiocl.h \
- include/linux/vt_buffer.h include/linux/nsproxy.h drivers/tty/tty.h
+ arch/arm64/include/asm/syscall_wrapper.h include/linux/objpool.h \
+ include/linux/rethook.h arch/arm64/include/asm/kprobes.h \
+ include/asm-generic/kprobes.h arch/arm64/include/asm/kgdb.h \
+ include/asm-generic/cacheflush.h include/linux/kmsan.h \
+ include/linux/dma-direction.h include/linux/highmem-internal.h \
+ include/net/checksum.h arch/arm64/include/asm/checksum.h \
+ include/linux/in6.h include/uapi/linux/in6.h \
+ include/asm-generic/checksum.h include/linux/dma-mapping.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
+ include/net/flow_dissector.h include/linux/siphash.h \
+ include/uapi/linux/if_ether.h include/uapi/linux/pkt_cls.h \
+ include/uapi/linux/pkt_sched.h include/uapi/linux/if_packet.h \
+ include/net/flow.h include/linux/netfilter/nf_conntrack_common.h \
+ include/uapi/linux/netfilter/nf_conntrack_common.h \
+ include/net/net_debug.h include/net/dropreason-core.h \
+ include/net/netmem.h include/uapi/linux/ppp_defs.h \
+ include/linux/proc_fs.h include/linux/delay.h \
+ arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
+ include/linux/serial.h include/uapi/linux/serial.h \
+ include/uapi/linux/serial_reg.h include/linux/termios_internal.h \
+ include/linux/kbd_kern.h include/linux/keyboard.h \
+ include/uapi/linux/keyboard.h include/linux/vt_kern.h include/linux/vt.h \
+ include/uapi/linux/vt.h include/linux/console_struct.h \
+ include/linux/consolemap.h include/linux/selection.h \
+ include/uapi/linux/tiocl.h include/linux/vt_buffer.h drivers/tty/tty.h

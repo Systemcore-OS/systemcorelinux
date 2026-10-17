@@ -1,4 +1,4 @@
-savedcmd_fs/libfs.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.libfs.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/libfs"' -DKBUILD_BASENAME='"libfs"' -DKBUILD_MODNAME='"libfs"' -D__KBUILD_MODNAME=kmod_libfs -c -o fs/libfs.o fs/libfs.c  
+savedcmd_fs/libfs.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.libfs.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"fs/libfs"' -DKBUILD_BASENAME='"libfs"' -DKBUILD_MODNAME='"libfs"' -D__KBUILD_MODNAME=kmod_libfs -c -o fs/libfs.o fs/libfs.c  
 
 source_fs/libfs.o := fs/libfs.c
 
@@ -25,6 +25,7 @@ deps_fs/libfs.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -77,6 +78,7 @@ deps_fs/libfs.o := \
   include/linux/highmem.h \
     $(wildcard include/config/HIGHMEM) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/SMP) \
     $(wildcard include/config/FS_POSIX_ACL) \
@@ -513,6 +515,9 @@ deps_fs/libfs.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -612,6 +617,7 @@ deps_fs/libfs.o := \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -660,6 +666,7 @@ deps_fs/libfs.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -1100,6 +1107,8 @@ deps_fs/libfs.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1361,7 +1370,6 @@ deps_fs/libfs.o := \
   include/uapi/linux/lsm.h \
   include/linux/pseudo_fs.h \
   include/linux/fsnotify.h \
-    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
   include/linux/fsnotify_backend.h \
   include/linux/audit.h \
     $(wildcard include/config/AUDIT_COMPAT_GENERIC) \
@@ -1380,62 +1388,62 @@ deps_fs/libfs.o := \
 fs/libfs.o: $(deps_fs/libfs.o)
 
 $(deps_fs/libfs.o):
-#SYMVER simple_getattr 0xe7976717
-#SYMVER simple_statfs 0x73ae9614
-#SYMVER always_delete_dentry 0xdd0e5a35
-#SYMVER simple_dentry_operations 0xd2f9f689
-#SYMVER simple_lookup 0x5015e996
-#SYMVER dcache_dir_open 0x5ea29aad
-#SYMVER dcache_dir_close 0x6b50b117
-#SYMVER dcache_dir_lseek 0xa718e590
-#SYMVER dcache_readdir 0x42e286ac
-#SYMVER generic_read_dir 0xac1aff9c
-#SYMVER simple_dir_operations 0x39d9d611
-#SYMVER simple_dir_inode_operations 0xa92c6237
-#SYMVER simple_recursive_removal 0x7f556ca8
-#SYMVER init_pseudo 0x8aa36d7d
-#SYMVER simple_open 0xef902d9b
-#SYMVER simple_link 0xd2142424
-#SYMVER simple_empty 0xac0bc45f
-#SYMVER simple_unlink 0x46bc3dc1
-#SYMVER simple_rmdir 0x993e5a18
-#SYMVER simple_rename_timestamp 0x72c6f609
-#SYMVER simple_rename_exchange 0xbbdc9e10
-#SYMVER simple_rename 0x71bff153
-#SYMVER simple_setattr 0x3e664d38
-#SYMVER simple_write_begin 0xb72cecb9
-#SYMVER ram_aops 0x1de877f4
-#SYMVER simple_fill_super 0x610f65f7
-#SYMVER simple_pin_fs 0x12dcfc19
-#SYMVER simple_release_fs 0x8c243c06
+#SYMVER simple_getattr 0x20b12d0d
+#SYMVER simple_statfs 0xe9d8e12a
+#SYMVER always_delete_dentry 0x0a41c4d6
+#SYMVER simple_dentry_operations 0x0e943ba4
+#SYMVER simple_lookup 0xd871eaa8
+#SYMVER dcache_dir_open 0x9d3ed5b3
+#SYMVER dcache_dir_close 0x41a1f047
+#SYMVER dcache_dir_lseek 0x31e440a2
+#SYMVER dcache_readdir 0x741a9564
+#SYMVER generic_read_dir 0xf44973e6
+#SYMVER simple_dir_operations 0xd433c90b
+#SYMVER simple_dir_inode_operations 0x0c7ebd8f
+#SYMVER simple_recursive_removal 0x1e5a83e9
+#SYMVER init_pseudo 0x38b54fb7
+#SYMVER simple_open 0x1cfb002c
+#SYMVER simple_link 0x0239a570
+#SYMVER simple_empty 0x3bcb338e
+#SYMVER simple_unlink 0xd5b9da41
+#SYMVER simple_rmdir 0x23b58e02
+#SYMVER simple_rename_timestamp 0xfdce4e44
+#SYMVER simple_rename_exchange 0xd16d1545
+#SYMVER simple_rename 0x9a8fba57
+#SYMVER simple_setattr 0x6b919958
+#SYMVER simple_write_begin 0x97f191ff
+#SYMVER ram_aops 0xc1e07385
+#SYMVER simple_fill_super 0x83d1f7c6
+#SYMVER simple_pin_fs 0xd6ff67f0
+#SYMVER simple_release_fs 0xfe71fb02
 #SYMVER simple_read_from_buffer 0x619cb7dd
 #SYMVER simple_write_to_buffer 0xbb4f4766
 #SYMVER memory_read_from_buffer 0x65e0d6d7
-#SYMVER simple_transaction_set 0x2f7433dd
-#SYMVER simple_transaction_get 0xfae48ea8
-#SYMVER simple_transaction_read 0x65c55678
-#SYMVER simple_transaction_release 0x8cfe96e1
-#SYMVER simple_attr_open 0x1006af69
-#SYMVER simple_attr_release 0xde5c8526
-#SYMVER simple_attr_read 0xc32bd0dd
-#SYMVER simple_attr_write 0x1bd59b56
-#SYMVER simple_attr_write_signed 0xb9d1d40f
-#SYMVER generic_encode_ino32_fh 0x1c51d082
-#SYMVER generic_fh_to_dentry 0x9eb94720
-#SYMVER generic_fh_to_parent 0x3edf3f19
-#SYMVER __generic_file_fsync 0xdf09dc9b
-#SYMVER generic_file_fsync 0xa8b7da9d
+#SYMVER simple_transaction_set 0x0085dc15
+#SYMVER simple_transaction_get 0x7ed5fa0a
+#SYMVER simple_transaction_read 0xee45d3ec
+#SYMVER simple_transaction_release 0x14336256
+#SYMVER simple_attr_open 0xac0e6fd8
+#SYMVER simple_attr_release 0xb294f647
+#SYMVER simple_attr_read 0x053aab71
+#SYMVER simple_attr_write 0x450bf1d1
+#SYMVER simple_attr_write_signed 0x6a81a2af
+#SYMVER generic_encode_ino32_fh 0x3de1b06e
+#SYMVER generic_fh_to_dentry 0x0a15ecb7
+#SYMVER generic_fh_to_parent 0xaa73948e
+#SYMVER __generic_file_fsync 0x8d41ebe7
+#SYMVER generic_file_fsync 0xe768219e
 #SYMVER generic_check_addressable 0xa095e02e
-#SYMVER noop_fsync 0xb7a44fbd
-#SYMVER noop_direct_IO 0x13e1cee7
+#SYMVER noop_fsync 0x41ed16ea
+#SYMVER noop_direct_IO 0xcef1ed3a
 #SYMVER kfree_link 0xb8b043f2
-#SYMVER alloc_anon_inode 0x4191ab0a
-#SYMVER simple_nosetlease 0xbb7867cd
-#SYMVER simple_get_link 0xfbbf0a4f
-#SYMVER simple_symlink_inode_operations 0xb9e59eca
-#SYMVER generic_ci_match 0xcaab0a9d
-#SYMVER generic_set_sb_d_ops 0x364bc22e
-#SYMVER inode_maybe_inc_iversion 0x457d8ca5
-#SYMVER inode_query_iversion 0xbdcc7fb5
-#SYMVER direct_write_fallback 0xcabdc965
-#SYMVER simple_inode_init_ts 0x59a6d144
+#SYMVER alloc_anon_inode 0x0725e6c5
+#SYMVER simple_nosetlease 0x5ffdf43d
+#SYMVER simple_get_link 0xfc4af575
+#SYMVER simple_symlink_inode_operations 0xc9c7e203
+#SYMVER generic_ci_match 0x3c053e93
+#SYMVER generic_set_sb_d_ops 0x314f6e43
+#SYMVER inode_maybe_inc_iversion 0xdf99a0b0
+#SYMVER inode_query_iversion 0x85807c83
+#SYMVER direct_write_fallback 0x6fcaf61e
+#SYMVER simple_inode_init_ts 0xe6dc9b86

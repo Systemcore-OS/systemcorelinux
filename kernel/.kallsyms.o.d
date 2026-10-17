@@ -1,9 +1,10 @@
 kallsyms.o: kernel/kallsyms.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/kallsyms.h include/linux/errno.h \
- include/uapi/linux/errno.h arch/arm64/include/generated/uapi/asm/errno.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/kallsyms.h \
+ include/linux/errno.h include/uapi/linux/errno.h \
+ arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  include/linux/buildid.h include/linux/types.h include/uapi/linux/types.h \
  arch/arm64/include/generated/uapi/asm/types.h \
@@ -253,17 +254,18 @@ kallsyms.o: kernel/kallsyms.c include/linux/compiler-version.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/module.h \
- include/linux/kmod.h include/linux/umh.h include/linux/elf.h \
- arch/arm64/include/asm/elf.h arch/arm64/include/generated/asm/user.h \
- include/asm-generic/user.h include/uapi/linux/elf.h \
- include/uapi/linux/elf-em.h include/linux/moduleparam.h \
- include/linux/rbtree_latch.h include/linux/error-injection.h \
- include/asm-generic/error-injection.h include/linux/dynamic_debug.h \
- arch/arm64/include/asm/module.h include/asm-generic/module.h \
- include/linux/seq_file.h include/linux/string_helpers.h \
- include/linux/ctype.h include/linux/string_choices.h include/linux/kdb.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/module.h include/linux/kmod.h include/linux/umh.h \
+ include/linux/elf.h arch/arm64/include/asm/elf.h \
+ arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
+ include/uapi/linux/elf.h include/uapi/linux/elf-em.h \
+ include/linux/moduleparam.h include/linux/rbtree_latch.h \
+ include/linux/error-injection.h include/asm-generic/error-injection.h \
+ include/linux/dynamic_debug.h arch/arm64/include/asm/module.h \
+ include/asm-generic/module.h include/linux/seq_file.h \
+ include/linux/string_helpers.h include/linux/ctype.h \
+ include/linux/string_choices.h include/linux/kdb.h \
  include/linux/proc_fs.h include/linux/filter.h include/linux/bpf.h \
  include/uapi/linux/bpf.h include/uapi/linux/bpf_common.h \
  include/uapi/linux/filter.h include/linux/file.h include/linux/bpfptr.h \
@@ -345,7 +347,6 @@ kallsyms.o: kernel/kallsyms.c include/linux/compiler-version.h \
  arch/arm64/include/asm/checksum.h include/linux/in6.h \
  include/uapi/linux/in6.h include/asm-generic/checksum.h \
  include/linux/dma-mapping.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/linux/siphash.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
@@ -355,8 +356,8 @@ kallsyms.o: kernel/kallsyms.c include/linux/compiler-version.h \
  include/net/net_debug.h include/net/dropreason-core.h \
  include/net/netmem.h include/linux/sched/clock.h \
  include/linux/set_memory.h arch/arm64/include/asm/set_memory.h \
- include/asm-generic/set_memory.h include/linux/if_vlan.h \
- include/linux/netdevice.h include/linux/delay.h \
+ arch/arm64/include/asm/mem_encrypt.h include/asm-generic/set_memory.h \
+ include/linux/if_vlan.h include/linux/netdevice.h include/linux/delay.h \
  arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
  include/linux/prefetch.h include/linux/dynamic_queue_limits.h \
  include/net/net_namespace.h include/net/netns/core.h \

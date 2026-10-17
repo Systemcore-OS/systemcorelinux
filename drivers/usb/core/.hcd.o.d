@@ -1,12 +1,12 @@
 hcd.o: drivers/usb/core/hcd.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/bcd.h include/linux/compiler.h \
- include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
- include/asm-generic/rwonce.h include/linux/kasan-checks.h \
- include/linux/types.h include/uapi/linux/types.h \
- arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/bcd.h \
+ include/linux/compiler.h include/linux/compiler_types.h \
+ arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
+ include/linux/kasan-checks.h include/linux/types.h \
+ include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -264,8 +264,9 @@ hcd.o: drivers/usb/core/hcd.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
@@ -277,8 +278,7 @@ hcd.o: drivers/usb/core/hcd.c include/linux/compiler-version.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
  include/linux/dma-mapping.h include/linux/dma-direction.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h arch/arm64/include/asm/irq.h \
+ include/linux/scatterlist.h arch/arm64/include/asm/irq.h \
  include/asm-generic/irq.h include/linux/unaligned.h \
  include/linux/unaligned/packed_struct.h include/vdso/unaligned.h \
  include/linux/platform_device.h include/linux/pm_runtime.h \

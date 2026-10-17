@@ -1,6 +1,7 @@
 efi-init.o: drivers/firmware/efi/efi-init.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/efi.h \
  include/linux/init.h include/linux/build_bug.h include/linux/compiler.h \
@@ -291,7 +292,8 @@ efi-init.o: drivers/firmware/efi/efi-init.c \
  include/asm-generic/emergency-restart.h include/linux/memblock.h \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/page_ext.h \
  include/linux/stacktrace.h include/linux/page_ref.h \
- include/linux/memremap.h include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/memremap.h include/linux/huge_mm.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/generated/asm/dma.h \
  include/asm-generic/dma.h include/linux/of.h \
  include/linux/mod_devicetable.h include/uapi/linux/mei.h \

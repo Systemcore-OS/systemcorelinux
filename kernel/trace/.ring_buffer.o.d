@@ -1,6 +1,7 @@
 ring_buffer.o: kernel/trace/ring_buffer.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/trace_recursion.h \
  include/linux/interrupt.h include/linux/kernel.h include/linux/stdarg.h \
@@ -233,9 +234,9 @@ ring_buffer.o: kernel/trace/ring_buffer.c \
  include/uapi/linux/magic.h include/uapi/linux/stat.h \
  arch/arm64/include/generated/asm/hw_irq.h include/asm-generic/hw_irq.h \
  include/linux/hrtimer.h include/linux/hrtimer_defs.h \
- include/linux/timerqueue.h include/linux/trace_events.h \
- include/linux/ring_buffer.h include/linux/mm.h \
- include/linux/pgalloc_tag.h include/linux/range.h \
+ include/linux/timerqueue.h include/linux/panic_notifier.h \
+ include/linux/trace_events.h include/linux/ring_buffer.h \
+ include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/bit_spinlock.h include/linux/shrinker.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
@@ -269,7 +270,8 @@ ring_buffer.o: kernel/trace/ring_buffer.c \
  include/uapi/linux/fs.h include/linux/quota.h \
  include/uapi/linux/dqblk_xfs.h include/linux/dqblk_v1.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
- include/linux/projid.h include/uapi/linux/quota.h include/linux/vmstat.h \
+ include/linux/projid.h include/uapi/linux/quota.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/seq_file.h \
  include/linux/string_helpers.h include/linux/ctype.h \
  include/linux/string_choices.h include/linux/poll.h \
@@ -355,7 +357,8 @@ ring_buffer.o: kernel/trace/ring_buffer.c \
  include/uapi/linux/lsm.h include/linux/tracepoint.h \
  include/linux/sched/clock.h include/linux/delay.h \
  arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
- include/linux/oom.h include/uapi/linux/oom.h kernel/trace/trace.h \
+ include/linux/oom.h include/uapi/linux/oom.h \
+ arch/arm64/include/asm/ring_buffer.h kernel/trace/trace.h \
  include/linux/clocksource.h include/linux/of.h \
  include/linux/mod_devicetable.h include/uapi/linux/mei.h \
  include/uapi/linux/mei_uuid.h include/linux/property.h \

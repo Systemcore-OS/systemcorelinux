@@ -1,4 +1,4 @@
-savedcmd_drivers/tty/vt/vt.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/tty/vt/.vt.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/tty/vt/vt"' -DKBUILD_BASENAME='"vt"' -DKBUILD_MODNAME='"vt"' -D__KBUILD_MODNAME=kmod_vt -c -o drivers/tty/vt/vt.o drivers/tty/vt/vt.c  
+savedcmd_drivers/tty/vt/vt.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/tty/vt/.vt.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/tty/vt/vt"' -DKBUILD_BASENAME='"vt"' -DKBUILD_MODNAME='"vt"' -D__KBUILD_MODNAME=kmod_vt -c -o drivers/tty/vt/vt.o drivers/tty/vt/vt.c  
 
 source_drivers/tty/vt/vt.o := drivers/tty/vt/vt.c
 
@@ -29,6 +29,7 @@ deps_drivers/tty/vt/vt.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -501,6 +502,7 @@ deps_drivers/tty/vt/vt.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -587,6 +589,7 @@ deps_drivers/tty/vt/vt.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -681,6 +684,9 @@ deps_drivers/tty/vt/vt.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -806,6 +812,7 @@ deps_drivers/tty/vt/vt.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1041,6 +1048,7 @@ deps_drivers/tty/vt/vt.o := \
     $(wildcard include/config/ARCH_SUPPORTS_PMD_PFNMAP) \
     $(wildcard include/config/ARCH_SUPPORTS_PUD_PFNMAP) \
     $(wildcard include/config/PAGE_TABLE_CHECK) \
+    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
     $(wildcard include/config/ARCH_ENABLE_THP_MIGRATION) \
     $(wildcard include/config/ARM64_CONTPTE) \
   arch/arm64/include/asm/proc-fns.h \
@@ -1093,7 +1101,6 @@ deps_drivers/tty/vt/vt.o := \
   include/linux/page_ref.h \
     $(wildcard include/config/DEBUG_PAGE_REF) \
   include/linux/pgtable.h \
-    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
     $(wildcard include/config/ARCH_HAS_HW_PTE_YOUNG) \
     $(wildcard include/config/GUP_GET_PXX_LOW_HIGH) \
     $(wildcard include/config/ARCH_WANT_PMD_MKWRITE) \
@@ -1106,6 +1113,8 @@ deps_drivers/tty/vt/vt.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1197,30 +1206,30 @@ deps_drivers/tty/vt/vt.o := \
 drivers/tty/vt/vt.o: $(deps_drivers/tty/vt/vt.o)
 
 $(deps_drivers/tty/vt/vt.o):
-#SYMVER vc_cons 0xd5e4a1fd
+#SYMVER vc_cons 0x07621baf
 #SYMVER global_cursor_default 0xf3916987
 #SYMVER console_blanked 0xb423dba1
 #SYMVER fg_console 0x4e6e8ea7
 #SYMVER console_blank_hook 0xd25d4f74
 #SYMVER register_vt_notifier 0xbf041102
 #SYMVER unregister_vt_notifier 0x55417264
-#SYMVER update_region 0x9f017e63
-#SYMVER redraw_screen 0x85f65f7a
-#SYMVER __vc_resize 0x621721f5
+#SYMVER update_region 0x6cb0a180
+#SYMVER redraw_screen 0xcb2aef58
+#SYMVER __vc_resize 0xce6c24f6
 #SYMVER color_table 0x863a276a
 #SYMVER default_red 0x45006cee
 #SYMVER default_grn 0x72b9d287
 #SYMVER default_blu 0x64a9c928
-#SYMVER do_unbind_con_driver 0xae557002
-#SYMVER con_is_bound 0xaa58eb47
-#SYMVER con_is_visible 0x88f41f8f
-#SYMVER con_debug_enter 0x03990eec
+#SYMVER do_unbind_con_driver 0x98cd4543
+#SYMVER con_is_bound 0x997f90dd
+#SYMVER con_is_visible 0xfb0335f7
+#SYMVER con_debug_enter 0xec6f6021
 #SYMVER con_debug_leave 0xf1dde242
-#SYMVER do_unregister_con_driver 0xe0318c11
-#SYMVER do_take_over_console 0x70aa2c04
-#SYMVER give_up_console 0x59e31757
+#SYMVER do_unregister_con_driver 0x7d951a8b
+#SYMVER do_take_over_console 0x8ed1efea
+#SYMVER give_up_console 0x3b1a6669
 #SYMVER do_blank_screen 0xe5c78a99
 #SYMVER do_unblank_screen 0x600683d3
-#SYMVER screen_glyph 0x98aae0ef
-#SYMVER screen_glyph_unicode 0x20b2090a
-#SYMVER screen_pos 0x376f8dc7
+#SYMVER screen_glyph 0x836063b0
+#SYMVER screen_glyph_unicode 0xf2207c98
+#SYMVER screen_pos 0x8e620f53

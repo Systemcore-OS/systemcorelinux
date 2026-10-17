@@ -1,12 +1,12 @@
 af_inet.o: net/ipv4/af_inet.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/err.h include/linux/compiler.h \
- include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
- include/asm-generic/rwonce.h include/linux/kasan-checks.h \
- include/linux/types.h include/uapi/linux/types.h \
- arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/err.h \
+ include/linux/compiler.h include/linux/compiler_types.h \
+ arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
+ include/linux/kasan-checks.h include/linux/types.h \
+ include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -259,15 +259,16 @@ af_inet.o: net/ipv4/af_inet.c include/linux/compiler-version.h \
  include/linux/page_table_check.h include/asm-generic/pgtable_uffd.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sockptr.h \
- include/uapi/linux/net.h include/linux/interrupt.h \
- include/linux/irqreturn.h include/linux/hardirq.h \
- include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
- include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
- arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sockptr.h include/uapi/linux/net.h \
+ include/linux/interrupt.h include/linux/irqreturn.h \
+ include/linux/hardirq.h include/linux/context_tracking_state.h \
+ include/linux/ftrace_irq.h include/linux/vtime.h \
+ arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
+ include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -324,8 +325,7 @@ af_inet.o: net/ipv4/af_inet.c include/linux/compiler-version.h \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/linux/siphash.h \
  include/uapi/linux/if_ether.h include/uapi/linux/pkt_cls.h \
  include/uapi/linux/pkt_sched.h include/uapi/linux/if_packet.h \
@@ -420,9 +420,9 @@ af_inet.o: net/ipv4/af_inet.c include/linux/compiler-version.h \
  include/net/hotdata.h include/net/tcp.h include/net/inet_hashtables.h \
  include/net/sock_reuseport.h include/linux/filter.h \
  include/linux/sched/clock.h include/linux/set_memory.h \
- arch/arm64/include/asm/set_memory.h include/asm-generic/set_memory.h \
- include/linux/if_vlan.h include/linux/etherdevice.h \
- include/linux/crc32.h include/linux/bitrev.h \
+ arch/arm64/include/asm/set_memory.h arch/arm64/include/asm/mem_encrypt.h \
+ include/asm-generic/set_memory.h include/linux/if_vlan.h \
+ include/linux/etherdevice.h include/linux/crc32.h include/linux/bitrev.h \
  arch/arm64/include/asm/bitrev.h include/linux/unaligned.h \
  include/vdso/unaligned.h include/uapi/linux/if_vlan.h \
  include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
@@ -436,14 +436,15 @@ af_inet.o: net/ipv4/af_inet.c include/linux/compiler-version.h \
  include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
  arch/arm64/include/asm/syscall.h include/net/ip6_fib.h \
  include/linux/ipv6_route.h include/uapi/linux/ipv6_route.h \
- include/net/gro_cells.h include/linux/bpf-cgroup.h include/net/udplite.h \
- include/net/ping.h include/net/icmp.h include/linux/icmp.h \
- include/uapi/linux/icmp.h include/uapi/linux/errqueue.h \
- include/net/raw.h include/net/inet_common.h include/net/ip_tunnels.h \
+ include/net/gro_cells.h include/net/secure_seq.h \
+ include/linux/bpf-cgroup.h include/net/udplite.h include/net/ping.h \
+ include/net/icmp.h include/linux/icmp.h include/uapi/linux/icmp.h \
+ include/uapi/linux/errqueue.h include/net/raw.h \
+ include/net/inet_common.h include/net/ip_tunnels.h \
  include/linux/if_tunnel.h include/uapi/linux/if_tunnel.h \
  include/net/netns/generic.h include/net/dst_cache.h \
  include/net/ip6_route.h include/net/addrconf.h include/net/nexthop.h \
- include/net/secure_seq.h include/linux/mroute.h include/linux/pim.h \
- include/uapi/linux/mroute.h include/linux/mroute_base.h \
- include/net/rps.h include/trace/events/sock.h include/linux/tracepoint.h \
+ include/linux/mroute.h include/linux/pim.h include/uapi/linux/mroute.h \
+ include/linux/mroute_base.h include/net/rps.h \
+ include/trace/events/sock.h include/linux/tracepoint.h \
  include/trace/events/net_probe_common.h include/trace/define_trace.h

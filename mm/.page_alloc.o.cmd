@@ -1,4 +1,4 @@
-savedcmd_mm/page_alloc.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.page_alloc.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"mm/page-alloc"' -DKBUILD_BASENAME='"page_alloc"' -DKBUILD_MODNAME='"page_alloc"' -D__KBUILD_MODNAME=kmod_page_alloc -c -o mm/page_alloc.o mm/page_alloc.c  
+savedcmd_mm/page_alloc.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.page_alloc.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"mm/page-alloc"' -DKBUILD_BASENAME='"page_alloc"' -DKBUILD_MODNAME='"page_alloc"' -D__KBUILD_MODNAME=kmod_page_alloc -c -o mm/page_alloc.o mm/page_alloc.c  
 
 source_mm/page_alloc.o := mm/page_alloc.c
 
@@ -23,6 +23,7 @@ deps_mm/page_alloc.o := \
     $(wildcard include/config/COMPACTION) \
     $(wildcard include/config/DEBUG_PAGEALLOC) \
     $(wildcard include/config/MEMCG) \
+    $(wildcard include/config/HUGETLB_PAGE) \
     $(wildcard include/config/KASAN_GENERIC) \
     $(wildcard include/config/MEMORY_HOTPLUG) \
     $(wildcard include/config/KASAN_SW_TAGS) \
@@ -56,6 +57,7 @@ deps_mm/page_alloc.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -526,6 +528,9 @@ deps_mm/page_alloc.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -536,7 +541,6 @@ deps_mm/page_alloc.o := \
   include/linux/nodemask.h \
   include/linux/nodemask_types.h \
   include/linux/pageblock-flags.h \
-    $(wildcard include/config/HUGETLB_PAGE) \
   include/linux/page-flags-layout.h \
   include/generated/bounds.h \
   include/linux/mm_types.h \
@@ -681,6 +685,7 @@ deps_mm/page_alloc.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -720,6 +725,7 @@ deps_mm/page_alloc.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -852,6 +858,7 @@ deps_mm/page_alloc.o := \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -991,6 +998,8 @@ deps_mm/page_alloc.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1370,6 +1379,7 @@ deps_mm/page_alloc.o := \
   mm/internal.h \
     $(wildcard include/config/DEBUG_MEMORY_INIT) \
     $(wildcard include/config/HAVE_GUP_FAST) \
+  include/linux/pagewalk.h \
   include/linux/rmap.h \
   include/linux/swap_cgroup.h \
   mm/vma.h \
@@ -1395,23 +1405,23 @@ $(deps_mm/page_alloc.o):
 #SYMVER movable_zone 0xd89da37f
 #SYMVER nr_node_ids 0x7bbccd05
 #SYMVER nr_online_nodes 0x82c87ad5
-#SYMVER split_page 0x7a88f6bf
-#SYMVER alloc_pages_bulk_noprof 0xf88e0bb8
-#SYMVER __alloc_pages_noprof 0x32cbd10f
-#SYMVER __folio_alloc_noprof 0x322c2612
+#SYMVER split_page 0x4acae6d6
+#SYMVER alloc_pages_bulk_noprof 0x91e9de52
+#SYMVER __alloc_pages_noprof 0x388e43cd
+#SYMVER __folio_alloc_noprof 0xfef2df7d
 #SYMVER get_free_pages_noprof 0xccf69887
 #SYMVER get_zeroed_page_noprof 0x8f14d45b
-#SYMVER __free_pages 0x7e741d9e
+#SYMVER __free_pages 0xee00922a
 #SYMVER free_pages 0x4302d0eb
 #SYMVER page_frag_cache_drain 0xef7307ba
-#SYMVER __page_frag_cache_drain 0x89837411
+#SYMVER __page_frag_cache_drain 0x7617cff6
 #SYMVER __page_frag_alloc_align 0x4ce0f44d
 #SYMVER page_frag_free 0x88e1d0f0
 #SYMVER alloc_pages_exact_noprof 0x0896c3e8
 #SYMVER free_pages_exact 0xeb44339a
 #SYMVER nr_free_buffer_pages 0x27fa66e1
-#SYMVER adjust_managed_page_count 0x6f924896
-#SYMVER free_reserved_page 0x9a9dee3b
+#SYMVER adjust_managed_page_count 0x927605c8
+#SYMVER free_reserved_page 0x9478a18a
 #SYMVER alloc_contig_range_noprof 0x12b96bed
 #SYMVER free_contig_range 0x10e6f74a
-#SYMVER is_free_buddy_page 0x653d06e6
+#SYMVER is_free_buddy_page 0x14034d83

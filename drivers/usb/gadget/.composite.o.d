@@ -1,6 +1,7 @@
 composite.o: drivers/usb/gadget/composite.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/kallsyms.h \
  include/linux/errno.h include/uapi/linux/errno.h \
@@ -254,29 +255,29 @@ composite.o: drivers/usb/gadget/composite.c \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/module.h \
- include/linux/kmod.h include/linux/umh.h include/linux/elf.h \
- arch/arm64/include/asm/elf.h arch/arm64/include/generated/asm/user.h \
- include/asm-generic/user.h include/uapi/linux/elf.h \
- include/uapi/linux/elf-em.h include/linux/moduleparam.h \
- include/linux/rbtree_latch.h include/linux/error-injection.h \
- include/asm-generic/error-injection.h include/linux/dynamic_debug.h \
- arch/arm64/include/asm/module.h include/asm-generic/module.h \
- include/linux/device.h include/linux/dev_printk.h \
- include/linux/energy_model.h include/linux/sched/cpufreq.h \
- include/linux/sched/topology.h include/linux/sched/idle.h \
- include/linux/sched/sd_flags.h include/linux/klist.h include/linux/pm.h \
- include/linux/device/bus.h include/linux/device/class.h \
- include/linux/device/devres.h include/linux/device/driver.h \
- arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/utsname.h include/linux/nsproxy.h \
- include/linux/ns_common.h include/uapi/linux/utsname.h \
- include/linux/usb/composite.h include/linux/bcd.h \
- include/generated/uapi/linux/version.h include/linux/usb/ch9.h \
- include/uapi/linux/usb/ch9.h include/linux/usb/gadget.h \
- include/linux/configfs.h include/linux/scatterlist.h \
- arch/arm64/include/asm/io.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/module.h include/linux/kmod.h include/linux/umh.h \
+ include/linux/elf.h arch/arm64/include/asm/elf.h \
+ arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
+ include/uapi/linux/elf.h include/uapi/linux/elf-em.h \
+ include/linux/moduleparam.h include/linux/rbtree_latch.h \
+ include/linux/error-injection.h include/asm-generic/error-injection.h \
+ include/linux/dynamic_debug.h arch/arm64/include/asm/module.h \
+ include/asm-generic/module.h include/linux/device.h \
+ include/linux/dev_printk.h include/linux/energy_model.h \
+ include/linux/sched/cpufreq.h include/linux/sched/topology.h \
+ include/linux/sched/idle.h include/linux/sched/sd_flags.h \
+ include/linux/klist.h include/linux/pm.h include/linux/device/bus.h \
+ include/linux/device/class.h include/linux/device/devres.h \
+ include/linux/device/driver.h arch/arm64/include/asm/device.h \
+ include/linux/pm_wakeup.h include/linux/utsname.h \
+ include/linux/nsproxy.h include/linux/ns_common.h \
+ include/uapi/linux/utsname.h include/linux/usb/composite.h \
+ include/linux/bcd.h include/generated/uapi/linux/version.h \
+ include/linux/usb/ch9.h include/uapi/linux/usb/ch9.h \
+ include/linux/usb/gadget.h include/linux/configfs.h \
+ include/linux/scatterlist.h arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \

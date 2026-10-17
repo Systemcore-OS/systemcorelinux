@@ -1,4 +1,4 @@
-savedcmd_net/vmw_vsock/af_vsock.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/vmw_vsock/.af_vsock.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"af_vsock"' -DKBUILD_MODNAME='"vsock"' -D__KBUILD_MODNAME=kmod_vsock -c -o net/vmw_vsock/af_vsock.o net/vmw_vsock/af_vsock.c  
+savedcmd_net/vmw_vsock/af_vsock.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/vmw_vsock/.af_vsock.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"af_vsock"' -DKBUILD_MODNAME='"vsock"' -D__KBUILD_MODNAME=kmod_vsock -c -o net/vmw_vsock/af_vsock.o net/vmw_vsock/af_vsock.c  
 
 source_net/vmw_vsock/af_vsock.o := net/vmw_vsock/af_vsock.c
 
@@ -25,6 +25,7 @@ deps_net/vmw_vsock/af_vsock.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -481,6 +482,7 @@ deps_net/vmw_vsock/af_vsock.o := \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -567,6 +569,7 @@ deps_net/vmw_vsock/af_vsock.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -730,6 +733,9 @@ deps_net/vmw_vsock/af_vsock.o := \
     $(wildcard include/config/DEBUG_OBJECTS) \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
     $(wildcard include/config/ARM64_E0PD) \
@@ -740,6 +746,7 @@ deps_net/vmw_vsock/af_vsock.o := \
   include/uapi/linux/libc-compat.h \
   include/uapi/linux/hdlc/ioctl.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1154,6 +1161,8 @@ deps_net/vmw_vsock/af_vsock.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1279,9 +1288,6 @@ deps_net/vmw_vsock/af_vsock.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1363,6 +1369,7 @@ deps_net/vmw_vsock/af_vsock.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1625,26 +1632,26 @@ net/vmw_vsock/af_vsock.o: $(deps_net/vmw_vsock/af_vsock.o)
 $(deps_net/vmw_vsock/af_vsock.o):
 #SYMVER vsock_bind_table 0x284e07d8
 #SYMVER vsock_connected_table 0x9bb6fd09
-#SYMVER vsock_table_lock 0x89ebee0a
-#SYMVER vsock_insert_connected 0xec47289c
-#SYMVER vsock_remove_bound 0x523cf01d
-#SYMVER vsock_remove_connected 0xd3cebb4c
-#SYMVER vsock_find_bound_socket 0x74e3f613
-#SYMVER vsock_find_connected_socket 0x357070b6
-#SYMVER vsock_remove_sock 0x21621c5e
-#SYMVER vsock_for_each_connected_socket 0x1fe08de9
-#SYMVER vsock_add_pending 0x1b90a900
-#SYMVER vsock_remove_pending 0xcf9eb33e
-#SYMVER vsock_enqueue_accept 0xd5f05f01
-#SYMVER vsock_assign_transport 0x89d8f16e
+#SYMVER vsock_table_lock 0xbdc30af2
+#SYMVER vsock_insert_connected 0xa80510bd
+#SYMVER vsock_remove_bound 0xce0fd253
+#SYMVER vsock_remove_connected 0xf136bc69
+#SYMVER vsock_find_bound_socket 0xd2d7340a
+#SYMVER vsock_find_connected_socket 0x5489886a
+#SYMVER vsock_remove_sock 0xe81acb14
+#SYMVER vsock_for_each_connected_socket 0xf133dc8a
+#SYMVER vsock_add_pending 0x91dc4025
+#SYMVER vsock_remove_pending 0x5d58e885
+#SYMVER vsock_enqueue_accept 0x2790c194
+#SYMVER vsock_assign_transport 0x6481f99c
 #SYMVER vsock_find_cid 0x90aa8549
-#SYMVER vsock_create_connected 0x731d4d55
-#SYMVER vsock_stream_has_data 0x2f3dd249
-#SYMVER vsock_connectible_has_data 0x768a99d0
-#SYMVER vsock_stream_has_space 0x3510bef1
-#SYMVER vsock_data_ready 0x128909bd
-#SYMVER vsock_dgram_recvmsg 0x7e05e043
-#SYMVER vsock_connectible_recvmsg 0x4d2a2b79
-#SYMVER vsock_core_get_transport 0x09094071
-#SYMVER vsock_core_register 0xafc55752
-#SYMVER vsock_core_unregister 0x396305bb
+#SYMVER vsock_create_connected 0x57e99eb2
+#SYMVER vsock_stream_has_data 0xad6a8df0
+#SYMVER vsock_connectible_has_data 0xfa30b2a8
+#SYMVER vsock_stream_has_space 0x021d0a49
+#SYMVER vsock_data_ready 0x32cedd97
+#SYMVER vsock_dgram_recvmsg 0xcfde04de
+#SYMVER vsock_connectible_recvmsg 0x260d3727
+#SYMVER vsock_core_get_transport 0xdabff658
+#SYMVER vsock_core_register 0xbdc2389e
+#SYMVER vsock_core_unregister 0x9b81518f

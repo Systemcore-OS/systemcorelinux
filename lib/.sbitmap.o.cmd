@@ -1,4 +1,4 @@
-savedcmd_lib/sbitmap.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.sbitmap.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"lib/sbitmap"' -DKBUILD_BASENAME='"sbitmap"' -DKBUILD_MODNAME='"sbitmap"' -D__KBUILD_MODNAME=kmod_sbitmap -c -o lib/sbitmap.o lib/sbitmap.c  
+savedcmd_lib/sbitmap.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,lib/.sbitmap.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"lib/sbitmap"' -DKBUILD_BASENAME='"sbitmap"' -DKBUILD_MODNAME='"sbitmap"' -D__KBUILD_MODNAME=kmod_sbitmap -c -o lib/sbitmap.o lib/sbitmap.c  
 
 source_lib/sbitmap.o := lib/sbitmap.c
 
@@ -23,6 +23,7 @@ deps_lib/sbitmap.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -114,6 +115,7 @@ deps_lib/sbitmap.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -534,6 +536,7 @@ deps_lib/sbitmap.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -626,6 +629,9 @@ deps_lib/sbitmap.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -771,6 +777,7 @@ deps_lib/sbitmap.o := \
   include/linux/ctype.h \
   include/linux/string_choices.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -922,19 +929,19 @@ $(deps_lib/sbitmap.o):
 #SYMVER sbitmap_get_shallow 0xe7a1faf1
 #SYMVER sbitmap_any_bit_set 0x3be2f105
 #SYMVER sbitmap_weight 0x233622c7
-#SYMVER sbitmap_show 0x98861334
-#SYMVER sbitmap_bitmap_show 0xeb2a195d
-#SYMVER sbitmap_queue_init_node 0xddb59978
-#SYMVER sbitmap_queue_recalculate_wake_batch 0x76622521
-#SYMVER sbitmap_queue_resize 0x81b5dc60
-#SYMVER __sbitmap_queue_get 0xddd3bd2b
-#SYMVER sbitmap_queue_get_shallow 0x8999e6f5
-#SYMVER sbitmap_queue_min_shallow_depth 0x8dd53d18
-#SYMVER sbitmap_queue_wake_up 0x7d6f58a2
-#SYMVER sbitmap_queue_clear 0x8a15e1c2
-#SYMVER sbitmap_queue_wake_all 0x36ebd21f
-#SYMVER sbitmap_queue_show 0x3f60903c
-#SYMVER sbitmap_add_wait_queue 0x6479259f
-#SYMVER sbitmap_del_wait_queue 0x52b4e49a
-#SYMVER sbitmap_prepare_to_wait 0x0ca7f47a
-#SYMVER sbitmap_finish_wait 0xc2a7c30c
+#SYMVER sbitmap_show 0x572518d7
+#SYMVER sbitmap_bitmap_show 0x3019f0de
+#SYMVER sbitmap_queue_init_node 0x2076fea9
+#SYMVER sbitmap_queue_recalculate_wake_batch 0x1a49969a
+#SYMVER sbitmap_queue_resize 0x06399c77
+#SYMVER __sbitmap_queue_get 0x53dd348b
+#SYMVER sbitmap_queue_get_shallow 0x3c4f87c8
+#SYMVER sbitmap_queue_min_shallow_depth 0x43e81167
+#SYMVER sbitmap_queue_wake_up 0x64a128de
+#SYMVER sbitmap_queue_clear 0x3745a9e0
+#SYMVER sbitmap_queue_wake_all 0xa96b5487
+#SYMVER sbitmap_queue_show 0x3296925f
+#SYMVER sbitmap_add_wait_queue 0x7636966b
+#SYMVER sbitmap_del_wait_queue 0xadddf91b
+#SYMVER sbitmap_prepare_to_wait 0xfca0bf79
+#SYMVER sbitmap_finish_wait 0x106f57de

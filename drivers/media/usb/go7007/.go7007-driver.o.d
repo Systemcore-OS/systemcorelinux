@@ -1,6 +1,7 @@
 go7007-driver.o: drivers/media/usb/go7007/go7007-driver.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/module.h \
  include/linux/list.h include/linux/container_of.h \
@@ -265,24 +266,25 @@ go7007-driver.o: drivers/media/usb/go7007/go7007-driver.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/vmalloc.h \
- arch/arm64/include/asm/vmalloc.h include/linux/device.h \
- include/linux/dev_printk.h include/linux/energy_model.h \
- include/linux/sched/cpufreq.h include/linux/sched/topology.h \
- include/linux/sched/idle.h include/linux/sched/sd_flags.h \
- include/linux/klist.h include/linux/pm.h include/linux/device/bus.h \
- include/linux/device/class.h include/linux/device/devres.h \
- include/linux/device/driver.h arch/arm64/include/asm/device.h \
- include/linux/pm_wakeup.h include/linux/i2c.h include/linux/acpi.h \
- include/linux/resource_ext.h include/linux/mod_devicetable.h \
- include/uapi/linux/mei.h include/uapi/linux/mei_uuid.h \
- include/linux/property.h include/linux/fwnode.h include/linux/node.h \
- include/acpi/acpi.h include/acpi/platform/acenv.h \
- include/acpi/platform/acgcc.h include/acpi/platform/aclinux.h \
- include/linux/ctype.h include/acpi/acnames.h include/acpi/actypes.h \
- include/acpi/acexcep.h include/acpi/actbl.h include/acpi/actbl1.h \
- include/acpi/actbl2.h include/acpi/actbl3.h include/acpi/acrestyp.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
+ include/linux/device.h include/linux/dev_printk.h \
+ include/linux/energy_model.h include/linux/sched/cpufreq.h \
+ include/linux/sched/topology.h include/linux/sched/idle.h \
+ include/linux/sched/sd_flags.h include/linux/klist.h include/linux/pm.h \
+ include/linux/device/bus.h include/linux/device/class.h \
+ include/linux/device/devres.h include/linux/device/driver.h \
+ arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
+ include/linux/i2c.h include/linux/acpi.h include/linux/resource_ext.h \
+ include/linux/mod_devicetable.h include/uapi/linux/mei.h \
+ include/uapi/linux/mei_uuid.h include/linux/property.h \
+ include/linux/fwnode.h include/linux/node.h include/acpi/acpi.h \
+ include/acpi/platform/acenv.h include/acpi/platform/acgcc.h \
+ include/acpi/platform/aclinux.h include/linux/ctype.h \
+ include/acpi/acnames.h include/acpi/actypes.h include/acpi/acexcep.h \
+ include/acpi/actbl.h include/acpi/actbl1.h include/acpi/actbl2.h \
+ include/acpi/actbl3.h include/acpi/acrestyp.h \
  include/acpi/platform/acenvex.h include/acpi/platform/aclinuxex.h \
  include/acpi/platform/acgccex.h include/acpi/acoutput.h \
  include/acpi/acpiosxf.h include/acpi/acpixf.h include/acpi/acconfig.h \
@@ -358,8 +360,7 @@ go7007-driver.o: drivers/media/usb/go7007/go7007-driver.c \
  include/uapi/linux/pci.h include/uapi/linux/pci_regs.h \
  include/linux/pci_ids.h include/linux/dmapool.h \
  include/linux/scatterlist.h arch/arm64/include/asm/pci.h \
- include/linux/dma-mapping.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/asm-generic/pci.h \
+ include/linux/dma-mapping.h include/asm-generic/pci.h \
  include/linux/platform_device.h include/media/media-devnode.h \
  include/linux/poll.h include/uapi/linux/poll.h \
  arch/arm64/include/generated/uapi/asm/poll.h \

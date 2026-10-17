@@ -1,9 +1,10 @@
 subflow.o: net/mptcp/subflow.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/kernel.h include/linux/stdarg.h include/linux/align.h \
- include/linux/const.h include/vdso/const.h include/uapi/linux/const.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/kernel.h \
+ include/linux/stdarg.h include/linux/align.h include/linux/const.h \
+ include/vdso/const.h include/uapi/linux/const.h \
  include/linux/array_size.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
  include/asm-generic/rwonce.h include/linux/kasan-checks.h \
@@ -317,7 +318,7 @@ subflow.o: net/mptcp/subflow.c include/linux/compiler-version.h \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/ptrace.h \
  include/linux/pid_namespace.h include/linux/nsproxy.h \
  include/uapi/linux/ptrace.h include/linux/seccomp.h \
@@ -347,8 +348,7 @@ subflow.o: net/mptcp/subflow.c include/linux/compiler-version.h \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
  include/uapi/linux/if_packet.h include/net/net_debug.h \
@@ -414,8 +414,9 @@ subflow.o: net/mptcp/subflow.c include/linux/compiler-version.h \
  net/mptcp/protocol.h include/net/tcp.h include/net/sock_reuseport.h \
  include/linux/filter.h include/linux/sched/clock.h \
  include/linux/set_memory.h arch/arm64/include/asm/set_memory.h \
- include/asm-generic/set_memory.h include/linux/if_vlan.h \
- include/linux/etherdevice.h include/linux/crc32.h include/linux/bitrev.h \
+ arch/arm64/include/asm/mem_encrypt.h include/asm-generic/set_memory.h \
+ include/linux/if_vlan.h include/linux/etherdevice.h \
+ include/linux/crc32.h include/linux/bitrev.h \
  arch/arm64/include/asm/bitrev.h include/uapi/linux/if_vlan.h \
  include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
  include/crypto/sha1.h include/net/sch_generic.h \
@@ -428,8 +429,9 @@ subflow.o: net/mptcp/subflow.c include/linux/compiler-version.h \
  include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
  arch/arm64/include/asm/syscall.h include/net/ip6_fib.h \
  include/linux/ipv6_route.h include/uapi/linux/ipv6_route.h \
- include/net/gro_cells.h include/linux/bpf-cgroup.h \
- include/net/genetlink.h include/uapi/linux/genetlink.h net/mptcp/mib.h \
+ include/net/gro_cells.h include/net/secure_seq.h \
+ include/linux/bpf-cgroup.h include/net/genetlink.h \
+ include/uapi/linux/genetlink.h net/mptcp/mib.h \
  include/trace/events/mptcp.h include/linux/tracepoint.h \
  include/trace/define_trace.h include/trace/events/sock.h \
  include/trace/events/net_probe_common.h

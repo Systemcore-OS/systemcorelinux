@@ -1,6 +1,7 @@
 v4l2-ioctl.o: drivers/media/v4l2-core/v4l2-ioctl.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/compat.h \
  include/linux/types.h include/uapi/linux/types.h \
@@ -271,10 +272,10 @@ v4l2-ioctl.o: drivers/media/v4l2-core/v4l2-ioctl.c \
  include/linux/page_table_check.h include/asm-generic/pgtable_uffd.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/module.h \
- include/linux/buildid.h include/linux/kmod.h include/linux/umh.h \
- include/linux/elf.h arch/arm64/include/asm/elf.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/module.h include/linux/buildid.h include/linux/kmod.h \
+ include/linux/umh.h include/linux/elf.h arch/arm64/include/asm/elf.h \
  arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
  include/uapi/linux/elf.h include/uapi/linux/elf-em.h \
  include/linux/moduleparam.h include/linux/rbtree_latch.h \
@@ -313,7 +314,6 @@ v4l2-ioctl.o: drivers/media/v4l2-core/v4l2-ioctl.c \
  include/linux/pci_ids.h include/linux/dmapool.h \
  include/linux/scatterlist.h arch/arm64/include/asm/pci.h \
  include/linux/dma-mapping.h include/linux/dma-direction.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/asm-generic/pci.h include/linux/platform_device.h \
  include/media/media-devnode.h include/linux/poll.h \
  include/uapi/linux/poll.h arch/arm64/include/generated/uapi/asm/poll.h \

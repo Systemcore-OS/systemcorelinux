@@ -1,8 +1,9 @@
 rtnetlink.o: net/core/rtnetlink.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/bitops.h arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/bitops.h \
+ arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -265,15 +266,16 @@ rtnetlink.o: net/core/rtnetlink.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sockptr.h \
- include/uapi/linux/net.h include/linux/interrupt.h \
- include/linux/irqreturn.h include/linux/hardirq.h \
- include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
- include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
- arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
- arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
- include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sockptr.h include/uapi/linux/net.h \
+ include/linux/interrupt.h include/linux/irqreturn.h \
+ include/linux/hardirq.h include/linux/context_tracking_state.h \
+ include/linux/ftrace_irq.h include/linux/vtime.h \
+ arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
+ include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
+ include/asm-generic/hardirq.h include/linux/irq.h \
+ include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -319,7 +321,6 @@ rtnetlink.o: net/core/rtnetlink.c include/linux/compiler-version.h \
  include/linux/device/class.h include/linux/device/devres.h \
  include/linux/device/driver.h arch/arm64/include/asm/device.h \
  include/linux/pm_wakeup.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/linux/siphash.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
@@ -425,19 +426,20 @@ rtnetlink.o: net/core/rtnetlink.c include/linux/compiler-version.h \
  include/net/gso.h include/net/tcp.h include/net/inet_hashtables.h \
  include/net/sock_reuseport.h include/linux/filter.h \
  include/linux/sched/clock.h include/linux/set_memory.h \
- arch/arm64/include/asm/set_memory.h include/asm-generic/set_memory.h \
- include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
- include/crypto/sha1.h include/net/sch_generic.h \
- include/uapi/linux/pkt_cls.h include/net/gen_stats.h \
- include/uapi/linux/gen_stats.h include/net/flow_offload.h \
- include/net/tcp_ao.h include/net/inet_ecn.h include/net/dsfield.h \
- include/net/mptcp.h include/net/xfrm.h include/uapi/linux/pfkeyv2.h \
- include/uapi/linux/ipsec.h include/linux/audit.h \
- include/linux/audit_arch.h include/uapi/linux/audit.h \
- include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
- arch/arm64/include/asm/syscall.h include/net/ip6_fib.h \
- include/linux/ipv6_route.h include/uapi/linux/ipv6_route.h \
- include/net/gro_cells.h include/linux/bpf-cgroup.h \
+ arch/arm64/include/asm/set_memory.h arch/arm64/include/asm/mem_encrypt.h \
+ include/asm-generic/set_memory.h include/linux/vmalloc.h \
+ arch/arm64/include/asm/vmalloc.h include/crypto/sha1.h \
+ include/net/sch_generic.h include/uapi/linux/pkt_cls.h \
+ include/net/gen_stats.h include/uapi/linux/gen_stats.h \
+ include/net/flow_offload.h include/net/tcp_ao.h include/net/inet_ecn.h \
+ include/net/dsfield.h include/net/mptcp.h include/net/xfrm.h \
+ include/uapi/linux/pfkeyv2.h include/uapi/linux/ipsec.h \
+ include/linux/audit.h include/linux/audit_arch.h \
+ include/uapi/linux/audit.h include/uapi/linux/netfilter/nf_tables.h \
+ include/uapi/linux/fanotify.h arch/arm64/include/asm/syscall.h \
+ include/net/ip6_fib.h include/linux/ipv6_route.h \
+ include/uapi/linux/ipv6_route.h include/net/gro_cells.h \
+ include/net/secure_seq.h include/linux/bpf-cgroup.h \
  include/net/pkt_sched.h include/uapi/linux/pkt_sched.h \
  include/net/devlink.h include/uapi/linux/devlink.h \
  include/linux/firmware.h include/net/addrconf.h include/linux/dpll.h \

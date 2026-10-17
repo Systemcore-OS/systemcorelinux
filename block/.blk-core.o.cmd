@@ -1,4 +1,4 @@
-savedcmd_block/blk-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,block/.blk-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"block/blk-core"' -DKBUILD_BASENAME='"blk_core"' -DKBUILD_MODNAME='"blk_core"' -D__KBUILD_MODNAME=kmod_blk_core -c -o block/blk-core.o block/blk-core.c  
+savedcmd_block/blk-core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,block/.blk-core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"block/blk-core"' -DKBUILD_BASENAME='"blk_core"' -DKBUILD_MODNAME='"blk_core"' -D__KBUILD_MODNAME=kmod_blk_core -c -o block/blk-core.o block/blk-core.c  
 
 source_block/blk-core.o := block/blk-core.c
 
@@ -24,6 +24,7 @@ deps_block/blk-core.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -497,6 +498,7 @@ deps_block/blk-core.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -583,6 +585,7 @@ deps_block/blk-core.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -677,6 +680,9 @@ deps_block/blk-core.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -802,6 +808,7 @@ deps_block/blk-core.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1129,6 +1136,8 @@ deps_block/blk-core.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1470,46 +1479,46 @@ block/blk-core.o: $(deps_block/blk-core.o)
 
 $(deps_block/blk-core.o):
 #SYMVER __tracepoint_block_bio_remap 0xe00db6dc
-#SYMVER __traceiter_block_bio_remap 0xb71ac058
+#SYMVER __traceiter_block_bio_remap 0x029ce24e
 #SYMVER __SCK__tp_func_block_bio_remap 0x67429c91
 #SYMVER __tracepoint_block_rq_remap 0xe12681a4
-#SYMVER __traceiter_block_rq_remap 0x1f439a45
+#SYMVER __traceiter_block_rq_remap 0xe31e5f34
 #SYMVER __SCK__tp_func_block_rq_remap 0xa6af1e35
 #SYMVER __tracepoint_block_bio_complete 0x2ccb56cb
-#SYMVER __traceiter_block_bio_complete 0x23fe8134
+#SYMVER __traceiter_block_bio_complete 0xf6fb7135
 #SYMVER __SCK__tp_func_block_bio_complete 0xdd81d8f6
 #SYMVER __tracepoint_block_split 0x06e415bc
-#SYMVER __traceiter_block_split 0x636db265
+#SYMVER __traceiter_block_split 0x4740b63a
 #SYMVER __SCK__tp_func_block_split 0xa6b5ee5b
 #SYMVER __tracepoint_block_unplug 0x5d85bb62
-#SYMVER __traceiter_block_unplug 0x50bc7bea
+#SYMVER __traceiter_block_unplug 0x0f537ac6
 #SYMVER __SCK__tp_func_block_unplug 0x634b9d42
 #SYMVER __tracepoint_block_rq_insert 0xbac94448
-#SYMVER __traceiter_block_rq_insert 0xc5add0de
+#SYMVER __traceiter_block_rq_insert 0x1e5550ed
 #SYMVER __SCK__tp_func_block_rq_insert 0x3d866e05
-#SYMVER blk_queue_flag_set 0xd6901bb1
-#SYMVER blk_queue_flag_clear 0x0d5cd9cb
+#SYMVER blk_queue_flag_set 0x9111ec41
+#SYMVER blk_queue_flag_clear 0xb5665f34
 #SYMVER blk_op_str 0x8b60d0cd
 #SYMVER errno_to_blk_status 0x612bfd89
 #SYMVER blk_status_to_errno 0x84502a47
 #SYMVER blk_status_to_str 0x2a181b9b
-#SYMVER blk_sync_queue 0xf3632390
-#SYMVER blk_set_pm_only 0xa6ab5b2b
-#SYMVER blk_clear_pm_only 0xdeed27a6
-#SYMVER blk_put_queue 0x9d3250b9
-#SYMVER blk_get_queue 0xc3d551f6
-#SYMVER submit_bio_noacct 0x9575ecfd
-#SYMVER submit_bio 0xb0b12ec1
-#SYMVER bio_poll 0x30c9e087
-#SYMVER iocb_bio_iopoll 0x3feb6fe6
-#SYMVER bdev_start_io_acct 0xeec7617f
-#SYMVER bio_start_io_acct 0x9ee5819f
-#SYMVER bdev_end_io_acct 0x64086748
-#SYMVER bio_end_io_acct_remapped 0xc9f28c10
-#SYMVER blk_lld_busy 0x0937c071
+#SYMVER blk_sync_queue 0x5ef5fa1f
+#SYMVER blk_set_pm_only 0x5d7539cc
+#SYMVER blk_clear_pm_only 0x2bc62148
+#SYMVER blk_put_queue 0xa826fdf0
+#SYMVER blk_get_queue 0x123aba42
+#SYMVER submit_bio_noacct 0x30b14c20
+#SYMVER submit_bio 0xee54ee6a
+#SYMVER bio_poll 0xf346feab
+#SYMVER iocb_bio_iopoll 0xa961a823
+#SYMVER bdev_start_io_acct 0xedd6be48
+#SYMVER bio_start_io_acct 0xb1cbe8be
+#SYMVER bdev_end_io_acct 0x5781d227
+#SYMVER bio_end_io_acct_remapped 0xe9c49d0e
+#SYMVER blk_lld_busy 0x744b3206
 #SYMVER kblockd_schedule_work 0xa8694ecd
 #SYMVER kblockd_mod_delayed_work_on 0x0147812c
-#SYMVER blk_start_plug 0x8a67a638
+#SYMVER blk_start_plug 0x3ac70ef3
 #SYMVER blk_check_plugged 0xd27b25dd
-#SYMVER blk_finish_plug 0x8f7d6202
+#SYMVER blk_finish_plug 0xf4464c66
 #SYMVER blk_io_schedule 0x62377a7b

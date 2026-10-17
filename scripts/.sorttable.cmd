@@ -5,7 +5,6 @@ source_scripts/sorttable := scripts/sorttable.c
 deps_scripts/sorttable := \
   tools/include/tools/be_byteshift.h \
   tools/include/tools/le_byteshift.h \
-  scripts/sorttable.h \
 
 scripts/sorttable: $(deps_scripts/sorttable)
 

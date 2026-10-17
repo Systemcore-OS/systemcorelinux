@@ -1,4 +1,4 @@
-savedcmd_net/sunrpc/xdr.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/sunrpc/.xdr.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"xdr"' -DKBUILD_MODNAME='"sunrpc"' -D__KBUILD_MODNAME=kmod_sunrpc -c -o net/sunrpc/xdr.o net/sunrpc/xdr.c  
+savedcmd_net/sunrpc/xdr.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/sunrpc/.xdr.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"xdr"' -DKBUILD_MODNAME='"sunrpc"' -D__KBUILD_MODNAME=kmod_sunrpc -c -o net/sunrpc/xdr.o net/sunrpc/xdr.c  
 
 source_net/sunrpc/xdr.o := net/sunrpc/xdr.c
 
@@ -23,6 +23,7 @@ deps_net/sunrpc/xdr.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -496,6 +497,7 @@ deps_net/sunrpc/xdr.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -582,6 +584,7 @@ deps_net/sunrpc/xdr.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -676,6 +679,9 @@ deps_net/sunrpc/xdr.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -801,6 +807,7 @@ deps_net/sunrpc/xdr.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1028,6 +1035,8 @@ deps_net/sunrpc/xdr.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1218,6 +1227,7 @@ deps_net/sunrpc/xdr.o := \
     $(wildcard include/config/MCTP) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/flow.h \
@@ -1373,9 +1383,6 @@ deps_net/sunrpc/xdr.o := \
   include/linux/device/driver.h \
   arch/arm64/include/asm/device.h \
   include/linux/pm_wakeup.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1645,43 +1652,45 @@ $(deps_net/sunrpc/xdr.o):
 #SYMVER xdr_encode_opaque 0xe5919cb1
 #SYMVER xdr_encode_string 0x05e807a9
 #SYMVER xdr_decode_string_inplace 0x2919b156
-#SYMVER xdr_terminate_string 0xff268808
-#SYMVER xdr_inline_pages 0x973d9559
-#SYMVER _copy_from_pages 0xfb2ce27c
-#SYMVER xdr_stream_pos 0x6fed5a3c
-#SYMVER xdr_page_pos 0x3e45066f
-#SYMVER xdr_init_encode 0x07b3047b
-#SYMVER xdr_init_encode_pages 0xcf8767fe
-#SYMVER __xdr_commit_encode 0x9788de8a
-#SYMVER xdr_reserve_space 0x282f16e7
-#SYMVER xdr_reserve_space_vec 0xa4d16b68
-#SYMVER xdr_truncate_encode 0xd370c8bd
-#SYMVER xdr_truncate_decode 0x317a1e8a
-#SYMVER xdr_restrict_buflen 0xed6245fd
-#SYMVER xdr_write_pages 0x17978a53
-#SYMVER xdr_init_decode 0xf16cc088
-#SYMVER xdr_init_decode_pages 0x87aff9b2
-#SYMVER xdr_finish_decode 0x6592c2d1
-#SYMVER xdr_inline_decode 0xb5d3d1e1
-#SYMVER xdr_read_pages 0x6711cad5
-#SYMVER xdr_set_pagelen 0x857c06c0
-#SYMVER xdr_enter_page 0xf0fc30ee
-#SYMVER xdr_buf_from_iov 0x9aa241a0
-#SYMVER xdr_buf_subsegment 0x2164f9f7
-#SYMVER xdr_stream_subsegment 0xf06892d8
-#SYMVER xdr_stream_move_subsegment 0xcdfc36e3
-#SYMVER xdr_stream_zero 0x6f5bdfb0
-#SYMVER xdr_buf_trim 0xc04e9939
-#SYMVER read_bytes_from_xdr_buf 0x72c8501e
-#SYMVER write_bytes_to_xdr_buf 0x3a913aea
-#SYMVER xdr_decode_word 0xe77f4c55
-#SYMVER xdr_encode_word 0x8e4ec273
-#SYMVER xdr_decode_array2 0x5c099e5d
-#SYMVER xdr_encode_array2 0xf0a22d80
-#SYMVER xdr_process_buf 0xf39ebc2e
-#SYMVER xdr_stream_decode_opaque 0x601460bc
-#SYMVER xdr_stream_decode_opaque_dup 0x5eb9b623
-#SYMVER xdr_stream_decode_string 0xa7d50466
-#SYMVER xdr_stream_decode_string_dup 0x9743050b
-#SYMVER xdr_stream_decode_opaque_auth 0xf6702249
-#SYMVER xdr_stream_encode_opaque_auth 0x4218b534
+#SYMVER xdr_terminate_string 0xd4fb6d3b
+#SYMVER xdr_buf_to_sg 0x9f966a01
+#SYMVER xdr_buf_to_sg_alloc 0x3f4efb92
+#SYMVER xdr_inline_pages 0x744fade5
+#SYMVER _copy_from_pages 0x3553ba1f
+#SYMVER xdr_stream_pos 0xa7dad1db
+#SYMVER xdr_page_pos 0x87dad28f
+#SYMVER xdr_init_encode 0x7732afad
+#SYMVER xdr_init_encode_pages 0x79ac7484
+#SYMVER __xdr_commit_encode 0xbc70ddc4
+#SYMVER xdr_reserve_space 0x09811e76
+#SYMVER xdr_reserve_space_vec 0x868f6eae
+#SYMVER xdr_truncate_encode 0x46f00226
+#SYMVER xdr_truncate_decode 0xe68c8c1a
+#SYMVER xdr_restrict_buflen 0x1320939d
+#SYMVER xdr_write_pages 0x4305976a
+#SYMVER xdr_init_decode 0x394889ac
+#SYMVER xdr_init_decode_pages 0x91ed862f
+#SYMVER xdr_finish_decode 0x3c5c2bff
+#SYMVER xdr_inline_decode 0xbc69f188
+#SYMVER xdr_read_pages 0x0e6aec82
+#SYMVER xdr_set_pagelen 0x2d307424
+#SYMVER xdr_enter_page 0x4d498f81
+#SYMVER xdr_buf_from_iov 0x0f376a01
+#SYMVER xdr_buf_subsegment 0x41e01f70
+#SYMVER xdr_stream_subsegment 0x1da5491a
+#SYMVER xdr_stream_move_subsegment 0x752e00fe
+#SYMVER xdr_stream_zero 0xadbef82b
+#SYMVER xdr_buf_trim 0xa71587d4
+#SYMVER read_bytes_from_xdr_buf 0x75738a3e
+#SYMVER write_bytes_to_xdr_buf 0x08ad9c3f
+#SYMVER xdr_decode_word 0xcf1c8ba2
+#SYMVER xdr_encode_word 0xcee32476
+#SYMVER xdr_decode_array2 0x2ce9073e
+#SYMVER xdr_encode_array2 0xda4a7225
+#SYMVER xdr_process_buf 0xc3b963ec
+#SYMVER xdr_stream_decode_opaque 0xb64b7d6a
+#SYMVER xdr_stream_decode_opaque_dup 0xfb72d03f
+#SYMVER xdr_stream_decode_string 0xa58a6d2b
+#SYMVER xdr_stream_decode_string_dup 0x5dba065f
+#SYMVER xdr_stream_decode_opaque_auth 0x45441a1a
+#SYMVER xdr_stream_encode_opaque_auth 0x2cdc654c

@@ -1,4 +1,4 @@
-savedcmd_drivers/md/md.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/md/.md.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"md"' -DKBUILD_MODNAME='"md_mod"' -D__KBUILD_MODNAME=kmod_md_mod -c -o drivers/md/md.o drivers/md/md.c  
+savedcmd_drivers/md/md.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/md/.md.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"md"' -DKBUILD_MODNAME='"md_mod"' -D__KBUILD_MODNAME=kmod_md_mod -c -o drivers/md/md.o drivers/md/md.c  
 
 source_drivers/md/md.o := drivers/md/md.c
 
@@ -26,6 +26,7 @@ deps_drivers/md/md.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -300,6 +301,7 @@ deps_drivers/md/md.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -540,6 +542,7 @@ deps_drivers/md/md.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -691,6 +694,9 @@ deps_drivers/md/md.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -839,6 +845,7 @@ deps_drivers/md/md.o := \
   include/linux/bvec.h \
   include/linux/highmem.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1103,6 +1110,8 @@ deps_drivers/md/md.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1365,56 +1374,56 @@ deps_drivers/md/md.o := \
 drivers/md/md.o: $(deps_drivers/md/md.o)
 
 $(deps_drivers/md/md.o):
-#SYMVER md_cluster_ops 0xa8794574
+#SYMVER md_cluster_ops 0x4b6537cf
 #SYMVER md_new_event 0xe6e6b684
-#SYMVER md_handle_request 0x962487ea
-#SYMVER mddev_suspend 0x047920c4
-#SYMVER mddev_resume 0x9660afc8
-#SYMVER md_flush_request 0xd9cd6a97
-#SYMVER mddev_init 0x070aad58
-#SYMVER mddev_destroy 0x998a6c7e
-#SYMVER mddev_unlock 0x19c45e13
-#SYMVER md_find_rdev_nr_rcu 0x12d915e7
-#SYMVER md_find_rdev_rcu 0xb51d8082
-#SYMVER md_rdev_clear 0x8ca5cf98
-#SYMVER sync_page_io 0x9c7bd040
-#SYMVER md_check_no_bitmap 0x9973d6d4
-#SYMVER md_integrity_register 0x766b17e5
-#SYMVER md_update_sb 0x7e2541b0
-#SYMVER md_rdev_init 0x180aeacf
-#SYMVER md_idle_sync_thread 0x484fd7f8
-#SYMVER md_frozen_sync_thread 0xfea7fc92
-#SYMVER md_unfrozen_sync_thread 0x8876874c
-#SYMVER mddev_stack_rdev_limits 0xd3a11f99
-#SYMVER mddev_stack_new_rdev 0xf368c02f
-#SYMVER mddev_update_io_opt 0x99cfb28e
+#SYMVER md_handle_request 0x0067c97d
+#SYMVER mddev_suspend 0xd3d1dfaf
+#SYMVER mddev_resume 0x1c4f9aed
+#SYMVER md_flush_request 0x10a66a72
+#SYMVER mddev_init 0x6122f17a
+#SYMVER mddev_destroy 0x2f48aa11
+#SYMVER mddev_unlock 0x893e8e10
+#SYMVER md_find_rdev_nr_rcu 0x502990d3
+#SYMVER md_find_rdev_rcu 0xf700d8ab
+#SYMVER md_rdev_clear 0xa86bad1a
+#SYMVER sync_page_io 0xb52f6559
+#SYMVER md_check_no_bitmap 0x4378b184
+#SYMVER md_integrity_register 0xfe63105e
+#SYMVER md_update_sb 0xd77adab3
+#SYMVER md_rdev_init 0x19d05a5d
+#SYMVER md_idle_sync_thread 0x9d297095
+#SYMVER md_frozen_sync_thread 0xb3ef038e
+#SYMVER md_unfrozen_sync_thread 0x8caf2c98
+#SYMVER mddev_stack_rdev_limits 0xe482f7a0
+#SYMVER mddev_stack_new_rdev 0x4e0caff5
+#SYMVER mddev_update_io_opt 0x2370c7a7
 #SYMVER md_init_stacking_limits 0x36370808
-#SYMVER md_run 0xbce90794
-#SYMVER md_start 0xe5cff8e7
-#SYMVER md_stop_writes 0xdd24106b
-#SYMVER md_stop 0x1a0b0fab
-#SYMVER md_set_array_sectors 0x0b493bde
-#SYMVER __md_wakeup_thread 0x18d5a45e
-#SYMVER md_register_thread 0xb1dfcf02
-#SYMVER md_unregister_thread 0x143e6b2a
-#SYMVER md_error 0x7f75404b
-#SYMVER register_md_personality 0x73cf2efa
-#SYMVER unregister_md_personality 0x2ad1eb0a
-#SYMVER register_md_cluster_operations 0xc245a3ea
+#SYMVER md_run 0xef480952
+#SYMVER md_start 0xaac36fbc
+#SYMVER md_stop_writes 0x31c9a97f
+#SYMVER md_stop 0x1a8af300
+#SYMVER md_set_array_sectors 0x8eb641ab
+#SYMVER __md_wakeup_thread 0x064eaef5
+#SYMVER md_register_thread 0x67a5eb5c
+#SYMVER md_unregister_thread 0x42675af8
+#SYMVER md_error 0x41344b5d
+#SYMVER register_md_personality 0x4c7c74d0
+#SYMVER unregister_md_personality 0x20a10672
+#SYMVER register_md_cluster_operations 0x01bf6390
 #SYMVER unregister_md_cluster_operations 0x15bafe29
-#SYMVER md_done_sync 0x6af4f3bd
-#SYMVER md_write_start 0x9951abe1
-#SYMVER md_write_inc 0x211944de
-#SYMVER md_write_end 0x023eac1e
-#SYMVER md_submit_discard_bio 0x4fd2f548
-#SYMVER md_account_bio 0xcc6f9e09
-#SYMVER md_free_cloned_bio 0x0501b7e2
-#SYMVER md_allow_write 0x48ddde8a
-#SYMVER md_do_sync 0x636147a5
-#SYMVER md_check_recovery 0xaf0eebc4
-#SYMVER md_reap_sync_thread 0xf6639b00
-#SYMVER md_wait_for_blocked_rdev 0x4ab8942b
-#SYMVER md_finish_reshape 0xd37cbe3b
-#SYMVER rdev_set_badblocks 0xeb22f4c1
-#SYMVER rdev_clear_badblocks 0x56491a38
-#SYMVER md_reload_sb 0x41523912
+#SYMVER md_done_sync 0xc9167fc5
+#SYMVER md_write_start 0x7b56564d
+#SYMVER md_write_inc 0xdfecc40c
+#SYMVER md_write_end 0x18f6ecf3
+#SYMVER md_submit_discard_bio 0x3f1f1679
+#SYMVER md_account_bio 0x3c294053
+#SYMVER md_free_cloned_bio 0xb3678f8d
+#SYMVER md_allow_write 0xd27e81e8
+#SYMVER md_do_sync 0x528b093c
+#SYMVER md_check_recovery 0x932b7d1e
+#SYMVER md_reap_sync_thread 0xf19583ce
+#SYMVER md_wait_for_blocked_rdev 0xe2fac1b3
+#SYMVER md_finish_reshape 0x193854fd
+#SYMVER rdev_set_badblocks 0xa37975aa
+#SYMVER rdev_clear_badblocks 0x343b0839
+#SYMVER md_reload_sb 0x52769b93

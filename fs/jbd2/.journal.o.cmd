@@ -1,4 +1,4 @@
-savedcmd_fs/jbd2/journal.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/jbd2/.journal.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/jbd2/jbd2"' -DKBUILD_BASENAME='"journal"' -DKBUILD_MODNAME='"jbd2"' -D__KBUILD_MODNAME=kmod_jbd2 -c -o fs/jbd2/journal.o fs/jbd2/journal.c  
+savedcmd_fs/jbd2/journal.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/jbd2/.journal.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"fs/jbd2/jbd2"' -DKBUILD_BASENAME='"journal"' -DKBUILD_MODNAME='"jbd2"' -D__KBUILD_MODNAME=kmod_jbd2 -c -o fs/jbd2/journal.o fs/jbd2/journal.c  
 
 source_fs/jbd2/journal.o := fs/jbd2/journal.c
 
@@ -26,6 +26,7 @@ deps_fs/jbd2/journal.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -498,6 +499,7 @@ deps_fs/jbd2/journal.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -584,6 +586,7 @@ deps_fs/jbd2/journal.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -678,6 +681,9 @@ deps_fs/jbd2/journal.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -803,6 +809,7 @@ deps_fs/jbd2/journal.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1130,6 +1137,8 @@ deps_fs/jbd2/journal.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1411,54 +1420,54 @@ deps_fs/jbd2/journal.o := \
 fs/jbd2/journal.o: $(deps_fs/jbd2/journal.o)
 
 $(deps_fs/jbd2/journal.o):
-#SYMVER jbd2_journal_extend 0xdb3886dd
-#SYMVER jbd2_journal_stop 0x0f6f842d
-#SYMVER jbd2_journal_lock_updates 0xb60e2431
-#SYMVER jbd2_journal_unlock_updates 0x48f33b3d
-#SYMVER jbd2_journal_get_write_access 0xd4af449b
-#SYMVER jbd2_journal_get_create_access 0x5078c0e6
-#SYMVER jbd2_journal_get_undo_access 0x0a074ba7
-#SYMVER jbd2_journal_set_triggers 0x52aaf812
-#SYMVER jbd2_journal_dirty_metadata 0x0c3d5d9a
-#SYMVER jbd2_journal_forget 0xff9bf801
-#SYMVER jbd2_journal_flush 0x71b66bed
-#SYMVER jbd2_journal_revoke 0x2a72dffd
-#SYMVER jbd2_journal_init_dev 0xd2a3e0f2
-#SYMVER jbd2_journal_init_inode 0x8b49b22b
-#SYMVER jbd2_journal_check_used_features 0x2942c985
-#SYMVER jbd2_journal_check_available_features 0x68aebcb7
-#SYMVER jbd2_journal_set_features 0xdf9265c0
-#SYMVER jbd2_journal_load 0xe7f70c33
-#SYMVER jbd2_journal_destroy 0xf66a4e18
-#SYMVER jbd2_journal_abort 0x4d9d9512
-#SYMVER jbd2_journal_errno 0xe7c4baaa
-#SYMVER jbd2_journal_ack_err 0x3f642598
-#SYMVER jbd2_journal_clear_err 0x10817cb5
-#SYMVER jbd2_log_wait_commit 0x69379e76
-#SYMVER jbd2_journal_start_commit 0x884d36a4
-#SYMVER jbd2_journal_force_commit_nested 0x669c58ee
-#SYMVER jbd2_journal_wipe 0x490e127b
-#SYMVER jbd2_journal_blocks_per_page 0x447ee974
-#SYMVER jbd2_journal_invalidate_folio 0x43e8986d
-#SYMVER jbd2_journal_try_to_free_buffers 0xa1534ba5
-#SYMVER jbd2_journal_force_commit 0x92dbe463
-#SYMVER jbd2_journal_inode_ranged_write 0xf8f3a755
-#SYMVER jbd2_journal_inode_ranged_wait 0x2a737064
-#SYMVER jbd2_journal_finish_inode_data_buffers 0x0336f935
-#SYMVER jbd2_journal_init_jbd_inode 0x56d347e2
-#SYMVER jbd2_journal_release_jbd_inode 0x37e70587
-#SYMVER jbd2_journal_begin_ordered_truncate 0xb3a3279d
+#SYMVER jbd2_journal_extend 0x5a2408b5
+#SYMVER jbd2_journal_stop 0x6c2019bf
+#SYMVER jbd2_journal_lock_updates 0x7382cb26
+#SYMVER jbd2_journal_unlock_updates 0x8d35e91f
+#SYMVER jbd2_journal_get_write_access 0xd662f8b9
+#SYMVER jbd2_journal_get_create_access 0xd67260b2
+#SYMVER jbd2_journal_get_undo_access 0x2c1694da
+#SYMVER jbd2_journal_set_triggers 0x80ea492f
+#SYMVER jbd2_journal_dirty_metadata 0xf87aed51
+#SYMVER jbd2_journal_forget 0x33ad2742
+#SYMVER jbd2_journal_flush 0xf9cab84a
+#SYMVER jbd2_journal_revoke 0x4b760837
+#SYMVER jbd2_journal_init_dev 0x7d3eae24
+#SYMVER jbd2_journal_init_inode 0x2104c902
+#SYMVER jbd2_journal_check_used_features 0x39724f04
+#SYMVER jbd2_journal_check_available_features 0xfed728a3
+#SYMVER jbd2_journal_set_features 0xfa686df7
+#SYMVER jbd2_journal_load 0x6342d214
+#SYMVER jbd2_journal_destroy 0x3077093f
+#SYMVER jbd2_journal_abort 0x95342848
+#SYMVER jbd2_journal_errno 0x5025ccc0
+#SYMVER jbd2_journal_ack_err 0x4c7fe805
+#SYMVER jbd2_journal_clear_err 0xde8c1c88
+#SYMVER jbd2_log_wait_commit 0xbb8f6b56
+#SYMVER jbd2_journal_start_commit 0xbce67710
+#SYMVER jbd2_journal_force_commit_nested 0x9cad09e3
+#SYMVER jbd2_journal_wipe 0x026a91be
+#SYMVER jbd2_journal_blocks_per_page 0x473455b9
+#SYMVER jbd2_journal_invalidate_folio 0x76fab2d5
+#SYMVER jbd2_journal_try_to_free_buffers 0x156cf1e0
+#SYMVER jbd2_journal_force_commit 0x338579b0
+#SYMVER jbd2_journal_inode_ranged_write 0xec95404c
+#SYMVER jbd2_journal_inode_ranged_wait 0x951e7316
+#SYMVER jbd2_journal_finish_inode_data_buffers 0xab5fa87c
+#SYMVER jbd2_journal_init_jbd_inode 0xc97b8e30
+#SYMVER jbd2_journal_release_jbd_inode 0xcf5ae826
+#SYMVER jbd2_journal_begin_ordered_truncate 0x155eae95
 #SYMVER jbd2_inode_cache 0xacd81eb3
-#SYMVER jbd2_trans_will_send_data_barrier 0x40d04515
-#SYMVER jbd2_fc_begin_commit 0x9b7cc669
-#SYMVER jbd2_fc_end_commit 0xdd42ab6c
-#SYMVER jbd2_fc_end_commit_fallback 0xbeb7156a
-#SYMVER jbd2_transaction_committed 0x5cac0015
-#SYMVER jbd2_complete_transaction 0x0cc700f6
-#SYMVER jbd2_fc_get_buf 0x4bbd1f9f
-#SYMVER jbd2_fc_wait_bufs 0xefe61e20
-#SYMVER jbd2_fc_release_bufs 0x3f3df864
-#SYMVER jbd2_journal_update_sb_errno 0xe808227b
-#SYMVER jbd2_journal_clear_features 0x3c814a73
-#SYMVER jbd2_journal_grab_journal_head 0x912737de
-#SYMVER jbd2_journal_put_journal_head 0x05537767
+#SYMVER jbd2_trans_will_send_data_barrier 0x8a23d20e
+#SYMVER jbd2_fc_begin_commit 0x585b8248
+#SYMVER jbd2_fc_end_commit 0x9a1246ae
+#SYMVER jbd2_fc_end_commit_fallback 0x7d085ea5
+#SYMVER jbd2_transaction_committed 0x8969b0da
+#SYMVER jbd2_complete_transaction 0x748c534c
+#SYMVER jbd2_fc_get_buf 0x683da858
+#SYMVER jbd2_fc_wait_bufs 0x7240e175
+#SYMVER jbd2_fc_release_bufs 0x6b41769b
+#SYMVER jbd2_journal_update_sb_errno 0xe61f70a7
+#SYMVER jbd2_journal_clear_features 0x95babc11
+#SYMVER jbd2_journal_grab_journal_head 0x8cc3f98f
+#SYMVER jbd2_journal_put_journal_head 0x09a7342f

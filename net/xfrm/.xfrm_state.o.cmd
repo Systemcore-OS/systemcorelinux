@@ -1,4 +1,4 @@
-savedcmd_net/xfrm/xfrm_state.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/xfrm/.xfrm_state.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/xfrm/xfrm_state"' -DKBUILD_BASENAME='"xfrm_state"' -DKBUILD_MODNAME='"xfrm_state"' -D__KBUILD_MODNAME=kmod_xfrm_state -c -o net/xfrm/xfrm_state.o net/xfrm/xfrm_state.c  
+savedcmd_net/xfrm/xfrm_state.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/xfrm/.xfrm_state.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"net/xfrm/xfrm_state"' -DKBUILD_BASENAME='"xfrm_state"' -DKBUILD_MODNAME='"xfrm_state"' -D__KBUILD_MODNAME=kmod_xfrm_state -c -o net/xfrm/xfrm_state.o net/xfrm/xfrm_state.c  
 
 source_net/xfrm/xfrm_state.o := net/xfrm/xfrm_state.c
 
@@ -10,6 +10,7 @@ deps_net/xfrm/xfrm_state.o := \
     $(wildcard include/config/IPV6) \
     $(wildcard include/config/IPV6_MIP6) \
     $(wildcard include/config/XFRM_USER_COMPAT) \
+    $(wildcard include/config/COMPAT_FOR_U64_ALIGNMENT) \
     $(wildcard include/config/AUDITSYSCALL) \
   include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
@@ -31,6 +32,7 @@ deps_net/xfrm/xfrm_state.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -488,6 +490,7 @@ deps_net/xfrm/xfrm_state.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -574,6 +577,7 @@ deps_net/xfrm/xfrm_state.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -628,7 +632,6 @@ deps_net/xfrm/xfrm_state.o := \
   include/uapi/asm-generic/stat.h \
   arch/arm64/include/asm/compat.h \
   include/asm-generic/compat.h \
-    $(wildcard include/config/COMPAT_FOR_U64_ALIGNMENT) \
   include/linux/sched/task_stack.h \
     $(wildcard include/config/STACK_GROWSUP) \
     $(wildcard include/config/DEBUG_STACK_USAGE) \
@@ -737,6 +740,9 @@ deps_net/xfrm/xfrm_state.o := \
     $(wildcard include/config/DEBUG_OBJECTS) \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
     $(wildcard include/config/ARM64_E0PD) \
@@ -747,6 +753,7 @@ deps_net/xfrm/xfrm_state.o := \
   include/uapi/linux/libc-compat.h \
   include/uapi/linux/hdlc/ioctl.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1163,6 +1170,8 @@ deps_net/xfrm/xfrm_state.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1286,9 +1295,6 @@ deps_net/xfrm/xfrm_state.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1378,6 +1384,7 @@ deps_net/xfrm/xfrm_state.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1638,57 +1645,57 @@ deps_net/xfrm/xfrm_state.o := \
 net/xfrm/xfrm_state.o: $(deps_net/xfrm/xfrm_state.o)
 
 $(deps_net/xfrm/xfrm_state.o):
-#SYMVER xfrm_register_type 0xf4dfe0bd
-#SYMVER xfrm_unregister_type 0xb6e7025c
-#SYMVER xfrm_register_type_offload 0xefe8e428
-#SYMVER xfrm_unregister_type_offload 0xc55d6f61
-#SYMVER xfrm_state_free 0x5224f7a1
-#SYMVER xfrm_state_alloc 0x79255422
-#SYMVER xfrm_dev_state_delete 0xf8509557
-#SYMVER __xfrm_state_destroy 0x0fc20d5f
-#SYMVER __xfrm_state_delete 0x85e139de
-#SYMVER xfrm_state_delete 0xa2919097
-#SYMVER xfrm_state_flush 0xaf5257f3
-#SYMVER xfrm_dev_state_flush 0x0099b8c3
-#SYMVER xfrm_sad_getinfo 0x355f45c3
-#SYMVER xfrm_input_state_lookup 0x75517d24
-#SYMVER xfrm_stateonly_find 0x91b2291b
-#SYMVER xfrm_state_lookup_byspi 0x059dd06b
-#SYMVER xfrm_state_insert 0x0ad47a41
-#SYMVER xfrm_state_add 0x8fbdfdb2
-#SYMVER xfrm_state_update 0x26d371c5
-#SYMVER xfrm_state_check_expire 0x1a6d7c1a
-#SYMVER xfrm_state_lookup 0x1f20e5b9
-#SYMVER xfrm_state_lookup_byaddr 0x67e72d1d
-#SYMVER xfrm_find_acq 0xad4a0cd0
-#SYMVER xfrm_find_acq_byseq 0x0f69e70e
+#SYMVER xfrm_register_type 0x847e7b93
+#SYMVER xfrm_unregister_type 0x316fe4c4
+#SYMVER xfrm_register_type_offload 0x4763b49c
+#SYMVER xfrm_unregister_type_offload 0x6d2f8ed5
+#SYMVER xfrm_state_free 0x8ad46016
+#SYMVER xfrm_state_alloc 0x3cd70dc4
+#SYMVER xfrm_dev_state_delete 0x6a6ca9bf
+#SYMVER __xfrm_state_destroy 0x05fb79ee
+#SYMVER __xfrm_state_delete 0x4fec9efa
+#SYMVER xfrm_state_delete 0x5145157e
+#SYMVER xfrm_state_flush 0x2ad874c0
+#SYMVER xfrm_dev_state_flush 0x69b6f194
+#SYMVER xfrm_sad_getinfo 0x906a2947
+#SYMVER xfrm_input_state_lookup 0x8fc89185
+#SYMVER xfrm_stateonly_find 0x87195656
+#SYMVER xfrm_state_lookup_byspi 0x38b3c7bc
+#SYMVER xfrm_state_insert 0x4e5bd2b1
+#SYMVER xfrm_state_add 0xd93300ef
+#SYMVER xfrm_state_update 0xab8b265a
+#SYMVER xfrm_state_check_expire 0x8373ee35
+#SYMVER xfrm_state_lookup 0x967cf097
+#SYMVER xfrm_state_lookup_byaddr 0x714c5250
+#SYMVER xfrm_find_acq 0x076e40da
+#SYMVER xfrm_find_acq_byseq 0x4d509f95
 #SYMVER xfrm_get_acqseq 0xb01bebf9
 #SYMVER verify_spi_info 0x37e497e8
-#SYMVER xfrm_alloc_spi 0xe8163dbf
-#SYMVER xfrm_state_walk 0xf92303d7
+#SYMVER xfrm_alloc_spi 0x9525d3f0
+#SYMVER xfrm_state_walk 0x73423e74
 #SYMVER xfrm_state_walk_init 0x2782b393
-#SYMVER xfrm_state_walk_done 0xbbd638a7
-#SYMVER km_policy_notify 0x74a38fe4
-#SYMVER km_state_notify 0x62c7ea93
-#SYMVER km_state_expired 0x0919559d
-#SYMVER km_query 0x43b36e46
-#SYMVER km_new_mapping 0xbb31cf15
-#SYMVER km_policy_expired 0xb9dcb2e7
-#SYMVER km_report 0xec4d9e66
-#SYMVER xfrm_user_policy 0x5443f0f3
-#SYMVER xfrm_register_km 0x645384a8
-#SYMVER xfrm_unregister_km 0x87381bb8
-#SYMVER xfrm_state_register_afinfo 0xdb59287e
-#SYMVER xfrm_state_unregister_afinfo 0xd6ccd617
-#SYMVER xfrm_state_afinfo_get_rcu 0x6b7ed06a
+#SYMVER xfrm_state_walk_done 0xf0c70adc
+#SYMVER km_policy_notify 0xc7dc7bc9
+#SYMVER km_state_notify 0xcfae7a69
+#SYMVER km_state_expired 0xfb1f673e
+#SYMVER km_query 0xbd3e45ce
+#SYMVER km_new_mapping 0xb26bb16a
+#SYMVER km_policy_expired 0xf35c0ee7
+#SYMVER km_report 0xafd3ce5d
+#SYMVER xfrm_user_policy 0x5814daeb
+#SYMVER xfrm_register_km 0x8bc1b2f8
+#SYMVER xfrm_unregister_km 0x0d3e1e70
+#SYMVER xfrm_state_register_afinfo 0x547d11f4
+#SYMVER xfrm_state_unregister_afinfo 0x17ea3161
+#SYMVER xfrm_state_afinfo_get_rcu 0x26d9013d
 #SYMVER xfrm_flush_gc 0x659ded26
-#SYMVER xfrm_state_mtu 0xbe47e5d7
-#SYMVER __xfrm_init_state 0x8853b4c6
-#SYMVER xfrm_init_state 0xaa5a28fa
-#SYMVER xfrm_audit_state_add 0x452b9bc2
-#SYMVER xfrm_audit_state_delete 0xa5aa58ac
-#SYMVER xfrm_audit_state_replay_overflow 0xf355dd74
-#SYMVER xfrm_audit_state_replay 0xa14c0dab
-#SYMVER xfrm_audit_state_notfound_simple 0x449b7094
-#SYMVER xfrm_audit_state_notfound 0x471f6dec
-#SYMVER xfrm_audit_state_icvfail 0xd81c3e15
+#SYMVER xfrm_state_mtu 0xb3ab1dd8
+#SYMVER __xfrm_init_state 0x69a67eb6
+#SYMVER xfrm_init_state 0x51535953
+#SYMVER xfrm_audit_state_add 0x9f16782a
+#SYMVER xfrm_audit_state_delete 0x2eb4f44a
+#SYMVER xfrm_audit_state_replay_overflow 0x1c063eea
+#SYMVER xfrm_audit_state_replay 0x8fbb9332
+#SYMVER xfrm_audit_state_notfound_simple 0x961f3020
+#SYMVER xfrm_audit_state_notfound 0x07847fae
+#SYMVER xfrm_audit_state_icvfail 0x6d1c6cb1

@@ -12,13 +12,13 @@
 #define TSK_TI_FLAGS 0 /* offsetof(struct task_struct, thread_info.flags) */
 #define TSK_TI_PREEMPT 8 /* offsetof(struct task_struct, thread_info.preempt_count) */
 #define TSK_STACK 32 /* offsetof(struct task_struct, stack) */
-#define TSK_STACK_CANARY 1416 /* offsetof(struct task_struct, stack_canary) */
+#define TSK_STACK_CANARY 1456 /* offsetof(struct task_struct, stack_canary) */
 
-#define THREAD_CPU_CONTEXT 2896 /* offsetof(struct task_struct, thread.cpu_context) */
-#define THREAD_SCTLR_USER 4544 /* offsetof(struct task_struct, thread.sctlr_user) */
-#define THREAD_KEYS_USER 4440 /* offsetof(struct task_struct, thread.keys_user) */
-#define THREAD_KEYS_KERNEL 4520 /* offsetof(struct task_struct, thread.keys_kernel) */
-#define THREAD_MTE_CTRL 4536 /* offsetof(struct task_struct, thread.mte_ctrl) */
+#define THREAD_CPU_CONTEXT 2944 /* offsetof(struct task_struct, thread.cpu_context) */
+#define THREAD_SCTLR_USER 4592 /* offsetof(struct task_struct, thread.sctlr_user) */
+#define THREAD_KEYS_USER 4488 /* offsetof(struct task_struct, thread.keys_user) */
+#define THREAD_KEYS_KERNEL 4568 /* offsetof(struct task_struct, thread.keys_kernel) */
+#define THREAD_MTE_CTRL 4584 /* offsetof(struct task_struct, thread.mte_ctrl) */
 
 #define S_X0 0 /* offsetof(struct pt_regs, regs[0]) */
 #define S_X2 16 /* offsetof(struct pt_regs, regs[2]) */

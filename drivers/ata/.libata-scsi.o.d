@@ -1,8 +1,9 @@
 libata-scsi.o: drivers/ata/libata-scsi.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/compat.h include/linux/types.h include/uapi/linux/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/compat.h \
+ include/linux/types.h include/uapi/linux/types.h \
  arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
@@ -291,19 +292,19 @@ libata-scsi.o: drivers/ata/libata-scsi.c include/linux/compiler-version.h \
  include/linux/range.h include/linux/page_ext.h \
  include/linux/stacktrace.h include/linux/page_ref.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
- include/linux/vmstat.h include/linux/vm_event_item.h \
- include/linux/module.h include/linux/kmod.h include/linux/umh.h \
- include/linux/elf.h arch/arm64/include/asm/elf.h \
- arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
- include/uapi/linux/elf.h include/uapi/linux/elf-em.h \
- include/linux/moduleparam.h include/linux/rbtree_latch.h \
- include/linux/error-injection.h include/asm-generic/error-injection.h \
- include/linux/dynamic_debug.h arch/arm64/include/asm/module.h \
- include/asm-generic/module.h include/linux/ptrace.h \
- include/linux/pid_namespace.h include/linux/nsproxy.h \
- include/linux/ns_common.h include/uapi/linux/ptrace.h \
- include/linux/seccomp.h include/uapi/linux/seccomp.h \
- arch/arm64/include/asm/seccomp.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/vm_event_item.h include/linux/module.h \
+ include/linux/kmod.h include/linux/umh.h include/linux/elf.h \
+ arch/arm64/include/asm/elf.h arch/arm64/include/generated/asm/user.h \
+ include/asm-generic/user.h include/uapi/linux/elf.h \
+ include/uapi/linux/elf-em.h include/linux/moduleparam.h \
+ include/linux/rbtree_latch.h include/linux/error-injection.h \
+ include/asm-generic/error-injection.h include/linux/dynamic_debug.h \
+ arch/arm64/include/asm/module.h include/asm-generic/module.h \
+ include/linux/ptrace.h include/linux/pid_namespace.h \
+ include/linux/nsproxy.h include/linux/ns_common.h \
+ include/uapi/linux/ptrace.h include/linux/seccomp.h \
+ include/uapi/linux/seccomp.h arch/arm64/include/asm/seccomp.h \
  arch/arm64/include/generated/asm/unistd_compat_32.h \
  include/asm-generic/seccomp.h arch/arm64/include/asm/ftrace.h \
  include/linux/objpool.h include/linux/rethook.h \
@@ -326,8 +327,7 @@ libata-scsi.o: drivers/ata/libata-scsi.c include/linux/compiler-version.h \
  include/linux/ctype.h include/linux/string_choices.h \
  include/linux/blk-mq.h include/linux/scatterlist.h \
  include/linux/prefetch.h include/scsi/scsi_cmnd.h \
- include/linux/dma-mapping.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/t10-pi.h \
+ include/linux/dma-mapping.h include/linux/t10-pi.h \
  include/scsi/scsi_device.h include/scsi/scsi_eh.h \
  include/scsi/scsi_tcq.h include/scsi/scsi_transport.h \
  include/linux/transport_class.h include/linux/attribute_container.h \

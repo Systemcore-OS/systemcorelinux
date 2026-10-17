@@ -1,4 +1,4 @@
-savedcmd_kernel/params.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/.params.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"kernel/params"' -DKBUILD_BASENAME='"params"' -DKBUILD_MODNAME='"params"' -D__KBUILD_MODNAME=kmod_params -c -o kernel/params.o kernel/params.c  
+savedcmd_kernel/params.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/.params.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"kernel/params"' -DKBUILD_BASENAME='"params"' -DKBUILD_MODNAME='"params"' -D__KBUILD_MODNAME=kmod_params -c -o kernel/params.o kernel/params.c  
 
 source_kernel/params.o := kernel/params.c
 
@@ -25,6 +25,7 @@ deps_kernel/params.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -207,6 +208,7 @@ deps_kernel/params.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -557,6 +559,7 @@ deps_kernel/params.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -670,6 +673,9 @@ deps_kernel/params.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -871,6 +877,7 @@ deps_kernel/params.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1080,6 +1087,8 @@ deps_kernel/params.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1342,51 +1351,51 @@ deps_kernel/params.o := \
 kernel/params.o: $(deps_kernel/params.o)
 
 $(deps_kernel/params.o):
-#SYMVER param_set_byte 0xf9fccff8
-#SYMVER param_get_byte 0x16bbf2f6
-#SYMVER param_ops_byte 0xcfb8b31a
-#SYMVER param_set_short 0x4bd49aa1
-#SYMVER param_get_short 0x993a774d
-#SYMVER param_ops_short 0xc16d1cbb
-#SYMVER param_set_ushort 0x63b77e1a
-#SYMVER param_get_ushort 0xc2a70113
-#SYMVER param_ops_ushort 0x75d6b88f
-#SYMVER param_set_int 0xf16fa618
-#SYMVER param_get_int 0x4a0dd9a2
-#SYMVER param_ops_int 0xc59274db
-#SYMVER param_set_uint 0xc6b54dc6
-#SYMVER param_get_uint 0xfba70cca
-#SYMVER param_ops_uint 0x0f09aaa1
-#SYMVER param_set_long 0xa2b7f2e9
-#SYMVER param_get_long 0x0d2c2f46
-#SYMVER param_ops_long 0x267d411c
-#SYMVER param_set_ulong 0xc3ebd7d1
-#SYMVER param_get_ulong 0x4ef46cf9
-#SYMVER param_ops_ulong 0x966742e0
-#SYMVER param_set_ullong 0x7d2a7905
-#SYMVER param_get_ullong 0xb9a1d945
-#SYMVER param_ops_ullong 0x0605b587
-#SYMVER param_set_hexint 0x7ff78bd0
-#SYMVER param_get_hexint 0x4c81a7f7
-#SYMVER param_ops_hexint 0xf6e7364d
-#SYMVER param_set_uint_minmax 0x29c664dc
-#SYMVER param_set_charp 0x63598c15
-#SYMVER param_get_charp 0x4b2d31d7
+#SYMVER param_set_byte 0xf3591cd9
+#SYMVER param_get_byte 0xbd17db5f
+#SYMVER param_ops_byte 0x1ddd5ab8
+#SYMVER param_set_short 0xb53a32f6
+#SYMVER param_get_short 0xcaf079a6
+#SYMVER param_ops_short 0xf967bb96
+#SYMVER param_set_ushort 0x2e6617f7
+#SYMVER param_get_ushort 0x47412942
+#SYMVER param_ops_ushort 0x3031ee5d
+#SYMVER param_set_int 0xaa8a352d
+#SYMVER param_get_int 0x3631d314
+#SYMVER param_ops_int 0xadfe2bfd
+#SYMVER param_set_uint 0x95f9318f
+#SYMVER param_get_uint 0x0df4c562
+#SYMVER param_ops_uint 0xdd6c4303
+#SYMVER param_set_long 0x50a901cb
+#SYMVER param_get_long 0xe3d462c5
+#SYMVER param_ops_long 0xf418a8be
+#SYMVER param_set_ulong 0x684eb00b
+#SYMVER param_get_ulong 0x5a8973da
+#SYMVER param_ops_ulong 0xae6de5cd
+#SYMVER param_set_ullong 0x30366b8a
+#SYMVER param_get_ullong 0xeeca007c
+#SYMVER param_ops_ullong 0x43e2e355
+#SYMVER param_set_hexint 0x57b6713a
+#SYMVER param_get_hexint 0xec8b4237
+#SYMVER param_ops_hexint 0xb300609f
+#SYMVER param_set_uint_minmax 0xff39fdb9
+#SYMVER param_set_charp 0x44a6f87e
+#SYMVER param_get_charp 0x28bf39d7
 #SYMVER param_free_charp 0x27479d14
-#SYMVER param_ops_charp 0x4608ac17
-#SYMVER param_set_bool 0xaf02410b
-#SYMVER param_get_bool 0x1fd40587
-#SYMVER param_ops_bool 0x7b7b4c81
-#SYMVER param_set_bool_enable_only 0x58b727d9
-#SYMVER param_ops_bool_enable_only 0xa40a585f
-#SYMVER param_set_invbool 0x940c3f5e
-#SYMVER param_get_invbool 0x4048f780
-#SYMVER param_ops_invbool 0x96833aa6
-#SYMVER param_set_bint 0x262bcfc0
-#SYMVER param_ops_bint 0xddc9e133
-#SYMVER param_array_ops 0x3bfbdf46
-#SYMVER param_set_copystring 0xf20030ed
-#SYMVER param_get_string 0xa191a843
-#SYMVER param_ops_string 0x70eb7674
-#SYMVER kernel_param_lock 0x5dfbe9df
-#SYMVER kernel_param_unlock 0xd0de65b6
+#SYMVER param_ops_charp 0x7e020b3a
+#SYMVER param_set_bool 0xf70f34f8
+#SYMVER param_get_bool 0x05a900e9
+#SYMVER param_ops_bool 0xa91ea523
+#SYMVER param_set_bool_enable_only 0xfba7cdf9
+#SYMVER param_ops_bool_enable_only 0x61804971
+#SYMVER param_set_invbool 0xfe81be85
+#SYMVER param_get_invbool 0x777007a9
+#SYMVER param_ops_invbool 0xfe1b6e08
+#SYMVER param_set_bint 0xe4ecf239
+#SYMVER param_ops_bint 0x0fac0891
+#SYMVER param_array_ops 0x03f1786b
+#SYMVER param_set_copystring 0xfa20994c
+#SYMVER param_get_string 0xc33c1d76
+#SYMVER param_ops_string 0x350c20a6
+#SYMVER kernel_param_lock 0x3aee322c
+#SYMVER kernel_param_unlock 0x695cfd31

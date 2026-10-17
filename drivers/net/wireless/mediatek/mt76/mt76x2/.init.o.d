@@ -1,6 +1,7 @@
 init.o: drivers/net/wireless/mediatek/mt76/mt76x2/init.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h \
  drivers/net/wireless/mediatek/mt76/mt76x2/mt76x2.h \
@@ -275,14 +276,13 @@ init.o: drivers/net/wireless/mediatek/mt76/mt76x2/init.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
- include/linux/fwnode.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/skbuff.h \
- include/linux/bvec.h include/linux/highmem.h include/linux/cacheflush.h \
+ include/linux/fwnode.h include/linux/skbuff.h include/linux/bvec.h \
+ include/linux/highmem.h include/linux/cacheflush.h \
  arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
  include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/interrupt.h \

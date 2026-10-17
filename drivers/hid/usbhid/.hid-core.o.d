@@ -1,6 +1,7 @@
 hid-core.o: drivers/hid/usbhid/hid-core.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/module.h \
  include/linux/list.h include/linux/container_of.h \
@@ -261,21 +262,22 @@ hid-core.o: drivers/hid/usbhid/hid-core.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/property.h \
- include/linux/fwnode.h include/linux/unaligned.h \
- include/linux/unaligned/packed_struct.h include/vdso/unaligned.h \
- include/linux/input.h include/uapi/linux/input.h \
- include/uapi/linux/input-event-codes.h include/linux/device.h \
- include/linux/dev_printk.h include/linux/energy_model.h \
- include/linux/sched/cpufreq.h include/linux/sched/topology.h \
- include/linux/sched/idle.h include/linux/sched/sd_flags.h \
- include/linux/klist.h include/linux/pm.h include/linux/device/bus.h \
- include/linux/device/class.h include/linux/device/devres.h \
- include/linux/device/driver.h arch/arm64/include/asm/device.h \
- include/linux/pm_wakeup.h include/linux/mod_devicetable.h \
- include/uapi/linux/mei.h include/uapi/linux/mei_uuid.h \
- include/linux/usb.h include/linux/usb/ch9.h include/uapi/linux/usb/ch9.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/property.h include/linux/fwnode.h \
+ include/linux/unaligned.h include/linux/unaligned/packed_struct.h \
+ include/vdso/unaligned.h include/linux/input.h \
+ include/uapi/linux/input.h include/uapi/linux/input-event-codes.h \
+ include/linux/device.h include/linux/dev_printk.h \
+ include/linux/energy_model.h include/linux/sched/cpufreq.h \
+ include/linux/sched/topology.h include/linux/sched/idle.h \
+ include/linux/sched/sd_flags.h include/linux/klist.h include/linux/pm.h \
+ include/linux/device/bus.h include/linux/device/class.h \
+ include/linux/device/devres.h include/linux/device/driver.h \
+ arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
+ include/linux/mod_devicetable.h include/uapi/linux/mei.h \
+ include/uapi/linux/mei_uuid.h include/linux/usb.h \
+ include/linux/usb/ch9.h include/uapi/linux/usb/ch9.h \
  include/linux/delay.h arch/arm64/include/generated/asm/delay.h \
  include/asm-generic/delay.h include/linux/interrupt.h \
  include/linux/irqreturn.h include/linux/hardirq.h \

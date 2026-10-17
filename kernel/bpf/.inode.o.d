@@ -1,8 +1,9 @@
 inode.o: kernel/bpf/inode.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/init.h include/linux/build_bug.h include/linux/compiler.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/init.h \
+ include/linux/build_bug.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
  include/asm-generic/rwonce.h include/linux/kasan-checks.h \
  include/linux/types.h include/uapi/linux/types.h \
@@ -258,9 +259,9 @@ inode.o: kernel/bpf/inode.c include/linux/compiler-version.h \
  include/linux/page_table_check.h include/asm-generic/pgtable_uffd.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sockptr.h \
- include/linux/bpf.h include/uapi/linux/bpf.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sockptr.h include/linux/bpf.h include/uapi/linux/bpf.h \
  include/uapi/linux/bpf_common.h include/uapi/linux/filter.h \
  include/linux/rbtree_latch.h include/linux/module.h \
  include/linux/buildid.h include/linux/kmod.h include/linux/umh.h \
@@ -351,7 +352,6 @@ inode.o: kernel/bpf/inode.c include/linux/compiler-version.h \
  arch/arm64/include/asm/checksum.h include/linux/in6.h \
  include/uapi/linux/in6.h include/asm-generic/checksum.h \
  include/linux/dma-mapping.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/linux/siphash.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
@@ -361,8 +361,8 @@ inode.o: kernel/bpf/inode.c include/linux/compiler-version.h \
  include/net/net_debug.h include/net/dropreason-core.h \
  include/net/netmem.h include/linux/sched/clock.h \
  include/linux/set_memory.h arch/arm64/include/asm/set_memory.h \
- include/asm-generic/set_memory.h include/linux/if_vlan.h \
- include/linux/netdevice.h include/linux/delay.h \
+ arch/arm64/include/asm/mem_encrypt.h include/asm-generic/set_memory.h \
+ include/linux/if_vlan.h include/linux/netdevice.h include/linux/delay.h \
  arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
  include/linux/prefetch.h include/linux/dynamic_queue_limits.h \
  include/net/net_namespace.h include/net/netns/core.h \

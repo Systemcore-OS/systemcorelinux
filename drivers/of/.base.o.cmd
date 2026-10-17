@@ -1,4 +1,4 @@
-savedcmd_drivers/of/base.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/of/.base.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/of/base"' -DKBUILD_BASENAME='"base"' -DKBUILD_MODNAME='"base"' -D__KBUILD_MODNAME=kmod_base -c -o drivers/of/base.o drivers/of/base.c  
+savedcmd_drivers/of/base.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/of/.base.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/of/base"' -DKBUILD_BASENAME='"base"' -DKBUILD_MODNAME='"base"' -D__KBUILD_MODNAME=kmod_base -c -o drivers/of/base.o drivers/of/base.c  
 
 source_drivers/of/base.o := drivers/of/base.c
 
@@ -26,6 +26,7 @@ deps_drivers/of/base.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -530,6 +531,7 @@ deps_drivers/of/base.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -579,6 +581,7 @@ deps_drivers/of/base.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -732,6 +735,9 @@ deps_drivers/of/base.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -936,6 +942,7 @@ deps_drivers/of/base.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1050,45 +1057,45 @@ deps_drivers/of/base.o := \
 drivers/of/base.o: $(deps_drivers/of/base.o)
 
 $(deps_drivers/of/base.o):
-#SYMVER of_root 0xa2144c27
-#SYMVER of_chosen 0x134cb984
-#SYMVER of_node_name_eq 0xa507be7e
-#SYMVER of_node_name_prefix 0x5740a5d1
-#SYMVER of_n_addr_cells 0x472fbe06
-#SYMVER of_n_size_cells 0x5c2796d8
-#SYMVER of_find_property 0xc3a30332
-#SYMVER of_find_all_nodes 0x7cbe4aae
-#SYMVER of_get_property 0x788c77c9
-#SYMVER of_device_is_compatible 0xf1982e00
-#SYMVER of_device_compatible_match 0x7d5a2409
+#SYMVER of_root 0xeed2a7ce
+#SYMVER of_chosen 0xab288617
+#SYMVER of_node_name_eq 0x4d2bd330
+#SYMVER of_node_name_prefix 0x8f6f49cb
+#SYMVER of_n_addr_cells 0x16659013
+#SYMVER of_n_size_cells 0xd1043d00
+#SYMVER of_find_property 0xe9025c63
+#SYMVER of_find_all_nodes 0x512f5e54
+#SYMVER of_get_property 0x9128e8ee
+#SYMVER of_device_is_compatible 0xcabc789b
+#SYMVER of_device_compatible_match 0x31f9e98c
 #SYMVER of_machine_compatible_match 0xe2fdcc90
-#SYMVER of_device_is_available 0xc501c384
-#SYMVER of_device_is_big_endian 0x5a64975b
-#SYMVER of_get_parent 0x65b7ad9d
-#SYMVER of_get_next_parent 0xc00208e6
-#SYMVER of_get_next_child 0xee1af1e1
-#SYMVER of_get_next_available_child 0xf0aae07a
-#SYMVER of_get_next_reserved_child 0xbd6050e8
-#SYMVER of_get_next_cpu_node 0xed8baf80
-#SYMVER of_get_compatible_child 0x54dad2f6
-#SYMVER of_get_child_by_name 0x54c80bc6
-#SYMVER of_find_node_opts_by_path 0x03024ea9
-#SYMVER of_find_node_by_name 0xf06abe4f
-#SYMVER of_find_node_by_type 0x7305bfb6
-#SYMVER of_find_compatible_node 0x4570ac62
-#SYMVER of_find_node_with_property 0x0e2e933d
-#SYMVER of_match_node 0xb4ef11b3
-#SYMVER of_find_matching_node_and_match 0x682e990a
-#SYMVER of_alias_from_compatible 0x1ec10cae
-#SYMVER of_find_node_by_phandle 0x72eff51b
-#SYMVER of_phandle_iterator_init 0x7ef1b9b1
-#SYMVER of_phandle_iterator_next 0xe0384b55
-#SYMVER __of_parse_phandle_with_args 0xfb1a6fa4
-#SYMVER of_parse_phandle_with_args_map 0xeede3545
-#SYMVER of_count_phandle_with_args 0x9120822b
-#SYMVER of_add_property 0xa535653d
-#SYMVER of_remove_property 0x71d346db
-#SYMVER of_alias_get_id 0x76f440c7
+#SYMVER of_device_is_available 0x6669dc8a
+#SYMVER of_device_is_big_endian 0xbe569af8
+#SYMVER of_get_parent 0x913e5d46
+#SYMVER of_get_next_parent 0x9d4782f0
+#SYMVER of_get_next_child 0xe9013ca3
+#SYMVER of_get_next_available_child 0xc71bc00b
+#SYMVER of_get_next_reserved_child 0xd47bd103
+#SYMVER of_get_next_cpu_node 0xfc7e2d2c
+#SYMVER of_get_compatible_child 0x81c046b6
+#SYMVER of_get_child_by_name 0x7a2396f5
+#SYMVER of_find_node_opts_by_path 0x14805aed
+#SYMVER of_find_node_by_name 0x81ccb9d2
+#SYMVER of_find_node_by_type 0x02a3b82b
+#SYMVER of_find_compatible_node 0xb1755b72
+#SYMVER of_find_node_with_property 0x20c50e0e
+#SYMVER of_match_node 0xabd098d6
+#SYMVER of_find_matching_node_and_match 0x986db377
+#SYMVER of_alias_from_compatible 0x3c0ad6e7
+#SYMVER of_find_node_by_phandle 0xcbfbec33
+#SYMVER of_phandle_iterator_init 0xe7d2f5b2
+#SYMVER of_phandle_iterator_next 0xd2d3cd9b
+#SYMVER __of_parse_phandle_with_args 0xc2435f4b
+#SYMVER of_parse_phandle_with_args_map 0xe04410a0
+#SYMVER of_count_phandle_with_args 0x0b2d5f1a
+#SYMVER of_add_property 0xb9fe49d5
+#SYMVER of_remove_property 0x076f73e9
+#SYMVER of_alias_get_id 0x45772678
 #SYMVER of_alias_get_highest_id 0x0321cdbf
-#SYMVER of_console_check 0xa6458ae9
-#SYMVER of_map_id 0xb61fec8f
+#SYMVER of_console_check 0xa027a525
+#SYMVER of_map_id 0x829642c7

@@ -1,6 +1,7 @@
 asymmetric_type.o: crypto/asymmetric_keys/asymmetric_type.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/keys/asymmetric-subtype.h \
  include/linux/seq_file.h include/linux/types.h \

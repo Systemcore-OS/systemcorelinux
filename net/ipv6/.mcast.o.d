@@ -1,8 +1,9 @@
 mcast.o: net/ipv6/mcast.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/module.h include/linux/list.h include/linux/container_of.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/module.h \
+ include/linux/list.h include/linux/container_of.h \
  include/linux/build_bug.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
  include/asm-generic/rwonce.h include/linux/kasan-checks.h \
@@ -265,16 +266,17 @@ mcast.o: net/ipv6/mcast.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sockptr.h \
- include/uapi/linux/net.h include/linux/in.h include/uapi/linux/in.h \
- include/uapi/linux/libc-compat.h include/linux/in6.h \
- include/uapi/linux/in6.h include/linux/netdevice.h include/linux/delay.h \
- arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
- include/linux/prefetch.h arch/arm64/include/generated/asm/local.h \
- include/asm-generic/local.h include/linux/dynamic_queue_limits.h \
- include/net/net_namespace.h include/net/flow.h include/net/netns/core.h \
- include/net/netns/mib.h include/net/snmp.h include/uapi/linux/snmp.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sockptr.h include/uapi/linux/net.h include/linux/in.h \
+ include/uapi/linux/in.h include/uapi/linux/libc-compat.h \
+ include/linux/in6.h include/uapi/linux/in6.h include/linux/netdevice.h \
+ include/linux/delay.h arch/arm64/include/generated/asm/delay.h \
+ include/asm-generic/delay.h include/linux/prefetch.h \
+ arch/arm64/include/generated/asm/local.h include/asm-generic/local.h \
+ include/linux/dynamic_queue_limits.h include/net/net_namespace.h \
+ include/net/flow.h include/net/netns/core.h include/net/netns/mib.h \
+ include/net/snmp.h include/uapi/linux/snmp.h \
  include/linux/u64_stats_sync.h \
  arch/arm64/include/generated/asm/local64.h include/asm-generic/local64.h \
  include/net/netns/unix.h include/net/netns/packet.h \
@@ -348,8 +350,7 @@ mcast.o: net/ipv6/mcast.c include/linux/compiler-version.h \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
  include/uapi/linux/if_packet.h include/net/net_debug.h \
@@ -418,8 +419,9 @@ mcast.o: net/ipv6/mcast.c include/linux/compiler-version.h \
  include/uapi/linux/lwtunnel.h include/net/sock_reuseport.h \
  include/linux/filter.h include/linux/sched/clock.h \
  include/linux/set_memory.h arch/arm64/include/asm/set_memory.h \
- include/asm-generic/set_memory.h include/linux/if_vlan.h \
- include/linux/etherdevice.h include/linux/crc32.h include/linux/bitrev.h \
+ arch/arm64/include/asm/mem_encrypt.h include/asm-generic/set_memory.h \
+ include/linux/if_vlan.h include/linux/etherdevice.h \
+ include/linux/crc32.h include/linux/bitrev.h \
  arch/arm64/include/asm/bitrev.h include/linux/unaligned.h \
  include/vdso/unaligned.h include/uapi/linux/if_vlan.h \
  include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
@@ -433,7 +435,8 @@ mcast.o: net/ipv6/mcast.c include/linux/compiler-version.h \
  include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
  arch/arm64/include/asm/syscall.h include/net/ip6_fib.h \
  include/linux/ipv6_route.h include/uapi/linux/ipv6_route.h \
- include/net/gro_cells.h include/linux/bpf-cgroup.h \
- include/net/addrconf.h include/net/netfilter/ipv6/nf_defrag_ipv6.h \
- include/net/protocol.h include/net/ip6_route.h include/net/nexthop.h \
- include/net/inet_common.h include/net/ip6_checksum.h
+ include/net/gro_cells.h include/net/secure_seq.h \
+ include/linux/bpf-cgroup.h include/net/addrconf.h \
+ include/net/netfilter/ipv6/nf_defrag_ipv6.h include/net/protocol.h \
+ include/net/ip6_route.h include/net/nexthop.h include/net/inet_common.h \
+ include/net/ip6_checksum.h

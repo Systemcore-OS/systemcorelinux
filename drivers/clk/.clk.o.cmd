@@ -1,4 +1,4 @@
-savedcmd_drivers/clk/clk.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/clk/.clk.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/clk/clk"' -DKBUILD_BASENAME='"clk"' -DKBUILD_MODNAME='"clk"' -D__KBUILD_MODNAME=kmod_clk -c -o drivers/clk/clk.o drivers/clk/clk.c  
+savedcmd_drivers/clk/clk.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/clk/.clk.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/clk/clk"' -DKBUILD_BASENAME='"clk"' -DKBUILD_MODNAME='"clk"' -D__KBUILD_MODNAME=kmod_clk -c -o drivers/clk/clk.o drivers/clk/clk.c  
 
 source_drivers/clk/clk.o := drivers/clk/clk.c
 
@@ -26,6 +26,7 @@ deps_drivers/clk/clk.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -581,6 +582,7 @@ deps_drivers/clk/clk.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -629,6 +631,7 @@ deps_drivers/clk/clk.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -712,6 +715,9 @@ deps_drivers/clk/clk.o := \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/list_nulls.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -842,6 +848,7 @@ deps_drivers/clk/clk.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1122,6 +1129,8 @@ deps_drivers/clk/clk.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1410,42 +1419,42 @@ drivers/clk/clk.o: $(deps_drivers/clk/clk.o)
 
 $(deps_drivers/clk/clk.o):
 #SYMVER __clk_get_name 0xc569d8ce
-#SYMVER clk_hw_get_name 0x70520ace
-#SYMVER __clk_get_hw 0xea9e9c8c
-#SYMVER clk_hw_get_num_parents 0x4e03efb3
-#SYMVER clk_hw_get_parent 0xe40a62aa
-#SYMVER clk_hw_get_parent_by_index 0x7bf48fca
-#SYMVER clk_hw_get_rate 0x38cdda3d
-#SYMVER clk_hw_get_flags 0xe4796859
-#SYMVER clk_hw_is_prepared 0x4b36ed0e
-#SYMVER clk_hw_rate_is_protected 0xcf787894
-#SYMVER clk_hw_is_enabled 0x4371f48a
+#SYMVER clk_hw_get_name 0x478f23ef
+#SYMVER __clk_get_hw 0x3692a319
+#SYMVER clk_hw_get_num_parents 0xfcb22fb0
+#SYMVER clk_hw_get_parent 0xa52ed0ae
+#SYMVER clk_hw_get_parent_by_index 0x4862b564
+#SYMVER clk_hw_get_rate 0x5620000e
+#SYMVER clk_hw_get_flags 0xed55a262
+#SYMVER clk_hw_is_prepared 0x7a869454
+#SYMVER clk_hw_rate_is_protected 0x7a6ad5fb
+#SYMVER clk_hw_is_enabled 0x2754aeeb
 #SYMVER __clk_is_enabled 0xc6a4a872
-#SYMVER clk_mux_determine_rate_flags 0x93063344
-#SYMVER clk_hw_get_rate_range 0xb9658cd5
-#SYMVER clk_hw_set_rate_range 0x4f37d6b9
-#SYMVER __clk_mux_determine_rate 0x896c69a9
-#SYMVER __clk_mux_determine_rate_closest 0xad6b4df2
-#SYMVER clk_hw_determine_rate_no_reparent 0x2c18e4c0
+#SYMVER clk_mux_determine_rate_flags 0x7ed089e6
+#SYMVER clk_hw_get_rate_range 0xf9853610
+#SYMVER clk_hw_set_rate_range 0x4588f8c5
+#SYMVER __clk_mux_determine_rate 0x20bcbfbe
+#SYMVER __clk_mux_determine_rate_closest 0x19b954f2
+#SYMVER clk_hw_determine_rate_no_reparent 0xe3dde3f9
 #SYMVER clk_rate_exclusive_put 0xacb4d88c
 #SYMVER clk_rate_exclusive_get 0x6257dda7
-#SYMVER devm_clk_rate_exclusive_get 0xe8eecfe4
+#SYMVER devm_clk_rate_exclusive_get 0x6fbf9a4e
 #SYMVER clk_unprepare 0xb077e70a
 #SYMVER clk_prepare 0x7c9a7371
 #SYMVER clk_disable 0xb6e6d99d
-#SYMVER clk_gate_restore_context 0x879fca3e
+#SYMVER clk_gate_restore_context 0x1db2b267
 #SYMVER clk_save_context 0xa531471e
 #SYMVER clk_restore_context 0x6259d291
 #SYMVER clk_enable 0x815588a6
 #SYMVER clk_is_enabled_when_prepared 0x5eae5408
-#SYMVER clk_hw_init_rate_request 0x889bf599
-#SYMVER clk_hw_forward_rate_request 0x2acf9319
-#SYMVER __clk_determine_rate 0x2ef3664f
-#SYMVER clk_hw_round_rate 0x6671be54
+#SYMVER clk_hw_init_rate_request 0x3354d327
+#SYMVER clk_hw_forward_rate_request 0xc1dc020e
+#SYMVER __clk_determine_rate 0xaabff52c
+#SYMVER clk_hw_round_rate 0xeda5b227
 #SYMVER clk_round_rate 0x43f81957
 #SYMVER clk_get_accuracy 0x21a563da
 #SYMVER clk_get_rate 0x556e4390
-#SYMVER clk_hw_get_parent_index 0x2b2ca106
+#SYMVER clk_hw_get_parent_index 0x478ed7d8
 #SYMVER clk_set_rate 0x76d9b876
 #SYMVER clk_set_rate_exclusive 0xc5604800
 #SYMVER clk_set_rate_range 0x38e5bc5a
@@ -1453,36 +1462,36 @@ $(deps_drivers/clk/clk.o):
 #SYMVER clk_set_max_rate 0xe0b1c103
 #SYMVER clk_get_parent 0x63150e06
 #SYMVER clk_has_parent 0xc9ceea06
-#SYMVER clk_hw_set_parent 0x7b0a67fe
+#SYMVER clk_hw_set_parent 0xe81b051c
 #SYMVER clk_set_parent 0x2396c7f0
 #SYMVER clk_set_phase 0xb7329c06
 #SYMVER clk_get_phase 0x1c5ff742
 #SYMVER clk_set_duty_cycle 0x665e92a0
 #SYMVER clk_get_scaled_duty_cycle 0x4100a662
 #SYMVER clk_is_match 0x8b149c36
-#SYMVER clk_hw_get_clk 0x63576c2a
-#SYMVER clk_register 0xfdf3f9de
-#SYMVER clk_hw_register 0x00fe5642
-#SYMVER of_clk_hw_register 0x4aa0f56f
+#SYMVER clk_hw_get_clk 0x826a9ee9
+#SYMVER clk_register 0xf1d3a15c
+#SYMVER clk_hw_register 0xc1515579
+#SYMVER of_clk_hw_register 0xcde26684
 #SYMVER clk_unregister 0x7757b51a
-#SYMVER clk_hw_unregister 0x64e3e98e
-#SYMVER devm_clk_register 0x6098eb6c
-#SYMVER devm_clk_hw_register 0xd7df4d7e
-#SYMVER devm_clk_hw_get_clk 0x6937bd8d
+#SYMVER clk_hw_unregister 0xa495372c
+#SYMVER devm_clk_register 0xfde3d92e
+#SYMVER devm_clk_hw_register 0x063763af
+#SYMVER devm_clk_hw_get_clk 0x5e836ac2
 #SYMVER clk_notifier_register 0x60091316
 #SYMVER clk_notifier_unregister 0x719e17ff
-#SYMVER devm_clk_notifier_register 0xcbd1bc5a
-#SYMVER of_clk_src_simple_get 0x9e12c80a
-#SYMVER of_clk_hw_simple_get 0xaf33cb60
-#SYMVER of_clk_src_onecell_get 0x454cad50
-#SYMVER of_clk_hw_onecell_get 0xa1bd6971
-#SYMVER of_clk_add_provider 0x1c0da6a3
-#SYMVER of_clk_add_hw_provider 0x015655bd
-#SYMVER devm_of_clk_add_hw_provider 0xb1bae11a
-#SYMVER of_clk_del_provider 0x9e71edfa
-#SYMVER of_clk_get_from_provider 0xdc32649e
-#SYMVER of_clk_get 0x84a2f6e2
-#SYMVER of_clk_get_by_name 0xbcb8ce18
-#SYMVER of_clk_get_parent_count 0x493ceaf2
-#SYMVER of_clk_get_parent_name 0x517a7cca
-#SYMVER of_clk_parent_fill 0x9cfe4635
+#SYMVER devm_clk_notifier_register 0x092716bd
+#SYMVER of_clk_src_simple_get 0x55aa9ebc
+#SYMVER of_clk_hw_simple_get 0x92baaa8c
+#SYMVER of_clk_src_onecell_get 0xe9793255
+#SYMVER of_clk_hw_onecell_get 0x083c4e43
+#SYMVER of_clk_add_provider 0x3c19c324
+#SYMVER of_clk_add_hw_provider 0xda1c8b46
+#SYMVER devm_of_clk_add_hw_provider 0x89e86912
+#SYMVER of_clk_del_provider 0xc0ac21cf
+#SYMVER of_clk_get_from_provider 0xbdbf4a03
+#SYMVER of_clk_get 0xc785d064
+#SYMVER of_clk_get_by_name 0xb8537111
+#SYMVER of_clk_get_parent_count 0xdc5c8791
+#SYMVER of_clk_get_parent_name 0x6ed885c9
+#SYMVER of_clk_parent_fill 0xe3cb2b0d

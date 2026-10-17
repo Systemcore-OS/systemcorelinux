@@ -1,4 +1,4 @@
-savedcmd_net/wireless/util.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/wireless/.util.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"util"' -DKBUILD_MODNAME='"cfg80211"' -D__KBUILD_MODNAME=kmod_cfg80211 -c -o net/wireless/util.o net/wireless/util.c  
+savedcmd_net/wireless/util.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/wireless/.util.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"util"' -DKBUILD_MODNAME='"cfg80211"' -D__KBUILD_MODNAME=kmod_cfg80211 -c -o net/wireless/util.o net/wireless/util.c  
 
 source_net/wireless/util.o := net/wireless/util.c
 
@@ -23,6 +23,7 @@ deps_net/wireless/util.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -510,6 +511,7 @@ deps_net/wireless/util.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -596,6 +598,7 @@ deps_net/wireless/util.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -647,6 +650,7 @@ deps_net/wireless/util.o := \
   include/linux/bvec.h \
   include/linux/highmem.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -688,6 +692,9 @@ deps_net/wireless/util.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/lockref.h \
@@ -1118,6 +1125,8 @@ deps_net/wireless/util.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1275,9 +1284,6 @@ deps_net/wireless/util.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1354,6 +1360,7 @@ deps_net/wireless/util.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1668,34 +1675,35 @@ $(deps_net/wireless/util.o):
 #SYMVER ieee80211_channel_to_freq_khz 0x5584448a
 #SYMVER ieee80211_s1g_channel_width 0x1bb59029
 #SYMVER ieee80211_freq_khz_to_channel 0x6bedf402
-#SYMVER ieee80211_get_channel_khz 0xf01a31f7
+#SYMVER ieee80211_get_channel_khz 0x15e7a938
 #SYMVER ieee80211_hdrlen 0x7ef39823
-#SYMVER ieee80211_get_hdrlen_from_skb 0x32e74d7b
+#SYMVER ieee80211_get_hdrlen_from_skb 0x6fa97504
 #SYMVER ieee80211_get_mesh_hdrlen 0xd56d55f3
 #SYMVER ieee80211_get_8023_tunnel_proto 0x13c58e52
-#SYMVER ieee80211_strip_8023_mesh_hdr 0xb933122c
-#SYMVER ieee80211_data_to_8023_exthdr 0xf332b7e9
-#SYMVER ieee80211_is_valid_amsdu 0xf9d35c48
-#SYMVER ieee80211_amsdu_to_8023s 0x4c298470
-#SYMVER cfg80211_classify8021d 0x95da9ff1
+#SYMVER ieee80211_strip_8023_mesh_hdr 0xddf54172
+#SYMVER ieee80211_data_to_8023_exthdr 0x30f46895
+#SYMVER ieee80211_is_valid_amsdu 0x79f5972c
+#SYMVER ieee80211_amsdu_to_8023s 0x5d6fcad8
+#SYMVER cfg80211_classify8021d 0xf9cc3022
 #SYMVER ieee80211_bss_get_elem 0x5cba2be4
 #SYMVER cfg80211_calculate_bitrate 0x3c744e95
 #SYMVER cfg80211_get_p2p_attr 0xf5596d89
 #SYMVER ieee80211_ie_split_ric 0x275269b3
-#SYMVER ieee80211_fragment_element 0xf533c89d
+#SYMVER ieee80211_fragment_element 0x771ec00f
 #SYMVER ieee80211_operating_class_to_band 0xf40bc2f5
 #SYMVER ieee80211_operating_class_to_chandef 0x345fa8cc
 #SYMVER ieee80211_chandef_to_operating_class 0xefab0596
-#SYMVER cfg80211_iter_combinations 0x7626752d
-#SYMVER cfg80211_check_combinations 0xb8f670ea
-#SYMVER ieee80211_get_num_supported_channels 0x5f2fde1b
-#SYMVER cfg80211_get_station 0xc09f9a12
+#SYMVER cfg80211_iter_combinations 0xd8bdb330
+#SYMVER cfg80211_check_combinations 0x3eef6e76
+#SYMVER ieee80211_get_num_supported_channels 0xb435ce6f
+#SYMVER cfg80211_get_station 0x5c54f353
 #SYMVER cfg80211_free_nan_func 0x8fa02936
 #SYMVER cfg80211_sinfo_alloc_tid_stats 0x3c86019a
 #SYMVER rfc1042_header 0x69b18f43
 #SYMVER bridge_tunnel_header 0x1879fcbd
-#SYMVER cfg80211_send_layer2_update 0x1da80e83
+#SYMVER cfg80211_send_layer2_update 0x6ff867ec
 #SYMVER ieee80211_get_vht_max_nss 0x7c3ac925
-#SYMVER cfg80211_iftype_allowed 0x05ab927f
-#SYMVER cfg80211_get_iftype_ext_capa 0xcbd9613c
+#SYMVER cfg80211_iftype_allowed 0x5b6edc5d
+#SYMVER cfg80211_get_iftype_ext_capa 0x5d231f35
 #SYMVER cfg80211_radio_chandef_valid 0x53382dce
+#SYMVER cfg80211_wdev_channel_allowed 0xe1b09eb7

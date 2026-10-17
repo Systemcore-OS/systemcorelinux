@@ -1,4 +1,4 @@
-savedcmd_fs/namespace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.namespace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/namespace"' -DKBUILD_BASENAME='"namespace"' -DKBUILD_MODNAME='"namespace"' -D__KBUILD_MODNAME=kmod_namespace -c -o fs/namespace.o fs/namespace.c  
+savedcmd_fs/namespace.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.namespace.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"fs/namespace"' -DKBUILD_BASENAME='"namespace"' -DKBUILD_MODNAME='"namespace"' -D__KBUILD_MODNAME=kmod_namespace -c -o fs/namespace.o fs/namespace.c  
 
 source_fs/namespace.o := fs/namespace.c
 
@@ -27,6 +27,7 @@ deps_fs/namespace.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -72,6 +73,7 @@ deps_fs/namespace.o := \
   include/uapi/asm-generic/posix_types.h \
   include/uapi/linux/aio_abi.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/SECURITY) \
@@ -510,6 +512,9 @@ deps_fs/namespace.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -611,6 +616,7 @@ deps_fs/namespace.o := \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -658,6 +664,7 @@ deps_fs/namespace.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -1120,6 +1127,8 @@ deps_fs/namespace.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1382,7 +1391,6 @@ deps_fs/namespace.o := \
   include/linux/namei.h \
   include/linux/fs_struct.h \
   include/linux/fsnotify.h \
-    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
   include/linux/fsnotify_backend.h \
   include/linux/audit.h \
     $(wildcard include/config/AUDIT_COMPAT_GENERIC) \
@@ -1426,28 +1434,28 @@ deps_fs/namespace.o := \
 fs/namespace.o: $(deps_fs/namespace.o)
 
 $(deps_fs/namespace.o):
-#SYMVER fs_kobj 0x5659157b
-#SYMVER __mnt_is_readonly 0xf54b9870
-#SYMVER mnt_get_write_access 0xf9b93025
-#SYMVER mnt_want_write 0x27637b4e
-#SYMVER mnt_want_write_file 0x3b66f927
-#SYMVER mnt_put_write_access 0xf1e4cf9d
-#SYMVER mnt_drop_write 0x060d03bd
-#SYMVER mnt_drop_write_file 0x1ff334f9
-#SYMVER vfs_create_mount 0x577764d4
-#SYMVER fc_mount 0xd1d2c383
-#SYMVER vfs_kern_mount 0xe572f20d
-#SYMVER vfs_submount 0x589a6cd2
-#SYMVER mntput 0xc7b345f9
-#SYMVER mntget 0xea5f0725
-#SYMVER path_is_mountpoint 0x6baf8346
-#SYMVER may_umount_tree 0xdde97485
-#SYMVER may_umount 0xc8904976
-#SYMVER clone_private_mount 0x76e2bfcf
-#SYMVER mnt_set_expiry 0x76cadb9a
+#SYMVER fs_kobj 0x2c14e8b0
+#SYMVER __mnt_is_readonly 0x0a9a4072
+#SYMVER mnt_get_write_access 0xaf476814
+#SYMVER mnt_want_write 0xdc586cb3
+#SYMVER mnt_want_write_file 0xfac2252d
+#SYMVER mnt_put_write_access 0x3d1e24c2
+#SYMVER mnt_drop_write 0xbb5e89e6
+#SYMVER mnt_drop_write_file 0xe1a486b3
+#SYMVER vfs_create_mount 0x5e18bb46
+#SYMVER fc_mount 0xf91bb8ac
+#SYMVER vfs_kern_mount 0x8e5f1c58
+#SYMVER vfs_submount 0x98f4b9f3
+#SYMVER mntput 0x4129e86e
+#SYMVER mntget 0x9f44e27d
+#SYMVER path_is_mountpoint 0xe0dbd4d9
+#SYMVER may_umount_tree 0x69190f7d
+#SYMVER may_umount 0x1ae2234d
+#SYMVER clone_private_mount 0x53d87641
+#SYMVER mnt_set_expiry 0xfe402d65
 #SYMVER mark_mounts_for_expiry 0x064db9a5
-#SYMVER mount_subtree 0xd537f294
-#SYMVER path_is_under 0x6ade3a90
-#SYMVER kern_mount 0xf46d4837
-#SYMVER kern_unmount 0x9a6c1701
-#SYMVER kern_unmount_array 0x53cea992
+#SYMVER mount_subtree 0xdc8191fc
+#SYMVER path_is_under 0x978d2ba4
+#SYMVER kern_mount 0xfd0297a5
+#SYMVER kern_unmount 0x7e08d229
+#SYMVER kern_unmount_array 0xd555d64e

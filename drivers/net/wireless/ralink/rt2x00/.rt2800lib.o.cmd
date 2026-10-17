@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/ralink/rt2x00/rt2800lib.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/ralink/rt2x00/.rt2800lib.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"rt2800lib"' -DKBUILD_MODNAME='"rt2800lib"' -D__KBUILD_MODNAME=kmod_rt2800lib -c -o drivers/net/wireless/ralink/rt2x00/rt2800lib.o drivers/net/wireless/ralink/rt2x00/rt2800lib.c  
+savedcmd_drivers/net/wireless/ralink/rt2x00/rt2800lib.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/ralink/rt2x00/.rt2800lib.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"rt2800lib"' -DKBUILD_MODNAME='"rt2800lib"' -D__KBUILD_MODNAME=kmod_rt2800lib -c -o drivers/net/wireless/ralink/rt2x00/rt2800lib.o drivers/net/wireless/ralink/rt2x00/rt2800lib.c  
 
 source_drivers/net/wireless/ralink/rt2x00/rt2800lib.o := drivers/net/wireless/ralink/rt2x00/rt2800lib.c
 
@@ -30,6 +30,7 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2800lib.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -504,6 +505,7 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2800lib.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -590,6 +592,7 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2800lib.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -684,6 +687,9 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2800lib.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -809,6 +815,7 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2800lib.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1162,6 +1169,8 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2800lib.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1286,9 +1295,6 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2800lib.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1379,6 +1385,7 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2800lib.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1615,47 +1622,47 @@ deps_drivers/net/wireless/ralink/rt2x00/rt2800lib.o := \
 drivers/net/wireless/ralink/rt2x00/rt2800lib.o: $(deps_drivers/net/wireless/ralink/rt2x00/rt2800lib.o)
 
 $(deps_drivers/net/wireless/ralink/rt2x00/rt2800lib.o):
-#SYMVER rt2800_mcu_request 0x339d2859
-#SYMVER rt2800_wait_csr_ready 0xcb0687e9
-#SYMVER rt2800_wait_wpdma_ready 0x1e93c3d3
-#SYMVER rt2800_disable_wpdma 0x8a2641ab
-#SYMVER rt2800_get_txwi_rxwi_size 0x896ebd0f
-#SYMVER rt2800_check_firmware 0x0e3933d6
-#SYMVER rt2800_load_firmware 0xd4908d82
-#SYMVER rt2800_write_tx_data 0xe128632e
-#SYMVER rt2800_process_rxwi 0x98d0a467
-#SYMVER rt2800_txdone_entry 0x9bc0ec7c
-#SYMVER rt2800_txdone 0x91cea99b
-#SYMVER rt2800_txstatus_timeout 0x9c64a48f
-#SYMVER rt2800_txstatus_pending 0xa3bc0099
-#SYMVER rt2800_txdone_nostatus 0xbfc87328
-#SYMVER rt2800_watchdog 0x238d6dd3
-#SYMVER rt2800_write_beacon 0x1635bf5d
-#SYMVER rt2800_clear_beacon 0xf06d9a4a
-#SYMVER rt2800_rfkill_poll 0xc480b22b
-#SYMVER rt2800_config_shared_key 0xe9a8b3ed
-#SYMVER rt2800_config_pairwise_key 0x4a99cde7
-#SYMVER rt2800_sta_add 0x4dc685ca
-#SYMVER rt2800_sta_remove 0x0c98177e
-#SYMVER rt2800_pre_reset_hw 0xb284bd1b
-#SYMVER rt2800_config_filter 0xbb2c5a60
-#SYMVER rt2800_config_intf 0xe5253e71
-#SYMVER rt2800_config_erp 0x86a401dc
-#SYMVER rt2800_config_ant 0x065e455c
-#SYMVER rt2800_gain_calibration 0xd917e6f0
-#SYMVER rt2800_vco_calibration 0x097523d5
-#SYMVER rt2800_config 0x17ac090a
-#SYMVER rt2800_link_stats 0xb95f0a32
-#SYMVER rt2800_reset_tuner 0x9ab6c57c
-#SYMVER rt2800_link_tuner 0xc392ab01
-#SYMVER rt2800_enable_radio 0x0f93066b
-#SYMVER rt2800_disable_radio 0x5dced910
-#SYMVER rt2800_efuse_detect 0x070807b5
-#SYMVER rt2800_read_eeprom_efuse 0xd23436d8
-#SYMVER rt2800_probe_hw 0x64b25dac
-#SYMVER rt2800_get_key_seq 0x45d0664f
-#SYMVER rt2800_set_rts_threshold 0x5ecd4aaf
-#SYMVER rt2800_conf_tx 0x44cc3214
-#SYMVER rt2800_get_tsf 0x03adb944
-#SYMVER rt2800_ampdu_action 0x5b071acf
-#SYMVER rt2800_get_survey 0x670e3caf
+#SYMVER rt2800_mcu_request 0x135dce3c
+#SYMVER rt2800_wait_csr_ready 0x1fd302cd
+#SYMVER rt2800_wait_wpdma_ready 0x8648f7f8
+#SYMVER rt2800_disable_wpdma 0xccd527f4
+#SYMVER rt2800_get_txwi_rxwi_size 0x642f539f
+#SYMVER rt2800_check_firmware 0x66d0d04d
+#SYMVER rt2800_load_firmware 0x7a27e7f6
+#SYMVER rt2800_write_tx_data 0xf6001a67
+#SYMVER rt2800_process_rxwi 0x89e642b9
+#SYMVER rt2800_txdone_entry 0x9bef7572
+#SYMVER rt2800_txdone 0x352fd34b
+#SYMVER rt2800_txstatus_timeout 0xf1378cb0
+#SYMVER rt2800_txstatus_pending 0xd6b13a5f
+#SYMVER rt2800_txdone_nostatus 0x5369ccf2
+#SYMVER rt2800_watchdog 0x7849e517
+#SYMVER rt2800_write_beacon 0x3e40c3ef
+#SYMVER rt2800_clear_beacon 0x5f5a1f7e
+#SYMVER rt2800_rfkill_poll 0x33a3f8c7
+#SYMVER rt2800_config_shared_key 0x8fb68cd9
+#SYMVER rt2800_config_pairwise_key 0x7da7cef4
+#SYMVER rt2800_sta_add 0xc1cf2b88
+#SYMVER rt2800_sta_remove 0x00bde5eb
+#SYMVER rt2800_pre_reset_hw 0x82b02269
+#SYMVER rt2800_config_filter 0xb9a3f694
+#SYMVER rt2800_config_intf 0x7fe1dec2
+#SYMVER rt2800_config_erp 0xa3c862b7
+#SYMVER rt2800_config_ant 0x5ad725b3
+#SYMVER rt2800_gain_calibration 0x22365eed
+#SYMVER rt2800_vco_calibration 0x29bc018e
+#SYMVER rt2800_config 0xe9ef5858
+#SYMVER rt2800_link_stats 0x1c8606a1
+#SYMVER rt2800_reset_tuner 0x6b67213a
+#SYMVER rt2800_link_tuner 0xc8e7c3ab
+#SYMVER rt2800_enable_radio 0x474a82ce
+#SYMVER rt2800_disable_radio 0x2e2c2a3b
+#SYMVER rt2800_efuse_detect 0x6a07ae00
+#SYMVER rt2800_read_eeprom_efuse 0xd5eb5fdc
+#SYMVER rt2800_probe_hw 0x9e36d744
+#SYMVER rt2800_get_key_seq 0x2de5a65c
+#SYMVER rt2800_set_rts_threshold 0x832db731
+#SYMVER rt2800_conf_tx 0xc56b7fc3
+#SYMVER rt2800_get_tsf 0x50c1916a
+#SYMVER rt2800_ampdu_action 0x87d620a9
+#SYMVER rt2800_get_survey 0x893881fe

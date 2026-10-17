@@ -1,6 +1,7 @@
 fbtft-core.o: drivers/staging/fbtft/fbtft-core.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/module.h \
  include/linux/list.h include/linux/container_of.h \
@@ -261,11 +262,11 @@ fbtft-core.o: drivers/staging/fbtft/fbtft-core.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/vmalloc.h \
- arch/arm64/include/asm/vmalloc.h include/linux/fb.h \
- include/uapi/linux/fb.h include/linux/i2c.h include/linux/acpi.h \
- include/linux/resource_ext.h include/linux/device.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
+ include/linux/fb.h include/uapi/linux/fb.h include/linux/i2c.h \
+ include/linux/acpi.h include/linux/resource_ext.h include/linux/device.h \
  include/linux/dev_printk.h include/linux/energy_model.h \
  include/linux/sched/cpufreq.h include/linux/sched/topology.h \
  include/linux/sched/idle.h include/linux/sched/sd_flags.h \

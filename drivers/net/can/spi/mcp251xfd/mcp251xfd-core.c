@@ -1615,8 +1615,8 @@ out_fail:
 	netdev_err(priv->ndev, "IRQ handler returned %d (intf=0x%08x).\n",
 		   err, priv->regs_status.intf);
 	mcp251xfd_dump(priv);
-	mcp251xfd_chip_interrupts_disable(priv);
-	mcp251xfd_timestamp_stop(priv);
+	mcp251xfd_chip_stop(priv, CAN_STATE_BUS_OFF);
+	can_bus_off(priv->ndev);
 
 	return handled;
 }

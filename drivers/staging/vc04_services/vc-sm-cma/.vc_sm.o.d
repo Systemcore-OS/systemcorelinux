@@ -1,6 +1,7 @@
 vc_sm.o: drivers/staging/vc04_services/vc-sm-cma/vc_sm.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/cdev.h \
  include/linux/kobject.h include/linux/types.h include/uapi/linux/types.h \
@@ -275,19 +276,17 @@ vc_sm.o: drivers/staging/vc04_services/vc-sm-cma/vc_sm.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
- include/linux/fwnode.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/dma-buf.h \
- include/linux/iosys-map.h include/linux/io.h include/linux/file.h \
- include/linux/dma-fence.h include/linux/miscdevice.h \
- include/uapi/linux/major.h include/linux/of_device.h \
- include/linux/proc_fs.h include/linux/syscalls.h \
- include/uapi/linux/aio_abi.h include/linux/sem.h \
- include/uapi/linux/sem.h include/linux/ipc.h \
+ include/linux/fwnode.h include/linux/dma-buf.h include/linux/iosys-map.h \
+ include/linux/io.h include/linux/file.h include/linux/dma-fence.h \
+ include/linux/miscdevice.h include/uapi/linux/major.h \
+ include/linux/of_device.h include/linux/proc_fs.h \
+ include/linux/syscalls.h include/uapi/linux/aio_abi.h \
+ include/linux/sem.h include/uapi/linux/sem.h include/linux/ipc.h \
  include/linux/rhashtable-types.h include/uapi/linux/ipc.h \
  arch/arm64/include/generated/uapi/asm/ipcbuf.h \
  include/uapi/asm-generic/ipcbuf.h \

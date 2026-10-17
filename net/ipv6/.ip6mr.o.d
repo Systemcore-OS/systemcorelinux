@@ -1,10 +1,10 @@
 ip6mr.o: net/ipv6/ip6mr.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/uaccess.h include/linux/fault-inject-usercopy.h \
- include/linux/types.h include/uapi/linux/types.h \
- arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/uaccess.h \
+ include/linux/fault-inject-usercopy.h include/linux/types.h \
+ include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -253,9 +253,9 @@ ip6mr.o: net/ipv6/ip6mr.c include/linux/compiler-version.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/socket.h \
- arch/arm64/include/generated/uapi/asm/socket.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/socket.h arch/arm64/include/generated/uapi/asm/socket.h \
  include/uapi/asm-generic/socket.h \
  arch/arm64/include/generated/uapi/asm/sockios.h \
  include/uapi/asm-generic/sockios.h include/uapi/linux/sockios.h \
@@ -346,8 +346,7 @@ ip6mr.o: net/ipv6/ip6mr.c include/linux/compiler-version.h \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
  include/uapi/linux/if_packet.h include/net/net_debug.h \
@@ -425,9 +424,9 @@ ip6mr.o: net/ipv6/ip6mr.c include/linux/compiler-version.h \
  include/net/tcp.h include/net/inet_hashtables.h include/net/ip.h \
  include/net/sock_reuseport.h include/linux/filter.h \
  include/linux/sched/clock.h include/linux/set_memory.h \
- arch/arm64/include/asm/set_memory.h include/asm-generic/set_memory.h \
- include/linux/if_vlan.h include/linux/etherdevice.h \
- include/linux/crc32.h include/linux/bitrev.h \
+ arch/arm64/include/asm/set_memory.h arch/arm64/include/asm/mem_encrypt.h \
+ include/asm-generic/set_memory.h include/linux/if_vlan.h \
+ include/linux/etherdevice.h include/linux/crc32.h include/linux/bitrev.h \
  arch/arm64/include/asm/bitrev.h include/linux/unaligned.h \
  include/vdso/unaligned.h include/uapi/linux/if_vlan.h \
  include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
@@ -440,8 +439,8 @@ ip6mr.o: net/ipv6/ip6mr.c include/linux/compiler-version.h \
  include/linux/audit_arch.h include/uapi/linux/audit.h \
  include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
  arch/arm64/include/asm/syscall.h include/net/gro_cells.h \
- include/linux/bpf-cgroup.h include/net/netfilter/ipv6/nf_defrag_ipv6.h \
- include/net/ip6_checksum.h include/uapi/linux/netconf.h \
- include/net/ip_tunnels.h include/linux/if_tunnel.h \
- include/uapi/linux/if_tunnel.h include/net/netns/generic.h \
- include/net/dst_cache.h
+ include/net/secure_seq.h include/linux/bpf-cgroup.h \
+ include/net/netfilter/ipv6/nf_defrag_ipv6.h include/net/ip6_checksum.h \
+ include/uapi/linux/netconf.h include/net/ip_tunnels.h \
+ include/linux/if_tunnel.h include/uapi/linux/if_tunnel.h \
+ include/net/netns/generic.h include/net/dst_cache.h

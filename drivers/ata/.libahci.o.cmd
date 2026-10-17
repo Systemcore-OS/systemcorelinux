@@ -1,4 +1,4 @@
-savedcmd_drivers/ata/libahci.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/ata/.libahci.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"libahci"' -DKBUILD_MODNAME='"libahci"' -D__KBUILD_MODNAME=kmod_libahci -c -o drivers/ata/libahci.o drivers/ata/libahci.c  
+savedcmd_drivers/ata/libahci.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/ata/.libahci.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"libahci"' -DKBUILD_MODNAME='"libahci"' -D__KBUILD_MODNAME=kmod_libahci -c -o drivers/ata/libahci.o drivers/ata/libahci.c  
 
 source_drivers/ata/libahci.o := drivers/ata/libahci.c
 
@@ -24,6 +24,7 @@ deps_drivers/ata/libahci.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -480,6 +481,9 @@ deps_drivers/ata/libahci.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -643,6 +647,7 @@ deps_drivers/ata/libahci.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -682,6 +687,7 @@ deps_drivers/ata/libahci.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -802,6 +808,7 @@ deps_drivers/ata/libahci.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1133,6 +1140,8 @@ deps_drivers/ata/libahci.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1259,9 +1268,6 @@ deps_drivers/ata/libahci.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/scsi/scsi_host.h \
     $(wildcard include/config/SCSI_PROC_FS) \
   include/linux/seq_file.h \
@@ -1467,27 +1473,27 @@ drivers/ata/libahci.o: $(deps_drivers/ata/libahci.o)
 
 $(deps_drivers/ata/libahci.o):
 #SYMVER ahci_ignore_sss 0xea50dad3
-#SYMVER ahci_shost_groups 0x6cf9f0d0
-#SYMVER ahci_sdev_groups 0x0b3bd8fc
-#SYMVER ahci_ops 0xfeefeaa5
-#SYMVER ahci_pmp_retry_srst_ops 0x55126c32
-#SYMVER ahci_save_initial_config 0xc267aa4a
-#SYMVER ahci_start_engine 0x65ac9728
-#SYMVER ahci_stop_engine 0x168e1da9
-#SYMVER ahci_start_fis_rx 0xd74d86d2
-#SYMVER ahci_reset_controller 0x76465562
-#SYMVER ahci_reset_em 0x509ccb13
-#SYMVER ahci_init_controller 0x56f103b4
-#SYMVER ahci_dev_classify 0x69ccee23
-#SYMVER ahci_fill_cmd_slot 0xd19bcb52
-#SYMVER ahci_kick_engine 0xbc6bf310
-#SYMVER ahci_check_ready 0x3c9f8ef8
-#SYMVER ahci_do_softreset 0x38d6ad2a
-#SYMVER ahci_do_hardreset 0x177ab449
-#SYMVER ahci_handle_port_intr 0x864cc161
-#SYMVER ahci_qc_issue 0x31550af2
-#SYMVER ahci_error_handler 0xa832f956
-#SYMVER ahci_port_resume 0x4a0b5e95
-#SYMVER ahci_print_info 0xeb3aa627
-#SYMVER ahci_set_em_messages 0xb8998d5e
-#SYMVER ahci_host_activate 0x6a29b5c6
+#SYMVER ahci_shost_groups 0x6aa731c4
+#SYMVER ahci_sdev_groups 0xe34fd3b9
+#SYMVER ahci_ops 0x072875b5
+#SYMVER ahci_pmp_retry_srst_ops 0x1b95f264
+#SYMVER ahci_save_initial_config 0x7ffa5d1d
+#SYMVER ahci_start_engine 0xfe5ee137
+#SYMVER ahci_stop_engine 0x8dc9a399
+#SYMVER ahci_start_fis_rx 0x074b99b4
+#SYMVER ahci_reset_controller 0x4b26331a
+#SYMVER ahci_reset_em 0x3cad9949
+#SYMVER ahci_init_controller 0x0f963f51
+#SYMVER ahci_dev_classify 0x86f98f35
+#SYMVER ahci_fill_cmd_slot 0xd32012ea
+#SYMVER ahci_kick_engine 0xb889fb54
+#SYMVER ahci_check_ready 0x4392d1df
+#SYMVER ahci_do_softreset 0x331aeccd
+#SYMVER ahci_do_hardreset 0x4380fdab
+#SYMVER ahci_handle_port_intr 0x4f92a1e8
+#SYMVER ahci_qc_issue 0x66b7723d
+#SYMVER ahci_error_handler 0xdf632cda
+#SYMVER ahci_port_resume 0xc1a9b55b
+#SYMVER ahci_print_info 0x9c05f68b
+#SYMVER ahci_set_em_messages 0x5e170f8d
+#SYMVER ahci_host_activate 0x60fbc201

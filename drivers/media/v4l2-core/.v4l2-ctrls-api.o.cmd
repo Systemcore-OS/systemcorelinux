@@ -1,4 +1,4 @@
-savedcmd_drivers/media/v4l2-core/v4l2-ctrls-api.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/media/v4l2-core/.v4l2-ctrls-api.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -I./drivers/media/dvb-frontends -I./drivers/media/tuners  -DMODULE  -DKBUILD_BASENAME='"v4l2_ctrls_api"' -DKBUILD_MODNAME='"videodev"' -D__KBUILD_MODNAME=kmod_videodev -c -o drivers/media/v4l2-core/v4l2-ctrls-api.o drivers/media/v4l2-core/v4l2-ctrls-api.c  
+savedcmd_drivers/media/v4l2-core/v4l2-ctrls-api.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/media/v4l2-core/.v4l2-ctrls-api.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456 -I./drivers/media/dvb-frontends -I./drivers/media/tuners  -DMODULE  -DKBUILD_BASENAME='"v4l2_ctrls_api"' -DKBUILD_MODNAME='"videodev"' -D__KBUILD_MODNAME=kmod_videodev -c -o drivers/media/v4l2-core/v4l2-ctrls-api.o drivers/media/v4l2-core/v4l2-ctrls-api.c  
 
 source_drivers/media/v4l2-core/v4l2-ctrls-api.o := drivers/media/v4l2-core/v4l2-ctrls-api.c
 
@@ -23,6 +23,7 @@ deps_drivers/media/v4l2-core/v4l2-ctrls-api.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -519,6 +520,9 @@ deps_drivers/media/v4l2-core/v4l2-ctrls-api.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -677,6 +681,7 @@ deps_drivers/media/v4l2-core/v4l2-ctrls-api.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -716,6 +721,7 @@ deps_drivers/media/v4l2-core/v4l2-ctrls-api.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -850,6 +856,7 @@ deps_drivers/media/v4l2-core/v4l2-ctrls-api.o := \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -989,6 +996,8 @@ deps_drivers/media/v4l2-core/v4l2-ctrls-api.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1189,9 +1198,6 @@ deps_drivers/media/v4l2-core/v4l2-ctrls-api.o := \
     $(wildcard include/config/DMA_API_DEBUG) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
   include/linux/dma-direction.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/pci.h \
   include/linux/platform_device.h \
     $(wildcard include/config/SUSPEND) \
@@ -1466,27 +1472,27 @@ deps_drivers/media/v4l2-core/v4l2-ctrls-api.o := \
 drivers/media/v4l2-core/v4l2-ctrls-api.o: $(deps_drivers/media/v4l2-core/v4l2-ctrls-api.o)
 
 $(deps_drivers/media/v4l2-core/v4l2-ctrls-api.o):
-#SYMVER v4l2_g_ext_ctrls 0x16355c07
-#SYMVER v4l2_try_ext_ctrls 0xa71855e4
-#SYMVER v4l2_s_ext_ctrls 0x74ef5f24
-#SYMVER v4l2_g_ctrl 0x0c7f3f91
-#SYMVER v4l2_s_ctrl 0x707795eb
-#SYMVER v4l2_ctrl_g_ctrl 0xaf629471
-#SYMVER v4l2_ctrl_g_ctrl_int64 0x611ceda6
-#SYMVER __v4l2_ctrl_s_ctrl 0x646d3eb1
-#SYMVER __v4l2_ctrl_s_ctrl_int64 0x8933c03a
-#SYMVER __v4l2_ctrl_s_ctrl_string 0x2b3c5765
-#SYMVER __v4l2_ctrl_s_ctrl_compound 0x5a76ee20
-#SYMVER __v4l2_ctrl_modify_range 0xbf054dda
-#SYMVER __v4l2_ctrl_modify_dimensions 0x0ac030d0
-#SYMVER v4l2_query_ext_ctrl 0xf13adeb3
-#SYMVER v4l2_queryctrl 0x620614df
-#SYMVER v4l2_querymenu 0x500a2629
-#SYMVER v4l2_ctrl_log_status 0xe1e9fcbe
-#SYMVER v4l2_ctrl_subdev_log_status 0x8d00a566
+#SYMVER v4l2_g_ext_ctrls 0x4f521c26
+#SYMVER v4l2_try_ext_ctrls 0x6edcc47b
+#SYMVER v4l2_s_ext_ctrls 0x1555d4c6
+#SYMVER v4l2_g_ctrl 0x6b7a9576
+#SYMVER v4l2_s_ctrl 0xa48c527b
+#SYMVER v4l2_ctrl_g_ctrl 0xa4d4f748
+#SYMVER v4l2_ctrl_g_ctrl_int64 0xdc4457e8
+#SYMVER __v4l2_ctrl_s_ctrl 0xc8b77d31
+#SYMVER __v4l2_ctrl_s_ctrl_int64 0xb6d000df
+#SYMVER __v4l2_ctrl_s_ctrl_string 0x46dab7a5
+#SYMVER __v4l2_ctrl_s_ctrl_compound 0x9a745a11
+#SYMVER __v4l2_ctrl_modify_range 0x981602f1
+#SYMVER __v4l2_ctrl_modify_dimensions 0x9ce0aad4
+#SYMVER v4l2_query_ext_ctrl 0x0203ac3b
+#SYMVER v4l2_queryctrl 0xb74d0386
+#SYMVER v4l2_querymenu 0x988a46ac
+#SYMVER v4l2_ctrl_log_status 0xc70861a9
+#SYMVER v4l2_ctrl_subdev_log_status 0xd246a6c7
 #SYMVER v4l2_ctrl_replace 0xf50fecbc
 #SYMVER v4l2_ctrl_merge 0x082737e8
-#SYMVER v4l2_ctrl_sub_ev_ops 0x7281d800
-#SYMVER v4l2_ctrl_subscribe_event 0xa926ea3f
-#SYMVER v4l2_ctrl_subdev_subscribe_event 0xea96ea15
-#SYMVER v4l2_ctrl_poll 0x9681f63d
+#SYMVER v4l2_ctrl_sub_ev_ops 0x28ce1748
+#SYMVER v4l2_ctrl_subscribe_event 0x6dad7fea
+#SYMVER v4l2_ctrl_subdev_subscribe_event 0xac54572f
+#SYMVER v4l2_ctrl_poll 0x6d6fcc07

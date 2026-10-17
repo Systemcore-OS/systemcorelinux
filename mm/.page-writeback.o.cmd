@@ -1,4 +1,4 @@
-savedcmd_mm/page-writeback.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.page-writeback.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"mm/page-writeback"' -DKBUILD_BASENAME='"page_writeback"' -DKBUILD_MODNAME='"page_writeback"' -D__KBUILD_MODNAME=kmod_page_writeback -c -o mm/page-writeback.o mm/page-writeback.c  
+savedcmd_mm/page-writeback.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.page-writeback.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"mm/page-writeback"' -DKBUILD_BASENAME='"page_writeback"' -DKBUILD_MODNAME='"page_writeback"' -D__KBUILD_MODNAME=kmod_page_writeback -c -o mm/page-writeback.o mm/page-writeback.c  
 
 source_mm/page-writeback.o := mm/page-writeback.c
 
@@ -26,6 +26,7 @@ deps_mm/page-writeback.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -456,6 +457,7 @@ deps_mm/page-writeback.o := \
   include/linux/spinlock_rt.h \
   include/linux/rwlock_rt.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/SECURITY) \
@@ -501,6 +503,9 @@ deps_mm/page-writeback.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -599,6 +604,7 @@ deps_mm/page-writeback.o := \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -647,6 +653,7 @@ deps_mm/page-writeback.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -989,6 +996,8 @@ deps_mm/page-writeback.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1406,6 +1415,7 @@ deps_mm/page-writeback.o := \
   mm/internal.h \
     $(wildcard include/config/DEBUG_MEMORY_INIT) \
   include/linux/khugepaged.h \
+  include/linux/pagewalk.h \
   include/linux/swap_cgroup.h \
   mm/vma.h \
     $(wildcard include/config/DEBUG_VM_MAPLE_TREE) \
@@ -1415,21 +1425,21 @@ mm/page-writeback.o: $(deps_mm/page-writeback.o)
 $(deps_mm/page-writeback.o):
 #SYMVER dirty_writeback_interval 0x41814cb8
 #SYMVER laptop_mode 0x76d3cd60
-#SYMVER wb_writeout_inc 0xeb3ffdff
-#SYMVER bdi_set_max_ratio 0x107f85fc
-#SYMVER balance_dirty_pages_ratelimited_flags 0xf8550072
-#SYMVER balance_dirty_pages_ratelimited 0x8edb2faf
-#SYMVER tag_pages_for_writeback 0xb95131ad
-#SYMVER writeback_iter 0x878385a8
-#SYMVER write_cache_pages 0xc1262881
-#SYMVER noop_dirty_folio 0x21015fb4
-#SYMVER filemap_dirty_folio 0xf6778848
-#SYMVER folio_redirty_for_writepage 0x74edc090
-#SYMVER folio_mark_dirty 0x31c70129
-#SYMVER set_page_dirty_lock 0x9d4df010
-#SYMVER __folio_cancel_dirty 0xc41f5e60
-#SYMVER folio_clear_dirty_for_io 0x4c94f13b
-#SYMVER __folio_start_writeback 0xe20d0292
-#SYMVER folio_wait_writeback 0xda405ee5
-#SYMVER folio_wait_writeback_killable 0x9e795aee
-#SYMVER folio_wait_stable 0xe182566a
+#SYMVER wb_writeout_inc 0xdc360bfe
+#SYMVER bdi_set_max_ratio 0x2cc4e83e
+#SYMVER balance_dirty_pages_ratelimited_flags 0xf3f4af4f
+#SYMVER balance_dirty_pages_ratelimited 0x7cb2db39
+#SYMVER tag_pages_for_writeback 0x09144bb4
+#SYMVER writeback_iter 0x3b034d3e
+#SYMVER write_cache_pages 0x190b2850
+#SYMVER noop_dirty_folio 0xc8767e59
+#SYMVER filemap_dirty_folio 0x26d7cace
+#SYMVER folio_redirty_for_writepage 0x9d9a0d36
+#SYMVER folio_mark_dirty 0x2e3f7451
+#SYMVER set_page_dirty_lock 0x793689f5
+#SYMVER __folio_cancel_dirty 0xa4361722
+#SYMVER folio_clear_dirty_for_io 0x97ff1c67
+#SYMVER __folio_start_writeback 0x49f7f293
+#SYMVER folio_wait_writeback 0x5e8e98cd
+#SYMVER folio_wait_writeback_killable 0xebb4fd9b
+#SYMVER folio_wait_stable 0x884ce54c

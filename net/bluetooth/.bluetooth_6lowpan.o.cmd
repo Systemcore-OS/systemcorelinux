@@ -1,1 +1,0 @@
-savedcmd_net/bluetooth/bluetooth_6lowpan.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-ld -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments   -r -o net/bluetooth/bluetooth_6lowpan.o @net/bluetooth/bluetooth_6lowpan.mod 

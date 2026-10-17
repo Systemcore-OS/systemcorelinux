@@ -1,4 +1,4 @@
-savedcmd_mm/gup.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.gup.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"mm/gup"' -DKBUILD_BASENAME='"gup"' -DKBUILD_MODNAME='"gup"' -D__KBUILD_MODNAME=kmod_gup -c -o mm/gup.o mm/gup.c  
+savedcmd_mm/gup.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.gup.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"mm/gup"' -DKBUILD_BASENAME='"gup"' -DKBUILD_MODNAME='"gup"' -D__KBUILD_MODNAME=kmod_gup -c -o mm/gup.o mm/gup.c  
 
 source_mm/gup.o := mm/gup.c
 
@@ -35,6 +35,7 @@ deps_mm/gup.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -524,6 +525,9 @@ deps_mm/gup.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -682,6 +686,7 @@ deps_mm/gup.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -721,6 +726,7 @@ deps_mm/gup.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -853,6 +859,7 @@ deps_mm/gup.o := \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -992,6 +999,7 @@ deps_mm/gup.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1302,7 +1310,6 @@ deps_mm/gup.o := \
   include/uapi/linux/mempolicy.h \
   include/linux/swapops.h \
   include/linux/swapfile.h \
-  include/linux/secretmem.h \
   include/linux/hugetlb.h \
     $(wildcard include/config/ARCH_ENABLE_HUGEPAGE_MIGRATION) \
   include/linux/userfaultfd_k.h \
@@ -1380,6 +1387,7 @@ deps_mm/gup.o := \
   mm/internal.h \
     $(wildcard include/config/DEBUG_MEMORY_INIT) \
   include/linux/khugepaged.h \
+  include/linux/pagewalk.h \
   include/linux/swap_cgroup.h \
   mm/vma.h \
     $(wildcard include/config/DEBUG_VM_MAPLE_TREE) \
@@ -1387,25 +1395,25 @@ deps_mm/gup.o := \
 mm/gup.o: $(deps_mm/gup.o)
 
 $(deps_mm/gup.o):
-#SYMVER unpin_user_page 0xe8ba6b6a
-#SYMVER unpin_folio 0xbf4634a8
-#SYMVER unpin_user_pages_dirty_lock 0x4d8ceaf0
-#SYMVER unpin_user_page_range_dirty_lock 0xf586aa0f
-#SYMVER unpin_user_pages 0xdbb930e9
-#SYMVER unpin_user_folio 0x53cf05a8
-#SYMVER unpin_folios 0x4e6e64e8
-#SYMVER fixup_user_fault 0xe83e713d
+#SYMVER unpin_user_page 0x97fc413c
+#SYMVER unpin_folio 0x3484769a
+#SYMVER unpin_user_pages_dirty_lock 0x9a18d187
+#SYMVER unpin_user_page_range_dirty_lock 0xa31e1b07
+#SYMVER unpin_user_pages 0xbe767a01
+#SYMVER unpin_user_folio 0x4f738871
+#SYMVER unpin_folios 0x62d94e1b
+#SYMVER fixup_user_fault 0xaf3f3a62
 #SYMVER fault_in_writeable 0xc0364007
 #SYMVER fault_in_subpage_writeable 0x1d9672bd
 #SYMVER fault_in_safe_writeable 0xfb348fea
 #SYMVER fault_in_readable 0x8e3e0f7d
-#SYMVER get_user_pages_remote 0x694c1f77
-#SYMVER get_user_pages 0x1c263f01
-#SYMVER get_user_pages_unlocked 0xfc884baf
-#SYMVER get_user_pages_fast_only 0x677c8ad4
-#SYMVER get_user_pages_fast 0x57b2049c
-#SYMVER pin_user_pages_fast 0xba34cdf2
-#SYMVER pin_user_pages_remote 0xdb627e63
-#SYMVER pin_user_pages 0x3f09bd32
-#SYMVER pin_user_pages_unlocked 0x42e70bf2
-#SYMVER memfd_pin_folios 0x1d4c076d
+#SYMVER get_user_pages_remote 0x77172c66
+#SYMVER get_user_pages 0xb5b226b8
+#SYMVER get_user_pages_unlocked 0x8f62f7d9
+#SYMVER get_user_pages_fast_only 0x654e90da
+#SYMVER get_user_pages_fast 0xb7a06cf0
+#SYMVER pin_user_pages_fast 0x98325360
+#SYMVER pin_user_pages_remote 0x28a78f02
+#SYMVER pin_user_pages 0x2077bdac
+#SYMVER pin_user_pages_unlocked 0xdf2a7bdf
+#SYMVER memfd_pin_folios 0xa82382b0

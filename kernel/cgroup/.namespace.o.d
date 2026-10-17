@@ -1,10 +1,11 @@
 namespace.o: kernel/cgroup/namespace.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- kernel/cgroup/cgroup-internal.h include/linux/cgroup.h \
- include/linux/sched.h include/uapi/linux/sched.h include/linux/types.h \
- include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h kernel/cgroup/cgroup-internal.h \
+ include/linux/cgroup.h include/linux/sched.h include/uapi/linux/sched.h \
+ include/linux/types.h include/uapi/linux/types.h \
+ arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -281,7 +282,7 @@ namespace.o: kernel/cgroup/namespace.c include/linux/compiler-version.h \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/sockptr.h \
  include/linux/bpf.h include/uapi/linux/bpf.h \
  include/uapi/linux/bpf_common.h include/uapi/linux/filter.h \

@@ -1,8 +1,9 @@
 util.o: mm/util.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/mm.h include/linux/errno.h include/uapi/linux/errno.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/mm.h \
+ include/linux/errno.h include/uapi/linux/errno.h \
  arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  include/linux/mmdebug.h include/linux/bug.h arch/arm64/include/asm/bug.h \
@@ -253,14 +254,14 @@ util.o: mm/util.c include/linux/compiler-version.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/security.h \
- include/linux/kernel_read_file.h include/linux/file.h \
- include/linux/sockptr.h include/linux/bpf.h include/uapi/linux/bpf.h \
- include/uapi/linux/bpf_common.h include/uapi/linux/filter.h \
- include/linux/rbtree_latch.h include/linux/module.h \
- include/linux/buildid.h include/linux/kmod.h include/linux/umh.h \
- include/linux/elf.h arch/arm64/include/asm/elf.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/security.h include/linux/kernel_read_file.h \
+ include/linux/file.h include/linux/sockptr.h include/linux/bpf.h \
+ include/uapi/linux/bpf.h include/uapi/linux/bpf_common.h \
+ include/uapi/linux/filter.h include/linux/rbtree_latch.h \
+ include/linux/module.h include/linux/buildid.h include/linux/kmod.h \
+ include/linux/umh.h include/linux/elf.h arch/arm64/include/asm/elf.h \
  arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
  include/uapi/linux/elf.h include/uapi/linux/elf-em.h \
  include/linux/moduleparam.h include/linux/error-injection.h \
@@ -355,5 +356,5 @@ util.o: mm/util.c include/linux/compiler-version.h \
  include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
  include/linux/elf-randomize.h include/linux/processor.h \
  include/kunit/visibility.h mm/internal.h include/linux/khugepaged.h \
- include/linux/mm_inline.h include/linux/rmap.h \
+ include/linux/mm_inline.h include/linux/pagewalk.h include/linux/rmap.h \
  include/linux/swap_cgroup.h mm/vma.h mm/swap.h

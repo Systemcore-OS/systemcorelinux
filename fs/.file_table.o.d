@@ -1,12 +1,13 @@
 file_table.o: fs/file_table.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/string.h include/linux/args.h include/linux/array_size.h \
- include/linux/compiler.h include/linux/compiler_types.h \
- arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
- include/linux/kasan-checks.h include/linux/types.h \
- include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/string.h \
+ include/linux/args.h include/linux/array_size.h include/linux/compiler.h \
+ include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
+ include/asm-generic/rwonce.h include/linux/kasan-checks.h \
+ include/linux/types.h include/uapi/linux/types.h \
+ arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -21,18 +22,36 @@ file_table.o: fs/file_table.c include/linux/compiler-version.h \
  include/uapi/linux/limits.h include/vdso/limits.h include/linux/const.h \
  include/vdso/const.h include/uapi/linux/const.h include/linux/stdarg.h \
  include/uapi/linux/string.h arch/arm64/include/asm/string.h \
- include/linux/slab.h include/linux/cache.h include/uapi/linux/kernel.h \
- include/uapi/linux/sysinfo.h arch/arm64/include/asm/cache.h \
- include/linux/bitops.h include/linux/bits.h include/vdso/bits.h \
- include/uapi/linux/bits.h include/linux/build_bug.h \
+ include/linux/slab.h include/linux/bug.h arch/arm64/include/asm/bug.h \
+ include/linux/stringify.h arch/arm64/include/asm/asm-bug.h \
+ arch/arm64/include/asm/brk-imm.h include/asm-generic/bug.h \
+ include/linux/instrumentation.h include/linux/once_lite.h \
+ include/linux/panic.h include/linux/printk.h include/linux/init.h \
+ include/linux/build_bug.h include/linux/kern_levels.h \
+ include/linux/linkage.h include/linux/export.h \
+ arch/arm64/include/asm/linkage.h include/linux/ratelimit_types.h \
+ include/linux/bits.h include/vdso/bits.h include/uapi/linux/bits.h \
+ include/uapi/linux/param.h arch/arm64/include/uapi/asm/param.h \
+ include/asm-generic/param.h include/uapi/asm-generic/param.h \
+ include/linux/spinlock_types_raw.h \
+ arch/arm64/include/asm/spinlock_types.h \
+ include/asm-generic/qspinlock_types.h \
+ include/asm-generic/qrwlock_types.h \
+ arch/arm64/include/uapi/asm/byteorder.h \
+ include/linux/byteorder/little_endian.h \
+ include/uapi/linux/byteorder/little_endian.h include/linux/swab.h \
+ include/uapi/linux/swab.h arch/arm64/include/generated/uapi/asm/swab.h \
+ include/uapi/asm-generic/swab.h include/linux/byteorder/generic.h \
+ include/linux/lockdep_types.h include/linux/cache.h \
+ include/uapi/linux/kernel.h include/uapi/linux/sysinfo.h \
+ arch/arm64/include/asm/cache.h include/linux/bitops.h \
  include/linux/typecheck.h \
  include/asm-generic/bitops/generic-non-atomic.h \
  arch/arm64/include/asm/barrier.h \
  arch/arm64/include/asm/alternative-macros.h \
  arch/arm64/include/asm/cpucaps.h \
  arch/arm64/include/generated/asm/cpucap-defs.h \
- arch/arm64/include/asm/insn-def.h arch/arm64/include/asm/brk-imm.h \
- include/linux/stringify.h include/asm-generic/barrier.h \
+ arch/arm64/include/asm/insn-def.h include/asm-generic/barrier.h \
  arch/arm64/include/asm/bitops.h \
  include/asm-generic/bitops/builtin-__ffs.h \
  include/asm-generic/bitops/builtin-ffs.h \
@@ -45,9 +64,7 @@ file_table.o: fs/file_table.c include/linux/compiler-version.h \
  include/asm-generic/bitops/atomic.h include/linux/atomic.h \
  arch/arm64/include/asm/atomic.h arch/arm64/include/asm/cmpxchg.h \
  arch/arm64/include/asm/lse.h arch/arm64/include/asm/atomic_ll_sc.h \
- include/linux/export.h include/linux/linkage.h \
- arch/arm64/include/asm/linkage.h arch/arm64/include/asm/alternative.h \
- include/linux/init.h arch/arm64/include/asm/atomic_lse.h \
+ arch/arm64/include/asm/alternative.h arch/arm64/include/asm/atomic_lse.h \
  include/linux/atomic/atomic-arch-fallback.h \
  include/linux/atomic/atomic-long.h \
  include/linux/atomic/atomic-instrumented.h include/linux/instrumented.h \
@@ -57,11 +74,7 @@ file_table.o: fs/file_table.c include/linux/compiler-version.h \
  include/asm-generic/bitops/instrumented-lock.h \
  include/asm-generic/bitops/non-atomic.h \
  include/asm-generic/bitops/non-instrumented-non-atomic.h \
- include/asm-generic/bitops/le.h arch/arm64/include/uapi/asm/byteorder.h \
- include/linux/byteorder/little_endian.h \
- include/uapi/linux/byteorder/little_endian.h include/linux/swab.h \
- include/uapi/linux/swab.h arch/arm64/include/generated/uapi/asm/swab.h \
- include/uapi/asm-generic/swab.h include/linux/byteorder/generic.h \
+ include/asm-generic/bitops/le.h \
  include/asm-generic/bitops/ext2-atomic-setbit.h \
  include/linux/kasan-enabled.h include/linux/static_key.h \
  include/linux/jump_label.h arch/arm64/include/asm/jump_label.h \
@@ -73,16 +86,6 @@ file_table.o: fs/file_table.c include/linux/compiler-version.h \
  include/linux/gfp_types.h include/linux/mmzone.h \
  include/linux/spinlock.h include/linux/preempt.h include/linux/cleanup.h \
  arch/arm64/include/asm/preempt.h include/linux/thread_info.h \
- include/linux/bug.h arch/arm64/include/asm/bug.h \
- arch/arm64/include/asm/asm-bug.h include/asm-generic/bug.h \
- include/linux/instrumentation.h include/linux/once_lite.h \
- include/linux/panic.h include/linux/printk.h include/linux/kern_levels.h \
- include/linux/ratelimit_types.h include/uapi/linux/param.h \
- arch/arm64/include/uapi/asm/param.h include/asm-generic/param.h \
- include/uapi/asm-generic/param.h include/linux/spinlock_types_raw.h \
- arch/arm64/include/asm/spinlock_types.h \
- include/asm-generic/qspinlock_types.h \
- include/asm-generic/qrwlock_types.h include/linux/lockdep_types.h \
  include/linux/restart_block.h arch/arm64/include/asm/current.h \
  arch/arm64/include/asm/thread_info.h arch/arm64/include/asm/memory.h \
  include/linux/sizes.h arch/arm64/include/asm/page-def.h \
@@ -199,18 +202,23 @@ file_table.o: fs/file_table.c include/linux/compiler-version.h \
  arch/arm64/include/asm/numa.h include/asm-generic/numa.h \
  include/asm-generic/topology.h include/linux/percpu-refcount.h \
  include/linux/hash.h include/linux/kasan.h include/linux/file.h \
- include/linux/fdtable.h include/linux/nospec.h include/linux/fs.h \
- include/linux/wait_bit.h include/linux/kdev_t.h \
- include/uapi/linux/kdev_t.h include/linux/dcache.h \
- include/linux/rculist.h include/linux/rculist_bl.h \
- include/linux/list_bl.h include/linux/bit_spinlock.h \
- include/linux/lockref.h include/linux/stringhash.h include/linux/path.h \
- include/linux/stat.h arch/arm64/include/asm/stat.h \
+ include/linux/module.h include/linux/stat.h \
+ arch/arm64/include/asm/stat.h \
  arch/arm64/include/generated/uapi/asm/stat.h \
  include/uapi/asm-generic/stat.h arch/arm64/include/asm/compat.h \
  include/asm-generic/compat.h include/linux/sched/task_stack.h \
  include/uapi/linux/magic.h include/uapi/linux/stat.h \
- include/linux/uidgid.h include/linux/highuid.h include/linux/list_lru.h \
+ include/linux/uidgid.h include/linux/highuid.h include/linux/buildid.h \
+ include/linux/kmod.h include/linux/umh.h include/linux/sysctl.h \
+ include/uapi/linux/sysctl.h include/linux/elf.h \
+ arch/arm64/include/asm/elf.h arch/arm64/include/generated/asm/user.h \
+ include/asm-generic/user.h include/uapi/linux/elf.h \
+ include/uapi/linux/elf-em.h include/linux/fs.h include/linux/wait_bit.h \
+ include/linux/kdev_t.h include/uapi/linux/kdev_t.h \
+ include/linux/dcache.h include/linux/rculist.h \
+ include/linux/rculist_bl.h include/linux/list_bl.h \
+ include/linux/bit_spinlock.h include/linux/lockref.h \
+ include/linux/stringhash.h include/linux/path.h include/linux/list_lru.h \
  include/linux/shrinker.h include/linux/xarray.h include/linux/kconfig.h \
  include/linux/sched/mm.h include/linux/sync_core.h \
  include/linux/sched/coredump.h include/linux/radix-tree.h \
@@ -223,11 +231,11 @@ file_table.o: fs/file_table.c include/linux/compiler-version.h \
  include/linux/sched/signal.h include/linux/signal.h \
  include/linux/sched/jobctl.h include/linux/sched/task.h \
  include/linux/uaccess.h include/linux/fault-inject-usercopy.h \
- arch/arm64/include/asm/uaccess.h arch/arm64/include/asm/kernel-pgtable.h \
+ include/linux/nospec.h arch/arm64/include/asm/uaccess.h \
+ arch/arm64/include/asm/kernel-pgtable.h \
  arch/arm64/include/asm/asm-extable.h arch/arm64/include/asm/mte.h \
  arch/arm64/include/asm/extable.h include/asm-generic/access_ok.h \
- include/linux/cred.h include/linux/key.h include/linux/sysctl.h \
- include/uapi/linux/sysctl.h include/linux/assoc_array.h \
+ include/linux/cred.h include/linux/key.h include/linux/assoc_array.h \
  include/linux/sched/user.h include/linux/ratelimit.h \
  include/linux/posix-timers.h include/linux/alarmtimer.h \
  include/linux/hrtimer.h include/linux/hrtimer_defs.h \
@@ -240,11 +248,7 @@ file_table.o: fs/file_table.c include/linux/compiler-version.h \
  include/uapi/linux/fs.h include/linux/quota.h \
  include/uapi/linux/dqblk_xfs.h include/linux/dqblk_v1.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
- include/linux/projid.h include/uapi/linux/quota.h include/linux/module.h \
- include/linux/buildid.h include/linux/kmod.h include/linux/umh.h \
- include/linux/elf.h arch/arm64/include/asm/elf.h \
- arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
- include/uapi/linux/elf.h include/uapi/linux/elf-em.h \
+ include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
  include/linux/idr.h include/linux/kobject_ns.h \
  include/linux/moduleparam.h include/linux/rbtree_latch.h \
@@ -262,9 +266,9 @@ file_table.o: fs/file_table.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sockptr.h \
- include/linux/bpf.h include/uapi/linux/bpf.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sockptr.h include/linux/bpf.h include/uapi/linux/bpf.h \
  include/uapi/linux/bpf_common.h include/uapi/linux/filter.h \
  include/linux/kallsyms.h include/linux/bpfptr.h include/linux/btf.h \
  include/linux/bsearch.h include/linux/btf_ids.h include/uapi/linux/btf.h \

@@ -1,8 +1,9 @@
 dir.o: fs/nfs/dir.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/compat.h include/linux/types.h include/uapi/linux/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/compat.h \
+ include/linux/types.h include/uapi/linux/types.h \
  arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
@@ -278,13 +279,14 @@ dir.o: fs/nfs/dir.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sunrpc/clnt.h \
- include/linux/in.h include/uapi/linux/in.h include/linux/in6.h \
- include/uapi/linux/in6.h include/linux/sunrpc/msg_prot.h \
- include/linux/inet.h include/net/net_namespace.h include/net/flow.h \
- include/net/netns/core.h include/net/netns/mib.h include/net/snmp.h \
- include/uapi/linux/snmp.h include/linux/u64_stats_sync.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sunrpc/clnt.h include/linux/in.h include/uapi/linux/in.h \
+ include/linux/in6.h include/uapi/linux/in6.h \
+ include/linux/sunrpc/msg_prot.h include/linux/inet.h \
+ include/net/net_namespace.h include/net/flow.h include/net/netns/core.h \
+ include/net/netns/mib.h include/net/snmp.h include/uapi/linux/snmp.h \
+ include/linux/u64_stats_sync.h \
  arch/arm64/include/generated/asm/local64.h include/asm-generic/local64.h \
  arch/arm64/include/generated/asm/local.h include/asm-generic/local.h \
  include/net/netns/unix.h include/net/netns/packet.h \
@@ -349,7 +351,6 @@ dir.o: fs/nfs/dir.c include/linux/compiler-version.h \
  include/linux/device/class.h include/linux/device/devres.h \
  include/linux/device/driver.h arch/arm64/include/asm/device.h \
  include/linux/pm_wakeup.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/uapi/linux/if_ether.h include/uapi/linux/pkt_cls.h \
  include/uapi/linux/pkt_sched.h include/uapi/linux/if_packet.h \

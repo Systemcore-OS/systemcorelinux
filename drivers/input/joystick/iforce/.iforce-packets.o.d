@@ -1,6 +1,7 @@
 iforce-packets.o: drivers/input/joystick/iforce/iforce-packets.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/unaligned.h \
  include/linux/unaligned/packed_struct.h include/linux/types.h \
@@ -74,22 +75,22 @@ iforce-packets.o: drivers/input/joystick/iforce/iforce-packets.c \
  include/asm-generic/qrwlock_types.h include/linux/lockdep_types.h \
  include/linux/once_lite.h include/linux/sprintf.h \
  include/linux/static_call_types.h include/linux/instruction_pointer.h \
- include/linux/wordpart.h include/linux/slab.h include/linux/cache.h \
- arch/arm64/include/asm/cache.h include/linux/kasan-enabled.h \
- include/linux/static_key.h include/linux/jump_label.h \
- arch/arm64/include/asm/jump_label.h arch/arm64/include/asm/insn.h \
- arch/arm64/include/asm/cputype.h arch/arm64/include/asm/sysreg.h \
- include/linux/kasan-tags.h arch/arm64/include/asm/gpr-num.h \
+ include/linux/wordpart.h include/linux/slab.h include/linux/bug.h \
+ arch/arm64/include/asm/bug.h arch/arm64/include/asm/asm-bug.h \
+ include/asm-generic/bug.h include/linux/instrumentation.h \
+ include/linux/cache.h arch/arm64/include/asm/cache.h \
+ include/linux/kasan-enabled.h include/linux/static_key.h \
+ include/linux/jump_label.h arch/arm64/include/asm/jump_label.h \
+ arch/arm64/include/asm/insn.h arch/arm64/include/asm/cputype.h \
+ arch/arm64/include/asm/sysreg.h include/linux/kasan-tags.h \
+ arch/arm64/include/asm/gpr-num.h \
  arch/arm64/include/generated/asm/sysreg-defs.h include/linux/bitfield.h \
  arch/arm64/include/asm/mte-def.h include/linux/gfp.h \
  include/linux/gfp_types.h include/linux/mmzone.h \
  include/linux/spinlock.h include/linux/preempt.h include/linux/cleanup.h \
  arch/arm64/include/asm/preempt.h include/linux/thread_info.h \
- include/linux/bug.h arch/arm64/include/asm/bug.h \
- arch/arm64/include/asm/asm-bug.h include/asm-generic/bug.h \
- include/linux/instrumentation.h include/linux/restart_block.h \
- include/linux/errno.h include/uapi/linux/errno.h \
- arch/arm64/include/generated/uapi/asm/errno.h \
+ include/linux/restart_block.h include/linux/errno.h \
+ include/uapi/linux/errno.h arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  arch/arm64/include/asm/current.h arch/arm64/include/asm/thread_info.h \
  arch/arm64/include/asm/memory.h include/linux/sizes.h \

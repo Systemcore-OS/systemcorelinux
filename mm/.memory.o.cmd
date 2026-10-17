@@ -1,4 +1,4 @@
-savedcmd_mm/memory.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.memory.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"mm/memory"' -DKBUILD_BASENAME='"memory"' -DKBUILD_MODNAME='"memory"' -D__KBUILD_MODNAME=kmod_memory -c -o mm/memory.o mm/memory.c  
+savedcmd_mm/memory.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.memory.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"mm/memory"' -DKBUILD_BASENAME='"memory"' -DKBUILD_MODNAME='"memory"' -D__KBUILD_MODNAME=kmod_memory -c -o mm/memory.o mm/memory.c  
 
 source_mm/memory.o := mm/memory.c
 
@@ -45,6 +45,7 @@ deps_mm/memory.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -470,6 +471,7 @@ deps_mm/memory.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -562,6 +564,7 @@ deps_mm/memory.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -669,6 +672,9 @@ deps_mm/memory.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -953,6 +959,7 @@ deps_mm/memory.o := \
   include/linux/huge_mm.h \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -1053,6 +1060,8 @@ deps_mm/memory.o := \
   include/linux/dqblk_qtree.h \
   include/linux/projid.h \
   include/uapi/linux/quota.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1436,6 +1445,7 @@ deps_mm/memory.o := \
   mm/internal.h \
     $(wildcard include/config/DEBUG_MEMORY_INIT) \
   include/linux/khugepaged.h \
+  include/linux/pagewalk.h \
   include/linux/swap_cgroup.h \
   mm/vma.h \
     $(wildcard include/config/DEBUG_VM_MAPLE_TREE) \
@@ -1447,22 +1457,22 @@ mm/memory.o: $(deps_mm/memory.o)
 $(deps_mm/memory.o):
 #SYMVER high_memory 0x8a7d1c31
 #SYMVER zero_pfn 0x85efc7e0
-#SYMVER zap_vma_ptes 0x0ba7904a
-#SYMVER vm_insert_pages 0xe62b4721
-#SYMVER vm_insert_page 0xdfe874b1
-#SYMVER vm_map_pages 0x76bce76b
-#SYMVER vm_map_pages_zero 0xb4d1877a
-#SYMVER vmf_insert_pfn_prot 0x8276cec6
-#SYMVER vmf_insert_pfn 0xa7edc1c7
-#SYMVER vmf_insert_mixed 0xa23159b7
-#SYMVER remap_pfn_range 0x01542ebf
-#SYMVER vm_iomap_memory 0x73fa7ec0
-#SYMVER apply_to_page_range 0xbb1dd6e5
-#SYMVER apply_to_existing_page_range 0xdc970ef8
-#SYMVER unmap_mapping_pages 0xdabbb8fb
-#SYMVER unmap_mapping_range 0xdb9f4e3f
-#SYMVER handle_mm_fault 0x33fc8c3f
-#SYMVER follow_pfnmap_start 0xbdef74fe
-#SYMVER follow_pfnmap_end 0x97eac36e
-#SYMVER generic_access_phys 0xc7d2c04b
-#SYMVER access_process_vm 0x899082b3
+#SYMVER zap_vma_ptes 0xfb576482
+#SYMVER vm_insert_pages 0x184ab9cf
+#SYMVER vm_insert_page 0xf3f554fd
+#SYMVER vm_map_pages 0xcb933c73
+#SYMVER vm_map_pages_zero 0xdaf72882
+#SYMVER vmf_insert_pfn_prot 0x152612a1
+#SYMVER vmf_insert_pfn 0x4acb8328
+#SYMVER vmf_insert_mixed 0x157a815a
+#SYMVER remap_pfn_range 0x47fa3bc2
+#SYMVER vm_iomap_memory 0x873dd7f0
+#SYMVER apply_to_page_range 0x703bc9a8
+#SYMVER apply_to_existing_page_range 0x800d18e0
+#SYMVER unmap_mapping_pages 0x49a1c54b
+#SYMVER unmap_mapping_range 0x9e09a39c
+#SYMVER handle_mm_fault 0x14d55ccc
+#SYMVER follow_pfnmap_start 0x0f49c62d
+#SYMVER follow_pfnmap_end 0x4012a2db
+#SYMVER generic_access_phys 0x34f42e97
+#SYMVER access_process_vm 0x92b7c658

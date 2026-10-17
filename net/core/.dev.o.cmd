@@ -1,4 +1,4 @@
-savedcmd_net/core/dev.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.dev.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/core/dev"' -DKBUILD_BASENAME='"dev"' -DKBUILD_MODNAME='"dev"' -D__KBUILD_MODNAME=kmod_dev -c -o net/core/dev.o net/core/dev.c  
+savedcmd_net/core/dev.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.dev.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"net/core/dev"' -DKBUILD_BASENAME='"dev"' -DKBUILD_MODNAME='"dev"' -D__KBUILD_MODNAME=kmod_dev -c -o net/core/dev.o net/core/dev.c  
 
 source_net/core/dev.o := net/core/dev.c
 
@@ -28,9 +28,9 @@ deps_net/core/dev.o := \
     $(wildcard include/config/PHYLIB) \
     $(wildcard include/config/PCPU_DEV_REFCNT) \
     $(wildcard include/config/NET_SCHED) \
+    $(wildcard include/config/XFRM_OFFLOAD) \
     $(wildcard include/config/NETFILTER_EGRESS) \
     $(wildcard include/config/PAGE_POOL) \
-    $(wildcard include/config/XFRM_OFFLOAD) \
   include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   include/linux/kconfig.h \
@@ -51,6 +51,7 @@ deps_net/core/dev.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -211,6 +212,7 @@ deps_net/core/dev.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -562,6 +564,7 @@ deps_net/core/dev.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
   include/linux/posix-timers_types.h \
@@ -728,6 +731,9 @@ deps_net/core/dev.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -915,6 +921,7 @@ deps_net/core/dev.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1107,6 +1114,8 @@ deps_net/core/dev.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1346,9 +1355,6 @@ deps_net/core/dev.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1415,6 +1421,7 @@ deps_net/core/dev.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1607,7 +1614,9 @@ deps_net/core/dev.o := \
   include/linux/set_memory.h \
     $(wildcard include/config/ARCH_HAS_SET_MEMORY) \
     $(wildcard include/config/ARCH_HAS_SET_DIRECT_MAP) \
+    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
   arch/arm64/include/asm/set_memory.h \
+  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/set_memory.h \
   include/linux/if_vlan.h \
   include/linux/rtnetlink.h \
@@ -1850,46 +1859,46 @@ deps_net/core/dev.o := \
 net/core/dev.o: $(deps_net/core/dev.o)
 
 $(deps_net/core/dev.o):
-#SYMVER netdev_name_in_use 0xbd426d45
-#SYMVER softnet_data 0x011bcdf0
-#SYMVER dev_add_pack 0x31b4c85e
-#SYMVER __dev_remove_pack 0x882b7ee9
-#SYMVER dev_remove_pack 0x5e7fa5f9
-#SYMVER dev_get_iflink 0x048e9200
-#SYMVER dev_fill_metadata_dst 0x5d4c6ac7
-#SYMVER dev_fill_forward_path 0xd3c28995
-#SYMVER __dev_get_by_name 0x998d9bb1
-#SYMVER dev_get_by_name_rcu 0x9d300648
-#SYMVER dev_get_by_name 0x10e5c74a
-#SYMVER netdev_get_by_name 0x2fc74adc
-#SYMVER __dev_get_by_index 0x344a5361
-#SYMVER dev_get_by_index_rcu 0x8870a848
-#SYMVER dev_get_by_index 0x72f19707
-#SYMVER netdev_get_by_index 0x0793476f
-#SYMVER dev_get_by_napi_id 0xe2e0a1de
-#SYMVER dev_getbyhwaddr_rcu 0xb890fbd4
-#SYMVER dev_getbyhwaddr 0xc9a2faa0
-#SYMVER dev_getfirstbyhwtype 0xf8e5b2f5
-#SYMVER __dev_get_by_flags 0x42d34ef4
+#SYMVER netdev_name_in_use 0xf64c8509
+#SYMVER softnet_data 0xe48a7ca6
+#SYMVER dev_add_pack 0x4ae3b85e
+#SYMVER __dev_remove_pack 0xc6c06bbf
+#SYMVER dev_remove_pack 0xc36382c1
+#SYMVER dev_get_iflink 0xbe8d2a59
+#SYMVER dev_fill_metadata_dst 0x43da45fe
+#SYMVER dev_fill_forward_path 0xd7ae3051
+#SYMVER __dev_get_by_name 0x875c461d
+#SYMVER dev_get_by_name_rcu 0x67e04515
+#SYMVER dev_get_by_name 0x5f37a2af
+#SYMVER netdev_get_by_name 0xbbb0b52b
+#SYMVER __dev_get_by_index 0x84f518ae
+#SYMVER dev_get_by_index_rcu 0x251c4b6e
+#SYMVER dev_get_by_index 0x116b0cd1
+#SYMVER netdev_get_by_index 0x3bcbc3c9
+#SYMVER dev_get_by_napi_id 0x402ef0b1
+#SYMVER dev_getbyhwaddr_rcu 0x9cba74f2
+#SYMVER dev_getbyhwaddr 0xc8c83c44
+#SYMVER dev_getfirstbyhwtype 0xc106c1fe
+#SYMVER __dev_get_by_flags 0x90fae186
 #SYMVER dev_valid_name 0x62849ac7
-#SYMVER dev_alloc_name 0x93ae5b3b
-#SYMVER dev_set_alias 0x5e3d1890
-#SYMVER netdev_features_change 0x2fdca46d
-#SYMVER netdev_state_change 0x7c5d6008
-#SYMVER __netdev_notify_peers 0x71d30c45
-#SYMVER netdev_notify_peers 0x8aa11047
-#SYMVER dev_open 0xcb482a04
+#SYMVER dev_alloc_name 0xa537b830
+#SYMVER dev_set_alias 0x699ac8f7
+#SYMVER netdev_features_change 0x6ae297fc
+#SYMVER netdev_state_change 0xd85dde78
+#SYMVER __netdev_notify_peers 0xb183f1da
+#SYMVER netdev_notify_peers 0x3d5b644c
+#SYMVER dev_open 0xf455c45e
 #SYMVER dev_close_many 0x58b4645c
-#SYMVER dev_close 0xa38ddff2
-#SYMVER dev_disable_lro 0xa6e81050
+#SYMVER dev_close 0x85a8f972
+#SYMVER dev_disable_lro 0x70a1e4dc
 #SYMVER netdev_cmd_to_name 0x3ae65f46
 #SYMVER register_netdevice_notifier 0xd2da1048
 #SYMVER unregister_netdevice_notifier 0x9d0d6206
-#SYMVER register_netdevice_notifier_net 0x0a01693e
-#SYMVER unregister_netdevice_notifier_net 0x35ca0ee8
-#SYMVER register_netdevice_notifier_dev_net 0x5707cefb
-#SYMVER unregister_netdevice_notifier_dev_net 0xe9320006
-#SYMVER call_netdevice_notifiers 0x2a02aee5
+#SYMVER register_netdevice_notifier_net 0x4d62beb2
+#SYMVER unregister_netdevice_notifier_net 0x8d24c4a5
+#SYMVER register_netdevice_notifier_dev_net 0x54b7db58
+#SYMVER unregister_netdevice_notifier_dev_net 0xc26afe69
+#SYMVER call_netdevice_notifiers 0x918a9eb7
 #SYMVER net_inc_ingress_queue 0x2c3054f9
 #SYMVER net_dec_ingress_queue 0x46013233
 #SYMVER net_inc_egress_queue 0x07be6905
@@ -1898,146 +1907,147 @@ $(deps_net/core/dev.o):
 #SYMVER netstamp_needed_key 0x391df80a
 #SYMVER net_enable_timestamp 0x54e6fcdd
 #SYMVER net_disable_timestamp 0x199ed0cd
-#SYMVER is_skb_forwardable 0xd1d441e6
-#SYMVER __dev_forward_skb 0xcd8c83a3
-#SYMVER dev_forward_skb 0xa69431a3
-#SYMVER dev_nit_active 0x681bea03
-#SYMVER dev_queue_xmit_nit 0x9c52dda3
-#SYMVER netdev_txq_to_tc 0xe80ce446
-#SYMVER __netif_set_xps_queue 0xd137d472
-#SYMVER netif_set_xps_queue 0x1aad59cb
-#SYMVER netdev_reset_tc 0xa918cdf8
-#SYMVER netdev_set_tc_queue 0xe33912df
-#SYMVER netdev_set_num_tc 0xd2e59788
-#SYMVER netdev_unbind_sb_channel 0xc1febced
-#SYMVER netdev_bind_sb_channel_queue 0x207742ee
-#SYMVER netdev_set_sb_channel 0xfda3503a
-#SYMVER netif_set_real_num_tx_queues 0x26084048
-#SYMVER netif_set_real_num_rx_queues 0xdca69f38
-#SYMVER netif_set_real_num_queues 0xeae509bd
-#SYMVER netif_set_tso_max_size 0x049b00c4
-#SYMVER netif_set_tso_max_segs 0x5d182229
-#SYMVER netif_inherit_tso_max 0xd66f0d5f
+#SYMVER is_skb_forwardable 0x522b9caf
+#SYMVER __dev_forward_skb 0x07dab363
+#SYMVER dev_forward_skb 0x3699b0e2
+#SYMVER dev_nit_active 0xc2aa8c7f
+#SYMVER dev_queue_xmit_nit 0xcd17bf6e
+#SYMVER netdev_txq_to_tc 0x635f1393
+#SYMVER __netif_set_xps_queue 0x839e45f6
+#SYMVER netif_set_xps_queue 0xff475bc4
+#SYMVER netdev_reset_tc 0xc22f1b59
+#SYMVER netdev_set_tc_queue 0x6d3bbc5d
+#SYMVER netdev_set_num_tc 0x6e232b7f
+#SYMVER netdev_unbind_sb_channel 0xac149105
+#SYMVER netdev_bind_sb_channel_queue 0x77412ec7
+#SYMVER netdev_set_sb_channel 0x68def0fe
+#SYMVER netif_set_real_num_tx_queues 0x888ea319
+#SYMVER netif_set_real_num_rx_queues 0xb444a21b
+#SYMVER netif_set_real_num_queues 0x31aacffd
+#SYMVER netif_set_tso_max_size 0x64d25322
+#SYMVER netif_set_tso_max_segs 0xa9e15ecb
+#SYMVER netif_inherit_tso_max 0xdaac3193
 #SYMVER netif_get_num_default_rss_queues 0x0274dc2b
-#SYMVER __netif_schedule 0x6e03bf8d
-#SYMVER netif_schedule_queue 0xc86bd5eb
-#SYMVER netif_tx_wake_queue 0x6c7e4346
-#SYMVER dev_kfree_skb_irq_reason 0xc764e5c0
-#SYMVER dev_kfree_skb_any_reason 0x53607ee0
-#SYMVER netif_device_detach 0x85ed2d71
-#SYMVER netif_device_attach 0xda777bea
-#SYMVER skb_checksum_help 0x81050d2a
-#SYMVER skb_crc32c_csum_help 0x58c385a5
-#SYMVER netdev_rx_csum_fault 0xcdd74e30
-#SYMVER passthru_features_check 0xfbe45a79
-#SYMVER netif_skb_features 0x261d21e1
-#SYMVER skb_csum_hwoffload_help 0xc17b62da
-#SYMVER validate_xmit_skb_list 0xa5f2cc17
-#SYMVER dev_loopback_xmit 0xd38d3f78
+#SYMVER __netif_schedule 0xa8c69131
+#SYMVER netif_schedule_queue 0xa083fe7b
+#SYMVER netif_tx_wake_queue 0x916bad23
+#SYMVER dev_kfree_skb_irq_reason 0xcd1fe0fa
+#SYMVER dev_kfree_skb_any_reason 0xdb44f216
+#SYMVER netif_device_detach 0x2acc5d60
+#SYMVER netif_device_attach 0xcef91490
+#SYMVER skb_checksum_help 0x980f7c25
+#SYMVER skb_crc32c_csum_help 0xda2e7aa6
+#SYMVER netdev_rx_csum_fault 0xacabebd1
+#SYMVER passthru_features_check 0x4023fd5b
+#SYMVER netif_skb_features 0xeff9ef61
+#SYMVER skb_csum_hwoffload_help 0x14a5dc64
+#SYMVER validate_xmit_skb_list 0xc96ef368
+#SYMVER dev_loopback_xmit 0x81bd15e5
 #SYMVER netdev_xmit_skip_txqueue 0xed8c384b
-#SYMVER dev_pick_tx_zero 0x1ad030fc
-#SYMVER netdev_pick_tx 0x583d6723
-#SYMVER __dev_queue_xmit 0x4ee12a14
-#SYMVER __dev_direct_xmit 0x19be7a92
+#SYMVER dev_pick_tx_zero 0x807f931e
+#SYMVER netdev_pick_tx 0x92962109
+#SYMVER __dev_queue_xmit 0x064e1f80
+#SYMVER __dev_direct_xmit 0xba7202d8
 #SYMVER rps_needed 0x8761c87b
 #SYMVER rfs_needed 0xadd139d4
-#SYMVER rps_may_expire_flow 0x6017fca5
-#SYMVER do_xdp_generic 0x1526fcc6
-#SYMVER __netif_rx 0xde136615
-#SYMVER netif_rx 0x9ae6c591
-#SYMVER netdev_is_rx_handler_busy 0x0c4bc1c4
-#SYMVER netdev_rx_handler_register 0x5d903a8c
-#SYMVER netdev_rx_handler_unregister 0x5f15aa9c
-#SYMVER netif_receive_skb_core 0xcc1b3e94
-#SYMVER netif_receive_skb 0xe62ac4ca
+#SYMVER rps_may_expire_flow 0xe2f2af75
+#SYMVER do_xdp_generic 0x85832d00
+#SYMVER __netif_rx 0x0c34dfb8
+#SYMVER netif_rx 0x614f96ad
+#SYMVER netdev_is_rx_handler_busy 0x1c3b036c
+#SYMVER netdev_rx_handler_register 0xb6cf6774
+#SYMVER netdev_rx_handler_unregister 0x08114da7
+#SYMVER netif_receive_skb_core 0x8b22b35c
+#SYMVER netif_receive_skb 0xb60e9db0
 #SYMVER netif_receive_skb_list 0x6b8bf149
-#SYMVER __napi_schedule 0x698fa833
-#SYMVER napi_schedule_prep 0xb04dfd95
-#SYMVER __napi_schedule_irqoff 0xc2dd465a
-#SYMVER napi_complete_done 0xd19b161d
+#SYMVER __napi_schedule 0x125d090b
+#SYMVER napi_schedule_prep 0xb5ce5c41
+#SYMVER __napi_schedule_irqoff 0x4f52809c
+#SYMVER napi_complete_done 0xf2405754
 #SYMVER napi_busy_loop 0x29604158
-#SYMVER dev_set_threaded 0xe82d2619
-#SYMVER netif_queue_set_napi 0xaec9c56e
-#SYMVER netif_napi_add_weight 0x91ed877b
-#SYMVER napi_disable 0x793228a5
-#SYMVER napi_enable 0xccc67410
-#SYMVER __netif_napi_del 0x5cf02397
-#SYMVER netdev_has_upper_dev 0x09349761
-#SYMVER netdev_has_upper_dev_all_rcu 0x00521197
-#SYMVER netdev_has_any_upper_dev 0x2879299f
-#SYMVER netdev_master_upper_dev_get 0x747d4516
+#SYMVER dev_set_threaded 0x1434151f
+#SYMVER netif_queue_set_napi 0x93ece015
+#SYMVER netif_napi_add_weight 0x61b48281
+#SYMVER napi_disable 0x657ad05c
+#SYMVER napi_enable 0x52e43dde
+#SYMVER __netif_napi_del 0x66195ba0
+#SYMVER netdev_has_upper_dev 0x592e627e
+#SYMVER netdev_has_upper_dev_all_rcu 0x86c5c992
+#SYMVER netdev_has_any_upper_dev 0xbf29c05f
+#SYMVER netdev_master_upper_dev_get 0x8ead064b
 #SYMVER netdev_adjacent_get_private 0xa0dad88e
-#SYMVER netdev_upper_get_next_dev_rcu 0x7ac565f1
-#SYMVER netdev_walk_all_upper_dev_rcu 0xd03add6f
-#SYMVER netdev_lower_get_next_private 0x8ada6e22
-#SYMVER netdev_lower_get_next_private_rcu 0xb9d9c5ae
-#SYMVER netdev_lower_get_next 0xe94c8ce7
-#SYMVER netdev_walk_all_lower_dev 0x415e8f85
-#SYMVER netdev_next_lower_dev_rcu 0x7addbabc
-#SYMVER netdev_walk_all_lower_dev_rcu 0xe4434c2c
-#SYMVER netdev_lower_get_first_private_rcu 0xc6af7683
-#SYMVER netdev_master_upper_dev_get_rcu 0xb0d69efb
-#SYMVER netdev_upper_dev_link 0xd583a664
-#SYMVER netdev_master_upper_dev_link 0x03adf1d3
-#SYMVER netdev_upper_dev_unlink 0x5b56fef2
-#SYMVER netdev_adjacent_change_prepare 0x81d24b49
-#SYMVER netdev_adjacent_change_commit 0xd5b31d68
-#SYMVER netdev_adjacent_change_abort 0xf5e16675
-#SYMVER netdev_bonding_info_change 0x18103519
-#SYMVER netdev_offload_xstats_enable 0x1eb50133
-#SYMVER netdev_offload_xstats_disable 0xc0465832
-#SYMVER netdev_offload_xstats_enabled 0x461d5458
-#SYMVER netdev_offload_xstats_get 0xf0524505
+#SYMVER netdev_upper_get_next_dev_rcu 0xa9f43baf
+#SYMVER netdev_walk_all_upper_dev_rcu 0x9e95be70
+#SYMVER netdev_lower_get_next_private 0x60ab0d21
+#SYMVER netdev_lower_get_next_private_rcu 0x6e50dbdc
+#SYMVER netdev_lower_get_next 0xd34758dd
+#SYMVER netdev_walk_all_lower_dev 0xee92b4db
+#SYMVER netdev_next_lower_dev_rcu 0x46853e1a
+#SYMVER netdev_walk_all_lower_dev_rcu 0xf5e791df
+#SYMVER netdev_lower_get_first_private_rcu 0xc6f41a74
+#SYMVER netdev_master_upper_dev_get_rcu 0x273da400
+#SYMVER netdev_upper_dev_link 0xd8c56f46
+#SYMVER netdev_master_upper_dev_link 0x41856927
+#SYMVER netdev_upper_dev_unlink 0x94633391
+#SYMVER netdev_adjacent_change_prepare 0x4f19b16e
+#SYMVER netdev_adjacent_change_commit 0xd0c98086
+#SYMVER netdev_adjacent_change_abort 0x6e8ee688
+#SYMVER netdev_bonding_info_change 0x9c123f91
+#SYMVER netdev_offload_xstats_enable 0x62fe819a
+#SYMVER netdev_offload_xstats_disable 0x2807a840
+#SYMVER netdev_offload_xstats_enabled 0xda291756
+#SYMVER netdev_offload_xstats_get 0x127de589
 #SYMVER netdev_offload_xstats_report_delta 0x9fb41842
 #SYMVER netdev_offload_xstats_report_used 0xd2d88506
-#SYMVER netdev_offload_xstats_push_delta 0x6d861b4f
-#SYMVER netdev_get_xmit_slave 0x4e4327ce
-#SYMVER netdev_sk_get_lowest_dev 0x8f49af97
-#SYMVER netdev_lower_dev_get_private 0xa45be737
-#SYMVER netdev_lower_state_changed 0xe72a1a03
-#SYMVER dev_set_promiscuity 0x50d227e7
-#SYMVER dev_set_allmulti 0x0b501333
-#SYMVER dev_get_flags 0xaceada81
-#SYMVER dev_change_flags 0xa7b51b37
-#SYMVER __dev_set_mtu 0x9db2ee60
-#SYMVER dev_set_mtu 0xe3f77360
-#SYMVER dev_pre_changeaddr_notify 0xba17c574
-#SYMVER dev_set_mac_address 0xb78938b3
-#SYMVER dev_set_mac_address_user 0xa332d5fa
-#SYMVER dev_get_mac_address 0x79a2bb45
-#SYMVER dev_get_port_parent_id 0xb30d2ba7
-#SYMVER netdev_port_same_parent_id 0x2ebc01b0
-#SYMVER dev_xdp_prog_count 0xce36898f
-#SYMVER dev_xdp_propagate 0xc704582c
-#SYMVER netdev_update_features 0xd054f266
-#SYMVER netdev_change_features 0xc7915485
-#SYMVER netif_stacked_transfer_operstate 0x19062a76
-#SYMVER netif_tx_stop_all_queues 0x4df09f7c
-#SYMVER register_netdevice 0x702a802a
-#SYMVER init_dummy_netdev 0x5b90ef48
-#SYMVER register_netdev 0x7f7b566b
-#SYMVER netdev_refcnt_read 0xa8dd2292
+#SYMVER netdev_offload_xstats_push_delta 0x51be121a
+#SYMVER netdev_get_xmit_slave 0x152350ea
+#SYMVER netdev_sk_get_lowest_dev 0x8e236973
+#SYMVER netdev_lower_dev_get_private 0x00485155
+#SYMVER netdev_lower_state_changed 0xf6aeb00c
+#SYMVER dev_set_promiscuity 0x33574f10
+#SYMVER dev_set_allmulti 0x2858113e
+#SYMVER dev_get_flags 0xed560078
+#SYMVER dev_change_flags 0x6923e33d
+#SYMVER __dev_set_mtu 0x283d3da8
+#SYMVER dev_set_mtu 0xb20698b2
+#SYMVER dev_pre_changeaddr_notify 0x8b227428
+#SYMVER dev_set_mac_address 0x60d533de
+#SYMVER dev_set_mac_address_user 0x236e600a
+#SYMVER dev_get_mac_address 0x2095e2d4
+#SYMVER dev_get_port_parent_id 0x6690b6cc
+#SYMVER netdev_port_same_parent_id 0x98727a00
+#SYMVER dev_xdp_prog_count 0xb9c46e56
+#SYMVER dev_xdp_propagate 0x469c729b
+#SYMVER netdev_update_features 0xd129c379
+#SYMVER netdev_change_features 0xc0623f69
+#SYMVER netif_stacked_transfer_operstate 0x124489e3
+#SYMVER netif_tx_stop_all_queues 0xfac784a6
+#SYMVER register_netdevice 0x8c221256
+#SYMVER init_dummy_netdev 0xfcfc1b5a
+#SYMVER register_netdev 0xcca370db
+#SYMVER netdev_refcnt_read 0xb5179f46
 #SYMVER netdev_stats_to_stats64 0xcf3b69b3
-#SYMVER netdev_core_stats_inc 0x852bb816
-#SYMVER dev_get_stats 0xd2bcac5e
+#SYMVER netdev_core_stats_inc 0x8558f6a9
+#SYMVER dev_get_stats 0x6c14d4f6
 #SYMVER dev_fetch_sw_netstats 0x8fa5a6ee
-#SYMVER dev_get_tstats64 0x1a9b49e8
-#SYMVER netdev_set_default_ethtool_ops 0x7f4df771
-#SYMVER netdev_sw_irq_coalesce_default_on 0xf341da18
-#SYMVER alloc_netdev_mqs 0xde6d29f3
-#SYMVER free_netdev 0xa54b0943
-#SYMVER alloc_netdev_dummy 0xa92975ab
+#SYMVER dev_get_tstats64 0xd8f711b9
+#SYMVER netdev_set_default_ethtool_ops 0xe5702396
+#SYMVER netdev_sw_irq_coalesce_default_on 0x0a87ff65
+#SYMVER alloc_netdev_mqs 0x1f1ee44f
+#SYMVER free_netdev 0xd493a955
+#SYMVER alloc_netdev_dummy 0x2cab7e17
 #SYMVER synchronize_net 0x609f1c7e
-#SYMVER unregister_netdevice_queue 0xb769cc7b
+#SYMVER unregister_netdevice_queue 0xe03add30
 #SYMVER unregister_netdevice_many 0x9fdecc31
-#SYMVER unregister_netdev 0x4b54970e
-#SYMVER __dev_change_net_namespace 0x50d106bf
+#SYMVER unregister_netdev 0xc1498fe7
+#SYMVER __dev_change_net_namespace 0x5de0bc86
 #SYMVER netdev_increment_features 0x69668826
-#SYMVER netdev_printk 0xf99d7129
-#SYMVER netdev_emerg 0x8d49242c
-#SYMVER netdev_alert 0x4cfd676e
-#SYMVER netdev_crit 0x8a12dd00
-#SYMVER netdev_err 0x2615171b
-#SYMVER netdev_warn 0x6fab3e43
-#SYMVER netdev_notice 0xcca28f70
-#SYMVER netdev_info 0x8eb1c3f9
+#SYMVER netdev_compute_master_upper_features 0xe09c9eb4
+#SYMVER netdev_printk 0xa9f7977c
+#SYMVER netdev_emerg 0x302e4899
+#SYMVER netdev_alert 0x867560f6
+#SYMVER netdev_crit 0x7e0b858a
+#SYMVER netdev_err 0x77f571c0
+#SYMVER netdev_warn 0xbbfa43ea
+#SYMVER netdev_notice 0xcffaabf1
+#SYMVER netdev_info 0xf4117649

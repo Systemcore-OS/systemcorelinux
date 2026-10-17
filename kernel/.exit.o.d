@@ -1,8 +1,9 @@
 exit.o: kernel/exit.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/mm.h include/linux/errno.h include/uapi/linux/errno.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/mm.h \
+ include/linux/errno.h include/uapi/linux/errno.h \
  arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  include/linux/mmdebug.h include/linux/bug.h arch/arm64/include/asm/bug.h \
@@ -253,16 +254,16 @@ exit.o: kernel/exit.c include/linux/compiler-version.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sched/autogroup.h \
- include/linux/sched/stat.h include/linux/sched/cputime.h \
- include/linux/interrupt.h include/linux/irqreturn.h \
- include/linux/hardirq.h include/linux/context_tracking_state.h \
- include/linux/ftrace_irq.h include/linux/vtime.h \
- arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
- include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- include/asm-generic/hardirq.h include/linux/irq.h \
- include/linux/irqhandler.h include/linux/io.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sched/autogroup.h include/linux/sched/stat.h \
+ include/linux/sched/cputime.h include/linux/interrupt.h \
+ include/linux/irqreturn.h include/linux/hardirq.h \
+ include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
+ include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
+ arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -301,9 +302,8 @@ exit.o: kernel/exit.c include/linux/compiler-version.h \
  include/linux/cpuhotplug.h include/linux/cpuhplock.h \
  include/linux/cpu_smt.h include/linux/acct.h include/uapi/linux/acct.h \
  include/linux/tsacct_kern.h include/uapi/linux/taskstats.h \
- include/linux/file.h include/linux/fdtable.h include/linux/freezer.h \
- include/linux/binfmts.h include/uapi/linux/unistd.h \
- arch/arm64/include/asm/unistd.h \
+ include/linux/file.h include/linux/freezer.h include/linux/binfmts.h \
+ include/uapi/linux/unistd.h arch/arm64/include/asm/unistd.h \
  arch/arm64/include/generated/uapi/asm/unistd_64.h \
  arch/arm64/include/asm/exec.h include/uapi/linux/binfmts.h \
  include/linux/nsproxy.h include/linux/pid_namespace.h \
@@ -415,7 +415,6 @@ exit.o: kernel/exit.c include/linux/compiler-version.h \
  include/linux/stackdepot.h include/linux/skbuff.h include/net/checksum.h \
  arch/arm64/include/asm/checksum.h include/asm-generic/checksum.h \
  include/linux/dma-mapping.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/uapi/linux/if_ether.h include/uapi/linux/pkt_cls.h \
  include/uapi/linux/pkt_sched.h include/uapi/linux/if_packet.h \

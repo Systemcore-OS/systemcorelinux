@@ -1,4 +1,4 @@
-savedcmd_drivers/net/wireless/ath/ath9k/xmit.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/ath/ath9k/.xmit.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"xmit"' -DKBUILD_MODNAME='"ath9k"' -D__KBUILD_MODNAME=kmod_ath9k -c -o drivers/net/wireless/ath/ath9k/xmit.o drivers/net/wireless/ath/ath9k/xmit.c  
+savedcmd_drivers/net/wireless/ath/ath9k/xmit.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/wireless/ath/ath9k/.xmit.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"xmit"' -DKBUILD_MODNAME='"ath9k"' -D__KBUILD_MODNAME=kmod_ath9k -c -o drivers/net/wireless/ath/ath9k/xmit.o drivers/net/wireless/ath/ath9k/xmit.c  
 
 source_drivers/net/wireless/ath/ath9k/xmit.o := drivers/net/wireless/ath/ath9k/xmit.c
 
@@ -24,6 +24,7 @@ deps_drivers/net/wireless/ath/ath9k/xmit.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -39,175 +40,6 @@ deps_drivers/net/wireless/ath/ath9k/xmit.o := \
     $(wildcard include/config/HAS_DMA) \
     $(wildcard include/config/DMA_NEED_SYNC) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
-  include/linux/cache.h \
-    $(wildcard include/config/SMP) \
-    $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
-  include/uapi/linux/kernel.h \
-  include/uapi/linux/sysinfo.h \
-  include/linux/types.h \
-    $(wildcard include/config/HAVE_UID16) \
-    $(wildcard include/config/UID16) \
-    $(wildcard include/config/ARCH_DMA_ADDR_T_64BIT) \
-    $(wildcard include/config/PHYS_ADDR_T_64BIT) \
-    $(wildcard include/config/64BIT) \
-    $(wildcard include/config/ARCH_32BIT_USTAT_F_TINODE) \
-  include/uapi/linux/types.h \
-  arch/arm64/include/generated/uapi/asm/types.h \
-  include/uapi/asm-generic/types.h \
-  include/asm-generic/int-ll64.h \
-  include/uapi/asm-generic/int-ll64.h \
-  arch/arm64/include/uapi/asm/bitsperlong.h \
-  include/asm-generic/bitsperlong.h \
-  include/uapi/asm-generic/bitsperlong.h \
-  include/uapi/linux/posix_types.h \
-  include/linux/stddef.h \
-  include/uapi/linux/stddef.h \
-  arch/arm64/include/uapi/asm/posix_types.h \
-  include/uapi/asm-generic/posix_types.h \
-  include/linux/const.h \
-  include/vdso/const.h \
-  include/uapi/linux/const.h \
-  arch/arm64/include/asm/cache.h \
-    $(wildcard include/config/KASAN_SW_TAGS) \
-    $(wildcard include/config/KASAN_HW_TAGS) \
-  include/linux/bitops.h \
-  include/linux/bits.h \
-  include/vdso/bits.h \
-  include/uapi/linux/bits.h \
-  include/linux/build_bug.h \
-  include/linux/compiler.h \
-    $(wildcard include/config/TRACE_BRANCH_PROFILING) \
-    $(wildcard include/config/PROFILE_ALL_BRANCHES) \
-    $(wildcard include/config/OBJTOOL) \
-  arch/arm64/include/asm/rwonce.h \
-    $(wildcard include/config/LTO) \
-    $(wildcard include/config/AS_HAS_LDAPR) \
-  include/asm-generic/rwonce.h \
-  include/linux/kasan-checks.h \
-    $(wildcard include/config/KASAN_GENERIC) \
-  include/linux/kcsan-checks.h \
-    $(wildcard include/config/KCSAN_WEAK_MEMORY) \
-    $(wildcard include/config/KCSAN_IGNORE_ATOMICS) \
-  include/linux/overflow.h \
-  include/linux/limits.h \
-  include/uapi/linux/limits.h \
-  include/vdso/limits.h \
-  include/linux/typecheck.h \
-  include/asm-generic/bitops/generic-non-atomic.h \
-  arch/arm64/include/asm/barrier.h \
-    $(wildcard include/config/ARM64_PSEUDO_NMI) \
-  arch/arm64/include/asm/alternative-macros.h \
-  arch/arm64/include/asm/cpucaps.h \
-    $(wildcard include/config/ARM64_PAN) \
-    $(wildcard include/config/ARM64_EPAN) \
-    $(wildcard include/config/ARM64_SVE) \
-    $(wildcard include/config/ARM64_SME) \
-    $(wildcard include/config/ARM64_CNP) \
-    $(wildcard include/config/ARM64_MTE) \
-    $(wildcard include/config/ARM64_BTI) \
-    $(wildcard include/config/ARM64_TLB_RANGE) \
-    $(wildcard include/config/UNMAP_KERNEL_AT_EL0) \
-    $(wildcard include/config/ARM64_ERRATUM_843419) \
-    $(wildcard include/config/ARM64_ERRATUM_1742098) \
-    $(wildcard include/config/ARM64_ERRATUM_2645198) \
-    $(wildcard include/config/ARM64_ERRATUM_2658417) \
-    $(wildcard include/config/CAVIUM_ERRATUM_23154) \
-    $(wildcard include/config/NVIDIA_CARMEL_CNP_ERRATUM) \
-    $(wildcard include/config/ARM64_WORKAROUND_REPEAT_TLBI) \
-    $(wildcard include/config/ARM64_ERRATUM_3194386) \
-  arch/arm64/include/generated/asm/cpucap-defs.h \
-  arch/arm64/include/asm/insn-def.h \
-  arch/arm64/include/asm/brk-imm.h \
-  include/linux/stringify.h \
-  include/asm-generic/barrier.h \
-  arch/arm64/include/asm/bitops.h \
-  include/asm-generic/bitops/builtin-__ffs.h \
-  include/asm-generic/bitops/builtin-ffs.h \
-  include/asm-generic/bitops/builtin-__fls.h \
-  include/asm-generic/bitops/builtin-fls.h \
-  include/asm-generic/bitops/ffz.h \
-  include/asm-generic/bitops/fls64.h \
-  include/asm-generic/bitops/sched.h \
-  include/asm-generic/bitops/hweight.h \
-  include/asm-generic/bitops/arch_hweight.h \
-  include/asm-generic/bitops/const_hweight.h \
-  include/asm-generic/bitops/atomic.h \
-  include/linux/atomic.h \
-  arch/arm64/include/asm/atomic.h \
-  arch/arm64/include/asm/cmpxchg.h \
-  arch/arm64/include/asm/lse.h \
-    $(wildcard include/config/ARM64_LSE_ATOMICS) \
-  arch/arm64/include/asm/atomic_ll_sc.h \
-    $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
-  include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  arch/arm64/include/asm/linkage.h \
-  arch/arm64/include/asm/alternative.h \
-    $(wildcard include/config/MODULES) \
-  include/linux/init.h \
-    $(wildcard include/config/MEMORY_HOTPLUG) \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
-  arch/arm64/include/asm/atomic_lse.h \
-  include/linux/atomic/atomic-arch-fallback.h \
-    $(wildcard include/config/GENERIC_ATOMIC64) \
-  include/linux/atomic/atomic-long.h \
-  include/linux/atomic/atomic-instrumented.h \
-  include/linux/instrumented.h \
-  include/linux/kmsan-checks.h \
-    $(wildcard include/config/KMSAN) \
-  include/asm-generic/bitops/instrumented-atomic.h \
-  include/asm-generic/bitops/lock.h \
-  include/asm-generic/bitops/instrumented-lock.h \
-  include/asm-generic/bitops/non-atomic.h \
-  include/asm-generic/bitops/non-instrumented-non-atomic.h \
-  include/asm-generic/bitops/le.h \
-  arch/arm64/include/uapi/asm/byteorder.h \
-  include/linux/byteorder/little_endian.h \
-  include/uapi/linux/byteorder/little_endian.h \
-  include/linux/swab.h \
-  include/uapi/linux/swab.h \
-  arch/arm64/include/generated/uapi/asm/swab.h \
-  include/uapi/asm-generic/swab.h \
-  include/linux/byteorder/generic.h \
-  include/asm-generic/bitops/ext2-atomic-setbit.h \
-  include/linux/kasan-enabled.h \
-    $(wildcard include/config/KASAN) \
-  include/linux/static_key.h \
-  include/linux/jump_label.h \
-    $(wildcard include/config/JUMP_LABEL) \
-    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
-  arch/arm64/include/asm/jump_label.h \
-  arch/arm64/include/asm/insn.h \
-  arch/arm64/include/asm/cputype.h \
-  arch/arm64/include/asm/sysreg.h \
-    $(wildcard include/config/BROKEN_GAS_INST) \
-    $(wildcard include/config/ARM64_PA_BITS_52) \
-    $(wildcard include/config/ARM64_4K_PAGES) \
-    $(wildcard include/config/ARM64_16K_PAGES) \
-    $(wildcard include/config/ARM64_64K_PAGES) \
-  include/linux/kasan-tags.h \
-  arch/arm64/include/asm/gpr-num.h \
-  arch/arm64/include/generated/asm/sysreg-defs.h \
-  include/linux/bitfield.h \
-  arch/arm64/include/asm/mte-def.h \
-  include/linux/sizes.h \
-  include/linux/string.h \
-    $(wildcard include/config/BINARY_PRINTF) \
-    $(wildcard include/config/FORTIFY_SOURCE) \
-  include/linux/args.h \
-  include/linux/array_size.h \
-  include/linux/err.h \
-  arch/arm64/include/generated/uapi/asm/errno.h \
-  include/uapi/asm-generic/errno.h \
-  include/uapi/asm-generic/errno-base.h \
-  include/linux/errno.h \
-  include/uapi/linux/errno.h \
-  include/linux/stdarg.h \
-  include/uapi/linux/string.h \
-  arch/arm64/include/asm/string.h \
-    $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
   include/linux/device.h \
     $(wildcard include/config/GENERIC_MSI_IRQ) \
     $(wildcard include/config/ENERGY_MODEL) \
@@ -232,20 +64,74 @@ deps_drivers/net/wireless/ath/ath9k/xmit.o := \
     $(wildcard include/config/PRINTK) \
     $(wildcard include/config/DYNAMIC_DEBUG) \
     $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
+  include/linux/compiler.h \
+    $(wildcard include/config/TRACE_BRANCH_PROFILING) \
+    $(wildcard include/config/PROFILE_ALL_BRANCHES) \
+    $(wildcard include/config/OBJTOOL) \
+    $(wildcard include/config/64BIT) \
+  arch/arm64/include/asm/rwonce.h \
+    $(wildcard include/config/LTO) \
+    $(wildcard include/config/AS_HAS_LDAPR) \
+  include/asm-generic/rwonce.h \
+  include/linux/kasan-checks.h \
+    $(wildcard include/config/KASAN_GENERIC) \
+    $(wildcard include/config/KASAN_SW_TAGS) \
+  include/linux/types.h \
+    $(wildcard include/config/HAVE_UID16) \
+    $(wildcard include/config/UID16) \
+    $(wildcard include/config/ARCH_DMA_ADDR_T_64BIT) \
+    $(wildcard include/config/PHYS_ADDR_T_64BIT) \
+    $(wildcard include/config/ARCH_32BIT_USTAT_F_TINODE) \
+  include/uapi/linux/types.h \
+  arch/arm64/include/generated/uapi/asm/types.h \
+  include/uapi/asm-generic/types.h \
+  include/asm-generic/int-ll64.h \
+  include/uapi/asm-generic/int-ll64.h \
+  arch/arm64/include/uapi/asm/bitsperlong.h \
+  include/asm-generic/bitsperlong.h \
+  include/uapi/asm-generic/bitsperlong.h \
+  include/uapi/linux/posix_types.h \
+  include/linux/stddef.h \
+  include/uapi/linux/stddef.h \
+  arch/arm64/include/uapi/asm/posix_types.h \
+  include/uapi/asm-generic/posix_types.h \
+  include/linux/kcsan-checks.h \
+    $(wildcard include/config/KCSAN_WEAK_MEMORY) \
+    $(wildcard include/config/KCSAN_IGNORE_ATOMICS) \
   include/linux/ratelimit.h \
   include/linux/ratelimit_types.h \
+  include/linux/bits.h \
+  include/linux/const.h \
+  include/vdso/const.h \
+  include/uapi/linux/const.h \
+  include/vdso/bits.h \
+  include/uapi/linux/bits.h \
+  include/linux/build_bug.h \
+  include/linux/overflow.h \
+  include/linux/limits.h \
+  include/uapi/linux/limits.h \
+  include/vdso/limits.h \
   include/uapi/linux/param.h \
   arch/arm64/include/uapi/asm/param.h \
   include/asm-generic/param.h \
     $(wildcard include/config/HZ) \
   include/uapi/asm-generic/param.h \
   include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/SMP) \
     $(wildcard include/config/DEBUG_SPINLOCK) \
     $(wildcard include/config/DEBUG_LOCK_ALLOC) \
   arch/arm64/include/asm/spinlock_types.h \
   include/asm-generic/qspinlock_types.h \
     $(wildcard include/config/NR_CPUS) \
   include/asm-generic/qrwlock_types.h \
+  arch/arm64/include/uapi/asm/byteorder.h \
+  include/linux/byteorder/little_endian.h \
+  include/uapi/linux/byteorder/little_endian.h \
+  include/linux/swab.h \
+  include/uapi/linux/swab.h \
+  arch/arm64/include/generated/uapi/asm/swab.h \
+  include/uapi/asm-generic/swab.h \
+  include/linux/byteorder/generic.h \
   include/linux/lockdep_types.h \
     $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
     $(wildcard include/config/LOCK_STAT) \
@@ -311,6 +197,7 @@ deps_drivers/net/wireless/ath/ath9k/xmit.o := \
     $(wildcard include/config/SCHED_MM_CID) \
     $(wildcard include/config/FAULT_INJECTION) \
     $(wildcard include/config/LATENCYTOP) \
+    $(wildcard include/config/KMSAN) \
     $(wildcard include/config/KUNIT) \
     $(wildcard include/config/FUNCTION_GRAPH_TRACER) \
     $(wildcard include/config/TRACING) \
@@ -323,6 +210,7 @@ deps_drivers/net/wireless/ath/ath9k/xmit.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -337,10 +225,123 @@ deps_drivers/net/wireless/ath/ath9k/xmit.o := \
   include/uapi/linux/sched.h \
   arch/arm64/include/asm/current.h \
   arch/arm64/include/asm/processor.h \
+    $(wildcard include/config/ARM64_64K_PAGES) \
     $(wildcard include/config/KUSER_HELPERS) \
     $(wildcard include/config/ARM64_FORCE_52BIT) \
     $(wildcard include/config/HAVE_HW_BREAKPOINT) \
+    $(wildcard include/config/ARM64_MTE) \
     $(wildcard include/config/ARM64_TAGGED_ADDR_ABI) \
+  include/linux/cache.h \
+    $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
+  include/uapi/linux/kernel.h \
+  include/uapi/linux/sysinfo.h \
+  arch/arm64/include/asm/cache.h \
+    $(wildcard include/config/KASAN_HW_TAGS) \
+  include/linux/bitops.h \
+  include/linux/typecheck.h \
+  include/asm-generic/bitops/generic-non-atomic.h \
+  arch/arm64/include/asm/barrier.h \
+    $(wildcard include/config/ARM64_PSEUDO_NMI) \
+  arch/arm64/include/asm/alternative-macros.h \
+  arch/arm64/include/asm/cpucaps.h \
+    $(wildcard include/config/ARM64_PAN) \
+    $(wildcard include/config/ARM64_EPAN) \
+    $(wildcard include/config/ARM64_SVE) \
+    $(wildcard include/config/ARM64_SME) \
+    $(wildcard include/config/ARM64_CNP) \
+    $(wildcard include/config/ARM64_BTI) \
+    $(wildcard include/config/ARM64_TLB_RANGE) \
+    $(wildcard include/config/UNMAP_KERNEL_AT_EL0) \
+    $(wildcard include/config/ARM64_ERRATUM_843419) \
+    $(wildcard include/config/ARM64_ERRATUM_1742098) \
+    $(wildcard include/config/ARM64_ERRATUM_2645198) \
+    $(wildcard include/config/ARM64_ERRATUM_2658417) \
+    $(wildcard include/config/CAVIUM_ERRATUM_23154) \
+    $(wildcard include/config/NVIDIA_CARMEL_CNP_ERRATUM) \
+    $(wildcard include/config/ARM64_WORKAROUND_REPEAT_TLBI) \
+    $(wildcard include/config/ARM64_ERRATUM_3194386) \
+  arch/arm64/include/generated/asm/cpucap-defs.h \
+  arch/arm64/include/asm/insn-def.h \
+  arch/arm64/include/asm/brk-imm.h \
+  include/linux/stringify.h \
+  include/asm-generic/barrier.h \
+  arch/arm64/include/asm/bitops.h \
+  include/asm-generic/bitops/builtin-__ffs.h \
+  include/asm-generic/bitops/builtin-ffs.h \
+  include/asm-generic/bitops/builtin-__fls.h \
+  include/asm-generic/bitops/builtin-fls.h \
+  include/asm-generic/bitops/ffz.h \
+  include/asm-generic/bitops/fls64.h \
+  include/asm-generic/bitops/sched.h \
+  include/asm-generic/bitops/hweight.h \
+  include/asm-generic/bitops/arch_hweight.h \
+  include/asm-generic/bitops/const_hweight.h \
+  include/asm-generic/bitops/atomic.h \
+  include/linux/atomic.h \
+  arch/arm64/include/asm/atomic.h \
+  arch/arm64/include/asm/cmpxchg.h \
+  arch/arm64/include/asm/lse.h \
+    $(wildcard include/config/ARM64_LSE_ATOMICS) \
+  arch/arm64/include/asm/atomic_ll_sc.h \
+    $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
+  include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  arch/arm64/include/asm/linkage.h \
+  arch/arm64/include/asm/alternative.h \
+    $(wildcard include/config/MODULES) \
+  include/linux/init.h \
+    $(wildcard include/config/MEMORY_HOTPLUG) \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+  arch/arm64/include/asm/atomic_lse.h \
+  include/linux/atomic/atomic-arch-fallback.h \
+    $(wildcard include/config/GENERIC_ATOMIC64) \
+  include/linux/atomic/atomic-long.h \
+  include/linux/atomic/atomic-instrumented.h \
+  include/linux/instrumented.h \
+  include/linux/kmsan-checks.h \
+  include/asm-generic/bitops/instrumented-atomic.h \
+  include/asm-generic/bitops/lock.h \
+  include/asm-generic/bitops/instrumented-lock.h \
+  include/asm-generic/bitops/non-atomic.h \
+  include/asm-generic/bitops/non-instrumented-non-atomic.h \
+  include/asm-generic/bitops/le.h \
+  include/asm-generic/bitops/ext2-atomic-setbit.h \
+  include/linux/kasan-enabled.h \
+    $(wildcard include/config/KASAN) \
+  include/linux/static_key.h \
+  include/linux/jump_label.h \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
+  arch/arm64/include/asm/jump_label.h \
+  arch/arm64/include/asm/insn.h \
+  arch/arm64/include/asm/cputype.h \
+  arch/arm64/include/asm/sysreg.h \
+    $(wildcard include/config/BROKEN_GAS_INST) \
+    $(wildcard include/config/ARM64_PA_BITS_52) \
+    $(wildcard include/config/ARM64_4K_PAGES) \
+    $(wildcard include/config/ARM64_16K_PAGES) \
+  include/linux/kasan-tags.h \
+  arch/arm64/include/asm/gpr-num.h \
+  arch/arm64/include/generated/asm/sysreg-defs.h \
+  include/linux/bitfield.h \
+  arch/arm64/include/asm/mte-def.h \
+  include/linux/string.h \
+    $(wildcard include/config/BINARY_PRINTF) \
+    $(wildcard include/config/FORTIFY_SOURCE) \
+  include/linux/args.h \
+  include/linux/array_size.h \
+  include/linux/err.h \
+  arch/arm64/include/generated/uapi/asm/errno.h \
+  include/uapi/asm-generic/errno.h \
+  include/uapi/asm-generic/errno-base.h \
+  include/linux/errno.h \
+  include/uapi/linux/errno.h \
+  include/linux/stdarg.h \
+  include/uapi/linux/string.h \
+  arch/arm64/include/asm/string.h \
+    $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
   include/linux/thread_info.h \
     $(wildcard include/config/GENERIC_ENTRY) \
     $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
@@ -377,6 +378,7 @@ deps_drivers/net/wireless/ath/ath9k/xmit.o := \
     $(wildcard include/config/DEBUG_VIRTUAL) \
     $(wildcard include/config/EFI) \
     $(wildcard include/config/ARM_GIC_V3_ITS) \
+  include/linux/sizes.h \
   arch/arm64/include/asm/page-def.h \
     $(wildcard include/config/PAGE_SHIFT) \
   include/linux/mmdebug.h \
@@ -560,6 +562,7 @@ deps_drivers/net/wireless/ath/ath9k/xmit.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -674,6 +677,9 @@ deps_drivers/net/wireless/ath/ath9k/xmit.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -875,6 +881,7 @@ deps_drivers/net/wireless/ath/ath9k/xmit.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1084,6 +1091,8 @@ deps_drivers/net/wireless/ath/ath9k/xmit.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1107,9 +1116,6 @@ deps_drivers/net/wireless/ath/ath9k/xmit.o := \
   include/linux/logic_pio.h \
     $(wildcard include/config/INDIRECT_PIO) \
   include/linux/fwnode.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   drivers/net/wireless/ath/ath9k/ath9k.h \
     $(wildcard include/config/ATH9K_STATION_STATISTICS) \
     $(wildcard include/config/ATH9K_CHANNEL_CONTEXT) \
@@ -1365,6 +1371,7 @@ deps_drivers/net/wireless/ath/ath9k/xmit.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \

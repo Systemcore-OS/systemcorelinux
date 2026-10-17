@@ -1,4 +1,4 @@
-savedcmd_drivers/base/platform.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/base/.platform.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/base/platform"' -DKBUILD_BASENAME='"platform"' -DKBUILD_MODNAME='"platform"' -D__KBUILD_MODNAME=kmod_platform -c -o drivers/base/platform.o drivers/base/platform.c  
+savedcmd_drivers/base/platform.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/base/.platform.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/base/platform"' -DKBUILD_BASENAME='"platform"' -DKBUILD_MODNAME='"platform"' -D__KBUILD_MODNAME=kmod_platform -c -o drivers/base/platform.o drivers/base/platform.c  
 
 source_drivers/base/platform.o := drivers/base/platform.c
 
@@ -28,6 +28,7 @@ deps_drivers/base/platform.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -225,6 +226,7 @@ deps_drivers/base/platform.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -561,6 +563,7 @@ deps_drivers/base/platform.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -675,6 +678,9 @@ deps_drivers/base/platform.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -875,6 +881,7 @@ deps_drivers/base/platform.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1163,6 +1170,8 @@ deps_drivers/base/platform.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1170,9 +1179,6 @@ deps_drivers/base/platform.o := \
   include/linux/vm_event_item.h \
     $(wildcard include/config/MEMORY_BALLOON) \
     $(wildcard include/config/BALLOON_COMPACTION) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/memblock.h \
     $(wildcard include/config/ARCH_KEEP_MEMBLOCK) \
     $(wildcard include/config/HAVE_MEMBLOCK_PHYS_MAP) \
@@ -1282,34 +1288,34 @@ deps_drivers/base/platform.o := \
 drivers/base/platform.o: $(deps_drivers/base/platform.o)
 
 $(deps_drivers/base/platform.o):
-#SYMVER platform_bus 0x9830e732
-#SYMVER platform_get_resource 0x045d2886
-#SYMVER platform_get_mem_or_io 0x943c92d2
-#SYMVER devm_platform_get_and_ioremap_resource 0x53940e11
-#SYMVER devm_platform_ioremap_resource 0x34278687
-#SYMVER devm_platform_ioremap_resource_byname 0x902c6338
-#SYMVER platform_get_irq_optional 0x979f1f56
-#SYMVER platform_get_irq 0x3df6322b
-#SYMVER platform_irq_count 0x2be8cb42
-#SYMVER devm_platform_get_irqs_affinity 0x7576d27e
-#SYMVER platform_get_resource_byname 0x74654152
-#SYMVER platform_get_irq_byname 0x58e19222
-#SYMVER platform_get_irq_byname_optional 0xba76b9da
-#SYMVER platform_add_devices 0xfa19c48a
-#SYMVER platform_device_put 0x161e9be9
-#SYMVER platform_device_alloc 0x843f8792
-#SYMVER platform_device_add_resources 0xa64e36d1
-#SYMVER platform_device_add_data 0xcd9440ae
-#SYMVER platform_device_add 0x282ad9cb
-#SYMVER platform_device_del 0x5e39fe6d
-#SYMVER platform_device_register 0x2eea8f91
-#SYMVER platform_device_unregister 0x5043a6f4
-#SYMVER platform_device_register_full 0xbf102664
-#SYMVER __platform_driver_register 0xf3de30b9
-#SYMVER platform_driver_unregister 0xe68015e1
-#SYMVER __platform_driver_probe 0x3c6b472c
-#SYMVER __platform_create_bundle 0xb859d7f8
-#SYMVER __platform_register_drivers 0x2b68cb25
-#SYMVER platform_unregister_drivers 0x2adeaf49
-#SYMVER platform_bus_type 0xee74d213
-#SYMVER platform_find_device_by_driver 0x303df96b
+#SYMVER platform_bus 0x1b87ff2a
+#SYMVER platform_get_resource 0xdb498564
+#SYMVER platform_get_mem_or_io 0x31c558bc
+#SYMVER devm_platform_get_and_ioremap_resource 0x8a56be97
+#SYMVER devm_platform_ioremap_resource 0x51b6d227
+#SYMVER devm_platform_ioremap_resource_byname 0x598aebd5
+#SYMVER platform_get_irq_optional 0x6745e3a2
+#SYMVER platform_get_irq 0xa381b40a
+#SYMVER platform_irq_count 0xd179313f
+#SYMVER devm_platform_get_irqs_affinity 0x20229788
+#SYMVER platform_get_resource_byname 0x79f760f5
+#SYMVER platform_get_irq_byname 0x1623e574
+#SYMVER platform_get_irq_byname_optional 0x8ddc83ce
+#SYMVER platform_add_devices 0x22b47ea2
+#SYMVER platform_device_put 0xaeee1465
+#SYMVER platform_device_alloc 0x2d84bea4
+#SYMVER platform_device_add_resources 0x301d80ff
+#SYMVER platform_device_add_data 0xabb29998
+#SYMVER platform_device_add 0xdc004940
+#SYMVER platform_device_del 0x54aafdd8
+#SYMVER platform_device_register 0x3220b9d7
+#SYMVER platform_device_unregister 0xbb585c9a
+#SYMVER platform_device_register_full 0xef4b40a6
+#SYMVER __platform_driver_register 0x56b40add
+#SYMVER platform_driver_unregister 0x84f0c234
+#SYMVER __platform_driver_probe 0x5804ca75
+#SYMVER __platform_create_bundle 0xa3aed88b
+#SYMVER __platform_register_drivers 0x0976f479
+#SYMVER platform_unregister_drivers 0x857cc367
+#SYMVER platform_bus_type 0xf3e0b6d0
+#SYMVER platform_find_device_by_driver 0x73907fba

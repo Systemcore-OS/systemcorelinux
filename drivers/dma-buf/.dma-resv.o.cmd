@@ -1,4 +1,4 @@
-savedcmd_drivers/dma-buf/dma-resv.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/dma-buf/.dma-resv.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/dma-buf/dma-resv"' -DKBUILD_BASENAME='"dma_resv"' -DKBUILD_MODNAME='"dma_resv"' -D__KBUILD_MODNAME=kmod_dma_resv -c -o drivers/dma-buf/dma-resv.o drivers/dma-buf/dma-resv.c  
+savedcmd_drivers/dma-buf/dma-resv.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/dma-buf/.dma-resv.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/dma-buf/dma-resv"' -DKBUILD_BASENAME='"dma_resv"' -DKBUILD_MODNAME='"dma_resv"' -D__KBUILD_MODNAME=kmod_dma_resv -c -o drivers/dma-buf/dma-resv.o drivers/dma-buf/dma-resv.c  
 
 source_drivers/dma-buf/dma-resv.o := drivers/dma-buf/dma-resv.c
 
@@ -26,6 +26,7 @@ deps_drivers/dma-buf/dma-resv.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -527,6 +528,7 @@ deps_drivers/dma-buf/dma-resv.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -576,6 +578,7 @@ deps_drivers/dma-buf/dma-resv.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -677,6 +680,9 @@ deps_drivers/dma-buf/dma-resv.o := \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/list_nulls.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -916,6 +922,7 @@ deps_drivers/dma-buf/dma-resv.o := \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -997,6 +1004,8 @@ deps_drivers/dma-buf/dma-resv.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1013,19 +1022,19 @@ drivers/dma-buf/dma-resv.o: $(deps_drivers/dma-buf/dma-resv.o)
 
 $(deps_drivers/dma-buf/dma-resv.o):
 #SYMVER reservation_ww_class 0xcc328a5c
-#SYMVER dma_resv_init 0x7372eeda
-#SYMVER dma_resv_fini 0x80547c1d
-#SYMVER dma_resv_reserve_fences 0x38627065
-#SYMVER dma_resv_add_fence 0x5d63fefc
-#SYMVER dma_resv_replace_fences 0x59a7e620
-#SYMVER dma_resv_iter_first_unlocked 0x7f9b3185
-#SYMVER dma_resv_iter_next_unlocked 0x8b8fa1f2
-#SYMVER dma_resv_iter_first 0x05f77a9e
-#SYMVER dma_resv_iter_next 0xe2592b06
-#SYMVER dma_resv_copy_fences 0x8b48a462
-#SYMVER dma_resv_get_fences 0x29b1b7bc
-#SYMVER dma_resv_get_singleton 0x64cfef70
-#SYMVER dma_resv_wait_timeout 0xbe5cf9dc
-#SYMVER dma_resv_set_deadline 0x2b83d5b2
-#SYMVER dma_resv_test_signaled 0xb970e117
-#SYMVER dma_resv_describe 0x3f9ad5b8
+#SYMVER dma_resv_init 0x89eae2ca
+#SYMVER dma_resv_fini 0xbeb0136a
+#SYMVER dma_resv_reserve_fences 0x6df86d36
+#SYMVER dma_resv_add_fence 0x0bc329f8
+#SYMVER dma_resv_replace_fences 0x6315b357
+#SYMVER dma_resv_iter_first_unlocked 0x913fcb39
+#SYMVER dma_resv_iter_next_unlocked 0x211431f0
+#SYMVER dma_resv_iter_first 0x1181acb6
+#SYMVER dma_resv_iter_next 0x95d34c1a
+#SYMVER dma_resv_copy_fences 0xafbaa60b
+#SYMVER dma_resv_get_fences 0x4a5c0fcf
+#SYMVER dma_resv_get_singleton 0x50adcb19
+#SYMVER dma_resv_wait_timeout 0x91545a15
+#SYMVER dma_resv_set_deadline 0x8fcde8f2
+#SYMVER dma_resv_test_signaled 0xf70e7858
+#SYMVER dma_resv_describe 0xa50ee92b

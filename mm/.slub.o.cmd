@@ -1,4 +1,4 @@
-savedcmd_mm/slub.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.slub.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"mm/slub"' -DKBUILD_BASENAME='"slub"' -DKBUILD_MODNAME='"slub"' -D__KBUILD_MODNAME=kmod_slub -c -o mm/slub.o mm/slub.c  
+savedcmd_mm/slub.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,mm/.slub.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"mm/slub"' -DKBUILD_BASENAME='"slub"' -DKBUILD_MODNAME='"slub"' -D__KBUILD_MODNAME=kmod_slub -c -o mm/slub.o mm/slub.c  
 
 source_mm/slub.o := mm/slub.c
 
@@ -16,6 +16,7 @@ deps_mm/slub.o := \
     $(wildcard include/config/KMSAN) \
     $(wildcard include/config/SLAB_OBJ_EXT) \
     $(wildcard include/config/MEM_ALLOC_PROFILING_DEBUG) \
+    $(wildcard include/config/DEBUG_VM) \
     $(wildcard include/config/MEMCG) \
     $(wildcard include/config/MEM_ALLOC_PROFILING) \
     $(wildcard include/config/SLUB_RCU_DEBUG) \
@@ -51,6 +52,7 @@ deps_mm/slub.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -121,7 +123,6 @@ deps_mm/slub.o := \
   include/uapi/asm-generic/errno.h \
   include/uapi/asm-generic/errno-base.h \
   include/linux/mmdebug.h \
-    $(wildcard include/config/DEBUG_VM) \
     $(wildcard include/config/DEBUG_VM_IRQSOFF) \
     $(wildcard include/config/DEBUG_VIRTUAL) \
     $(wildcard include/config/DEBUG_VM_PGFLAGS) \
@@ -533,6 +534,9 @@ deps_mm/slub.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -689,6 +693,7 @@ deps_mm/slub.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -728,6 +733,7 @@ deps_mm/slub.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -857,6 +863,7 @@ deps_mm/slub.o := \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -996,6 +1003,8 @@ deps_mm/slub.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1375,6 +1384,7 @@ deps_mm/slub.o := \
   include/linux/userfaultfd_k.h \
   include/linux/swapops.h \
   include/linux/swapfile.h \
+  include/linux/pagewalk.h \
   include/linux/rmap.h \
   include/linux/swap_cgroup.h \
   mm/vma.h \
@@ -1383,19 +1393,19 @@ deps_mm/slub.o := \
 mm/slub.o: $(deps_mm/slub.o)
 
 $(deps_mm/slub.o):
-#SYMVER kmem_cache_alloc_noprof 0x658866d9
-#SYMVER kmem_cache_alloc_lru_noprof 0x3ffcb390
+#SYMVER kmem_cache_alloc_noprof 0xed163cd3
+#SYMVER kmem_cache_alloc_lru_noprof 0x64d97bea
 #SYMVER kmem_cache_charge 0x8013b254
-#SYMVER kmem_cache_alloc_node_noprof 0x2ed82712
+#SYMVER kmem_cache_alloc_node_noprof 0x676e2d71
 #SYMVER __kmalloc_large_noprof 0x441d0de9
 #SYMVER __kmalloc_large_node_noprof 0xa67f04f8
 #SYMVER __kmalloc_node_noprof 0x5779f3fd
 #SYMVER __kmalloc_noprof 0x52c5c991
 #SYMVER __kmalloc_node_track_caller_noprof 0x81539a53
-#SYMVER __kmalloc_cache_noprof 0xf7f543d6
-#SYMVER __kmalloc_cache_node_noprof 0xf48f4663
-#SYMVER kmem_cache_free 0x2a30feb7
+#SYMVER __kmalloc_cache_noprof 0x0b7bc1d2
+#SYMVER __kmalloc_cache_node_noprof 0x8e1af69c
+#SYMVER kmem_cache_free 0xd89588f3
 #SYMVER kfree 0x037a0cba
-#SYMVER kmem_cache_free_bulk 0x5d4b9fd5
-#SYMVER kmem_cache_alloc_bulk_noprof 0xe989998e
-#SYMVER validate_slab_cache 0x917349f4
+#SYMVER kmem_cache_free_bulk 0x8f715940
+#SYMVER kmem_cache_alloc_bulk_noprof 0xd400005d
+#SYMVER validate_slab_cache 0xec8024a1

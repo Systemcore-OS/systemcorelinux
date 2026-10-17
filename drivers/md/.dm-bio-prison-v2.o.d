@@ -1,6 +1,7 @@
 dm-bio-prison-v2.o: drivers/md/dm-bio-prison-v2.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h drivers/md/dm.h include/linux/fs.h \
  include/linux/linkage.h include/linux/compiler_types.h \
@@ -280,19 +281,19 @@ dm-bio-prison-v2.o: drivers/md/dm-bio-prison-v2.c \
  include/linux/range.h include/linux/page_ext.h \
  include/linux/stacktrace.h include/linux/page_ref.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
- include/linux/vmstat.h include/linux/vm_event_item.h \
- include/linux/module.h include/linux/kmod.h include/linux/umh.h \
- include/linux/elf.h arch/arm64/include/asm/elf.h \
- arch/arm64/include/generated/asm/user.h include/asm-generic/user.h \
- include/uapi/linux/elf.h include/uapi/linux/elf-em.h \
- include/linux/moduleparam.h include/linux/rbtree_latch.h \
- include/linux/error-injection.h include/asm-generic/error-injection.h \
- include/linux/dynamic_debug.h arch/arm64/include/asm/module.h \
- include/asm-generic/module.h include/linux/ptrace.h \
- include/linux/pid_namespace.h include/linux/nsproxy.h \
- include/linux/ns_common.h include/uapi/linux/ptrace.h \
- include/linux/seccomp.h include/uapi/linux/seccomp.h \
- arch/arm64/include/asm/seccomp.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/vm_event_item.h include/linux/module.h \
+ include/linux/kmod.h include/linux/umh.h include/linux/elf.h \
+ arch/arm64/include/asm/elf.h arch/arm64/include/generated/asm/user.h \
+ include/asm-generic/user.h include/uapi/linux/elf.h \
+ include/uapi/linux/elf-em.h include/linux/moduleparam.h \
+ include/linux/rbtree_latch.h include/linux/error-injection.h \
+ include/asm-generic/error-injection.h include/linux/dynamic_debug.h \
+ arch/arm64/include/asm/module.h include/asm-generic/module.h \
+ include/linux/ptrace.h include/linux/pid_namespace.h \
+ include/linux/nsproxy.h include/linux/ns_common.h \
+ include/uapi/linux/ptrace.h include/linux/seccomp.h \
+ include/uapi/linux/seccomp.h arch/arm64/include/asm/seccomp.h \
  arch/arm64/include/generated/asm/unistd_compat_32.h \
  include/asm-generic/seccomp.h include/uapi/linux/unistd.h \
  arch/arm64/include/asm/unistd.h \

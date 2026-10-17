@@ -1,15 +1,15 @@
 tcp_ipv6.o: net/ipv6/tcp_ipv6.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/bottom_half.h include/linux/instruction_pointer.h \
- arch/arm64/include/asm/linkage.h include/linux/preempt.h \
- include/linux/linkage.h include/linux/compiler_types.h \
- include/linux/stringify.h include/linux/export.h \
- include/linux/compiler.h arch/arm64/include/asm/rwonce.h \
- include/asm-generic/rwonce.h include/linux/kasan-checks.h \
- include/linux/types.h include/uapi/linux/types.h \
- arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/bottom_half.h \
+ include/linux/instruction_pointer.h arch/arm64/include/asm/linkage.h \
+ include/linux/preempt.h include/linux/linkage.h \
+ include/linux/compiler_types.h include/linux/stringify.h \
+ include/linux/export.h include/linux/compiler.h \
+ arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
+ include/linux/kasan-checks.h include/linux/types.h \
+ include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -268,16 +268,17 @@ tcp_ipv6.o: net/ipv6/tcp_ipv6.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sockptr.h \
- include/uapi/linux/net.h include/linux/in.h include/uapi/linux/in.h \
- include/uapi/linux/libc-compat.h include/linux/in6.h \
- include/uapi/linux/in6.h include/linux/netdevice.h include/linux/delay.h \
- arch/arm64/include/generated/asm/delay.h include/asm-generic/delay.h \
- include/linux/prefetch.h arch/arm64/include/generated/asm/local.h \
- include/asm-generic/local.h include/linux/dynamic_queue_limits.h \
- include/net/net_namespace.h include/net/flow.h include/net/netns/core.h \
- include/net/netns/mib.h include/net/snmp.h include/uapi/linux/snmp.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sockptr.h include/uapi/linux/net.h include/linux/in.h \
+ include/uapi/linux/in.h include/uapi/linux/libc-compat.h \
+ include/linux/in6.h include/uapi/linux/in6.h include/linux/netdevice.h \
+ include/linux/delay.h arch/arm64/include/generated/asm/delay.h \
+ include/asm-generic/delay.h include/linux/prefetch.h \
+ arch/arm64/include/generated/asm/local.h include/asm-generic/local.h \
+ include/linux/dynamic_queue_limits.h include/net/net_namespace.h \
+ include/net/flow.h include/net/netns/core.h include/net/netns/mib.h \
+ include/net/snmp.h include/uapi/linux/snmp.h \
  include/linux/u64_stats_sync.h \
  arch/arm64/include/generated/asm/local64.h include/asm-generic/local64.h \
  include/net/netns/unix.h include/net/netns/packet.h \
@@ -351,8 +352,7 @@ tcp_ipv6.o: net/ipv6/tcp_ipv6.c include/linux/compiler-version.h \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
  include/uapi/linux/if_packet.h include/net/net_debug.h \
@@ -417,8 +417,9 @@ tcp_ipv6.o: net/ipv6/tcp_ipv6.c include/linux/compiler-version.h \
  include/uapi/linux/lwtunnel.h include/net/sock_reuseport.h \
  include/linux/filter.h include/linux/sched/clock.h \
  include/linux/set_memory.h arch/arm64/include/asm/set_memory.h \
- include/asm-generic/set_memory.h include/linux/if_vlan.h \
- include/linux/etherdevice.h include/linux/crc32.h include/linux/bitrev.h \
+ arch/arm64/include/asm/mem_encrypt.h include/asm-generic/set_memory.h \
+ include/linux/if_vlan.h include/linux/etherdevice.h \
+ include/linux/crc32.h include/linux/bitrev.h \
  arch/arm64/include/asm/bitrev.h include/linux/unaligned.h \
  include/vdso/unaligned.h include/uapi/linux/if_vlan.h \
  include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
@@ -431,13 +432,14 @@ tcp_ipv6.o: net/ipv6/tcp_ipv6.c include/linux/compiler-version.h \
  include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
  arch/arm64/include/asm/syscall.h include/net/ip6_fib.h \
  include/linux/ipv6_route.h include/uapi/linux/ipv6_route.h \
- include/net/gro_cells.h include/linux/bpf-cgroup.h \
- include/net/inet6_hashtables.h include/net/inet6_connection_sock.h \
- include/net/transp_v6.h include/net/addrconf.h include/net/ip6_route.h \
- include/net/nexthop.h include/net/ip6_checksum.h include/net/protocol.h \
- include/net/inet_common.h include/net/secure_seq.h include/net/hotdata.h \
- include/net/busy_poll.h include/net/xdp.h include/linux/proc_fs.h \
- include/crypto/hash.h include/linux/crypto.h include/trace/events/tcp.h \
+ include/net/gro_cells.h include/net/secure_seq.h \
+ include/linux/bpf-cgroup.h include/net/inet6_hashtables.h \
+ include/net/inet6_connection_sock.h include/net/transp_v6.h \
+ include/net/addrconf.h include/net/ip6_route.h include/net/nexthop.h \
+ include/net/ip6_checksum.h include/net/protocol.h \
+ include/net/inet_common.h include/net/hotdata.h include/net/busy_poll.h \
+ include/net/xdp.h include/linux/proc_fs.h include/crypto/hash.h \
+ include/linux/crypto.h include/crypto/utils.h include/trace/events/tcp.h \
  include/linux/tracepoint.h include/linux/sock_diag.h \
  include/uapi/linux/sock_diag.h include/trace/events/net_probe_common.h \
  include/trace/define_trace.h

@@ -1,4 +1,4 @@
-savedcmd_drivers/gpu/drm/drm_connector.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_connector.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_connector"' -DKBUILD_MODNAME='"drm"' -D__KBUILD_MODNAME=kmod_drm -c -o drivers/gpu/drm/drm_connector.o drivers/gpu/drm/drm_connector.c  
+savedcmd_drivers/gpu/drm/drm_connector.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpu/drm/.drm_connector.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456 -Wextra -Wunused -Wno-unused-parameter -Wrestrict -Wmissing-format-attribute -Wold-style-definition -Wmissing-include-dirs -Wunused-but-set-variable -Wunused-const-variable -Wpacked-not-aligned -Wformat-overflow -Wstringop-truncation -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-sign-compare  -DMODULE  -DKBUILD_BASENAME='"drm_connector"' -DKBUILD_MODNAME='"drm"' -D__KBUILD_MODNAME=kmod_drm -c -o drivers/gpu/drm/drm_connector.o drivers/gpu/drm/drm_connector.c  
 
 source_drivers/gpu/drm/drm_connector.o := drivers/gpu/drm/drm_connector.c
 
@@ -24,6 +24,7 @@ deps_drivers/gpu/drm/drm_connector.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -461,6 +462,7 @@ deps_drivers/gpu/drm/drm_connector.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -553,6 +555,7 @@ deps_drivers/gpu/drm/drm_connector.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -638,6 +641,9 @@ deps_drivers/gpu/drm/drm_connector.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -874,6 +880,7 @@ deps_drivers/gpu/drm/drm_connector.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1168,6 +1175,8 @@ deps_drivers/gpu/drm/drm_connector.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1303,57 +1312,57 @@ drivers/gpu/drm/drm_connector.o: $(deps_drivers/gpu/drm/drm_connector.o)
 
 $(deps_drivers/gpu/drm/drm_connector.o):
 #SYMVER drm_get_connector_type_name 0xf406e46a
-#SYMVER drm_connector_init 0x5e3c654c
-#SYMVER drm_connector_init_with_ddc 0x688dbb48
-#SYMVER drmm_connector_init 0x0e052faa
-#SYMVER drmm_connector_hdmi_init 0xe465922f
-#SYMVER drm_connector_attach_edid_property 0x1790d584
-#SYMVER drm_connector_attach_encoder 0xde00af6b
-#SYMVER drm_connector_has_possible_encoder 0xca7d55a2
-#SYMVER drm_connector_cleanup 0x1b1b09e6
-#SYMVER drm_connector_register 0x9f8899d9
-#SYMVER drm_connector_unregister 0x46eb5ccf
+#SYMVER drm_connector_init 0x3314f7f3
+#SYMVER drm_connector_init_with_ddc 0x80db6426
+#SYMVER drmm_connector_init 0xca8a621e
+#SYMVER drmm_connector_hdmi_init 0xb5aa610b
+#SYMVER drm_connector_attach_edid_property 0x7b0f47d4
+#SYMVER drm_connector_attach_encoder 0x4fa232f5
+#SYMVER drm_connector_has_possible_encoder 0x49b322b0
+#SYMVER drm_connector_cleanup 0x10d76f87
+#SYMVER drm_connector_register 0x220ed918
+#SYMVER drm_connector_unregister 0xed4e0a8a
 #SYMVER drm_get_connector_status_name 0x0fd60df2
-#SYMVER drm_connector_list_iter_begin 0xd42849f8
-#SYMVER drm_connector_list_iter_next 0x1df94b38
-#SYMVER drm_connector_list_iter_end 0x73052869
+#SYMVER drm_connector_list_iter_begin 0xa574c74e
+#SYMVER drm_connector_list_iter_next 0xd5707421
+#SYMVER drm_connector_list_iter_end 0x279de25e
 #SYMVER drm_get_subpixel_order_name 0x107742a9
 #SYMVER drm_display_info_set_bus_formats 0xd4099a0b
 #SYMVER drm_get_tv_mode_from_name 0xf095dc96
 #SYMVER drm_hdmi_connector_get_broadcast_rgb_name 0x4e966c75
 #SYMVER drm_hdmi_connector_get_output_format_name 0x273dc9d6
-#SYMVER drm_mode_create_dvi_i_properties 0x8bd1e6f1
-#SYMVER drm_connector_attach_dp_subconnector_property 0xbf0ab664
-#SYMVER drm_connector_attach_content_type_property 0x8b3a05b2
-#SYMVER drm_connector_attach_tv_margin_properties 0x7e892f64
-#SYMVER drm_mode_create_tv_margin_properties 0xaea498dd
-#SYMVER drm_mode_create_tv_properties_legacy 0x54f9d7c4
-#SYMVER drm_mode_create_tv_properties 0x7104404b
-#SYMVER drm_mode_create_scaling_mode_property 0x45f85473
-#SYMVER drm_connector_attach_vrr_capable_property 0x301c6186
-#SYMVER drm_connector_attach_scaling_mode_property 0x14368be0
-#SYMVER drm_mode_create_aspect_ratio_property 0x4961e8cb
-#SYMVER drm_mode_create_hdmi_colorspace_property 0xe973a264
-#SYMVER drm_mode_create_dp_colorspace_property 0x3c5ce083
-#SYMVER drm_mode_create_content_type_property 0x60101bdf
-#SYMVER drm_mode_create_suggested_offset_properties 0xccbc91b8
-#SYMVER drm_connector_set_path_property 0x6ad77c27
-#SYMVER drm_connector_set_tile_property 0x526ad04b
-#SYMVER drm_connector_set_link_status_property 0x1bb72dd7
-#SYMVER drm_connector_attach_max_bpc_property 0xe3b1667c
-#SYMVER drm_connector_attach_hdr_output_metadata_property 0xe68df53c
-#SYMVER drm_connector_attach_broadcast_rgb_property 0x0f32247a
-#SYMVER drm_connector_attach_colorspace_property 0xf6707cf1
-#SYMVER drm_connector_atomic_hdr_metadata_equal 0xbe22256d
-#SYMVER drm_connector_set_vrr_capable_property 0x535d1e34
-#SYMVER drm_connector_set_panel_orientation 0x1f39d499
-#SYMVER drm_connector_set_panel_orientation_with_quirk 0x608ec0bf
-#SYMVER drm_connector_set_orientation_from_panel 0xa3bc7b8d
-#SYMVER drm_connector_create_privacy_screen_properties 0x0cb8fca9
-#SYMVER drm_connector_attach_privacy_screen_properties 0x78568b34
-#SYMVER drm_connector_attach_privacy_screen_provider 0x4ba4f348
-#SYMVER drm_connector_update_privacy_screen 0x69568dd5
-#SYMVER drm_connector_oob_hotplug_event 0xc8ec11ec
-#SYMVER drm_mode_put_tile_group 0xafc34106
-#SYMVER drm_mode_get_tile_group 0x7da36b54
-#SYMVER drm_mode_create_tile_group 0xcbbdaba0
+#SYMVER drm_mode_create_dvi_i_properties 0x8345d12c
+#SYMVER drm_connector_attach_dp_subconnector_property 0xae4fd7e7
+#SYMVER drm_connector_attach_content_type_property 0x4e126924
+#SYMVER drm_connector_attach_tv_margin_properties 0x76d8991a
+#SYMVER drm_mode_create_tv_margin_properties 0xaff850b3
+#SYMVER drm_mode_create_tv_properties_legacy 0xd6945a62
+#SYMVER drm_mode_create_tv_properties 0x2be92c07
+#SYMVER drm_mode_create_scaling_mode_property 0x0c7e9388
+#SYMVER drm_connector_attach_vrr_capable_property 0x4ec319ab
+#SYMVER drm_connector_attach_scaling_mode_property 0x8cdb8c15
+#SYMVER drm_mode_create_aspect_ratio_property 0xfc892b2b
+#SYMVER drm_mode_create_hdmi_colorspace_property 0x163b09b8
+#SYMVER drm_mode_create_dp_colorspace_property 0x78b68ab7
+#SYMVER drm_mode_create_content_type_property 0xaa449865
+#SYMVER drm_mode_create_suggested_offset_properties 0xef7d17e9
+#SYMVER drm_connector_set_path_property 0xbbc7e501
+#SYMVER drm_connector_set_tile_property 0x356005dd
+#SYMVER drm_connector_set_link_status_property 0xa1c22810
+#SYMVER drm_connector_attach_max_bpc_property 0x0845a0b4
+#SYMVER drm_connector_attach_hdr_output_metadata_property 0x0d559b08
+#SYMVER drm_connector_attach_broadcast_rgb_property 0xad166963
+#SYMVER drm_connector_attach_colorspace_property 0x81f745a8
+#SYMVER drm_connector_atomic_hdr_metadata_equal 0x6d8296e4
+#SYMVER drm_connector_set_vrr_capable_property 0x72ae12a6
+#SYMVER drm_connector_set_panel_orientation 0xd0284820
+#SYMVER drm_connector_set_panel_orientation_with_quirk 0x6e451430
+#SYMVER drm_connector_set_orientation_from_panel 0xbe724abc
+#SYMVER drm_connector_create_privacy_screen_properties 0x5ea4f8a7
+#SYMVER drm_connector_attach_privacy_screen_properties 0x8510a250
+#SYMVER drm_connector_attach_privacy_screen_provider 0xa53c32fa
+#SYMVER drm_connector_update_privacy_screen 0x3a58db9a
+#SYMVER drm_connector_oob_hotplug_event 0x686a32c2
+#SYMVER drm_mode_put_tile_group 0xaa186e3e
+#SYMVER drm_mode_get_tile_group 0x221cf463
+#SYMVER drm_mode_create_tile_group 0x9bb9a7c4

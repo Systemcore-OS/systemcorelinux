@@ -1,6 +1,7 @@
 seq_virmidi.o: sound/core/seq/seq_virmidi.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/init.h \
  include/linux/build_bug.h include/linux/compiler.h \

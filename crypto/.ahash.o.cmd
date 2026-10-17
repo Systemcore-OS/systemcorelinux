@@ -1,4 +1,4 @@
-savedcmd_crypto/ahash.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,crypto/.ahash.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"crypto/crypto_hash"' -DKBUILD_BASENAME='"ahash"' -DKBUILD_MODNAME='"crypto_hash"' -D__KBUILD_MODNAME=kmod_crypto_hash -c -o crypto/ahash.o crypto/ahash.c  
+savedcmd_crypto/ahash.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,crypto/.ahash.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"crypto/crypto_hash"' -DKBUILD_BASENAME='"ahash"' -DKBUILD_MODNAME='"crypto_hash"' -D__KBUILD_MODNAME=kmod_crypto_hash -c -o crypto/ahash.o crypto/ahash.c  
 
 source_crypto/ahash.o := crypto/ahash.c
 
@@ -25,6 +25,7 @@ deps_crypto/ahash.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -502,6 +503,9 @@ deps_crypto/ahash.o := \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/list_nulls.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -660,6 +664,7 @@ deps_crypto/ahash.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -699,6 +704,7 @@ deps_crypto/ahash.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -776,6 +782,7 @@ deps_crypto/ahash.o := \
     $(wildcard include/config/KASAN_VMALLOC) \
   include/linux/highmem.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1096,6 +1103,8 @@ deps_crypto/ahash.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1288,9 +1297,6 @@ deps_crypto/ahash.o := \
   include/linux/device/driver.h \
   arch/arm64/include/asm/device.h \
   include/linux/pm_wakeup.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1425,25 +1431,25 @@ deps_crypto/ahash.o := \
 crypto/ahash.o: $(deps_crypto/ahash.o)
 
 $(deps_crypto/ahash.o):
-#SYMVER shash_ahash_update 0x99edfd7b
-#SYMVER shash_ahash_finup 0x1c194094
-#SYMVER shash_ahash_digest 0xf35ffad0
-#SYMVER crypto_hash_walk_done 0x790eddc1
-#SYMVER crypto_hash_walk_first 0xaddbbd97
-#SYMVER crypto_ahash_setkey 0x4be6d7d0
-#SYMVER crypto_ahash_init 0x7606ef5c
-#SYMVER crypto_ahash_update 0x6b6d658b
-#SYMVER crypto_ahash_final 0x6130a2e2
-#SYMVER crypto_ahash_finup 0x38013b41
-#SYMVER crypto_ahash_digest 0x6a757979
-#SYMVER crypto_ahash_export 0x6f23328a
-#SYMVER crypto_ahash_import 0x41e8cc9d
-#SYMVER crypto_grab_ahash 0x3b6624f5
-#SYMVER crypto_alloc_ahash 0x0a5c6ff1
+#SYMVER shash_ahash_update 0xc1182567
+#SYMVER shash_ahash_finup 0x169ba493
+#SYMVER shash_ahash_digest 0xeaa128c3
+#SYMVER crypto_hash_walk_done 0xe0278007
+#SYMVER crypto_hash_walk_first 0xcb034317
+#SYMVER crypto_ahash_setkey 0x7f134780
+#SYMVER crypto_ahash_init 0x1990c1f4
+#SYMVER crypto_ahash_update 0xbc4fb4ec
+#SYMVER crypto_ahash_final 0xf61ea2fa
+#SYMVER crypto_ahash_finup 0x0f3f1861
+#SYMVER crypto_ahash_digest 0x9304fb64
+#SYMVER crypto_ahash_export 0x82e8b0aa
+#SYMVER crypto_ahash_import 0x6e910637
+#SYMVER crypto_grab_ahash 0x846691f5
+#SYMVER crypto_alloc_ahash 0xf396b5a5
 #SYMVER crypto_has_ahash 0x34407691
-#SYMVER crypto_clone_ahash 0xef25cfc3
-#SYMVER crypto_register_ahash 0x474a1f81
-#SYMVER crypto_unregister_ahash 0xbfd97c7d
-#SYMVER crypto_register_ahashes 0xec68f09d
-#SYMVER crypto_unregister_ahashes 0x1d44d891
-#SYMVER ahash_register_instance 0xb86afabe
+#SYMVER crypto_clone_ahash 0x1460942a
+#SYMVER crypto_register_ahash 0x5ba6892f
+#SYMVER crypto_unregister_ahash 0x2068d2d9
+#SYMVER crypto_register_ahashes 0x1cb45db1
+#SYMVER crypto_unregister_ahashes 0xa182532b
+#SYMVER ahash_register_instance 0x2210343a

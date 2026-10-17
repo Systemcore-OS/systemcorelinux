@@ -1,6 +1,7 @@
 lgdt3306a.o: drivers/media/dvb-frontends/lgdt3306a.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h \
  arch/arm64/include/generated/asm/div64.h include/asm-generic/div64.h \
@@ -78,36 +79,36 @@ lgdt3306a.o: drivers/media/dvb-frontends/lgdt3306a.c \
  include/uapi/linux/errno.h arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  include/linux/ioport.h include/linux/resource_ext.h include/linux/list.h \
- include/linux/poison.h include/linux/slab.h include/linux/cache.h \
- arch/arm64/include/asm/cache.h include/linux/kasan-enabled.h \
- include/linux/static_key.h include/linux/jump_label.h \
- arch/arm64/include/asm/jump_label.h arch/arm64/include/asm/insn.h \
- arch/arm64/include/asm/cputype.h arch/arm64/include/asm/sysreg.h \
- include/linux/kasan-tags.h arch/arm64/include/asm/gpr-num.h \
+ include/linux/poison.h include/linux/slab.h include/linux/bug.h \
+ arch/arm64/include/asm/bug.h arch/arm64/include/asm/asm-bug.h \
+ include/asm-generic/bug.h include/linux/instrumentation.h \
+ include/linux/cache.h arch/arm64/include/asm/cache.h \
+ include/linux/kasan-enabled.h include/linux/static_key.h \
+ include/linux/jump_label.h arch/arm64/include/asm/jump_label.h \
+ arch/arm64/include/asm/insn.h arch/arm64/include/asm/cputype.h \
+ arch/arm64/include/asm/sysreg.h include/linux/kasan-tags.h \
+ arch/arm64/include/asm/gpr-num.h \
  arch/arm64/include/generated/asm/sysreg-defs.h include/linux/bitfield.h \
  arch/arm64/include/asm/mte-def.h include/linux/gfp.h \
  include/linux/gfp_types.h include/linux/mmzone.h \
  include/linux/spinlock.h include/linux/preempt.h include/linux/cleanup.h \
  arch/arm64/include/asm/preempt.h include/linux/thread_info.h \
- include/linux/bug.h arch/arm64/include/asm/bug.h \
- arch/arm64/include/asm/asm-bug.h include/asm-generic/bug.h \
- include/linux/instrumentation.h include/linux/restart_block.h \
- arch/arm64/include/asm/current.h arch/arm64/include/asm/thread_info.h \
- arch/arm64/include/asm/memory.h include/linux/sizes.h \
- arch/arm64/include/asm/page-def.h include/linux/mmdebug.h \
- arch/arm64/include/asm/boot.h arch/arm64/include/asm/sections.h \
- include/asm-generic/sections.h include/asm-generic/memory_model.h \
- include/linux/pfn.h arch/arm64/include/asm/stack_pointer.h \
- include/linux/irqflags.h include/linux/irqflags_types.h \
- arch/arm64/include/asm/irqflags.h arch/arm64/include/asm/ptrace.h \
- arch/arm64/include/asm/cpufeature.h arch/arm64/include/asm/hwcap.h \
- arch/arm64/include/uapi/asm/hwcap.h include/linux/cpumask.h \
- include/linux/bitmap.h include/linux/find.h include/linux/string.h \
- include/linux/args.h include/linux/err.h include/uapi/linux/string.h \
- arch/arm64/include/asm/string.h include/linux/bitmap-str.h \
- include/linux/cpumask_types.h include/linux/threads.h \
- include/linux/numa.h arch/arm64/include/asm/sparsemem.h \
- arch/arm64/include/asm/pgtable-prot.h \
+ include/linux/restart_block.h arch/arm64/include/asm/current.h \
+ arch/arm64/include/asm/thread_info.h arch/arm64/include/asm/memory.h \
+ include/linux/sizes.h arch/arm64/include/asm/page-def.h \
+ include/linux/mmdebug.h arch/arm64/include/asm/boot.h \
+ arch/arm64/include/asm/sections.h include/asm-generic/sections.h \
+ include/asm-generic/memory_model.h include/linux/pfn.h \
+ arch/arm64/include/asm/stack_pointer.h include/linux/irqflags.h \
+ include/linux/irqflags_types.h arch/arm64/include/asm/irqflags.h \
+ arch/arm64/include/asm/ptrace.h arch/arm64/include/asm/cpufeature.h \
+ arch/arm64/include/asm/hwcap.h arch/arm64/include/uapi/asm/hwcap.h \
+ include/linux/cpumask.h include/linux/bitmap.h include/linux/find.h \
+ include/linux/string.h include/linux/args.h include/linux/err.h \
+ include/uapi/linux/string.h arch/arm64/include/asm/string.h \
+ include/linux/bitmap-str.h include/linux/cpumask_types.h \
+ include/linux/threads.h include/linux/numa.h \
+ arch/arm64/include/asm/sparsemem.h arch/arm64/include/asm/pgtable-prot.h \
  arch/arm64/include/asm/pgtable-hwdef.h \
  arch/arm64/include/asm/pgtable-types.h \
  include/asm-generic/pgtable-nopud.h include/asm-generic/pgtable-nop4d.h \
@@ -312,11 +313,12 @@ lgdt3306a.o: drivers/media/dvb-frontends/lgdt3306a.c \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h include/linux/writeback.h \
- include/linux/flex_proportions.h include/linux/backing-dev-defs.h \
- include/linux/blk_types.h include/linux/bvec.h include/linux/highmem.h \
- include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
- include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/writeback.h include/linux/flex_proportions.h \
+ include/linux/backing-dev-defs.h include/linux/blk_types.h \
+ include/linux/bvec.h include/linux/highmem.h include/linux/cacheflush.h \
+ arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
+ include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/trace_clock.h \
  arch/arm64/include/generated/asm/trace_clock.h \
  include/asm-generic/trace_clock.h include/linux/kallsyms.h \
@@ -360,8 +362,7 @@ lgdt3306a.o: drivers/media/dvb-frontends/lgdt3306a.c \
  include/uapi/linux/pci.h include/uapi/linux/pci_regs.h \
  include/linux/pci_ids.h include/linux/dmapool.h \
  include/linux/scatterlist.h arch/arm64/include/asm/pci.h \
- include/linux/dma-mapping.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/asm-generic/pci.h \
+ include/linux/dma-mapping.h include/asm-generic/pci.h \
  include/linux/platform_device.h include/media/media-devnode.h \
  include/linux/cdev.h include/linux/debugfs.h \
  include/media/media-entity.h include/uapi/linux/media.h \

@@ -1,9 +1,10 @@
 tty_ioctl.o: drivers/tty/tty_ioctl.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/bits.h include/linux/const.h include/vdso/const.h \
- include/uapi/linux/const.h include/vdso/bits.h include/uapi/linux/bits.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/bits.h \
+ include/linux/const.h include/vdso/const.h include/uapi/linux/const.h \
+ include/vdso/bits.h include/uapi/linux/bits.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
  include/asm-generic/bitsperlong.h include/uapi/asm-generic/bitsperlong.h \
  include/linux/build_bug.h include/linux/compiler.h \
@@ -281,7 +282,7 @@ tty_ioctl.o: drivers/tty/tty_ioctl.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/compat.h include/linux/sem.h \
  include/uapi/linux/sem.h include/linux/ipc.h \
  include/linux/rhashtable-types.h include/uapi/linux/ipc.h \

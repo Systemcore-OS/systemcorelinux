@@ -1,6 +1,7 @@
 regmap-spi.o: drivers/base/regmap/regmap-spi.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/regmap.h \
  include/linux/list.h include/linux/container_of.h \
@@ -289,7 +290,7 @@ regmap-spi.o: drivers/base/regmap/regmap-spi.c \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/u64_stats_sync.h \
  arch/arm64/include/generated/asm/local64.h include/asm-generic/local64.h \
  arch/arm64/include/generated/asm/local.h include/asm-generic/local.h \

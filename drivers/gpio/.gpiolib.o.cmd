@@ -1,4 +1,4 @@
-savedcmd_drivers/gpio/gpiolib.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpio/.gpiolib.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/gpio/gpiolib"' -DKBUILD_BASENAME='"gpiolib"' -DKBUILD_MODNAME='"gpiolib"' -D__KBUILD_MODNAME=kmod_gpiolib -c -o drivers/gpio/gpiolib.o drivers/gpio/gpiolib.c  
+savedcmd_drivers/gpio/gpiolib.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/gpio/.gpiolib.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/gpio/gpiolib"' -DKBUILD_BASENAME='"gpiolib"' -DKBUILD_MODNAME='"gpiolib"' -D__KBUILD_MODNAME=kmod_gpiolib -c -o drivers/gpio/gpiolib.o drivers/gpio/gpiolib.c  
 
 source_drivers/gpio/gpiolib.o := drivers/gpio/gpiolib.c
 
@@ -31,6 +31,7 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -176,6 +177,61 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/RANDOM_KMALLOC_CACHES) \
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/SLAB_BUCKETS) \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
+  include/linux/once_lite.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
+  include/linux/stdarg.h \
+  include/linux/init.h \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+  include/linux/kern_levels.h \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+  arch/arm64/include/asm/linkage.h \
+  include/linux/ratelimit_types.h \
+  include/uapi/linux/param.h \
+  arch/arm64/include/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
+  include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/DEBUG_SPINLOCK) \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
+  arch/arm64/include/asm/spinlock_types.h \
+  include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/NR_CPUS) \
+  include/asm-generic/qrwlock_types.h \
+  arch/arm64/include/uapi/asm/byteorder.h \
+  include/linux/byteorder/little_endian.h \
+  include/uapi/linux/byteorder/little_endian.h \
+  include/linux/swab.h \
+  include/uapi/linux/swab.h \
+  arch/arm64/include/generated/uapi/asm/swab.h \
+  include/uapi/asm-generic/swab.h \
+  include/linux/byteorder/generic.h \
+  include/linux/lockdep_types.h \
+    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
+    $(wildcard include/config/LOCKDEP) \
+    $(wildcard include/config/LOCK_STAT) \
   include/linux/cache.h \
     $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
   include/uapi/linux/kernel.h \
@@ -204,15 +260,8 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/ARM64_LSE_ATOMICS) \
   arch/arm64/include/asm/atomic_ll_sc.h \
     $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
-  include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  arch/arm64/include/asm/linkage.h \
   arch/arm64/include/asm/alternative.h \
     $(wildcard include/config/MODULES) \
-  include/linux/init.h \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
   arch/arm64/include/asm/atomic_lse.h \
   include/linux/atomic/atomic-arch-fallback.h \
     $(wildcard include/config/GENERIC_ATOMIC64) \
@@ -227,14 +276,6 @@ deps_drivers/gpio/gpiolib.o := \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/non-instrumented-non-atomic.h \
   include/asm-generic/bitops/le.h \
-  arch/arm64/include/uapi/asm/byteorder.h \
-  include/linux/byteorder/little_endian.h \
-  include/uapi/linux/byteorder/little_endian.h \
-  include/linux/swab.h \
-  include/uapi/linux/swab.h \
-  arch/arm64/include/generated/uapi/asm/swab.h \
-  include/uapi/asm-generic/swab.h \
-  include/linux/byteorder/generic.h \
   include/asm-generic/bitops/ext2-atomic-setbit.h \
   include/linux/kasan-enabled.h \
     $(wildcard include/config/KASAN) \
@@ -264,7 +305,6 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/COMPACTION) \
     $(wildcard include/config/CONTIG_ALLOC) \
   include/linux/gfp_types.h \
-    $(wildcard include/config/LOCKDEP) \
   include/linux/mmzone.h \
     $(wildcard include/config/ARCH_FORCE_MAX_ORDER) \
     $(wildcard include/config/CMA) \
@@ -288,9 +328,7 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/SPARSEMEM_EXTREME) \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/spinlock.h \
-    $(wildcard include/config/DEBUG_SPINLOCK) \
     $(wildcard include/config/PREEMPTION) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
     $(wildcard include/config/PREEMPT_RT) \
   include/linux/preempt.h \
     $(wildcard include/config/PREEMPT_COUNT) \
@@ -308,44 +346,7 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/GENERIC_ENTRY) \
     $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
     $(wildcard include/config/HARDENED_USERCOPY) \
-    $(wildcard include/config/BUG) \
     $(wildcard include/config/SH) \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  include/linux/stdarg.h \
-  include/linux/kern_levels.h \
-  include/linux/ratelimit_types.h \
-  include/uapi/linux/param.h \
-  arch/arm64/include/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
-  include/linux/spinlock_types_raw.h \
-  arch/arm64/include/asm/spinlock_types.h \
-  include/asm-generic/qspinlock_types.h \
-    $(wildcard include/config/NR_CPUS) \
-  include/asm-generic/qrwlock_types.h \
-  include/linux/lockdep_types.h \
-    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/LOCK_STAT) \
   include/linux/restart_block.h \
   arch/arm64/include/asm/current.h \
   arch/arm64/include/asm/thread_info.h \
@@ -532,6 +533,9 @@ deps_drivers/gpio/gpiolib.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -694,6 +698,7 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -733,6 +738,7 @@ deps_drivers/gpio/gpiolib.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -918,6 +924,7 @@ deps_drivers/gpio/gpiolib.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1289,6 +1296,8 @@ deps_drivers/gpio/gpiolib.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1481,89 +1490,89 @@ deps_drivers/gpio/gpiolib.o := \
 drivers/gpio/gpiolib.o: $(deps_drivers/gpio/gpiolib.o)
 
 $(deps_drivers/gpio/gpiolib.o):
-#SYMVER gpio_to_desc 0x9d06aaa7
-#SYMVER gpio_device_get_desc 0xfe14cdd2
-#SYMVER desc_to_gpio 0x2008e394
-#SYMVER gpiod_to_chip 0x9c8cdfa2
-#SYMVER gpiod_to_gpio_device 0xfaf8001d
-#SYMVER gpio_device_get_base 0x76e6459c
-#SYMVER gpio_device_get_label 0x8033e904
-#SYMVER gpio_device_get_chip 0x9a369222
-#SYMVER gpiod_get_direction 0xadd2838c
-#SYMVER gpiochip_line_is_valid 0x2e473b79
-#SYMVER gpiochip_get_data 0x63d6d2a2
-#SYMVER gpiochip_get_ngpios 0xbeb1ffc3
-#SYMVER gpiochip_add_data_with_key 0xd86b8379
-#SYMVER gpiochip_remove 0x9eee67f5
-#SYMVER gpio_device_find 0x235b4e92
-#SYMVER gpio_device_find_by_label 0xfc1dd26b
-#SYMVER gpio_device_find_by_fwnode 0x09f4dbd4
-#SYMVER gpio_device_get 0x99c36cbf
-#SYMVER gpio_device_put 0xf73ebbce
-#SYMVER gpio_device_to_device 0x9fd75249
-#SYMVER gpiochip_populate_parent_fwspec_twocell 0xee67618b
-#SYMVER gpiochip_populate_parent_fwspec_fourcell 0x77f9f300
-#SYMVER gpiochip_irq_reqres 0x55491dba
-#SYMVER gpiochip_irq_relres 0x2910a2f3
-#SYMVER gpiochip_irqchip_add_domain 0x2bec195a
-#SYMVER gpiochip_generic_request 0x32d09d0f
-#SYMVER gpiochip_generic_free 0xa6ab1ddc
-#SYMVER gpiochip_generic_config 0xe54518d9
-#SYMVER gpiochip_add_pingroup_range 0x97e64cf0
-#SYMVER gpiochip_add_pin_range 0xc6d972c9
-#SYMVER gpiochip_remove_pin_ranges 0x127b6d2a
-#SYMVER gpiochip_dup_line_label 0x4cb8a26a
-#SYMVER gpiochip_request_own_desc 0x438bdc31
-#SYMVER gpiochip_free_own_desc 0x4e8a2ef7
-#SYMVER gpiod_direction_input 0x80d12cbd
-#SYMVER gpiod_direction_output_raw 0x2433dd64
-#SYMVER gpiod_direction_output 0x2cfa0393
-#SYMVER gpiod_enable_hw_timestamp_ns 0x3d104505
-#SYMVER gpiod_disable_hw_timestamp_ns 0x07532614
-#SYMVER gpiod_set_config 0x270df40b
-#SYMVER gpiod_set_debounce 0x14a4c3a4
-#SYMVER gpiod_is_active_low 0x4f7eed47
-#SYMVER gpiod_toggle_active_low 0xbaea4288
-#SYMVER gpiod_get_raw_value 0xadb85391
-#SYMVER gpiod_get_value 0x15db9663
-#SYMVER gpiod_get_raw_array_value 0x38c1a8cf
-#SYMVER gpiod_get_array_value 0xe90daceb
-#SYMVER gpiod_set_raw_value 0xf3f7c77d
-#SYMVER gpiod_set_value 0x9cda438e
-#SYMVER gpiod_set_raw_array_value 0x562a775b
-#SYMVER gpiod_set_array_value 0x31e5982d
-#SYMVER gpiod_cansleep 0xd317789b
-#SYMVER gpiod_set_consumer_name 0x40fc1120
-#SYMVER gpiod_to_irq 0x3d0f77e2
-#SYMVER gpiochip_lock_as_irq 0xf786f6fa
-#SYMVER gpiochip_unlock_as_irq 0x8b85f1c8
-#SYMVER gpiochip_disable_irq 0xf785bced
-#SYMVER gpiochip_enable_irq 0x5047b752
-#SYMVER gpiochip_line_is_irq 0x4d7f274f
-#SYMVER gpiochip_reqres_irq 0xe5ebbb1e
-#SYMVER gpiochip_relres_irq 0x269703e1
-#SYMVER gpiochip_line_is_open_drain 0x64128b64
-#SYMVER gpiochip_line_is_open_source 0x8ef5a426
-#SYMVER gpiochip_line_is_persistent 0xb530c931
-#SYMVER gpiod_get_raw_value_cansleep 0x93bc68d2
-#SYMVER gpiod_get_value_cansleep 0x553d0dfd
-#SYMVER gpiod_get_raw_array_value_cansleep 0xd7d90aef
-#SYMVER gpiod_get_array_value_cansleep 0x5e51edcf
-#SYMVER gpiod_set_raw_value_cansleep 0x3aa6f4be
-#SYMVER gpiod_set_value_cansleep 0x15646512
-#SYMVER gpiod_set_raw_array_value_cansleep 0xacc4e1aa
-#SYMVER gpiod_set_array_value_cansleep 0x5a29bcb8
+#SYMVER gpio_to_desc 0x967705c7
+#SYMVER gpio_device_get_desc 0x44223e80
+#SYMVER desc_to_gpio 0xbdfffee9
+#SYMVER gpiod_to_chip 0x04a1231d
+#SYMVER gpiod_to_gpio_device 0x1e8ae979
+#SYMVER gpio_device_get_base 0xb3050df1
+#SYMVER gpio_device_get_label 0x2c862432
+#SYMVER gpio_device_get_chip 0xa9e2d953
+#SYMVER gpiod_get_direction 0x58be7524
+#SYMVER gpiochip_line_is_valid 0xbc28592c
+#SYMVER gpiochip_get_data 0x15f1cbc5
+#SYMVER gpiochip_get_ngpios 0xf7aa9a8a
+#SYMVER gpiochip_add_data_with_key 0xcd136d9d
+#SYMVER gpiochip_remove 0xa1e7e131
+#SYMVER gpio_device_find 0x3c0f9433
+#SYMVER gpio_device_find_by_label 0x803bbde7
+#SYMVER gpio_device_find_by_fwnode 0xfb6e5ad4
+#SYMVER gpio_device_get 0x16c5c1a1
+#SYMVER gpio_device_put 0x5d5ded14
+#SYMVER gpio_device_to_device 0xe14f0475
+#SYMVER gpiochip_populate_parent_fwspec_twocell 0x73cca68c
+#SYMVER gpiochip_populate_parent_fwspec_fourcell 0xf6270802
+#SYMVER gpiochip_irq_reqres 0xddb37883
+#SYMVER gpiochip_irq_relres 0x6090bb52
+#SYMVER gpiochip_irqchip_add_domain 0x7ee9bd67
+#SYMVER gpiochip_generic_request 0x05816452
+#SYMVER gpiochip_generic_free 0x0f635135
+#SYMVER gpiochip_generic_config 0x0dcdd9a3
+#SYMVER gpiochip_add_pingroup_range 0xaafc807d
+#SYMVER gpiochip_add_pin_range 0xeb52ee05
+#SYMVER gpiochip_remove_pin_ranges 0x9934b534
+#SYMVER gpiochip_dup_line_label 0x518d76b9
+#SYMVER gpiochip_request_own_desc 0xebaaa863
+#SYMVER gpiochip_free_own_desc 0x2999590e
+#SYMVER gpiod_direction_input 0x7ca443f9
+#SYMVER gpiod_direction_output_raw 0x8d30edcf
+#SYMVER gpiod_direction_output 0x2a05ff61
+#SYMVER gpiod_enable_hw_timestamp_ns 0xf407da59
+#SYMVER gpiod_disable_hw_timestamp_ns 0xdf5d97d2
+#SYMVER gpiod_set_config 0xf849f942
+#SYMVER gpiod_set_debounce 0x439d6cf6
+#SYMVER gpiod_is_active_low 0xa4d37720
+#SYMVER gpiod_toggle_active_low 0x53f06685
+#SYMVER gpiod_get_raw_value 0xca22f8c2
+#SYMVER gpiod_get_value 0xa75c7a0b
+#SYMVER gpiod_get_raw_array_value 0xc6047b6e
+#SYMVER gpiod_get_array_value 0x6297ac85
+#SYMVER gpiod_set_raw_value 0x7cd5220b
+#SYMVER gpiod_set_value 0x61224520
+#SYMVER gpiod_set_raw_array_value 0x55241138
+#SYMVER gpiod_set_array_value 0x0ce179d5
+#SYMVER gpiod_cansleep 0xd5739891
+#SYMVER gpiod_set_consumer_name 0xd732ea3d
+#SYMVER gpiod_to_irq 0x20a8c659
+#SYMVER gpiochip_lock_as_irq 0x98c1b922
+#SYMVER gpiochip_unlock_as_irq 0xb8afb2a2
+#SYMVER gpiochip_disable_irq 0xb4b8cb10
+#SYMVER gpiochip_enable_irq 0x9b4baf94
+#SYMVER gpiochip_line_is_irq 0x8e7cf29a
+#SYMVER gpiochip_reqres_irq 0x4dc39122
+#SYMVER gpiochip_relres_irq 0xe06bd2a9
+#SYMVER gpiochip_line_is_open_drain 0xf61647a4
+#SYMVER gpiochip_line_is_open_source 0x65e457e1
+#SYMVER gpiochip_line_is_persistent 0xa1986bbd
+#SYMVER gpiod_get_raw_value_cansleep 0x3c34c09b
+#SYMVER gpiod_get_value_cansleep 0x317340dd
+#SYMVER gpiod_get_raw_array_value_cansleep 0xa6ecf680
+#SYMVER gpiod_get_array_value_cansleep 0x4efaa9ea
+#SYMVER gpiod_set_raw_value_cansleep 0xfa8bed54
+#SYMVER gpiod_set_value_cansleep 0x3e904d9a
+#SYMVER gpiod_set_raw_array_value_cansleep 0xb2c02f7e
+#SYMVER gpiod_set_array_value_cansleep 0xcf131bdf
 #SYMVER gpiod_add_lookup_table 0x38aa1397
 #SYMVER gpiod_remove_lookup_table 0xff81487d
 #SYMVER gpiod_add_hogs 0x1fe6e504
 #SYMVER gpiod_remove_hogs 0x36898d6f
-#SYMVER fwnode_gpiod_get_index 0x4de95722
-#SYMVER gpiod_count 0xbf9bab7b
-#SYMVER gpiod_get 0xee62c330
-#SYMVER gpiod_get_optional 0x92cbc814
-#SYMVER gpiod_get_index 0xf3f0156f
-#SYMVER gpiod_get_index_optional 0x6ca4b178
-#SYMVER gpiod_get_array 0x894071c1
-#SYMVER gpiod_get_array_optional 0xca46d940
-#SYMVER gpiod_put 0x05861698
-#SYMVER gpiod_put_array 0xf11b41ee
+#SYMVER fwnode_gpiod_get_index 0xda2f3543
+#SYMVER gpiod_count 0x2c531c58
+#SYMVER gpiod_get 0xd5603a37
+#SYMVER gpiod_get_optional 0xefac4cfb
+#SYMVER gpiod_get_index 0x3c1ef460
+#SYMVER gpiod_get_index_optional 0x4f462a7d
+#SYMVER gpiod_get_array 0xdf5ab67e
+#SYMVER gpiod_get_array_optional 0x3481b048
+#SYMVER gpiod_put 0xe80c1ddb
+#SYMVER gpiod_put_array 0xaa8db208

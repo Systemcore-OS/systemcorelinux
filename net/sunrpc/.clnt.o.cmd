@@ -1,4 +1,4 @@
-savedcmd_net/sunrpc/clnt.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/sunrpc/.clnt.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"clnt"' -DKBUILD_MODNAME='"sunrpc"' -D__KBUILD_MODNAME=kmod_sunrpc -c -o net/sunrpc/clnt.o net/sunrpc/clnt.c  
+savedcmd_net/sunrpc/clnt.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/sunrpc/.clnt.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"clnt"' -DKBUILD_MODNAME='"sunrpc"' -D__KBUILD_MODNAME=kmod_sunrpc -c -o net/sunrpc/clnt.o net/sunrpc/clnt.c  
 
 source_net/sunrpc/clnt.o := net/sunrpc/clnt.c
 
@@ -26,6 +26,7 @@ deps_net/sunrpc/clnt.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -499,6 +500,7 @@ deps_net/sunrpc/clnt.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -585,6 +587,7 @@ deps_net/sunrpc/clnt.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -679,6 +682,9 @@ deps_net/sunrpc/clnt.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -804,6 +810,7 @@ deps_net/sunrpc/clnt.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1032,6 +1039,8 @@ deps_net/sunrpc/clnt.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1083,6 +1092,7 @@ deps_net/sunrpc/clnt.o := \
     $(wildcard include/config/MCTP) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/flow.h \
@@ -1377,9 +1387,6 @@ deps_net/sunrpc/clnt.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1647,43 +1654,43 @@ deps_net/sunrpc/clnt.o := \
 net/sunrpc/clnt.o: $(deps_net/sunrpc/clnt.o)
 
 $(deps_net/sunrpc/clnt.o):
-#SYMVER rpc_create 0xc108631d
-#SYMVER rpc_clone_client 0xc86ab2b4
-#SYMVER rpc_clone_client_set_auth 0x409a404c
-#SYMVER rpc_switch_client_transport 0xa405ee19
-#SYMVER rpc_clnt_iterate_for_each_xprt 0xe90a4e10
-#SYMVER rpc_killall_tasks 0x90142bdf
-#SYMVER rpc_cancel_tasks 0x38c0803a
-#SYMVER rpc_clnt_disconnect 0x87e6a322
-#SYMVER rpc_shutdown_client 0xa0af1918
-#SYMVER rpc_release_client 0xd11ffec9
-#SYMVER rpc_bind_new_program 0x48928a53
-#SYMVER rpc_task_release_transport 0x9ccc085f
-#SYMVER rpc_run_task 0xad7e1775
-#SYMVER rpc_call_sync 0x00e4b45d
-#SYMVER rpc_call_async 0x03471f0f
-#SYMVER rpc_prepare_reply_pages 0x7e4c4fbe
-#SYMVER rpc_call_start 0xbcbe3545
-#SYMVER rpc_peeraddr 0x8cd51887
-#SYMVER rpc_peeraddr2str 0x3c7f85cc
-#SYMVER rpc_localaddr 0x6184709b
-#SYMVER rpc_setbufsize 0x135c1ee7
-#SYMVER rpc_net_ns 0x80f9f87f
-#SYMVER rpc_max_payload 0x58545884
-#SYMVER rpc_max_bc_payload 0x915ed400
-#SYMVER rpc_num_bc_slots 0x11c28e02
-#SYMVER rpc_force_rebind 0x5ae07753
-#SYMVER rpc_restart_call 0xf774f659
-#SYMVER rpc_restart_call_prepare 0x3cf87769
-#SYMVER rpc_call_null 0xa5a01afc
-#SYMVER rpc_clnt_test_and_add_xprt 0x8e0b9fae
-#SYMVER rpc_clnt_setup_test_and_add_xprt 0x25e6ea31
-#SYMVER rpc_clnt_add_xprt 0xf9f19be3
-#SYMVER rpc_clnt_probe_trunked_xprts 0x690d0007
-#SYMVER rpc_clnt_manage_trunked_xprts 0xb396ab90
-#SYMVER rpc_set_connect_timeout 0x639eeead
-#SYMVER rpc_clnt_xprt_switch_add_xprt 0x6394b436
-#SYMVER rpc_clnt_xprt_switch_remove_xprt 0xdf8a7358
-#SYMVER rpc_clnt_xprt_switch_has_addr 0x518fd1f7
-#SYMVER rpc_clnt_swap_activate 0xddd72e8d
-#SYMVER rpc_clnt_swap_deactivate 0x6dc8e4af
+#SYMVER rpc_create 0x78011617
+#SYMVER rpc_clone_client 0x92c0baf2
+#SYMVER rpc_clone_client_set_auth 0x28ffc8d0
+#SYMVER rpc_switch_client_transport 0x9d693a4b
+#SYMVER rpc_clnt_iterate_for_each_xprt 0x63c84f9d
+#SYMVER rpc_killall_tasks 0x190586a9
+#SYMVER rpc_cancel_tasks 0x77a3950c
+#SYMVER rpc_clnt_disconnect 0xd213c8e0
+#SYMVER rpc_shutdown_client 0x53036dd3
+#SYMVER rpc_release_client 0x16a3c0ab
+#SYMVER rpc_bind_new_program 0x7bb7dfd0
+#SYMVER rpc_task_release_transport 0x83021d68
+#SYMVER rpc_run_task 0xc6e5970b
+#SYMVER rpc_call_sync 0x19c2ef15
+#SYMVER rpc_call_async 0xd0673951
+#SYMVER rpc_prepare_reply_pages 0xe84a0503
+#SYMVER rpc_call_start 0x24e160da
+#SYMVER rpc_peeraddr 0x8e2cefc8
+#SYMVER rpc_peeraddr2str 0x01159caf
+#SYMVER rpc_localaddr 0x2a1d9236
+#SYMVER rpc_setbufsize 0x54f8aa8d
+#SYMVER rpc_net_ns 0x989772d8
+#SYMVER rpc_max_payload 0x3f741737
+#SYMVER rpc_max_bc_payload 0x618dd653
+#SYMVER rpc_num_bc_slots 0xb407f9d5
+#SYMVER rpc_force_rebind 0x3f1077ba
+#SYMVER rpc_restart_call 0xb4e2ed16
+#SYMVER rpc_restart_call_prepare 0xfac37c62
+#SYMVER rpc_call_null 0x193eb0ff
+#SYMVER rpc_clnt_test_and_add_xprt 0x969f4b14
+#SYMVER rpc_clnt_setup_test_and_add_xprt 0x4b421479
+#SYMVER rpc_clnt_add_xprt 0xadf9469b
+#SYMVER rpc_clnt_probe_trunked_xprts 0x541bbe52
+#SYMVER rpc_clnt_manage_trunked_xprts 0x3851803c
+#SYMVER rpc_set_connect_timeout 0xb69ef4c1
+#SYMVER rpc_clnt_xprt_switch_add_xprt 0x9bc9ed63
+#SYMVER rpc_clnt_xprt_switch_remove_xprt 0x26bb88d3
+#SYMVER rpc_clnt_xprt_switch_has_addr 0xa0cb0a1c
+#SYMVER rpc_clnt_swap_activate 0xa17ce2b0
+#SYMVER rpc_clnt_swap_deactivate 0xfd9746e2

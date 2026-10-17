@@ -1,6 +1,7 @@
 scsi_logging.o: drivers/scsi/scsi_logging.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/kernel.h \
  include/linux/stdarg.h include/linux/align.h include/linux/const.h \
@@ -74,27 +75,28 @@ scsi_logging.o: drivers/scsi/scsi_logging.c \
  include/linux/wordpart.h include/scsi/scsi.h include/scsi/scsi_common.h \
  include/uapi/linux/pr.h include/scsi/scsi_proto.h \
  include/scsi/scsi_status.h include/scsi/scsi_cmnd.h \
- include/linux/dma-mapping.h include/linux/cache.h \
- arch/arm64/include/asm/cache.h include/linux/kasan-enabled.h \
- include/linux/static_key.h include/linux/jump_label.h \
- arch/arm64/include/asm/jump_label.h arch/arm64/include/asm/insn.h \
- arch/arm64/include/asm/cputype.h arch/arm64/include/asm/sysreg.h \
- include/linux/kasan-tags.h arch/arm64/include/asm/gpr-num.h \
+ include/linux/dma-mapping.h include/linux/device.h \
+ include/linux/dev_printk.h include/linux/ratelimit.h \
+ include/linux/sched.h include/uapi/linux/sched.h \
+ arch/arm64/include/asm/current.h arch/arm64/include/asm/processor.h \
+ include/linux/cache.h arch/arm64/include/asm/cache.h \
+ include/linux/kasan-enabled.h include/linux/static_key.h \
+ include/linux/jump_label.h arch/arm64/include/asm/jump_label.h \
+ arch/arm64/include/asm/insn.h arch/arm64/include/asm/cputype.h \
+ arch/arm64/include/asm/sysreg.h include/linux/kasan-tags.h \
+ arch/arm64/include/asm/gpr-num.h \
  arch/arm64/include/generated/asm/sysreg-defs.h include/linux/bitfield.h \
- arch/arm64/include/asm/mte-def.h include/linux/sizes.h \
- include/linux/string.h include/linux/args.h include/linux/err.h \
+ arch/arm64/include/asm/mte-def.h include/linux/string.h \
+ include/linux/args.h include/linux/err.h \
  arch/arm64/include/generated/uapi/asm/errno.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  include/linux/errno.h include/uapi/linux/errno.h \
  include/uapi/linux/string.h arch/arm64/include/asm/string.h \
- include/linux/device.h include/linux/dev_printk.h \
- include/linux/ratelimit.h include/linux/sched.h \
- include/uapi/linux/sched.h arch/arm64/include/asm/current.h \
- arch/arm64/include/asm/processor.h include/linux/thread_info.h \
- include/linux/bug.h arch/arm64/include/asm/bug.h \
- arch/arm64/include/asm/asm-bug.h include/asm-generic/bug.h \
- include/linux/instrumentation.h include/linux/restart_block.h \
- arch/arm64/include/asm/thread_info.h arch/arm64/include/asm/memory.h \
+ include/linux/thread_info.h include/linux/bug.h \
+ arch/arm64/include/asm/bug.h arch/arm64/include/asm/asm-bug.h \
+ include/asm-generic/bug.h include/linux/instrumentation.h \
+ include/linux/restart_block.h arch/arm64/include/asm/thread_info.h \
+ arch/arm64/include/asm/memory.h include/linux/sizes.h \
  arch/arm64/include/asm/page-def.h include/linux/mmdebug.h \
  arch/arm64/include/asm/boot.h arch/arm64/include/asm/sections.h \
  include/asm-generic/sections.h include/asm-generic/memory_model.h \
@@ -272,16 +274,15 @@ scsi_logging.o: drivers/scsi/scsi_logging.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
- include/linux/fwnode.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/blkdev.h \
- include/linux/blk_types.h include/linux/bvec.h include/linux/highmem.h \
- include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
- include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/fwnode.h include/linux/blkdev.h include/linux/blk_types.h \
+ include/linux/bvec.h include/linux/highmem.h include/linux/cacheflush.h \
+ arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
+ include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/interrupt.h \
  include/linux/irqreturn.h include/linux/hardirq.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \

@@ -1,8 +1,9 @@
 fs_context.o: fs/nfs/fs_context.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/compat.h include/linux/types.h include/uapi/linux/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/compat.h \
+ include/linux/types.h include/uapi/linux/types.h \
  arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
@@ -280,9 +281,9 @@ fs_context.o: fs/nfs/fs_context.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sockptr.h \
- include/linux/bpf.h include/uapi/linux/bpf.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sockptr.h include/linux/bpf.h include/uapi/linux/bpf.h \
  include/uapi/linux/bpf_common.h include/uapi/linux/filter.h \
  include/linux/kallsyms.h include/linux/bpfptr.h include/linux/btf.h \
  include/linux/bsearch.h include/linux/btf_ids.h include/uapi/linux/btf.h \
@@ -379,8 +380,7 @@ fs_context.o: fs/nfs/fs_context.c include/linux/compiler-version.h \
  include/net/net_trackers.h include/linux/ref_tracker.h \
  include/linux/stackdepot.h include/linux/skbuff.h include/net/checksum.h \
  arch/arm64/include/asm/checksum.h include/asm-generic/checksum.h \
- include/linux/dma-mapping.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/dma-mapping.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
  include/uapi/linux/if_packet.h include/net/net_debug.h \

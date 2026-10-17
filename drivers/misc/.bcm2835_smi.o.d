@@ -1,6 +1,7 @@
 bcm2835_smi.o: drivers/misc/bcm2835_smi.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/clk.h \
  include/linux/err.h include/linux/compiler.h \
@@ -277,7 +278,7 @@ bcm2835_smi.o: drivers/misc/bcm2835_smi.c \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/pagemap.h \
  include/linux/highmem.h include/linux/cacheflush.h \
  arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
@@ -323,6 +324,5 @@ bcm2835_smi.o: drivers/misc/bcm2835_smi.c \
  include/asm-generic/cacheflush.h include/linux/kmsan.h \
  include/linux/dma-direction.h include/linux/highmem-internal.h \
  include/linux/hugetlb_inline.h include/linux/dma-mapping.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/dmaengine.h \
+ include/linux/scatterlist.h include/linux/dmaengine.h \
  include/linux/broadcom/bcm2835_smi.h

@@ -1,6 +1,7 @@
 snd-go7007.o: drivers/media/usb/go7007/snd-go7007.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/kernel.h \
  include/linux/stdarg.h include/linux/align.h include/linux/const.h \
@@ -263,9 +264,9 @@ snd-go7007.o: drivers/media/usb/go7007/snd-go7007.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/i2c.h include/linux/acpi.h \
- include/linux/resource_ext.h include/linux/device.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h include/linux/i2c.h \
+ include/linux/acpi.h include/linux/resource_ext.h include/linux/device.h \
  include/linux/dev_printk.h include/linux/energy_model.h \
  include/linux/sched/cpufreq.h include/linux/sched/topology.h \
  include/linux/sched/idle.h include/linux/sched/sd_flags.h \
@@ -362,7 +363,6 @@ snd-go7007.o: drivers/media/usb/go7007/snd-go7007.c \
  include/uapi/linux/pci_regs.h include/linux/pci_ids.h \
  include/linux/dmapool.h include/linux/scatterlist.h \
  arch/arm64/include/asm/pci.h include/linux/dma-mapping.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/asm-generic/pci.h include/linux/platform_device.h \
  include/media/media-devnode.h include/linux/cdev.h \
  include/linux/debugfs.h include/media/media-entity.h \

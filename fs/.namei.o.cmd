@@ -1,4 +1,4 @@
-savedcmd_fs/namei.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.namei.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/namei"' -DKBUILD_BASENAME='"namei"' -DKBUILD_MODNAME='"namei"' -D__KBUILD_MODNAME=kmod_namei -c -o fs/namei.o fs/namei.c  
+savedcmd_fs/namei.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.namei.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"fs/namei"' -DKBUILD_BASENAME='"namei"' -DKBUILD_MODNAME='"namei"' -D__KBUILD_MODNAME=kmod_namei -c -o fs/namei.o fs/namei.c  
 
 source_fs/namei.o := fs/namei.c
 
@@ -29,6 +29,7 @@ deps_fs/namei.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -95,24 +96,74 @@ deps_fs/namei.o := \
     $(wildcard include/config/RANDOM_KMALLOC_CACHES) \
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/SLAB_BUCKETS) \
-  include/linux/cache.h \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  arch/arm64/include/asm/brk-imm.h \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
     $(wildcard include/config/SMP) \
-    $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
-  include/uapi/linux/kernel.h \
-  include/uapi/linux/sysinfo.h \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
+  include/linux/once_lite.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/DYNAMIC_DEBUG) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
+  include/linux/stdarg.h \
+  include/linux/kern_levels.h \
+  include/linux/ratelimit_types.h \
+  include/linux/bits.h \
   include/linux/const.h \
   include/vdso/const.h \
   include/uapi/linux/const.h \
-  arch/arm64/include/asm/cache.h \
-    $(wildcard include/config/KASAN_HW_TAGS) \
-  include/linux/bitops.h \
-  include/linux/bits.h \
   include/vdso/bits.h \
   include/uapi/linux/bits.h \
   include/linux/overflow.h \
   include/linux/limits.h \
   include/uapi/linux/limits.h \
   include/vdso/limits.h \
+  include/uapi/linux/param.h \
+  arch/arm64/include/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
+  include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/DEBUG_SPINLOCK) \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
+  arch/arm64/include/asm/spinlock_types.h \
+  include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/NR_CPUS) \
+  include/asm-generic/qrwlock_types.h \
+  arch/arm64/include/uapi/asm/byteorder.h \
+  include/linux/byteorder/little_endian.h \
+  include/uapi/linux/byteorder/little_endian.h \
+  include/linux/swab.h \
+  include/uapi/linux/swab.h \
+  arch/arm64/include/generated/uapi/asm/swab.h \
+  include/uapi/asm-generic/swab.h \
+  include/linux/byteorder/generic.h \
+  include/linux/lockdep_types.h \
+    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
+    $(wildcard include/config/LOCKDEP) \
+    $(wildcard include/config/LOCK_STAT) \
+  include/linux/cache.h \
+    $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
+  include/uapi/linux/kernel.h \
+  include/uapi/linux/sysinfo.h \
+  arch/arm64/include/asm/cache.h \
+    $(wildcard include/config/KASAN_HW_TAGS) \
+  include/linux/bitops.h \
   include/linux/typecheck.h \
   include/asm-generic/bitops/generic-non-atomic.h \
   arch/arm64/include/asm/barrier.h \
@@ -138,7 +189,6 @@ deps_fs/namei.o := \
     $(wildcard include/config/ARM64_ERRATUM_3194386) \
   arch/arm64/include/generated/asm/cpucap-defs.h \
   arch/arm64/include/asm/insn-def.h \
-  arch/arm64/include/asm/brk-imm.h \
   include/asm-generic/barrier.h \
   arch/arm64/include/asm/bitops.h \
   include/asm-generic/bitops/builtin-__ffs.h \
@@ -175,14 +225,6 @@ deps_fs/namei.o := \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/non-instrumented-non-atomic.h \
   include/asm-generic/bitops/le.h \
-  arch/arm64/include/uapi/asm/byteorder.h \
-  include/linux/byteorder/little_endian.h \
-  include/uapi/linux/byteorder/little_endian.h \
-  include/linux/swab.h \
-  include/uapi/linux/swab.h \
-  arch/arm64/include/generated/uapi/asm/swab.h \
-  include/uapi/asm-generic/swab.h \
-  include/linux/byteorder/generic.h \
   include/asm-generic/bitops/ext2-atomic-setbit.h \
   include/linux/kasan-enabled.h \
     $(wildcard include/config/KASAN) \
@@ -212,7 +254,6 @@ deps_fs/namei.o := \
     $(wildcard include/config/COMPACTION) \
     $(wildcard include/config/CONTIG_ALLOC) \
   include/linux/gfp_types.h \
-    $(wildcard include/config/LOCKDEP) \
   include/linux/mmzone.h \
     $(wildcard include/config/ARCH_FORCE_MAX_ORDER) \
     $(wildcard include/config/CMA) \
@@ -236,9 +277,7 @@ deps_fs/namei.o := \
     $(wildcard include/config/SPARSEMEM_EXTREME) \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/spinlock.h \
-    $(wildcard include/config/DEBUG_SPINLOCK) \
     $(wildcard include/config/PREEMPTION) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
     $(wildcard include/config/PREEMPT_RT) \
   include/linux/preempt.h \
     $(wildcard include/config/PREEMPT_COUNT) \
@@ -256,45 +295,7 @@ deps_fs/namei.o := \
     $(wildcard include/config/GENERIC_ENTRY) \
     $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
     $(wildcard include/config/HARDENED_USERCOPY) \
-    $(wildcard include/config/BUG) \
     $(wildcard include/config/SH) \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/DYNAMIC_DEBUG) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  include/linux/stdarg.h \
-  include/linux/kern_levels.h \
-  include/linux/ratelimit_types.h \
-  include/uapi/linux/param.h \
-  arch/arm64/include/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
-  include/linux/spinlock_types_raw.h \
-  arch/arm64/include/asm/spinlock_types.h \
-  include/asm-generic/qspinlock_types.h \
-    $(wildcard include/config/NR_CPUS) \
-  include/asm-generic/qrwlock_types.h \
-  include/linux/lockdep_types.h \
-    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/LOCK_STAT) \
   include/linux/restart_block.h \
   include/linux/errno.h \
   include/uapi/linux/errno.h \
@@ -493,6 +494,9 @@ deps_fs/namei.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -655,6 +659,7 @@ deps_fs/namei.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -694,6 +699,7 @@ deps_fs/namei.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -770,6 +776,7 @@ deps_fs/namei.o := \
     $(wildcard include/config/KASAN_STACK) \
     $(wildcard include/config/KASAN_VMALLOC) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -994,6 +1001,8 @@ deps_fs/namei.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1192,7 +1201,6 @@ deps_fs/namei.o := \
   include/linux/highmem-internal.h \
   include/linux/hugetlb_inline.h \
   include/linux/fsnotify.h \
-    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
   include/linux/fsnotify_backend.h \
     $(wildcard include/config/INOTIFY_USER) \
     $(wildcard include/config/FANOTIFY) \
@@ -1421,6 +1429,7 @@ deps_fs/namei.o := \
     $(wildcard include/config/MCTP) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/flow.h \
@@ -1533,9 +1542,6 @@ deps_fs/namei.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1557,50 +1563,50 @@ fs/namei.o: $(deps_fs/namei.o)
 $(deps_fs/namei.o):
 #SYMVER getname_kernel 0x22694647
 #SYMVER putname 0x95cb3de8
-#SYMVER generic_permission 0xcb09bb64
-#SYMVER inode_permission 0x635face5
-#SYMVER path_get 0xaaa01875
-#SYMVER path_put 0x317c42e5
-#SYMVER follow_up 0x33f68b7f
-#SYMVER follow_down_one 0xd57943a5
-#SYMVER follow_down 0xdad71737
-#SYMVER lookup_one_qstr_excl 0x95ac23c1
+#SYMVER generic_permission 0x7d2488ba
+#SYMVER inode_permission 0x452b69fd
+#SYMVER path_get 0xf1402957
+#SYMVER path_put 0xc4401639
+#SYMVER follow_up 0x729d2fda
+#SYMVER follow_down_one 0xd8267b23
+#SYMVER follow_down 0x83371a84
+#SYMVER lookup_one_qstr_excl 0xba6978f4
 #SYMVER full_name_hash 0xd6eaaea1
 #SYMVER hashlen_string 0x162893fd
-#SYMVER user_path_locked_at 0x17e68b7d
-#SYMVER kern_path 0x346e930d
-#SYMVER vfs_path_parent_lookup 0x8b28b533
-#SYMVER vfs_path_lookup 0x0119022b
-#SYMVER try_lookup_one_len 0xdf556900
-#SYMVER lookup_one_len 0x06f439e1
-#SYMVER lookup_one 0x25adce0f
-#SYMVER lookup_one_unlocked 0xff7cee6b
-#SYMVER lookup_one_positive_unlocked 0xad24485b
-#SYMVER lookup_one_len_unlocked 0xf9af076b
-#SYMVER lookup_positive_unlocked 0x257ed973
-#SYMVER user_path_at 0x018b5c4c
-#SYMVER __check_sticky 0x1e1d3501
-#SYMVER lock_rename 0xc378e172
-#SYMVER lock_rename_child 0x456eaa29
-#SYMVER unlock_rename 0xacc8489f
-#SYMVER vfs_create 0x523ab456
-#SYMVER vfs_mkobj 0x1e591907
-#SYMVER kernel_tmpfile_open 0x460e1592
-#SYMVER kern_path_create 0x9f874449
-#SYMVER done_path_create 0xa2673a0b
-#SYMVER user_path_create 0x534c027a
-#SYMVER vfs_mknod 0xe086f4e1
-#SYMVER vfs_mkdir 0xf8430d5b
-#SYMVER vfs_rmdir 0xcbb870b0
-#SYMVER vfs_unlink 0xc9a754f2
-#SYMVER vfs_symlink 0xad479def
-#SYMVER vfs_link 0xdc76323b
-#SYMVER vfs_rename 0x20adab30
-#SYMVER vfs_readlink 0x31ba9fa4
-#SYMVER vfs_get_link 0xba0d746e
-#SYMVER page_get_link_raw 0x97412853
-#SYMVER page_get_link 0x1cdc14b0
+#SYMVER user_path_locked_at 0x4814da58
+#SYMVER kern_path 0x389ba715
+#SYMVER vfs_path_parent_lookup 0x3ccaab5b
+#SYMVER vfs_path_lookup 0x3ac3c149
+#SYMVER try_lookup_one_len 0x940e4f16
+#SYMVER lookup_one_len 0x77d7ae54
+#SYMVER lookup_one 0xfb866f27
+#SYMVER lookup_one_unlocked 0x453c39fb
+#SYMVER lookup_one_positive_unlocked 0x9433300a
+#SYMVER lookup_one_len_unlocked 0xe032c234
+#SYMVER lookup_positive_unlocked 0xdeb308d3
+#SYMVER user_path_at 0xd1695594
+#SYMVER __check_sticky 0xbdc7fcc2
+#SYMVER lock_rename 0xb7dd0b7c
+#SYMVER lock_rename_child 0x344d3d9c
+#SYMVER unlock_rename 0x92c75d43
+#SYMVER vfs_create 0xa2bcc7f0
+#SYMVER vfs_mkobj 0x4030e656
+#SYMVER kernel_tmpfile_open 0xc53b17b3
+#SYMVER kern_path_create 0x1f773846
+#SYMVER done_path_create 0xb34e4d2a
+#SYMVER user_path_create 0xd3bc7e75
+#SYMVER vfs_mknod 0x8fe3973e
+#SYMVER vfs_mkdir 0x2793b60b
+#SYMVER vfs_rmdir 0x42ad5682
+#SYMVER vfs_unlink 0xee209748
+#SYMVER vfs_symlink 0x5fc67dfe
+#SYMVER vfs_link 0x9750d67b
+#SYMVER vfs_rename 0xa1f627c5
+#SYMVER vfs_readlink 0xf206c1b7
+#SYMVER vfs_get_link 0xf2ac000b
+#SYMVER page_get_link_raw 0xfa6d7702
+#SYMVER page_get_link 0xe14146c5
 #SYMVER page_put_link 0x3c185c61
-#SYMVER page_readlink 0xe068814a
-#SYMVER page_symlink 0x9eda6910
-#SYMVER page_symlink_inode_operations 0x1f39dc8e
+#SYMVER page_readlink 0xe0404963
+#SYMVER page_symlink 0x88d3aa9b
+#SYMVER page_symlink_inode_operations 0x8c49376c

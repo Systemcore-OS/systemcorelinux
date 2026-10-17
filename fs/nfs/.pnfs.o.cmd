@@ -1,4 +1,4 @@
-savedcmd_fs/nfs/pnfs.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/nfs/.pnfs.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"pnfs"' -DKBUILD_MODNAME='"nfsv4"' -D__KBUILD_MODNAME=kmod_nfsv4 -c -o fs/nfs/pnfs.o fs/nfs/pnfs.c  
+savedcmd_fs/nfs/pnfs.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/nfs/.pnfs.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"pnfs"' -DKBUILD_MODNAME='"nfsv4"' -D__KBUILD_MODNAME=kmod_nfsv4 -c -o fs/nfs/pnfs.o fs/nfs/pnfs.c  
 
 source_fs/nfs/pnfs.o := fs/nfs/pnfs.c
 
@@ -24,6 +24,7 @@ deps_fs/nfs/pnfs.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -631,6 +632,7 @@ deps_fs/nfs/pnfs.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -674,6 +676,7 @@ deps_fs/nfs/pnfs.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -707,6 +710,9 @@ deps_fs/nfs/pnfs.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -872,6 +878,7 @@ deps_fs/nfs/pnfs.o := \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
     $(wildcard include/config/IMA) \
@@ -1009,6 +1016,8 @@ deps_fs/nfs/pnfs.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1234,6 +1243,7 @@ deps_fs/nfs/pnfs.o := \
     $(wildcard include/config/MCTP) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/flow.h \
@@ -1387,9 +1397,6 @@ deps_fs/nfs/pnfs.o := \
   include/linux/device/driver.h \
   arch/arm64/include/asm/device.h \
   include/linux/pm_wakeup.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1679,28 +1686,28 @@ deps_fs/nfs/pnfs.o := \
 fs/nfs/pnfs.o: $(deps_fs/nfs/pnfs.o)
 
 $(deps_fs/nfs/pnfs.o):
-#SYMVER pnfs_register_layoutdriver 0x3a07d524
-#SYMVER pnfs_unregister_layoutdriver 0x35f9eb7f
-#SYMVER pnfs_put_lseg 0xd2b71b6a
-#SYMVER pnfs_destroy_layout 0xc357afb9
-#SYMVER pnfs_generic_layout_insert_lseg 0xf7c4f19c
-#SYMVER pnfs_update_layout 0xc3198eb8
-#SYMVER pnfs_error_mark_layout_for_return 0xb3a30e91
-#SYMVER pnfs_generic_pg_check_layout 0xe14d255d
-#SYMVER pnfs_generic_pg_init_read 0x660be337
-#SYMVER pnfs_generic_pg_init_write 0xc8240caf
-#SYMVER pnfs_generic_pg_cleanup 0x0c313c5d
-#SYMVER pnfs_generic_pg_test 0x1459477c
-#SYMVER pnfs_write_done_resend_to_mds 0x6e28eb34
-#SYMVER pnfs_ld_write_done 0x8f777c92
-#SYMVER pnfs_generic_pg_writepages 0x7f9bd39e
-#SYMVER pnfs_read_done_resend_to_mds 0xb380adf6
-#SYMVER pnfs_ld_read_done 0x1a3e4daa
-#SYMVER pnfs_read_resend_pnfs 0xe0b11ada
-#SYMVER pnfs_generic_pg_readpages 0x791fb4fd
-#SYMVER pnfs_set_lo_fail 0x983ba680
-#SYMVER pnfs_set_layoutcommit 0x5e8d0ee9
-#SYMVER pnfs_layoutcommit_inode 0x716a3581
-#SYMVER pnfs_generic_sync 0x02fda679
-#SYMVER pnfs_report_layoutstat 0x86de6a43
+#SYMVER pnfs_register_layoutdriver 0x15706f17
+#SYMVER pnfs_unregister_layoutdriver 0x2363cfc6
+#SYMVER pnfs_put_lseg 0xef3c4839
+#SYMVER pnfs_destroy_layout 0xe7e8c17b
+#SYMVER pnfs_generic_layout_insert_lseg 0xf3914831
+#SYMVER pnfs_update_layout 0x9594fade
+#SYMVER pnfs_error_mark_layout_for_return 0x43cd3d59
+#SYMVER pnfs_generic_pg_check_layout 0x8718c13c
+#SYMVER pnfs_generic_pg_init_read 0x660020ea
+#SYMVER pnfs_generic_pg_init_write 0x5f5e470f
+#SYMVER pnfs_generic_pg_cleanup 0x7e52e5f2
+#SYMVER pnfs_generic_pg_test 0x01c593d8
+#SYMVER pnfs_write_done_resend_to_mds 0x71650e14
+#SYMVER pnfs_ld_write_done 0x8c0a38b7
+#SYMVER pnfs_generic_pg_writepages 0x9c2290d0
+#SYMVER pnfs_read_done_resend_to_mds 0xa95c0ccd
+#SYMVER pnfs_ld_read_done 0x8b8baf34
+#SYMVER pnfs_read_resend_pnfs 0xbb447fd4
+#SYMVER pnfs_generic_pg_readpages 0xcbebb8c0
+#SYMVER pnfs_set_lo_fail 0x7f6e7dc4
+#SYMVER pnfs_set_layoutcommit 0xfac93d4f
+#SYMVER pnfs_layoutcommit_inode 0x47f19dea
+#SYMVER pnfs_generic_sync 0x1b031843
+#SYMVER pnfs_report_layoutstat 0xa07cc70c
 #SYMVER layoutstats_timer 0x054bef45

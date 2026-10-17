@@ -1,9 +1,10 @@
 nfs4session.o: fs/nfs/nfs4session.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/kernel.h include/linux/stdarg.h include/linux/align.h \
- include/linux/const.h include/vdso/const.h include/uapi/linux/const.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/kernel.h \
+ include/linux/stdarg.h include/linux/align.h include/linux/const.h \
+ include/vdso/const.h include/uapi/linux/const.h \
  include/linux/array_size.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
  include/asm-generic/rwonce.h include/linux/kasan-checks.h \
@@ -75,7 +76,9 @@ nfs4session.o: fs/nfs/nfs4session.c include/linux/compiler-version.h \
  include/uapi/asm-generic/errno.h include/uapi/asm-generic/errno-base.h \
  include/linux/string.h include/linux/args.h include/linux/err.h \
  include/uapi/linux/string.h arch/arm64/include/asm/string.h \
- include/linux/slab.h include/linux/cache.h \
+ include/linux/slab.h include/linux/bug.h arch/arm64/include/asm/bug.h \
+ arch/arm64/include/asm/asm-bug.h include/asm-generic/bug.h \
+ include/linux/instrumentation.h include/linux/cache.h \
  arch/arm64/include/asm/cache.h include/linux/kasan-enabled.h \
  include/linux/static_key.h include/linux/jump_label.h \
  arch/arm64/include/asm/jump_label.h arch/arm64/include/asm/insn.h \
@@ -86,23 +89,20 @@ nfs4session.o: fs/nfs/nfs4session.c include/linux/compiler-version.h \
  include/linux/gfp_types.h include/linux/mmzone.h \
  include/linux/spinlock.h include/linux/preempt.h include/linux/cleanup.h \
  arch/arm64/include/asm/preempt.h include/linux/thread_info.h \
- include/linux/bug.h arch/arm64/include/asm/bug.h \
- arch/arm64/include/asm/asm-bug.h include/asm-generic/bug.h \
- include/linux/instrumentation.h include/linux/restart_block.h \
- arch/arm64/include/asm/current.h arch/arm64/include/asm/thread_info.h \
- arch/arm64/include/asm/memory.h include/linux/sizes.h \
- arch/arm64/include/asm/page-def.h include/linux/mmdebug.h \
- arch/arm64/include/asm/boot.h arch/arm64/include/asm/sections.h \
- include/asm-generic/sections.h include/asm-generic/memory_model.h \
- include/linux/pfn.h arch/arm64/include/asm/stack_pointer.h \
- include/linux/irqflags.h include/linux/irqflags_types.h \
- arch/arm64/include/asm/irqflags.h arch/arm64/include/asm/ptrace.h \
- arch/arm64/include/asm/cpufeature.h arch/arm64/include/asm/hwcap.h \
- arch/arm64/include/uapi/asm/hwcap.h include/linux/cpumask.h \
- include/linux/bitmap.h include/linux/find.h include/linux/bitmap-str.h \
- include/linux/cpumask_types.h include/linux/threads.h \
- include/linux/numa.h arch/arm64/include/asm/sparsemem.h \
- arch/arm64/include/asm/pgtable-prot.h \
+ include/linux/restart_block.h arch/arm64/include/asm/current.h \
+ arch/arm64/include/asm/thread_info.h arch/arm64/include/asm/memory.h \
+ include/linux/sizes.h arch/arm64/include/asm/page-def.h \
+ include/linux/mmdebug.h arch/arm64/include/asm/boot.h \
+ arch/arm64/include/asm/sections.h include/asm-generic/sections.h \
+ include/asm-generic/memory_model.h include/linux/pfn.h \
+ arch/arm64/include/asm/stack_pointer.h include/linux/irqflags.h \
+ include/linux/irqflags_types.h arch/arm64/include/asm/irqflags.h \
+ arch/arm64/include/asm/ptrace.h arch/arm64/include/asm/cpufeature.h \
+ arch/arm64/include/asm/hwcap.h arch/arm64/include/uapi/asm/hwcap.h \
+ include/linux/cpumask.h include/linux/bitmap.h include/linux/find.h \
+ include/linux/bitmap-str.h include/linux/cpumask_types.h \
+ include/linux/threads.h include/linux/numa.h \
+ arch/arm64/include/asm/sparsemem.h arch/arm64/include/asm/pgtable-prot.h \
  arch/arm64/include/asm/pgtable-hwdef.h \
  arch/arm64/include/asm/pgtable-types.h \
  include/asm-generic/pgtable-nopud.h include/asm-generic/pgtable-nop4d.h \
@@ -256,8 +256,9 @@ nfs4session.o: fs/nfs/nfs4session.c include/linux/compiler-version.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
@@ -350,7 +351,6 @@ nfs4session.o: fs/nfs/nfs4session.c include/linux/compiler-version.h \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/uapi/linux/if_ether.h include/uapi/linux/pkt_cls.h \
  include/uapi/linux/pkt_sched.h include/uapi/linux/if_packet.h \

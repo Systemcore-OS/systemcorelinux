@@ -1,4 +1,4 @@
-savedcmd_net/netfilter/x_tables.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/netfilter/.x_tables.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"x_tables"' -DKBUILD_MODNAME='"x_tables"' -D__KBUILD_MODNAME=kmod_x_tables -c -o net/netfilter/x_tables.o net/netfilter/x_tables.c  
+savedcmd_net/netfilter/x_tables.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/netfilter/.x_tables.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"x_tables"' -DKBUILD_MODNAME='"x_tables"' -D__KBUILD_MODNAME=kmod_x_tables -c -o net/netfilter/x_tables.o net/netfilter/x_tables.c  
 
 source_net/netfilter/x_tables.o := net/netfilter/x_tables.c
 
@@ -26,6 +26,7 @@ deps_net/netfilter/x_tables.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -498,6 +499,7 @@ deps_net/netfilter/x_tables.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -584,6 +586,7 @@ deps_net/netfilter/x_tables.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -678,6 +681,9 @@ deps_net/netfilter/x_tables.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -803,6 +809,7 @@ deps_net/netfilter/x_tables.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1039,6 +1046,8 @@ deps_net/netfilter/x_tables.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1126,6 +1135,7 @@ deps_net/netfilter/x_tables.o := \
     $(wildcard include/config/MCTP) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/flow.h \
@@ -1391,9 +1401,6 @@ deps_net/netfilter/x_tables.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1653,7 +1660,9 @@ deps_net/netfilter/x_tables.o := \
   include/linux/set_memory.h \
     $(wildcard include/config/ARCH_HAS_SET_MEMORY) \
     $(wildcard include/config/ARCH_HAS_SET_DIRECT_MAP) \
+    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
   arch/arm64/include/asm/set_memory.h \
+  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/set_memory.h \
   include/linux/if_vlan.h \
   include/linux/etherdevice.h \
@@ -1687,6 +1696,7 @@ deps_net/netfilter/x_tables.o := \
   include/linux/ipv6_route.h \
   include/uapi/linux/ipv6_route.h \
   include/net/gro_cells.h \
+  include/net/secure_seq.h \
   include/linux/bpf-cgroup.h \
   include/net/addrconf.h \
   include/net/netfilter/ipv6/nf_defrag_ipv6.h \
@@ -1696,58 +1706,58 @@ deps_net/netfilter/x_tables.o := \
 net/netfilter/x_tables.o: $(deps_net/netfilter/x_tables.o)
 
 $(deps_net/netfilter/x_tables.o):
-#SYMVER xt_register_target 0x3902cbc7
-#SYMVER xt_unregister_target 0x0341ab17
-#SYMVER xt_register_targets 0x39c3e26e
-#SYMVER xt_unregister_targets 0xefa7db3e
-#SYMVER xt_register_match 0x5591d2c3
-#SYMVER xt_unregister_match 0xdda9e816
-#SYMVER xt_register_matches 0x2a042e13
-#SYMVER xt_unregister_matches 0x989e96b3
-#SYMVER xt_find_match 0xa039c491
-#SYMVER xt_request_find_match 0xc68c1adc
-#SYMVER xt_request_find_target 0x11eccad3
+#SYMVER xt_register_target 0x1e9c036f
+#SYMVER xt_unregister_target 0x50110031
+#SYMVER xt_register_targets 0xe744b0bf
+#SYMVER xt_unregister_targets 0x6d00e6ab
+#SYMVER xt_register_match 0xbb91783e
+#SYMVER xt_unregister_match 0xe8b07aa7
+#SYMVER xt_register_matches 0x6a344a73
+#SYMVER xt_unregister_matches 0x4babb268
+#SYMVER xt_find_match 0x07812991
+#SYMVER xt_request_find_match 0x90650f95
+#SYMVER xt_request_find_target 0x4a6a35a2
 #SYMVER xt_data_to_user 0x7bce4603
-#SYMVER xt_match_to_user 0x414bdd30
-#SYMVER xt_target_to_user 0x24e1821e
+#SYMVER xt_match_to_user 0x041156f1
+#SYMVER xt_target_to_user 0x37dd7893
 #SYMVER xt_find_revision 0xddf68fc6
 #SYMVER xt_check_proc_name 0x48012e28
-#SYMVER xt_check_match 0xd3a34219
+#SYMVER xt_check_match 0x44977a71
 #SYMVER xt_check_table_hooks 0x3bf9d084
 #SYMVER xt_compat_add_offset 0x823edea5
 #SYMVER xt_compat_flush_offsets 0x04e27719
 #SYMVER xt_compat_calc_jump 0xc7fae024
 #SYMVER xt_compat_init_offsets 0x50873741
-#SYMVER xt_compat_match_offset 0x1975ff33
-#SYMVER xt_compat_match_from_user 0xd8e7ac19
-#SYMVER xt_compat_match_to_user 0x7587de3a
+#SYMVER xt_compat_match_offset 0xc6ada431
+#SYMVER xt_compat_match_from_user 0x0ca7701b
+#SYMVER xt_compat_match_to_user 0x05d3aed8
 #SYMVER xt_compat_check_entry_offsets 0xa25fc115
 #SYMVER xt_check_entry_offsets 0xd87ae60d
 #SYMVER xt_alloc_entry_offsets 0x0d7f5fcd
 #SYMVER xt_find_jump_offset 0xfef779fa
-#SYMVER xt_check_target 0x61ae6575
+#SYMVER xt_check_target 0x960f36f2
 #SYMVER xt_copy_counters 0xf6abeb06
-#SYMVER xt_compat_target_offset 0xcab61364
-#SYMVER xt_compat_target_from_user 0xc4eefb0f
-#SYMVER xt_compat_target_to_user 0x7b111433
+#SYMVER xt_compat_target_offset 0x2627a133
+#SYMVER xt_compat_target_from_user 0x0341b91a
+#SYMVER xt_compat_target_to_user 0x74e029eb
 #SYMVER xt_alloc_table_info 0x977fd4bf
 #SYMVER xt_free_table_info 0xe204e042
-#SYMVER xt_find_table 0x08d8f2ee
-#SYMVER xt_find_table_lock 0x7cfb714c
-#SYMVER xt_request_find_table_lock 0x1a782250
-#SYMVER xt_table_unlock 0xce334b3f
+#SYMVER xt_find_table 0x32bdb330
+#SYMVER xt_find_table_lock 0x52535531
+#SYMVER xt_request_find_table_lock 0x9d61b978
+#SYMVER xt_table_unlock 0xc9968b73
 #SYMVER xt_compat_lock 0xa7c94f1d
 #SYMVER xt_compat_unlock 0xd1e246a2
 #SYMVER xt_recseq 0x807d2b2c
 #SYMVER xt_tee_enabled 0xd3fcc511
 #SYMVER xt_counters_alloc 0xcb3e91cc
-#SYMVER xt_replace_table 0xb9b650c7
-#SYMVER xt_register_table 0x6e5312a8
-#SYMVER xt_unregister_table 0xf522f94a
-#SYMVER xt_hook_ops_alloc 0x3692a8d5
-#SYMVER xt_register_template 0x68f02863
-#SYMVER xt_unregister_template 0x6864e3bb
-#SYMVER xt_proto_init 0x44b6e1ff
-#SYMVER xt_proto_fini 0x50b0a576
+#SYMVER xt_replace_table 0xa569ccea
+#SYMVER xt_register_table 0x47614c5e
+#SYMVER xt_unregister_table 0x68223855
+#SYMVER xt_hook_ops_alloc 0x60562237
+#SYMVER xt_register_template 0x83f4074c
+#SYMVER xt_unregister_template 0x7b838edc
+#SYMVER xt_proto_init 0x02d0ea2d
+#SYMVER xt_proto_fini 0xa18489ba
 #SYMVER xt_percpu_counter_alloc 0x9c995c69
 #SYMVER xt_percpu_counter_free 0xbfacb837

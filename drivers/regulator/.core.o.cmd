@@ -1,4 +1,4 @@
-savedcmd_drivers/regulator/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/regulator/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/regulator/core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"core"' -D__KBUILD_MODNAME=kmod_core -c -o drivers/regulator/core.o drivers/regulator/core.c  
+savedcmd_drivers/regulator/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/regulator/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/regulator/core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"core"' -D__KBUILD_MODNAME=kmod_core -c -o drivers/regulator/core.o drivers/regulator/core.c  
 
 source_drivers/regulator/core.o := drivers/regulator/core.c
 
@@ -29,6 +29,7 @@ deps_drivers/regulator/core.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -229,6 +230,7 @@ deps_drivers/regulator/core.o := \
   include/linux/wordpart.h \
   include/linux/debugfs.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/SECURITY) \
@@ -502,6 +504,9 @@ deps_drivers/regulator/core.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -603,6 +608,7 @@ deps_drivers/regulator/core.o := \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -651,6 +657,7 @@ deps_drivers/regulator/core.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -1194,6 +1201,8 @@ deps_drivers/regulator/core.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
   include/linux/writeback.h \
@@ -1440,61 +1449,61 @@ deps_drivers/regulator/core.o := \
 drivers/regulator/core.o: $(deps_drivers/regulator/core.o)
 
 $(deps_drivers/regulator/core.o):
-#SYMVER rdev_get_name 0x9ec63aa1
-#SYMVER regulator_get 0xdd3c2315
-#SYMVER regulator_get_exclusive 0x1c6ffaf1
-#SYMVER regulator_get_optional 0x9c6ea313
-#SYMVER regulator_put 0x12e44533
-#SYMVER regulator_register_supply_alias 0xff0185ab
-#SYMVER regulator_unregister_supply_alias 0x5e1d74e9
-#SYMVER regulator_bulk_register_supply_alias 0xf199746b
-#SYMVER regulator_bulk_unregister_supply_alias 0xcc83f659
-#SYMVER regulator_enable 0x0e12de55
-#SYMVER regulator_disable 0x4006e1ed
-#SYMVER regulator_force_disable 0xcfd27158
-#SYMVER regulator_disable_deferred 0x2b58699e
-#SYMVER regulator_is_enabled 0x17130890
-#SYMVER regulator_count_voltages 0xb81a50f0
-#SYMVER regulator_list_voltage 0xe4c56005
-#SYMVER regulator_get_regmap 0x47fdfacc
-#SYMVER regulator_get_hardware_vsel_register 0xddcbaabe
-#SYMVER regulator_list_hardware_vsel 0x91e7177f
-#SYMVER regulator_hardware_enable 0xe4eeed6a
-#SYMVER regulator_get_linear_step 0x0cba0813
-#SYMVER regulator_is_supported_voltage 0xcb06dcd3
-#SYMVER regulator_set_voltage_rdev 0x0b92586a
-#SYMVER regulator_set_voltage 0x57e9fa65
-#SYMVER regulator_suspend_enable 0xc9818551
-#SYMVER regulator_suspend_disable 0x4199cb0e
-#SYMVER regulator_set_suspend_voltage 0x6fe19991
-#SYMVER regulator_set_voltage_time 0x95525d93
-#SYMVER regulator_set_voltage_time_sel 0xfe6e2860
-#SYMVER regulator_sync_voltage 0xb5ac353b
-#SYMVER regulator_get_voltage_rdev 0xc6a9d289
-#SYMVER regulator_get_voltage 0xeed0f425
-#SYMVER regulator_set_current_limit 0x2685f0bf
-#SYMVER regulator_get_current_limit 0x68ba6e79
-#SYMVER regulator_set_mode 0x0e25f1e0
-#SYMVER regulator_get_mode 0x001fd77a
-#SYMVER regulator_get_error_flags 0x890a8a32
-#SYMVER regulator_set_load 0x173252ae
-#SYMVER regulator_allow_bypass 0x3230e19d
-#SYMVER regulator_register_notifier 0x46ae6275
-#SYMVER regulator_unregister_notifier 0x36a542ce
-#SYMVER regulator_bulk_get 0x402d4410
-#SYMVER regulator_bulk_enable 0x12d747bf
-#SYMVER regulator_bulk_disable 0x18f84433
-#SYMVER regulator_bulk_force_disable 0xc8c49ac5
-#SYMVER regulator_bulk_free 0x931fd01c
-#SYMVER regulator_notifier_call_chain 0xcfe3a4e5
+#SYMVER rdev_get_name 0xe5571669
+#SYMVER regulator_get 0xb7c67f83
+#SYMVER regulator_get_exclusive 0x05d1ab14
+#SYMVER regulator_get_optional 0x4e093785
+#SYMVER regulator_put 0x4b00bab9
+#SYMVER regulator_register_supply_alias 0x61ae185c
+#SYMVER regulator_unregister_supply_alias 0xabb34ebf
+#SYMVER regulator_bulk_register_supply_alias 0xd05f8bfa
+#SYMVER regulator_bulk_unregister_supply_alias 0x954123cd
+#SYMVER regulator_enable 0xf0d9405b
+#SYMVER regulator_disable 0xdf1cef6e
+#SYMVER regulator_force_disable 0x1cdbf72f
+#SYMVER regulator_disable_deferred 0xc96598b5
+#SYMVER regulator_is_enabled 0xf1e2775f
+#SYMVER regulator_count_voltages 0x0730d682
+#SYMVER regulator_list_voltage 0x8a1efa61
+#SYMVER regulator_get_regmap 0xa80c5d0d
+#SYMVER regulator_get_hardware_vsel_register 0xec560cc0
+#SYMVER regulator_list_hardware_vsel 0xe4cf6aed
+#SYMVER regulator_hardware_enable 0xc0e064ce
+#SYMVER regulator_get_linear_step 0xd2972363
+#SYMVER regulator_is_supported_voltage 0xdcefb1f8
+#SYMVER regulator_set_voltage_rdev 0x59dc8e7e
+#SYMVER regulator_set_voltage 0xce135b19
+#SYMVER regulator_suspend_enable 0x9db0e637
+#SYMVER regulator_suspend_disable 0x46e0a044
+#SYMVER regulator_set_suspend_voltage 0xcf1109e0
+#SYMVER regulator_set_voltage_time 0xfafffdb9
+#SYMVER regulator_set_voltage_time_sel 0x81d39bf9
+#SYMVER regulator_sync_voltage 0x1bcf7eba
+#SYMVER regulator_get_voltage_rdev 0xd34a70e8
+#SYMVER regulator_get_voltage 0x3bfcd430
+#SYMVER regulator_set_current_limit 0xe5e7aaea
+#SYMVER regulator_get_current_limit 0xa3c7dacb
+#SYMVER regulator_set_mode 0xf89f82a7
+#SYMVER regulator_get_mode 0x57dedb4f
+#SYMVER regulator_get_error_flags 0xf6e2d807
+#SYMVER regulator_set_load 0xe9c654f3
+#SYMVER regulator_allow_bypass 0xf67453ab
+#SYMVER regulator_register_notifier 0xff29eedf
+#SYMVER regulator_unregister_notifier 0x9ff2ed2d
+#SYMVER regulator_bulk_get 0xa294fbf8
+#SYMVER regulator_bulk_enable 0x97c626c6
+#SYMVER regulator_bulk_disable 0x862d956b
+#SYMVER regulator_bulk_force_disable 0x8b28c939
+#SYMVER regulator_bulk_free 0xe24487e3
+#SYMVER regulator_notifier_call_chain 0xbe03b0be
 #SYMVER regulator_mode_to_status 0x56310925
-#SYMVER regulator_register 0x12ce09e9
-#SYMVER regulator_unregister 0x224230fe
+#SYMVER regulator_register 0x6df5b207
+#SYMVER regulator_unregister 0x7bb07e66
 #SYMVER regulator_has_full_constraints 0xd768e985
-#SYMVER rdev_get_drvdata 0x074c9ae4
-#SYMVER regulator_get_drvdata 0x80ff1d5c
-#SYMVER regulator_set_drvdata 0xb785f74d
-#SYMVER rdev_get_id 0x700e6a48
-#SYMVER rdev_get_dev 0xc46c088a
-#SYMVER rdev_get_regmap 0x4c409f0c
+#SYMVER rdev_get_drvdata 0xff2d68c1
+#SYMVER regulator_get_drvdata 0x2e191337
+#SYMVER regulator_set_drvdata 0xc620deb2
+#SYMVER rdev_get_id 0x6abaabc7
+#SYMVER rdev_get_dev 0xfdbf0aa8
+#SYMVER rdev_get_regmap 0xceffffa6
 #SYMVER regulator_get_init_drvdata 0x4de36f98

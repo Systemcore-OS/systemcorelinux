@@ -1,4 +1,4 @@
-savedcmd_drivers/tty/tty_io.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/tty/.tty_io.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/tty/tty_io"' -DKBUILD_BASENAME='"tty_io"' -DKBUILD_MODNAME='"tty_io"' -D__KBUILD_MODNAME=kmod_tty_io -c -o drivers/tty/tty_io.o drivers/tty/tty_io.c  
+savedcmd_drivers/tty/tty_io.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/tty/.tty_io.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/tty/tty_io"' -DKBUILD_BASENAME='"tty_io"' -DKBUILD_MODNAME='"tty_io"' -D__KBUILD_MODNAME=kmod_tty_io -c -o drivers/tty/tty_io.o drivers/tty/tty_io.c  
 
 source_drivers/tty/tty_io.o := drivers/tty/tty_io.c
 
@@ -28,6 +28,7 @@ deps_drivers/tty/tty_io.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -501,6 +502,7 @@ deps_drivers/tty/tty_io.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -576,6 +578,7 @@ deps_drivers/tty/tty_io.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -752,6 +755,9 @@ deps_drivers/tty/tty_io.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -959,6 +965,7 @@ deps_drivers/tty/tty_io.o := \
   include/linux/tty.h \
     $(wildcard include/config/TTY) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1168,6 +1175,8 @@ deps_drivers/tty/tty_io.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1183,15 +1192,89 @@ deps_drivers/tty/tty_io.o := \
   include/uapi/linux/ppp-ioctl.h \
   include/linux/ppp_defs.h \
   include/linux/crc-ccitt.h \
-  include/uapi/linux/ppp_defs.h \
-  include/linux/proc_fs.h \
-    $(wildcard include/config/PROC_PID_ARCH_STATUS) \
-  include/linux/delay.h \
-  arch/arm64/include/generated/asm/delay.h \
-  include/asm-generic/delay.h \
-  include/linux/serial.h \
-  include/uapi/linux/serial.h \
-  include/uapi/linux/serial_reg.h \
+  include/linux/skbuff.h \
+    $(wildcard include/config/NF_CONNTRACK) \
+    $(wildcard include/config/BRIDGE_NETFILTER) \
+    $(wildcard include/config/NET_TC_SKB_EXT) \
+    $(wildcard include/config/MAX_SKB_FRAGS) \
+    $(wildcard include/config/NET_SOCK_MSG) \
+    $(wildcard include/config/SKB_EXTENSIONS) \
+    $(wildcard include/config/NET_XGRESS) \
+    $(wildcard include/config/WIRELESS) \
+    $(wildcard include/config/IPV6_NDISC_NODETYPE) \
+    $(wildcard include/config/IP_VS) \
+    $(wildcard include/config/NETFILTER_XT_TARGET_TRACE) \
+    $(wildcard include/config/NF_TABLES) \
+    $(wildcard include/config/NET_SWITCHDEV) \
+    $(wildcard include/config/NET_REDIRECT) \
+    $(wildcard include/config/NETFILTER_SKIP_EGRESS) \
+    $(wildcard include/config/SKB_DECRYPTED) \
+    $(wildcard include/config/IP_SCTP) \
+    $(wildcard include/config/NET_SCHED) \
+    $(wildcard include/config/NET_RX_BUSY_POLL) \
+    $(wildcard include/config/XPS) \
+    $(wildcard include/config/NETWORK_SECMARK) \
+    $(wildcard include/config/DEBUG_NET) \
+    $(wildcard include/config/HAVE_EFFICIENT_UNALIGNED_ACCESS) \
+    $(wildcard include/config/NETWORK_PHY_TIMESTAMPING) \
+    $(wildcard include/config/XFRM) \
+    $(wildcard include/config/MPTCP) \
+    $(wildcard include/config/MCTP_FLOWS) \
+  include/linux/bvec.h \
+  include/linux/highmem.h \
+  include/linux/cacheflush.h \
+  arch/arm64/include/asm/cacheflush.h \
+  include/linux/kgdb.h \
+    $(wildcard include/config/HAVE_ARCH_KGDB) \
+    $(wildcard include/config/KGDB) \
+    $(wildcard include/config/SERIAL_KGDB_NMI) \
+    $(wildcard include/config/KGDB_HONOUR_BLOCKLIST) \
+  include/linux/kprobes.h \
+    $(wildcard include/config/KRETPROBE_ON_RETHOOK) \
+    $(wildcard include/config/OPTPROBES) \
+    $(wildcard include/config/KPROBES_ON_FTRACE) \
+  include/linux/ftrace.h \
+    $(wildcard include/config/HAVE_FUNCTION_GRAPH_FREGS) \
+    $(wildcard include/config/FUNCTION_TRACER) \
+    $(wildcard include/config/HAVE_DYNAMIC_FTRACE_WITH_ARGS) \
+    $(wildcard include/config/HAVE_FTRACE_REGS_HAVING_PT_REGS) \
+    $(wildcard include/config/DYNAMIC_FTRACE_WITH_REGS) \
+    $(wildcard include/config/DYNAMIC_FTRACE_WITH_ARGS) \
+    $(wildcard include/config/DYNAMIC_FTRACE_WITH_DIRECT_CALLS) \
+    $(wildcard include/config/STACK_TRACER) \
+    $(wildcard include/config/DYNAMIC_FTRACE_WITH_CALL_OPS) \
+    $(wildcard include/config/FRAME_POINTER) \
+    $(wildcard include/config/FUNCTION_GRAPH_RETVAL) \
+    $(wildcard include/config/FUNCTION_PROFILER) \
+    $(wildcard include/config/FTRACE_SYSCALLS) \
+  include/linux/trace_recursion.h \
+    $(wildcard include/config/FTRACE_RECORD_RECURSION) \
+    $(wildcard include/config/FTRACE_VALIDATE_RCU_IS_WATCHING) \
+  include/linux/trace_clock.h \
+  arch/arm64/include/generated/asm/trace_clock.h \
+  include/asm-generic/trace_clock.h \
+  include/linux/kallsyms.h \
+    $(wildcard include/config/KALLSYMS_ALL) \
+  include/linux/ptrace.h \
+  include/linux/pid_namespace.h \
+    $(wildcard include/config/MEMFD_CREATE) \
+    $(wildcard include/config/PID_NS) \
+  include/linux/nsproxy.h \
+  include/linux/ns_common.h \
+  include/uapi/linux/ptrace.h \
+  include/linux/seccomp.h \
+    $(wildcard include/config/HAVE_ARCH_SECCOMP_FILTER) \
+    $(wildcard include/config/SECCOMP_FILTER) \
+    $(wildcard include/config/CHECKPOINT_RESTORE) \
+    $(wildcard include/config/SECCOMP_CACHE_DEBUG) \
+  include/uapi/linux/seccomp.h \
+  arch/arm64/include/asm/seccomp.h \
+  arch/arm64/include/generated/asm/unistd_compat_32.h \
+  include/asm-generic/seccomp.h \
+  include/uapi/linux/unistd.h \
+  arch/arm64/include/asm/unistd.h \
+  arch/arm64/include/generated/uapi/asm/unistd_64.h \
+  arch/arm64/include/asm/ftrace.h \
   include/linux/compat.h \
     $(wildcard include/config/ARCH_HAS_SYSCALL_WRAPPER) \
     $(wildcard include/config/X86_X32_ABI) \
@@ -1220,10 +1303,55 @@ deps_drivers/tty/tty_io.o := \
   include/uapi/linux/libc-compat.h \
   include/uapi/linux/hdlc/ioctl.h \
   include/uapi/linux/aio_abi.h \
-  include/uapi/linux/unistd.h \
-  arch/arm64/include/asm/unistd.h \
-  arch/arm64/include/generated/uapi/asm/unistd_64.h \
   arch/arm64/include/asm/syscall_wrapper.h \
+  include/linux/objpool.h \
+  include/linux/rethook.h \
+  arch/arm64/include/asm/kprobes.h \
+  include/asm-generic/kprobes.h \
+  arch/arm64/include/asm/kgdb.h \
+  include/asm-generic/cacheflush.h \
+  include/linux/kmsan.h \
+  include/linux/dma-direction.h \
+  include/linux/highmem-internal.h \
+  include/net/checksum.h \
+  arch/arm64/include/asm/checksum.h \
+  include/linux/in6.h \
+  include/uapi/linux/in6.h \
+  include/asm-generic/checksum.h \
+  include/linux/dma-mapping.h \
+    $(wildcard include/config/DMA_API_DEBUG) \
+    $(wildcard include/config/HAS_DMA) \
+    $(wildcard include/config/NEED_DMA_MAP_STATE) \
+  include/linux/scatterlist.h \
+    $(wildcard include/config/NEED_SG_DMA_LENGTH) \
+    $(wildcard include/config/NEED_SG_DMA_FLAGS) \
+    $(wildcard include/config/DEBUG_SG) \
+    $(wildcard include/config/SGL_ALLOC) \
+    $(wildcard include/config/ARCH_NO_SG_CHAIN) \
+    $(wildcard include/config/SG_POOL) \
+  include/linux/netdev_features.h \
+  include/net/flow_dissector.h \
+  include/linux/siphash.h \
+  include/uapi/linux/if_ether.h \
+  include/uapi/linux/pkt_cls.h \
+    $(wildcard include/config/NET_CLS_ACT) \
+  include/uapi/linux/pkt_sched.h \
+  include/uapi/linux/if_packet.h \
+  include/net/flow.h \
+  include/linux/netfilter/nf_conntrack_common.h \
+  include/uapi/linux/netfilter/nf_conntrack_common.h \
+  include/net/net_debug.h \
+  include/net/dropreason-core.h \
+  include/net/netmem.h \
+  include/uapi/linux/ppp_defs.h \
+  include/linux/proc_fs.h \
+    $(wildcard include/config/PROC_PID_ARCH_STATUS) \
+  include/linux/delay.h \
+  arch/arm64/include/generated/asm/delay.h \
+  include/asm-generic/delay.h \
+  include/linux/serial.h \
+  include/uapi/linux/serial.h \
+  include/uapi/linux/serial_reg.h \
   include/linux/termios_internal.h \
   include/linux/kbd_kern.h \
   include/linux/keyboard.h \
@@ -1239,39 +1367,38 @@ deps_drivers/tty/tty_io.o := \
   include/uapi/linux/tiocl.h \
   include/linux/vt_buffer.h \
     $(wildcard include/config/MDA_CONSOLE) \
-  include/linux/nsproxy.h \
   drivers/tty/tty.h \
 
 drivers/tty/tty_io.o: $(deps_drivers/tty/tty_io.o)
 
 $(deps_drivers/tty/tty_io.o):
 #SYMVER tty_std_termios 0x67b27ec1
-#SYMVER tty_name 0x9aab10ae
+#SYMVER tty_name 0xbfc92370
 #SYMVER tty_dev_name_to_number 0xb11d9000
-#SYMVER tty_wakeup 0x2168bd15
-#SYMVER tty_hangup 0x6116ab5b
-#SYMVER tty_vhangup 0xd5186dae
-#SYMVER tty_hung_up_p 0x3de3a72a
-#SYMVER stop_tty 0x37d832ad
-#SYMVER start_tty 0x7a97ea71
-#SYMVER tty_init_termios 0x2bdd4900
-#SYMVER tty_standard_install 0xc3f39107
-#SYMVER tty_save_termios 0x75d2c0e4
-#SYMVER tty_kref_put 0x26019cc8
-#SYMVER tty_kclose 0x40d15425
-#SYMVER tty_release_struct 0xe31562e7
-#SYMVER tty_kopen_exclusive 0xa00f7a9b
-#SYMVER tty_kopen_shared 0x2a4fa54c
-#SYMVER tty_do_resize 0x2753555f
-#SYMVER tty_get_tiocm 0xd3a1db06
-#SYMVER tty_get_icount 0x09142145
-#SYMVER do_SAK 0x812065c4
-#SYMVER tty_put_char 0x8824719e
-#SYMVER tty_register_device 0xe9f6d1c9
-#SYMVER tty_register_device_attr 0x386f90bb
-#SYMVER tty_unregister_device 0x03f4baa6
-#SYMVER __tty_alloc_driver 0x42769b2b
-#SYMVER tty_driver_kref_put 0x54596c67
-#SYMVER tty_register_driver 0x219efbfc
-#SYMVER tty_unregister_driver 0x5107866f
-#SYMVER tty_devnum 0x5c7f1a63
+#SYMVER tty_wakeup 0x806bf0fa
+#SYMVER tty_hangup 0x61852138
+#SYMVER tty_vhangup 0x791edfcd
+#SYMVER tty_hung_up_p 0xfe82c63b
+#SYMVER stop_tty 0xe9133a86
+#SYMVER start_tty 0x3e9e2810
+#SYMVER tty_init_termios 0xea32fca6
+#SYMVER tty_standard_install 0x9f592188
+#SYMVER tty_save_termios 0x00515983
+#SYMVER tty_kref_put 0xdc73c5f1
+#SYMVER tty_kclose 0x53599de9
+#SYMVER tty_release_struct 0x2c4a818f
+#SYMVER tty_kopen_exclusive 0xb7a48fa4
+#SYMVER tty_kopen_shared 0x35f25e3d
+#SYMVER tty_do_resize 0xe19956e5
+#SYMVER tty_get_tiocm 0x8a295c1b
+#SYMVER tty_get_icount 0x1527d54e
+#SYMVER do_SAK 0x78ff310d
+#SYMVER tty_put_char 0xaf3aeb55
+#SYMVER tty_register_device 0x87da6e92
+#SYMVER tty_register_device_attr 0x2e99e324
+#SYMVER tty_unregister_device 0x41d1dab7
+#SYMVER __tty_alloc_driver 0x35694777
+#SYMVER tty_driver_kref_put 0x4f90cb7c
+#SYMVER tty_register_driver 0x85a84276
+#SYMVER tty_unregister_driver 0x4cf90968
+#SYMVER tty_devnum 0x5bb4894e

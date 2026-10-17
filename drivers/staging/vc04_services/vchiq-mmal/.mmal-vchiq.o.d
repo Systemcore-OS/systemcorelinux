@@ -1,6 +1,7 @@
 mmal-vchiq.o: drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/errno.h \
  include/uapi/linux/errno.h arch/arm64/include/generated/uapi/asm/errno.h \
@@ -260,14 +261,14 @@ mmal-vchiq.o: drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/vmalloc.h \
- arch/arm64/include/asm/vmalloc.h include/media/videobuf2-vmalloc.h \
- include/media/videobuf2-v4l2.h include/linux/videodev2.h \
- include/uapi/linux/videodev2.h include/uapi/linux/v4l2-common.h \
- include/uapi/linux/v4l2-controls.h include/media/videobuf2-core.h \
- include/linux/poll.h include/uapi/linux/poll.h \
- arch/arm64/include/generated/uapi/asm/poll.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
+ include/media/videobuf2-vmalloc.h include/media/videobuf2-v4l2.h \
+ include/linux/videodev2.h include/uapi/linux/videodev2.h \
+ include/uapi/linux/v4l2-common.h include/uapi/linux/v4l2-controls.h \
+ include/media/videobuf2-core.h include/linux/poll.h \
+ include/uapi/linux/poll.h arch/arm64/include/generated/uapi/asm/poll.h \
  include/uapi/asm-generic/poll.h include/uapi/linux/eventpoll.h \
  include/linux/dma-buf.h include/linux/iosys-map.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
@@ -283,7 +284,6 @@ mmal-vchiq.o: drivers/staging/vc04_services/vchiq-mmal/mmal-vchiq.c \
  include/linux/device/class.h include/linux/device/devres.h \
  include/linux/device/driver.h arch/arm64/include/asm/device.h \
  include/linux/pm_wakeup.h include/linux/dma-direction.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/dma-fence.h include/media/media-request.h \
  include/media/media-device.h include/linux/pci.h \
  include/linux/mod_devicetable.h include/uapi/linux/mei.h \

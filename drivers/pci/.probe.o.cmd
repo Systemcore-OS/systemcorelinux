@@ -1,9 +1,10 @@
-savedcmd_drivers/pci/probe.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pci/.probe.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/pci/probe"' -DKBUILD_BASENAME='"probe"' -DKBUILD_MODNAME='"probe"' -D__KBUILD_MODNAME=kmod_probe -c -o drivers/pci/probe.o drivers/pci/probe.c  
+savedcmd_drivers/pci/probe.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pci/.probe.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/pci/probe"' -DKBUILD_BASENAME='"probe"' -DKBUILD_MODNAME='"probe"' -D__KBUILD_MODNAME=kmod_probe -c -o drivers/pci/probe.o drivers/pci/probe.c  
 
 source_drivers/pci/probe.o := drivers/pci/probe.c
 
 deps_drivers/pci/probe.o := \
     $(wildcard include/config/PCI_DOMAINS_GENERIC) \
+    $(wildcard include/config/PCIEASPM) \
     $(wildcard include/config/PCI_QUIRKS) \
     $(wildcard include/config/PCI_IOV) \
     $(wildcard include/config/PCI_PASID) \
@@ -28,6 +29,7 @@ deps_drivers/pci/probe.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -300,6 +302,7 @@ deps_drivers/pci/probe.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -540,6 +543,7 @@ deps_drivers/pci/probe.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -594,7 +598,6 @@ deps_drivers/pci/probe.o := \
   include/linux/pci.h \
     $(wildcard include/config/PCIEAER) \
     $(wildcard include/config/PCIEPORTBUS) \
-    $(wildcard include/config/PCIEASPM) \
     $(wildcard include/config/HOTPLUG_PCI_PCIE) \
     $(wildcard include/config/PCIE_PTM) \
     $(wildcard include/config/PCIE_DPC) \
@@ -682,6 +685,9 @@ deps_drivers/pci/probe.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -902,6 +908,7 @@ deps_drivers/pci/probe.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1171,6 +1178,8 @@ deps_drivers/pci/probe.o := \
     $(wildcard include/config/DEVICE_PRIVATE) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1183,9 +1192,6 @@ deps_drivers/pci/probe.o := \
     $(wildcard include/config/DMA_API_DEBUG) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
   include/linux/dma-direction.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/pci.h \
   include/linux/msi.h \
     $(wildcard include/config/IRQ_MSI_IOMMU) \
@@ -1275,27 +1281,27 @@ drivers/pci/probe.o: $(deps_drivers/pci/probe.o)
 $(deps_drivers/pci/probe.o):
 #SYMVER pci_root_buses 0x082c3213
 #SYMVER no_pci_devices 0x78df6bd7
-#SYMVER pci_alloc_host_bridge 0xeb2e12de
-#SYMVER devm_pci_alloc_host_bridge 0xab92ea19
-#SYMVER pci_free_host_bridge 0x23dc28e0
+#SYMVER pci_alloc_host_bridge 0x54dd512e
+#SYMVER devm_pci_alloc_host_bridge 0xd9596bbc
+#SYMVER pci_free_host_bridge 0xd07f067e
 #SYMVER pcie_link_speed 0xe4b064f9
 #SYMVER pci_speed_string 0xb1fc1782
-#SYMVER pcie_update_link_speed 0x7ab161a8
-#SYMVER pci_add_new_bus 0x13e42922
-#SYMVER pci_scan_bridge 0xecf2cea2
-#SYMVER pcie_relaxed_ordering_enabled 0x2d392e25
-#SYMVER pci_alloc_dev 0xdd49fbc2
-#SYMVER pci_bus_read_dev_vendor_id 0x338f2588
-#SYMVER pci_scan_single_device 0x71a4cf37
-#SYMVER pci_scan_slot 0x11d96653
-#SYMVER pcie_bus_configure_settings 0x55ae12ee
-#SYMVER pci_scan_child_bus 0x755fc865
-#SYMVER pci_create_root_bus 0x1260a9a3
-#SYMVER pci_host_probe 0x24373f4e
-#SYMVER pci_scan_root_bus_bridge 0xf34f103d
-#SYMVER pci_scan_root_bus 0xc1784a64
-#SYMVER pci_scan_bus 0x52e287fb
-#SYMVER pci_rescan_bus 0x94a310bb
+#SYMVER pcie_update_link_speed 0x8145e401
+#SYMVER pci_add_new_bus 0xd032ca22
+#SYMVER pci_scan_bridge 0x0c196065
+#SYMVER pcie_relaxed_ordering_enabled 0x0c69b342
+#SYMVER pci_alloc_dev 0xa7ddaaf7
+#SYMVER pci_bus_read_dev_vendor_id 0x98195b39
+#SYMVER pci_scan_single_device 0x2e297a48
+#SYMVER pci_scan_slot 0x9e455b8c
+#SYMVER pcie_bus_configure_settings 0xa83c833e
+#SYMVER pci_scan_child_bus 0x58d8637a
+#SYMVER pci_create_root_bus 0xca863951
+#SYMVER pci_host_probe 0xe5a9af84
+#SYMVER pci_scan_root_bus_bridge 0x73bed422
+#SYMVER pci_scan_root_bus 0x7466dda1
+#SYMVER pci_scan_bus 0x77b29a81
+#SYMVER pci_rescan_bus 0xab1fe2eb
 #SYMVER pci_lock_rescan_remove 0xddbeeecc
 #SYMVER pci_unlock_rescan_remove 0x5790e7a0
-#SYMVER pci_hp_add_bridge 0xa4698c23
+#SYMVER pci_hp_add_bridge 0x07c01f7a

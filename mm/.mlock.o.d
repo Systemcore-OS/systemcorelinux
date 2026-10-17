@@ -1,10 +1,10 @@
 mlock.o: mm/mlock.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/capability.h include/uapi/linux/capability.h \
- include/linux/types.h include/uapi/linux/types.h \
- arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/capability.h \
+ include/uapi/linux/capability.h include/linux/types.h \
+ include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -257,24 +257,24 @@ mlock.o: mm/mlock.c include/linux/compiler-version.h \
  include/linux/page_table_check.h include/asm-generic/pgtable_uffd.h \
  include/linux/memremap.h include/linux/ioport.h include/linux/huge_mm.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/uapi/linux/mman.h \
- arch/arm64/include/asm/mman.h arch/arm64/include/uapi/asm/mman.h \
- include/uapi/asm-generic/mman.h include/uapi/asm-generic/mman-common.h \
- include/linux/shmem_fs.h include/linux/file.h include/linux/swap.h \
- include/linux/memcontrol.h include/linux/cgroup.h \
- include/uapi/linux/cgroupstats.h include/uapi/linux/taskstats.h \
- include/linux/seq_file.h include/linux/string_helpers.h \
- include/linux/ctype.h include/linux/string_choices.h \
- include/linux/ns_common.h include/linux/nsproxy.h \
- include/linux/user_namespace.h include/linux/kernel_stat.h \
- include/linux/interrupt.h include/linux/irqreturn.h \
- include/linux/hardirq.h include/linux/context_tracking_state.h \
- include/linux/ftrace_irq.h include/linux/vtime.h \
- arch/arm64/include/asm/hardirq.h arch/arm64/include/asm/irq.h \
- include/asm-generic/irq.h arch/arm64/include/asm/kvm_arm.h \
- include/asm-generic/hardirq.h include/linux/irq.h \
- include/linux/irqhandler.h include/linux/io.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/uapi/linux/mman.h arch/arm64/include/asm/mman.h \
+ arch/arm64/include/uapi/asm/mman.h include/uapi/asm-generic/mman.h \
+ include/uapi/asm-generic/mman-common.h include/linux/shmem_fs.h \
+ include/linux/file.h include/linux/swap.h include/linux/memcontrol.h \
+ include/linux/cgroup.h include/uapi/linux/cgroupstats.h \
+ include/uapi/linux/taskstats.h include/linux/seq_file.h \
+ include/linux/string_helpers.h include/linux/ctype.h \
+ include/linux/string_choices.h include/linux/ns_common.h \
+ include/linux/nsproxy.h include/linux/user_namespace.h \
+ include/linux/kernel_stat.h include/linux/interrupt.h \
+ include/linux/irqreturn.h include/linux/hardirq.h \
+ include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
+ include/linux/vtime.h arch/arm64/include/asm/hardirq.h \
+ arch/arm64/include/asm/irq.h include/asm-generic/irq.h \
+ arch/arm64/include/asm/kvm_arm.h include/asm-generic/hardirq.h \
+ include/linux/irq.h include/linux/irqhandler.h include/linux/io.h \
  arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
@@ -370,5 +370,5 @@ mlock.o: mm/mlock.c include/linux/compiler-version.h \
  arch/arm64/include/asm/irq_work.h include/linux/jump_label_ratelimit.h \
  include/linux/perf_regs.h arch/arm64/include/uapi/asm/perf_regs.h \
  include/linux/rmap.h include/linux/hugetlb.h include/linux/mm_inline.h \
- include/linux/secretmem.h mm/internal.h include/linux/khugepaged.h \
- include/linux/swap_cgroup.h mm/vma.h
+ mm/internal.h include/linux/khugepaged.h include/linux/swap_cgroup.h \
+ mm/vma.h

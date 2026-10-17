@@ -1,8 +1,9 @@
 drm_drv.o: drivers/gpu/drm/drm_drv.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/debugfs.h include/linux/fs.h include/linux/linkage.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/debugfs.h \
+ include/linux/fs.h include/linux/linkage.h \
  include/linux/compiler_types.h include/linux/stringify.h \
  include/linux/export.h include/linux/compiler.h \
  arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
@@ -268,9 +269,9 @@ drm_drv.o: drivers/gpu/drm/drm_drv.c include/linux/compiler-version.h \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/sockptr.h \
- include/linux/bpf.h include/uapi/linux/bpf.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/sockptr.h include/linux/bpf.h include/uapi/linux/bpf.h \
  include/uapi/linux/bpf_common.h include/uapi/linux/filter.h \
  include/linux/kallsyms.h include/linux/bpfptr.h include/linux/btf.h \
  include/linux/bsearch.h include/linux/btf_ids.h include/uapi/linux/btf.h \

@@ -1,6 +1,7 @@
 blake2s-generic.o: lib/crypto/blake2s-generic.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/crypto/internal/blake2s.h \
  include/crypto/blake2s.h include/linux/bug.h \

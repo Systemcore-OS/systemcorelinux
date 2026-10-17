@@ -45,7 +45,7 @@ main:
 // arch/arm64/kernel/asm-offsets.c:46:   DEFINE(TSK_STACK_CANARY,	offsetof(struct task_struct, stack_canary));
 // 46 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->TSK_STACK_CANARY 1416 offsetof(struct task_struct, stack_canary)"	//
+.ascii "->TSK_STACK_CANARY 1456 offsetof(struct task_struct, stack_canary)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:48:   BLANK();
 // 48 "arch/arm64/kernel/asm-offsets.c" 1
@@ -55,27 +55,27 @@ main:
 // arch/arm64/kernel/asm-offsets.c:49:   DEFINE(THREAD_CPU_CONTEXT,	offsetof(struct task_struct, thread.cpu_context));
 // 49 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_CPU_CONTEXT 2896 offsetof(struct task_struct, thread.cpu_context)"	//
+.ascii "->THREAD_CPU_CONTEXT 2944 offsetof(struct task_struct, thread.cpu_context)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:50:   DEFINE(THREAD_SCTLR_USER,	offsetof(struct task_struct, thread.sctlr_user));
 // 50 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_SCTLR_USER 4544 offsetof(struct task_struct, thread.sctlr_user)"	//
+.ascii "->THREAD_SCTLR_USER 4592 offsetof(struct task_struct, thread.sctlr_user)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:52:   DEFINE(THREAD_KEYS_USER,	offsetof(struct task_struct, thread.keys_user));
 // 52 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_KEYS_USER 4440 offsetof(struct task_struct, thread.keys_user)"	//
+.ascii "->THREAD_KEYS_USER 4488 offsetof(struct task_struct, thread.keys_user)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:55:   DEFINE(THREAD_KEYS_KERNEL,	offsetof(struct task_struct, thread.keys_kernel));
 // 55 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_KEYS_KERNEL 4520 offsetof(struct task_struct, thread.keys_kernel)"	//
+.ascii "->THREAD_KEYS_KERNEL 4568 offsetof(struct task_struct, thread.keys_kernel)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:58:   DEFINE(THREAD_MTE_CTRL,	offsetof(struct task_struct, thread.mte_ctrl));
 // 58 "arch/arm64/kernel/asm-offsets.c" 1
 	
-.ascii "->THREAD_MTE_CTRL 4536 offsetof(struct task_struct, thread.mte_ctrl)"	//
+.ascii "->THREAD_MTE_CTRL 4584 offsetof(struct task_struct, thread.mte_ctrl)"	//
 // 0 "" 2
 // arch/arm64/kernel/asm-offsets.c:60:   BLANK();
 // 60 "arch/arm64/kernel/asm-offsets.c" 1

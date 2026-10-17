@@ -1,6 +1,7 @@
 v4l2-subdev.o: drivers/media/v4l2-core/v4l2-subdev.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/export.h \
  include/linux/compiler.h include/linux/compiler_types.h \
@@ -272,7 +273,7 @@ v4l2-subdev.o: drivers/media/v4l2-core/v4l2-subdev.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/generated/uapi/linux/version.h \
  include/linux/videodev2.h include/uapi/linux/videodev2.h \
  include/uapi/linux/v4l2-common.h include/uapi/linux/v4l2-controls.h \
@@ -298,7 +299,6 @@ v4l2-subdev.o: drivers/media/v4l2-core/v4l2-subdev.c \
  include/linux/pci_ids.h include/linux/dmapool.h \
  include/linux/scatterlist.h arch/arm64/include/asm/pci.h \
  include/linux/dma-mapping.h include/linux/dma-direction.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/asm-generic/pci.h include/linux/platform_device.h \
  include/media/media-devnode.h include/linux/poll.h \
  include/uapi/linux/poll.h arch/arm64/include/generated/uapi/asm/poll.h \

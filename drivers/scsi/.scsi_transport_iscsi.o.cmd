@@ -1,4 +1,4 @@
-savedcmd_drivers/scsi/scsi_transport_iscsi.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/scsi/.scsi_transport_iscsi.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/scsi/scsi_transport_iscsi"' -DKBUILD_BASENAME='"scsi_transport_iscsi"' -DKBUILD_MODNAME='"scsi_transport_iscsi"' -D__KBUILD_MODNAME=kmod_scsi_transport_iscsi -c -o drivers/scsi/scsi_transport_iscsi.o drivers/scsi/scsi_transport_iscsi.c  
+savedcmd_drivers/scsi/scsi_transport_iscsi.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/scsi/.scsi_transport_iscsi.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/scsi/scsi_transport_iscsi"' -DKBUILD_BASENAME='"scsi_transport_iscsi"' -DKBUILD_MODNAME='"scsi_transport_iscsi"' -D__KBUILD_MODNAME=kmod_scsi_transport_iscsi -c -o drivers/scsi/scsi_transport_iscsi.o drivers/scsi/scsi_transport_iscsi.c  
 
 source_drivers/scsi/scsi_transport_iscsi.o := drivers/scsi/scsi_transport_iscsi.c
 
@@ -23,6 +23,7 @@ deps_drivers/scsi/scsi_transport_iscsi.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -496,6 +497,7 @@ deps_drivers/scsi/scsi_transport_iscsi.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -582,6 +584,7 @@ deps_drivers/scsi/scsi_transport_iscsi.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -676,6 +679,9 @@ deps_drivers/scsi/scsi_transport_iscsi.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -801,6 +807,7 @@ deps_drivers/scsi/scsi_transport_iscsi.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1134,6 +1141,8 @@ deps_drivers/scsi/scsi_transport_iscsi.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1303,9 +1312,6 @@ deps_drivers/scsi/scsi_transport_iscsi.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1383,6 +1389,7 @@ deps_drivers/scsi/scsi_transport_iscsi.o := \
     $(wildcard include/config/MPLS) \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1633,7 +1640,9 @@ deps_drivers/scsi/scsi_transport_iscsi.o := \
   include/linux/set_memory.h \
     $(wildcard include/config/ARCH_HAS_SET_MEMORY) \
     $(wildcard include/config/ARCH_HAS_SET_DIRECT_MAP) \
+    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
   arch/arm64/include/asm/set_memory.h \
+  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/set_memory.h \
   include/linux/if_vlan.h \
   include/linux/etherdevice.h \
@@ -1678,6 +1687,7 @@ deps_drivers/scsi/scsi_transport_iscsi.o := \
   include/linux/ipv6_route.h \
   include/uapi/linux/ipv6_route.h \
   include/net/gro_cells.h \
+  include/net/secure_seq.h \
   include/linux/bpf-cgroup.h \
   include/scsi/scsi.h \
   include/scsi/scsi_common.h \
@@ -1744,63 +1754,63 @@ drivers/scsi/scsi_transport_iscsi.o: $(deps_drivers/scsi/scsi_transport_iscsi.o)
 
 $(deps_drivers/scsi/scsi_transport_iscsi.o):
 #SYMVER __tracepoint_iscsi_dbg_conn 0x363ef721
-#SYMVER __traceiter_iscsi_dbg_conn 0x588a86e5
+#SYMVER __traceiter_iscsi_dbg_conn 0xe30dcae9
 #SYMVER __SCK__tp_func_iscsi_dbg_conn 0x71b768b0
 #SYMVER __tracepoint_iscsi_dbg_eh 0xda09b986
-#SYMVER __traceiter_iscsi_dbg_eh 0x08016045
+#SYMVER __traceiter_iscsi_dbg_eh 0xdf52dc96
 #SYMVER __SCK__tp_func_iscsi_dbg_eh 0xe4c79fa6
 #SYMVER __tracepoint_iscsi_dbg_session 0xc6264e7a
-#SYMVER __traceiter_iscsi_dbg_session 0xbfc8e870
+#SYMVER __traceiter_iscsi_dbg_session 0xa30fd6b0
 #SYMVER __SCK__tp_func_iscsi_dbg_session 0x584a31ab
 #SYMVER __tracepoint_iscsi_dbg_tcp 0xb32662a6
-#SYMVER __traceiter_iscsi_dbg_tcp 0xf2ea92ce
+#SYMVER __traceiter_iscsi_dbg_tcp 0x4c21b76c
 #SYMVER __SCK__tp_func_iscsi_dbg_tcp 0x88768c48
 #SYMVER __tracepoint_iscsi_dbg_sw_tcp 0xa3ac06cf
-#SYMVER __traceiter_iscsi_dbg_sw_tcp 0xc2ca3c00
+#SYMVER __traceiter_iscsi_dbg_sw_tcp 0x396d4ea8
 #SYMVER __SCK__tp_func_iscsi_dbg_sw_tcp 0xab4674c8
-#SYMVER iscsi_create_endpoint 0x3930f77c
-#SYMVER iscsi_destroy_endpoint 0x05a5404e
-#SYMVER iscsi_put_endpoint 0x17e966ba
-#SYMVER iscsi_lookup_endpoint 0xb9280632
+#SYMVER iscsi_create_endpoint 0x2914ac6f
+#SYMVER iscsi_destroy_endpoint 0xad8e104f
+#SYMVER iscsi_put_endpoint 0x30a59971
+#SYMVER iscsi_lookup_endpoint 0xa90c5d21
 #SYMVER iscsi_get_ipaddress_state_name 0xbc071179
 #SYMVER iscsi_get_router_state_name 0x84a005f1
-#SYMVER iscsi_create_iface 0x71c0c1ac
-#SYMVER iscsi_destroy_iface 0x23cce161
-#SYMVER iscsi_flashnode_bus_match 0x92ae7cdc
-#SYMVER iscsi_create_flashnode_sess 0x88890961
-#SYMVER iscsi_create_flashnode_conn 0x2d6a82b9
-#SYMVER iscsi_find_flashnode_sess 0x8622a270
-#SYMVER iscsi_find_flashnode_conn 0xbf65bbc1
-#SYMVER iscsi_destroy_flashnode_sess 0x08df6cd6
-#SYMVER iscsi_destroy_all_flashnode 0xb0946596
-#SYMVER iscsi_session_chkready 0xdde1bcca
-#SYMVER iscsi_is_session_online 0x11c807c9
-#SYMVER iscsi_is_session_dev 0xa9e970a6
-#SYMVER iscsi_host_for_each_session 0x2621db24
-#SYMVER iscsi_block_scsi_eh 0xbbb5a34e
-#SYMVER iscsi_unblock_session 0x6ead57ec
-#SYMVER iscsi_block_session 0xa84aef1a
-#SYMVER iscsi_alloc_session 0x4417713a
-#SYMVER iscsi_add_session 0x40ff15d7
-#SYMVER iscsi_create_session 0x680cdc41
-#SYMVER iscsi_remove_session 0x0e5992d2
-#SYMVER iscsi_force_destroy_session 0x62dd9a0b
-#SYMVER iscsi_free_session 0x29d69dde
-#SYMVER iscsi_alloc_conn 0x844a1049
-#SYMVER iscsi_add_conn 0x0808e724
-#SYMVER iscsi_remove_conn 0x1f83b1d1
-#SYMVER iscsi_put_conn 0x2def6bd5
-#SYMVER iscsi_get_conn 0x3c99a3b8
-#SYMVER iscsi_recv_pdu 0x68481fb5
-#SYMVER iscsi_offload_mesg 0x5cf8713a
-#SYMVER iscsi_conn_error_event 0xf08a7597
-#SYMVER iscsi_conn_login_event 0x3b8acc97
-#SYMVER iscsi_post_host_event 0x4278e663
-#SYMVER iscsi_ping_comp_event 0x215c00a8
-#SYMVER iscsi_session_event 0x4e4f1faa
+#SYMVER iscsi_create_iface 0x560288dd
+#SYMVER iscsi_destroy_iface 0xd0dad5d7
+#SYMVER iscsi_flashnode_bus_match 0xa3bf9764
+#SYMVER iscsi_create_flashnode_sess 0xee19146b
+#SYMVER iscsi_create_flashnode_conn 0xf37d394a
+#SYMVER iscsi_find_flashnode_sess 0xbd2ad142
+#SYMVER iscsi_find_flashnode_conn 0x6cc3fbf7
+#SYMVER iscsi_destroy_flashnode_sess 0x0c9ca76e
+#SYMVER iscsi_destroy_all_flashnode 0xa53a7f2d
+#SYMVER iscsi_session_chkready 0x38348bee
+#SYMVER iscsi_is_session_online 0xf278b1bb
+#SYMVER iscsi_is_session_dev 0x9518a07f
+#SYMVER iscsi_host_for_each_session 0xb4ac96f6
+#SYMVER iscsi_block_scsi_eh 0x55e11ff5
+#SYMVER iscsi_unblock_session 0x47b8bc5e
+#SYMVER iscsi_block_session 0xde511f0c
+#SYMVER iscsi_alloc_session 0x6905ecd7
+#SYMVER iscsi_add_session 0xc0b41ea8
+#SYMVER iscsi_create_session 0x819f30d9
+#SYMVER iscsi_remove_session 0x3fcf1e55
+#SYMVER iscsi_force_destroy_session 0xe9101f87
+#SYMVER iscsi_free_session 0x421a4893
+#SYMVER iscsi_alloc_conn 0x1aa1eaec
+#SYMVER iscsi_add_conn 0x939377dc
+#SYMVER iscsi_remove_conn 0x7087e68a
+#SYMVER iscsi_put_conn 0x6167799c
+#SYMVER iscsi_get_conn 0xf452af8b
+#SYMVER iscsi_recv_pdu 0x98e3014b
+#SYMVER iscsi_offload_mesg 0x20345070
+#SYMVER iscsi_conn_error_event 0x70cd7acb
+#SYMVER iscsi_conn_login_event 0xd5adb862
+#SYMVER iscsi_post_host_event 0x2f868896
+#SYMVER iscsi_ping_comp_event 0xc9828a15
+#SYMVER iscsi_session_event 0xfd2bc37b
 #SYMVER iscsi_get_discovery_parent_name 0x699fe53e
-#SYMVER iscsi_get_port_speed_name 0xfa6523dc
-#SYMVER iscsi_get_port_state_name 0x73474226
-#SYMVER iscsi_register_transport 0xf1e0d60b
-#SYMVER iscsi_unregister_transport 0x89cb1374
-#SYMVER iscsi_dbg_trace 0x73d568f9
+#SYMVER iscsi_get_port_speed_name 0x6247fc69
+#SYMVER iscsi_get_port_state_name 0xb878c767
+#SYMVER iscsi_register_transport 0xddffee22
+#SYMVER iscsi_unregister_transport 0x3c77a240
+#SYMVER iscsi_dbg_trace 0x9d884f45

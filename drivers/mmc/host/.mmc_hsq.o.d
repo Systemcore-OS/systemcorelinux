@@ -1,13 +1,13 @@
 mmc_hsq.o: drivers/mmc/host/mmc_hsq.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/mmc/card.h include/linux/device.h \
- include/linux/dev_printk.h include/linux/compiler.h \
- include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
- include/asm-generic/rwonce.h include/linux/kasan-checks.h \
- include/linux/types.h include/uapi/linux/types.h \
- arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/devm-helpers.h \
+ include/linux/device.h include/linux/dev_printk.h \
+ include/linux/compiler.h include/linux/compiler_types.h \
+ arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
+ include/linux/kasan-checks.h include/linux/types.h \
+ include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -263,15 +263,16 @@ mmc_hsq.o: drivers/mmc/host/mmc_hsq.c include/linux/compiler-version.h \
  include/linux/tracepoint-defs.h include/linux/dynamic_debug.h \
  arch/arm64/include/asm/module.h include/asm-generic/module.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/mod_devicetable.h include/uapi/linux/mei.h \
- include/uapi/linux/mei_uuid.h include/linux/mmc/host.h \
- include/linux/fault-inject.h include/linux/debugfs.h \
- include/linux/seq_file.h include/linux/string_helpers.h \
- include/linux/ctype.h include/linux/string_choices.h \
- include/linux/mmc/core.h include/linux/mmc/pm.h \
- include/linux/dma-direction.h include/linux/blk-crypto-profile.h \
- include/linux/bio.h include/linux/mempool.h include/linux/blk_types.h \
- include/linux/bvec.h include/linux/highmem.h include/linux/cacheflush.h \
+ include/linux/mmc/card.h include/linux/mod_devicetable.h \
+ include/uapi/linux/mei.h include/uapi/linux/mei_uuid.h \
+ include/linux/mmc/host.h include/linux/fault-inject.h \
+ include/linux/debugfs.h include/linux/seq_file.h \
+ include/linux/string_helpers.h include/linux/ctype.h \
+ include/linux/string_choices.h include/linux/mmc/core.h \
+ include/linux/mmc/pm.h include/linux/dma-direction.h \
+ include/linux/blk-crypto-profile.h include/linux/bio.h \
+ include/linux/mempool.h include/linux/blk_types.h include/linux/bvec.h \
+ include/linux/highmem.h include/linux/cacheflush.h \
  arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
  include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/interrupt.h \
@@ -300,7 +301,7 @@ mmc_hsq.o: drivers/mmc/host/mmc_hsq.c include/linux/compiler-version.h \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/ptrace.h \
  include/linux/pid_namespace.h include/linux/nsproxy.h \
  include/linux/ns_common.h include/uapi/linux/ptrace.h \

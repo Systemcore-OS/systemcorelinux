@@ -1,6 +1,7 @@
 usbip_event.o: drivers/usb/usbip/usbip_event.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/kthread.h \
  include/linux/err.h include/linux/compiler.h \
@@ -286,7 +287,8 @@ usbip_event.o: drivers/usb/usbip/usbip_event.c \
  include/linux/net.h include/linux/mm.h include/linux/pgalloc_tag.h \
  include/linux/range.h include/linux/page_ext.h \
  include/linux/stacktrace.h include/linux/page_ref.h \
- include/linux/memremap.h include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/memremap.h include/linux/huge_mm.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/sockptr.h \
  include/uapi/linux/net.h include/linux/socket.h \
  arch/arm64/include/generated/uapi/asm/socket.h \

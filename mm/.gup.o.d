@@ -1,5 +1,6 @@
 gup.o: mm/gup.c include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/kernel.h \
  include/linux/stdarg.h include/linux/align.h include/linux/const.h \
@@ -250,11 +251,12 @@ gup.o: mm/gup.c include/linux/compiler-version.h include/linux/kconfig.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/memfd.h include/linux/file.h \
- include/linux/pagemap.h include/linux/highmem.h \
- include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
- include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ include/linux/memfd.h include/linux/file.h include/linux/pagemap.h \
+ include/linux/highmem.h include/linux/cacheflush.h \
+ arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
+ include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/interrupt.h \
  include/linux/irqreturn.h include/linux/hardirq.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \
@@ -332,10 +334,10 @@ gup.o: mm/gup.c include/linux/compiler-version.h include/linux/kconfig.h \
  include/linux/pm_wakeup.h include/linux/pagevec.h include/linux/bio.h \
  include/linux/mempool.h include/linux/swap.h include/linux/node.h \
  include/uapi/linux/mempolicy.h include/linux/swapops.h \
- include/linux/swapfile.h include/linux/secretmem.h \
- include/linux/hugetlb.h include/linux/userfaultfd_k.h \
- include/linux/migrate.h include/linux/mempolicy.h \
- include/linux/mm_inline.h include/linux/shmem_fs.h include/linux/xattr.h \
+ include/linux/swapfile.h include/linux/hugetlb.h \
+ include/linux/userfaultfd_k.h include/linux/migrate.h \
+ include/linux/mempolicy.h include/linux/mm_inline.h \
+ include/linux/shmem_fs.h include/linux/xattr.h \
  include/uapi/linux/xattr.h include/linux/fs_parser.h \
  include/linux/fs_context.h include/linux/security.h \
  include/linux/kernel_read_file.h include/linux/sockptr.h \
@@ -353,5 +355,5 @@ gup.o: mm/gup.c include/linux/compiler-version.h include/linux/kconfig.h \
  arch/arm64/include/asm/daifflags.h arch/arm64/include/asm/arch_gicv3.h \
  include/linux/irqchip/arm-gic-common.h \
  include/linux/irqchip/arm-vgic-info.h include/asm-generic/mmu_context.h \
- mm/internal.h include/linux/khugepaged.h include/linux/swap_cgroup.h \
- mm/vma.h
+ mm/internal.h include/linux/khugepaged.h include/linux/pagewalk.h \
+ include/linux/swap_cgroup.h mm/vma.h

@@ -1,4 +1,4 @@
-savedcmd_fs/notify/fanotify/fanotify.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/notify/fanotify/.fanotify.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/notify/fanotify/fanotify"' -DKBUILD_BASENAME='"fanotify"' -DKBUILD_MODNAME='"fanotify"' -D__KBUILD_MODNAME=kmod_fanotify -c -o fs/notify/fanotify/fanotify.o fs/notify/fanotify/fanotify.c  
+savedcmd_fs/notify/fanotify/fanotify.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/notify/fanotify/.fanotify.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"fs/notify/fanotify/fanotify"' -DKBUILD_BASENAME='"fanotify"' -DKBUILD_MODNAME='"fanotify"' -D__KBUILD_MODNAME=kmod_fanotify -c -o fs/notify/fanotify/fanotify.o fs/notify/fanotify/fanotify.c  
 
 source_fs/notify/fanotify/fanotify.o := fs/notify/fanotify/fanotify.c
 
@@ -23,6 +23,7 @@ deps_fs/notify/fanotify/fanotify.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -481,68 +482,12 @@ deps_fs/notify/fanotify/fanotify.o := \
   include/linux/highuid.h \
   include/uapi/linux/sysctl.h \
   include/uapi/linux/fanotify.h \
-  include/linux/fdtable.h \
-  include/linux/nospec.h \
-  include/linux/fs.h \
-    $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
-    $(wildcard include/config/FS_POSIX_ACL) \
-    $(wildcard include/config/SECURITY) \
-    $(wildcard include/config/CGROUP_WRITEBACK) \
-    $(wildcard include/config/IMA) \
-    $(wildcard include/config/FILE_LOCKING) \
+  include/linux/fsnotify_backend.h \
+    $(wildcard include/config/INOTIFY_USER) \
+    $(wildcard include/config/FANOTIFY) \
     $(wildcard include/config/FSNOTIFY) \
-    $(wildcard include/config/FS_ENCRYPTION) \
-    $(wildcard include/config/FS_VERITY) \
-    $(wildcard include/config/EPOLL) \
-    $(wildcard include/config/UNICODE) \
-    $(wildcard include/config/QUOTA) \
-    $(wildcard include/config/FS_DAX) \
-    $(wildcard include/config/SWAP) \
-    $(wildcard include/config/BLOCK) \
-  include/linux/wait_bit.h \
-  include/linux/kdev_t.h \
-  include/uapi/linux/kdev_t.h \
-  include/linux/dcache.h \
-  include/linux/rculist.h \
-    $(wildcard include/config/PROVE_RCU_LIST) \
-  include/linux/rculist_bl.h \
-  include/linux/list_bl.h \
-  include/linux/bit_spinlock.h \
-  include/linux/seqlock.h \
-  include/linux/mutex.h \
-    $(wildcard include/config/DEBUG_MUTEXES) \
-  include/linux/osq_lock.h \
-  include/linux/debug_locks.h \
-  include/linux/mutex_types.h \
-    $(wildcard include/config/MUTEX_SPIN_ON_OWNER) \
-  include/linux/seqlock_types.h \
-  include/linux/lockref.h \
-    $(wildcard include/config/ARCH_USE_CMPXCHG_LOCKREF) \
-  include/generated/bounds.h \
-  include/linux/stringhash.h \
-    $(wildcard include/config/DCACHE_WORD_ACCESS) \
-  include/linux/hash.h \
-    $(wildcard include/config/HAVE_ARCH_HASH) \
-  include/linux/path.h \
-  include/linux/stat.h \
-  arch/arm64/include/asm/stat.h \
-  arch/arm64/include/generated/uapi/asm/stat.h \
-  include/uapi/asm-generic/stat.h \
-  include/linux/time.h \
-    $(wildcard include/config/POSIX_TIMERS) \
-  include/linux/math64.h \
-    $(wildcard include/config/ARCH_SUPPORTS_INT128) \
-  include/vdso/math64.h \
-  include/linux/time64.h \
-  include/vdso/time64.h \
-  include/uapi/linux/time.h \
-  include/uapi/linux/time_types.h \
-  include/linux/time32.h \
-  include/linux/timex.h \
-  include/uapi/linux/timex.h \
-  arch/arm64/include/asm/timex.h \
-  arch/arm64/include/asm/arch_timer.h \
-    $(wildcard include/config/ARM_ARCH_TIMER_OOL_WORKAROUND) \
+  include/linux/idr.h \
+  include/linux/radix-tree.h \
   include/linux/percpu.h \
     $(wildcard include/config/MEM_ALLOC_PROFILING) \
     $(wildcard include/config/RANDOM_KMALLOC_CACHES) \
@@ -589,6 +534,7 @@ deps_fs/notify/fanotify/fanotify.o := \
     $(wildcard include/config/IO_URING) \
     $(wildcard include/config/AUDIT) \
     $(wildcard include/config/AUDITSYSCALL) \
+    $(wildcard include/config/DEBUG_MUTEXES) \
     $(wildcard include/config/UBSAN) \
     $(wildcard include/config/UBSAN_TRAP) \
     $(wildcard include/config/COMPACTION) \
@@ -608,8 +554,10 @@ deps_fs/notify/fanotify/fanotify.o := \
     $(wildcard include/config/UPROBES) \
     $(wildcard include/config/BCACHE) \
     $(wildcard include/config/LIVEPATCH) \
+    $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -627,6 +575,9 @@ deps_fs/notify/fanotify/fanotify.o := \
   arch/arm64/include/asm/shmparam.h \
   include/asm-generic/shmparam.h \
   include/linux/kmsan_types.h \
+  include/linux/mutex_types.h \
+    $(wildcard include/config/MUTEX_SPIN_ON_OWNER) \
+  include/linux/osq_lock.h \
   include/linux/plist_types.h \
   include/linux/hrtimer_types.h \
   include/linux/timerqueue_types.h \
@@ -637,6 +588,7 @@ deps_fs/notify/fanotify/fanotify.o := \
   include/linux/refcount_types.h \
   include/linux/resource.h \
   include/uapi/linux/resource.h \
+  include/uapi/linux/time_types.h \
   arch/arm64/include/generated/uapi/asm/resource.h \
   include/asm-generic/resource.h \
   include/uapi/asm-generic/resource.h \
@@ -658,11 +610,14 @@ deps_fs/notify/fanotify/fanotify.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
   include/linux/posix-timers_types.h \
+    $(wildcard include/config/POSIX_TIMERS) \
   include/uapi/linux/rseq.h \
+  include/linux/seqlock_types.h \
   include/linux/kcsan.h \
   include/linux/rv.h \
     $(wildcard include/config/RV_REACTORS) \
@@ -672,34 +627,10 @@ deps_fs/notify/fanotify/fanotify.o := \
     $(wildcard include/config/DEBUG_KMAP_LOCAL) \
   include/linux/sched/ext.h \
     $(wildcard include/config/EXT_GROUP_SCHED) \
-  include/clocksource/arm_arch_timer.h \
-    $(wildcard include/config/ARM_ARCH_TIMER) \
-  include/linux/timecounter.h \
-  include/asm-generic/timex.h \
-  include/vdso/time32.h \
-  include/vdso/time.h \
-  arch/arm64/include/asm/compat.h \
-  include/asm-generic/compat.h \
-    $(wildcard include/config/COMPAT_FOR_U64_ALIGNMENT) \
-  include/linux/sched/task_stack.h \
-    $(wildcard include/config/STACK_GROWSUP) \
-    $(wildcard include/config/DEBUG_STACK_USAGE) \
-  include/uapi/linux/magic.h \
-  include/linux/refcount.h \
-  include/linux/kasan.h \
-    $(wildcard include/config/KASAN_STACK) \
-    $(wildcard include/config/KASAN_VMALLOC) \
-  include/uapi/linux/stat.h \
-  include/linux/list_lru.h \
-  include/linux/nodemask.h \
-    $(wildcard include/config/HIGHMEM) \
-  include/linux/shrinker.h \
-    $(wildcard include/config/SHRINKER_DEBUG) \
-  include/linux/completion.h \
-  include/linux/swait.h \
   include/linux/xarray.h \
     $(wildcard include/config/XARRAY_MULTI) \
   include/linux/gfp.h \
+    $(wildcard include/config/HIGHMEM) \
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/ZONE_DMA32) \
     $(wildcard include/config/ZONE_DEVICE) \
@@ -711,6 +642,7 @@ deps_fs/notify/fanotify/fanotify.o := \
     $(wildcard include/config/ZSMALLOC) \
     $(wildcard include/config/UNACCEPTED_MEMORY) \
     $(wildcard include/config/IOMMU_SUPPORT) \
+    $(wildcard include/config/SWAP) \
     $(wildcard include/config/TRANSPARENT_HUGEPAGE) \
     $(wildcard include/config/LRU_GEN_STATS) \
     $(wildcard include/config/LRU_GEN_WALKS_MMU) \
@@ -721,10 +653,18 @@ deps_fs/notify/fanotify/fanotify.o := \
     $(wildcard include/config/SPARSEMEM_EXTREME) \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/list_nulls.h \
+  include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
+  include/linux/mutex.h \
+  include/linux/debug_locks.h \
+  include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
     $(wildcard include/config/HUGETLB_PAGE_SIZE_VARIABLE) \
   include/linux/page-flags-layout.h \
+  include/generated/bounds.h \
   include/linux/mm_types.h \
     $(wildcard include/config/HAVE_ALIGNED_STRUCT_PAGE) \
     $(wildcard include/config/HUGETLB_PMD_PAGE_TABLE_SHARING) \
@@ -742,12 +682,15 @@ deps_fs/notify/fanotify/fanotify.o := \
   include/uapi/linux/auxvec.h \
   arch/arm64/include/uapi/asm/auxvec.h \
   include/linux/kref.h \
+  include/linux/refcount.h \
   include/linux/maple_tree.h \
     $(wildcard include/config/MAPLE_RCU_DISABLED) \
     $(wildcard include/config/DEBUG_MAPLE_TREE) \
   include/linux/rwsem.h \
     $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
     $(wildcard include/config/DEBUG_RWSEMS) \
+  include/linux/completion.h \
+  include/linux/swait.h \
   include/linux/uprobes.h \
   arch/arm64/include/asm/uprobes.h \
   arch/arm64/include/asm/debug-monitors.h \
@@ -763,6 +706,25 @@ deps_fs/notify/fanotify/fanotify.o := \
     $(wildcard include/config/DEBUG_OBJECTS_TIMERS) \
   include/linux/ktime.h \
   include/linux/jiffies.h \
+  include/linux/math64.h \
+    $(wildcard include/config/ARCH_SUPPORTS_INT128) \
+  include/vdso/math64.h \
+  include/linux/time.h \
+  include/linux/time64.h \
+  include/vdso/time64.h \
+  include/uapi/linux/time.h \
+  include/linux/time32.h \
+  include/linux/timex.h \
+  include/uapi/linux/timex.h \
+  arch/arm64/include/asm/timex.h \
+  arch/arm64/include/asm/arch_timer.h \
+    $(wildcard include/config/ARM_ARCH_TIMER_OOL_WORKAROUND) \
+  include/clocksource/arm_arch_timer.h \
+    $(wildcard include/config/ARM_ARCH_TIMER) \
+  include/linux/timecounter.h \
+  include/asm-generic/timex.h \
+  include/vdso/time32.h \
+  include/vdso/time.h \
   include/vdso/jiffies.h \
   include/generated/timeconst.h \
   include/vdso/ktime.h \
@@ -820,7 +782,54 @@ deps_fs/notify/fanotify/fanotify.o := \
     $(wildcard include/config/ARCH_HAS_PREPARE_SYNC_CORE_CMD) \
   include/linux/sched/coredump.h \
     $(wildcard include/config/CORE_DUMP_DEFAULT_ELF_HEADERS) \
-  include/linux/radix-tree.h \
+  include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
+    $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
+    $(wildcard include/config/FS_POSIX_ACL) \
+    $(wildcard include/config/CGROUP_WRITEBACK) \
+    $(wildcard include/config/IMA) \
+    $(wildcard include/config/FILE_LOCKING) \
+    $(wildcard include/config/FS_ENCRYPTION) \
+    $(wildcard include/config/FS_VERITY) \
+    $(wildcard include/config/EPOLL) \
+    $(wildcard include/config/UNICODE) \
+    $(wildcard include/config/QUOTA) \
+    $(wildcard include/config/FS_DAX) \
+    $(wildcard include/config/BLOCK) \
+  include/linux/wait_bit.h \
+  include/linux/kdev_t.h \
+  include/uapi/linux/kdev_t.h \
+  include/linux/dcache.h \
+  include/linux/rculist.h \
+    $(wildcard include/config/PROVE_RCU_LIST) \
+  include/linux/rculist_bl.h \
+  include/linux/list_bl.h \
+  include/linux/bit_spinlock.h \
+  include/linux/lockref.h \
+    $(wildcard include/config/ARCH_USE_CMPXCHG_LOCKREF) \
+  include/linux/stringhash.h \
+    $(wildcard include/config/DCACHE_WORD_ACCESS) \
+  include/linux/hash.h \
+    $(wildcard include/config/HAVE_ARCH_HASH) \
+  include/linux/path.h \
+  include/linux/stat.h \
+  arch/arm64/include/asm/stat.h \
+  arch/arm64/include/generated/uapi/asm/stat.h \
+  include/uapi/asm-generic/stat.h \
+  arch/arm64/include/asm/compat.h \
+  include/asm-generic/compat.h \
+    $(wildcard include/config/COMPAT_FOR_U64_ALIGNMENT) \
+  include/linux/sched/task_stack.h \
+    $(wildcard include/config/STACK_GROWSUP) \
+    $(wildcard include/config/DEBUG_STACK_USAGE) \
+  include/uapi/linux/magic.h \
+  include/linux/kasan.h \
+    $(wildcard include/config/KASAN_STACK) \
+    $(wildcard include/config/KASAN_VMALLOC) \
+  include/uapi/linux/stat.h \
+  include/linux/list_lru.h \
+  include/linux/shrinker.h \
+    $(wildcard include/config/SHRINKER_DEBUG) \
   include/linux/pid.h \
   include/linux/capability.h \
   include/uapi/linux/capability.h \
@@ -850,6 +859,7 @@ deps_fs/notify/fanotify/fanotify.o := \
     $(wildcard include/config/ARCH_HAS_SUBPAGE_FAULTS) \
   include/linux/fault-inject-usercopy.h \
     $(wildcard include/config/FAULT_INJECTION_USERCOPY) \
+  include/linux/nospec.h \
   arch/arm64/include/asm/uaccess.h \
     $(wildcard include/config/CC_HAS_ASM_GOTO_OUTPUT) \
   arch/arm64/include/asm/kernel-pgtable.h \
@@ -910,10 +920,6 @@ deps_fs/notify/fanotify/fanotify.o := \
   include/linux/dqblk_qtree.h \
   include/linux/projid.h \
   include/uapi/linux/quota.h \
-  include/linux/fsnotify_backend.h \
-    $(wildcard include/config/INOTIFY_USER) \
-    $(wildcard include/config/FANOTIFY) \
-  include/linux/idr.h \
   include/linux/user_namespace.h \
     $(wildcard include/config/BINFMT_MISC) \
     $(wildcard include/config/PERSISTENT_KEYRINGS) \
@@ -1007,6 +1013,8 @@ deps_fs/notify/fanotify/fanotify.o := \
   include/linux/kernfs.h \
     $(wildcard include/config/KERNFS) \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1066,7 +1074,6 @@ deps_fs/notify/fanotify/fanotify.o := \
   include/asm-generic/statfs.h \
   include/uapi/asm-generic/statfs.h \
   fs/notify/fanotify/fanotify.h \
-    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
   include/linux/exportfs.h \
   include/linux/hashtable.h \
 

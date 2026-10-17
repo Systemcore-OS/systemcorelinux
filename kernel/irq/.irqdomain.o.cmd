@@ -1,4 +1,4 @@
-savedcmd_kernel/irq/irqdomain.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/irq/.irqdomain.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"kernel/irq/irqdomain"' -DKBUILD_BASENAME='"irqdomain"' -DKBUILD_MODNAME='"irqdomain"' -D__KBUILD_MODNAME=kmod_irqdomain -c -o kernel/irq/irqdomain.o kernel/irq/irqdomain.c  
+savedcmd_kernel/irq/irqdomain.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/irq/.irqdomain.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"kernel/irq/irqdomain"' -DKBUILD_BASENAME='"irqdomain"' -DKBUILD_MODNAME='"irqdomain"' -D__KBUILD_MODNAME=kmod_irqdomain -c -o kernel/irq/irqdomain.o kernel/irq/irqdomain.c  
 
 source_kernel/irq/irqdomain.o := kernel/irq/irqdomain.c
 
@@ -27,6 +27,7 @@ deps_kernel/irq/irqdomain.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -172,6 +173,61 @@ deps_kernel/irq/irqdomain.o := \
     $(wildcard include/config/RANDOM_KMALLOC_CACHES) \
     $(wildcard include/config/ZONE_DMA) \
     $(wildcard include/config/SLAB_BUCKETS) \
+  include/linux/bug.h \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
+  arch/arm64/include/asm/bug.h \
+  arch/arm64/include/asm/asm-bug.h \
+    $(wildcard include/config/DEBUG_BUGVERBOSE) \
+  include/asm-generic/bug.h \
+    $(wildcard include/config/BUG) \
+    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
+  include/linux/instrumentation.h \
+    $(wildcard include/config/NOINSTR_VALIDATION) \
+  include/linux/once_lite.h \
+  include/linux/panic.h \
+    $(wildcard include/config/PANIC_TIMEOUT) \
+  include/linux/printk.h \
+    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
+    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
+    $(wildcard include/config/EARLY_PRINTK) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
+  include/linux/stdarg.h \
+  include/linux/init.h \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+  include/linux/kern_levels.h \
+  include/linux/linkage.h \
+    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
+  include/linux/export.h \
+    $(wildcard include/config/MODVERSIONS) \
+  arch/arm64/include/asm/linkage.h \
+  include/linux/ratelimit_types.h \
+  include/uapi/linux/param.h \
+  arch/arm64/include/uapi/asm/param.h \
+  include/asm-generic/param.h \
+    $(wildcard include/config/HZ) \
+  include/uapi/asm-generic/param.h \
+  include/linux/spinlock_types_raw.h \
+    $(wildcard include/config/DEBUG_SPINLOCK) \
+    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
+  arch/arm64/include/asm/spinlock_types.h \
+  include/asm-generic/qspinlock_types.h \
+    $(wildcard include/config/NR_CPUS) \
+  include/asm-generic/qrwlock_types.h \
+  arch/arm64/include/uapi/asm/byteorder.h \
+  include/linux/byteorder/little_endian.h \
+  include/uapi/linux/byteorder/little_endian.h \
+  include/linux/swab.h \
+  include/uapi/linux/swab.h \
+  arch/arm64/include/generated/uapi/asm/swab.h \
+  include/uapi/asm-generic/swab.h \
+  include/linux/byteorder/generic.h \
+  include/linux/lockdep_types.h \
+    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
+    $(wildcard include/config/LOCKDEP) \
+    $(wildcard include/config/LOCK_STAT) \
   include/linux/cache.h \
     $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
   include/uapi/linux/kernel.h \
@@ -200,15 +256,8 @@ deps_kernel/irq/irqdomain.o := \
     $(wildcard include/config/ARM64_LSE_ATOMICS) \
   arch/arm64/include/asm/atomic_ll_sc.h \
     $(wildcard include/config/CC_HAS_K_CONSTRAINT) \
-  include/linux/export.h \
-    $(wildcard include/config/MODVERSIONS) \
-  include/linux/linkage.h \
-    $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
-  arch/arm64/include/asm/linkage.h \
   arch/arm64/include/asm/alternative.h \
     $(wildcard include/config/MODULES) \
-  include/linux/init.h \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
   arch/arm64/include/asm/atomic_lse.h \
   include/linux/atomic/atomic-arch-fallback.h \
     $(wildcard include/config/GENERIC_ATOMIC64) \
@@ -223,14 +272,6 @@ deps_kernel/irq/irqdomain.o := \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/non-instrumented-non-atomic.h \
   include/asm-generic/bitops/le.h \
-  arch/arm64/include/uapi/asm/byteorder.h \
-  include/linux/byteorder/little_endian.h \
-  include/uapi/linux/byteorder/little_endian.h \
-  include/linux/swab.h \
-  include/uapi/linux/swab.h \
-  arch/arm64/include/generated/uapi/asm/swab.h \
-  include/uapi/asm-generic/swab.h \
-  include/linux/byteorder/generic.h \
   include/asm-generic/bitops/ext2-atomic-setbit.h \
   include/linux/kasan-enabled.h \
     $(wildcard include/config/KASAN) \
@@ -260,7 +301,6 @@ deps_kernel/irq/irqdomain.o := \
     $(wildcard include/config/COMPACTION) \
     $(wildcard include/config/CONTIG_ALLOC) \
   include/linux/gfp_types.h \
-    $(wildcard include/config/LOCKDEP) \
   include/linux/mmzone.h \
     $(wildcard include/config/ARCH_FORCE_MAX_ORDER) \
     $(wildcard include/config/CMA) \
@@ -284,9 +324,7 @@ deps_kernel/irq/irqdomain.o := \
     $(wildcard include/config/SPARSEMEM_EXTREME) \
     $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
   include/linux/spinlock.h \
-    $(wildcard include/config/DEBUG_SPINLOCK) \
     $(wildcard include/config/PREEMPTION) \
-    $(wildcard include/config/DEBUG_LOCK_ALLOC) \
     $(wildcard include/config/PREEMPT_RT) \
   include/linux/preempt.h \
     $(wildcard include/config/PREEMPT_COUNT) \
@@ -304,44 +342,7 @@ deps_kernel/irq/irqdomain.o := \
     $(wildcard include/config/GENERIC_ENTRY) \
     $(wildcard include/config/HAVE_ARCH_WITHIN_STACK_FRAMES) \
     $(wildcard include/config/HARDENED_USERCOPY) \
-    $(wildcard include/config/BUG) \
     $(wildcard include/config/SH) \
-  include/linux/bug.h \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
-  arch/arm64/include/asm/bug.h \
-  arch/arm64/include/asm/asm-bug.h \
-    $(wildcard include/config/DEBUG_BUGVERBOSE) \
-  include/asm-generic/bug.h \
-    $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
-  include/linux/instrumentation.h \
-    $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/once_lite.h \
-  include/linux/panic.h \
-    $(wildcard include/config/PANIC_TIMEOUT) \
-  include/linux/printk.h \
-    $(wildcard include/config/MESSAGE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_DEFAULT) \
-    $(wildcard include/config/CONSOLE_LOGLEVEL_QUIET) \
-    $(wildcard include/config/EARLY_PRINTK) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/DYNAMIC_DEBUG_CORE) \
-  include/linux/stdarg.h \
-  include/linux/kern_levels.h \
-  include/linux/ratelimit_types.h \
-  include/uapi/linux/param.h \
-  arch/arm64/include/uapi/asm/param.h \
-  include/asm-generic/param.h \
-    $(wildcard include/config/HZ) \
-  include/uapi/asm-generic/param.h \
-  include/linux/spinlock_types_raw.h \
-  arch/arm64/include/asm/spinlock_types.h \
-  include/asm-generic/qspinlock_types.h \
-    $(wildcard include/config/NR_CPUS) \
-  include/asm-generic/qrwlock_types.h \
-  include/linux/lockdep_types.h \
-    $(wildcard include/config/PROVE_RAW_LOCK_NESTING) \
-    $(wildcard include/config/LOCK_STAT) \
   include/linux/restart_block.h \
   arch/arm64/include/asm/current.h \
   arch/arm64/include/asm/thread_info.h \
@@ -528,6 +529,9 @@ deps_kernel/irq/irqdomain.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -690,6 +694,7 @@ deps_kernel/irq/irqdomain.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -729,6 +734,7 @@ deps_kernel/irq/irqdomain.o := \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -915,6 +921,7 @@ deps_kernel/irq/irqdomain.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1182,41 +1189,41 @@ deps_kernel/irq/irqdomain.o := \
 kernel/irq/irqdomain.o: $(deps_kernel/irq/irqdomain.o)
 
 $(deps_kernel/irq/irqdomain.o):
-#SYMVER irqchip_fwnode_ops 0xc386450d
-#SYMVER __irq_domain_alloc_fwnode 0x29137463
-#SYMVER irq_domain_free_fwnode 0x0a6971ce
-#SYMVER irq_domain_instantiate 0xe5757d5b
-#SYMVER irq_domain_remove 0x559a2271
-#SYMVER irq_domain_update_bus_token 0x781782fc
-#SYMVER irq_domain_create_simple 0x9053762d
-#SYMVER irq_domain_add_legacy 0xfddf2f1d
-#SYMVER irq_domain_create_legacy 0x4f9e424f
-#SYMVER irq_find_matching_fwspec 0x18d1f8b5
-#SYMVER irq_set_default_host 0x8c376f97
-#SYMVER irq_get_default_host 0x9d1198ab
-#SYMVER irq_domain_associate 0x55ab2c29
-#SYMVER irq_domain_associate_many 0xf4fc5f37
-#SYMVER irq_create_mapping_affinity 0xc0c2395c
-#SYMVER of_phandle_args_to_fwspec 0xc72a91ab
-#SYMVER irq_create_fwspec_mapping 0x4b9967a9
-#SYMVER irq_create_of_mapping 0xf1179d94
+#SYMVER irqchip_fwnode_ops 0xa58f7f1b
+#SYMVER __irq_domain_alloc_fwnode 0x69049ffc
+#SYMVER irq_domain_free_fwnode 0x0aab4f90
+#SYMVER irq_domain_instantiate 0x97335a11
+#SYMVER irq_domain_remove 0x9ea55134
+#SYMVER irq_domain_update_bus_token 0xc96faba6
+#SYMVER irq_domain_create_simple 0x6fe23f1a
+#SYMVER irq_domain_add_legacy 0x555d3f5c
+#SYMVER irq_domain_create_legacy 0xfe7b9d26
+#SYMVER irq_find_matching_fwspec 0xabdeb0c2
+#SYMVER irq_set_default_host 0xd4e025f6
+#SYMVER irq_get_default_host 0xf8a766d8
+#SYMVER irq_domain_associate 0x58ea7cbe
+#SYMVER irq_domain_associate_many 0xc30bb5c8
+#SYMVER irq_create_mapping_affinity 0x632278f2
+#SYMVER of_phandle_args_to_fwspec 0xfaba452d
+#SYMVER irq_create_fwspec_mapping 0x2c470f2b
+#SYMVER irq_create_of_mapping 0xbc86f4e0
 #SYMVER irq_dispose_mapping 0x2c7db649
-#SYMVER __irq_resolve_mapping 0x37456aca
-#SYMVER irq_domain_xlate_onecell 0x9ad38f77
-#SYMVER irq_domain_xlate_twocell 0x6d78ed6b
-#SYMVER irq_domain_xlate_onetwocell 0x5ac36dfc
-#SYMVER irq_domain_simple_ops 0x04ad3933
-#SYMVER irq_domain_translate_onecell 0x12519bd1
-#SYMVER irq_domain_translate_twocell 0xe7b49646
-#SYMVER irq_domain_reset_irq_data 0x64c36e9b
-#SYMVER irq_domain_create_hierarchy 0x9faab5fe
-#SYMVER irq_domain_disconnect_hierarchy 0xc5219fca
-#SYMVER irq_domain_get_irq_data 0x1889caa2
-#SYMVER irq_domain_set_hwirq_and_chip 0xa844f895
-#SYMVER irq_domain_set_info 0x2edc3f3d
-#SYMVER irq_domain_free_irqs_common 0x02d49d38
-#SYMVER __irq_domain_alloc_irqs 0xb2bac2dd
-#SYMVER irq_domain_push_irq 0x78bccb88
-#SYMVER irq_domain_pop_irq 0xdf2fe207
-#SYMVER irq_domain_alloc_irqs_parent 0x13565feb
-#SYMVER irq_domain_free_irqs_parent 0x02cab8f8
+#SYMVER __irq_resolve_mapping 0x595fd1d9
+#SYMVER irq_domain_xlate_onecell 0x1f11c5e5
+#SYMVER irq_domain_xlate_twocell 0x070b1290
+#SYMVER irq_domain_xlate_onetwocell 0x389c02c9
+#SYMVER irq_domain_simple_ops 0x79ac99d8
+#SYMVER irq_domain_translate_onecell 0x61456983
+#SYMVER irq_domain_translate_twocell 0x3f4e9088
+#SYMVER irq_domain_reset_irq_data 0x676d31f1
+#SYMVER irq_domain_create_hierarchy 0x27167362
+#SYMVER irq_domain_disconnect_hierarchy 0x3738c8c1
+#SYMVER irq_domain_get_irq_data 0xd748316f
+#SYMVER irq_domain_set_hwirq_and_chip 0x9689125a
+#SYMVER irq_domain_set_info 0x88fde1e2
+#SYMVER irq_domain_free_irqs_common 0x97c02030
+#SYMVER __irq_domain_alloc_irqs 0x1602f7e7
+#SYMVER irq_domain_push_irq 0x9730edf7
+#SYMVER irq_domain_pop_irq 0xb1238711
+#SYMVER irq_domain_alloc_irqs_parent 0xd23316b4
+#SYMVER irq_domain_free_irqs_parent 0x78a991d4

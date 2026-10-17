@@ -1,9 +1,10 @@
 n_tty.o: drivers/tty/n_tty.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/bitmap.h include/linux/align.h include/linux/const.h \
- include/vdso/const.h include/uapi/linux/const.h include/linux/bitops.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/bitmap.h \
+ include/linux/align.h include/linux/const.h include/vdso/const.h \
+ include/uapi/linux/const.h include/linux/bitops.h \
  arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \

@@ -1,12 +1,8 @@
 printk.o: kernel/printk/printk.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/kernel.h include/linux/stdarg.h include/linux/align.h \
- include/linux/const.h include/vdso/const.h include/uapi/linux/const.h \
- include/linux/array_size.h include/linux/compiler.h \
- include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
- include/asm-generic/rwonce.h include/linux/kasan-checks.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/panic.h \
  include/linux/types.h include/uapi/linux/types.h \
  arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
@@ -14,8 +10,14 @@ printk.o: kernel/printk/printk.c include/linux/compiler-version.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
  include/asm-generic/bitsperlong.h include/uapi/asm-generic/bitsperlong.h \
  include/uapi/linux/posix_types.h include/linux/stddef.h \
- include/uapi/linux/stddef.h arch/arm64/include/uapi/asm/posix_types.h \
- include/uapi/asm-generic/posix_types.h include/linux/kcsan-checks.h \
+ include/uapi/linux/stddef.h include/linux/compiler_types.h \
+ arch/arm64/include/uapi/asm/posix_types.h \
+ include/uapi/asm-generic/posix_types.h include/linux/kernel.h \
+ include/linux/stdarg.h include/linux/align.h include/linux/const.h \
+ include/vdso/const.h include/uapi/linux/const.h \
+ include/linux/array_size.h include/linux/compiler.h \
+ arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
+ include/linux/kasan-checks.h include/linux/kcsan-checks.h \
  include/linux/limits.h include/uapi/linux/limits.h include/vdso/limits.h \
  include/linux/linkage.h include/linux/stringify.h include/linux/export.h \
  arch/arm64/include/asm/linkage.h include/linux/container_of.h \
@@ -60,7 +62,7 @@ printk.o: kernel/printk/printk.c include/linux/compiler-version.h \
  include/asm-generic/bitops/ext2-atomic-setbit.h include/linux/hex.h \
  include/linux/kstrtox.h include/linux/log2.h include/linux/math.h \
  arch/arm64/include/generated/asm/div64.h include/asm-generic/div64.h \
- include/linux/minmax.h include/linux/panic.h include/linux/printk.h \
+ include/linux/minmax.h include/linux/printk.h \
  include/linux/kern_levels.h include/linux/ratelimit_types.h \
  include/uapi/linux/param.h arch/arm64/include/uapi/asm/param.h \
  include/asm-generic/param.h include/uapi/asm-generic/param.h \
@@ -251,8 +253,8 @@ printk.o: kernel/printk/printk.c include/linux/compiler-version.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/tty.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h include/linux/tty.h \
  include/uapi/linux/major.h include/uapi/linux/termios.h \
  arch/arm64/include/generated/uapi/asm/termios.h \
  include/uapi/asm-generic/termios.h \

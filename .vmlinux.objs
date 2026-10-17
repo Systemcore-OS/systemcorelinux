@@ -158,6 +158,7 @@ kernel/irq/resend.o
 kernel/irq/chip.o
 kernel/irq/dummychip.o
 kernel/irq/devres.o
+kernel/irq/kexec.o
 kernel/irq/generic-chip.o
 kernel/irq/autoprobe.o
 kernel/irq/irqdomain.o
@@ -249,6 +250,7 @@ kernel/audit_tree.o
 kernel/kprobes.o
 kernel/hung_task.o
 kernel/watchdog.o
+kernel/watchdog_buddy.o
 kernel/seccomp.o
 kernel/relay.o
 kernel/utsname_sysctl.o
@@ -689,6 +691,7 @@ security/apparmor/crypto.o
 security/device_cgroup.o
 security/integrity/iint.o
 security/integrity/integrity_audit.o
+security/integrity/efi_secureboot.o
 crypto/api.o
 crypto/cipher.o
 crypto/compress.o
@@ -1051,6 +1054,7 @@ drivers/pci/remove.o
 drivers/pci/pci.o
 drivers/pci/pci-driver.o
 drivers/pci/search.o
+drivers/pci/rebar.o
 drivers/pci/rom.o
 drivers/pci/setup-res.o
 drivers/pci/irq.o
@@ -1352,6 +1356,7 @@ drivers/net/phy/bcm-phy-lib.o
 drivers/net/phy/bcm-phy-ptp.o
 drivers/net/phy/broadcom.o
 drivers/net/phy/fixed_phy.o
+drivers/net/phy/mxl-86110.o
 drivers/net/phy/micrel.o
 drivers/net/phy/microchip.o
 drivers/net/phy/smsc.o
@@ -1799,6 +1804,7 @@ drivers/android/binder.o
 drivers/android/binder_alloc.o
 drivers/nvmem/core.o
 drivers/nvmem/layouts.o
+drivers/nvmem/layouts/fixed-layout.o
 drivers/nvmem/raspberrypi-otp.o
 sound/sound_core.o
 net/devres.o
@@ -2039,7 +2045,7 @@ net/mptcp/ctrl.o
 net/mptcp/pm.o
 net/mptcp/diag.o
 net/mptcp/mib.o
-net/mptcp/pm_netlink.o
+net/mptcp/pm_kernel.o
 net/mptcp/sockopt.o
 net/mptcp/pm_userspace.o
 net/mptcp/fastopen.o

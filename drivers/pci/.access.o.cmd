@@ -1,4 +1,4 @@
-savedcmd_drivers/pci/access.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pci/.access.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/pci/access"' -DKBUILD_BASENAME='"access"' -DKBUILD_MODNAME='"access"' -D__KBUILD_MODNAME=kmod_access -c -o drivers/pci/access.o drivers/pci/access.c  
+savedcmd_drivers/pci/access.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pci/.access.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/pci/access"' -DKBUILD_BASENAME='"access"' -DKBUILD_MODNAME='"access"' -D__KBUILD_MODNAME=kmod_access -c -o drivers/pci/access.o drivers/pci/access.c  
 
 source_drivers/pci/access.o := drivers/pci/access.c
 
@@ -24,6 +24,7 @@ deps_drivers/pci/access.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -546,6 +547,7 @@ deps_drivers/pci/access.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -595,6 +597,7 @@ deps_drivers/pci/access.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -680,6 +683,9 @@ deps_drivers/pci/access.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -900,6 +906,7 @@ deps_drivers/pci/access.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1169,6 +1176,8 @@ deps_drivers/pci/access.o := \
     $(wildcard include/config/DEVICE_PRIVATE) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1181,9 +1190,6 @@ deps_drivers/pci/access.o := \
     $(wildcard include/config/DMA_API_DEBUG) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
   include/linux/dma-direction.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/pci.h \
   drivers/pci/pci.h \
     $(wildcard include/config/DMI) \
@@ -1195,37 +1201,37 @@ deps_drivers/pci/access.o := \
 drivers/pci/access.o: $(deps_drivers/pci/access.o)
 
 $(deps_drivers/pci/access.o):
-#SYMVER pci_bus_read_config_byte 0xf3ead1c9
-#SYMVER pci_bus_read_config_word 0x9cf0d7df
-#SYMVER pci_bus_read_config_dword 0x0a9d9402
-#SYMVER pci_bus_write_config_byte 0x058a629b
-#SYMVER pci_bus_write_config_word 0x8f83421b
-#SYMVER pci_bus_write_config_dword 0x483bb5d4
-#SYMVER pci_generic_config_read 0xf46cfe8a
-#SYMVER pci_generic_config_write 0xa73e316f
-#SYMVER pci_generic_config_read32 0x12b57b8d
-#SYMVER pci_generic_config_write32 0xda136e92
-#SYMVER pci_bus_set_ops 0x459d05a3
-#SYMVER pci_user_read_config_byte 0xbee163c0
-#SYMVER pci_user_read_config_word 0x04ca71e3
-#SYMVER pci_user_read_config_dword 0x6d5ea18b
-#SYMVER pci_user_write_config_byte 0x8bfdde92
-#SYMVER pci_user_write_config_word 0x7156ad24
-#SYMVER pci_user_write_config_dword 0x68923ed6
-#SYMVER pci_cfg_access_lock 0xc3fe710a
-#SYMVER pci_cfg_access_trylock 0xebefe68a
-#SYMVER pci_cfg_access_unlock 0x387d1b59
-#SYMVER pcie_capability_read_word 0xcbd717b4
-#SYMVER pcie_capability_read_dword 0x989e78ba
-#SYMVER pcie_capability_write_word 0x586024f7
-#SYMVER pcie_capability_write_dword 0x77618b31
-#SYMVER pcie_capability_clear_and_set_word_unlocked 0xb80998d2
-#SYMVER pcie_capability_clear_and_set_word_locked 0x6c5bf25d
-#SYMVER pcie_capability_clear_and_set_dword 0x612b0c9a
-#SYMVER pci_read_config_byte 0x3696c19f
-#SYMVER pci_read_config_word 0x13de58db
-#SYMVER pci_read_config_dword 0x2e0b77ed
-#SYMVER pci_write_config_byte 0x6fef3ded
-#SYMVER pci_write_config_word 0xe58b80d0
-#SYMVER pci_write_config_dword 0x4da91744
-#SYMVER pci_clear_and_set_config_dword 0x0a7bde97
+#SYMVER pci_bus_read_config_byte 0xd798eb5e
+#SYMVER pci_bus_read_config_word 0x4decb0b1
+#SYMVER pci_bus_read_config_dword 0xed488873
+#SYMVER pci_bus_write_config_byte 0xd0f20e68
+#SYMVER pci_bus_write_config_word 0x0ac26dc6
+#SYMVER pci_bus_write_config_dword 0xfb4e2023
+#SYMVER pci_generic_config_read 0xe018d79a
+#SYMVER pci_generic_config_write 0xe293b03e
+#SYMVER pci_generic_config_read32 0x264cc531
+#SYMVER pci_generic_config_write32 0x42e13c87
+#SYMVER pci_bus_set_ops 0xb40b9736
+#SYMVER pci_user_read_config_byte 0xfb133b8e
+#SYMVER pci_user_read_config_word 0xa45227c2
+#SYMVER pci_user_read_config_dword 0xf468dcd1
+#SYMVER pci_user_write_config_byte 0x24174791
+#SYMVER pci_user_write_config_word 0xa32356e6
+#SYMVER pci_user_write_config_dword 0x16786ff7
+#SYMVER pci_cfg_access_lock 0x168c083a
+#SYMVER pci_cfg_access_trylock 0x9b421b65
+#SYMVER pci_cfg_access_unlock 0xa788f448
+#SYMVER pcie_capability_read_word 0x8ce6c91b
+#SYMVER pcie_capability_read_dword 0x0b4f024f
+#SYMVER pcie_capability_write_word 0x4ea24255
+#SYMVER pcie_capability_write_dword 0x44fd0cd5
+#SYMVER pcie_capability_clear_and_set_word_unlocked 0x64b3fc1a
+#SYMVER pcie_capability_clear_and_set_word_locked 0x06dbf4fb
+#SYMVER pcie_capability_clear_and_set_dword 0x4f21747f
+#SYMVER pci_read_config_byte 0x166cb962
+#SYMVER pci_read_config_word 0x600a7b5d
+#SYMVER pci_read_config_dword 0xcca8f890
+#SYMVER pci_write_config_byte 0x728c8ce8
+#SYMVER pci_write_config_word 0x5839f3d6
+#SYMVER pci_write_config_dword 0x588eb7d0
+#SYMVER pci_clear_and_set_config_dword 0x83d51c24

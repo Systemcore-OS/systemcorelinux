@@ -1,6 +1,7 @@
 dibx000_common.o: drivers/media/dvb-frontends/dibx000_common.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/i2c.h \
  include/linux/acpi.h include/linux/errno.h include/uapi/linux/errno.h \
@@ -30,9 +31,27 @@ dibx000_common.o: drivers/media/dvb-frontends/dibx000_common.c \
  arch/arm64/include/generated/asm/cpucap-defs.h \
  arch/arm64/include/asm/insn-def.h arch/arm64/include/asm/brk-imm.h \
  include/linux/stringify.h include/asm-generic/barrier.h \
- include/linux/slab.h include/linux/cache.h include/uapi/linux/kernel.h \
- include/uapi/linux/sysinfo.h arch/arm64/include/asm/cache.h \
- include/linux/bitops.h include/linux/typecheck.h \
+ include/linux/slab.h include/linux/bug.h arch/arm64/include/asm/bug.h \
+ arch/arm64/include/asm/asm-bug.h include/asm-generic/bug.h \
+ include/linux/instrumentation.h include/linux/once_lite.h \
+ include/linux/panic.h include/linux/printk.h include/linux/stdarg.h \
+ include/linux/init.h include/linux/kern_levels.h include/linux/linkage.h \
+ include/linux/export.h arch/arm64/include/asm/linkage.h \
+ include/linux/ratelimit_types.h include/uapi/linux/param.h \
+ arch/arm64/include/uapi/asm/param.h include/asm-generic/param.h \
+ include/uapi/asm-generic/param.h include/linux/spinlock_types_raw.h \
+ arch/arm64/include/asm/spinlock_types.h \
+ include/asm-generic/qspinlock_types.h \
+ include/asm-generic/qrwlock_types.h \
+ arch/arm64/include/uapi/asm/byteorder.h \
+ include/linux/byteorder/little_endian.h \
+ include/uapi/linux/byteorder/little_endian.h include/linux/swab.h \
+ include/uapi/linux/swab.h arch/arm64/include/generated/uapi/asm/swab.h \
+ include/uapi/asm-generic/swab.h include/linux/byteorder/generic.h \
+ include/linux/lockdep_types.h include/linux/cache.h \
+ include/uapi/linux/kernel.h include/uapi/linux/sysinfo.h \
+ arch/arm64/include/asm/cache.h include/linux/bitops.h \
+ include/linux/typecheck.h \
  include/asm-generic/bitops/generic-non-atomic.h \
  arch/arm64/include/asm/bitops.h \
  include/asm-generic/bitops/builtin-__ffs.h \
@@ -46,9 +65,7 @@ dibx000_common.o: drivers/media/dvb-frontends/dibx000_common.c \
  include/asm-generic/bitops/atomic.h include/linux/atomic.h \
  arch/arm64/include/asm/atomic.h arch/arm64/include/asm/cmpxchg.h \
  arch/arm64/include/asm/lse.h arch/arm64/include/asm/atomic_ll_sc.h \
- include/linux/export.h include/linux/linkage.h \
- arch/arm64/include/asm/linkage.h arch/arm64/include/asm/alternative.h \
- include/linux/init.h arch/arm64/include/asm/atomic_lse.h \
+ arch/arm64/include/asm/alternative.h arch/arm64/include/asm/atomic_lse.h \
  include/linux/atomic/atomic-arch-fallback.h \
  include/linux/atomic/atomic-long.h \
  include/linux/atomic/atomic-instrumented.h include/linux/instrumented.h \
@@ -58,11 +75,7 @@ dibx000_common.o: drivers/media/dvb-frontends/dibx000_common.c \
  include/asm-generic/bitops/instrumented-lock.h \
  include/asm-generic/bitops/non-atomic.h \
  include/asm-generic/bitops/non-instrumented-non-atomic.h \
- include/asm-generic/bitops/le.h arch/arm64/include/uapi/asm/byteorder.h \
- include/linux/byteorder/little_endian.h \
- include/uapi/linux/byteorder/little_endian.h include/linux/swab.h \
- include/uapi/linux/swab.h arch/arm64/include/generated/uapi/asm/swab.h \
- include/uapi/asm-generic/swab.h include/linux/byteorder/generic.h \
+ include/asm-generic/bitops/le.h \
  include/asm-generic/bitops/ext2-atomic-setbit.h \
  include/linux/kasan-enabled.h include/linux/static_key.h \
  include/linux/jump_label.h arch/arm64/include/asm/jump_label.h \
@@ -74,17 +87,6 @@ dibx000_common.o: drivers/media/dvb-frontends/dibx000_common.c \
  include/linux/gfp_types.h include/linux/mmzone.h \
  include/linux/spinlock.h include/linux/preempt.h include/linux/cleanup.h \
  arch/arm64/include/asm/preempt.h include/linux/thread_info.h \
- include/linux/bug.h arch/arm64/include/asm/bug.h \
- arch/arm64/include/asm/asm-bug.h include/asm-generic/bug.h \
- include/linux/instrumentation.h include/linux/once_lite.h \
- include/linux/panic.h include/linux/printk.h include/linux/stdarg.h \
- include/linux/kern_levels.h include/linux/ratelimit_types.h \
- include/uapi/linux/param.h arch/arm64/include/uapi/asm/param.h \
- include/asm-generic/param.h include/uapi/asm-generic/param.h \
- include/linux/spinlock_types_raw.h \
- arch/arm64/include/asm/spinlock_types.h \
- include/asm-generic/qspinlock_types.h \
- include/asm-generic/qrwlock_types.h include/linux/lockdep_types.h \
  include/linux/restart_block.h arch/arm64/include/asm/current.h \
  arch/arm64/include/asm/thread_info.h arch/arm64/include/asm/memory.h \
  include/linux/sizes.h arch/arm64/include/asm/page-def.h \
@@ -311,11 +313,12 @@ dibx000_common.o: drivers/media/dvb-frontends/dibx000_common.c \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h include/linux/writeback.h \
- include/linux/flex_proportions.h include/linux/backing-dev-defs.h \
- include/linux/blk_types.h include/linux/bvec.h include/linux/highmem.h \
- include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
- include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/writeback.h include/linux/flex_proportions.h \
+ include/linux/backing-dev-defs.h include/linux/blk_types.h \
+ include/linux/bvec.h include/linux/highmem.h include/linux/cacheflush.h \
+ arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
+ include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/trace_clock.h \
  arch/arm64/include/generated/asm/trace_clock.h \
  include/asm-generic/trace_clock.h include/linux/kallsyms.h \

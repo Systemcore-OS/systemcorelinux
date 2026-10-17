@@ -1,6 +1,7 @@
 generic_ops.o: drivers/base/power/generic_ops.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/pm.h \
  include/linux/export.h include/linux/compiler.h \

@@ -1,4 +1,4 @@
-savedcmd_fs/quota/dquot.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/quota/.dquot.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/quota/dquot"' -DKBUILD_BASENAME='"dquot"' -DKBUILD_MODNAME='"dquot"' -D__KBUILD_MODNAME=kmod_dquot -c -o fs/quota/dquot.o fs/quota/dquot.c  
+savedcmd_fs/quota/dquot.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/quota/.dquot.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"fs/quota/dquot"' -DKBUILD_BASENAME='"dquot"' -DKBUILD_MODNAME='"dquot"' -D__KBUILD_MODNAME=kmod_dquot -c -o fs/quota/dquot.o fs/quota/dquot.c  
 
 source_fs/quota/dquot.o := fs/quota/dquot.c
 
@@ -25,6 +25,7 @@ deps_fs/quota/dquot.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -230,6 +231,7 @@ deps_fs/quota/dquot.o := \
   include/linux/instruction_pointer.h \
   include/linux/wordpart.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/SECURITY) \
@@ -498,6 +500,9 @@ deps_fs/quota/dquot.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -599,6 +604,7 @@ deps_fs/quota/dquot.o := \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -647,6 +653,7 @@ deps_fs/quota/dquot.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -991,6 +998,8 @@ deps_fs/quota/dquot.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1376,48 +1385,49 @@ deps_fs/quota/dquot.o := \
 fs/quota/dquot.o: $(deps_fs/quota/dquot.o)
 
 $(deps_fs/quota/dquot.o):
-#SYMVER dq_data_lock 0x14c83b2d
-#SYMVER __quota_error 0x0fbb2368
-#SYMVER register_quota_format 0x42ceec1b
-#SYMVER unregister_quota_format 0x239082fe
+#SYMVER dq_data_lock 0xadb5cdab
+#SYMVER __quota_error 0xd972ebbf
+#SYMVER register_quota_format 0xcb2b52bf
+#SYMVER unregister_quota_format 0xb1204abf
 #SYMVER dqstats 0x6f915a45
-#SYMVER dquot_mark_dquot_dirty 0x787e912d
-#SYMVER mark_info_dirty 0x09a2c233
-#SYMVER dquot_acquire 0xe2d9e865
-#SYMVER dquot_commit 0x1e28c250
-#SYMVER dquot_release 0x6b2cefbc
-#SYMVER dquot_destroy 0x7b6c6a61
-#SYMVER dquot_scan_active 0x7ef7a6b0
-#SYMVER dquot_writeback_dquots 0x8d8bf238
-#SYMVER dquot_quota_sync 0x0bc09797
-#SYMVER dqput 0xb1486894
-#SYMVER dquot_alloc 0x5636aeba
-#SYMVER dqget 0x57b5203b
-#SYMVER dquot_initialize 0xd3d5012c
-#SYMVER dquot_initialize_needed 0x9317af00
-#SYMVER dquot_drop 0xd38d0f97
-#SYMVER __dquot_alloc_space 0x42ca9799
-#SYMVER dquot_alloc_inode 0x988e8b6d
-#SYMVER dquot_claim_space_nodirty 0xec4b53fe
-#SYMVER dquot_reclaim_space_nodirty 0x136b7add
-#SYMVER __dquot_free_space 0xa771c917
-#SYMVER dquot_free_inode 0xb9cb5a2a
-#SYMVER __dquot_transfer 0x5122191b
-#SYMVER dquot_transfer 0x338a21a6
-#SYMVER dquot_commit_info 0xb321934f
-#SYMVER dquot_get_next_id 0xf19bab56
-#SYMVER dquot_operations 0x09f73a72
-#SYMVER dquot_file_open 0x8835d9cf
-#SYMVER dquot_disable 0xa624a3f9
-#SYMVER dquot_quota_off 0x5fe02757
-#SYMVER dquot_load_quota_sb 0xa7eef0d5
-#SYMVER dquot_load_quota_inode 0x5eae3faa
-#SYMVER dquot_resume 0x8d2e16fa
-#SYMVER dquot_quota_on 0xcaf80270
-#SYMVER dquot_quota_on_mount 0x0832ba52
-#SYMVER dquot_get_dqblk 0x98388ec8
-#SYMVER dquot_get_next_dqblk 0x66c3b6a5
-#SYMVER dquot_set_dqblk 0xc0502458
-#SYMVER dquot_get_state 0x3793bf17
-#SYMVER dquot_set_dqinfo 0x91be6288
-#SYMVER dquot_quotactl_sysfile_ops 0x9a43f509
+#SYMVER dqgrab 0x6a6fd896
+#SYMVER dquot_mark_dquot_dirty 0x2f69589b
+#SYMVER mark_info_dirty 0xdf0a2911
+#SYMVER dquot_acquire 0x12b072df
+#SYMVER dquot_commit 0xbba9d561
+#SYMVER dquot_release 0x83baa8d1
+#SYMVER dquot_destroy 0x0fe22191
+#SYMVER dquot_scan_active 0x4a1ede6d
+#SYMVER dquot_writeback_dquots 0xb831e446
+#SYMVER dquot_quota_sync 0x6aedd54b
+#SYMVER dqput 0xf8e1c56f
+#SYMVER dquot_alloc 0xae60e843
+#SYMVER dqget 0x0d74663c
+#SYMVER dquot_initialize 0x63b3b86c
+#SYMVER dquot_initialize_needed 0x008f2d35
+#SYMVER dquot_drop 0x4a7f48bb
+#SYMVER __dquot_alloc_space 0xbbf361c4
+#SYMVER dquot_alloc_inode 0x79c1da61
+#SYMVER dquot_claim_space_nodirty 0x18500f80
+#SYMVER dquot_reclaim_space_nodirty 0xa91e089a
+#SYMVER __dquot_free_space 0x05259dea
+#SYMVER dquot_free_inode 0x1ab31e01
+#SYMVER __dquot_transfer 0xf11ae892
+#SYMVER dquot_transfer 0x0c902dd0
+#SYMVER dquot_commit_info 0x72759817
+#SYMVER dquot_get_next_id 0xec33ed6f
+#SYMVER dquot_operations 0x0f1757e7
+#SYMVER dquot_file_open 0xe46a682c
+#SYMVER dquot_disable 0x37023b73
+#SYMVER dquot_quota_off 0xa505682f
+#SYMVER dquot_load_quota_sb 0xfe7493a9
+#SYMVER dquot_load_quota_inode 0x1203b038
+#SYMVER dquot_resume 0x3722e174
+#SYMVER dquot_quota_on 0xc6142836
+#SYMVER dquot_quota_on_mount 0xd4b957fe
+#SYMVER dquot_get_dqblk 0xba1cdc5d
+#SYMVER dquot_get_next_dqblk 0x994701f9
+#SYMVER dquot_set_dqblk 0x65ff64aa
+#SYMVER dquot_get_state 0x7ec32834
+#SYMVER dquot_set_dqinfo 0xc318df3c
+#SYMVER dquot_quotactl_sysfile_ops 0xe69abb84

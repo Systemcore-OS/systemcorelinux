@@ -1,6 +1,7 @@
 v4l2-trace.o: drivers/media/v4l2-core/v4l2-trace.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/media/v4l2-common.h \
  include/linux/time.h include/linux/cache.h include/uapi/linux/kernel.h \
@@ -317,11 +318,12 @@ v4l2-trace.o: drivers/media/v4l2-core/v4l2-trace.c \
  include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h include/linux/writeback.h \
- include/linux/flex_proportions.h include/linux/backing-dev-defs.h \
- include/linux/blk_types.h include/linux/bvec.h include/linux/highmem.h \
- include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
- include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
+ include/linux/writeback.h include/linux/flex_proportions.h \
+ include/linux/backing-dev-defs.h include/linux/blk_types.h \
+ include/linux/bvec.h include/linux/highmem.h include/linux/cacheflush.h \
+ arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
+ include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/trace_clock.h \
  arch/arm64/include/generated/asm/trace_clock.h \
  include/asm-generic/trace_clock.h include/linux/kallsyms.h \
@@ -361,8 +363,7 @@ v4l2-trace.o: drivers/media/v4l2-core/v4l2-trace.c \
  include/uapi/linux/spi/spi.h include/media/v4l2-fh.h \
  include/media/videobuf2-v4l2.h include/media/videobuf2-core.h \
  include/linux/dma-buf.h include/linux/iosys-map.h include/linux/file.h \
- include/linux/dma-mapping.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/dma-fence.h \
+ include/linux/dma-mapping.h include/linux/dma-fence.h \
  include/media/media-request.h include/media/media-device.h \
  include/linux/pci.h include/linux/msi_api.h include/uapi/linux/pci.h \
  include/uapi/linux/pci_regs.h include/linux/pci_ids.h \

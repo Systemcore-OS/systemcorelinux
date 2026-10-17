@@ -1,8 +1,9 @@
 tun.o: drivers/net/tun.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/module.h include/linux/list.h include/linux/container_of.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/module.h \
+ include/linux/list.h include/linux/container_of.h \
  include/linux/build_bug.h include/linux/compiler.h \
  include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
  include/asm-generic/rwonce.h include/linux/kasan-checks.h \
@@ -283,7 +284,7 @@ tun.o: drivers/net/tun.c include/linux/compiler-version.h \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/ptrace.h \
  include/linux/pid_namespace.h include/linux/nsproxy.h \
  include/linux/ns_common.h include/uapi/linux/ptrace.h \
@@ -322,8 +323,7 @@ tun.o: drivers/net/tun.c include/linux/compiler-version.h \
  include/linux/device/bus.h include/linux/device/class.h \
  include/linux/device/devres.h include/linux/device/driver.h \
  arch/arm64/include/asm/device.h include/linux/pm_wakeup.h \
- include/linux/scatterlist.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/netdev_features.h \
+ include/linux/scatterlist.h include/linux/netdev_features.h \
  include/net/flow_dissector.h include/linux/siphash.h \
  include/uapi/linux/if_ether.h include/uapi/linux/pkt_cls.h \
  include/uapi/linux/pkt_sched.h include/uapi/linux/if_packet.h \
@@ -398,13 +398,13 @@ tun.o: drivers/net/tun.c include/linux/compiler-version.h \
  include/uapi/linux/if_arp.h include/linux/if_tun.h \
  include/uapi/linux/if_tun.h include/linux/filter.h \
  include/linux/sched/clock.h include/linux/set_memory.h \
- arch/arm64/include/asm/set_memory.h include/asm-generic/set_memory.h \
- include/linux/if_vlan.h include/uapi/linux/if_vlan.h \
- include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
- include/crypto/sha1.h include/net/sch_generic.h \
- include/uapi/linux/pkt_cls.h include/net/gen_stats.h \
- include/uapi/linux/gen_stats.h include/net/rtnetlink.h \
- include/net/netlink.h include/net/flow_offload.h \
+ arch/arm64/include/asm/set_memory.h arch/arm64/include/asm/mem_encrypt.h \
+ include/asm-generic/set_memory.h include/linux/if_vlan.h \
+ include/uapi/linux/if_vlan.h include/linux/vmalloc.h \
+ arch/arm64/include/asm/vmalloc.h include/crypto/sha1.h \
+ include/net/sch_generic.h include/uapi/linux/pkt_cls.h \
+ include/net/gen_stats.h include/uapi/linux/gen_stats.h \
+ include/net/rtnetlink.h include/net/netlink.h include/net/flow_offload.h \
  include/uapi/linux/virtio_net.h include/uapi/linux/virtio_ids.h \
  include/linux/virtio_config.h include/linux/virtio.h \
  include/linux/mod_devicetable.h include/uapi/linux/mei.h \
@@ -423,17 +423,25 @@ tun.o: drivers/net/tun.c include/linux/compiler-version.h \
  include/uapi/linux/mptcp.h include/uapi/linux/mptcp_pm.h \
  include/net/netns/hash.h include/net/inet_timewait_sock.h \
  include/net/timewait_sock.h include/uapi/linux/tcp.h include/linux/udp.h \
- include/uapi/linux/udp.h include/net/netns/generic.h include/net/xdp.h \
- include/net/ip_tunnels.h include/linux/if_tunnel.h \
- include/uapi/linux/if_tunnel.h include/net/dsfield.h \
- include/net/gro_cells.h include/net/inet_ecn.h include/net/lwtunnel.h \
- include/uapi/linux/lwtunnel.h include/net/route.h include/net/inetpeer.h \
+ include/uapi/linux/udp.h include/net/tcp.h include/net/inet_hashtables.h \
+ include/net/ip.h include/net/route.h include/net/inetpeer.h \
  include/net/ipv6.h include/linux/jump_label_ratelimit.h \
  include/net/if_inet6.h include/net/inet_dscp.h include/net/ip_fib.h \
  include/uapi/linux/in_route.h include/net/arp.h include/net/ndisc.h \
  include/net/ipv6_stubs.h include/linux/icmpv6.h \
- include/uapi/linux/route.h include/net/dst_cache.h include/net/ip6_fib.h \
+ include/uapi/linux/route.h include/net/lwtunnel.h \
+ include/uapi/linux/lwtunnel.h include/net/sock_reuseport.h \
+ include/net/tcp_ao.h include/net/inet_ecn.h include/net/dsfield.h \
+ include/net/mptcp.h include/net/xfrm.h include/uapi/linux/pfkeyv2.h \
+ include/uapi/linux/ipsec.h include/linux/audit.h \
+ include/linux/audit_arch.h include/uapi/linux/audit.h \
+ include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
+ arch/arm64/include/asm/syscall.h include/net/ip6_fib.h \
  include/linux/ipv6_route.h include/uapi/linux/ipv6_route.h \
+ include/net/gro_cells.h include/net/secure_seq.h \
+ include/linux/bpf-cgroup.h include/net/netns/generic.h include/net/xdp.h \
+ include/net/ip_tunnels.h include/linux/if_tunnel.h \
+ include/uapi/linux/if_tunnel.h include/net/dst_cache.h \
  include/net/ip6_route.h include/net/addrconf.h include/net/nexthop.h \
  include/linux/skb_array.h include/linux/ptr_ring.h \
  include/linux/bpf_trace.h include/trace/events/xdp.h \

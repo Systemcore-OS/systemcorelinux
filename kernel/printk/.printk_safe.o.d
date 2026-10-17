@@ -1,6 +1,7 @@
 printk_safe.o: kernel/printk/printk_safe.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/preempt.h \
  include/linux/linkage.h include/linux/compiler_types.h \
@@ -273,7 +274,8 @@ printk_safe.o: kernel/printk/printk_safe.c \
  include/uapi/linux/fs.h include/linux/quota.h \
  include/uapi/linux/dqblk_xfs.h include/linux/dqblk_v1.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
- include/linux/projid.h include/uapi/linux/quota.h include/linux/vmstat.h \
+ include/linux/projid.h include/uapi/linux/quota.h \
+ include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/module.h \
  include/linux/kmod.h include/linux/umh.h include/linux/elf.h \
  arch/arm64/include/asm/elf.h arch/arm64/include/generated/asm/user.h \

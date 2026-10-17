@@ -1,4 +1,4 @@
-savedcmd_kernel/sched/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/sched/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -Wno-unused-but-set-variable -fno-omit-frame-pointer    -DKBUILD_MODFILE='"kernel/sched/core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"core"' -D__KBUILD_MODNAME=kmod_core -c -o kernel/sched/core.o kernel/sched/core.c  
+savedcmd_kernel/sched/core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,kernel/sched/.core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456 -Wno-unused-but-set-variable -fno-omit-frame-pointer    -DKBUILD_MODFILE='"kernel/sched/core"' -DKBUILD_BASENAME='"core"' -DKBUILD_MODNAME='"core"' -D__KBUILD_MODNAME=kmod_core -c -o kernel/sched/core.o kernel/sched/core.c  
 
 source_kernel/sched/core.o := kernel/sched/core.c
 
@@ -75,6 +75,7 @@ deps_kernel/sched/core.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -88,6 +89,7 @@ deps_kernel/sched/core.o := \
   include/linux/highmem.h \
     $(wildcard include/config/HIGHMEM) \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/SECURITY) \
@@ -529,6 +531,9 @@ deps_kernel/sched/core.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -617,6 +622,7 @@ deps_kernel/sched/core.o := \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -665,6 +671,7 @@ deps_kernel/sched/core.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -1100,6 +1107,8 @@ deps_kernel/sched/core.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1486,6 +1495,7 @@ deps_kernel/sched/core.o := \
     $(wildcard include/config/MCTP) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/flow.h \
@@ -1598,9 +1608,6 @@ deps_kernel/sched/core.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1734,46 +1741,46 @@ $(deps_kernel/sched/core.o):
 #SYMVER __traceiter_ipi_send_cpumask 0xb0eb8b1d
 #SYMVER __SCK__tp_func_ipi_send_cpumask 0xaf7ad94c
 #SYMVER __tracepoint_pelt_cfs_tp 0x56ef15d0
-#SYMVER __traceiter_pelt_cfs_tp 0x5d8bb555
+#SYMVER __traceiter_pelt_cfs_tp 0xaa02988b
 #SYMVER __SCK__tp_func_pelt_cfs_tp 0xf6beee37
 #SYMVER __tracepoint_pelt_rt_tp 0x50eabb98
-#SYMVER __traceiter_pelt_rt_tp 0x0a172db5
+#SYMVER __traceiter_pelt_rt_tp 0xafd07bbf
 #SYMVER __SCK__tp_func_pelt_rt_tp 0x0bf32478
 #SYMVER __tracepoint_pelt_dl_tp 0xd5f5865d
-#SYMVER __traceiter_pelt_dl_tp 0x23a30ac8
+#SYMVER __traceiter_pelt_dl_tp 0xfa85061f
 #SYMVER __SCK__tp_func_pelt_dl_tp 0x8eec19bd
 #SYMVER __tracepoint_pelt_irq_tp 0x10185973
-#SYMVER __traceiter_pelt_irq_tp 0x02c09381
+#SYMVER __traceiter_pelt_irq_tp 0xa7d384c3
 #SYMVER __SCK__tp_func_pelt_irq_tp 0xb049a294
 #SYMVER __tracepoint_pelt_se_tp 0xc636d60f
-#SYMVER __traceiter_pelt_se_tp 0xc9bdf16c
+#SYMVER __traceiter_pelt_se_tp 0xf6569b8d
 #SYMVER __SCK__tp_func_pelt_se_tp 0x9d2f49ef
 #SYMVER __tracepoint_pelt_hw_tp 0xb507e0b5
-#SYMVER __traceiter_pelt_hw_tp 0xc417f9e7
+#SYMVER __traceiter_pelt_hw_tp 0xa6998c97
 #SYMVER __SCK__tp_func_pelt_hw_tp 0xee1e7f55
 #SYMVER __tracepoint_sched_cpu_capacity_tp 0x26c44a3b
-#SYMVER __traceiter_sched_cpu_capacity_tp 0x32021946
+#SYMVER __traceiter_sched_cpu_capacity_tp 0x584e63e0
 #SYMVER __SCK__tp_func_sched_cpu_capacity_tp 0x397e2142
 #SYMVER __tracepoint_sched_overutilized_tp 0xb0802f90
-#SYMVER __traceiter_sched_overutilized_tp 0xac2423b0
+#SYMVER __traceiter_sched_overutilized_tp 0x933b52e7
 #SYMVER __SCK__tp_func_sched_overutilized_tp 0xaf3a44e9
 #SYMVER __tracepoint_sched_util_est_cfs_tp 0x31dc42f5
-#SYMVER __traceiter_sched_util_est_cfs_tp 0x8b2d0619
+#SYMVER __traceiter_sched_util_est_cfs_tp 0xfdab791d
 #SYMVER __SCK__tp_func_sched_util_est_cfs_tp 0x2e66298c
 #SYMVER __tracepoint_sched_util_est_se_tp 0x282b3f94
-#SYMVER __traceiter_sched_util_est_se_tp 0x51eee61b
+#SYMVER __traceiter_sched_util_est_se_tp 0xe580c21c
 #SYMVER __SCK__tp_func_sched_util_est_se_tp 0x48c32847
 #SYMVER __tracepoint_sched_update_nr_running_tp 0x476461e8
-#SYMVER __traceiter_sched_update_nr_running_tp 0xc4c42718
+#SYMVER __traceiter_sched_update_nr_running_tp 0x3329dbe1
 #SYMVER __SCK__tp_func_sched_update_nr_running_tp 0x5a12e60c
 #SYMVER __tracepoint_sched_compute_energy_tp 0xe6524498
-#SYMVER __traceiter_sched_compute_energy_tp 0x77f3cb07
+#SYMVER __traceiter_sched_compute_energy_tp 0x3097aa23
 #SYMVER __SCK__tp_func_sched_compute_energy_tp 0xc2cf214d
 #SYMVER migrate_disable 0x49608959
 #SYMVER migrate_enable 0x4d7272e4
-#SYMVER set_cpus_allowed_ptr 0xdd78e70f
-#SYMVER kick_process 0x87f866e5
-#SYMVER wake_up_process 0x35462a61
+#SYMVER set_cpus_allowed_ptr 0xf53959b4
+#SYMVER kick_process 0xfe539581
+#SYMVER wake_up_process 0xa18f2886
 #SYMVER single_task_running 0x4248ae3c
 #SYMVER kstat 0x38869d88
 #SYMVER kernel_cpustat 0xb58aeaab
@@ -1781,9 +1788,9 @@ $(deps_kernel/sched/core.o):
 #SYMVER preempt_schedule 0x43b0c9c3
 #SYMVER preempt_schedule_notrace 0xf70e4a4d
 #SYMVER default_wake_function 0xaad8c7d6
-#SYMVER __cond_resched_lock 0x24ea546b
-#SYMVER __cond_resched_rwlock_read 0x5a92e775
-#SYMVER __cond_resched_rwlock_write 0x00a9d541
+#SYMVER __cond_resched_lock 0x571a58b3
+#SYMVER __cond_resched_rwlock_read 0x3e52de23
+#SYMVER __cond_resched_rwlock_write 0xcb80476a
 #SYMVER io_schedule_timeout 0xfbc4f89e
 #SYMVER io_schedule 0x93a6e0b2
-#SYMVER sched_show_task 0x41f94fb7
+#SYMVER sched_show_task 0x52650ab8

@@ -1586,6 +1586,13 @@ void set_pcie_port_type(struct pci_dev *pdev)
 	if (reg32 & PCI_EXP_LNKCAP_DLLLARC)
 		pdev->link_active_reporting = 1;
 
+#ifdef CONFIG_PCIEASPM
+	if (reg32 & PCI_EXP_LNKCAP_ASPM_L0S)
+		pdev->aspm_l0s_support = 1;
+	if (reg32 & PCI_EXP_LNKCAP_ASPM_L1)
+		pdev->aspm_l1_support = 1;
+#endif
+
 	parent = pci_upstream_bridge(pdev);
 	if (!parent)
 		return;
@@ -2370,7 +2377,6 @@ static void pci_release_dev(struct device *dev)
 	pci_release_of_node(pci_dev);
 	pcibios_release_device(pci_dev);
 	pci_bus_put(pci_dev->bus);
-	kfree(pci_dev->driver_override);
 	bitmap_free(pci_dev->dma_alias_mask);
 	dev_dbg(dev, "device released\n");
 	kfree(pci_dev);

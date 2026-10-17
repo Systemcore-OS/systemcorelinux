@@ -1,4 +1,4 @@
-savedcmd_drivers/pci/rom.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pci/.rom.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/pci/rom"' -DKBUILD_BASENAME='"rom"' -DKBUILD_MODNAME='"rom"' -D__KBUILD_MODNAME=kmod_rom -c -o drivers/pci/rom.o drivers/pci/rom.c  
+savedcmd_drivers/pci/rom.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/pci/.rom.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/pci/rom"' -DKBUILD_BASENAME='"rom"' -DKBUILD_MODNAME='"rom"' -D__KBUILD_MODNAME=kmod_rom -c -o drivers/pci/rom.o drivers/pci/rom.c  
 
 source_drivers/pci/rom.o := drivers/pci/rom.c
 
@@ -23,6 +23,7 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -33,29 +34,22 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/ARM64_PTR_AUTH_KERNEL) \
     $(wildcard include/config/ARM64_PTR_AUTH) \
     $(wildcard include/config/BUILTIN_RETURN_ADDRESS_STRIPS_PAC) \
-  include/linux/kernel.h \
-    $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
-    $(wildcard include/config/PREEMPT_DYNAMIC) \
-    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_CALL) \
-    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_KEY) \
-    $(wildcard include/config/PREEMPT_) \
-    $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
-    $(wildcard include/config/SMP) \
-    $(wildcard include/config/MMU) \
-    $(wildcard include/config/PROVE_LOCKING) \
-    $(wildcard include/config/TRACING) \
-    $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
-  include/linux/stdarg.h \
   include/linux/align.h \
   include/linux/const.h \
   include/vdso/const.h \
   include/uapi/linux/const.h \
-  include/linux/array_size.h \
+  include/linux/bits.h \
+  include/vdso/bits.h \
+  include/uapi/linux/bits.h \
+  arch/arm64/include/uapi/asm/bitsperlong.h \
+  include/asm-generic/bitsperlong.h \
+    $(wildcard include/config/64BIT) \
+  include/uapi/asm-generic/bitsperlong.h \
+  include/linux/build_bug.h \
   include/linux/compiler.h \
     $(wildcard include/config/TRACE_BRANCH_PROFILING) \
     $(wildcard include/config/PROFILE_ALL_BRANCHES) \
     $(wildcard include/config/OBJTOOL) \
-    $(wildcard include/config/64BIT) \
   arch/arm64/include/asm/rwonce.h \
     $(wildcard include/config/LTO) \
     $(wildcard include/config/AS_HAS_LDAPR) \
@@ -74,9 +68,6 @@ deps_drivers/pci/rom.o := \
   include/uapi/asm-generic/types.h \
   include/asm-generic/int-ll64.h \
   include/uapi/asm-generic/int-ll64.h \
-  arch/arm64/include/uapi/asm/bitsperlong.h \
-  include/asm-generic/bitsperlong.h \
-  include/uapi/asm-generic/bitsperlong.h \
   include/uapi/linux/posix_types.h \
   include/linux/stddef.h \
   include/uapi/linux/stddef.h \
@@ -85,9 +76,24 @@ deps_drivers/pci/rom.o := \
   include/linux/kcsan-checks.h \
     $(wildcard include/config/KCSAN_WEAK_MEMORY) \
     $(wildcard include/config/KCSAN_IGNORE_ATOMICS) \
+  include/linux/overflow.h \
   include/linux/limits.h \
   include/uapi/linux/limits.h \
   include/vdso/limits.h \
+  include/linux/kernel.h \
+    $(wildcard include/config/PREEMPT_VOLUNTARY_BUILD) \
+    $(wildcard include/config/PREEMPT_DYNAMIC) \
+    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_CALL) \
+    $(wildcard include/config/HAVE_PREEMPT_DYNAMIC_KEY) \
+    $(wildcard include/config/PREEMPT_) \
+    $(wildcard include/config/DEBUG_ATOMIC_SLEEP) \
+    $(wildcard include/config/SMP) \
+    $(wildcard include/config/MMU) \
+    $(wildcard include/config/PROVE_LOCKING) \
+    $(wildcard include/config/TRACING) \
+    $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
+  include/linux/stdarg.h \
+  include/linux/array_size.h \
   include/linux/linkage.h \
     $(wildcard include/config/ARCH_USE_SYM_ANNOTATIONS) \
   include/linux/stringify.h \
@@ -95,12 +101,7 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/MODVERSIONS) \
   arch/arm64/include/asm/linkage.h \
   include/linux/container_of.h \
-  include/linux/build_bug.h \
   include/linux/bitops.h \
-  include/linux/bits.h \
-  include/vdso/bits.h \
-  include/uapi/linux/bits.h \
-  include/linux/overflow.h \
   include/linux/typecheck.h \
   include/uapi/linux/kernel.h \
   include/uapi/linux/sysinfo.h \
@@ -222,93 +223,10 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
   include/linux/instruction_pointer.h \
   include/linux/wordpart.h \
-  include/linux/pci.h \
-    $(wildcard include/config/PCI_IOV) \
-    $(wildcard include/config/PCIEAER) \
-    $(wildcard include/config/PCIEPORTBUS) \
-    $(wildcard include/config/PCIEASPM) \
-    $(wildcard include/config/HOTPLUG_PCI_PCIE) \
-    $(wildcard include/config/PCIE_PTM) \
-    $(wildcard include/config/PCI_MSI) \
-    $(wildcard include/config/PCIE_DPC) \
-    $(wildcard include/config/PCI_ATS) \
-    $(wildcard include/config/PCI_PRI) \
-    $(wildcard include/config/PCI_PASID) \
-    $(wildcard include/config/PCI_P2PDMA) \
-    $(wildcard include/config/PCI_DOE) \
-    $(wildcard include/config/PCI_NPEM) \
-    $(wildcard include/config/PCI_DOMAINS_GENERIC) \
+  include/linux/io.h \
+    $(wildcard include/config/HAS_IOPORT_MAP) \
     $(wildcard include/config/PCI) \
-    $(wildcard include/config/SYSFS) \
-    $(wildcard include/config/PCI_DOMAINS) \
-    $(wildcard include/config/ACPI) \
-    $(wildcard include/config/PCI_QUIRKS) \
-    $(wildcard include/config/PCI_MMCONFIG) \
-    $(wildcard include/config/ACPI_MCFG) \
-    $(wildcard include/config/HOTPLUG_PCI) \
-    $(wildcard include/config/OF) \
-    $(wildcard include/config/X86) \
-    $(wildcard include/config/EEH) \
-    $(wildcard include/config/S390) \
-  include/linux/args.h \
-  include/linux/mod_devicetable.h \
-  include/uapi/linux/mei.h \
-  include/uapi/linux/mei_uuid.h \
-  include/linux/uuid.h \
-  include/linux/string.h \
-    $(wildcard include/config/BINARY_PRINTF) \
-    $(wildcard include/config/FORTIFY_SOURCE) \
-  include/linux/err.h \
-  arch/arm64/include/generated/uapi/asm/errno.h \
-  include/uapi/asm-generic/errno.h \
-  include/uapi/asm-generic/errno-base.h \
-  include/linux/errno.h \
-  include/uapi/linux/errno.h \
-  include/uapi/linux/string.h \
-  arch/arm64/include/asm/string.h \
-    $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
-  include/linux/ioport.h \
-    $(wildcard include/config/MEMORY_HOTREMOVE) \
-  include/linux/list.h \
-    $(wildcard include/config/LIST_HARDENED) \
-    $(wildcard include/config/DEBUG_LIST) \
-  include/linux/poison.h \
-    $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
-  include/linux/kobject.h \
-    $(wildcard include/config/UEVENT_HELPER) \
-    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
-  include/linux/sysfs.h \
-  include/linux/kernfs.h \
-    $(wildcard include/config/KERNFS) \
-  include/linux/mutex.h \
-    $(wildcard include/config/DEBUG_MUTEXES) \
-    $(wildcard include/config/PREEMPT_RT) \
-  arch/arm64/include/asm/current.h \
-  include/linux/spinlock_types.h \
-  include/linux/rtmutex.h \
-    $(wildcard include/config/DEBUG_RT_MUTEXES) \
-  include/linux/rbtree_types.h \
-  include/linux/rwlock_types.h \
-  include/linux/rwbase_rt.h \
-  include/linux/lockdep.h \
-    $(wildcard include/config/DEBUG_LOCKING_API_SELFTESTS) \
-    $(wildcard include/config/PREEMPT_COUNT) \
-  include/linux/smp.h \
-    $(wildcard include/config/UP_LATE_INIT) \
-    $(wildcard include/config/DEBUG_PREEMPT) \
-    $(wildcard include/config/CSD_LOCK_WAIT_DEBUG) \
-  include/linux/cpumask.h \
-    $(wildcard include/config/FORCE_NR_CPUS) \
-    $(wildcard include/config/HOTPLUG_CPU) \
-    $(wildcard include/config/DEBUG_PER_CPU_MAPS) \
-    $(wildcard include/config/CPUMASK_OFFSTACK) \
-  include/linux/cleanup.h \
-  include/linux/bitmap.h \
-  include/linux/find.h \
-  include/linux/bitmap-str.h \
-  include/linux/cpumask_types.h \
-  include/linux/threads.h \
-    $(wildcard include/config/BASE_SMALL) \
+  include/linux/sizes.h \
   include/linux/bug.h \
     $(wildcard include/config/GENERIC_BUG) \
     $(wildcard include/config/BUG_ON_DATA_CORRUPTION) \
@@ -320,20 +238,46 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/GENERIC_BUG_RELATIVE_POINTERS) \
   include/linux/instrumentation.h \
     $(wildcard include/config/NOINSTR_VALIDATION) \
-  include/linux/gfp_types.h \
-    $(wildcard include/config/KASAN_HW_TAGS) \
-    $(wildcard include/config/SLAB_OBJ_EXT) \
-  include/linux/numa.h \
-    $(wildcard include/config/NODES_SHIFT) \
-    $(wildcard include/config/NUMA_KEEP_MEMINFO) \
-    $(wildcard include/config/NUMA) \
-    $(wildcard include/config/HAVE_ARCH_NODE_DEV_GROUP) \
-  arch/arm64/include/asm/sparsemem.h \
-    $(wildcard include/config/ARM64_64K_PAGES) \
-  arch/arm64/include/asm/pgtable-prot.h \
+  include/linux/err.h \
+  arch/arm64/include/generated/uapi/asm/errno.h \
+  include/uapi/asm-generic/errno.h \
+  include/uapi/asm-generic/errno-base.h \
+  arch/arm64/include/asm/io.h \
+  include/linux/pgtable.h \
+    $(wildcard include/config/PGTABLE_LEVELS) \
+    $(wildcard include/config/HIGHPTE) \
+    $(wildcard include/config/TRANSPARENT_HUGEPAGE) \
+    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
+    $(wildcard include/config/ARCH_HAS_HW_PTE_YOUNG) \
+    $(wildcard include/config/GUP_GET_PXX_LOW_HIGH) \
+    $(wildcard include/config/ARCH_WANT_PMD_MKWRITE) \
+    $(wildcard include/config/HAVE_ARCH_TRANSPARENT_HUGEPAGE_PUD) \
+    $(wildcard include/config/HAVE_ARCH_SOFT_DIRTY) \
+    $(wildcard include/config/ARCH_ENABLE_THP_MIGRATION) \
+    $(wildcard include/config/ARCH_HAS_PTE_DEVMAP) \
+    $(wildcard include/config/NUMA_BALANCING) \
+    $(wildcard include/config/HAVE_ARCH_HUGE_VMAP) \
+    $(wildcard include/config/X86_ESPFIX64) \
+  include/linux/pfn.h \
+  arch/arm64/include/asm/pgtable.h \
+    $(wildcard include/config/ARM64_PA_BITS_52) \
     $(wildcard include/config/HAVE_ARCH_USERFAULTFD_WP) \
+    $(wildcard include/config/DEBUG_VM) \
+    $(wildcard include/config/ARCH_SUPPORTS_PMD_PFNMAP) \
+    $(wildcard include/config/ARCH_SUPPORTS_PUD_PFNMAP) \
+    $(wildcard include/config/ARM64_64K_PAGES) \
     $(wildcard include/config/ARM64_LPA2) \
-    $(wildcard include/config/ARM64_PA_BITS) \
+    $(wildcard include/config/PAGE_TABLE_CHECK) \
+    $(wildcard include/config/ARM64_CONTPTE) \
+  arch/arm64/include/asm/proc-fns.h \
+  arch/arm64/include/asm/page.h \
+  arch/arm64/include/asm/page-def.h \
+    $(wildcard include/config/PAGE_SHIFT) \
+  include/linux/personality.h \
+  include/uapi/linux/personality.h \
+  arch/arm64/include/asm/pgtable-types.h \
+  include/asm-generic/pgtable-nopud.h \
+  include/asm-generic/pgtable-nop4d.h \
   arch/arm64/include/asm/memory.h \
     $(wildcard include/config/ARM64_VA_BITS) \
     $(wildcard include/config/ARM64_16K_PAGES) \
@@ -342,14 +286,11 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/VMAP_STACK) \
     $(wildcard include/config/ARM64_4K_PAGES) \
     $(wildcard include/config/RANDOMIZE_BASE) \
+    $(wildcard include/config/KASAN_HW_TAGS) \
     $(wildcard include/config/DEBUG_VIRTUAL) \
     $(wildcard include/config/EFI) \
     $(wildcard include/config/ARM_GIC_V3_ITS) \
-  include/linux/sizes.h \
-  arch/arm64/include/asm/page-def.h \
-    $(wildcard include/config/PAGE_SHIFT) \
   include/linux/mmdebug.h \
-    $(wildcard include/config/DEBUG_VM) \
     $(wildcard include/config/DEBUG_VM_IRQSOFF) \
     $(wildcard include/config/DEBUG_VM_PGFLAGS) \
   arch/arm64/include/asm/boot.h \
@@ -358,7 +299,6 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/HAVE_FUNCTION_DESCRIPTORS) \
   arch/arm64/include/asm/sysreg.h \
     $(wildcard include/config/BROKEN_GAS_INST) \
-    $(wildcard include/config/ARM64_PA_BITS_52) \
   include/linux/kasan-tags.h \
   arch/arm64/include/asm/gpr-num.h \
   arch/arm64/include/generated/asm/sysreg-defs.h \
@@ -367,41 +307,64 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/FLATMEM) \
     $(wildcard include/config/SPARSEMEM_VMEMMAP) \
     $(wildcard include/config/SPARSEMEM) \
-  include/linux/pfn.h \
-  arch/arm64/include/asm/pgtable-hwdef.h \
-    $(wildcard include/config/PGTABLE_LEVELS) \
-    $(wildcard include/config/ARM64_CONT_PTE_SHIFT) \
-    $(wildcard include/config/ARM64_CONT_PMD_SHIFT) \
-    $(wildcard include/config/ARM64_VA_BITS_52) \
-  arch/arm64/include/asm/cpufeature.h \
-    $(wildcard include/config/ARM64_SW_TTBR0_PAN) \
-    $(wildcard include/config/ARM64_DEBUG_PRIORITY_MASKING) \
-    $(wildcard include/config/ARM64_BTI_KERNEL) \
-    $(wildcard include/config/ARM64_POE) \
-    $(wildcard include/config/ARM64_HW_AFDBM) \
-    $(wildcard include/config/ARM64_AMU_EXTN) \
-  arch/arm64/include/asm/cputype.h \
-  arch/arm64/include/asm/hwcap.h \
-    $(wildcard include/config/COMPAT) \
-  arch/arm64/include/uapi/asm/hwcap.h \
+  include/asm-generic/getorder.h \
+  arch/arm64/include/asm/mte.h \
+  arch/arm64/include/asm/mte-def.h \
+  include/linux/kasan-enabled.h \
+  include/linux/static_key.h \
   include/linux/jump_label.h \
     $(wildcard include/config/JUMP_LABEL) \
     $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
   arch/arm64/include/asm/jump_label.h \
   arch/arm64/include/asm/insn.h \
-  arch/arm64/include/asm/pgtable-types.h \
-  include/asm-generic/pgtable-nopud.h \
-  include/asm-generic/pgtable-nop4d.h \
-  include/linux/smp_types.h \
-  include/linux/llist.h \
-    $(wildcard include/config/ARCH_HAVE_NMI_SAFE_CMPXCHG) \
-  include/linux/preempt.h \
-    $(wildcard include/config/TRACE_PREEMPT_TOGGLE) \
+  include/linux/page-flags.h \
+    $(wildcard include/config/MEMORY_FAILURE) \
+    $(wildcard include/config/PAGE_IDLE_FLAG) \
+    $(wildcard include/config/ARCH_USES_PG_ARCH_2) \
+    $(wildcard include/config/ARCH_USES_PG_ARCH_3) \
+    $(wildcard include/config/HUGETLB_PAGE_OPTIMIZE_VMEMMAP) \
+    $(wildcard include/config/HIGHMEM) \
+    $(wildcard include/config/DEBUG_KMAP_LOCAL_FORCE_MAP) \
+    $(wildcard include/config/SWAP) \
+    $(wildcard include/config/KSM) \
+    $(wildcard include/config/HUGETLB_PAGE) \
+  include/linux/mm_types.h \
+    $(wildcard include/config/HAVE_ALIGNED_STRUCT_PAGE) \
+    $(wildcard include/config/MEMCG) \
+    $(wildcard include/config/SLAB_OBJ_EXT) \
+    $(wildcard include/config/HUGETLB_PMD_PAGE_TABLE_SHARING) \
+    $(wildcard include/config/USERFAULTFD) \
+    $(wildcard include/config/ANON_VMA_NAME) \
+    $(wildcard include/config/PER_VMA_LOCK) \
+    $(wildcard include/config/NUMA) \
+    $(wildcard include/config/SCHED_MM_CID) \
+    $(wildcard include/config/HAVE_ARCH_COMPAT_MMAP_BASES) \
+    $(wildcard include/config/MEMBARRIER) \
+    $(wildcard include/config/AIO) \
+    $(wildcard include/config/MMU_NOTIFIER) \
+    $(wildcard include/config/SPLIT_PMD_PTLOCKS) \
+    $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
+    $(wildcard include/config/PREEMPT_RT) \
+    $(wildcard include/config/IOMMU_MM_DATA) \
+    $(wildcard include/config/LRU_GEN_WALKS_MMU) \
+    $(wildcard include/config/LRU_GEN) \
+  include/linux/mm_types_task.h \
+  arch/arm64/include/asm/tlbbatch.h \
+  include/linux/auxvec.h \
+  include/uapi/linux/auxvec.h \
+  arch/arm64/include/uapi/asm/auxvec.h \
+  include/linux/kref.h \
+  include/linux/spinlock.h \
     $(wildcard include/config/PREEMPTION) \
+  include/linux/preempt.h \
+    $(wildcard include/config/PREEMPT_COUNT) \
+    $(wildcard include/config/DEBUG_PREEMPT) \
+    $(wildcard include/config/TRACE_PREEMPT_TOGGLE) \
     $(wildcard include/config/PREEMPT_NOTIFIERS) \
     $(wildcard include/config/PREEMPT_NONE) \
     $(wildcard include/config/PREEMPT_VOLUNTARY) \
     $(wildcard include/config/PREEMPT) \
+  include/linux/cleanup.h \
   arch/arm64/include/asm/preempt.h \
   include/linux/thread_info.h \
     $(wildcard include/config/THREAD_INFO_IN_TASK) \
@@ -410,16 +373,100 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/HARDENED_USERCOPY) \
     $(wildcard include/config/SH) \
   include/linux/restart_block.h \
+  include/linux/errno.h \
+  include/uapi/linux/errno.h \
+  arch/arm64/include/asm/current.h \
   arch/arm64/include/asm/thread_info.h \
+    $(wildcard include/config/ARM64_SW_TTBR0_PAN) \
   arch/arm64/include/asm/stack_pointer.h \
-  arch/arm64/include/asm/smp.h \
-    $(wildcard include/config/ARM64_ACPI_PARKING_PROTOCOL) \
+  include/linux/irqflags.h \
+    $(wildcard include/config/TRACE_IRQFLAGS) \
+    $(wildcard include/config/IRQSOFF_TRACER) \
+    $(wildcard include/config/PREEMPT_TRACER) \
+    $(wildcard include/config/DEBUG_IRQFLAGS) \
+    $(wildcard include/config/TRACE_IRQFLAGS_SUPPORT) \
+  include/linux/irqflags_types.h \
+  arch/arm64/include/asm/irqflags.h \
+    $(wildcard include/config/ARM64_DEBUG_PRIORITY_MASKING) \
+  arch/arm64/include/asm/ptrace.h \
+    $(wildcard include/config/COMPAT) \
+  arch/arm64/include/asm/cpufeature.h \
+    $(wildcard include/config/ARM64_BTI_KERNEL) \
+    $(wildcard include/config/ARM64_POE) \
+    $(wildcard include/config/ARM64_PA_BITS) \
+    $(wildcard include/config/ARM64_HW_AFDBM) \
+    $(wildcard include/config/ARM64_AMU_EXTN) \
+  arch/arm64/include/asm/cputype.h \
+  arch/arm64/include/asm/hwcap.h \
+  arch/arm64/include/uapi/asm/hwcap.h \
+  include/linux/cpumask.h \
+    $(wildcard include/config/FORCE_NR_CPUS) \
+    $(wildcard include/config/HOTPLUG_CPU) \
+    $(wildcard include/config/DEBUG_PER_CPU_MAPS) \
+    $(wildcard include/config/CPUMASK_OFFSTACK) \
+  include/linux/bitmap.h \
+  include/linux/find.h \
+  include/linux/string.h \
+    $(wildcard include/config/BINARY_PRINTF) \
+    $(wildcard include/config/FORTIFY_SOURCE) \
+  include/linux/args.h \
+  include/uapi/linux/string.h \
+  arch/arm64/include/asm/string.h \
+    $(wildcard include/config/ARCH_HAS_UACCESS_FLUSHCACHE) \
+  include/linux/bitmap-str.h \
+  include/linux/cpumask_types.h \
+  include/linux/threads.h \
+    $(wildcard include/config/BASE_SMALL) \
+  include/linux/gfp_types.h \
+  include/linux/numa.h \
+    $(wildcard include/config/NODES_SHIFT) \
+    $(wildcard include/config/NUMA_KEEP_MEMINFO) \
+    $(wildcard include/config/HAVE_ARCH_NODE_DEV_GROUP) \
+  arch/arm64/include/asm/sparsemem.h \
+  arch/arm64/include/asm/pgtable-prot.h \
+  arch/arm64/include/asm/pgtable-hwdef.h \
+    $(wildcard include/config/ARM64_CONT_PTE_SHIFT) \
+    $(wildcard include/config/ARM64_CONT_PMD_SHIFT) \
+    $(wildcard include/config/ARM64_VA_BITS_52) \
+  arch/arm64/include/uapi/asm/ptrace.h \
+  arch/arm64/include/uapi/asm/sve_context.h \
+  include/linux/irqchip/arm-gic-v3-prio.h \
   arch/arm64/include/asm/percpu.h \
   include/asm-generic/percpu.h \
     $(wildcard include/config/HAVE_SETUP_PER_CPU_AREA) \
   include/linux/percpu-defs.h \
     $(wildcard include/config/DEBUG_FORCE_WEAK_PER_CPU) \
     $(wildcard include/config/AMD_MEM_ENCRYPT) \
+  include/linux/bottom_half.h \
+  include/linux/lockdep.h \
+    $(wildcard include/config/DEBUG_LOCKING_API_SELFTESTS) \
+  include/linux/smp.h \
+    $(wildcard include/config/UP_LATE_INIT) \
+    $(wildcard include/config/CSD_LOCK_WAIT_DEBUG) \
+  include/linux/list.h \
+    $(wildcard include/config/LIST_HARDENED) \
+    $(wildcard include/config/DEBUG_LIST) \
+  include/linux/poison.h \
+    $(wildcard include/config/ILLEGAL_POINTER_VALUE) \
+  include/linux/smp_types.h \
+  include/linux/llist.h \
+    $(wildcard include/config/ARCH_HAVE_NMI_SAFE_CMPXCHG) \
+  arch/arm64/include/asm/smp.h \
+    $(wildcard include/config/ARM64_ACPI_PARKING_PROTOCOL) \
+  arch/arm64/include/generated/asm/mmiowb.h \
+  include/asm-generic/mmiowb.h \
+    $(wildcard include/config/MMIOWB) \
+  include/linux/spinlock_types.h \
+  include/linux/rtmutex.h \
+    $(wildcard include/config/DEBUG_RT_MUTEXES) \
+  include/linux/rbtree_types.h \
+  include/linux/rwlock_types.h \
+  include/linux/rwbase_rt.h \
+  arch/arm64/include/asm/spinlock.h \
+  arch/arm64/include/generated/asm/qspinlock.h \
+  include/asm-generic/qspinlock.h \
+  arch/arm64/include/generated/asm/qrwlock.h \
+  include/asm-generic/qrwlock.h \
   arch/arm64/include/asm/processor.h \
     $(wildcard include/config/KUSER_HELPERS) \
     $(wildcard include/config/ARM64_FORCE_52BIT) \
@@ -428,19 +475,12 @@ deps_drivers/pci/rom.o := \
   include/linux/cache.h \
     $(wildcard include/config/ARCH_HAS_CACHE_LINE_SIZE) \
   arch/arm64/include/asm/cache.h \
-  include/linux/kasan-enabled.h \
-  include/linux/static_key.h \
-  arch/arm64/include/asm/mte-def.h \
   include/vdso/processor.h \
   arch/arm64/include/asm/vdso/processor.h \
   arch/arm64/include/asm/hw_breakpoint.h \
     $(wildcard include/config/CPU_PM) \
   arch/arm64/include/asm/virt.h \
     $(wildcard include/config/KVM) \
-  arch/arm64/include/asm/ptrace.h \
-  arch/arm64/include/uapi/asm/ptrace.h \
-  arch/arm64/include/uapi/asm/sve_context.h \
-  include/linux/irqchip/arm-gic-v3-prio.h \
   arch/arm64/include/asm/kasan.h \
   arch/arm64/include/asm/mte-kasan.h \
   arch/arm64/include/asm/pointer_auth.h \
@@ -459,12 +499,85 @@ deps_drivers/pci/rom.o := \
   arch/arm64/include/asm/spectre.h \
   arch/arm64/include/asm/fpsimd.h \
   arch/arm64/include/uapi/asm/sigcontext.h \
-  include/linux/osq_lock.h \
-  include/linux/debug_locks.h \
-  include/linux/mutex_types.h \
-    $(wildcard include/config/MUTEX_SPIN_ON_OWNER) \
-  include/linux/idr.h \
-  include/linux/radix-tree.h \
+  include/linux/spinlock_api_smp.h \
+    $(wildcard include/config/INLINE_SPIN_LOCK) \
+    $(wildcard include/config/INLINE_SPIN_LOCK_BH) \
+    $(wildcard include/config/INLINE_SPIN_LOCK_IRQ) \
+    $(wildcard include/config/INLINE_SPIN_LOCK_IRQSAVE) \
+    $(wildcard include/config/INLINE_SPIN_TRYLOCK) \
+    $(wildcard include/config/INLINE_SPIN_TRYLOCK_BH) \
+    $(wildcard include/config/UNINLINE_SPIN_UNLOCK) \
+    $(wildcard include/config/INLINE_SPIN_UNLOCK_BH) \
+    $(wildcard include/config/INLINE_SPIN_UNLOCK_IRQ) \
+    $(wildcard include/config/INLINE_SPIN_UNLOCK_IRQRESTORE) \
+    $(wildcard include/config/GENERIC_LOCKBREAK) \
+  include/linux/spinlock_rt.h \
+  include/linux/rwlock_rt.h \
+  include/linux/refcount.h \
+  include/linux/refcount_types.h \
+  include/linux/rbtree.h \
+  include/linux/rcupdate.h \
+    $(wildcard include/config/PREEMPT_RCU) \
+    $(wildcard include/config/TINY_RCU) \
+    $(wildcard include/config/RCU_STRICT_GRACE_PERIOD) \
+    $(wildcard include/config/RCU_LAZY) \
+    $(wildcard include/config/TASKS_RCU_GENERIC) \
+    $(wildcard include/config/RCU_STALL_COMMON) \
+    $(wildcard include/config/NO_HZ_FULL) \
+    $(wildcard include/config/KVM_XFER_TO_GUEST_WORK) \
+    $(wildcard include/config/RCU_NOCB_CPU) \
+    $(wildcard include/config/TASKS_RCU) \
+    $(wildcard include/config/TASKS_TRACE_RCU) \
+    $(wildcard include/config/TASKS_RUDE_RCU) \
+    $(wildcard include/config/TREE_RCU) \
+    $(wildcard include/config/DEBUG_OBJECTS_RCU_HEAD) \
+    $(wildcard include/config/PROVE_RCU) \
+    $(wildcard include/config/ARCH_WEAK_RELEASE_ACQUIRE) \
+  include/linux/context_tracking_irq.h \
+    $(wildcard include/config/CONTEXT_TRACKING_IDLE) \
+  include/linux/rcutree.h \
+  include/linux/maple_tree.h \
+    $(wildcard include/config/MAPLE_RCU_DISABLED) \
+    $(wildcard include/config/DEBUG_MAPLE_TREE) \
+  include/linux/rwsem.h \
+    $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
+    $(wildcard include/config/DEBUG_RWSEMS) \
+  include/linux/completion.h \
+  include/linux/swait.h \
+  include/linux/wait.h \
+  include/linux/uprobes.h \
+    $(wildcard include/config/UPROBES) \
+  arch/arm64/include/asm/uprobes.h \
+  arch/arm64/include/asm/debug-monitors.h \
+  arch/arm64/include/asm/esr.h \
+  arch/arm64/include/asm/probes.h \
+    $(wildcard include/config/KPROBES) \
+  include/linux/page-flags-layout.h \
+  include/generated/bounds.h \
+  include/linux/workqueue.h \
+    $(wildcard include/config/DEBUG_OBJECTS_WORK) \
+    $(wildcard include/config/FREEZER) \
+    $(wildcard include/config/SYSFS) \
+    $(wildcard include/config/WQ_WATCHDOG) \
+  include/linux/timer.h \
+    $(wildcard include/config/DEBUG_OBJECTS_TIMERS) \
+  include/linux/ktime.h \
+  include/linux/jiffies.h \
+  include/linux/math64.h \
+    $(wildcard include/config/ARCH_SUPPORTS_INT128) \
+  include/vdso/math64.h \
+  include/linux/time.h \
+    $(wildcard include/config/POSIX_TIMERS) \
+  include/linux/time64.h \
+  include/vdso/time64.h \
+  include/uapi/linux/time.h \
+  include/uapi/linux/time_types.h \
+  include/linux/time32.h \
+  include/linux/timex.h \
+  include/uapi/linux/timex.h \
+  arch/arm64/include/asm/timex.h \
+  arch/arm64/include/asm/arch_timer.h \
+    $(wildcard include/config/ARM_ARCH_TIMER_OOL_WORKAROUND) \
   include/linux/percpu.h \
     $(wildcard include/config/MEM_ALLOC_PROFILING) \
     $(wildcard include/config/RANDOM_KMALLOC_CACHES) \
@@ -475,14 +588,6 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/MEM_ALLOC_PROFILING_ENABLED_BY_DEFAULT) \
   include/linux/codetag.h \
     $(wildcard include/config/CODE_TAGGING) \
-  include/linux/irqflags.h \
-    $(wildcard include/config/TRACE_IRQFLAGS) \
-    $(wildcard include/config/IRQSOFF_TRACER) \
-    $(wildcard include/config/PREEMPT_TRACER) \
-    $(wildcard include/config/DEBUG_IRQFLAGS) \
-    $(wildcard include/config/TRACE_IRQFLAGS_SUPPORT) \
-  include/linux/irqflags_types.h \
-  arch/arm64/include/asm/irqflags.h \
   include/linux/sched.h \
     $(wildcard include/config/VIRT_CPU_ACCOUNTING_NATIVE) \
     $(wildcard include/config/SCHED_INFO) \
@@ -497,11 +602,7 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/SCHED_CLASS_EXT) \
     $(wildcard include/config/CGROUP_SCHED) \
     $(wildcard include/config/BLK_DEV_IO_TRACE) \
-    $(wildcard include/config/PREEMPT_RCU) \
-    $(wildcard include/config/TASKS_RCU) \
-    $(wildcard include/config/TASKS_TRACE_RCU) \
     $(wildcard include/config/MEMCG_V1) \
-    $(wildcard include/config/LRU_GEN) \
     $(wildcard include/config/COMPAT_BRK) \
     $(wildcard include/config/CGROUPS) \
     $(wildcard include/config/BLK_CGROUP) \
@@ -514,7 +615,6 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/STACKPROTECTOR) \
     $(wildcard include/config/ARCH_HAS_SCALED_CPUTIME) \
     $(wildcard include/config/VIRT_CPU_ACCOUNTING_GEN) \
-    $(wildcard include/config/NO_HZ_FULL) \
     $(wildcard include/config/POSIX_CPUTIMERS) \
     $(wildcard include/config/POSIX_CPU_TIMERS_TASK_WORK) \
     $(wildcard include/config/KEYS) \
@@ -523,6 +623,7 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/IO_URING) \
     $(wildcard include/config/AUDIT) \
     $(wildcard include/config/AUDITSYSCALL) \
+    $(wildcard include/config/DEBUG_MUTEXES) \
     $(wildcard include/config/UBSAN) \
     $(wildcard include/config/UBSAN_TRAP) \
     $(wildcard include/config/COMPACTION) \
@@ -531,20 +632,17 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/X86_CPU_RESCTRL) \
     $(wildcard include/config/FUTEX) \
     $(wildcard include/config/PERF_EVENTS) \
-    $(wildcard include/config/NUMA_BALANCING) \
     $(wildcard include/config/RSEQ) \
-    $(wildcard include/config/SCHED_MM_CID) \
     $(wildcard include/config/FAULT_INJECTION) \
     $(wildcard include/config/LATENCYTOP) \
     $(wildcard include/config/KUNIT) \
     $(wildcard include/config/FUNCTION_GRAPH_TRACER) \
-    $(wildcard include/config/MEMCG) \
-    $(wildcard include/config/UPROBES) \
     $(wildcard include/config/BCACHE) \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -555,13 +653,12 @@ deps_drivers/pci/rom.o := \
   include/linux/pid_types.h \
   include/linux/sem_types.h \
   include/linux/shm.h \
-  arch/arm64/include/asm/page.h \
-  include/linux/personality.h \
-  include/uapi/linux/personality.h \
-  include/asm-generic/getorder.h \
   arch/arm64/include/asm/shmparam.h \
   include/asm-generic/shmparam.h \
   include/linux/kmsan_types.h \
+  include/linux/mutex_types.h \
+    $(wildcard include/config/MUTEX_SPIN_ON_OWNER) \
+  include/linux/osq_lock.h \
   include/linux/plist_types.h \
   include/linux/hrtimer_types.h \
   include/linux/timerqueue_types.h \
@@ -569,10 +666,8 @@ deps_drivers/pci/rom.o := \
   include/linux/seccomp_types.h \
     $(wildcard include/config/SECCOMP) \
   include/linux/nodemask_types.h \
-  include/linux/refcount_types.h \
   include/linux/resource.h \
   include/uapi/linux/resource.h \
-  include/uapi/linux/time_types.h \
   arch/arm64/include/generated/uapi/asm/resource.h \
   include/asm-generic/resource.h \
   include/uapi/asm-generic/resource.h \
@@ -590,15 +685,12 @@ deps_drivers/pci/rom.o := \
   arch/arm64/include/generated/uapi/asm/siginfo.h \
   include/uapi/asm-generic/siginfo.h \
   include/linux/syscall_user_dispatch_types.h \
-  include/linux/mm_types_task.h \
-    $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
-  arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
   include/linux/posix-timers_types.h \
-    $(wildcard include/config/POSIX_TIMERS) \
   include/uapi/linux/rseq.h \
   include/linux/seqlock_types.h \
   include/linux/kcsan.h \
@@ -611,134 +703,6 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/DEBUG_KMAP_LOCAL) \
   include/linux/sched/ext.h \
     $(wildcard include/config/EXT_GROUP_SCHED) \
-  include/linux/spinlock.h \
-  include/linux/bottom_half.h \
-  arch/arm64/include/generated/asm/mmiowb.h \
-  include/asm-generic/mmiowb.h \
-    $(wildcard include/config/MMIOWB) \
-  arch/arm64/include/asm/spinlock.h \
-  arch/arm64/include/generated/asm/qspinlock.h \
-  include/asm-generic/qspinlock.h \
-  arch/arm64/include/generated/asm/qrwlock.h \
-  include/asm-generic/qrwlock.h \
-  include/linux/spinlock_api_smp.h \
-    $(wildcard include/config/INLINE_SPIN_LOCK) \
-    $(wildcard include/config/INLINE_SPIN_LOCK_BH) \
-    $(wildcard include/config/INLINE_SPIN_LOCK_IRQ) \
-    $(wildcard include/config/INLINE_SPIN_LOCK_IRQSAVE) \
-    $(wildcard include/config/INLINE_SPIN_TRYLOCK) \
-    $(wildcard include/config/INLINE_SPIN_TRYLOCK_BH) \
-    $(wildcard include/config/UNINLINE_SPIN_UNLOCK) \
-    $(wildcard include/config/INLINE_SPIN_UNLOCK_BH) \
-    $(wildcard include/config/INLINE_SPIN_UNLOCK_IRQ) \
-    $(wildcard include/config/INLINE_SPIN_UNLOCK_IRQRESTORE) \
-    $(wildcard include/config/GENERIC_LOCKBREAK) \
-  include/linux/spinlock_rt.h \
-  include/linux/rwlock_rt.h \
-  include/linux/rcupdate.h \
-    $(wildcard include/config/TINY_RCU) \
-    $(wildcard include/config/RCU_STRICT_GRACE_PERIOD) \
-    $(wildcard include/config/RCU_LAZY) \
-    $(wildcard include/config/TASKS_RCU_GENERIC) \
-    $(wildcard include/config/RCU_STALL_COMMON) \
-    $(wildcard include/config/KVM_XFER_TO_GUEST_WORK) \
-    $(wildcard include/config/RCU_NOCB_CPU) \
-    $(wildcard include/config/TASKS_RUDE_RCU) \
-    $(wildcard include/config/TREE_RCU) \
-    $(wildcard include/config/DEBUG_OBJECTS_RCU_HEAD) \
-    $(wildcard include/config/PROVE_RCU) \
-    $(wildcard include/config/ARCH_WEAK_RELEASE_ACQUIRE) \
-  include/linux/context_tracking_irq.h \
-    $(wildcard include/config/CONTEXT_TRACKING_IDLE) \
-  include/linux/rcutree.h \
-  include/linux/xarray.h \
-    $(wildcard include/config/XARRAY_MULTI) \
-  include/linux/gfp.h \
-    $(wildcard include/config/HIGHMEM) \
-    $(wildcard include/config/ZONE_DMA) \
-    $(wildcard include/config/ZONE_DMA32) \
-    $(wildcard include/config/ZONE_DEVICE) \
-    $(wildcard include/config/CONTIG_ALLOC) \
-  include/linux/mmzone.h \
-    $(wildcard include/config/ARCH_FORCE_MAX_ORDER) \
-    $(wildcard include/config/CMA) \
-    $(wildcard include/config/MEMORY_ISOLATION) \
-    $(wildcard include/config/ZSMALLOC) \
-    $(wildcard include/config/UNACCEPTED_MEMORY) \
-    $(wildcard include/config/IOMMU_SUPPORT) \
-    $(wildcard include/config/SWAP) \
-    $(wildcard include/config/TRANSPARENT_HUGEPAGE) \
-    $(wildcard include/config/LRU_GEN_STATS) \
-    $(wildcard include/config/LRU_GEN_WALKS_MMU) \
-    $(wildcard include/config/MEMORY_FAILURE) \
-    $(wildcard include/config/PAGE_EXTENSION) \
-    $(wildcard include/config/DEFERRED_STRUCT_PAGE_INIT) \
-    $(wildcard include/config/HAVE_MEMORYLESS_NODES) \
-    $(wildcard include/config/SPARSEMEM_EXTREME) \
-    $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
-  include/linux/list_nulls.h \
-  include/linux/wait.h \
-  include/linux/seqlock.h \
-  include/linux/nodemask.h \
-  include/linux/pageblock-flags.h \
-    $(wildcard include/config/HUGETLB_PAGE) \
-    $(wildcard include/config/HUGETLB_PAGE_SIZE_VARIABLE) \
-  include/linux/page-flags-layout.h \
-  include/generated/bounds.h \
-  include/linux/mm_types.h \
-    $(wildcard include/config/HAVE_ALIGNED_STRUCT_PAGE) \
-    $(wildcard include/config/HUGETLB_PMD_PAGE_TABLE_SHARING) \
-    $(wildcard include/config/USERFAULTFD) \
-    $(wildcard include/config/ANON_VMA_NAME) \
-    $(wildcard include/config/PER_VMA_LOCK) \
-    $(wildcard include/config/HAVE_ARCH_COMPAT_MMAP_BASES) \
-    $(wildcard include/config/MEMBARRIER) \
-    $(wildcard include/config/AIO) \
-    $(wildcard include/config/MMU_NOTIFIER) \
-    $(wildcard include/config/SPLIT_PMD_PTLOCKS) \
-    $(wildcard include/config/IOMMU_MM_DATA) \
-    $(wildcard include/config/KSM) \
-  include/linux/auxvec.h \
-  include/uapi/linux/auxvec.h \
-  arch/arm64/include/uapi/asm/auxvec.h \
-  include/linux/kref.h \
-  include/linux/refcount.h \
-  include/linux/rbtree.h \
-  include/linux/maple_tree.h \
-    $(wildcard include/config/MAPLE_RCU_DISABLED) \
-    $(wildcard include/config/DEBUG_MAPLE_TREE) \
-  include/linux/rwsem.h \
-    $(wildcard include/config/RWSEM_SPIN_ON_OWNER) \
-    $(wildcard include/config/DEBUG_RWSEMS) \
-  include/linux/completion.h \
-  include/linux/swait.h \
-  include/linux/uprobes.h \
-  arch/arm64/include/asm/uprobes.h \
-  arch/arm64/include/asm/debug-monitors.h \
-  arch/arm64/include/asm/esr.h \
-  arch/arm64/include/asm/probes.h \
-    $(wildcard include/config/KPROBES) \
-  include/linux/workqueue.h \
-    $(wildcard include/config/DEBUG_OBJECTS_WORK) \
-    $(wildcard include/config/FREEZER) \
-    $(wildcard include/config/WQ_WATCHDOG) \
-  include/linux/timer.h \
-    $(wildcard include/config/DEBUG_OBJECTS_TIMERS) \
-  include/linux/ktime.h \
-  include/linux/jiffies.h \
-  include/linux/math64.h \
-    $(wildcard include/config/ARCH_SUPPORTS_INT128) \
-  include/vdso/math64.h \
-  include/linux/time.h \
-  include/linux/time64.h \
-  include/vdso/time64.h \
-  include/uapi/linux/time.h \
-  include/linux/time32.h \
-  include/linux/timex.h \
-  include/uapi/linux/timex.h \
-  arch/arm64/include/asm/timex.h \
-  arch/arm64/include/asm/arch_timer.h \
-    $(wildcard include/config/ARM_ARCH_TIMER_OOL_WORKAROUND) \
   include/clocksource/arm_arch_timer.h \
     $(wildcard include/config/ARM_ARCH_TIMER) \
   include/linux/timecounter.h \
@@ -755,16 +719,116 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/DEBUG_OBJECTS) \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
+  include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
+  include/linux/mutex.h \
+  include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
   arch/arm64/include/asm/mmu.h \
     $(wildcard include/config/ARM64_E0PD) \
     $(wildcard include/config/CAVIUM_ERRATUM_27456) \
-  include/linux/page-flags.h \
-    $(wildcard include/config/PAGE_IDLE_FLAG) \
-    $(wildcard include/config/ARCH_USES_PG_ARCH_2) \
-    $(wildcard include/config/ARCH_USES_PG_ARCH_3) \
-    $(wildcard include/config/HUGETLB_PAGE_OPTIMIZE_VMEMMAP) \
-    $(wildcard include/config/DEBUG_KMAP_LOCAL_FORCE_MAP) \
+  arch/arm64/include/asm/tlbflush.h \
+  include/linux/mmu_notifier.h \
+  include/linux/mmap_lock.h \
+  include/linux/tracepoint-defs.h \
+    $(wildcard include/config/TRACEPOINTS) \
+  include/linux/srcu.h \
+    $(wildcard include/config/TINY_SRCU) \
+    $(wildcard include/config/TREE_SRCU) \
+    $(wildcard include/config/NEED_SRCU_NMI_SAFE) \
+  include/linux/rcu_segcblist.h \
+  include/linux/srcutree.h \
+  include/linux/rcu_node_tree.h \
+    $(wildcard include/config/RCU_FANOUT) \
+    $(wildcard include/config/RCU_FANOUT_LEAF) \
+  include/linux/interval_tree.h \
+  arch/arm64/include/asm/fixmap.h \
+    $(wildcard include/config/ACPI_APEI_GHES) \
+    $(wildcard include/config/ARM_SDE_INTERFACE) \
+    $(wildcard include/config/RELOCATABLE) \
+  include/asm-generic/fixmap.h \
+  arch/arm64/include/asm/por.h \
+  include/linux/page_table_check.h \
+  include/asm-generic/pgtable_uffd.h \
+  arch/arm64/include/generated/asm/early_ioremap.h \
+  include/asm-generic/early_ioremap.h \
+    $(wildcard include/config/GENERIC_EARLY_IOREMAP) \
+  include/asm-generic/io.h \
+    $(wildcard include/config/GENERIC_IOMAP) \
+    $(wildcard include/config/TRACE_MMIO_ACCESS) \
+    $(wildcard include/config/GENERIC_IOREMAP) \
+  include/asm-generic/pci_iomap.h \
+    $(wildcard include/config/NO_GENERIC_PCI_IOPORT_MAP) \
+    $(wildcard include/config/GENERIC_PCI_IOMAP) \
+  include/linux/logic_pio.h \
+    $(wildcard include/config/INDIRECT_PIO) \
+  include/linux/fwnode.h \
+  include/linux/pci.h \
+    $(wildcard include/config/PCI_IOV) \
+    $(wildcard include/config/PCIEAER) \
+    $(wildcard include/config/PCIEPORTBUS) \
+    $(wildcard include/config/PCIEASPM) \
+    $(wildcard include/config/HOTPLUG_PCI_PCIE) \
+    $(wildcard include/config/PCIE_PTM) \
+    $(wildcard include/config/PCI_MSI) \
+    $(wildcard include/config/PCIE_DPC) \
+    $(wildcard include/config/PCI_ATS) \
+    $(wildcard include/config/PCI_PRI) \
+    $(wildcard include/config/PCI_PASID) \
+    $(wildcard include/config/PCI_P2PDMA) \
+    $(wildcard include/config/PCI_DOE) \
+    $(wildcard include/config/PCI_NPEM) \
+    $(wildcard include/config/PCI_DOMAINS_GENERIC) \
+    $(wildcard include/config/PCI_DOMAINS) \
+    $(wildcard include/config/ACPI) \
+    $(wildcard include/config/PCI_QUIRKS) \
+    $(wildcard include/config/PCI_MMCONFIG) \
+    $(wildcard include/config/ACPI_MCFG) \
+    $(wildcard include/config/HOTPLUG_PCI) \
+    $(wildcard include/config/OF) \
+    $(wildcard include/config/X86) \
+    $(wildcard include/config/EEH) \
+    $(wildcard include/config/S390) \
+  include/linux/mod_devicetable.h \
+  include/uapi/linux/mei.h \
+  include/uapi/linux/mei_uuid.h \
+  include/linux/uuid.h \
+  include/linux/ioport.h \
+    $(wildcard include/config/MEMORY_HOTREMOVE) \
+  include/linux/kobject.h \
+    $(wildcard include/config/UEVENT_HELPER) \
+    $(wildcard include/config/DEBUG_KOBJECT_RELEASE) \
+  include/linux/sysfs.h \
+  include/linux/kernfs.h \
+    $(wildcard include/config/KERNFS) \
+  include/linux/idr.h \
+  include/linux/radix-tree.h \
+  include/linux/xarray.h \
+    $(wildcard include/config/XARRAY_MULTI) \
+  include/linux/gfp.h \
+    $(wildcard include/config/ZONE_DMA) \
+    $(wildcard include/config/ZONE_DMA32) \
+    $(wildcard include/config/ZONE_DEVICE) \
+    $(wildcard include/config/CONTIG_ALLOC) \
+  include/linux/mmzone.h \
+    $(wildcard include/config/ARCH_FORCE_MAX_ORDER) \
+    $(wildcard include/config/CMA) \
+    $(wildcard include/config/MEMORY_ISOLATION) \
+    $(wildcard include/config/ZSMALLOC) \
+    $(wildcard include/config/UNACCEPTED_MEMORY) \
+    $(wildcard include/config/IOMMU_SUPPORT) \
+    $(wildcard include/config/LRU_GEN_STATS) \
+    $(wildcard include/config/PAGE_EXTENSION) \
+    $(wildcard include/config/DEFERRED_STRUCT_PAGE_INIT) \
+    $(wildcard include/config/HAVE_MEMORYLESS_NODES) \
+    $(wildcard include/config/SPARSEMEM_EXTREME) \
+    $(wildcard include/config/HAVE_ARCH_PFN_VALID) \
+  include/linux/list_nulls.h \
+  include/linux/nodemask.h \
+  include/linux/pageblock-flags.h \
+    $(wildcard include/config/HUGETLB_PAGE_SIZE_VARIABLE) \
   include/linux/local_lock.h \
   include/linux/local_lock_internal.h \
   include/linux/zswap.h \
@@ -772,15 +836,6 @@ deps_drivers/pci/rom.o := \
   include/linux/memory_hotplug.h \
     $(wildcard include/config/ARCH_HAS_ADD_PAGES) \
   include/linux/notifier.h \
-    $(wildcard include/config/TREE_SRCU) \
-  include/linux/srcu.h \
-    $(wildcard include/config/TINY_SRCU) \
-    $(wildcard include/config/NEED_SRCU_NMI_SAFE) \
-  include/linux/rcu_segcblist.h \
-  include/linux/srcutree.h \
-  include/linux/rcu_node_tree.h \
-    $(wildcard include/config/RCU_FANOUT) \
-    $(wildcard include/config/RCU_FANOUT_LEAF) \
   arch/arm64/include/generated/asm/mmzone.h \
   include/asm-generic/mmzone.h \
   include/linux/topology.h \
@@ -874,7 +929,6 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/ARCH_USES_CFI_TRAPS) \
     $(wildcard include/config/MODULE_SIG) \
     $(wildcard include/config/KALLSYMS) \
-    $(wildcard include/config/TRACEPOINTS) \
     $(wildcard include/config/BPF_EVENTS) \
     $(wildcard include/config/EVENT_TRACING) \
     $(wildcard include/config/MODULE_UNLOAD) \
@@ -899,6 +953,7 @@ deps_drivers/pci/rom.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -964,9 +1019,7 @@ deps_drivers/pci/rom.o := \
   arch/arm64/include/asm/uaccess.h \
     $(wildcard include/config/CC_HAS_ASM_GOTO_OUTPUT) \
   arch/arm64/include/asm/kernel-pgtable.h \
-    $(wildcard include/config/RELOCATABLE) \
   arch/arm64/include/asm/asm-extable.h \
-  arch/arm64/include/asm/mte.h \
   arch/arm64/include/asm/extable.h \
     $(wildcard include/config/BPF_JIT) \
   include/asm-generic/access_ok.h \
@@ -1019,7 +1072,6 @@ deps_drivers/pci/rom.o := \
   include/linux/rbtree_latch.h \
   include/linux/error-injection.h \
   include/asm-generic/error-injection.h \
-  include/linux/tracepoint-defs.h \
   include/linux/dynamic_debug.h \
   arch/arm64/include/asm/module.h \
     $(wildcard include/config/DYNAMIC_FTRACE) \
@@ -1061,51 +1113,6 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/GENERIC_IRQ_CHIP) \
     $(wildcard include/config/GENERIC_IRQ_MULTI_HANDLER) \
   include/linux/irqhandler.h \
-  include/linux/io.h \
-    $(wildcard include/config/HAS_IOPORT_MAP) \
-  arch/arm64/include/asm/io.h \
-  include/linux/pgtable.h \
-    $(wildcard include/config/HIGHPTE) \
-    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
-    $(wildcard include/config/ARCH_HAS_HW_PTE_YOUNG) \
-    $(wildcard include/config/GUP_GET_PXX_LOW_HIGH) \
-    $(wildcard include/config/ARCH_WANT_PMD_MKWRITE) \
-    $(wildcard include/config/HAVE_ARCH_TRANSPARENT_HUGEPAGE_PUD) \
-    $(wildcard include/config/HAVE_ARCH_SOFT_DIRTY) \
-    $(wildcard include/config/ARCH_ENABLE_THP_MIGRATION) \
-    $(wildcard include/config/ARCH_HAS_PTE_DEVMAP) \
-    $(wildcard include/config/HAVE_ARCH_HUGE_VMAP) \
-    $(wildcard include/config/X86_ESPFIX64) \
-  arch/arm64/include/asm/pgtable.h \
-    $(wildcard include/config/ARCH_SUPPORTS_PMD_PFNMAP) \
-    $(wildcard include/config/ARCH_SUPPORTS_PUD_PFNMAP) \
-    $(wildcard include/config/PAGE_TABLE_CHECK) \
-    $(wildcard include/config/ARM64_CONTPTE) \
-  arch/arm64/include/asm/proc-fns.h \
-  arch/arm64/include/asm/tlbflush.h \
-  include/linux/mmu_notifier.h \
-  include/linux/mmap_lock.h \
-  include/linux/interval_tree.h \
-  arch/arm64/include/asm/fixmap.h \
-    $(wildcard include/config/ACPI_APEI_GHES) \
-    $(wildcard include/config/ARM_SDE_INTERFACE) \
-  include/asm-generic/fixmap.h \
-  arch/arm64/include/asm/por.h \
-  include/linux/page_table_check.h \
-  include/asm-generic/pgtable_uffd.h \
-  arch/arm64/include/generated/asm/early_ioremap.h \
-  include/asm-generic/early_ioremap.h \
-    $(wildcard include/config/GENERIC_EARLY_IOREMAP) \
-  include/asm-generic/io.h \
-    $(wildcard include/config/GENERIC_IOMAP) \
-    $(wildcard include/config/TRACE_MMIO_ACCESS) \
-    $(wildcard include/config/GENERIC_IOREMAP) \
-  include/asm-generic/pci_iomap.h \
-    $(wildcard include/config/NO_GENERIC_PCI_IOPORT_MAP) \
-    $(wildcard include/config/GENERIC_PCI_IOMAP) \
-  include/linux/logic_pio.h \
-    $(wildcard include/config/INDIRECT_PIO) \
-  include/linux/fwnode.h \
   arch/arm64/include/generated/asm/irq_regs.h \
   include/asm-generic/irq_regs.h \
   include/linux/irqdesc.h \
@@ -1168,6 +1175,8 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/DEVICE_PRIVATE) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1180,9 +1189,6 @@ deps_drivers/pci/rom.o := \
     $(wildcard include/config/DMA_API_DEBUG) \
     $(wildcard include/config/NEED_DMA_MAP_STATE) \
   include/linux/dma-direction.h \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/pci.h \
   drivers/pci/pci.h \
     $(wildcard include/config/DMI) \
@@ -1194,7 +1200,7 @@ deps_drivers/pci/rom.o := \
 drivers/pci/rom.o: $(deps_drivers/pci/rom.o)
 
 $(deps_drivers/pci/rom.o):
-#SYMVER pci_enable_rom 0x9dd005d7
-#SYMVER pci_disable_rom 0x157be1b4
-#SYMVER pci_map_rom 0xbd2c256b
-#SYMVER pci_unmap_rom 0x0d62240d
+#SYMVER pci_enable_rom 0xa245a27f
+#SYMVER pci_disable_rom 0x9eee4279
+#SYMVER pci_map_rom 0x6454aeb2
+#SYMVER pci_unmap_rom 0x2bbe698c

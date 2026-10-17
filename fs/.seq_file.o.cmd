@@ -1,4 +1,4 @@
-savedcmd_fs/seq_file.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.seq_file.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"fs/seq_file"' -DKBUILD_BASENAME='"seq_file"' -DKBUILD_MODNAME='"seq_file"' -D__KBUILD_MODNAME=kmod_seq_file -c -o fs/seq_file.o fs/seq_file.c  
+savedcmd_fs/seq_file.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,fs/.seq_file.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"fs/seq_file"' -DKBUILD_BASENAME='"seq_file"' -DKBUILD_MODNAME='"seq_file"' -D__KBUILD_MODNAME=kmod_seq_file -c -o fs/seq_file.o fs/seq_file.c  
 
 source_fs/seq_file.o := fs/seq_file.c
 
@@ -24,6 +24,7 @@ deps_fs/seq_file.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -188,6 +189,7 @@ deps_fs/seq_file.o := \
   include/linux/bitfield.h \
   arch/arm64/include/asm/mte-def.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/SECURITY) \
@@ -496,6 +498,9 @@ deps_fs/seq_file.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
     $(wildcard include/config/DEBUG_MUTEXES) \
   include/linux/osq_lock.h \
@@ -597,6 +602,7 @@ deps_fs/seq_file.o := \
     $(wildcard include/config/LIVEPATCH) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -645,6 +651,7 @@ deps_fs/seq_file.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -920,6 +927,7 @@ deps_fs/seq_file.o := \
     $(wildcard include/config/ARCH_SUPPORTS_PMD_PFNMAP) \
     $(wildcard include/config/ARCH_SUPPORTS_PUD_PFNMAP) \
     $(wildcard include/config/PAGE_TABLE_CHECK) \
+    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
     $(wildcard include/config/ARCH_ENABLE_THP_MIGRATION) \
     $(wildcard include/config/ARM64_CONTPTE) \
   arch/arm64/include/asm/proc-fns.h \
@@ -975,7 +983,6 @@ deps_fs/seq_file.o := \
   include/linux/page_ref.h \
     $(wildcard include/config/DEBUG_PAGE_REF) \
   include/linux/pgtable.h \
-    $(wildcard include/config/ARCH_HAS_NONLEAF_PMD_YOUNG) \
     $(wildcard include/config/ARCH_HAS_HW_PTE_YOUNG) \
     $(wildcard include/config/GUP_GET_PXX_LOW_HIGH) \
     $(wildcard include/config/ARCH_WANT_PMD_MKWRITE) \
@@ -997,6 +1004,8 @@ deps_fs/seq_file.o := \
     $(wildcard include/config/KERNFS) \
   include/linux/idr.h \
   include/linux/kobject_ns.h \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1011,32 +1020,32 @@ deps_fs/seq_file.o := \
 fs/seq_file.o: $(deps_fs/seq_file.o)
 
 $(deps_fs/seq_file.o):
-#SYMVER seq_open 0x5a9c150d
-#SYMVER seq_read 0x12db7ae9
-#SYMVER seq_read_iter 0xbfa92fb0
-#SYMVER seq_lseek 0x1e19deb7
-#SYMVER seq_release 0xf08b89dc
-#SYMVER seq_escape_mem 0xa90963db
-#SYMVER seq_vprintf 0x9e304285
-#SYMVER seq_printf 0xb5d472b5
-#SYMVER seq_bprintf 0x8226a130
+#SYMVER seq_open 0x530365bc
+#SYMVER seq_read 0x52e68251
+#SYMVER seq_read_iter 0xa88341da
+#SYMVER seq_lseek 0x13fe2fca
+#SYMVER seq_release 0x51dd8872
+#SYMVER seq_escape_mem 0x3cc7fb82
+#SYMVER seq_vprintf 0x0a9107f4
+#SYMVER seq_printf 0x4463bb98
+#SYMVER seq_bprintf 0xf0aeb7a1
 #SYMVER mangle_path 0x23b9d6e2
-#SYMVER seq_path 0xdd59f63e
-#SYMVER seq_file_path 0x10806a38
-#SYMVER seq_dentry 0x547becf1
-#SYMVER single_open 0x6e0d0b95
-#SYMVER single_open_size 0xb00aafe2
-#SYMVER single_release 0x0259f92b
-#SYMVER seq_release_private 0xd1e2b059
-#SYMVER __seq_open_private 0xe90e8769
-#SYMVER seq_open_private 0xbd51a605
-#SYMVER seq_putc 0xa888a38d
-#SYMVER __seq_puts 0x79004b3f
-#SYMVER seq_put_decimal_ull 0x5b9232cc
-#SYMVER seq_put_decimal_ll 0x0e573a93
-#SYMVER seq_write 0x2702603f
-#SYMVER seq_pad 0xef1f56dc
-#SYMVER seq_hex_dump 0xb209bb44
+#SYMVER seq_path 0xeb60e9f3
+#SYMVER seq_file_path 0x8dda583f
+#SYMVER seq_dentry 0x52fd976a
+#SYMVER single_open 0xedcad5d4
+#SYMVER single_open_size 0x02fec27b
+#SYMVER single_release 0xf4052a82
+#SYMVER seq_release_private 0x74356b1a
+#SYMVER __seq_open_private 0x0745a32f
+#SYMVER seq_open_private 0xc40a5bcc
+#SYMVER seq_putc 0xc9eb3429
+#SYMVER __seq_puts 0xd60d071e
+#SYMVER seq_put_decimal_ull 0xaa9fb5a7
+#SYMVER seq_put_decimal_ll 0x1209556d
+#SYMVER seq_write 0x5a76b559
+#SYMVER seq_pad 0x73496101
+#SYMVER seq_hex_dump 0xb641c5bf
 #SYMVER seq_list_start 0xff1e9dd8
 #SYMVER seq_list_start_head 0xf346231f
 #SYMVER seq_list_next 0xe7d4daac

@@ -1,4 +1,4 @@
-savedcmd_net/mac80211/util.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/mac80211/.util.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416 -DDEBUG  -DMODULE  -DKBUILD_BASENAME='"util"' -DKBUILD_MODNAME='"mac80211"' -D__KBUILD_MODNAME=kmod_mac80211 -c -o net/mac80211/util.o net/mac80211/util.c  
+savedcmd_net/mac80211/util.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/mac80211/.util.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456 -DDEBUG  -DMODULE  -DKBUILD_BASENAME='"util"' -DKBUILD_MODNAME='"mac80211"' -D__KBUILD_MODNAME=kmod_mac80211 -c -o net/mac80211/util.o net/mac80211/util.c  
 
 source_net/mac80211/util.o := net/mac80211/util.c
 
@@ -24,6 +24,7 @@ deps_net/mac80211/util.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -516,6 +517,7 @@ deps_net/mac80211/util.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -602,6 +604,7 @@ deps_net/mac80211/util.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -653,6 +656,7 @@ deps_net/mac80211/util.o := \
   include/linux/bvec.h \
   include/linux/highmem.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -694,6 +698,9 @@ deps_net/mac80211/util.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/lockref.h \
@@ -1124,6 +1131,8 @@ deps_net/mac80211/util.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1280,9 +1289,6 @@ deps_net/mac80211/util.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1359,6 +1365,7 @@ deps_net/mac80211/util.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1628,30 +1635,30 @@ deps_net/mac80211/util.o := \
 net/mac80211/util.o: $(deps_net/mac80211/util.o)
 
 $(deps_net/mac80211/util.o):
-#SYMVER wiphy_to_ieee80211_hw 0x34b0afca
+#SYMVER wiphy_to_ieee80211_hw 0xe85bc2e1
 #SYMVER ieee80211_get_bssid 0x95febea6
-#SYMVER ieee80211_generic_frame_duration 0xfdaff676
-#SYMVER ieee80211_rts_duration 0x8b36a629
-#SYMVER ieee80211_ctstoself_duration 0x1a01d610
-#SYMVER ieee80211_handle_wake_tx_queue 0x64f399e1
-#SYMVER ieee80211_wake_queue 0xcaa214ab
-#SYMVER ieee80211_stop_queue 0xbbb18bc1
-#SYMVER ieee80211_stop_queues 0x6c79e185
-#SYMVER ieee80211_queue_stopped 0x1c8547b5
-#SYMVER ieee80211_wake_queues 0x03ca6a1b
-#SYMVER ieee80211_iterate_interfaces 0xf0a69965
-#SYMVER ieee80211_iterate_active_interfaces_atomic 0x1e66c990
-#SYMVER ieee80211_iterate_active_interfaces_mtx 0x12f556c7
-#SYMVER ieee80211_iterate_stations_atomic 0xff411b0e
-#SYMVER ieee80211_iterate_stations_mtx 0xaf8279b5
-#SYMVER wdev_to_ieee80211_vif 0xb030c799
-#SYMVER ieee80211_vif_to_wdev 0x515d53b2
-#SYMVER ieee80211_queue_work 0x94e06b7e
-#SYMVER ieee80211_queue_delayed_work 0x48132f36
+#SYMVER ieee80211_generic_frame_duration 0xc8510f2c
+#SYMVER ieee80211_rts_duration 0xa340da7d
+#SYMVER ieee80211_ctstoself_duration 0x25c8e1ff
+#SYMVER ieee80211_handle_wake_tx_queue 0x427ac8c6
+#SYMVER ieee80211_wake_queue 0x64176edf
+#SYMVER ieee80211_stop_queue 0x1a70f675
+#SYMVER ieee80211_stop_queues 0x16f9f49c
+#SYMVER ieee80211_queue_stopped 0x7de2c6f2
+#SYMVER ieee80211_wake_queues 0xa5a65f40
+#SYMVER ieee80211_iterate_interfaces 0x4b722b6e
+#SYMVER ieee80211_iterate_active_interfaces_atomic 0xab37ee5f
+#SYMVER ieee80211_iterate_active_interfaces_mtx 0x353a164e
+#SYMVER ieee80211_iterate_stations_atomic 0x8abbfc9b
+#SYMVER ieee80211_iterate_stations_mtx 0x1f6470e5
+#SYMVER wdev_to_ieee80211_vif 0x52eee11c
+#SYMVER ieee80211_vif_to_wdev 0x8b3d38cc
+#SYMVER ieee80211_queue_work 0xd5121a16
+#SYMVER ieee80211_queue_delayed_work 0x3843bd80
 #SYMVER ieee80211_hw_restart_disconnect 0xfdb512aa
 #SYMVER ieee80211_resume_disconnect 0xb0e72cfd
 #SYMVER ieee80211_ave_rssi 0x6fb1ad80
-#SYMVER ieee80211_radar_detected 0xcdf202f1
+#SYMVER ieee80211_radar_detected 0x1a7cd7fe
 #SYMVER ieee80211_update_p2p_noa 0x19f37f0d
 #SYMVER ieee80211_parse_p2p_noa 0x991a0ca0
 #SYMVER ieee80211_txq_get_depth 0xdca0f8b3

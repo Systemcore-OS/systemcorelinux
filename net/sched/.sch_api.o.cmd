@@ -1,4 +1,4 @@
-savedcmd_net/sched/sch_api.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/sched/.sch_api.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/sched/sch_api"' -DKBUILD_BASENAME='"sch_api"' -DKBUILD_MODNAME='"sch_api"' -D__KBUILD_MODNAME=kmod_sch_api -c -o net/sched/sch_api.o net/sched/sch_api.c  
+savedcmd_net/sched/sch_api.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/sched/.sch_api.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"net/sched/sch_api"' -DKBUILD_BASENAME='"sch_api"' -DKBUILD_MODNAME='"sch_api"' -D__KBUILD_MODNAME=kmod_sch_api -c -o net/sched/sch_api.o net/sched/sch_api.c  
 
 source_net/sched/sch_api.o := net/sched/sch_api.c
 
@@ -29,6 +29,7 @@ deps_net/sched/sch_api.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/ARCH_USE_BUILTIN_BSWAP) \
@@ -500,6 +501,7 @@ deps_net/sched/sch_api.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -586,6 +588,7 @@ deps_net/sched/sch_api.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -680,6 +683,9 @@ deps_net/sched/sch_api.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -805,6 +811,7 @@ deps_net/sched/sch_api.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1152,6 +1159,8 @@ deps_net/sched/sch_api.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1276,9 +1285,6 @@ deps_net/sched/sch_api.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1313,6 +1319,7 @@ deps_net/sched/sch_api.o := \
     $(wildcard include/config/MCTP) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1589,7 +1596,6 @@ deps_net/sched/sch_api.o := \
   include/net/netns/generic.h \
   include/net/tc_wrapper.h \
     $(wildcard include/config/NET_ACT_GACT) \
-    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_ACT_PEDIT) \
     $(wildcard include/config/NET_ACT_SKBEDIT) \
     $(wildcard include/config/NET_ACT_SKBMOD) \
@@ -1625,23 +1631,23 @@ deps_net/sched/sch_api.o := \
 net/sched/sch_api.o: $(deps_net/sched/sch_api.o)
 
 $(deps_net/sched/sch_api.o):
-#SYMVER register_qdisc 0x49bd257b
-#SYMVER unregister_qdisc 0xc255509b
-#SYMVER qdisc_hash_add 0xfe3cf907
-#SYMVER qdisc_hash_del 0x103486f8
+#SYMVER register_qdisc 0xbd8f0d73
+#SYMVER unregister_qdisc 0xe807b8c5
+#SYMVER qdisc_hash_add 0xca6bc338
+#SYMVER qdisc_hash_del 0xde519ab4
 #SYMVER qdisc_get_rtab 0x8c459bf3
 #SYMVER qdisc_put_rtab 0xa61ced89
 #SYMVER qdisc_put_stab 0xb94339c4
-#SYMVER qdisc_watchdog_init_clockid 0x003804fa
-#SYMVER qdisc_watchdog_init 0xfab660db
-#SYMVER qdisc_watchdog_schedule_range_ns 0x9f5dd8c4
-#SYMVER qdisc_watchdog_cancel 0x8885a89e
-#SYMVER qdisc_class_hash_grow 0xa078042c
+#SYMVER qdisc_watchdog_init_clockid 0xdfcb80c7
+#SYMVER qdisc_watchdog_init 0x17ca61e2
+#SYMVER qdisc_watchdog_schedule_range_ns 0x649398c5
+#SYMVER qdisc_watchdog_cancel 0x4c940936
+#SYMVER qdisc_class_hash_grow 0xa56e0c16
 #SYMVER qdisc_class_hash_init 0x117093be
 #SYMVER qdisc_class_hash_destroy 0xf53d4c26
 #SYMVER qdisc_class_hash_insert 0x7b9d9306
 #SYMVER qdisc_class_hash_remove 0x4c0de954
-#SYMVER qdisc_tree_reduce_backlog 0x78e9771f
-#SYMVER qdisc_offload_dump_helper 0x4518b38d
-#SYMVER qdisc_offload_graft_helper 0x0272a992
-#SYMVER qdisc_offload_query_caps 0xe1a02c5f
+#SYMVER qdisc_tree_reduce_backlog 0xd4e37e77
+#SYMVER qdisc_offload_dump_helper 0xafd804bf
+#SYMVER qdisc_offload_graft_helper 0x1834bed5
+#SYMVER qdisc_offload_query_caps 0x1b926450

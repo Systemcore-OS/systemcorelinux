@@ -1,6 +1,7 @@
 consolemap.o: drivers/tty/vt/consolemap.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/bitfield.h \
  include/linux/build_bug.h include/linux/compiler.h \
@@ -262,8 +263,8 @@ consolemap.o: drivers/tty/vt/consolemap.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/ioport.h include/linux/huge_mm.h include/linux/vmstat.h \
- include/linux/vm_event_item.h include/linux/tty.h \
+ include/linux/ioport.h include/linux/huge_mm.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h include/linux/tty.h \
  include/uapi/linux/major.h include/uapi/linux/termios.h \
  arch/arm64/include/generated/uapi/asm/termios.h \
  include/uapi/asm-generic/termios.h \

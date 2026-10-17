@@ -1,6 +1,7 @@
 ttm_pool.o: drivers/gpu/drm/ttm/ttm_pool.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/module.h \
  include/linux/list.h include/linux/container_of.h \
@@ -270,18 +271,16 @@ ttm_pool.o: drivers/gpu/drm/ttm/ttm_pool.c \
  arch/arm64/include/asm/fixmap.h include/asm-generic/fixmap.h \
  arch/arm64/include/asm/por.h include/linux/page_table_check.h \
  include/asm-generic/pgtable_uffd.h include/linux/memremap.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h arch/arm64/include/asm/io.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
- include/linux/fwnode.h include/linux/mem_encrypt.h \
- arch/arm64/include/asm/mem_encrypt.h include/linux/debugfs.h \
- include/linux/seq_file.h include/linux/string_helpers.h \
- include/linux/ctype.h include/linux/string_choices.h \
- include/linux/highmem.h include/linux/cacheflush.h \
- arch/arm64/include/asm/cacheflush.h include/linux/kgdb.h \
- include/linux/kprobes.h include/linux/ftrace.h \
+ include/linux/fwnode.h include/linux/debugfs.h include/linux/seq_file.h \
+ include/linux/string_helpers.h include/linux/ctype.h \
+ include/linux/string_choices.h include/linux/highmem.h \
+ include/linux/cacheflush.h arch/arm64/include/asm/cacheflush.h \
+ include/linux/kgdb.h include/linux/kprobes.h include/linux/ftrace.h \
  include/linux/trace_recursion.h include/linux/interrupt.h \
  include/linux/irqreturn.h include/linux/hardirq.h \
  include/linux/context_tracking_state.h include/linux/ftrace_irq.h \

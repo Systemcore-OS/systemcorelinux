@@ -1,12 +1,13 @@
 mapping.o: kernel/dma/mapping.c include/linux/compiler-version.h \
  include/linux/kconfig.h include/generated/autoconf.h \
- include/linux/compiler_types.h include/linux/compiler_attributes.h \
- include/linux/compiler-gcc.h arch/arm64/include/asm/compiler.h \
- include/linux/memblock.h include/linux/init.h include/linux/build_bug.h \
- include/linux/compiler.h include/linux/compiler_types.h \
- arch/arm64/include/asm/rwonce.h include/asm-generic/rwonce.h \
- include/linux/kasan-checks.h include/linux/types.h \
- include/uapi/linux/types.h arch/arm64/include/generated/uapi/asm/types.h \
+ include/linux/compiler_types.h include/linux/compiler-context-analysis.h \
+ include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
+ arch/arm64/include/asm/compiler.h include/linux/memblock.h \
+ include/linux/init.h include/linux/build_bug.h include/linux/compiler.h \
+ include/linux/compiler_types.h arch/arm64/include/asm/rwonce.h \
+ include/asm-generic/rwonce.h include/linux/kasan-checks.h \
+ include/linux/types.h include/uapi/linux/types.h \
+ arch/arm64/include/generated/uapi/asm/types.h \
  include/uapi/asm-generic/types.h include/asm-generic/int-ll64.h \
  include/uapi/asm-generic/int-ll64.h \
  arch/arm64/include/uapi/asm/bitsperlong.h \
@@ -253,10 +254,10 @@ mapping.o: kernel/dma/mapping.c include/linux/compiler-version.h \
  include/linux/dqblk_v2.h include/linux/dqblk_qtree.h \
  include/linux/projid.h include/uapi/linux/quota.h \
  include/linux/kobject.h include/linux/sysfs.h include/linux/kernfs.h \
- include/linux/idr.h include/linux/kobject_ns.h include/linux/vmstat.h \
- include/linux/vm_event_item.h arch/arm64/include/generated/asm/dma.h \
- include/asm-generic/dma.h include/linux/acpi.h \
- include/linux/resource_ext.h include/linux/device.h \
+ include/linux/idr.h include/linux/kobject_ns.h include/linux/secretmem.h \
+ include/linux/vmstat.h include/linux/vm_event_item.h \
+ arch/arm64/include/generated/asm/dma.h include/asm-generic/dma.h \
+ include/linux/acpi.h include/linux/resource_ext.h include/linux/device.h \
  include/linux/dev_printk.h include/linux/energy_model.h \
  include/linux/sched/cpufreq.h include/linux/sched/topology.h \
  include/linux/sched/idle.h include/linux/sched/sd_flags.h \
@@ -289,11 +290,11 @@ mapping.o: kernel/dma/mapping.c include/linux/compiler-version.h \
  arch/arm64/include/generated/asm/early_ioremap.h \
  include/asm-generic/early_ioremap.h include/asm-generic/io.h \
  include/asm-generic/pci_iomap.h include/linux/logic_pio.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/iommu-dma.h include/linux/kmsan.h \
  include/linux/of_device.h include/linux/vmalloc.h \
  arch/arm64/include/asm/vmalloc.h kernel/dma/debug.h kernel/dma/direct.h \
- include/linux/dma-direct.h include/linux/swiotlb.h \
+ include/linux/dma-direct.h include/linux/mem_encrypt.h \
+ arch/arm64/include/asm/mem_encrypt.h include/linux/swiotlb.h \
  include/trace/events/dma.h include/linux/tracepoint.h \
  include/linux/static_call.h include/linux/cpu.h \
  include/linux/cpuhotplug.h include/linux/cpuhplock.h \

@@ -1,6 +1,7 @@
 nf_reject_ipv6.o: net/ipv6/netfilter/nf_reject_ipv6.c \
  include/linux/compiler-version.h include/linux/kconfig.h \
  include/generated/autoconf.h include/linux/compiler_types.h \
+ include/linux/compiler-context-analysis.h \
  include/linux/compiler_attributes.h include/linux/compiler-gcc.h \
  arch/arm64/include/asm/compiler.h include/linux/module.h \
  include/linux/list.h include/linux/container_of.h \
@@ -284,7 +285,7 @@ nf_reject_ipv6.o: net/ipv6/netfilter/nf_reject_ipv6.c \
  include/linux/mm.h include/linux/pgalloc_tag.h include/linux/range.h \
  include/linux/page_ext.h include/linux/stacktrace.h \
  include/linux/page_ref.h include/linux/memremap.h include/linux/ioport.h \
- include/linux/huge_mm.h include/linux/vmstat.h \
+ include/linux/huge_mm.h include/linux/secretmem.h include/linux/vmstat.h \
  include/linux/vm_event_item.h include/linux/ptrace.h \
  include/linux/pid_namespace.h include/linux/nsproxy.h \
  include/linux/ns_common.h include/uapi/linux/ptrace.h \
@@ -322,7 +323,6 @@ nf_reject_ipv6.o: net/ipv6/netfilter/nf_reject_ipv6.c \
  include/linux/device/class.h include/linux/device/devres.h \
  include/linux/device/driver.h arch/arm64/include/asm/device.h \
  include/linux/pm_wakeup.h include/linux/scatterlist.h \
- include/linux/mem_encrypt.h arch/arm64/include/asm/mem_encrypt.h \
  include/linux/netdev_features.h include/net/flow_dissector.h \
  include/linux/siphash.h include/uapi/linux/if_ether.h \
  include/uapi/linux/pkt_cls.h include/uapi/linux/pkt_sched.h \
@@ -425,9 +425,9 @@ nf_reject_ipv6.o: net/ipv6/netfilter/nf_reject_ipv6.c \
  include/net/tcp.h include/net/inet_hashtables.h \
  include/net/sock_reuseport.h include/linux/filter.h \
  include/linux/sched/clock.h include/linux/set_memory.h \
- arch/arm64/include/asm/set_memory.h include/asm-generic/set_memory.h \
- include/linux/if_vlan.h include/linux/etherdevice.h \
- include/linux/crc32.h include/linux/bitrev.h \
+ arch/arm64/include/asm/set_memory.h arch/arm64/include/asm/mem_encrypt.h \
+ include/asm-generic/set_memory.h include/linux/if_vlan.h \
+ include/linux/etherdevice.h include/linux/crc32.h include/linux/bitrev.h \
  arch/arm64/include/asm/bitrev.h include/linux/unaligned.h \
  include/vdso/unaligned.h include/uapi/linux/if_vlan.h \
  include/linux/vmalloc.h arch/arm64/include/asm/vmalloc.h \
@@ -440,7 +440,8 @@ nf_reject_ipv6.o: net/ipv6/netfilter/nf_reject_ipv6.c \
  include/linux/audit_arch.h include/uapi/linux/audit.h \
  include/uapi/linux/netfilter/nf_tables.h include/uapi/linux/fanotify.h \
  arch/arm64/include/asm/syscall.h include/net/gro_cells.h \
- include/linux/bpf-cgroup.h include/net/netfilter/ipv6/nf_defrag_ipv6.h \
+ include/net/secure_seq.h include/linux/bpf-cgroup.h \
+ include/net/netfilter/ipv6/nf_defrag_ipv6.h \
  include/linux/netfilter_bridge.h include/uapi/linux/netfilter_bridge.h \
  include/linux/if_pppox.h include/linux/ppp_channel.h \
  include/uapi/linux/if_pppox.h include/linux/if_pppol2tp.h \

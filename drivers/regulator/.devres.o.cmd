@@ -1,4 +1,4 @@
-savedcmd_drivers/regulator/devres.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/regulator/.devres.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/regulator/devres"' -DKBUILD_BASENAME='"devres"' -DKBUILD_MODNAME='"devres"' -D__KBUILD_MODNAME=kmod_devres -c -o drivers/regulator/devres.o drivers/regulator/devres.c  
+savedcmd_drivers/regulator/devres.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/regulator/.devres.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/regulator/devres"' -DKBUILD_BASENAME='"devres"' -DKBUILD_MODNAME='"devres"' -D__KBUILD_MODNAME=kmod_devres -c -o drivers/regulator/devres.o drivers/regulator/devres.c  
 
 source_drivers/regulator/devres.o := drivers/regulator/devres.c
 
@@ -23,6 +23,7 @@ deps_drivers/regulator/devres.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -530,6 +531,7 @@ deps_drivers/regulator/devres.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -586,6 +588,7 @@ deps_drivers/regulator/devres.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -723,6 +726,9 @@ deps_drivers/regulator/devres.o := \
     $(wildcard include/config/DEBUG_OBJECTS_FREE) \
   include/linux/workqueue_types.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/percpu_counter.h \
@@ -824,6 +830,7 @@ deps_drivers/regulator/devres.o := \
   include/uapi/linux/cgroupstats.h \
   include/uapi/linux/taskstats.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/IMA) \
@@ -1118,6 +1125,8 @@ deps_drivers/regulator/devres.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
   include/linux/writeback.h \
@@ -1320,21 +1329,21 @@ deps_drivers/regulator/devres.o := \
 drivers/regulator/devres.o: $(deps_drivers/regulator/devres.o)
 
 $(deps_drivers/regulator/devres.o):
-#SYMVER devm_regulator_get 0x64ec9d21
-#SYMVER devm_regulator_get_exclusive 0x4e21bfd3
-#SYMVER devm_regulator_get_enable_optional 0x753d8cf0
-#SYMVER devm_regulator_get_enable 0x616e9d3b
-#SYMVER devm_regulator_get_optional 0xbac9b7a0
-#SYMVER devm_regulator_get_enable_read_voltage 0xb9666a8a
-#SYMVER devm_regulator_put 0xeea85a2c
-#SYMVER devm_regulator_bulk_get 0xf98b19c0
-#SYMVER devm_regulator_bulk_get_exclusive 0x2bb3f6de
-#SYMVER devm_regulator_bulk_get_const 0xf60e9e8a
-#SYMVER devm_regulator_bulk_put 0x3fa813f2
-#SYMVER devm_regulator_bulk_get_enable 0xc7cf2df8
-#SYMVER devm_regulator_register 0x7b265fdf
-#SYMVER devm_regulator_register_supply_alias 0x2d45e0a4
-#SYMVER devm_regulator_bulk_register_supply_alias 0x1e63ba2c
-#SYMVER devm_regulator_register_notifier 0x4046d3c3
-#SYMVER devm_regulator_unregister_notifier 0xe12c35fe
-#SYMVER devm_regulator_irq_helper 0x17749789
+#SYMVER devm_regulator_get 0x5b2faf14
+#SYMVER devm_regulator_get_exclusive 0x6a3e8b94
+#SYMVER devm_regulator_get_enable_optional 0xc8b67fab
+#SYMVER devm_regulator_get_enable 0xeba71de5
+#SYMVER devm_regulator_get_optional 0x115e5653
+#SYMVER devm_regulator_get_enable_read_voltage 0xf8e7365b
+#SYMVER devm_regulator_put 0x6ca262fa
+#SYMVER devm_regulator_bulk_get 0x3b473fe4
+#SYMVER devm_regulator_bulk_get_exclusive 0x40cd88bc
+#SYMVER devm_regulator_bulk_get_const 0x2e259fc1
+#SYMVER devm_regulator_bulk_put 0xbddf3bea
+#SYMVER devm_regulator_bulk_get_enable 0xa60246f0
+#SYMVER devm_regulator_register 0xa8524b38
+#SYMVER devm_regulator_register_supply_alias 0x772ac4b1
+#SYMVER devm_regulator_bulk_register_supply_alias 0xb86e2d48
+#SYMVER devm_regulator_register_notifier 0x46d06460
+#SYMVER devm_regulator_unregister_notifier 0x3764c84b
+#SYMVER devm_regulator_irq_helper 0x37ff3097

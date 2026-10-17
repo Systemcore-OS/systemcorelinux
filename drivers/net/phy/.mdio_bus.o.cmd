@@ -1,4 +1,4 @@
-savedcmd_drivers/net/phy/mdio_bus.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/phy/.mdio_bus.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"drivers/net/phy/libphy"' -DKBUILD_BASENAME='"mdio_bus"' -DKBUILD_MODNAME='"libphy"' -D__KBUILD_MODNAME=kmod_libphy -c -o drivers/net/phy/mdio_bus.o drivers/net/phy/mdio_bus.c  
+savedcmd_drivers/net/phy/mdio_bus.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,drivers/net/phy/.mdio_bus.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"drivers/net/phy/libphy"' -DKBUILD_BASENAME='"mdio_bus"' -DKBUILD_MODNAME='"libphy"' -D__KBUILD_MODNAME=kmod_libphy -c -o drivers/net/phy/mdio_bus.o drivers/net/phy/mdio_bus.c  
 
 source_drivers/net/phy/mdio_bus.o := drivers/net/phy/mdio_bus.c
 
@@ -25,6 +25,7 @@ deps_drivers/net/phy/mdio_bus.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -156,6 +157,7 @@ deps_drivers/net/phy/mdio_bus.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -537,6 +539,7 @@ deps_drivers/net/phy/mdio_bus.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -674,6 +677,9 @@ deps_drivers/net/phy/mdio_bus.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/nodemask.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/HUGETLB_PAGE) \
@@ -875,6 +881,7 @@ deps_drivers/net/phy/mdio_bus.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1199,6 +1206,8 @@ deps_drivers/net/phy/mdio_bus.o := \
     $(wildcard include/config/PCI_P2PDMA) \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1280,9 +1289,6 @@ deps_drivers/net/phy/mdio_bus.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1356,6 +1362,7 @@ deps_drivers/net/phy/mdio_bus.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1639,34 +1646,34 @@ deps_drivers/net/phy/mdio_bus.o := \
 drivers/net/phy/mdio_bus.o: $(deps_drivers/net/phy/mdio_bus.o)
 
 $(deps_drivers/net/phy/mdio_bus.o):
-#SYMVER mdiobus_register_device 0x8b84b3c4
-#SYMVER mdiobus_unregister_device 0x43e860b8
-#SYMVER mdiobus_get_phy 0x75c9b29d
-#SYMVER mdiobus_is_registered_device 0x7f8127ed
-#SYMVER mdiobus_alloc_size 0xa53105ea
-#SYMVER mdio_find_bus 0x15dc6955
-#SYMVER of_mdio_find_bus 0x5e684719
-#SYMVER mdiobus_scan_c22 0x4dffd0b0
-#SYMVER __mdiobus_register 0x8d863632
-#SYMVER mdiobus_unregister 0x4d4c9640
-#SYMVER mdiobus_free 0x499f48ab
-#SYMVER __mdiobus_read 0x39fe836a
-#SYMVER __mdiobus_write 0xded1d8a3
-#SYMVER __mdiobus_modify_changed 0x6e5451b1
-#SYMVER __mdiobus_c45_read 0xf85a82e1
-#SYMVER __mdiobus_c45_write 0x9d483518
-#SYMVER mdiobus_read_nested 0xfe77fcd1
-#SYMVER mdiobus_read 0x2b57964d
-#SYMVER mdiobus_c45_read 0xf6cfec36
-#SYMVER mdiobus_c45_read_nested 0x7375e166
-#SYMVER mdiobus_write_nested 0x17dc13b7
-#SYMVER mdiobus_write 0x00f72e6a
-#SYMVER mdiobus_c45_write 0x38ebb9aa
-#SYMVER mdiobus_c45_write_nested 0xcd0d8ef6
-#SYMVER __mdiobus_modify 0x6d50156e
-#SYMVER mdiobus_modify 0x7f14213c
-#SYMVER mdiobus_c45_modify 0x32c1ce90
-#SYMVER mdiobus_modify_changed 0xab92a8d3
-#SYMVER mdiobus_c45_modify_changed 0x14e3ab9f
-#SYMVER mdio_bus_type 0x5b8be142
+#SYMVER mdiobus_register_device 0x506b3971
+#SYMVER mdiobus_unregister_device 0xa46a09e5
+#SYMVER mdiobus_get_phy 0x6ceaddcf
+#SYMVER mdiobus_is_registered_device 0x0b1e5d0b
+#SYMVER mdiobus_alloc_size 0x053a0d98
+#SYMVER mdio_find_bus 0xab77724d
+#SYMVER of_mdio_find_bus 0x309ec02c
+#SYMVER mdiobus_scan_c22 0xc883c307
+#SYMVER __mdiobus_register 0x2f5daae0
+#SYMVER mdiobus_unregister 0x2d3f1a0b
+#SYMVER mdiobus_free 0xf46b55e9
+#SYMVER __mdiobus_read 0x4243dcc7
+#SYMVER __mdiobus_write 0x7984ffa2
+#SYMVER __mdiobus_modify_changed 0x2f80721b
+#SYMVER __mdiobus_c45_read 0x0edc22a8
+#SYMVER __mdiobus_c45_write 0xd0540adb
+#SYMVER mdiobus_read_nested 0x764a6749
+#SYMVER mdiobus_read 0xd616effd
+#SYMVER mdiobus_c45_read 0x60f063c3
+#SYMVER mdiobus_c45_read_nested 0x478f990a
+#SYMVER mdiobus_write_nested 0xc14d92ec
+#SYMVER mdiobus_write 0x35a846f5
+#SYMVER mdiobus_c45_write 0x42298938
+#SYMVER mdiobus_c45_write_nested 0x389f97c8
+#SYMVER __mdiobus_modify 0xe4afb632
+#SYMVER mdiobus_modify 0xeaeb0636
+#SYMVER mdiobus_c45_modify 0x56c3d563
+#SYMVER mdiobus_modify_changed 0xa046c55a
+#SYMVER mdiobus_c45_modify_changed 0x5eb98c02
+#SYMVER mdio_bus_type 0x0f36db0c
 #SYMVER mdio_bus_exit 0xfab30dc0

@@ -9,3 +9,6 @@
 /home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0017-spi-dw-use-runtime-pm-autosuspend.patch
 /home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0021-can-mcp251xfd-restrict-rx-to-single-fifo-lock-ring-layout.patch
 /home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0022-can-mcp251xfd-plain-reads-for-committed-rx-tef-ram.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0031-spi-dw-poll-small-transfers.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0034-spi-dw-dma-wait-margin-400ms.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0035-mcp251xfd-bus-off-on-irq-handler-error.patch

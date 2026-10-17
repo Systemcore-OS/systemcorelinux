@@ -1,4 +1,4 @@
-savedcmd_net/core/net-traces.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.net-traces.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416    -DKBUILD_MODFILE='"net/core/net-traces"' -DKBUILD_BASENAME='"net_traces"' -DKBUILD_MODNAME='"net_traces"' -D__KBUILD_MODNAME=kmod_net_traces -c -o net/core/net-traces.o net/core/net-traces.c  
+savedcmd_net/core/net-traces.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/core/.net-traces.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456    -DKBUILD_MODFILE='"net/core/net-traces"' -DKBUILD_BASENAME='"net_traces"' -DKBUILD_MODNAME='"net_traces"' -D__KBUILD_MODNAME=kmod_net_traces -c -o net/core/net-traces.o net/core/net-traces.c  
 
 source_net/core/net-traces.o := net/core/net-traces.c
 
@@ -25,6 +25,7 @@ deps_net/core/net-traces.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -532,6 +533,7 @@ deps_net/core/net-traces.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -618,6 +620,7 @@ deps_net/core/net-traces.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -720,6 +723,7 @@ deps_net/core/net-traces.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
     $(wildcard include/config/NET) \
@@ -746,6 +750,9 @@ deps_net/core/net-traces.o := \
   include/uapi/linux/snmp.h \
   include/linux/u64_stats_sync.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   arch/arm64/include/generated/asm/local64.h \
@@ -959,6 +966,7 @@ deps_net/core/net-traces.o := \
   include/linux/bvec.h \
   include/linux/highmem.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1268,6 +1276,8 @@ deps_net/core/net-traces.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1410,9 +1420,6 @@ deps_net/core/net-traces.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1683,7 +1690,9 @@ deps_net/core/net-traces.o := \
   include/linux/set_memory.h \
     $(wildcard include/config/ARCH_HAS_SET_MEMORY) \
     $(wildcard include/config/ARCH_HAS_SET_DIRECT_MAP) \
+    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
   arch/arm64/include/asm/set_memory.h \
+  arch/arm64/include/asm/mem_encrypt.h \
   include/asm-generic/set_memory.h \
   include/linux/vmalloc.h \
     $(wildcard include/config/HAVE_ARCH_HUGE_VMALLOC) \
@@ -1719,6 +1728,7 @@ deps_net/core/net-traces.o := \
   include/linux/ipv6_route.h \
   include/uapi/linux/ipv6_route.h \
   include/net/gro_cells.h \
+  include/net/secure_seq.h \
   include/linux/bpf-cgroup.h \
   include/linux/sock_diag.h \
   include/uapi/linux/sock_diag.h \
@@ -1753,53 +1763,53 @@ net/core/net-traces.o: $(deps_net/core/net-traces.o)
 
 $(deps_net/core/net-traces.o):
 #SYMVER __tracepoint_br_fdb_add 0x77ff80d3
-#SYMVER __traceiter_br_fdb_add 0x4e0f4ca8
+#SYMVER __traceiter_br_fdb_add 0x2e55493e
 #SYMVER __SCK__tp_func_br_fdb_add 0x2ce61f33
 #SYMVER __tracepoint_br_fdb_external_learn_add 0x48c35c9e
-#SYMVER __traceiter_br_fdb_external_learn_add 0xdc69eeb7
+#SYMVER __traceiter_br_fdb_external_learn_add 0xab67f69b
 #SYMVER __SCK__tp_func_br_fdb_external_learn_add 0x8954dc8e
 #SYMVER __tracepoint_fdb_delete 0xd9b19aa5
-#SYMVER __traceiter_fdb_delete 0xda0563d7
+#SYMVER __traceiter_fdb_delete 0x31ec2f0f
 #SYMVER __SCK__tp_func_fdb_delete 0x82a80545
 #SYMVER __tracepoint_br_fdb_update 0x3e6d9d64
-#SYMVER __traceiter_br_fdb_update 0xed0226d3
+#SYMVER __traceiter_br_fdb_update 0x6c242ebc
 #SYMVER __SCK__tp_func_br_fdb_update 0x053d738a
 #SYMVER __tracepoint_br_mdb_full 0x7cce902d
-#SYMVER __traceiter_br_mdb_full 0x9285939e
+#SYMVER __traceiter_br_mdb_full 0xfe27d7dc
 #SYMVER __SCK__tp_func_br_mdb_full 0xdc9f6bca
 #SYMVER __tracepoint_neigh_update 0xef67ec35
-#SYMVER __traceiter_neigh_update 0x88eed64e
+#SYMVER __traceiter_neigh_update 0x1bf07507
 #SYMVER __SCK__tp_func_neigh_update 0xd1a9ca15
 #SYMVER __tracepoint_neigh_update_done 0x331adc21
-#SYMVER __traceiter_neigh_update_done 0x9e8c7785
+#SYMVER __traceiter_neigh_update_done 0x22588c49
 #SYMVER __SCK__tp_func_neigh_update_done 0xad76a3f0
 #SYMVER __tracepoint_neigh_timer_handler 0x062d117f
-#SYMVER __traceiter_neigh_timer_handler 0x9f34691e
+#SYMVER __traceiter_neigh_timer_handler 0xfe4d1625
 #SYMVER __SCK__tp_func_neigh_timer_handler 0x5eb417e0
 #SYMVER __tracepoint_neigh_event_send_done 0x267941b3
-#SYMVER __traceiter_neigh_event_send_done 0xbded0a69
+#SYMVER __traceiter_neigh_event_send_done 0xa5c9437e
 #SYMVER __SCK__tp_func_neigh_event_send_done 0x39c32aca
 #SYMVER __tracepoint_neigh_event_send_dead 0x5b83d7ab
-#SYMVER __traceiter_neigh_event_send_dead 0x3965d0e5
+#SYMVER __traceiter_neigh_event_send_dead 0xba00bb1c
 #SYMVER __SCK__tp_func_neigh_event_send_dead 0x4439bcd2
 #SYMVER __tracepoint_neigh_cleanup_and_release 0xebe496ca
-#SYMVER __traceiter_neigh_cleanup_and_release 0xb8c6cd8d
+#SYMVER __traceiter_neigh_cleanup_and_release 0xba55687a
 #SYMVER __SCK__tp_func_neigh_cleanup_and_release 0x2a7316da
 #SYMVER __tracepoint_kfree_skb 0xfb0d7867
-#SYMVER __traceiter_kfree_skb 0xb3087531
+#SYMVER __traceiter_kfree_skb 0x6bc46500
 #SYMVER __SCK__tp_func_kfree_skb 0x3c3c85d8
 #SYMVER __tracepoint_napi_poll 0x9bb3fcd1
-#SYMVER __traceiter_napi_poll 0xdcee5dc2
+#SYMVER __traceiter_napi_poll 0x30f1c51e
 #SYMVER __SCK__tp_func_napi_poll 0x5c82016e
 #SYMVER __tracepoint_tcp_send_reset 0x959682a4
-#SYMVER __traceiter_tcp_send_reset 0x79909f1e
+#SYMVER __traceiter_tcp_send_reset 0x034282b6
 #SYMVER __SCK__tp_func_tcp_send_reset 0xd21f1d35
 #SYMVER __tracepoint_tcp_bad_csum 0x938cf9d8
-#SYMVER __traceiter_tcp_bad_csum 0x36508f65
+#SYMVER __traceiter_tcp_bad_csum 0xb28c4248
 #SYMVER __SCK__tp_func_tcp_bad_csum 0xad42dff8
 #SYMVER __tracepoint_udp_fail_queue_rcv_skb 0x0d435bd5
-#SYMVER __traceiter_udp_fail_queue_rcv_skb 0xded8f0e7
+#SYMVER __traceiter_udp_fail_queue_rcv_skb 0x1f1db565
 #SYMVER __SCK__tp_func_udp_fail_queue_rcv_skb 0x24852826
 #SYMVER __tracepoint_sk_data_ready 0xe6aef439
-#SYMVER __traceiter_sk_data_ready 0x6ac09c58
+#SYMVER __traceiter_sk_data_ready 0xe948712f
 #SYMVER __SCK__tp_func_sk_data_ready 0xddfe1ad7

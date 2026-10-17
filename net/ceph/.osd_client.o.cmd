@@ -1,4 +1,4 @@
-savedcmd_net/ceph/osd_client.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ceph/.osd_client.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"osd_client"' -DKBUILD_MODNAME='"libceph"' -D__KBUILD_MODNAME=kmod_libceph -c -o net/ceph/osd_client.o net/ceph/osd_client.c  
+savedcmd_net/ceph/osd_client.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/ceph/.osd_client.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"osd_client"' -DKBUILD_MODNAME='"libceph"' -D__KBUILD_MODNAME=kmod_libceph -c -o net/ceph/osd_client.o net/ceph/osd_client.c  
 
 source_net/ceph/osd_client.o := net/ceph/osd_client.c
 
@@ -24,6 +24,7 @@ deps_net/ceph/osd_client.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -499,6 +500,7 @@ deps_net/ceph/osd_client.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -585,6 +587,7 @@ deps_net/ceph/osd_client.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -679,6 +682,9 @@ deps_net/ceph/osd_client.o := \
   include/linux/list_nulls.h \
   include/linux/wait.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/nodemask.h \
@@ -804,6 +810,7 @@ deps_net/ceph/osd_client.o := \
   include/uapi/linux/elf.h \
   include/uapi/linux/elf-em.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -1122,6 +1129,8 @@ deps_net/ceph/osd_client.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1324,6 +1333,7 @@ deps_net/ceph/osd_client.o := \
     $(wildcard include/config/MCTP) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/flow.h \
@@ -1435,9 +1445,6 @@ deps_net/ceph/osd_client.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/uapi/linux/if_ether.h \
@@ -1470,44 +1477,44 @@ deps_net/ceph/osd_client.o := \
 net/ceph/osd_client.o: $(deps_net/ceph/osd_client.o)
 
 $(deps_net/ceph/osd_client.o):
-#SYMVER osd_req_op_extent_osd_data 0x38fbb18d
-#SYMVER osd_req_op_raw_data_in_pages 0xd0efdcb3
-#SYMVER osd_req_op_extent_osd_data_pages 0x0901417b
-#SYMVER osd_req_op_extent_osd_data_pagelist 0xa26da763
-#SYMVER osd_req_op_extent_osd_data_bio 0xe474121c
-#SYMVER osd_req_op_extent_osd_data_bvecs 0xa3b96253
-#SYMVER osd_req_op_extent_osd_data_bvec_pos 0x51a18811
-#SYMVER osd_req_op_extent_osd_iter 0x3c6d6aae
-#SYMVER osd_req_op_cls_request_data_pagelist 0xb9f548e5
-#SYMVER osd_req_op_cls_request_data_pages 0xdb0a676f
-#SYMVER osd_req_op_cls_request_data_bvecs 0x6133f12f
-#SYMVER osd_req_op_cls_response_data_pages 0xae78811b
-#SYMVER ceph_osdc_get_request 0x60838d1b
-#SYMVER ceph_osdc_put_request 0xf325f554
-#SYMVER ceph_osdc_alloc_request 0x576a7193
-#SYMVER ceph_osdc_alloc_messages 0xe0b11817
-#SYMVER osd_req_op_init 0xaaa05aff
-#SYMVER osd_req_op_extent_init 0xff4d3ca1
-#SYMVER osd_req_op_extent_update 0xfb3f865e
-#SYMVER osd_req_op_extent_dup_last 0xd94a6b08
-#SYMVER osd_req_op_cls_init 0xeecd440f
-#SYMVER osd_req_op_xattr_init 0x61c59b8e
-#SYMVER osd_req_op_alloc_hint_init 0xc1220045
-#SYMVER ceph_osdc_new_request 0xbe6fea1d
-#SYMVER __ceph_alloc_sparse_ext_map 0xd20f78f4
-#SYMVER ceph_osdc_abort_requests 0xda5fc553
-#SYMVER ceph_osdc_clear_abort_err 0xe85653ba
-#SYMVER ceph_osdc_update_epoch_barrier 0x8d5e1c60
-#SYMVER ceph_osdc_start_request 0xf45bdd3f
-#SYMVER ceph_osdc_cancel_request 0x14c76483
-#SYMVER ceph_osdc_wait_request 0x0f4dd220
-#SYMVER ceph_osdc_sync 0xcd8fa186
-#SYMVER ceph_osdc_watch 0xb5ce54c0
-#SYMVER ceph_osdc_unwatch 0x2e0c35e2
-#SYMVER ceph_osdc_notify_ack 0x96e3199c
-#SYMVER ceph_osdc_notify 0x017f8e5a
-#SYMVER ceph_osdc_list_watchers 0x3657dbe1
-#SYMVER ceph_osdc_flush_notifies 0x3e7c3da6
-#SYMVER ceph_osdc_maybe_request_map 0xfa61dcb1
-#SYMVER ceph_osdc_call 0xf878b0a8
-#SYMVER osd_req_op_copy_from_init 0xbe90340e
+#SYMVER osd_req_op_extent_osd_data 0x3ace572a
+#SYMVER osd_req_op_raw_data_in_pages 0x2ce46fde
+#SYMVER osd_req_op_extent_osd_data_pages 0xdb4c83b7
+#SYMVER osd_req_op_extent_osd_data_pagelist 0xf0c7ba28
+#SYMVER osd_req_op_extent_osd_data_bio 0xdb121705
+#SYMVER osd_req_op_extent_osd_data_bvecs 0x2e697e60
+#SYMVER osd_req_op_extent_osd_data_bvec_pos 0xd46d806f
+#SYMVER osd_req_op_extent_osd_iter 0x399a64c2
+#SYMVER osd_req_op_cls_request_data_pagelist 0x63b2bcfb
+#SYMVER osd_req_op_cls_request_data_pages 0x83b1f40c
+#SYMVER osd_req_op_cls_request_data_bvecs 0xd793d7af
+#SYMVER osd_req_op_cls_response_data_pages 0x501ea043
+#SYMVER ceph_osdc_get_request 0xe37949f8
+#SYMVER ceph_osdc_put_request 0x2db52d37
+#SYMVER ceph_osdc_alloc_request 0x771f8c48
+#SYMVER ceph_osdc_alloc_messages 0xcf4f2220
+#SYMVER osd_req_op_init 0x516f6585
+#SYMVER osd_req_op_extent_init 0x549963b2
+#SYMVER osd_req_op_extent_update 0x56f770a3
+#SYMVER osd_req_op_extent_dup_last 0x15a2578c
+#SYMVER osd_req_op_cls_init 0xbab82c63
+#SYMVER osd_req_op_xattr_init 0x994b670b
+#SYMVER osd_req_op_alloc_hint_init 0xb9af22b8
+#SYMVER ceph_osdc_new_request 0x05603b8a
+#SYMVER __ceph_alloc_sparse_ext_map 0x054c69a3
+#SYMVER ceph_osdc_abort_requests 0x63143c09
+#SYMVER ceph_osdc_clear_abort_err 0x99844f06
+#SYMVER ceph_osdc_update_epoch_barrier 0xa479a9e0
+#SYMVER ceph_osdc_start_request 0x05b2b978
+#SYMVER ceph_osdc_cancel_request 0xb1dfd71e
+#SYMVER ceph_osdc_wait_request 0x1f10f26d
+#SYMVER ceph_osdc_sync 0x4a293a53
+#SYMVER ceph_osdc_watch 0x6ea8d7c6
+#SYMVER ceph_osdc_unwatch 0x3123f20e
+#SYMVER ceph_osdc_notify_ack 0x4f9ee26d
+#SYMVER ceph_osdc_notify 0xb9fcbc0c
+#SYMVER ceph_osdc_list_watchers 0x7b3f540e
+#SYMVER ceph_osdc_flush_notifies 0x396f8f87
+#SYMVER ceph_osdc_maybe_request_map 0x1623382a
+#SYMVER ceph_osdc_call 0x2cdcab3b
+#SYMVER osd_req_op_copy_from_init 0x55449625

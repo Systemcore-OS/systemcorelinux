@@ -1,4 +1,4 @@
-savedcmd_net/netfilter/nf_conntrack_core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/netfilter/.nf_conntrack_core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1416  -DMODULE  -DKBUILD_BASENAME='"nf_conntrack_core"' -DKBUILD_MODNAME='"nf_conntrack"' -D__KBUILD_MODNAME=kmod_nf_conntrack -c -o net/netfilter/nf_conntrack_core.o net/netfilter/nf_conntrack_core.c  
+savedcmd_net/netfilter/nf_conntrack_core.o := /home/runner/work/buildroot/buildroot/buildroot/output/host/bin/aarch64-buildroot-linux-gnu-gcc -Wp,-MMD,net/netfilter/.nf_conntrack_core.o.d -nostdinc -I./arch/arm64/include -I./arch/arm64/include/generated  -I./include -I./arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I./include/uapi -I./include/generated/uapi -include ./include/linux/compiler-version.h -include ./include/linux/kconfig.h -include ./include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=./= -std=gnu11 -fshort-wchar -funsigned-char -fno-common -fno-PIE -fno-strict-aliasing -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -O2 -fno-allow-store-data-races -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fmin-function-alignment=4 -fstrict-flex-arrays=3 -fno-strict-overflow -fno-stack-check -fconserve-stack -fno-builtin-wcslen -fno-builtin-wcslen -Wall -Wextra -Wundef -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Werror=strict-prototypes -Wno-format-security -Wno-trigraphs -Wno-frame-address -Wno-address-of-packed-member -Wmissing-declarations -Wmissing-prototypes -Wframe-larger-than=2048 -Wno-main -Wno-dangling-pointer -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-array-bounds -Wno-stringop-overflow -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wenum-conversion -Wunused -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-packed-not-aligned -Wno-format-overflow -Wno-format-truncation -Wno-stringop-truncation -Wno-override-init -Wno-missing-field-initializers -Wno-type-limits -Wno-shift-negative-value -Wno-maybe-uninitialized -Wno-sign-compare -Wno-unused-parameter -Wno-attribute-alias -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1456  -DMODULE  -DKBUILD_BASENAME='"nf_conntrack_core"' -DKBUILD_MODNAME='"nf_conntrack"' -D__KBUILD_MODNAME=kmod_nf_conntrack -c -o net/netfilter/nf_conntrack_core.o net/netfilter/nf_conntrack_core.c  
 
 source_net/netfilter/nf_conntrack_core.o := net/netfilter/nf_conntrack_core.c
 
@@ -33,6 +33,7 @@ deps_net/netfilter/nf_conntrack_core.o := \
     $(wildcard include/config/CC_HAS_COUNTED_BY) \
     $(wildcard include/config/UBSAN_SIGNED_WRAP) \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
+  include/linux/compiler-context-analysis.h \
   include/linux/compiler_attributes.h \
   include/linux/compiler-gcc.h \
     $(wildcard include/config/MITIGATION_RETPOLINE) \
@@ -522,6 +523,7 @@ deps_net/netfilter/nf_conntrack_core.o := \
     $(wildcard include/config/SECURITY) \
     $(wildcard include/config/BPF_SYSCALL) \
     $(wildcard include/config/GCC_PLUGIN_STACKLEAK) \
+    $(wildcard include/config/RANDOMIZE_KSTACK_OFFSET) \
     $(wildcard include/config/X86_MCE) \
     $(wildcard include/config/KRETPROBES) \
     $(wildcard include/config/RETHOOK) \
@@ -608,6 +610,7 @@ deps_net/netfilter/nf_conntrack_core.o := \
     $(wildcard include/config/ARCH_WANT_BATCHED_UNMAP_TLB_FLUSH) \
   arch/arm64/include/asm/tlbbatch.h \
   include/linux/netdevice_xmit.h \
+    $(wildcard include/config/NET_ACT_MIRRED) \
     $(wildcard include/config/NET_EGRESS) \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/TASK_IO_ACCOUNTING) \
@@ -659,6 +662,7 @@ deps_net/netfilter/nf_conntrack_core.o := \
   include/linux/bvec.h \
   include/linux/highmem.h \
   include/linux/fs.h \
+    $(wildcard include/config/FANOTIFY_ACCESS_PERMISSIONS) \
     $(wildcard include/config/READ_ONLY_THP_FOR_FS) \
     $(wildcard include/config/FS_POSIX_ACL) \
     $(wildcard include/config/CGROUP_WRITEBACK) \
@@ -700,6 +704,9 @@ deps_net/netfilter/nf_conntrack_core.o := \
   include/linux/list_bl.h \
   include/linux/bit_spinlock.h \
   include/linux/seqlock.h \
+    $(wildcard include/config/CC_IS_GCC) \
+    $(wildcard include/config/GCC_VERSION) \
+    $(wildcard include/config/UBSAN_ALIGNMENT) \
   include/linux/mutex.h \
   include/linux/debug_locks.h \
   include/linux/lockref.h \
@@ -1130,6 +1137,8 @@ deps_net/netfilter/nf_conntrack_core.o := \
   include/linux/ioport.h \
   include/linux/huge_mm.h \
     $(wildcard include/config/PGTABLE_HAS_HUGE_LEAVES) \
+  include/linux/secretmem.h \
+    $(wildcard include/config/SECRETMEM) \
   include/linux/vmstat.h \
     $(wildcard include/config/VM_EVENT_COUNTERS) \
     $(wildcard include/config/DEBUG_TLBFLUSH) \
@@ -1287,9 +1296,6 @@ deps_net/netfilter/nf_conntrack_core.o := \
     $(wildcard include/config/SGL_ALLOC) \
     $(wildcard include/config/ARCH_NO_SG_CHAIN) \
     $(wildcard include/config/SG_POOL) \
-  include/linux/mem_encrypt.h \
-    $(wildcard include/config/ARCH_HAS_MEM_ENCRYPT) \
-  arch/arm64/include/asm/mem_encrypt.h \
   include/linux/netdev_features.h \
   include/net/flow_dissector.h \
   include/linux/siphash.h \
@@ -1371,6 +1377,7 @@ deps_net/netfilter/nf_conntrack_core.o := \
     $(wildcard include/config/CAN) \
     $(wildcard include/config/CRYPTO_USER) \
     $(wildcard include/config/SMC) \
+    $(wildcard include/config/DEBUG_NET_SMALL_RTNL) \
     $(wildcard include/config/NET_NS) \
     $(wildcard include/config/NET_NS_REFCNT_TRACKER) \
   include/net/netns/core.h \
@@ -1697,36 +1704,36 @@ deps_net/netfilter/nf_conntrack_core.o := \
 net/netfilter/nf_conntrack_core.o: $(deps_net/netfilter/nf_conntrack_core.o)
 
 $(deps_net/netfilter/nf_conntrack_core.o):
-#SYMVER nf_conntrack_locks 0xc07e30d4
-#SYMVER nf_conntrack_expect_lock 0x30a47152
+#SYMVER nf_conntrack_locks 0xbef8ddc5
+#SYMVER nf_conntrack_expect_lock 0xce1ed7b4
 #SYMVER nf_conntrack_hash 0x28eff409
-#SYMVER nf_conntrack_lock 0x27dcce43
+#SYMVER nf_conntrack_lock 0xe77d0937
 #SYMVER nf_conntrack_htable_size 0x8ffe7e89
 #SYMVER nf_conntrack_max 0xf38bcdf3
-#SYMVER nf_ct_get_tuplepr 0x82a0bb09
+#SYMVER nf_ct_get_tuplepr 0x0af110fc
 #SYMVER nf_ct_invert_tuple 0x0460ec0f
-#SYMVER nf_ct_get_id 0xa334e68f
-#SYMVER nf_ct_tmpl_alloc 0x44b4b200
-#SYMVER nf_ct_tmpl_free 0xda4c2869
+#SYMVER nf_ct_get_id 0xc4865a33
+#SYMVER nf_ct_tmpl_alloc 0xf041ea59
+#SYMVER nf_ct_tmpl_free 0x056d3ed9
 #SYMVER nf_ct_destroy 0x3b08a8f0
-#SYMVER nf_ct_delete 0x75df2da2
-#SYMVER nf_conntrack_find_get 0xf45f5060
-#SYMVER nf_conntrack_hash_check_insert 0x6af17ea5
-#SYMVER nf_ct_acct_add 0x42846f5b
-#SYMVER __nf_conntrack_confirm 0x186601c8
-#SYMVER nf_conntrack_tuple_taken 0x4186d2c5
-#SYMVER nf_conntrack_alloc 0x0f638c56
-#SYMVER nf_conntrack_free 0x836b403e
-#SYMVER nf_conntrack_in 0x35fa7e71
-#SYMVER __nf_ct_refresh_acct 0x33ebb20b
-#SYMVER nf_ct_kill_acct 0x1bca6379
-#SYMVER nf_ct_port_tuple_to_nlattr 0xf82c8d80
+#SYMVER nf_ct_delete 0x2c507028
+#SYMVER nf_conntrack_find_get 0x4ab39e43
+#SYMVER nf_conntrack_hash_check_insert 0x689dd06f
+#SYMVER nf_ct_acct_add 0x644ad0e1
+#SYMVER __nf_conntrack_confirm 0xcd70c5d2
+#SYMVER nf_conntrack_tuple_taken 0x4dc3a057
+#SYMVER nf_conntrack_alloc 0x08ae20c0
+#SYMVER nf_conntrack_free 0x5bad9e0b
+#SYMVER nf_conntrack_in 0xa6b8ca23
+#SYMVER __nf_ct_refresh_acct 0x99e2eb7c
+#SYMVER nf_ct_kill_acct 0xf2493d68
+#SYMVER nf_ct_port_tuple_to_nlattr 0x92745925
 #SYMVER nf_ct_port_nla_policy 0xeb0ab313
 #SYMVER nf_ct_port_nlattr_to_tuple 0x752f0aa2
 #SYMVER nf_ct_port_nlattr_tuple_size 0xd505c3e0
-#SYMVER nf_ct_iterate_cleanup_net 0xcedd24a4
-#SYMVER nf_ct_iterate_destroy 0x9057e770
+#SYMVER nf_ct_iterate_cleanup_net 0x2c4505c3
+#SYMVER nf_ct_iterate_destroy 0x0a3569e9
 #SYMVER nf_ct_alloc_hashtable 0x289c3714
-#SYMVER __nf_ct_change_timeout 0x518a1638
-#SYMVER __nf_ct_change_status 0x79d84800
-#SYMVER nf_ct_change_status_common 0xc5b9f666
+#SYMVER __nf_ct_change_timeout 0x8e48b019
+#SYMVER __nf_ct_change_status 0x76b74eb7
+#SYMVER nf_ct_change_status_common 0x18921847
