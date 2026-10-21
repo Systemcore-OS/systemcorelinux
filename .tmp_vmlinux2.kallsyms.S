@@ -75321,8 +75321,8 @@ kallsyms_offsets:
 	.long	0x78e900	/* Tcan_rx_offload_del */
 	.long	0x78e988	/* Tcan_rx_offload_add_timestamp */
 	.long	0x78ea70	/* tcan_rx_offload_napi_poll */
-	.long	0x78eb60	/* Tcan_rx_offload_queue_timestamp */
-	.long	0x78ec20	/* Tcan_rx_offload_get_echo_skb_queue_timestamp */
+	.long	0x78eb64	/* Tcan_rx_offload_queue_timestamp */
+	.long	0x78ec24	/* Tcan_rx_offload_get_echo_skb_queue_timestamp */
 	.long	0x78ece0	/* Tcan_rx_offload_irq_finish */
 	.long	0x78eda0	/* Tcan_rx_offload_threaded_irq_finish */
 	.long	0x78ee6c	/* Tcan_rx_offload_irq_offload_timestamp */

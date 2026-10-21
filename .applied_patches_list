@@ -12,3 +12,4 @@
 /home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0031-spi-dw-poll-small-transfers.patch
 /home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0034-spi-dw-dma-wait-margin-400ms.patch
 /home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0035-mcp251xfd-bus-off-on-irq-handler-error.patch
+/home/runner/work/buildroot/buildroot/limelightbrextern/board/systemcore/globalpatchessystemcore/linux/0036-can-rx-offload-do-not-count-tx-echo-as-rx.patch
