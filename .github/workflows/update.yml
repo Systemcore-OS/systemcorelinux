@@ -1,0 +1,107 @@
+name: Sync Systemcore Linux Kernel
+
+on:
+  push:
+    branches:
+      - sync
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  sync-kernel:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Download Latest Kernel Release
+        run: |
+          # Configuration
+          REPO="LimelightVision/systemcore-os-public"
+          ASSET_NAME="systemcorelinux.tar.xz"
+          GITHUB_API="https://api.github.com/repos/${REPO}/releases"
+          
+          # Fetch releases and pre-releases, newest first
+          releases=$(curl -fsSL "${GITHUB_API}?per_page=50" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28")
+          
+          # Tags that have our asset, newest first
+          tags=$(echo "$releases" | jq -r --arg asset "$ASSET_NAME" '
+            .[] | 
+            select(any(.assets[]; .name == $asset)) | 
+            .tag_name
+          ')
+          
+          if [ -z "$tags" ]; then
+            echo "No releases found with asset: ${ASSET_NAME}"
+            exit 1
+          fi
+          
+          # Try each release until download succeeds
+          for tag in $tags; do
+            echo "Trying release: ${tag}"
+            download_url="https://github.com/${REPO}/releases/download/${tag}/${ASSET_NAME}"
+            
+            # Test if URL is accessible (follow redirects, check HTTP status)
+            if curl -fIL --max-time 10 "$download_url" > /dev/null 2>&1; then
+              echo "Found working release: ${tag}"
+              KERNEL_VERSION="$tag"
+              
+              # Create temp directory and download
+              mkdir -p /tmp/kernel
+              curl -fSL "$download_url" -o /tmp/kernel.tar.xz
+              
+              # Extract with strip-components
+              tar -xf /tmp/kernel.tar.xz -C /tmp/kernel --strip-components=1
+              rm /tmp/kernel.tar.xz
+              
+              # Export for later steps
+              echo "KERNEL_VERSION=${KERNEL_VERSION}" >> $GITHUB_ENV
+              echo "KERNEL_PATH=/tmp/kernel" >> $GITHUB_ENV
+              exit 0
+            else
+              echo "Asset not accessible for ${tag}, trying next..."
+            fi
+          done
+          
+          echo "Failed to find any working release with ${ASSET_NAME}"
+          exit 1
+
+      - name: Sync Kernel to Master Branch
+        run: |
+          # Configure git identity
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Checkout or create master branch (preserve history)
+          git checkout master 2>/dev/null || git checkout -b master
+          
+          # Sync with remote history if branch exists
+          git pull origin master --ff-only 2>/dev/null || true
+          
+          # Clean working directory (keep .git)
+          find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+          
+          # Copy new kernel files
+          cp -rf "${{ env.KERNEL_PATH }}"/. .
+          
+          # Stage changes
+          git add -A
+          
+          # Skip if no changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit. Kernel is already up to date."
+            exit 0
+          fi
+          
+          # Commit with version extracted from release tag
+          git commit -m "Sync: Update kernel to ${{ env.KERNEL_VERSION }}"
+          git push origin master
