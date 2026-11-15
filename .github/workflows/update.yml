@@ -30,6 +30,7 @@ jobs:
           
           # Fetch releases and pre-releases, newest first
           releases=$(curl -fsSL "${GITHUB_API}?per_page=50" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2022-11-28")
           
